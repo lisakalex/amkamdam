@@ -1,4 +1,4 @@
-#!/home/al/.venv/bin/python3.10
+#!/home/al/.amkamdam/bin/python3.10
 from selenium.webdriver.chrome.options import Options
 from fake_useragent import UserAgent
 from xvfbwrapper import Xvfb
@@ -42,34 +42,27 @@ def get_current_ip():
     # url = "https://www.amkamdam.com/test/click-iframe/a.html"
     # url = "https://www.amkamdam.com/"
     # driver.get("https://www.amkamdam.com/test/click-iframe/a.html")
-    driver.get("https://www.amkamdam.com/")
-    # try:
-    #     driver.switch_to.frame('google_ads_iframe')
-    #     WebDriverWait(driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//*[@id="abgl"]'))).click()
-    #
-    #     # for i in range(3):
-    #     # driver.get("https://www.amkamdam.com/")
-    #
-    # finally:
-    driver.quit()
-    display.stop()
+    driver.get("https://www.amkamdam.com/news/")
+    # driver.get("http://da.com/news/")
+    try:
+        # driver.switch_to.frame('google_ads_iframe')
+        # WebDriverWait(driver, 10).until(ec.element_to_be_clickable((By.XPATH, '//*[@id="abgl"]'))).click()
 
-# name = 'chrome'
-# try:
-#     for line in os.popen("ps ax | grep " + name + " | grep -v grep"):
-#         fields = line.split()
-#         pid = fields[0]
-#         os.kill(int(pid), signal.SIGKILL)
-#     print("Process Successfully terminated")
-#
-# except:
-#     print("Error Encountered while running script")
+        # driver.switch_to.frame('google_ads_iframe')
+        # driver.find_element(By.XPATH, '/html/body/div/main/section[2]/div/div/div[1]/div[2]/iframe')
+        # iframe = driver.find_elements(By.TAG_NAME, 'iframe')[1]
+        # ku = WebDriverWait(driver, 30).until(ec.element_to_be_clickable((By.XPATH, '/html/body/div/div[2]/a'))).click()
 
+        iframe = driver.find_element(By.CSS_SELECTOR, ".huyslot > iframe")
+        driver.switch_to.frame(iframe)
+        # driver.find_element(By.XPATH, '/html/body/div/div[2]/a').click()
+        driver.find_element(By.XPATH, '/html/body/div/div[2]/a').click()
 
-# def renew_tor_ip():
-#     with Controller.from_port(port=9051) as controller:
-#         controller.authenticate(password="")
-#         controller.signal(Signal.NEWNYM)
+    except Exception as e:
+        print(e)
+    finally:
+        driver.quit()
+        display.stop()
 
 
 if __name__ == "__main__":

@@ -89,7 +89,7 @@ print('copied ' + str(count_replace) + ' files, time taken ' + str(finish_time) 
 
 todaytime = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
 with open('count_replace.txt', "a") as file:
-    file.write(todaytime + ' files ' + str(count_replace) + ', time ' + str(finish_time) + ' min\n')
+    file.write('\n' + todaytime + ' files ' + str(count_replace) + ', time ' + str(finish_time) + ' min\n')
 
 with open('replaced.txt', "a") as file:
     file.write(todaytime + ' files ' + str(count_replace) + ', time ' + str(finish_time) + ' min\n')

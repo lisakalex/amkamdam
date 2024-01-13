@@ -638,7 +638,7 @@ systemctl restart apache2
 
 sudo apt install python3.10-venv
 python3 -m venv ~/.venv
-source ~/.venv/bin/activate
+source ~/.amkamdam/bin/activate
 python3 -m pip install -r /var/www/requirements.txt
 
 install chrome
@@ -774,4 +774,17 @@ sudo nano /etc/apache2/sites-available/amkamdam.com.conf
 sudo a2ensite amkamdam.com.conf
 systemctl reload apache2
 
+http://www.amkamdam.com/
+https://www.amkamdam.com/
+
+~~~
+python3 -m venv ~/.amkamdam
+source ~/.amkamdam/bin/activate
+python3 -m pip install package
+python3 -m pip install --upgrade package
+python3 -m pip install package==2.6.0
+python3 -m pip uninstall package
+pip freeze > requirements.txt
+python3 -m pip install -r /var/www/amkamdam.com/requirements.txt
+deactivate
 
