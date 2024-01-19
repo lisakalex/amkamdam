@@ -64,8 +64,9 @@ with open('replaced', "w") as file:
 for fl in files:
     for filepath in glob2.iglob('./a/cryptonews.com/**/*.' + fl, recursive=True):
         print(str(count_replace) + ' ' + filepath)
+        todaytime = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
         with open('replaced', "a") as file:
-            file.write(str(count_replace) + ' ' + filepath + '\n')
+            file.write(todaytime + ' ' + str(count_replace) + ' ' + filepath + '\n')
 
         with open(filepath) as file:
             read_file = file.read()

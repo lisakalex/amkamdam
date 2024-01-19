@@ -1,4 +1,4 @@
-#!/home/al/.amkamdam/bin/python3.10
+#!/home/al/.venv/bin/python3.10
 from selenium.webdriver.chrome.options import Options
 from fake_useragent import UserAgent
 from xvfbwrapper import Xvfb
@@ -42,7 +42,16 @@ def get_current_ip():
     # url = "https://www.amkamdam.com/test/click-iframe/a.html"
     # url = "https://www.amkamdam.com/"
     # driver.get("https://www.amkamdam.com/test/click-iframe/a.html")
-    driver.get("https://www.amkamdam.com/news/")
+    driver.get("https://www.amkamdam.com/")
+    driver.set_window_size(1366, 1200)
+    WebDriverWait(driver, 10).until(
+        ec.element_to_be_clickable((By.XPATH, '/html/body/header/div[2]/ul/li[3]/a'))).click()
+    # driver.find_element(By.XPATH, "/html/body/header/div[2]/ul/li[3]/a").click()
+    # driver.get("https://www.amkamdam.com/news/")
+    # driver.set_window_size(1366, 768)
+    # driver.set_window_size(1366, 1200)
+    # driver.save_screenshot("kak.png")
+
     # driver.get("http://da.com/news/")
     try:
         # driver.switch_to.frame('google_ads_iframe')
@@ -51,12 +60,15 @@ def get_current_ip():
         # driver.switch_to.frame('google_ads_iframe')
         # driver.find_element(By.XPATH, '/html/body/div/main/section[2]/div/div/div[1]/div[2]/iframe')
         # iframe = driver.find_elements(By.TAG_NAME, 'iframe')[1]
-        # ku = WebDriverWait(driver, 30).until(ec.element_to_be_clickable((By.XPATH, '/html/body/div/div[2]/a'))).click()
 
         iframe = driver.find_element(By.CSS_SELECTOR, ".huyslot > iframe")
         driver.switch_to.frame(iframe)
         # driver.find_element(By.XPATH, '/html/body/div/div[2]/a').click()
-        driver.find_element(By.XPATH, '/html/body/div/div[2]/a').click()
+        WebDriverWait(driver, 10).until(ec.element_to_be_clickable((By.XPATH, '/html/body/div/div[2]/a'))).click()
+        WebDriverWait(driver, 10).until(ec.element_to_be_clickable((By.XPATH, '/html/body/div/div[2]/div/a'))).click()
+        # driver.save_screenshot("kak1.png")
+        # driver.switch_to.default_content()
+        # driver.find_element(By.XPATH, "//*[@id=\"header\"]/a").click()
 
     except Exception as e:
         print(e)
@@ -66,7 +78,7 @@ def get_current_ip():
 
 
 if __name__ == "__main__":
-    for i in range(5):
+    for i in range(3):
         # while True:
         get_current_ip()
         # renew_tor_ip()

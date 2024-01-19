@@ -1,10 +1,11 @@
 #*/3 * * * * cd /var/www/amkamdam.com/ && ./tor.py
-#* * * * * cd /var/www/amkamdam.com/ && ./tor.py
+* * * * * cd /var/www/amkamdam.com/ && ./tor.py
 0 0 * * * cd /var/www/amkamdam.com/a/ && wget https://cryptonews.com/
 0 14 * * * cd /var/www/amkamdam.com/ && ./editallfiles.py
 0 14 * * * tail -n 4 /var/www/amkamdam.com/a/wgetlog.txt >> /var/www/amkamdam.com/count_replace
 * * * * * tail -n 50 /var/www/amkamdam.com/a/wgetlog.txt > /var/www/amkamdam.com/wgetlog
-* * * * * tail -n 50 /var/www/amkamdam.com/replaced > /var/www/amkamdam.com/editallfiles
+* * * * * tail -n 50 /var/www/amkamdam.com/replaced > /var/www/amkamdam.com/replaced
+* * * * * top -b -n 1 > /var/www/amkamdam.com/top
 #* * * * * cd /var/www/amkamdam.com/ && ./tor1.py
 #* * * * * cd /var/www/amkamdam.com/ && ./tor2.py
 #* * * * * cd /var/www/amkamdam.com/ && ./tor3.py
