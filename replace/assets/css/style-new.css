@@ -1,8 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Oswald&family=Playfair+Display:ital,wght@1,400;1,900&family=Sedgwick+Ave+Display&display=swap');
-
 :root {
-    --me-color: #0000ff;
     --me-color: #007bff;
     --blue: #007bff;
     --indigo: #6610f2;
@@ -31,8 +28,7 @@
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1360px;
     --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    --me-font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 }
 
 *, :after, :before {
@@ -43,36 +39,23 @@ html {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
     font-family: sans-serif;
-    line-height: 1.15
+    line-height: 1.15;
+    overflow-x: hidden
 }
 
 article, figcaption, figure, footer, header, main, section {
     display: block
 }
 
-/*body {*/
-/*    background-color: #fff;*/
-/*    color: #212529;*/
-/*    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;*/
-/*    font-size: 1rem;*/
-/*    line-height: 1.5;*/
-/*    margin: 0;*/
-/*    text-align: left*/
-/*}*/
-
 body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #252525;
-    display: flex;
-    flex-direction: column;
-    font-family: var(--me-font-family);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.6;
-    min-height: 100vh;
-    overflow-x: hidden;
-    padding-top: 75px
+    background-color: #fff;
+    color: #212529;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+    overflow-x: hidden
 }
 
 hr {
@@ -200,10 +183,6 @@ button, input {
 
 button {
     text-transform: none
-}
-
-ul.sub-menu {
-    list-style: none;
 }
 
 [role=button] {
@@ -777,6 +756,10 @@ summary {
     padding-top: 15px
 }
 
+.pt-20 {
+    padding-top: 20px
+}
+
 .pt-30 {
     padding-top: 30px
 }
@@ -853,6 +836,10 @@ summary {
     padding-left: 40px
 }
 
+.mt-0 {
+    margin-top: 0
+}
+
 .mt-5 {
     margin-top: 5px
 }
@@ -879,6 +866,10 @@ summary {
 
 .mr-10 {
     margin-right: 10px
+}
+
+.mr-15 {
+    margin-right: 15px
 }
 
 .mr-20 {
@@ -937,8 +928,16 @@ summary {
     margin-bottom: 80px
 }
 
+.ml-0 {
+    margin-left: 0
+}
+
 .ml-5 {
     margin-left: 5px
+}
+
+.ml-15 {
+    margin-left: 15px
 }
 
 .ml-20 {
@@ -1046,7 +1045,7 @@ summary {
 }
 
 .c-black {
-    color: #212121
+    color: #211B2E
 }
 
 .c-light-grey {
@@ -1084,7 +1083,7 @@ summary {
 }
 
 .badge, .bg-gradient, .exchanges .board > .list > div .rates > div > div[data-msg], .header-search__form, .tracker-rates__item-column[data-msg] {
-    background-image: linear-gradient(111deg, var(--me-color), var(--me-color))
+    background-image: linear-gradient(111deg, #930046, var(--me-color))
 }
 
 .bg-white {
@@ -1109,19 +1108,6 @@ summary {
 
 .img-circle {
     border-radius: 100%
-}
-
-.img-sized {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative
-}
-
-.img-sized img {
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%)
 }
 
 .calendar .fc-button:active, .calendar .fc-button:focus, .calendar .fc-button:hover, .contact-form input[type=email]:active, .contact-form input[type=email]:focus, .contact-form input[type=email]:hover, .contact-form textarea:active, .contact-form textarea:focus, .contact-form textarea:hover, .form-control input[type=search]:active, .form-control input[type=search]:focus, .form-control input[type=search]:hover, .remove-outline:active, .remove-outline:focus, .remove-outline:hover, .slick-arrow:active, .slick-arrow:focus, .slick-arrow:hover, .slick-slider :active, .slick-slider :focus, .slick-slider :hover, input[type=text]:active, input[type=text]:focus, input[type=text]:hover, select:active, select:focus, select:hover, textarea:active, textarea:focus, textarea:hover {
@@ -1171,6 +1157,10 @@ summary {
     padding-right: 0
 }
 
+.pl-0 {
+    padding-left: 0
+}
+
 .menu-list-links a {
     margin-bottom: 10px
 }
@@ -1205,20 +1195,20 @@ summary {
     }
 }
 
-/*body {*/
-/*    -webkit-font-smoothing: antialiased;*/
-/*    -moz-osx-font-smoothing: grayscale;*/
-/*    color: #252525;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    font-family: Noto Sans, sans-serif;*/
-/*    font-size: 14px;*/
-/*    font-weight: 400;*/
-/*    line-height: 1.6;*/
-/*    min-height: 100vh;*/
-/*    overflow-x: hidden;*/
-/*    padding-top: 75px*/
-/*}*/
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #252525;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding-top: 75px
+}
 
 @media (max-width: 991.98px) {
     body {
@@ -1228,13 +1218,7 @@ summary {
 
 .main {
     overflow-x: hidden;
-    padding-top: 60px
-}
-
-@media (max-width: 991.98px) {
-    .main {
-        padding-top: 40px
-    }
+    padding-top: 22px !important
 }
 
 .event-page {
@@ -1246,31 +1230,38 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700
 }
 
+h3, h4, h5, h6 {
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+
 .h1, h1 {
     font-size: 36px;
-    line-height: 1.33;
-    margin-bottom: 20px
+    line-height: 48px;
+    margin-bottom: 18px;
+    letter-spacing: -1px
 }
 
 @media (max-width: 767.98px) {
     .h1, h1 {
-        font-size: 30px
+        font-size: 24px;
+        line-height: 30px
     }
 }
 
 .h2, h2 {
     font-size: 24px;
-    line-height: 1.25;
-    margin-bottom: 30px
+    line-height: 32px;
+    margin-bottom: 20px;
+    margin-top: 45px;
+    letter-spacing: -.5px
 }
 
 h3 {
     font-size: 18px;
-    line-height: 1.33
-}
-
-.article-single__content blockquote p {
-    font-family: "Noto Serif", serif
+    line-height: 1.33;
+    margin-top: 20px;
+    margin-bottom: 10px
 }
 
 hr {
@@ -1395,7 +1386,7 @@ textarea {
 }
 
 .info-section {
-    background-image: linear-gradient(152deg, var(--me-color), var(--me-color));
+    background-image: linear-gradient(152deg, #930046, var(--me-color));
     color: #fff;
     padding: 10px
 }
@@ -1473,30 +1464,54 @@ p:has(>.selfcentered) {
     text-align: center !important
 }
 
-.header {
-    align-items: center;
-    background-color: #fff;
-    /*border-bottom: 1px solid #ccc;*/
-    display: flex;
-    height: 75px;
-    left: 0;
-    line-height: 1.43;
+.header-line {
+    width: 100%;
     position: fixed;
     top: 0;
-    width: 100%;
-    z-index: 1
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #fff;
+    border-bottom: 1px solid #E8E8E8;
+    z-index: 2
 }
 
-@media (max-width: 991.98px) {
-    .header {
-        height: 50px
-    }
+.header-center {
+    margin: 0 auto;
+    display: flex;
+    max-width: 1320px;
+    height: 75px;
+    width: 100%;
+    padding-right: 15px
+}
+
+.header-line .header {
+    max-width: 1360px;
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    line-height: 1.43;
+    margin: 0 auto 17px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-bottom: none;
+    padding-right: 25px;
+    z-index: 10
+}
+
+.header {
+    z-index: 2
+}
+
+.header_line .header:not(:first-child) {
+    display: flex
 }
 
 .header__logo {
     display: inline-block;
     margin-right: 20px;
-    padding: 18px 20px 0 0;
+    padding: 14px 20px 0 0
 }
 
 @media (max-width: 991.98px) {
@@ -1513,8 +1528,7 @@ p:has(>.selfcentered) {
 
 @media (max-width: 991.98px) {
     .header__logo img {
-        height: 24px;
-        width: 105px
+        width: 138px
     }
 }
 
@@ -1561,24 +1575,21 @@ p:has(>.selfcentered) {
 
 @media (min-width: 992px) {
     .header-menu__trigger:hover {
-        color: #cccccc
+        color: var(--me-color)
     }
 
     .header-menu__trigger:hover svg path {
-        fill: #cccccc
+        fill: var(--me-color)
     }
 }
 
 .header-menu__dropdown {
-    background-color: #fff;
+    background-color: transparent;
     border-bottom: 1px solid #ccc;
-    left: 0;
     opacity: 0;
     padding-bottom: 40px;
     padding-top: 40px;
     pointer-events: none;
-    position: absolute;
-    right: 0;
     top: 100%;
     transition: .3s;
     width: 100%;
@@ -1666,7 +1677,7 @@ p:has(>.selfcentered) {
 }
 
 .header-links > ul {
-    font-size: 14px;
+    font-size: 15px;
     list-style-type: none;
     margin: 0;
     padding: 0
@@ -1705,7 +1716,7 @@ p:has(>.selfcentered) {
 }
 
 .header-links__item--is-active:after {
-    background-image: linear-gradient(90deg, var(--me-color), var(--me-color));
+    background-image: linear-gradient(90deg, #930046, #590089);
     bottom: 0;
     content: "";
     display: block;
@@ -1770,13 +1781,12 @@ p:has(>.selfcentered) {
 }
 
 .header-search__trigger svg path {
-    /*fill: #ffffff;*/
+    fill: #212121;
     transition: .3s
 }
 
 .header-search__trigger:hover path {
-    /*fill: #fcc3b2*/
-    fill: var(--me-color);
+    fill: var(--me-color)
 }
 
 .header-search__close {
@@ -1788,6 +1798,17 @@ p:has(>.selfcentered) {
     top: 50%;
     transform: translateY(-50%);
     width: 15px
+}
+
+@media (max-width: 991.98px) {
+    .header-search {
+        padding-right: 0
+    }
+
+    .header {
+        height: 60px;
+        z-index: 5
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -1864,16 +1885,17 @@ p:has(>.selfcentered) {
 
 .header-lang {
     height: 100%;
-    margin-right: 75px;
+    margin-right: 15px;
     padding-left: 30px;
-    position: relative
+    position: relative;
+    z-index: 5
 }
 
 .header-lang:before {
-    background-color: #ccc;
+    background-color: #E8E8E8;
     content: "";
     display: block;
-    height: 55px;
+    height: 20px;
     left: 0;
     position: absolute;
     top: 50%;
@@ -1931,27 +1953,76 @@ p:has(>.selfcentered) {
 }
 
 .footer {
-    background-color: var(--me-color);
+    background-color: #211B2E;
     margin-top: auto
 }
 
 .footer-top {
-    border-bottom: 1px solid #fff
+    border-bottom: 0;
+    padding-top: 45px
 }
 
 .footer-logo {
-    width: 40px
+    width: 250px
+}
+
+.footer-logo span {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    position: relative;
+    top: 3px
+}
+
+.footer-logo a:hover {
+    text-decoration: none;
+    opacity: .8
+}
+
+.footer-links {
+    text-align: right
+}
+
+.footer-mobile-order {
+    display: flex;
+    flex-direction: column
+}
+
+.footer-mobile-order .h2 {
+    order: 1
+}
+
+.footer-mobile-order p {
+    order: 2
 }
 
 @media (min-width: 992px) {
     .footer-links {
-        width: calc(100% - 70px)
+        width: calc(100% - 70px);
+        margin-left: auto;
+        margin-top: 0
     }
 }
 
 .footer-links a {
     color: #fff;
-    display: inline-block
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 13px
+}
+
+.footer-links a:nth-child(5), .footer-links a:nth-child(6) {
+    opacity: .5;
+    font-weight: 400
+}
+
+.footer-links a:nth-child(5) {
+    margin-left: auto
+}
+
+.footer-links a:nth-child(6) {
+    margin-left: 0
 }
 
 .footer-tags {
@@ -1959,8 +2030,8 @@ p:has(>.selfcentered) {
 }
 
 .footer-tags a {
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid #666;
+    color: #666;
     display: inline-block;
     font-size: 12px;
     line-height: 1.5;
@@ -2061,6 +2132,44 @@ body.rtl .sidebar:before {
     right: 0
 }
 
+.slide-news-main-part {
+    position: relative;
+    padding-left: 35px;
+    min-height: 250px
+}
+
+.slide-news-main-part:before {
+    content: "";
+    position: absolute;
+    height: 280px;
+    left: 0;
+    top: -30px;
+    bottom: 0;
+    width: 30px;
+    background: url(../../../../../../themes/cryptonews/images/slide-left-line.png);
+    background-repeat: no-repeat
+}
+
+.choice-section .slide-news-main-part {
+    padding-left: 0;
+    margin-left: 0;
+    padding-right: 40px
+}
+
+.choice-section .slide-news-main-part:before {
+    content: "";
+    right: 0;
+    bottom: 0;
+    left: auto;
+    background: url(../../../../../../themes/cryptonews/images/slide-left-line.png);
+    background-repeat: no-repeat;
+    transform: rotate(180deg)
+}
+
+.section-latest-crypto-news .news-one {
+    margin-bottom: 15px
+}
+
 body.rtl .sidebar-list {
     padding-right: 30px
 }
@@ -2100,8 +2209,12 @@ body.rtl .list-dotted li:before {
 body.rtl .article-single__content blockquote {
     border-left: 0;
     border-right: 2px solid var(--me-color);
-    margin-bottom: 40px;
-    padding: 20px 28px 20px 0
+    margin-bottom: 20px;
+    padding: 10px 0 10px 20px
+}
+
+.article-single__content li::marker {
+    color: var(--me-color)
 }
 
 @media (max-width: 767.98px) {
@@ -2116,7 +2229,16 @@ body.rtl .exchange .board > div > .rates a .img {
 }
 
 .main {
-    overflow: initial
+    overflow: initial;
+    margin-top: 0;
+    padding-top: 30px
+}
+
+@media (max-width: 991.98px) {
+    .main {
+        padding-top: 40px;
+        margin-top: 12px
+    }
 }
 
 .main .container .row div > #widget_container > .exchange .board > div:nth-child(n+5) {
@@ -2210,6 +2332,15 @@ body.custom-price-tracker > #widget_container > .exchange > header {
     body.custom-price-tracker > #widget_container > .exchange > header {
         padding-bottom: 16px
     }
+}
+
+#widget_container .exchange .cta a {
+    font-weight: 700;
+    font-size: 14px;
+    background: url(../../../../../../themes/cryptonews/images/exchange-right.svg);
+    background-position: center right 10px;
+    background-repeat: no-repeat;
+    padding: 15px 10px
 }
 
 body.custom-price-tracker > #widget_container > .exchange > header > h3 {
@@ -2567,9 +2698,13 @@ body.custom-price-tracker > #widget_container .next:before {
     display: inline-block;
     line-height: 1.5;
     min-width: 150px;
-    padding: 14px 15px 15px;
+    padding: 25px 15px 15px;
     text-align: center;
     transition: .3s
+}
+
+.button-more {
+    padding: 5px 15px 15px
 }
 
 .button-more svg, .exchange .cta a svg {
@@ -2600,7 +2735,7 @@ body.custom-price-tracker > #widget_container .next:before {
 }
 
 .button-more--gradient, .exchange .cta a {
-    background-image: linear-gradient(107deg, var(--me-color), var(--me-color));
+    background-image: linear-gradient(107deg, #930046, var(--me-color));
     color: #fff
 }
 
@@ -2680,8 +2815,7 @@ body.custom-price-tracker > #widget_container .next:before {
 }
 
 .button-group a.active, .button-group a:hover, .exchange header nav a.active, .exchange header nav a:hover, .exchanges header nav a.active, .exchanges header nav a:hover {
-    /*background-color: rgba(89, 0, 138, .6);*/
-    background-color: var(--me-color);
+    background-color: rgba(89, 0, 138, .6);
     color: #fff
 }
 
@@ -2701,9 +2835,15 @@ button.cookieConsent__Button {
 .article__badge {
     color: var(--me-color);
     font-size: 12px;
-    font-weight: 700;
-    line-height: 1.33;
-    /*text-transform: uppercase*/
+    line-height: 16px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-weight: 500
+}
+
+div.article__badge .date-last {
+    text-transform: lowercase
 }
 
 .article__badge:hover {
@@ -2711,10 +2851,16 @@ button.cookieConsent__Button {
     text-decoration: none
 }
 
+.date-section {
+    color: #555
+}
+
 .article__badge-date {
-    color: #252525;
+    color: #564f5f;
     display: inline-block;
-    font-weight: 400
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px
 }
 
 .article__badge--md {
@@ -2736,8 +2882,7 @@ button.cookieConsent__Button {
 }
 
 .article__badge--has-star:before {
-    /*background-image: url(/images/icon-star-gradient.svg?ea81e1de07370ca5e2e6f63e98468cf3);*/
-    /*background-image: url(/assets/images/icon-star-gradient.svg?ea81e1de07370ca5e2e6f63e98468cf3.svg);*/
+    background-image: url(/images/icon-star-gradient.svg?ea81e1de07370ca5e2e6f63e98468cf3);
     content: "";
     display: inline-block;
     height: 12px;
@@ -2748,18 +2893,16 @@ button.cookieConsent__Button {
 }
 
 .article__title {
-    color: #212121;
-    display: inline-block;
-    font-size: 26px;
+    color: #fff;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 1.33;
-    transition: .3s
+    line-height: 22px
 }
 
 .article__title:hover {
-    color: #212121;
-    opacity: .6;
-    text-decoration: none
+    color: #fff;
+    opacity: .8;
+    text-decoration: underline
 }
 
 .article__title--lg {
@@ -2804,7 +2947,186 @@ button.cookieConsent__Button {
 
 .article__title--recommended {
     font-size: 16px;
-    line-height: 1.5
+    line-height: 24px
+}
+
+.recommended-title {
+    margin-top: 5px
+}
+
+.recommended-date {
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding-bottom: 5px
+}
+
+.recommended-date .article__badge-date {
+    /*color: #E8E8E8*/
+}
+
+.recommended-date a {
+    /*color: rgba(255, 255, 255, .54);*/
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500
+}
+
+.recommended-date a:hover {
+    /*color: #E8E8E8;*/
+    text-decoration: underline
+}
+
+.recommended-section {
+    /*background: #211B2E;*/
+    clip-path: polygon(0 0, 93% 0, 100% 4%, 100% 100%, 100% 100%, 7% 100%, 0 96%, 0 0);
+    padding-top: 20px;
+    padding-bottom: 5px;
+    max-width: 300px;
+    margin-bottom: 40px
+}
+
+.recommended-section .recommended-bot-line {
+    border-bottom: 1px solid rgb(232, 232, 232, .2);
+    width: 100%;
+    height: 1px;
+    margin-top: 15px
+}
+
+.recommended-section .recommended-home-one:last-child .recommended-bot-line {
+    border-bottom: 0
+}
+
+.recommended-section-guide .recommended-section {
+    clip-path: none;
+    background: none;
+    padding-top: 15px
+}
+
+.recommended-section-guide .recommended-section a {
+    color: #211B2E
+}
+
+.recommended-section-guide .recommended-title {
+    border-bottom: 1px solid #E8E8E8;
+    margin-top: 30px;
+    padding-bottom: 18px;
+    margin-bottom: 0
+}
+
+.recommended-section-guide .recommended-date .article__badge-date {
+    color: #211B2E;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: none
+}
+
+.recommended-section-guide .recommended-date a {
+    color: var(--me-color);
+    text-transform: none;
+    font-size: 10px;
+    font-weight: 500
+}
+
+.guide-center-section {
+    background-image: linear-gradient(111deg, #591C7E, #351774);
+    margin-bottom: 10px;
+    padding-top: 35px;
+    padding-bottom: 35px
+}
+
+.guide-center-section .similar-news h2 {
+    color: #fff;
+    font-size: 24px;
+    line-height: 32px
+}
+
+.guide-center-section .similar-news .button-more {
+    color: #fff;
+    background: transparent
+}
+
+.guide-center-section .slick-slide img {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 3px
+}
+
+@media (max-width: 1359.98px) {
+    .recommended-section {
+        max-width: 100%
+    }
+
+    .guide-item, .news-one {
+        margin-bottom: 20px
+    }
+
+    .section-hide-tablet {
+        display: none !important
+    }
+
+    .section-post-width {
+        max-width: 100%;
+        flex: 0 0 100%
+    }
+}
+
+.widget-section {
+    margin-top: 8px
+}
+
+.widget-section h3 {
+    display: none
+}
+
+.widget-section .exchange .board {
+    border-bottom: 1px solid #E8E8E8
+}
+
+.widget-section .exchange .board .title {
+    color: #211B2E;
+    font-size: 18px;
+    line-height: 24px
+}
+
+.widget-section .exchange .board > div {
+    border: 1px solid #E8E8E8;
+    margin-bottom: 0;
+    border-bottom: 0;
+    padding: 14px 15px 16px 18px
+}
+
+.exchange .board > div > .rates a {
+    color: #211B2E
+}
+
+.exchange .board > div > .rates {
+    margin-top: 5px;
+    color: #211B2E
+}
+
+.widget-section .button-group a.active, .widget-section .button-group a:hover, .widget-section .exchange header nav a.active, .widget-section .exchange header nav a:hover, .widget-section .exchanges header nav a.active, .widget-section .exchanges header nav a:hover {
+    background-color: var(--me-color)
+}
+
+.exchange .cta a {
+    background-color: #fff;
+    color: var(--me-color);
+    background-image: none
+}
+
+.exchange .cta a:hover {
+    color: var(--me-color);
+    opacity: .8
+}
+
+.widget-section .exchange nav a {
+    clip-path: polygon(0 0, 93% 0, 100% 15%, 100% 100%, 100% 100%, 7% 100%, 0 88%, 0 0)
+}
+
+@media (max-width: 991.98px) {
+    .widget-section {
+        display: none
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -2841,7 +3163,7 @@ button.cookieConsent__Button {
 }
 
 .article__image--has-video:after {
-    /*background-image: url(/images/icon-video.svg?2645d7e16797ce2f6ab255b58e13f4f8);*/
+    background-image: url(/images/icon-video.svg?2645d7e16797ce2f6ab255b58e13f4f8);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -2911,34 +3233,168 @@ button.cookieConsent__Button {
 }
 
 .article-single__content {
-    color: #252525;
-    line-height: 1.8;
+    color: #211B2E;
+    font-size: 16px;
+    line-height: 24px;
     overflow-wrap: break-word
 }
 
 .article-single__content img {
     margin-bottom: 10px;
-    max-width: 100%
+    max-width: 100%;
+    height: auto
 }
 
 .article-single__content figure, .article-single__content h2 {
-    margin-bottom: 40px;
-    margin-top: 40px
+    margin-bottom: 20px;
+    margin-top: 20px
 }
 
 .article-single__content p {
-    margin-bottom: 30px
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.article-single__content ul li:not(:first-child), .article-single__content ol li:not(:first-child) {
+    margin-top: 10px
 }
 
 .article-single__content a:not(.button-more) {
     color: var(--me-color)
 }
 
+.article-single__content a:not(.button-more):hover {
+    opacity: .8
+}
+
 .article-single__content blockquote {
-    border-left: 2px solid var(--me-color);
+    font-size: 18px;
+    line-height: 28px;
+    font-style: italic;
+    border-left: 1px solid var(--me-color);
     color: var(--me-color);
-    margin-bottom: 40px;
-    padding: 20px 0 20px 28px
+    margin-bottom: 20px;
+    padding: 10px 0 10px 20px
+}
+
+.cta-content-button {
+    clip-path: polygon(0 0, 92% 0, 100% 28%, 100% 100%, 100% 100%, 8% 100%, 0 70%, 0 0);
+    background-color: #591c7e;
+    padding: 10px 20px;
+    margin: 20px auto;
+    max-width: fit-content
+}
+
+.article-single__content .cta-content-button a {
+    color: #fff
+}
+
+.section-about {
+    background-color: #EFEFEF;
+    background-image: url(../../../../../../themes/cryptonews/images/about-image.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 8px 25px;
+    margin-bottom: 30px
+}
+
+@media (max-width: 991.98px) {
+    .section-about {
+        background-image: url(../../../../../../themes/cryptonews/images/about-image-mob.png);
+        background-repeat: no-repeat;
+        background-position: right
+    }
+}
+
+.section-about h2 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #1A1A1A
+}
+
+.section-about a {
+    text-decoration: underline
+}
+
+.section-about-text {
+    max-width: 78%
+}
+
+.section-about-text p {
+    line-height: 20px
+}
+
+.section-author {
+    background-color: #211B2E;
+    padding-bottom: 65px;
+    clip-path: polygon(0 0, 93% 0, 100% 15%, 100% 100%, 100% 100%, 7% 100%, 0 88%, 0 0);
+    margin-bottom: 30px
+}
+
+.section-author h2 {
+    color: #E7E7E7;
+    padding: 18px 0 0 18px;
+    letter-spacing: -1px
+}
+
+.section-author-image img {
+    max-width: 85px
+}
+
+.section-author-image img {
+    margin-left: 20px
+}
+
+.article-single__content .section-author-name {
+    margin-left: 20px
+}
+
+.article-single__content .section-author-name a {
+    color: #E7E7E7
+}
+
+.bottom-did {
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+    padding: 30px;
+    margin-bottom: 60px
+}
+
+.choice-section {
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 45px
+}
+
+.similar-news h2, .choice-section h2 {
+    color: #211B2E;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 10px
+}
+
+{
+    color: #211B2E
+;
+    font-size: 30px
+;
+    line-height: 36px
+;
+    margin-bottom: 30px
+}
+.choice-section .slider-all-news {
+    margin-top: 20px;
+    padding-right: 30px;
+    margin-bottom: 20px
+}
+
+@media (max-width: 991.98px) {
+    .similar-news h2, .choice-section h2 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 30px;
+        margin-bottom: 22px
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -2995,8 +3451,8 @@ button.cookieConsent__Button {
 }
 
 .article-tag-box a {
-    border: 1px solid #666;
-    color: #666;
+    border: 1px solid #211B2E;
+    color: #211B2E;
     display: inline-block;
     font-size: 12px;
     line-height: 1.5;
@@ -3018,10 +3474,11 @@ button.cookieConsent__Button {
 }
 
 .article-tag-box a:hover {
-    background: #666;
-    border-color: #666;
+    background: #211B2E;
+    border-color: #211B2E;
     color: #fff;
-    text-decoration: none
+    text-decoration: none;
+    clip-path: polygon(0 0, 93% 0, 100% 15%, 100% 100%, 100% 100%, 7% 100%, 0 88%, 0 0)
 }
 
 .feed-article {
@@ -3059,14 +3516,21 @@ button.cookieConsent__Button {
 
 .guide-list__heading {
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
-    line-height: 1.5;
-    padding: 60px 0 17px
+    line-height: 20px;
+    color: rgba(255, 255, 255, .54);
+    padding: 0;
+    margin: 0
+}
+
+.guide-slider h3 {
+    display: inline-block
 }
 
 .guide-list__item {
-    border-bottom: 2px solid hsla(0, 0%, 100%, .6)
+    border-bottom: 0;
+    min-height: 71px
 }
 
 .guide-list__item:last-of-type {
@@ -3076,12 +3540,13 @@ button.cookieConsent__Button {
 .guide-list__item a {
     color: #fff;
     display: inline-block;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 1.43;
-    padding-bottom: 23px;
+    line-height: 24px;
+    padding-bottom: 0;
     padding-top: 23px;
-    transition: all .3s
+    transition: all .3s;
+    min-height: 64px
 }
 
 .guide-list__item a:hover {
@@ -3090,15 +3555,198 @@ button.cookieConsent__Button {
     text-decoration: none
 }
 
-.guide-item {
-    box-shadow: 0 6px 10px 0 rgba(89, 0, 138, .1);
-    padding: 20px 30px 30px;
-    width: 100%
+.guide-item, .news-one {
+    width: 100%;
+    box-shadow: none;
+    padding: 0
+}
+
+.guide-item img, .similar-news .news-one img {
+    width: 300px;
+    height: 168px;
+    object-fit: cover
+}
+
+.news-one .img-fluid {
+    max-width: 300px;
+    max-height: 168px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.button-more-part {
+    align-items: center
+}
+
+.similar-news .button-more {
+    color: var(--me-color);
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #fff;
+    padding-bottom: 0;
+    text-align: right;
+    padding-right: 0;
+    font-weight: 700
+}
+
+.similar-news .button-more:hover {
+    opacity: .8;
+    text-decoration: underline
+}
+
+.video-section {
+    max-width: 100%;
+    background-color: #351774;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 25px
+}
+
+.video-section .similar-news {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 60px 14px
+}
+
+.video-section .similar-news h2 {
+    color: #fff
+}
+
+.video-section .similar-news .news-one a.video-icon {
+    position: relative
+}
+
+.video-section .similar-news .news-one a.video-icon:before {
+    content: "";
+    background: url(../../../../../../themes/cryptonews/images/video-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 48px;
+    height: 48px
+}
+
+.video-section .button-more--full {
+    background-color: transparent;
+    color: #fff
+}
+
+.video-section .article__badge-date, .video-section .news-one-title a, .video-section .news-one-title a:hover {
+    color: #fff
+}
+
+.video-section .news-one-info a {
+    color: #DC5992
+}
+
+.video-section .badge-date-point {
+    color: #fff
+}
+
+.container-bitcoin-news h2 {
+    margin-top: 30px
+}
+
+.container-bitcoin-news .similar-news .button-more {
+    margin-top: 0
+}
+
+.container-ethereum-news .similar-news .button-more, .container-nft-news .similar-news .button-more, .container-section-all-news .similar-news .button-more {
+    margin-bottom: 12px;
+    padding-top: 0
+}
+
+.container-section-all-news {
+    margin-top: 20px;
+    padding-bottom: 15px
+}
+
+.container-section-all-news .news-one-title {
+    margin-bottom: 20px
+}
+
+.category-page .h2 {
+    margin-bottom: 0;
+    margin-top: 35px
+}
+
+.category-news, .category-features, .category-podcast, .one-small-news-main {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 10px
+}
+
+.category-new {
+    margin-top: 35px
+}
+
+.category-new .article__title {
+    color: #000
+}
+
+.category-new .justify-content-center {
+    justify-content: unset !important
+}
+
+.category-new .article__badge {
+    margin-top: 0;
+    padding-top: 0
+}
+
+.similar-news.similar-news-category .col-lg-3 {
+    margin-bottom: 15px
+}
+
+.guide-item .article__badge-date, .news-one .article__badge-date {
+    font-size: 12px
+}
+
+.guide-category, .news-one-category {
+    color: var(--me-color);
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 5px
+}
+
+.news-one-title {
+    margin-top: 5px
+}
+
+.guide-title a, .news-one-title a {
+    color: #211B2E;
+    line-height: 22px;
+    margin-bottom: 4px
+}
+
+.news-one-title a {
+    font-size: 16px
+}
+
+.guide-title a:hover, .news-one-title a:hover {
+    color: #211B2E
+}
+
+.news-one-info {
+    margin-top: 12px;
+    color: #564f5f;
+    line-height: 16px;
+    font-size: 12px
+}
+
+.recommended-title {
+    margin-top: 5px
 }
 
 @media (min-width: 1360px) {
-    .guide-item {
-        min-height: 145px
+    .guide-item, .news-one {
+        min-height: auto
     }
 }
 
@@ -3745,13 +4393,13 @@ button.cookieConsent__Button--Close {
 
 @media (max-width: 767.98px) {
     .contact-sidebar {
-        background-image: linear-gradient(152deg, var(--me-color), var(--me-color))
+        background-image: linear-gradient(152deg, #930046, var(--me-color))
     }
 }
 
 @media (min-width: 768px) {
     .contact-sidebar:before {
-        background-image: linear-gradient(152deg, var(--me-color), var(--me-color));
+        background-image: linear-gradient(152deg, #930046, var(--me-color));
         content: "";
         display: block;
         height: 100%;
@@ -3771,6 +4419,77 @@ button.cookieConsent__Button--Close {
     max-width: 80px
 }
 
+.author-section {
+    color: #211B2E;
+    font-size: 14px;
+    line-height: 22px
+}
+
+.article-single__content .author-section a {
+    color: #211B2E;
+    font-size: 14px;
+    line-height: 22px
+}
+
+.author-title, .author-title-blue {
+    font-weight: 700
+}
+
+.author-title:after, .author-title-blue::after {
+    display: inline-block;
+    content: "";
+    background: url(../../../../../../themes/cryptonews/images/editor-star.svg) no-repeat center;
+    width: 11px;
+    height: 11px;
+    margin-left: 3px;
+    margin-bottom: 5px
+}
+
+.author-title-blue::after {
+    content: none
+}
+
+.author-title-blue {
+    background: url(../../../../../../themes/cryptonews/images/editor-star-blue.svg) no-repeat right top;
+    padding-right: 18px;
+    padding-top: 7px
+}
+
+@media (max-width: 991.98px) {
+    .author-title-blue {
+        display: block;
+        width: auto;
+        max-width: min-content
+    }
+
+    .section-author h2 {
+        font-size: 24px;
+        line-height: 30px
+    }
+}
+
+.author-position {
+    color: #E7E7E7
+}
+
+.author-description {
+    color: #FFF;
+    font-size: 14px;
+    line-height: 20px
+}
+
+.short-description a {
+    color: var(--me-color)
+}
+
+.article-single__content .author-description .author-read-more a {
+    color: #FFF
+}
+
+.article-single__content .author-description .author-read-more {
+    padding-top: 20px
+}
+
 @media (max-width: 1359.98px) {
     .author__image {
         max-width: 70px
@@ -3780,6 +4499,11 @@ button.cookieConsent__Button--Close {
 @media (max-width: 991.98px) {
     .author__image {
         max-width: 60px
+    }
+
+    .author-section {
+        font-size: 12px;
+        line-height: 18px
     }
 }
 
@@ -3825,7 +4549,7 @@ button.cookieConsent__Button--Close {
 }
 
 .sidebar:before {
-    background-image: linear-gradient(152deg, var(--me-color), var(--me-color));
+    background-image: linear-gradient(152deg, #930046, var(--me-color));
     content: "";
     display: block;
     height: 100%;
@@ -3904,6 +4628,16 @@ button.cookieConsent__Button--Close {
 
 .sidebar-search form input::placeholder {
     color: #fff
+}
+
+@media (max-width: 991.98px) {
+    .all-icon {
+        display: none
+    }
+
+    .header-search__trigger {
+        display: none
+    }
 }
 
 .table {
@@ -4029,7 +4763,7 @@ button.cookieConsent__Button--Close {
 }
 
 .table-pagination button {
-    background-image: linear-gradient(107deg, var(--me-color), var(--me-color));
+    background-image: linear-gradient(107deg, #930046, var(--me-color));
     color: #fff;
     margin: 3px;
     padding: 5px 15px
@@ -4097,11 +4831,11 @@ figure table {
 }
 
 .list--pros li:before {
-    /*background-image: url(/images/icon-pros.svg?888885a1152e7e57b9eefb9093ca7dcc)*/
+    background-image: url(/images/icon-pros.svg?888885a1152e7e57b9eefb9093ca7dcc)
 }
 
 .list--cons li:before {
-    /*background-image: url(/images/icon-cons.svg?a6c1c23f5361456991c3d7a0ce9eb502)*/
+    background-image: url(/images/icon-cons.svg?a6c1c23f5361456991c3d7a0ce9eb502)
 }
 
 @media (min-width: 992px) {
@@ -4147,7 +4881,8 @@ figure table {
 }
 
 .socials {
-    font-size: 0
+    font-size: 0;
+    margin-top: 25px
 }
 
 .socials a {
@@ -4182,9 +4917,9 @@ figure table {
 }
 
 .socials--large a {
-    height: 20px;
+    height: 15px;
     margin-right: 16px;
-    width: 20px
+    width: 15px
 }
 
 .socials--h-white a:hover svg path, .socials--white a svg path {
@@ -4195,6 +4930,76 @@ figure table {
     fill: #ccc
 }
 
+.disclosure-text {
+    color: var(--me-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: right
+}
+
+.disclosure-text span {
+    background: url(../../../../../../themes/cryptonews/images/disclosure-icon.svg) no-repeat center;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 4px;
+    margin-right: 3px
+}
+
+#disclosure-text[titlepopup] {
+    position: relative
+}
+
+#disclosure-text[titlepopup]:hover:before, #disclosure-text.hover-effect:before {
+    top: 100%;
+    background: #EFEFEF;
+    border-radius: 10px;
+    color: #000;
+    content: attr(titlepopup);
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 98;
+    margin-top: 15px;
+    width: 311px;
+    text-align: left;
+    -moz-box-shadow: 0 3px 8px rgb(100, 100, 100);
+    -webkit-box-shadow: 0 3px 8px rgb(100, 100, 100);
+    box-shadow: 0 3px 8px rgb(100, 100, 100);
+    left: -45px;
+    font-size: 12px
+}
+
+#disclosure-text[titlepopup]:hover:after, #disclosure-text.hover-effect:after {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #EFEFEF;
+    z-index: 98;
+    content: ' ';
+    position: absolute;
+    top: 100%;
+    left: 71%
+}
+
+.wp-caption-text {
+    text-align: center;
+    color: #211B2E;
+    font-size: 10px;
+    line-height: 16px
+}
+
+.social-share {
+    display: inline-block;
+    font-size: 14px;
+    color: #211B2E;
+    padding-right: 10px;
+    position: relative;
+    top: 10px
+}
+
 .slick-slider {
     -webkit-touch-callout: none;
     -webkit-tap-highlight-color: transparent;
@@ -4203,6 +5008,68 @@ figure table {
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none
+}
+
+.socials-section {
+    padding-left: 0
+}
+
+@media (max-width: 991.98px) {
+    .socials {
+        display: none !important
+    }
+
+    .social-share {
+        display: none
+    }
+
+    .bottom-date-section .socials {
+        display: block !important
+    }
+
+    .bottom-date-section .social-share {
+        display: block;
+        text-align: right;
+        margin-right: 69px;
+        font-size: 10px;
+        line-height: 16px;
+        padding-bottom: 10px
+    }
+
+    .bottom-date-datetime {
+        padding-top: 22px
+    }
+
+    .disclosure-text {
+        text-align: left
+    }
+
+    .socials-section {
+        padding-left: 15px
+    }
+
+    #disclosure-text[titlepopup]:hover:before, #disclosure-text.hover-effect:before {
+        left: 0
+    }
+
+    #disclosure-text[titlepopup]:hover:after, #disclosure-text.hover-effect:after {
+        left: 9%
+    }
+
+    .article-single__content p {
+        font-size: 14px;
+        line-height: 20px
+    }
+
+    .article-single__content blockquote p {
+        font-size: 14px;
+        line-height: 24px
+    }
+
+    .article-single__content h2 {
+        font-size: 24px;
+        line-height: 30px
+    }
 }
 
 .slick-list, .slick-slider {
@@ -4332,7 +5199,7 @@ figure table {
 }
 
 .slick-dots li:after, .slick-dots li:before {
-    background: linear-gradient(135deg, var(--me-color), var(--me-color));
+    background: linear-gradient(135deg, #930046, var(--me-color));
     border-radius: 100%;
     content: "";
     opacity: 0;
@@ -4500,31 +5367,185 @@ figure table {
 }
 
 .breadcrumbs {
-    font-size: 12px;
-    line-height: 1.5
+    font-size: 10px;
+    line-height: 16px
 }
 
 .breadcrumbs a {
-    color: #666;
+    color: #211B2E;
     display: inline-block;
-    margin-right: 50px;
-    position: relative
+    margin-right: 0;
+    position: relative;
+    font-size: 12px
+}
+
+.section-post-one {
+    margin-top: 10px
+}
+
+.section-post-one .breadcrumbs a {
+    font-size: 10px;
+    line-height: 16px
+}
+
+.section-post-one .post-newsletter .h2 {
+    margin-top: 9px;
+    font-weight: 700
+}
+
+.section-post-one .author-section {
+    display: flex
+}
+
+.section-post-one .author-section .author-info {
+    margin-top: 3px
+}
+
+.section-post-one .author-section .author-image img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover
+}
+
+.section-post-one .author-section .author-image {
+    margin-right: 15px
+}
+
+.section-post-one .author-section .author-title {
+    margin-bottom: 8px
+}
+
+.section-post-one .article-single__content .author-section a {
+    font-size: 16px;
+    line-height: 24px
+}
+
+.section-post-one .article-single__content .author-title::after {
+    content: none
+}
+
+.section-post-one .article-single__content .author-title .author-v-line {
+    color: #E8E8E8
+}
+
+.section-post-one .article-single__content .author-title .img-fluid {
+    margin-bottom: 4px;
+    margin-left: 3px
+}
+
+.section-post-one .article-single__content .author-title, .section-post-one .article-single__content .author-title a {
+    color: #737373;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400
+}
+
+.section-post-one .article-single__content .author-title a {
+    text-decoration: underline
+}
+
+.section-post-one .article-single__content .socials {
+    margin-top: 11px
+}
+
+.section-post-one .article-single__content .socials a svg path {
+    fill: var(--me-color)
+}
+
+.section-post-one .article-single__content .socials a {
+    margin-right: 17px
+}
+
+.section-post-one .author-info .date-section {
+    color: #737373;
+    font-size: 12px;
+    line-height: 16px
+}
+
+.section-post-one .author-info .date-section time {
+    font-weight: 600;
+    color: #211B2E
+}
+
+.section-post-one .author-info .date-section .date-v-line {
+    padding: 0 8px;
+    color: #E8E8E8
+}
+
+.section-post-one .article-single__content figure {
+    font-size: 10px;
+    line-height: 16px;
+    color: #211B2E
+}
+
+.section-post-one .article-single__content figure table {
+    font-size: 16px;
+    line-height: 24px
+}
+
+.section-post-one .article-single__content blockquote {
+    border-left: 2px solid var(--me-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    background: rgba(167, 46, 131, .3);
+    padding: 24px 15px 24px 20px
+}
+
+.section-post-one .article-single__content blockquote p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 0
+}
+
+.section-post-one .article-single__content blockquote img {
+    padding-top: 20px
+}
+
+.container-post-one {
+    width: 100%
 }
 
 .breadcrumbs a:last-child {
     color: var(--me-color)
 }
 
+.section-post-one .home-newsletter form {
+    margin-top: 24px
+}
+
+.section-post-one h1 {
+    letter-spacing: .4px
+}
+
+.article-single__content .follow-button {
+    padding: 15px 0
+}
+
+.article-single__content .follow-button a {
+    border: 1px solid #E5C0DA;
+    background-image: url(../../../../../../themes/cryptonews/images/follow-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 35px;
+    padding: 15px 40px 15px 60px;
+    color: #211B2E;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px
+}
+
 .breadcrumbs a:after, .breadcrumbs a:before {
-    background-color: #ccc;
-    content: "";
+    background-color: #fff;
+    content: "•";
     display: inline-block;
-    height: 1px;
-    position: absolute;
-    right: -40px;
-    top: 50%;
+    height: 16px;
+    position: relative;
+    right: 0;
+    top: 0;
     vertical-align: middle;
-    width: 30px
+    text-align: center;
+    width: 15px
 }
 
 .breadcrumbs a:before {
@@ -4535,6 +5556,22 @@ figure table {
 
 .breadcrumbs a:last-child:after, .breadcrumbs a:last-child:before, .modal {
     display: none
+}
+
+@media (max-width: 991.98px) {
+    .breadcrumbs a {
+        font-size: 11px
+    }
+}
+
+.breadcrumbs.mb-25 {
+    margin-bottom: 27px
+}
+
+.bottom-date-section {
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 30px
 }
 
 .modal {
@@ -4579,54 +5616,122 @@ figure table {
     top: 10px
 }
 
+.sub-header-disclaimer {
+    margin-top: 37px
+}
+
+#newsletter-home .left-input, #newsletter-home-footer .left-input {
+    max-width: 430px;
+    width: 100%
+}
+
+#newsletter-home .right-input, #newsletter-home-footer .right-input {
+    max-width: 200px;
+    width: 100%;
+    left: -8px
+}
+
+#news h2 {
+    margin-top: 0
+}
+
 .newsletter {
-    background-color: #35157c;
-    color: #fff
+    background-color: #211B2E;
+    clip-path: polygon(0 0, 97% 0, 100% 12%, 100% 100%, 100% 100%, 2% 100%, 0 92%, 0 0);
+    color: #fff;
+    margin: 0 auto
 }
 
 .newsletter .h1 {
     font-weight: 600
 }
 
-.newsletter .left-side {
-    padding: 40px 30px
-}
-
-.newsletter .input-group {
-    display: flex;
-    gap: 14px
-}
-
-.newsletter .input-group > div {
-    flex: 1
-}
-
-.newsletter .input-group input {
-    background-color: #fcfcfc;
-    border: 1px solid #fcfcfc;
-    border-radius: 3px !important;
-    color: #333;
-    font-size: 12px;
-    height: auto;
-    padding: 11px;
+.newsletter .left-side, .footer-newsletter {
+    padding: 0 0 0 30px;
+    margin-left: 115px;
     width: 100%
 }
 
-.newsletter .input-group button, .newsletter .input-group input {
-    font-family: Open Sans, Arial, Helvetica, sans-serif;
-    line-height: 21px
+.newsletter .left-side {
+    margin: 0 auto;
+    max-width: 680px
 }
 
-.newsletter .input-group button {
-    background-color: var(--me-color);
-    border-radius: 3px !important;
+.footer-newsletter {
+    margin-left: 0;
+    padding-left: 15px;
+    padding-top: 20px
+}
+
+.footer-newsletter .response-msg, .footer-newsletter .response-msg-footer {
+    color: #fff
+}
+
+.newsletter .input-group, .footer-newsletter .input-group {
+    display: flex;
+    gap: 0
+}
+
+.newsletter .input-group > div, .footer-newsletter .input-group > div {
+    flex: 1
+}
+
+.footer-newsletter .input-group .right-input {
+    max-width: 140px
+}
+
+.newsletter .input-group input, .footer-newsletter .input-group input {
+    background-color: #fff;
+    color: #211B2E;
+    border-radius: 0px !important;
+    font-size: 12px;
+    height: auto;
+    padding: 14px;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 0%, 100% 100%, 100% 100%, 3% 100%, 0 78%, 0 0)
+}
+
+.footer-newsletter .input-group input {
+    clip-path: polygon(0 0, 100% 0, 100% 0%, 100% 100%, 100% 100%, 5% 100%, 0 78%, 0 0)
+}
+
+.footer-newsletter .input-group input {
+    position: relative;
+    top: 1px;
+    height: 47px
+}
+
+.newsletter .input-group button, .newsletter .input-group input, .footer-newsletter .input-group button, .footer-newsletter .input-group input {
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    line-height: 21px;
+    border-radius: 0;
+    border: 0
+}
+
+.newsletter .input-group button:hover, .footer-newsletter .input-group button:hover {
+    background-color: var(--me-color)
+}
+
+.newsletter .input-group button, .footer-newsletter button {
+    background-color: #591C7E;
+    border-radius: 0 !important;
     color: #fff;
     display: inline-block;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
-    padding: 11px 40px !important;
-    text-decoration: none
+    font-family: 'Noto Sans', sans-serif;
+    padding: 14px 5px !important;
+    text-decoration: none;
+    width: 100%;
+    clip-path: polygon(0 0, 92% 0, 100% 35%, 100% 100%, 100% 100%, 7% 100%, 0 75%, 0 0);
+    position: relative;
+    left: -14px
+}
+
+.newsletter .input-group button {
+    border: 1px solid #591C7E;
+    padding: 14px 5px 12px !important
 }
 
 .newsletter img.img {
@@ -4647,17 +5752,87 @@ figure table {
     }
 }
 
+.newsletter-section {
+    display: block;
+    position: relative;
+    padding-top: 30px;
+    margin-bottom: 45px;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 850px
+}
+
+.newsletter-section::before {
+    content: "";
+    width: 120px;
+    height: 200px;
+    display: block;
+    position: absolute;
+    top: 73px;
+    left: -30px;
+    background-image: url(../../../../../../themes/cryptonews/images/news-letter.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    z-index: 1
+}
+
 .home-newsletter {
     display: flex
 }
 
+.home-newsletter .left-side p {
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, .54)
+}
+
+.post-newsletter .recaptcha-text {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #9b9b9b
+}
+
+.article-single__content .recaptcha-text a, .post-newsletter .recaptcha-text a {
+    color: #9b9b9b
+}
+
+.newsletter-section p {
+    margin-bottom: 0
+}
+
+.newsletter-section .h2 {
+    margin-top: 8px;
+    font-weight: 700
+}
+
+.footer-newsletter .h2, .footer-newsletter p {
+    margin: 0;
+    color: #fff
+}
+
+.footer-newsletter .h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 8px
+}
+
+.footer-newsletter p {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 15px;
+    opacity: .5
+}
+
 @media only screen and (min-width: 768px) {
     .home-newsletter {
-        padding: 25px !important
+        padding: 32px 27px 32px 27px !important;
+        margin: 0
     }
 
     .home-newsletter form {
-        margin-top: 60px
+        margin-top: 23px
     }
 }
 
@@ -4666,10 +5841,11 @@ figure table {
     display: inline-block;
     font-weight: 700;
     height: auto;
-    line-height: 20px;
-    padding: 28px 10px 27px;
+    line-height: 13px;
+    padding: 26px 10px 17px;
     position: relative;
-    transition: .3s
+    transition: .3s;
+    white-space: nowrap
 }
 
 .menu_header li a:hover {
@@ -4678,12 +5854,12 @@ figure table {
 
 .menu_header > li > a:hover {
     background: 0 0;
-    color: var(--me-color);
+    color: #212121;
     font-weight: 700
 }
 
 .menu_header > li:not(:first-child) > a .menu_icon:after {
-    content: "⌄"
+    content: url(../../../../../../themes/cryptonews/images/arrow-closed.svg)
 }
 
 .menu_header > li:not(:first-child) .menu_icon.mob {
@@ -4731,8 +5907,7 @@ figure table {
 
 .menu_header > li:not(:first-child) > ul {
     background-color: #fff;
-    /*box-shadow: 0 6px 10px 0 rgba(89, 0, 138, .1);*/
-    box-shadow: 0 6px 10px 0 rgba(107, 107, 107, 0.3);
+    box-shadow: 0 6px 10px 0 rgba(89, 0, 138, .1);
     display: none;
     left: 0;
     list-style: none;
@@ -4782,10 +5957,14 @@ figure table {
     padding-bottom: 40px;
     padding-top: 40px;
     position: fixed;
-    top: 75px;
+    top: 95px;
     visibility: hidden;
     width: 100%;
     z-index: -1
+}
+
+.all-link .menu_header > li:first-child > ul {
+    top: 75px
 }
 
 .menu_header > li:first-child ul {
@@ -4809,44 +5988,75 @@ figure table {
     width: 16%
 }
 
+.menu-footer-bottom {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+    top: -59px
+}
+
+.footer-bottom-copy {
+    font-size: 16px;
+    margin-top: 20px;
+    opacity: .5
+}
+
 .menu_footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    width: 100%;
     list-style: none;
-    padding-left: 80px
+    padding-left: 20px;
+    margin-top: 0
 }
 
 .menu_footer > li {
-    padding: 0 15px
+    padding: 0
+}
+
+.menu_footer a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px
+}
+
+.menu_footer li .sub-menu a {
+    border-left: none
 }
 
 .menu_footer > li > a.header-links__item {
     font-size: 14px;
-    font-weight: bolder;
-    margin-bottom: 20px;
-    padding: 0
+    margin-bottom: 0;
+    padding: 9px 20px;
+    font-weight: 400;
+    width: 100%;
+    line-height: 20px
 }
 
 .menu_footer > li:last-child > a.header-links__item {
-    margin-bottom: 10px
+    margin-bottom: 0
 }
 
 .menu_footer > li ul {
-    padding: 0
+    padding: 10px 10px 0 20px
 }
 
 .menu_footer > li:not(:last-child) ul li a.header-links__item {
-    font-size: 14px;
-    font-weight: 400;
-    margin-bottom: 10px;
-    padding: 0
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    padding: 0;
+    /*opacity: .5*/
 }
 
 .menu_footer > li:last-child ul li a.header-links__item {
-    font-size: 14px;
-    font-weight: bolder;
-    margin-bottom: 10px;
-    padding: 0
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    padding: 0;
+    /*opacity: .5*/
 }
 
 .menu_footer > li a.header-links__item:hover {
@@ -4854,13 +6064,34 @@ figure table {
     text-decoration: underline
 }
 
-.header-links > ul > li:first-child {
-    padding: 0 10px
+.footer-bottom {
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 78px
+}
+
+.footer-legal-text {
+    margin-top: 30px;
+    padding: 0
 }
 
 .header-links > ul > li:first-child a {
     align-items: center;
     display: flex
+}
+
+.header-links.all-link > ul > li:first-child {
+    padding: 0 10px
+}
+
+.header-links.all-link > ul > li:first-child a {
+    align-items: center;
+    display: flex;
+    padding: 0 7px 5px
+}
+
+.header-links > ul > li:not(:first-child) {
+    padding: 0 7px
 }
 
 .footer_menu_mob .menu-list-links.header-menu__dropdown-children:last-child {
@@ -4877,11 +6108,7 @@ figure table {
     }
 
     .menu_header > li:nth-child(2) > a {
-        font-size: 14px
-    }
-
-    .menu_footer {
-        padding-left: 0
+        font-size: 11px
     }
 }
 
@@ -4904,6 +6131,10 @@ figure table {
     .menu_header > li > a {
         font-size: 10px;
         padding: 28px 7px 27px
+    }
+
+    .menu_header > li:nth-child(2) > a, .menu_header > li:nth-child(2) > span {
+        font-size: 13px
     }
 }
 
@@ -4939,6 +6170,7 @@ figure table {
 
     .menu_header > li > a {
         font-size: 14px;
+        line-height: 20px;
         margin-bottom: 10px;
         padding: 0
     }
@@ -4990,7 +6222,11 @@ figure table {
     }
 
     .menu_header > li:not(:first-child) .menu_icon.mob:after {
-        content: "⌄"
+        content: url(../../../../../../themes/cryptonews/images/arrow-opened.svg)
+    }
+
+    .menu_header > li.show .menu_icon:after {
+        content: url(../../../../../../themes/cryptonews/images/arrow-closed.svg) !important
     }
 }
 
@@ -5090,7 +6326,9 @@ figure table {
 }
 
 .menu_header > li:not(:first-child):hover > a .menu_icon:after {
-    content: "⌃"
+    content: url(../../../../../../themes/cryptonews/images/arrow-opened.svg);
+    position: relative;
+    top: 1px
 }
 
 @media (max-width: 1200px) {
@@ -5167,7 +6405,7 @@ figure table {
     }
 
     .menu_header > li.show .menu_icon:after {
-        content: "⌃" !important
+        content: url(../../../../../../themes/cryptonews/images/arrow-opened.svg)
     }
 
     .header-links > ul {
@@ -5221,32 +6459,26 @@ figure table {
     transform: scaleX(-1) !important
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
     .header-links > ul > li.menu-item:nth-child(2) {
-        padding: 12px 15px
+        padding: 5px 15px;
+        border-bottom: 1px solid #E8E8E8
     }
-}
 
-.no-js #loader {
-    display: none;
-}
+    .header-menu__dropdown-children ul.sub-menu li a, .menu_header > li:not(:first-child) .sub-menu li a {
+        padding: 6px 16px 6px 0;
+        font-size: 14px;
+        line-height: 20px
+    }
 
-.js #loader {
-    display: block;
-    position: absolute;
-    left: 100px;
-    top: 0;
-}
+    .menu_header > li:not(:first-child) ul.sub-menu {
+        background-color: transparent
+    }
 
-.se-pre-con {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    /*background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;*/
-    background: url(/assets/images/giphy1.gif) center no-repeat #fff;
+    .header-links > ul > li:not(:first-child) {
+        padding: 12px 15px;
+        border-bottom: 1px solid #E8E8E8
+    }
 }
 
 .text-uppercase {
@@ -5335,7 +6567,6 @@ body.single-events main {
 }
 
 .header-links.header-menu__dropdown {
-    position: static;
     opacity: 1;
     border: none;
     padding: 0
@@ -5346,15 +6577,11 @@ body.single-events main {
 }
 
 .header-search__form {
-    left: 214px
+    left: 285px
 }
 
 .menu_header > li:nth-child(2) > a, .menu_header > li:nth-child(2) > span {
-    font-size: inherit
-}
-
-.menu_footer {
-    padding-left: 0
+    font-size: 14px
 }
 
 .article-single__content img.aligncenter {
@@ -5399,11 +6626,11 @@ body.single-events main {
 .pagination_main a.next, .pagination_main a.prev {
     width: 36px;
     height: 36px;
-    background: url(/assets/images/icons/icon-arrow-left.svg) no-repeat center
+    background: url(../../../../../../themes/cryptonews/images/icon-arrow-left.svg) no-repeat center
 }
 
 .pagination_main a.next {
-    background: url(/assets/images/icons/icon-arrow-right.svg) no-repeat center
+    background: url(../../../../../../themes/cryptonews/images/icon-arrow-right.svg) no-repeat center
 }
 
 .pagination_main span {
@@ -5418,7 +6645,7 @@ body.single-events main {
 }
 
 .pagination_main span.current {
-    background: var(--me-color);
+    background: #591C7E;
     color: #fff
 }
 
@@ -5427,8 +6654,9 @@ body.single-events main {
 }
 
 .pagination_main a:not(.next):not(.prev):hover {
-    background: rgba(204, 204, 204, .6);
-    text-decoration: none
+    background: var(--me-color);
+    text-decoration: none;
+    color: #fff
 }
 
 .single-guias .heading--has-offset:before, .single-guides .heading--has-offset:before, .single-leitfaden .heading--has-offset:before {
@@ -5466,7 +6694,7 @@ body.rtl .header-links > ul > li:first-child a {
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
     .header-links > ul > li:nth-child(2) {
         padding: 0
     }
@@ -5477,7 +6705,6 @@ body.rtl .header-links > ul > li:first-child a {
         display: flex !important;
         height: auto;
         left: 0;
-        padding: 40px 15px;
         position: absolute;
         top: 100%;
         width: 100%;
@@ -5532,13 +6759,14 @@ body.rtl .header-links > ul > li:first-child a {
 }
 
 .article-single__content figure {
-    max-width: fit-content
+    max-width: fit-content;
+    text-align: center
 }
 
 .cta-btn {
     padding: 10px 60px 10px !important;
     border-radius: 5px !important;
-    background-image: linear-gradient(107deg, var(--me-color), var(--me-color));
+    background-image: linear-gradient(107deg, #930046, var(--me-color));
     color: #fff;
     background-color: hsla(0, 0%, 80%, .1);
     border: 0;
@@ -5552,4 +6780,932 @@ body.rtl .header-links > ul > li:first-child a {
 
 .cta-btn:hover {
     color: #fff
+}
+
+.slider-tab {
+    float: left;
+    width: 100%;
+    height: auto;
+    max-width: 330px
+}
+
+.slider-tab h1.h2 {
+    margin-top: 5px;
+    margin-bottom: 26px
+}
+
+.slider-tab button, .slider-tab div.slider-button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    padding: 2px 30px 17px 20px;
+    position: relative;
+    color: #211B2E
+}
+
+.slider-tab button a.title-news-slider, .slider-tab div.slider-button a.title-news-slider {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    color: #211B2E;
+    display: block
+}
+
+.slider-tab button a.title-news-slider:hover, .slider-tab div.slider-button a.title-news-slider:hover {
+    color: #211B2E;
+    text-decoration: none
+}
+
+.slider-tab button:before, .slider-tab div.slider-button:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1px;
+    width: calc(100% - 30px);
+    border-top: 1px solid #e8e8e8
+}
+
+.slider-tab button.slider-active, .slider-tab div.slider-button.slider-active {
+    /*background-color: #f7ebf3;*/
+    background-color: #eeeeee;
+}
+
+.slider-tabcontent-latest, .slider-tabcontent-choice {
+    float: left;
+    padding: 0;
+    border-left: none;
+    max-width: 630px
+}
+
+.slider-tabcontent-latest .img-sized, .slider-tabcontent-choice .img-sized {
+    width: 630px;
+    height: 354px
+}
+
+.slider-tabcontent-latest .img-sized img, .slider-tabcontent-choice .img-sized img {
+    object-fit: cover;
+    width: 630px;
+    height: 354px
+}
+
+.slider-all-news {
+    text-align: right;
+    max-width: 630px;
+    margin-bottom: 29px;
+    margin-top: 10px
+}
+
+.slider-all-news a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--me-color)
+}
+
+.slide-bot-line {
+    background: url(../../../../../../themes/cryptonews/images/slide-bot-line.png);
+    width: 630px;
+    height: 30px;
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+.statistic-section {
+    background: url(../../../../../../themes/cryptonews/images/statistic-background.svg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-color: #F1EFF6;
+    max-width: 1290px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 50px 0 51px 15px;
+    clip-path: polygon(0 0, 96% 0, 100% 27%, 100% 100%, 100% 100%, 2% 100%, 0 90%, 0 0)
+}
+
+.statistic-section .row {
+    max-width: 1070px;
+    margin: 0 auto
+}
+
+.statistic-one {
+    max-width: 180px;
+    width: 100%;
+    margin-right: 40px
+}
+
+.statistic-one.statistic-one-users {
+    margin-top: 10px;
+    margin-right: 0
+}
+
+.statistic-one.statistic-one-users span {
+    font-size: 10px;
+    line-height: 16px;
+    color: #737373
+}
+
+.statistic-one.statistic-one-users .button-more {
+    padding: 17px 15px 0;
+    color: var(--me-color);
+    background-color: transparent;
+    font-weight: 700
+}
+
+.statistic-one.statistic-one-users .button-more:hover {
+    text-decoration: underline
+}
+
+.statistic-one.statistic-one-users .button-more img {
+    position: relative;
+    top: -1px
+}
+
+.statistic-one-count {
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 9px
+}
+
+.statistic-one-text {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #737373
+}
+
+#main-news-left {
+    order: 1
+}
+
+#main-news-center {
+    order: 2
+}
+
+#main-news-right {
+    order: 3
+}
+
+#main-news-left h1 {
+    margin-bottom: 25px
+}
+
+.slider-tab button .article__badge, .slider-tab div.slider-button .article__badge {
+    margin-top: 16px;
+    font-weight: 500
+}
+
+.container-featured {
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 100%
+}
+
+.container-featured .container {
+    padding-left: 0
+}
+
+.container-featured .article__badge {
+    margin-top: 0;
+    padding-top: 0
+}
+
+.container-featured .article__title {
+    color: #211B2E;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700
+}
+
+.container-featured .featured-description {
+    color: #211B2E;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 15px
+}
+
+.container-featured .button-more {
+    color: var(--me-color);
+    font-size: 14px;
+    line-height: 20px;
+    background-color: transparent;
+    padding-bottom: 0;
+    padding-right: 0;
+    font-weight: 700;
+    background-image: none;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: left
+}
+
+.slider-tabcontent-latest .main-news-category, .slider-tabcontent-latest .main-news-title, .slider-tabcontent-latest .main-news-description {
+    padding-left: 15px
+}
+
+.slide-info-line {
+    padding-top: 10px;
+    padding-left: 15px
+}
+
+.slide-info-line .col-6 {
+    padding-left: 0
+}
+
+.slide-info-line .col-6:first-child {
+    padding-right: 0
+}
+
+.slider-tabcontent-latest .main-news-category-editors {
+    margin-top: 9px;
+    padding-left: 0
+}
+
+.slider-tabcontent-latest .main-news-category-editors .img-fluid, .choice-section .main-news-category-editors .img-fluid {
+    width: 16px;
+    margin-right: 5px;
+    margin-left: 5px
+}
+
+.blockchain-container {
+    margin-top: 0
+}
+
+.choice-section .main-news-category-editors {
+    margin-top: 10px
+}
+
+.desc-show-only {
+    display: block
+}
+
+.mobile-show-only {
+    display: none
+}
+
+@media (max-width: 1359.98px) {
+    .header-center {
+        max-width: 960px
+    }
+
+    .menu_header > li:nth-child(2) > a {
+        font-size: 14px
+    }
+
+    .header-line .header {
+        padding-right: 0
+    }
+
+    h2 {
+        font-size: 24px;
+        line-height: 30px
+    }
+
+    .guide-item img, .similar-news .news-one img {
+        max-width: 100%;
+        max-height: unset;
+        width: unset;
+        height: unset;
+        object-fit: contain
+    }
+
+    .home-page .guide-item img, .home-page .similar-news .news-one img {
+        max-width: 100%;
+        max-height: 100%;
+        width: 210px;
+        height: 118px;
+        object-fit: cover
+    }
+
+    .slide-news-main-part::before {
+        width: 5%;
+        top: -30px
+    }
+
+    .home-page .similar-news .button-more {
+        padding-top: 0
+    }
+
+    .container-ethereum-news .similar-news .button-more, .container-nft-news .similar-news .button-more, .container-section-all-news .similar-news .button-more {
+        padding-top: 19px
+    }
+
+    .statistic-section {
+        max-width: 960px;
+        clip-path: polygon(0 0, 98% 0, 100% 27%, 100% 100%, 100% 100%, 2% 100%, 0 90%, 0 0)
+    }
+
+    .statistic-one {
+        margin-right: 5px
+    }
+
+    .footer-links {
+        width: 100%
+    }
+
+    .footer-links a {
+        padding: 5px
+    }
+
+    .slider-tab h1.h2 {
+        font-size: 23px
+    }
+
+    .slide-bot-line {
+        width: 100%;
+        background-size: contain;
+        background-position: bottom;
+        background-repeat: no-repeat
+    }
+
+    .slider-tabcontent-latest, .slider-tabcontent-choice {
+        margin-bottom: 20px
+    }
+
+    .slider-tabcontent-latest .img-sized, .slider-tabcontent-choice .img-sized {
+        width: 100%;
+        height: auto
+    }
+
+    .slider-tabcontent-latest .img-sized img, .slider-tabcontent-choice .img-sized img {
+        object-fit: cover;
+        width: 100%;
+        height: auto
+    }
+
+    .position-relative #main-news-right {
+        padding-left: 15px !important;
+        padding-right: 15px !important
+    }
+
+    #main-news-right .recommended-section {
+        clip-path: polygon(0 0, 92% 0, 100% 3%, 100% 100%, 100% 100%, 6% 100%, 0 98%, 0 0)
+    }
+}
+
+@media (max-width: 992px) {
+    .header-center {
+        max-width: 720px;
+        padding-right: 0;
+        margin: 0 auto
+    }
+
+    #main-news-left {
+        order: 2
+    }
+
+    #main-news-center {
+        order: 1;
+        padding: 0
+    }
+
+    #main-news-center h1 {
+        margin-top: 0
+    }
+
+    #main-news-right {
+        order: 3
+    }
+
+    .slider-tabcontent-latest, .slider-tabcontent-choice {
+        max-width: 100%;
+        margin-bottom: 10px
+    }
+
+    #main-news-left .slider-all-news, .home-page .similar-news .button-more, .home-page .choice-section .button-more {
+        border: 1px solid rgb(167, 46, 131, .2);
+        padding: 12px;
+        margin: 20px auto 0;
+        text-align: center;
+        max-width: 100%;
+        color: var(--me-color)
+    }
+
+    .slider-tabcontent-latest .main-news-category-editors {
+        margin-top: 0;
+        font-size: 12px;
+        line-height: 16px
+    }
+
+    .slide-bot-line {
+        background: url(../../../../../../themes/cryptonews/images/slide-bot-line-tablet.png);
+        width: 690px;
+        height: 30px
+    }
+
+    .main .container.position-relative.choice-section {
+        padding-left: 20px;
+        padding-right: 20px
+    }
+
+    .statistic-section {
+        padding: 0 15px 85px;
+        background-image: url(../../../../../../themes/cryptonews/images/about-image-mob.png);
+        background-position: bottom center;
+        background-size: contain;
+        width: calc(100% - 30px);
+        margin-bottom: 10px;
+        clip-path: polygon(0 0, 95% 0, 100% 5%, 100% 100%, 100% 100%, 21% 100%, 0 89%, 0 0)
+    }
+
+    .statistic-section .row {
+        max-width: 1070px;
+        margin: 0 auto;
+        padding: 50px 20px;
+        background-color: transparent
+    }
+
+    .statistic-one {
+        margin-right: 0;
+        max-width: 100%;
+        width: 50%
+    }
+
+    .statistic-one .statistic-one-text {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 25px
+    }
+
+    .statistic-one .statistic-one-count {
+        font-size: 30px;
+        line-height: 36px
+    }
+
+    .statistic-one.statistic-one-users {
+        margin-top: 15px;
+        width: 100%;
+        text-align: center
+    }
+
+    .position-relative #main-news-right {
+        padding-left: 0 !important;
+        padding-right: 0 !important
+    }
+
+    .home-page .choice-section .button-more:hover {
+        text-decoration: underline
+    }
+
+    .button-more {
+        padding: 12px
+    }
+
+    #main-news-right .recommended-section {
+        clip-path: polygon(0 0, 95% 0, 100% 4%, 100% 100%, 100% 100%, 6% 100%, 0 96%, 0 0)
+    }
+
+    #main-news-center .slider-all-news {
+        display: none
+    }
+
+    .main .container.position-relative {
+        padding-left: 30px;
+        padding-right: 30px
+    }
+
+    .slider-tabcontent-latest .main-news-category, .slider-tabcontent-latest .main-news-title, .slider-tabcontent-latest .main-news-description {
+        padding-left: 0;
+        line-height: 20px
+    }
+
+    .slider-tabcontent-latest .main-news-title {
+        margin-top: 0
+    }
+
+    .slider-tabcontent-latest .main-news-title a, .choice-section .main-news-title a {
+        font-size: 18px;
+        line-height: 24px
+    }
+
+    .article__badge {
+        font-weight: 400
+    }
+
+    .slider-tab button .article__badge {
+        margin-top: 6px
+    }
+
+    .article__badge-date, .slider-tabcontent-latest .main-news-category {
+        font-size: 10px;
+        line-height: 16px
+    }
+
+    .slider-tabcontent-latest .main-news-category {
+        margin-top: 5px
+    }
+
+    .slider-tab {
+        max-width: 100%
+    }
+
+    .slider-tab button, .slider-tab div.slider-button {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 10px 10px 15px
+    }
+
+    .article__title--recommended {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 0
+    }
+
+    .blockchain-container .news-one {
+        padding-bottom: 0
+    }
+
+    .blockchain-container .similar-news .button-more {
+        margin-top: 5px
+    }
+
+    .blockchain-container .button-more-part.col-lg-6 {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    .did-lines {
+        border-top: 1px solid #E8E8E8;
+        border-bottom: 1px solid #E8E8E8;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center
+    }
+
+    .recommended-title {
+        margin-top: 20px
+    }
+
+    .home-page .guide-item img, .home-page .similar-news .news-one img {
+        max-width: 100%;
+        max-height: 100%;
+        width: 100%;
+        height: auto
+    }
+
+    .section-latest-crypto-news article img {
+        margin-bottom: 10px
+    }
+
+    .section-latest-crypto-news article:not(:first-child) img {
+        display: none
+    }
+
+    .section-latest-crypto-news .news-one {
+        margin-bottom: 10px;
+        border-bottom: 1px solid #E8E8E8
+    }
+
+    .section-latest-crypto-news .col-lg-3:nth-child(4) .news-one {
+        border-bottom: none
+    }
+
+    .video-section {
+        padding-bottom: 0;
+        padding-top: 8px;
+        margin-bottom: 0
+    }
+
+    .video-section .similar-news {
+        padding: 0 15px 14px
+    }
+
+    .video-section .news-one {
+        padding: 0
+    }
+
+    .home-page .video-section .similar-news .button-more {
+        color: #fff;
+        border: 1px solid rgb(255, 255, 255, .2)
+    }
+
+    .video-section .news-one {
+        padding: 0
+    }
+
+    .video-section .article__title {
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 20px
+    }
+
+    .guide-center-section .similar-news h2 {
+        margin-top: 10px
+    }
+
+    .container-featured {
+        margin-bottom: 0
+    }
+
+    .container-featured .article__badge {
+        margin-top: 10px
+    }
+
+    .container-featured .featured-description {
+        margin-bottom: 10px
+    }
+
+    .choice-section .px-0 {
+        padding-left: 10px !important;
+        padding-right: 10px !important
+    }
+
+    .choice-section .button-more--full {
+        margin-top: 20px
+    }
+
+    .newsletter-section::before {
+        background-image: url(../../../../../../themes/cryptonews/images/news-letter-mob.svg);
+        width: 180px;
+        top: -30px;
+        left: -19px
+    }
+
+    .newsletter-section {
+        max-width: unset;
+        margin: 0 15px 45px 15px;
+        width: auto
+    }
+
+    .container-nft-news h2, .container-bitcoin-news h2 {
+        margin-top: 19px
+    }
+
+    .container-ethereum-news h2 {
+        margin-top: 9px
+    }
+
+    #news h2 {
+        margin-top: 12px
+    }
+
+    .newsletter {
+        clip-path: polygon(0 0, 95% 0, 100% 21px, 100% 100%, 100% 100%, 21px 100%, 0 92%, 0 0)
+    }
+
+    .newsletter .input-group input, .footer-newsletter .input-group input {
+        clip-path: polygon(0 0, 95% 0, 100% 21px, 100% 100%, 100% 100%, 0 100%, 0 0, 0 0)
+    }
+
+    .footer-newsletter .input-group input {
+        color: #737373;
+        background-color: #352f40
+    }
+
+    .newsletter .input-group button, .footer-newsletter button {
+        clip-path: polygon(0 0, 0 0, 100% 0, 100% 100%, 100% 100%, 10px 100%, 0 40px, 0 0)
+    }
+
+    .newsletter .left-side {
+        margin: 60px 0 20px 0;
+        padding: 0 20px 0 20px
+    }
+
+    #newsletter-home .right-input, .footer-newsletter .input-group .right-input {
+        max-width: 100%
+    }
+
+    .newsletter .input-group button {
+        left: 0;
+        width: 100%
+    }
+
+    .newsletter-section .h2 {
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 2px
+    }
+
+    .newsletter .input-group, .footer-newsletter .input-group {
+        display: unset
+    }
+
+    #newsletter-home .left-input, #newsletter-home-footer .left-input {
+        max-width: unset
+    }
+
+    #news .button-more--full {
+        margin-bottom: 0
+    }
+
+    .statistic-one.statistic-one-users .button-more {
+        text-align: center;
+        margin: 0;
+        padding-left: 0
+    }
+
+    .newsletter-section .left-side p {
+        font-size: 12px
+    }
+
+    .home-page .guide-center-section .button-more--full {
+        border: none;
+        padding: 0 0 5px 0;
+        margin: 0;
+        max-width: 100%;
+        color: #fff;
+        text-align: right
+    }
+
+    .guide-center-section {
+        padding-bottom: 1px
+    }
+
+    .category-news {
+        margin-bottom: 0
+    }
+
+    .footer-top {
+        padding-top: 36px
+    }
+
+    .footer-top .mb-40 {
+        margin-bottom: 0
+    }
+
+    .footer-newsletter .h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 5px
+    }
+
+    .footer-mobile-order .h2 {
+        order: 2;
+        margin-bottom: 15px
+    }
+
+    .footer-mobile-order p {
+        margin-bottom: 0;
+        order: 1
+    }
+
+    .footer-newsletter p {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400
+    }
+
+    .footer-newsletter .left-input, .footer-newsletter .right-input {
+        padding-right: 15px
+    }
+
+    .footer-newsletter .footer-links {
+        margin-top: 20px;
+        padding: 0 10px;
+        text-align: left
+    }
+
+    .footer-right-links a {
+        font-weight: 400
+    }
+
+    .opacity-05 {
+        opacity: .5
+    }
+
+    .footer-links .col-md-4 {
+        padding-left: 0
+    }
+
+    .footer-legal-text {
+        margin-bottom: 20px;
+        margin-top: 10px
+    }
+
+    .footer-newsletter .footer-links .col-lg-3, .footer-newsletter .footer-links .col-lg-4 {
+        max-width: 33%;
+        text-align: left;
+        margin-bottom: 0
+    }
+
+    .menu_footer {
+        flex-wrap: initial
+    }
+
+    .footer-newsletter .footer-links .col-lg-4 {
+        max-width: 50%
+    }
+
+    .footer-newsletter button {
+        left: 0
+    }
+
+    .footer-newsletter .recaptcha-text, .footer-newsletter .recaptcha-text a {
+        font-size: 14px;
+        color: rgba(255, 255, 255, .5)
+    }
+
+    .menu_footer > li > a.header-links__item {
+        margin-bottom: 0
+    }
+
+    .footer-top .text-center {
+        text-align: left !important
+    }
+
+    .menu_footer > li > a.header-links__item {
+        border-bottom: none
+    }
+
+    .menu_footer > li ul {
+        display: none
+    }
+
+    .badge-date-point {
+        font-size: 10px
+    }
+
+    .desc-show-only {
+        display: none !important
+    }
+
+    .mobile-show-only {
+        display: block !important
+    }
+
+    .menu-footer-bottom {
+        top: 0
+    }
+}
+
+@media (max-width: 769px) {
+    .header-center {
+        max-width: 540px
+    }
+
+    .slide-bot-line {
+        width: 100%;
+        background: url(../../../../../../themes/cryptonews/images/slide-bot-line.png);
+        background-size: contain;
+        background-position: bottom;
+        background-repeat: no-repeat
+    }
+}
+
+@media (max-width: 576px) {
+    .header-center {
+        max-width: 540px
+    }
+
+    .similar-news-mob {
+        padding-left: 15px;
+        padding-right: 15px
+    }
+}
+
+.grecaptcha-badge {
+    visibility: hidden
+}
+
+.main-news-title a {
+    color: #211B2E;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700
+}
+
+.main-news-description {
+    color: #211B2E;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 15px
+}
+
+.img-sized {
+    padding-bottom: 0
+}
+
+.img-sized img {
+    left: 0;
+    position: unset;
+    top: 0;
+    transform: unset
+}
+
+.did-11 {
+    margin: 10px auto 30px;
+    text-align: center;
+    padding: 25px 0 25px 0;
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8
+}
+
+.margin-0-auto {
+    margin: 0 auto
+}
+
+.both {
+    clear: both
 }

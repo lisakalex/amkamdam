@@ -90,39 +90,15 @@ $(function () {
         } catch (err) {
         }
 
-        // try {
-        //     $("section").remove(":contains('Videos')");
-        // } catch (err) {
-        // }
-        //
-        // try {
-        //     $("section").remove(":contains('Buy/Sell at the best rates')");
-        // } catch (err) {
-        // }
-
         if (pathname === '/') {
             try {
-                // debugger
-                let sections = document.querySelectorAll("section").forEach((e) => {
-                    // if (e.innerText !== 'Latest Crypto News' || e.innerText !== 'Latest News' || e.innerText !== 'Crypto News' || e.innerText !== 'Readers\' choice' || e.innerText !== 'Altcoin News' || e.innerText !== 'Bitcoin News' || e.innerText !== 'Ethereum News' || e.innerText !== 'NFT News' || e.innerText !== 'All News') {
-                    if (e.innerText.search("Latest Crypto News") === -1
-                        && e.innerText.search("Crypto News") === -1
-                        && e.innerText.search("Altcoin News") === -1
-                        && e.innerText.search("Readers' choice") === -1
-                        && e.innerText.search("Bitcoin News") === -1
-                        && e.innerText.search("Ethereum News") === -1
-                        && e.innerText.search("NFT News") === -1
-                        && e.innerText.search("All News") === -1) {
-                        // if ("blah"  in e.innerText):
-                        e.remove()
-                    }
-                });
-                // sections[1].remove()
-                // sections[5].remove()
-                // sections[7].remove()
-                // sections[10].remove()
-                // sections[11].remove()
-                // sections[14].remove()
+                let sections = document.querySelectorAll("section")
+                sections[1].remove()
+                sections[5].remove()
+                sections[7].remove()
+                sections[10].remove()
+                sections[11].remove()
+                sections[14].remove()
             } catch (err) {
             }
         }
@@ -162,14 +138,8 @@ $(function () {
             "<script defer=\"\" src=\"/assets/js/cookieconsent.js\"></script>" +
             "<script defer=\"\" src=\"/assets/js/cookieconsent-init.js\"></script>" +
             "<script defer=\"\" src=\"/assets/js/frontend.js\"></script>" +
-            "<link href=\"/assets/css/style.css\" rel=\"stylesheet\"/>" +
             "<link href=\"/assets/css/style-new.css\" rel=\"stylesheet\"/>"
         );
-
-        // try {
-        //     document.querySelector("#me-style-css-css").remove(); // my style.css
-        // } catch (err) {
-        // }
 
         try {
             document.querySelectorAll("a").forEach((e) => { // edit links
@@ -275,7 +245,7 @@ $(function () {
         // replace cryptonews's empty image
         try {
             document.querySelectorAll("img").forEach((e) => {
-                if (e.dataset.src === 'https://cimg.co/p/assets/empty-cryptonews.jpg' || e.dataset.lazySrc === 'https://cimg.co/p/assets/empty-cryptonews.jpg' || e.src === 'https://cimg.co/p/assets/empty-cryptonews.jpg') {
+                if (e.dataset.src === 'https://cimg.co/p/assets/empty-cryptonews.jpg' || e.dataset.lazySrc === 'https://cimg.co/p/assets/empty-cryptonews.jpg') {
                     e.dataset.src = "/assets/images/empty-kak-1.jpg";
                     e.dataset.lazySrc = "/assets/images/empty-kak-1.jpg";
                     e.src = "/assets/images/empty-kak-1.jpg";

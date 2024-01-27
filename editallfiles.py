@@ -39,7 +39,7 @@ def insert_in_head(read_file1):
     soup = BeautifulSoup("<script src=\"/assets/js/me.js\"></script>", features='html.parser')
     script1 = soup.script
 
-    soup = BeautifulSoup("<link href=\"/assets/css/style.css\" rel=\"stylesheet\">", features='html.parser')
+    soup = BeautifulSoup("<link href=\"/assets/css/style.css\" rel=\"stylesheet\"> id=\"me-style-css-css\"", features='html.parser')
     script2 = soup.link
 
     soup1 = BeautifulSoup(read_file1, features='html.parser')
@@ -80,7 +80,6 @@ for fl in files:
 
 shutil.rmtree('./html', ignore_errors=True)
 shutil.copytree('./a/cryptonews.com/', './html/', dirs_exist_ok=True)
-# shutil.copyfile('./kak-index.html', './html/kak-index.html')  # used to update recommended
 shutil.rmtree('./a/cryptonews.com', ignore_errors=True)
 
 finish_time = time.time() - start_time

@@ -1,15 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="450679db-6ac0-44c4-884f-5365f2d8aea7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/style-new.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/empty-kak-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/giphy1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/alfresco-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/arrow-right-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/derby-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/expand_less_FILL0_wght400_GRAD0_opsz24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/expand_less_FILL0_wght400_GRAD0_opsz24.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/expand_more_FILL0_wght400_GRAD0_opsz24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/expand_more_FILL0_wght400_GRAD0_opsz24.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/icon-arrow-left-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/icon-arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/icon-arrow-right-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/icon-arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/icon-pin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/logo-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/amkamdam.com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/bitmap_Layer 1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/bitmap_Layer 1_copy_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/da-1.com-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/da-1.com-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/da-1.com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/da.com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/hindex.amkamdam.com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/huy-1.com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/huy.com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/huy/bitmap1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/huy/bitmap6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/huy/logokak-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/huy/logokak-5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/huy1/da-1.com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/intspeed.com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logos/logo.com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/me_banner/1160x90.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/me_banner/300x250-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/me_banner/300x600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/me_banner/468x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/me_banner/970x250.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/me_banner/970x90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/oreginal_banner/1160x90.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/oreginal_banner/300x250-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/oreginal_banner/300x250.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/oreginal_banner/300x540.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/oreginal_banner/300x600-1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/oreginal_banner/960x200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/oreginal_banner/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/cookieconsent-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/cookieconsent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/frontend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replace/assets/css/style-new.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tor.py" beforeDir="false" afterPath="$PROJECT_DIR$/tor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cronreload.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cronreload.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editallfiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/editallfiles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replace/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/replace/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replace/assets/js/me.js" beforeDir="false" afterPath="$PROJECT_DIR$/replace/assets/js/me.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replace/me-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/replace/me-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuy1" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,16 +107,48 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/replace/assets/css" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.editallfiles">
+    <configuration name="editallfiles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="amkamdam.com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/editallfiles.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="amkamdam.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,6 +173,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.editallfiles" />
         <item itemvalue="Python.tor" />
       </list>
     </recent_temporary>
@@ -74,7 +188,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705667829390</updated>
-      <workItem from="1705667830786" duration="11422000" />
+      <workItem from="1705667830786" duration="13348000" />
+      <workItem from="1705900279363" duration="7190000" />
+      <workItem from="1706005316562" duration="4424000" />
+      <workItem from="1706187432767" duration="3935000" />
     </task>
     <task id="LOCAL-00001" summary="tor visits and clicks on analytics.google.com/ and a-ads.com/">
       <created>1705683386847</created>
@@ -83,11 +200,30 @@
       <option name="project" value="LOCAL" />
       <updated>1705683386847</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tor visits and clicks on analytics.google.com/ and a-ads.com/">
+      <created>1705686303139</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705686303139</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -107,40 +243,45 @@
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state x="916" y="585" width="788" height="475" key="#com.intellij.fileTypes.FileTypeChooser/70.38.2490.1562@70.38.2490.1562" timestamp="1705673359961" />
-    <state x="645" y="186" width="1330" height="1272" key="CommitChangelistDialog2" timestamp="1705683386764">
+    <state x="645" y="186" width="1330" height="1272" key="CommitChangelistDialog2" timestamp="1705686303082">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="645" y="186" width="1330" height="1272" key="CommitChangelistDialog2/70.38.2490.1562@70.38.2490.1562" timestamp="1705683386764" />
+    <state x="645" y="186" width="1330" height="1272" key="CommitChangelistDialog2/70.38.2490.1562@70.38.2490.1562" timestamp="1705686303082" />
     <state x="992" y="463" width="636" height="719" key="FileChooserDialogImpl" timestamp="1705679806801">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state x="992" y="463" width="636" height="719" key="FileChooserDialogImpl/70.38.2490.1562@70.38.2490.1562" timestamp="1705679806801" />
-    <state width="2422" height="414" key="GridCell.Tab.0.bottom" timestamp="1705682326313">
+    <state width="2422" height="414" key="GridCell.Tab.0.bottom" timestamp="1706187422906">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="414" key="GridCell.Tab.0.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1705682326313" />
-    <state width="2422" height="414" key="GridCell.Tab.0.center" timestamp="1705682326312">
+    <state width="2422" height="414" key="GridCell.Tab.0.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1706187422906" />
+    <state width="2422" height="414" key="GridCell.Tab.0.center" timestamp="1706187422906">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="414" key="GridCell.Tab.0.center/70.38.2490.1562@70.38.2490.1562" timestamp="1705682326312" />
-    <state width="2422" height="414" key="GridCell.Tab.0.left" timestamp="1705682326312">
+    <state width="2422" height="414" key="GridCell.Tab.0.center/70.38.2490.1562@70.38.2490.1562" timestamp="1706187422906" />
+    <state width="2422" height="414" key="GridCell.Tab.0.left" timestamp="1706187422905">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="414" key="GridCell.Tab.0.left/70.38.2490.1562@70.38.2490.1562" timestamp="1705682326312" />
-    <state width="2422" height="414" key="GridCell.Tab.0.right" timestamp="1705682326312">
+    <state width="2422" height="414" key="GridCell.Tab.0.left/70.38.2490.1562@70.38.2490.1562" timestamp="1706187422905" />
+    <state width="2422" height="414" key="GridCell.Tab.0.right" timestamp="1706187422906">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="414" key="GridCell.Tab.0.right/70.38.2490.1562@70.38.2490.1562" timestamp="1705682326312" />
-    <state x="903" y="271" width="1575" height="1262" key="SettingsEditor" timestamp="1705668120809">
+    <state width="2422" height="414" key="GridCell.Tab.0.right/70.38.2490.1562@70.38.2490.1562" timestamp="1706187422906" />
+    <state x="903" y="271" width="1575" height="1262" key="SettingsEditor" timestamp="1706005975381">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="903" y="271" width="1575" height="1262" key="SettingsEditor/70.38.2490.1562@70.38.2490.1562" timestamp="1705668120809" />
-    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1705683389298">
+    <state x="903" y="271" width="1575" height="1262" key="SettingsEditor/70.38.2490.1562@70.38.2490.1562" timestamp="1706005975381" />
+    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1705686305078">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2/70.38.2490.1562@70.38.2490.1562" timestamp="1705683389298" />
+    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2/70.38.2490.1562@70.38.2490.1562" timestamp="1705686305078" />
+    <state x="1039" y="635" width="541" height="374" key="webDeployment.PermissionsDialog" timestamp="1705904250035">
+      <screen x="70" y="38" width="2490" height="1562" />
+    </state>
+    <state x="1039" y="635" width="541" height="374" key="webDeployment.PermissionsDialog/70.38.2490.1562@70.38.2490.1562" timestamp="1705904250035" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/amkamdam_com$editallfiles.coverage" NAME="editallfiles Coverage Results" MODIFIED="1706006011271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/amkamdam_com$tor.coverage" NAME="tor Coverage Results" MODIFIED="1705682154932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
