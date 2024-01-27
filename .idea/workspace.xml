@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="450679db-6ac0-44c4-884f-5365f2d8aea7" name="Default Changelist" comment="" />
+    <list default="true" id="450679db-6ac0-44c4-884f-5365f2d8aea7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/note.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +135,7 @@
       <workItem from="1705667830786" duration="13348000" />
       <workItem from="1705900279363" duration="7190000" />
       <workItem from="1706005316562" duration="4424000" />
-      <workItem from="1706187432767" duration="4249000" />
+      <workItem from="1706187432767" duration="5047000" />
     </task>
     <task id="LOCAL-00001" summary="tor visits and clicks on analytics.google.com/ and a-ads.com/">
       <created>1705683386847</created>
@@ -155,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706343139216</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixed their css again">
+      <created>1706343310554</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706343310554</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,14 +228,14 @@
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state width="2422" height="414" key="GridCell.Tab.0.right/70.38.2490.1562@70.38.2490.1562" timestamp="1706187422906" />
-    <state x="903" y="271" width="1575" height="1262" key="SettingsEditor" timestamp="1706343298443">
+    <state x="903" y="271" width="1575" height="1262" key="SettingsEditor" timestamp="1706344096768">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="903" y="271" width="1575" height="1262" key="SettingsEditor/70.38.2490.1562@70.38.2490.1562" timestamp="1706343298443" />
-    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1706343142045">
+    <state x="903" y="271" width="1575" height="1262" key="SettingsEditor/70.38.2490.1562@70.38.2490.1562" timestamp="1706344096768" />
+    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1706343312445">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2/70.38.2490.1562@70.38.2490.1562" timestamp="1706343142045" />
+    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2/70.38.2490.1562@70.38.2490.1562" timestamp="1706343312445" />
     <state x="866" y="675" width="887" height="295" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1706343256493">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
