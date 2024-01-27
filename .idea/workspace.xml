@@ -19,75 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="450679db-6ac0-44c4-884f-5365f2d8aea7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/style-new.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/empty-kak-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/giphy1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/alfresco-svgrepo-com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/arrow-right-svgrepo-com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/derby-svgrepo-com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/expand_less_FILL0_wght400_GRAD0_opsz24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/expand_less_FILL0_wght400_GRAD0_opsz24.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/expand_more_FILL0_wght400_GRAD0_opsz24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/expand_more_FILL0_wght400_GRAD0_opsz24.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/icon-arrow-left-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/icon-arrow-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/icon-arrow-right-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/icon-arrow-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/icon-pin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/logo-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logos/amkamdam.com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logos/bitmap_Layer 1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logos/bitmap_Layer 1_copy_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logos/da-1.com-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logos/da-1.com-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logos/da-1.com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logos/da.com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logos/hindex.amkamdam.com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logos/huy-1.com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logos/huy.com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logos/huy/bitmap1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logos/huy/bitmap6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logos/huy/logokak-4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logos/huy/logokak-5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logos/huy1/da-1.com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logos/intspeed.com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logos/logo.com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/me_banner/1160x90.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/me_banner/300x250-mobile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/me_banner/300x600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/me_banner/468x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/me_banner/970x250.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/me_banner/970x90.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/oreginal_banner/1160x90.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/oreginal_banner/300x250-mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/oreginal_banner/300x250.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/oreginal_banner/300x540.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/oreginal_banner/300x600-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/oreginal_banner/960x200.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/oreginal_banner/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/cookieconsent-init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/cookieconsent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/frontend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/me.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/replace/assets/css/style-new.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cronreload.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cronreload.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editallfiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/editallfiles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/replace/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/replace/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/replace/assets/js/me.js" beforeDir="false" afterPath="$PROJECT_DIR$/replace/assets/js/me.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/replace/me-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/replace/me-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuy1" beforeDir="false" />
-    </list>
+    <list default="true" id="450679db-6ac0-44c4-884f-5365f2d8aea7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="ComposerSettings">
     <execution />
@@ -118,7 +59,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -191,7 +132,7 @@
       <workItem from="1705667830786" duration="13348000" />
       <workItem from="1705900279363" duration="7190000" />
       <workItem from="1706005316562" duration="4424000" />
-      <workItem from="1706187432767" duration="3935000" />
+      <workItem from="1706187432767" duration="4249000" />
     </task>
     <task id="LOCAL-00001" summary="tor visits and clicks on analytics.google.com/ and a-ads.com/">
       <created>1705683386847</created>
@@ -207,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705686303139</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed their css again">
+      <created>1706343139216</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706343139216</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,9 +174,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="tor visits and clicks on analytics.google.com/ and a-ads.com/" />
-    <option name="LAST_COMMIT_MESSAGE" value="tor visits and clicks on analytics.google.com/ and a-ads.com/" />
+    <MESSAGE value="fixed their css again" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed their css again" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="318" width="1200" height="1009" key="#Deployment" timestamp="1705669274281">
@@ -267,14 +218,18 @@
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state width="2422" height="414" key="GridCell.Tab.0.right/70.38.2490.1562@70.38.2490.1562" timestamp="1706187422906" />
-    <state x="903" y="271" width="1575" height="1262" key="SettingsEditor" timestamp="1706005975381">
+    <state x="903" y="271" width="1575" height="1262" key="SettingsEditor" timestamp="1706343298443">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="903" y="271" width="1575" height="1262" key="SettingsEditor/70.38.2490.1562@70.38.2490.1562" timestamp="1706005975381" />
-    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1705686305078">
+    <state x="903" y="271" width="1575" height="1262" key="SettingsEditor/70.38.2490.1562@70.38.2490.1562" timestamp="1706343298443" />
+    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1706343142045">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2/70.38.2490.1562@70.38.2490.1562" timestamp="1705686305078" />
+    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2/70.38.2490.1562@70.38.2490.1562" timestamp="1706343142045" />
+    <state x="866" y="675" width="887" height="295" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1706343256493">
+      <screen x="70" y="38" width="2490" height="1562" />
+    </state>
+    <state x="866" y="675" width="887" height="295" key="git4idea.remote.GitConfigureRemotesDialog/70.38.2490.1562@70.38.2490.1562" timestamp="1706343256493" />
     <state x="1039" y="635" width="541" height="374" key="webDeployment.PermissionsDialog" timestamp="1705904250035">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
