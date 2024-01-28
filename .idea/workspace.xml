@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="450679db-6ac0-44c4-884f-5365f2d8aea7" name="Default Changelist" comment="" />
+    <list default="true" id="450679db-6ac0-44c4-884f-5365f2d8aea7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +134,8 @@
       <workItem from="1705667830786" duration="13348000" />
       <workItem from="1705900279363" duration="7190000" />
       <workItem from="1706005316562" duration="4424000" />
-      <workItem from="1706187432767" duration="6146000" />
+      <workItem from="1706187432767" duration="6327000" />
+      <workItem from="1706383288713" duration="1246000" />
     </task>
     <task id="LOCAL-00001" summary="tor visits and clicks on analytics.google.com/ and a-ads.com/">
       <created>1705683386847</created>
@@ -169,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706344109533</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixed their css again">
+      <created>1706345225362</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706345225362</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +222,10 @@
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state x="645" y="186" width="1330" height="1272" key="CommitChangelistDialog2/70.38.2490.1562@70.38.2490.1562" timestamp="1705686303082" />
+    <state x="170" y="138" width="2290" height="1362" key="DiffContextDialog" timestamp="1706418413713">
+      <screen x="70" y="38" width="2490" height="1562" />
+    </state>
+    <state x="170" y="138" width="2290" height="1362" key="DiffContextDialog/70.38.2490.1562@70.38.2490.1562" timestamp="1706418413713" />
     <state x="992" y="463" width="636" height="719" key="FileChooserDialogImpl" timestamp="1705679806801">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
@@ -236,10 +250,10 @@
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state x="903" y="271" width="1575" height="1262" key="SettingsEditor/70.38.2490.1562@70.38.2490.1562" timestamp="1706344096768" />
-    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1706344114662">
+    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1706345228395">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2/70.38.2490.1562@70.38.2490.1562" timestamp="1706344114662" />
+    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2/70.38.2490.1562@70.38.2490.1562" timestamp="1706345228395" />
     <state x="866" y="675" width="887" height="295" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1706343256493">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
