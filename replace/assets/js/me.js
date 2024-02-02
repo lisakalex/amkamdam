@@ -19,16 +19,6 @@ $(function () {
         } catch (err) {
         }
 
-        // try {
-        //     document.querySelector("#style-css-css").remove(); // theirs style.css
-        // } catch (err) {
-        // }
-        //
-        // try {
-        //     document.querySelector("#style-new-css").remove(); // theirs style.css
-        // } catch (err) {
-        // }
-
         try {
             document.querySelector("body > div.main > main > section.container.pb-20.pt-sm-60").remove(); // newsletter
         } catch (err) {
@@ -90,16 +80,6 @@ $(function () {
         } catch (err) {
         }
 
-        // try {
-        //     $("section").remove(":contains('Videos')");
-        // } catch (err) {
-        // }
-        //
-        // try {
-        //     $("section").remove(":contains('Buy/Sell at the best rates')");
-        // } catch (err) {
-        // }
-
         if (pathname === '/') {
             try {
                 // debugger
@@ -117,12 +97,6 @@ $(function () {
                         e.remove()
                     }
                 });
-                // sections[1].remove()
-                // sections[5].remove()
-                // sections[7].remove()
-                // sections[10].remove()
-                // sections[11].remove()
-                // sections[14].remove()
             } catch (err) {
             }
         }
@@ -148,28 +122,6 @@ $(function () {
             });
         } catch (err) {
         }
-
-        $("head").prepend("<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-0WB7KX709G\"></script>" +
-            "<script>\n" +
-            "  window.dataLayer = window.dataLayer || [];\n" +
-            "  function gtag(){dataLayer.push(arguments);}\n" +
-            "  gtag('js', new Date());\n" +
-            "\n" +
-            "  gtag('config', 'G-0WB7KX709G');\n" +
-            "</script>" +
-            // "<link href=\"/assets/images/favicon.png\" rel=\"shortcut icon\"/>" +
-            "<link href=\"https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css\" rel=\"stylesheet\"/>" +
-            "<script defer=\"\" src=\"/assets/js/cookieconsent.js\"></script>" +
-            "<script defer=\"\" src=\"/assets/js/cookieconsent-init.js\"></script>"
-            // "<script defer=\"\" src=\"/assets/js/frontend.js\"></script>"
-            // "<link href=\"/assets/css/style.css\" rel=\"stylesheet\"/>" +
-            // "<link href=\"/assets/css/style-new.css\" rel=\"stylesheet\"/>"
-        );
-
-        // try {
-        //     document.querySelector("#me-style-css-css").remove(); // my style.css
-        // } catch (err) {
-        // }
 
         try {
             document.querySelectorAll("a").forEach((e) => { // edit links
@@ -297,16 +249,3 @@ $(window).load(function () {
     // Animate loader off screen
     $(".se-pre-con").fadeOut("slow");
 });
-
-// it is in every file but not working must be the lazy loading
-// window.sid = "1"
-// window.burl = "https://a2.cryptonews.com"
-// window.cid = 1
-// window.trans = {
-//     ago: "ago",
-//     ago_long: "minute, minutes, hour, hours, day, days",
-//     time_seconds_ago: "[time] [seconds] [ago]",
-//     time_minutes_ago: "[time] [minutes] [ago]",
-//     time_hours_ago: "[time] [hours] [ago]",
-//     time_days_ago: "[time] [days] [ago]",
-// }
