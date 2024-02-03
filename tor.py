@@ -36,8 +36,7 @@ def get_current_ip():
 
     driver.get("https://www.amkamdam.com/")
     driver.set_window_size(1366, 1200)
-    WebDriverWait(driver, 10).until(
-        ec.element_to_be_clickable((By.XPATH, '/html/body/header/div[2]/ul/li[3]/a'))).click()
+    WebDriverWait(driver, 10).until(ec.element_to_be_clickable((By.XPATH, '/html/body/header/div[2]/ul/li[3]/a'))).click()
 
     try:
         iframe = driver.find_element(By.CSS_SELECTOR, ".huyslot > iframe")
