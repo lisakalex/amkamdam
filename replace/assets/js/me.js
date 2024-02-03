@@ -61,11 +61,6 @@ $(function () {
         }
 
         try {
-            $("script").remove(":contains('googletagmanager')");
-        } catch (err) {
-        }
-
-        try {
             document.querySelectorAll(".p1").forEach((e) => { // tags
                 e.remove();
             });
@@ -232,8 +227,10 @@ $(function () {
         $('.dslot').removeClass('dslot').addClass('huyslot');
 
         // replace cryptonews's empty image
+        let k;
+        k = document.querySelectorAll("img");
         try {
-            document.querySelectorAll("img").forEach((e) => {
+            k = document.querySelectorAll("img").forEach((e) => {
                 if (e.dataset.src === 'https://cimg.co/p/assets/empty-cryptonews.jpg' || e.dataset.lazySrc === 'https://cimg.co/p/assets/empty-cryptonews.jpg' || e.src === 'https://cimg.co/p/assets/empty-cryptonews.jpg') {
                     e.dataset.src = "/assets/images/empty-kak-1.jpg";
                     e.dataset.lazySrc = "/assets/images/empty-kak-1.jpg";

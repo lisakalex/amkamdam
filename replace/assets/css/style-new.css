@@ -3089,7 +3089,7 @@ div.article__badge .date-last {
 }
 
 .widget-section .exchange .board .title {
-    color: #211B2E;
+    color: #211b2e;
     font-size: 18px;
     line-height: 24px
 }
@@ -3563,8 +3563,9 @@ div.article__badge .date-last {
 
 .guide-item, .news-one {
     width: 100%;
-    box-shadow: none;
-    padding: 0
+    /*box-shadow: none;*/
+    /*box-shadow: 0 6px 10px 0 #CCCCCC;*/
+    padding: 20px 30px 30px;
 }
 
 .guide-item img, .similar-news .news-one img {
@@ -3752,7 +3753,10 @@ div.article__badge .date-last {
 
 @media (min-width: 1360px) {
     .guide-item, .news-one {
-        min-height: auto
+        /*min-height: auto*/
+        /*box-shadow: 0 6px 10px 0 #CCCCCC;*/
+        padding: 20px 30px 30px;
+        width: 100%
     }
 }
 
