@@ -13,7 +13,7 @@ shutil.copytree('./replace/', './a/cryptonews.com/', dirs_exist_ok=True)
 
 # noinspection PyInterpreter
 def replace_header_footer(read_file1):
-    with open('replace/me-index.html', 'r') as file1:
+    with open('replace/me-index.xhtml', 'r') as file1:
         soup = BeautifulSoup(file1.read(), features="html.parser")
 
     head = soup.find("head")
