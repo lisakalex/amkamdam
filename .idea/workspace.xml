@@ -19,8 +19,969 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="450679db-6ac0-44c4-884f-5365f2d8aea7" name="Default Changelist" comment="">
+    <list default="true" id="d2b6b28b-633d-488b-a11e-85b21f893e04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a/wgetlog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/about-us.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/advertising.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/cryptocurrency/best-bitcoin-gambling-sites/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/cryptocurrency/best-bnb-casinos/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/cryptocurrency/best-litecoin-casinos/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/cryptocurrency/how-to-buy-bitcoin-with-paypal/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/cryptocurrency/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/disclaimer.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/editors/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/aaron-evans-head-of-operations-at-moonbeam-foundation-on-blockchain-scalability-scalable-l1s-and-polkadot-2-0-ep-298.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/alex-svanevik-ceo-of-nansen-on-blockchain-data-ai-in-crypto-and-investing-for-the-future-ep-305.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/andrew-tate-net-worth-crypto-holdings-revealed-billionaire-or-not.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/anger-worry-doubt-celsius-customers-pray-for-return-of-their-crypto.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/ansem-blknoiz06-on-solana-altcoins-bonk-and-2024-trading-strategies-ep-290.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/arjun-bhuptani-co-founder-of-connext-on-ethereums-scalability-problem-account-abstraction-and-the-sol-vs-eth-narrative-ep-294.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/avril-dutheil-core-contributor-of-neutron-on-the-cosmos-ecosystem-defi-and-the-web3-entrepreneur-shortage-ep-289.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/balancing-act-cryptocurrency-data-mining-and-sustainability-navigating-the-right-path.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/bitfinex-hack-meet-self-proclaimed-serial-entrepreneur-couple-charged-over-laundering-bitcoin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/blockchain-technology-future-of-latin-americas-financial-system.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/bob-ras-co-founder-of-sologenic-on-tokenization-of-real-world-assets-24-7-trading-and-the-future-of-tokenization-ep-292.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/bobby-zagotta-ceo-of-bitstamp-on-bitcoin-etf-the-halving-defi-for-capital-markets-and-2024-predictions-ep-304.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/bukele-takes-a-laugh-at-south-korean-drama-featuring-a-crypto-loving-character-based-on-him.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/chinese-state-media-outlet-reposts-btc-outshining-gold-predi-8607.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/conor-ryder-head-of-research-at-ethena-on-stablecoins-synthetic-dollars-and-current-market-trends-ep-286.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/crypto-and-the-stars-unveiling-the-celebrity-connection-to-bitcoin-scandals-and-fortunes.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/crypto-billionaire-sam-bankman-fried-no-longer-looking-to-spend-1-billion-on-political-donations.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/crypto-ceo-appeals-25-year-prison-term-for-pushing-girlfriend-out-of-19th-floor-window.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/crypto-for-kids-a-playful-guide-to-understanding-digital-money.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/crypto-guide-for-seniors.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/crypto-investor-tips-waitress-usd-3k-give-back-community.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/crypto-job-market-cancelled-coinbase-recruits-get-emotional-job-postings-down.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/dan-oprey-chief-product-officer-of-bakkt-on-the-bitcoin-etf-bitcoin-in-public-markets-custody-and-lightning-network-ep-299-2.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/dean-tribble-ceo-of-agoric-on-distributed-systems-javascript-in-crypto-metamask-snaps-and-institutional-adoption-of-defi-ep-302.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/disgraced-former-ftx-ceo-sam-bankman-friend-found-guilty-on-all-seven-fraud-charges.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/elon-musk-net-worth-crypto-holdings-revealed-richest-man-world.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/ethereums-buterin-reiterates-support-for-ukraine-educates-chinese-patriotism.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/everstake-ceo-many-delegators-fail-to-understand-what-staking-is-and-it-may-lead-to-trouble.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/exclusive-wael-makarems-expert-opinion-on-crypto-market-trends-following-binance-ceos-resignation.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/exploring-the-privacy-concerns-around-cbdcs.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/features/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/features/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/features/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/features/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/features/page/81/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/former-uk-prime-minister-boris-johnson-received-ps1-million-donation-from-thai-crypto-investor.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/frederik-gregaard-ceo-cardano-foundation-on-operational-resilience-making-blockchain-immortal-and-cardano-ep-285.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/ftx-founder-sbf-pin-blame-for-ftx-collapse-bad-legal-advice-1.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/george-isichos-core-contributor-at-game7-on-the-state-of-web3-gaming-and-2024-web3-gaming-trends-ep-293.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/govt-response-canada-protests-brings-another-ex-bitcoin-skeptic-into-crypto-fold.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/greg-magadini-director-of-derivatives-at-amberdata-on-the-bitcoin-etf-approval-volatility-and-crypto-derivatives-ep-300.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/harneys-lawyers-how-apply-for-bvi-vasp-licence.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/how-biggest-money-experiment-human-history-will-impact-global-payments.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/how-utility-nfts-will-drive-mainstream-web3-adoption.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/jake-paul-net-worth-crypto-holdings-revealed-young-billionaire-making.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/josh-jones-co-ceo-of-cornucopias-game-on-cardano-web3-games-interoperability-and-cornucopias-ep-296.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/kavita-gupta-founder-of-delta-blockchain-fund-on-the-crypto-vc-landscape-and-the-role-of-institutional-demand-ep-287.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/mathew-sweezey-cso-at-smart-token-labs-on-erc-5169-dynamic-nfts-future-proofing-and-smart-cats-ep-295.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/matthew-graham-managing-partner-of-ryze-labs-on-2024-crypto-investing-narratives-btc-and-eth-ep-301.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/navigating-crypto-and-taxes-a-comprehensive-guide-for-the-usa-2023-2024-tax-season.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/navigating-the-crypto-space-a-guide-to-recognizing-and-avoiding-common-crypto-scams.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/navigating-the-new-web3-era-from-defi-to-spot-bitcoin-etfs.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/opinions/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/opinions/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/opinions/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/opinions/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/opinions/page/32/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/page/207/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/people/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/people/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/people/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/people/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/people/page/87/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/podcast/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/podcast/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/podcast/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/podcast/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/podcast/page/9/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/polish-miner-commercializes-tech-using-solar-panels-mine-bitcoin-heat-houses.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/sam-bankman-fried-is-heading-back-to-jail-for-witness-tampering-after-judge-ruling.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/spot-bitcoin-etfs-would-reduce-power-of-whales-and-increase-stability-nansen-analyst.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/think-like-hacker-opsec-tips-ensure-crypto-security.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/tom-mizzone-ceo-of-sweet-on-nhl-breakaway-nfts-and-digital-sports-collectibles-ep-291.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/two-texans-use-flare-gas-net-usd-4m-bitcoin-mining-plan-usd-20m-2022.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/us-spot-bitcoin-etf-approved-uk-unlikely-to-follow-suit.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/veronica-wong-ceo-of-safepal-on-web3-wallet-wars-account-abstraction-and-2024-trends-ep-297.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/vince-yang-co-founder-of-zklink-on-layer-3s-mapping-zk-proofs-and-defi-ep-303.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/what-future-of-crypto-taxes-and-regulations-may-look-like-in-india.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/exclusives/winklevoss-twins-navigating-the-crypto-winter-with-a-summer-tour-singing-dont-stop-believin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/favicon-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/favicon-48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/gambling/casino-utan-svensk-licens/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/gambling/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/gambling/non-gamstop-casinos-uk/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/10-best-cold-wallets.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/10-reasons-why-your-business-should-accept-bitcoins.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/1xbit-promo-code-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/2-methods-to-buy-ethereum-with-paypal-instantly.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/3-ways-to-set-up-a-bitcoin-wallet.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/3-ways-to-set-up-an-ethereum-wallet.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/5-methods-to-buy-bitcoin-with-paypal-instantly.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/5-reasons-why-your-business-should-accept-ethereum.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/a-beginner-s-guide-to-bitcoin-etfs.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/a-beginner-s-guide-to-nfts-what-you-should-know.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/altcoins/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/arbismart-review-crypto-arbitrage-made-simple.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/before-you-buy-bitcoin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/before-you-sell-bitcoin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/before-you-sell-ethereum.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/best-altcoins.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/best-bitcoin-casino-bonuses.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/best-bitcoin-roulette-sites.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/best-crypto-hardware-wallets.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/best-crypto-wallets-south-africa.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/best-crypto-wallets-uae.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/best-crypto-wallets-uk.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/best-crypto-wallets.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/best-decentralized-crypto-wallets.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/best-erc20-wallets.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/best-ethereum-wallets.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/best-micro-cap-crypto.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/best-no-kyc-crypto-exchanges.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/best-telegram-bots.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/best-tether-casino-sites.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/betonline-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/bitcasino-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/bitcoin-cold-storage.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/bitcoin-forks-in-search-of-the-original-satoshi.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/bitcoin-wallets-for-beginners.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/bitcoin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/bizzo-casino-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/blockchain/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/bovada-casino-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/changenow-promo-code-get-your-discount-with-this-code.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/coinpoker-review-security-and-privacy-in-online-poker.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/countries-in-which-bitcoin-is-banned-or-legal.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/countries-in-which-ethereum-is-banned-or-legal.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/cryptocurrency/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/deals/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/defi-guides/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/difference-of-bitcoin-from-traditional-currencies.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/different-categories-of-cryptocurrencies.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/donbet-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/entering-the-metaverse-signing-up-to-decentraland.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/ethereum-gas-fees-explained.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/ethereum/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/get-10-nextrope-lab-london-conference-2019-discount-coupon.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/hardware-for-bitcoin-mining.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/hardware-for-ethereum-mining.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-bitcoin-mining-works.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-does-bitcoin-work.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-does-ethereum-work.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-is-the-price-of-bitcoins-set.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-accept-bitcoin-in-business.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-accept-bitcoins-in-my-store.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-add-tokens-to-metamask.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-bridge-ethereum-and-polygon-networks.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-altcoins.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-an-nft-on-opensea.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-an-nft-on-rarible.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-and-sell-bitcoin-in-canada.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-and-sell-bitcoin-in-india.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-and-sell-ethereum-in-canada.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-and-sell-ethereum-in-india.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-and-sell-ethereum-in-the-uk.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-binance-coin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-bitcoin-with-cash.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-cardano-ada.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-chainlink.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-dogecoin-doge.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-ethereum-with-a-credit-card.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-ethereum-with-cash.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-ethereum-with-paypal.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-iota.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-litecoin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-monero.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-polkadot.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-solana.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-stellar.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-buy-tron.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-choose-a-bitcoin-wallet.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-deposit-and-withdraw-tokens-through-metamask.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-find-buy-and-sell-nfts-on-opensea.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-get-fan-tokens-on-socioscom.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-get-free-bitcoins.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-get-free-ethereum.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-get-started-with-nfts-a-beginners-guide.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-get-started-with-socioscom.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-invest-in-bitcoin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-invest-in-ethereum.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-link-metamask-to-uniswap.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-list-an-nft-from-your-collection-on-rarible.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-list-an-nft-on-opensea.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-make-a-uniswap-trade.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-mine-bitcoins.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-mine-dogecoin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-mine-litecoin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-mine-monero.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-mint-and-create-an-nft.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-purchase-chiliz-chz-through-socioscom.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-send-ethereum-from-coinbase-to-metamask-wallet.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-stake-eth-for-ethereum-2-0.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-store-bitcoins.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-use-aave.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-use-binance-smart-chain-bsc-with-metamask.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-use-compound.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-use-metamask-wallet-to-the-polygon-network.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-use-opensea-the-easy-way-to-set-up-your-profile.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-use-rarible-the-easy-way-to-set-up-user-profile.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/how-to-use-stake-casino-vpn-to-play-in-us.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/icos/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/ignition-casino-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/is-bitcoin-a-bubble.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/is-bitcoin-a-pyramid-scheme.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/is-bitcoin-legal.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/is-it-safe-to-use-bitcoin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/is-sports-betting-legal-in-the-us.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/ledger-nano-s-plus-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/ledger-nano-x-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/linksdao-a-cryptocommunity-for-the-everyday-golfer.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/massachusetts-sports-betting.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/metamask-guide-how-to-set-up-get-started.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/metamask-guide-how-to-set-up-metamask-wallet.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/nexo-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/nft/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/north-carolina-sports-betting.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/ohio-sports-betting.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/opensea-nft-marketplace-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/phantom-wallet-guide-how-to-set-up-get-started.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/provably-fair-bitcoin-casinos.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/rarible-nft-marketplace-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/should-i-buy-bitcoin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/sorare-review-a-beginners-guide-to-sorare-fantasy-football.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/texas-sports-betting.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/the-difference-between-ico-and-sto.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/top-10-bitcoin-security-tips.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/top-10-nft-games-to-play-and-earn.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/top-10-nft-marketplaces.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/top-ieo-platforms-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/trading-tools/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/wallet-guides/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/what-are-altcoins.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/what-are-the-risks-in-an-ico.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/what-is-a-bookmaker.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/what-is-a-dao.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/what-is-a-smart-contract.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/what-is-an-ico.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/what-is-an-initial-exchange-offering.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/what-is-bitcoin-btc-lightning-network.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/what-is-blockchain-technology.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/what-is-blockchain.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/what-is-cryptonex-coin-and-trading-platform.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/what-is-ether.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/what-is-ethereum-2-0.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/what-is-ethereum.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/what-is-kyc-know-your-customer-process-explained.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/what-is-proof-of-stake.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/what-is-proof-of-work.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/what-is-the-metaverse.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/what-is-waltonchain.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/what-is-web3.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/who-accepts-bitcoin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/who-accepts-ethereum.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/who-controls-bitcoin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/who-controls-ethereum.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/who-created-bitcoin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/who-created-ethereum.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/why-do-bitcoins-have-value.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/why-invest-in-an-ico.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/will-bitcoin-ever-be-stable.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/guides/yield-farming-liquidity-mining-staking-and-their-risks.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/have-a-story.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/21shares-coo-departs-ceo-hany-rashwan-reassures-firm-has-transition-plan.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/505-of-700-openai-employees-demand-board-resign-following-sam-altman-firing-threaten-to-walk.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/abracadabra-money-in-crisis-as-6-5-million-crypto-theft-sends-shockwaves-across-defi-community.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ai-and-crypto-combine-oncyber-unveils-gpt-powered-custom-metaverse-worlds-how-does-it-work.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ai-deepfakes-becoming-tool-of-choice-cyber-extortion-says-fbi-how-crypto-being-used-process.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ai-meme-brings-memes-to-life-with-smart-talking-ai-powered-friends.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/altcoin-news/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/altcoin-news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/altcoin-news/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/altcoin-news/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/altcoin-news/page/406/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/andrew-tates-crypto-proposal-suffers-early-death-and-draws-criticism-from-industry-experts.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/announcing-a-speaker-lineup-for-hong-kong-web3-festival-2024.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/apple-ends-partnership-with-goldman-sachs-as-tech-giant-expands-into-lending.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/apple-vision-pro-launches-with-blockchain-based-metaverse-game-next-big-thing.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/argentinas-milei-administration-reverses-course-on-crypto-tax-benefits-law.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/avalanche-foundation-embraces-meme-coin-culture-with-100-million-fund-edited.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/belarusian-cypriot-national-charged-by-us-for-operating-unlicensed-crypto-exchange-btc-e.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/best-anonymous-casinos.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/best-bitcoin-betting-sites.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/best-bitcoin-blackjack-sites.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/best-bitcoin-casinos.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/best-bitcoin-slots-sites.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/best-crash-gambling-sites.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/best-crypto-icos.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/best-crypto-presales.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/best-crypto-to-buy-now-feb-1-link-pyth-mina.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/best-crypto-to-buy-today-feb-2-rose-pendle-flr.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/best-crypto-to-buy.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/best-instant-withdrawal-bitcoin-casinos.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/best-telegram-casinos.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/big-eyes-coin-price-prediction-2.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/biggest-crypto-gainers-today-on-uniswap-dork-gme-bebe.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/billionaire-biohacker-bryan-johnson-dives-into-nft-realm-with-drip-solana-airdrop.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/binance-freezes-4-2m-in-xrp-linked-to-112m-ripple-hack.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/binance-threatens-delisting-of-privacy-coins-monero-and-zcash-amid-regulatory-crackdown.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/bitcoin-and-ethereum-price-prediction-as-btc-spikes-up-2-and-eth-pushes-past-2300.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/bitcoin-and-ethereum-price-prediction-as-fed-interest-rate-decision-is-announced-new-bull-market-starting.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/bitcoin-news/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/bitcoin-news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/bitcoin-news/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/bitcoin-news/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/bitcoin-news/page/400/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/bitcoin-ordinals-will-play-a-pivotal-role-in-2024-more-top-nft-news-2.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/bitcoin-price-dips-as-fed-chair-powell-says-march-rate-cut-unlikely-where-next-for-btc.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/bitcoin-price-prediction-as-8-billion-trading-volume-floods-in-time-to-buy.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/bitcoin-price-prediction-as-btc-pumps-past-43000-resistance-50000-btc-incoming.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/bitcoin-price-prediction-as-fed-announces-interest-decision.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/bitcoin-price-prediction-btc-at-42000-amid-pboc-moves-fed-keep-rate-steady-at-5-50.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/bitcoin-price-prediction-btc-hits-43000-amid-tesla-el-salvador-news-us-nonfarm-payrolls-in-the-spotlight.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/bitcoin-price-whipsaws-around-43k-after-blockbuster-us-jobs-report-where-next-for-btc.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/bitcoin-worth-1-7b-seized-as-ex-restaurant-worker-tries-to-buy-30m-london-mansion-with-fraud-money.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/bittensor-price-prediction-as-ai-cryptos-blast-off-next-big-thing.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/blackrocks-bitcoin-etf-surpasses-grayscale-in-daily-trading-volume.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/blackrocks-spot-bitcoin-etf-now-holds-3-billion-in-btc.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/blockchain-can-help-advance-healthcare-data-management-solutions.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/blockchain-news/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/blockchain-news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/blockchain-news/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/blockchain-news/page/234/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/blockchain-news/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/bonk-price-prediction-as-100-million-floods-in-are-whales-buying.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/bonk-price-prediction-as-bonk-struggles-amidst-bearish-market-sentiment-more-selling-to-come.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/bonk-price-prediction-as-volume-outperforms-shib-can-bonk-overtake-dogecoin-and-shiba-inu.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/bonk-price-prediction-following-meme-coin-sectors-recovery-can-bonk-reach-1.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/buynft-help-with-starting-nft-trading-investing.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/bybit-provides-nft-ticket-marketplace-for-robbie-williams-virtual-concert-more-top-nft-news.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/cardano-nfts-top-nft-news-22-january.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/cardano-price-prediction-as-10000-new-smart-contracts-added-can-ada-overtake-solana.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/cardano-price-prediction-as-ada-becomes-9th-biggest-crypto-in-the-world-adoption-rising.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/cardano-price-prediction-as-analysts-anticipate-surprising-rally-will-ada-defy-market-trends.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/castle-fund-just-because-bitcoin-etfs-are-allowed-doesnt-mean-theyll-succeed.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/cathie-woods-ark-invest-sells-coinbase-near-top-loads-up-on-robinhood.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/cbdcs-not-yet-ready-for-mainstream-says-mastercard-expert.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/celsius-emerges-from-bankruptcy-and-will-distribute-3b-crypto-to-creditors.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/cerra-io-gains-momentum-with-audit-pre-sale-dex-launch-and-more.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/cftc-committee-recommends-enhanced-understanding-and-regulation-of-defi.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/chimpzee-chmpz-draws-in-more-investors-as-bitmart-listing-and-40-apy-for-staking-makes-it-irresistible.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/cme-group-bitcoin-futures-open-interest-slides-24-as-spot-etfs-gain-traction.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/cogwise-cogw-projected-to-reach-1billion-market-cap-in-2024.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/coinbase-stock-outperforms-bitcoin-and-ethereum-whats-behind-the-surge.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/coinmarketcap-launches-chatgpt-plugin-simplify-crypto-analysis.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/comedy-icon-larry-david-says-he-was-an-idiot-for-taking-part-in-ftxs-super-bowl-ad.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/comparison-of-binance-com-and-tapacoin-com-when-a-leader-meets-a-competitor.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/convincing-deepfake-video-of-australian-billionaire-promotes-scam-financial-investment.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/core-scientific-becomes-north-americas-largest-listed-bitcoin-producer-generating-19274-btc-in-2023.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/coti-builds-another-digital-currency-for-payments-2522.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/could-chatgpts-latest-enhancement-herald-revolutionary-phase-for-crypto.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/could-scotty-the-ai-scotty-become-the-mascot-for-the-crypto-market-see-why-scotty-matters.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/cryptic-clues-mysterious-ordinals-inscription-hints-at-cursed-bitcoin-art-whats-going-on.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/crypto-bank-savior-new-york-community-bancorp-sees-40-drop-in-shares.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/crypto-companies-leverage-ai-despite-ongoing-challenges.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/crypto-etfs-gain-momentum-in-asia-post-u-s-approval.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/crypto-influencer-bitboy-ends-youtube-show-amid-ongoing-legal-battles.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/crypto-investors-beware-irs-crypto-tax-reporting-rules-for-10k-transactions-now-in-effect.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/crypto-launches.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/crypto-lawyer-reveals-feds-involvement-in-operation-chokepoint-on-digital-assets.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/crypto-losses-up-59-q3-from-cyberattacks.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/crypto-market-anticipates-release-of-900m-in-vested-tokens-in-february.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/crypto-market-turns-spotlight-on-parallelized-evm-trend-for-enhanced-blockchain-scalability.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/crypto-scammers-swipe-123k-in-steth-from-nest-wallet-founder-in-fake-airdrop.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/crypto-web3-ai-blockchain-based-tech-solutions.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/cryptomeister-gives-tips-for-choosing-trading-platform-for-cryptocurrencies.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/cryptonews-deals/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/cryptonews-deals/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/cryptonews-deals/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/cryptonews-deals/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/cryptonews-deals/page/7/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/cyber-criminals-target-crypto-investors-with-new-malware-heres-what-you-need-know.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/cybersecurity-risks-in-the-cryptocurrency-industry-2.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/dash-2-trade-raises-7m-accelerates-development-tackle-ftx-fallout.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/data-breach-why-it-big-threat-for-crypto-traders-how-prevent-it.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/debating-cardanos-fate-k33s-controversial-report-filecoin-and-inqubeta-garner-optimistic-sentiments.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/decentralized-ai-startup-ritual-raises-25-million.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/defexa-wallet-announces-750-reward-pool-promo-for-first-50-users.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/defi-news/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/defi-news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/defi-news/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/defi-news/page/22/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/defi-news/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/defiance-capital-wins-in-lawsuit-against-defunct-crypto-fund-3ac-in-singapore.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/derivatives-trading-protocol-aevo-to-launch-native-token-airdrop-confirmed.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/digital-asset-exchange-bybit-applies-for-hong-kongs-vatp-license.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/digital-hong-kong-dollar-pilot-plan-to-enter-second-phase-next-year.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/digital-yuan-enters-oil-market-as-petrochina-finalizes-first-international-crude-trade-cbdc.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/dipsways-ai-spot-bot-a-new-frontier-in-the-crypto-trading-bot-market.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/dogecoin-price-prediction-as-bearish-sentiment-looms-a-downward-trend-in-store.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/dogecoin-price-prediction-as-daily-trading-volume-surges-past-400-million-1-doge-possible.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/dogwifhat-price-prediction-as-woolly-hat-appears-on-charging-bull-in-wall-street-1-wif-incoming.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/domain-registry-company-finesses-new-bitcoin-rival-out-of-their-com.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/donald-trump-sells-2-4-million-ethereum-arkham-intelligence.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/donald-trump-unique-nft-collection-sparks-controversy-in-crypto-community.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/doodle-and-g-shock-join-wrists-in-an-nft-collab-more-top-10-news.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/dooms-unconventional-journey-now-on-bitcoin-dogecoin-and-gut-bacteria.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ecoterra-an-exciting-green-web3-project-partners-with-prominent-brands-like-coca-cola-to-expand-its-recycle-earn-ecosystem-funding-reaches-44-million.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/el-salvador-president-nayib-bukele-eyes-bitcoin-backed-bonds-bitcoin-cities-in-re-election-bid.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/elmo-token-is-up-69458-and-crypto-analysts-say-this-lesser-known-crypto-is-next.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/emerging-cryptocurrency-has-potential-to-rival-solana-sol.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/etf-countdowns-screaming-buys-happy-new-years-and-20-crypto-jokes.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/etfs-are-tots-coming-etfs-are-not-coming-etfs-are-etfing-and-20-crypto-jokes.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ethereum-and-cardano-struggle-but-borroe-finances-presale-signals-strong-market-interest.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ethereum-co-founder-vitalik-buterin-says-validiums-are-not-genuine-rollup-solutions.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ethereum-completes-dencun-network-upgrade-on-goerli-testnet-2.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ethereum-etf-approval-hopes-rise-as-bitcoin-funds-launch-successfully-is-an-sec-nod-around-the-corner.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ethereum-foundation-announces-devcon-7-conference-in-bangkok-thailand-november-12-15-2024.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ethereum-news/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ethereum-news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ethereum-news/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ethereum-news/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ethereum-news/page/64/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ethereum-smart-contract-framework-updated-to-combat-security-concerns.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ethereumpow-core-team-disbands-to-achieve-full-decentralization-as-onedao-provides-transitional-support.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ethereums-upcoming-upgrade-cancun-deneb-set-to-begin-testing-on-january-17.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/eu-moves-to-ban-bitcoin-to-meet-energy-goals-report.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/evms-evolve-with-parallelized-technology.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/expect-massive-inflows-to-follow-spot-bitcoin-etf-approval-but-bull-market-is-still-in-question-experts-say.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/fake-bitcoin-etf-approval-tweet-provides-sneak-peek-into-cryptos-future-ethereum-set-to-gain.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/fed-expected-to-take-dovish-stance-in-2024-with-over-100-basis-points-of-cuts.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/federal-reserve-chair-jerome-powell-talks-us-economy-inflation-at-economic-club-of-new-york.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/finance-news/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/finance-news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/finance-news/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/finance-news/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/finance-news/page/4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/fintech-provider-monei-kicks-off-eurm-stablecoin-pilot-in-spain.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/first-exchange-with-cold-wallet-welcomes-newcomers.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/first-kalima-blockchain-developer-airdrop-2023-ready-kick-off-with-100000-prize-pool.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/foam-thinks-our-maps-could-use-an-upgrade-2367.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/football-star-cristiano-ronaldo-plays-football-with-binance-nft-holders-amid-lawsuit.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/forbes-highlights-crypto-leaders-in-latest-30-under-30-finance-lineup.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/forget-ethereum-this-rival-token-priced-at-0-09-will-reach-16-in-2024.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/forget-solana-sol-ethereums-real-threat-is-just-getting-started-and-is-priced-just-at-0-1.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/fork-coin-is-up-69000-and-traders-are-watching-this-other-crypto-now.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/from-crypto-to-likes-the-new-wave-of-digital-asset-flipping-among-crypto-investors.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ftx-seeks-exit-from-anthropic-holdings-proposes-entire-8-stake-sale.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/game-over-for-nfts-will-the-market-recover-in-2024-2.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/gamefi-star-meme-kombat-hits-8-million-raise-as-ico-heads-for-sellout.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/gary-gensler-warns-about-ais-impact-to-financial-systems-doesnt-touch-on-cryptocurrency.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/gate-io-and-d3-partner-to-apply-for-and-obtain-gate-top-level-domain.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/gate-io-announces-launch-of-innovative-inscription-launchpad-and-navigation-services.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/genesis-settles-sec-lawsuit-agrees-to-21-million-civil-penalty-for-earn-product.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/german-dz-bank-plans-to-roll-out-bitcoin-trading-pilot-this-year-report.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/giveaway-primexbt-gives-away-20000-bitcoin-anyone-can-participate.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/global-dark-web-crackdown-288-arrested-drugs-guns-crypto-seized.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/global-x-spot-bitcoin-etf-approval-race-sec-applications.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/gomining-introduces-new-nft-generation-flow-with-the-release-of-the-mine-box-collection.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/grayscale-investments-partners-with-ftse-russell-roll-out-crypto-sector-index-series.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/group-of-17-russian-banks-officially-joins-second-stage-of-digital-ruble-pilot.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/hedera-adds-major-household-name-to-its-council-why-is-this-important.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/hong-kong-set-to-release-consultation-on-regulatory-framework-for-otc-crypto-platforms.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/hong-kong-uncertain-on-e-hkd-issuance-says-retail-cbdc-needs-more-study.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ico-news/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ico-news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ico-news/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ico-news/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ico-news/page/4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/immediate-core-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/immediate-intal-ai-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/immediate-maximum-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/immediate-neupro-ai-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/immediate-savage-360-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/immediate-turbo-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/immediate-xgen-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/industry-talk/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/industry-talk/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/industry-talk/page/159/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/industry-talk/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/industry-talk/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/infra-firm-set-to-launch-evm-that-solves-bitcoins-limited-use-issue-secures-7-million.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/introduction-decentralized-finance-defi.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/investors-swarm-the-nuggetrush-nugx-presale-as-solana-sol-and-fantom-ftm-holders-double-down.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/iosco-publishes-policy-recommendations-for-decentralized-finance-defi.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/iphone-sideloading-could-increase-crypto-phishing-attacks-experts-warn.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/is-celestia-about-to-crash-tia-price-drops-10-as-bitcoin-minetrix-surpasses-10-million-milestone.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/is-it-too-late-to-buy-bittensor-tao-price-keeps-rising-as-new-meme-coin-gains-popularity.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/is-it-too-late-to-buy-chainlink-link-price-blasts-up-as-unique-gaming-and-staking-model-propels-mk-token.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/is-it-too-late-to-buy-render-rndr-price-blasts-up-as-innovative-meme-coin-raises-7-7million.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/is-jupiter-about-to-crash-jup-price-drops-75-but-this-other-crypto-just-smashed-past-10-1-million.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/is-manta-network-going-to-crash-manta-price-drops-5-as-new-cloud-mining-project-lures-global-investors.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/it-started-south-korea-parliament-debates-ending-the-ico-ban-2558.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/jupiter-airdrop-farmer-makes-1-1-million-using-almost-10000-wallets-after-token-launch.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/jupiter-price-prediction-as-jup-drops-70-from-recent-top-time-to-buy-the-dip.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/jupiter-price-prediction-as-solana-airdrop-creates-a-new-crypto-unicorn-how-to-check-jup-eligibility.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/jura-wants-you-to-rethink-blockchain-2341.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/kmon-integrates-polygon-pos-launching-a-groundbreaking-ai-driven-nft.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/komodo-cto-exclusive-large-tradfi-players-will-be-entering-crypto-this-year-defi-poised-to-grow-once-again.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/kraken-to-release-user-data-to-irs-in-compliance-with-june-court-mandate.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/latest-solana-meme-coin-lambo-pumps-up-1000x-in-24-hours-and-this-low-cap-gem-might-be-next.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/light-up-xmas-tree-with-1xbit-win-christmas.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/magic-eden-rewards-top-nft-news-today-24-january.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/magnus-carlsen-and-animoca-brands-begin-phased-launch-of-decentralized-chess-game.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/marathon-digital-snaps-up-two-bitcoin-mining-sites-from-hut-8-for-13-5-million.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/mediatum-looks-to-challenge-the-identity-status-quo-2311.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/mega-dice-accepts-bonk-and-pepe-and-12-more-new-tokens-as-crypto-casino-expansion-continues.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/metallicus-introduces-new-metal-blockchain-banking-innovation-program.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/metamask-plugin-connects-hedera-network-with-30-million-monthly-users.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/metas-reality-labs-reports-4-65-billion-operating-loss-in-q4-2023-as-metaverse-efforts-continue.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/microsoft-pulls-plug-industrial-metaverse-team-heres-what-happened.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/missed-solana-sol-this-new-cryptocurrency-is-about-to-skyrocket.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/monthly-nft-sales-on-bitcoin-fall-62-more-top-nft-news.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/moonlight-builds-a-decentralized-workforce-platform-2467.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/most-top-crypto-apps-track-users-robinhood-most-data-hungry-binance-brings-a-surprise.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/multivac-targets-triangle-of-blockchain-issues-2330.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/nest-protocol-martingale-network.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/new-binance-smart-chain-coin-raises-730000-in-presale-best-altcoin-to-buy-now.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/new-coin-listing-to-watch-aidoge-to-list-on-mexc-monday-19-june.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/new-cryptocurrency.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/new-era-fof-nfts-with-rari-chain-top-nft-news-today-26-january.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/new-solana-rival-valued-at-0-1-targets-18-in-2024-a-more-affordable-and-profitable-investment-opportunity-over-sol.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/new-upcoming-icos-list-for-week.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/next-cryptocurrency-to-explode.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/nft-giant-opensea-keeps-options-open-for-potential-acquisition.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/nft-news/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/nft-news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/nft-news/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/nft-news/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/nft-news/page/37/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/openai-scrambles-to-prevent-staff-from-leaving-having-intense-discussions-report.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/optionblitz-leverages-ethereum-layer-2-protocol-arbitrum-to-pioneer-zero-day-options-social-trading-platform.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/orange-comets-walking-dead-3d-avatars-are-arriving-october-5th.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/organizations-aim-to-shape-nft-regulations-as-digital-assets-gain-adoption.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/page/1696/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/pandoshi-poised-for-significant-growth-similar-to-polygon-matic-in-2024.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/play-to-earn-games-leader-tamadoge-announces-tama-v2-on-polygon.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/polygon-competitor-projected-to-soar-from-0-008-to-10-by-202.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/polygon-labs-and-warner-music-group-accelerate-web3-evolution-in-music.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/polygon-labs-lays-off-19-of-staff-following-restructuring-increases-workers-pay-by-15.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/pontem-announces-ai-powered-crypto-chatbot-following-6-million-seed-funding-round.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ponyai-introduces-driverless-robotaxi-service-shenzhen-following-successful-launch-guangzhou.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/press-releases/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/press-releases/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/press-releases/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/press-releases/page/205/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/press-releases/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/price-predictions/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/price-predictions/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/price-predictions/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/price-predictions/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/price-predictions/page/31/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/primexbt-offers-complete-security-its-users.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/primexbt-safe-bet-platform-for-trading-during-bear-market.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/prosecution-eviscerates-sbf-during-closing-arguments-he-built-a-pyramid-of-deceit.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/quantum-espace-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/racing-into-the-future-with-icon-x-world-token-launch.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/rarible-mercedes-nhl-top-nft-news-17-january.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/rating-agency-moodys-report-highlights-tech-risks-in-growing-tokenized-funds.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/reddit-user-loses-250000-in-eth-to-crypto-airdrop-scam-how-can-investors-stay-safe.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/researchers-deploy-ai-uncover-crypto-giveaway-scam-schemes-twitter.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/reserve-bank-of-india-furthers-cbdc-efforts-report.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/responding-to-ico-market-changes-the-case-of-hiway-2859.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/rich-dad-poor-dad-author-explains-why-he-owns-bitcoin-over-stocks.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/ripple-co-founder-hacked-of-over-112-million-worth-of-xrp.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/s-korea-politicians-in-fresh-bid-for-ico-reform-2510.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/scorpion-casino-hits-3-6-million-in-presale-as-investors-see-massive-profit-potential-ahead.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/sec-charges-blackrock-2-5-million-for-investment-misreporting-whats-going-on.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/sec-implicitly-recognizes-ether-as-commodity-paving-way-for-etf.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/sec-postpones-decision-on-blackrocks-spot-ethereum-etf-to-march.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/sec-postpones-decision-on-fidelitys-spot-ethereum-etf.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/senator-warren-demands-action-against-crypto-funded-terrorism-following-hamas-attacks.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/shiba-inu-price-prediction-as-shib-bounces-10-new-rally-starting.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/shrinking-ico-market-reshuffles-tokens-2947.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/singapore-authorities-raise-concerns-around-crypto-draining-kits.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/singapore-china-to-begin-piloting-digital-currency-in-tourism-spending-push.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/sink-teeth-into-orange-comets-amcs-interview-with-vampire-nfts.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/software-researcher-finds-secret-crypto-wallet-microsoft-edge-browser-whats-goin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/solana-mobile-chapter-2-sells-out-in-24-hours-whats-fueling-the-excitement.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/solana-price-prediction-as-crypto-billionaire-arthur-hayes-says-its-time-to-get-back-on-the-solana-train.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/solana-price-prediction-as-jupiter-dex-surpasses-uniswap-a-new-high-for-sol-incoming.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/solana-price-prediction-as-sol-approaches-100-can-sol-beat-its-all-time-high.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/solana-price-prediction-as-sol-becomes-5th-most-traded-coin-in-the-market-can-sol-overtake-ethereum.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/solana-price-prediction-as-sol-transaction-volume-reaches-record-high-1-trillion-adoption-rising.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/solana-sol-alternative-retik-finance-retik-zooms-past-19000000-in-remarkable-presale.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/solanas-alternative-to-do-better-than-sol-this-year-to-grow-from-0-1-to-15-in-2024.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/solving-ico-problems-with-new-token-projects-2310.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/sothebys-breaks-new-ground-with-first-bitcoin-ordinals-poem-sale.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/south-korea-blighted-by-crypto-powered-drug-pollution-report.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/sponge-announces-strategic-transition-to-sponge-v2-on-polygon-network-after-liquidity-pool-attack.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/sponsored/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/sponsored/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/sponsored/page/115/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/sponsored/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/sponsored/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/spot-ether-etf-approval-critera-what-you-need-to-know.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/spot-ethereum-etf-approval-expected-may-23rd-and-could-surge-in-value-new-report-says.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/spot-ethereum-etf-approval-timeline-predictions-td-cowen.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/sri-lankas-stance-on-crypto-and-the-launch-of-lanka-pay-in-2024.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/star-treks-jonathan-frakes-set-to-direct-series-for-jeff-garziks-web3-production-studio-deadline.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/staying-safu-5-rules-for-strong-passwords.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/steve-christies-return-to-binance-signals-strong-compliance-push.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/sub0-reveals-agenda-and-speaker-line-up-for-next-iteration-of-annual-polkadot-developer-conference-in-asia.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/swiss-bank-sgkb-partners-with-seba-for-crypto-custody-and-trading-services.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/taipei-blockchain-week-opens-with-vitalik-buterin-binances-richard-teng.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/technology-news/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/technology-news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/technology-news/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/tether-achieves-record-6-2-billion-annual-profit-nears-100-billion-in-assets.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/tg-casino-blows-away-rollbit-as-casino-exceeds-all-expectations-155m-wagered-in-a-month.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/thailands-sec-orders-zipmex-to-suspend-trading-and-brokerage-services.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/the-big-list-retail-revolution-with-cryptocurrency-retailers-embracing-digital-payments.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/the-fight-for-icos-intensifies-in-south-korea-2544.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/the-scorp-community-is-earning-passive-income-every-day-heres-how-you-can-too.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/the-technical-mastery-that-is-caga-crypto-a-deep-dive-into-the-newest-web3s-marvel.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/threat-protection-lightweight-antivirus-solution-ad-blocker-from-nordvpn.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/three-arrows-co-founders-opnx-exchange-to-cease-operations-february-2024.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/top-20-icos-by-gains-loss-due-to-eth-price-swings-2696.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/top-crypto-gainers-today-on-dextools-pork2-south-pork.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/top-nft-news-today-16-january.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/top-nft-news-today-18-january.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/top-nft-news-today-19-january.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/top-nft-news-today-23-january.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/top-nft-news-today-25-january.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/tornado-cash-roman-storm-edward-snowden-support.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/traders-predict-this-is-the-best-bep-20-token-to-buy-as-bnb-price-recovers.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/u-s-congress-members-push-back-against-secs-controversial-accounting-bulletin-sab-121.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/u-s-government-charges-trio-responsible-for-ftxs-missing-400-million-cite-sim-swap-attack.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/u-s-regulatory-approach-pushing-crypto-overseas-new-21shares-report-says.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/uae-and-china-complete-first-13-6m-cross-border-cbdc-transaction.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/uk-police-seized-1-77-billion-in-bitcoin-from-chinese-investment-fraud-more-crypto-news.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/uk-remains-one-of-the-few-to-hold-back-on-retail-access-to-crypto-etfs.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/uk-treasury-advises-lower-limits-on-retail-digital-pound-over-fears-of-bank-runs.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/uniswap-prioritizes-security-unveils-permit2-to-stop-hackers-draining-user-funds.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/unlocking-the-future-a-guide-to-buying-a-house-with-cryptocurrency-mortgages-payments-and-insurance.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/us-spot-bitcoin-etf-options-approval-could-lead-to-regulatory-headache-more-crypto-news.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/user-interface-bug-in-friend-tech-caused-traders-to-overpay-187-eth-for-keys.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/valkyrie-cio-says-market-may-see-ripple-ethereum-etfs-next.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/vitalik-buterin-discusses-challenges-between-crypto-and-ai-warns-tread-carefully.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/vitalik-buterin-proposes-enshrined-zk-evm-for-enhanced-ethereum-main-chain-efficiency.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/vitalik-buterin-proposes-simplified-ethereum-proof-of-stake-design.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/vitalik-buterins-zuzalu-retreat-spurs-ethereum-backed-zu-villages-whats-behind-this-mysterious-gathering.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/vite-aims-to-become-a-universal-dapp-platform-2350.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/wall-street-memes-price-prediction.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/wanna-take-good-care-of-your-crypto-assets-ascendex-earn-offer-you-a-good-choice.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/web3-music-startup-trax-raises-2-9m-in-decentralized-funding-round-more-crypto-news.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/wef-davos-2024-crypto-predictions-and-the-pivot-to-ai.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/why-the-sec-case-against-coinbase-could-spark-a-massive-altcoin-rally.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/worldcoin-hits-record-in-argentina-plans-more-integrations-surpasses-5m-accounts-says-adoption-in-india-still-high.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/x-mining-is-paving-a-new-path-for-bitcoin-mining-via-tokenized-staking-and-improved-sustainability.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/xrp-price-prediction-as-on-chain-data-suggests-ripple-is-hacked-for-100-million-is-xrp-going-to-crash.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/youtubes-new-ceo-neal-mohan-optimistic-about-nfts-metaverse-what-does-mean-for-crypto-industry.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/news/zcash-creator-zooko-wilcox-to-step-down-as-ceo-of-electric-coin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/privacy-policy.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/review_categories/exchanges/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/safari-pinned-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/terms-and-conditions.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aa/cryptonews.com/videos/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/about-us.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/advertising.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/css/style-new.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/empty-kak-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/giphy1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/icons/alfresco-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/icons/arrow-right-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/icons/derby-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/icons/expand_less_FILL0_wght400_GRAD0_opsz24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/icons/expand_less_FILL0_wght400_GRAD0_opsz24.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/icons/expand_more_FILL0_wght400_GRAD0_opsz24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/icons/expand_more_FILL0_wght400_GRAD0_opsz24.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/icons/icon-arrow-left-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/icons/icon-arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/icons/icon-arrow-right-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/icons/icon-arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/icons/icon-pin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/icons/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/icons/logo-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/logos/amkamdam.com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/logos/bitmap_Layer 1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/logos/bitmap_Layer 1_copy_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/logos/da-1.com-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/logos/da-1.com-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/logos/da-1.com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/logos/da.com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/logos/hindex.amkamdam.com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/logos/huy-1.com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/logos/huy.com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/logos/huy/bitmap1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/logos/huy/bitmap6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/logos/huy/logokak-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/logos/huy/logokak-5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/logos/huy1/da-1.com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/logos/intspeed.com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/logos/logo.com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/me_banner/1160x90.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/me_banner/300x250-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/me_banner/300x600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/me_banner/468x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/me_banner/970x250.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/me_banner/970x90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/oreginal_banner/1160x90.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/oreginal_banner/300x250-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/oreginal_banner/300x250.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/oreginal_banner/300x540.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/oreginal_banner/300x600-1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/oreginal_banner/960x200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/images/oreginal_banner/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/js/cookieconsent-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/js/cookieconsent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/js/frontend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/assets/js/me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/cryptocurrency/best-bitcoin-gambling-sites/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/cryptocurrency/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/disclaimer.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/editors/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/exclusives/alex-svanevik-ceo-of-nansen-on-blockchain-data-ai-in-crypto-and-investing-for-the-future-ep-305.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/exclusives/features/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/exclusives/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/exclusives/opinions/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/exclusives/people/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/exclusives/podcast/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/favicon-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/favicon-48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/gambling/casino-utan-svensk-licens/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/gambling/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/gambling/non-gamstop-casinos-uk/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/5-methods-to-buy-bitcoin-with-paypal-instantly.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/altcoins/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/before-you-sell-ethereum.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/best-altcoins.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/best-crypto-wallets.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/best-ethereum-wallets.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/best-micro-cap-crypto.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/bitcoin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/blockchain/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/countries-in-which-bitcoin-is-banned-or-legal.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/cryptocurrency/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/deals/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/defi-guides/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/ethereum/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/how-to-buy-an-nft-on-opensea.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/how-to-invest-in-ethereum.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/icos/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/ledger-nano-x-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/nft/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/opensea-nft-marketplace-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/rarible-nft-marketplace-review.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/should-i-buy-bitcoin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/sorare-review-a-beginners-guide-to-sorare-fantasy-football.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/trading-tools/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/wallet-guides/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/what-is-ethereum.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/guides/who-accepts-bitcoin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/have-a-story.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/abracadabra-money-in-crisis-as-6-5-million-crypto-theft-sends-shockwaves-across-defi-community.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/altcoin-news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/andrew-tates-crypto-proposal-suffers-early-death-and-draws-criticism-from-industry-experts.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/belarusian-cypriot-national-charged-by-us-for-operating-unlicensed-crypto-exchange-btc-e.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/best-anonymous-casinos.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/best-bitcoin-betting-sites.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/best-bitcoin-blackjack-sites.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/best-bitcoin-casinos.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/best-bitcoin-slots-sites.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/best-crash-gambling-sites.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/best-crypto-icos.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/best-crypto-presales.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/best-crypto-to-buy-today-feb-2-rose-pendle-flr.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/best-crypto-to-buy.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/best-instant-withdrawal-bitcoin-casinos.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/best-telegram-casinos.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/biggest-crypto-gainers-today-on-uniswap-dork-gme-bebe.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/billionaire-biohacker-bryan-johnson-dives-into-nft-realm-with-drip-solana-airdrop.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/binance-freezes-4-2m-in-xrp-linked-to-112m-ripple-hack.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/bitcoin-and-ethereum-price-prediction-as-btc-spikes-up-2-and-eth-pushes-past-2300.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/bitcoin-and-ethereum-price-prediction-as-fed-interest-rate-decision-is-announced-new-bull-market-starting.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/bitcoin-news/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/bitcoin-news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/bitcoin-news/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/bitcoin-news/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/bitcoin-news/page/400/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/bitcoin-ordinals-will-play-a-pivotal-role-in-2024-more-top-nft-news-2.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/bitcoin-price-dips-as-fed-chair-powell-says-march-rate-cut-unlikely-where-next-for-btc.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/bitcoin-price-prediction-as-fed-announces-interest-decision.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/bitcoin-price-prediction-btc-at-42000-amid-pboc-moves-fed-keep-rate-steady-at-5-50.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/bitcoin-price-prediction-btc-hits-43000-amid-tesla-el-salvador-news-us-nonfarm-payrolls-in-the-spotlight.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/bitcoin-price-whipsaws-around-43k-after-blockbuster-us-jobs-report-where-next-for-btc.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/blackrocks-bitcoin-etf-surpasses-grayscale-in-daily-trading-volume.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/blackrocks-spot-bitcoin-etf-now-holds-3-billion-in-btc.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/blockchain-news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/bybit-provides-nft-ticket-marketplace-for-robbie-williams-virtual-concert-more-top-nft-news.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/cardano-nfts-top-nft-news-22-january.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/cardano-price-prediction-as-analysts-anticipate-surprising-rally-will-ada-defy-market-trends.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/celsius-emerges-from-bankruptcy-and-will-distribute-3b-crypto-to-creditors.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/cme-group-bitcoin-futures-open-interest-slides-24-as-spot-etfs-gain-traction.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/comedy-icon-larry-david-says-he-was-an-idiot-for-taking-part-in-ftxs-super-bowl-ad.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/convincing-deepfake-video-of-australian-billionaire-promotes-scam-financial-investment.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/cryptic-clues-mysterious-ordinals-inscription-hints-at-cursed-bitcoin-art-whats-going-on.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/crypto-companies-leverage-ai-despite-ongoing-challenges.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/crypto-influencer-bitboy-ends-youtube-show-amid-ongoing-legal-battles.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/crypto-launches.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/crypto-lawyer-reveals-feds-involvement-in-operation-chokepoint-on-digital-assets.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/crypto-market-anticipates-release-of-900m-in-vested-tokens-in-february.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/crypto-web3-ai-blockchain-based-tech-solutions.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/cryptonews-deals/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/defi-news/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/defi-news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/defi-news/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/defiance-capital-wins-in-lawsuit-against-defunct-crypto-fund-3ac-in-singapore.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/derivatives-trading-protocol-aevo-to-launch-native-token-airdrop-confirmed.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/digital-asset-exchange-bybit-applies-for-hong-kongs-vatp-license.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/donald-trump-sells-2-4-million-ethereum-arkham-intelligence.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/donald-trump-unique-nft-collection-sparks-controversy-in-crypto-community.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/doodle-and-g-shock-join-wrists-in-an-nft-collab-more-top-10-news.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/ethereum-co-founder-vitalik-buterin-says-validiums-are-not-genuine-rollup-solutions.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/ethereum-completes-dencun-network-upgrade-on-goerli-testnet-2.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/ethereum-etf-approval-hopes-rise-as-bitcoin-funds-launch-successfully-is-an-sec-nod-around-the-corner.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/ethereum-foundation-announces-devcon-7-conference-in-bangkok-thailand-november-12-15-2024.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/ethereum-news/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/ethereum-news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/ethereum-news/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/ethereum-news/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/ethereum-news/page/64/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/ethereum-smart-contract-framework-updated-to-combat-security-concerns.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/eu-moves-to-ban-bitcoin-to-meet-energy-goals-report.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/evms-evolve-with-parallelized-technology.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/fake-bitcoin-etf-approval-tweet-provides-sneak-peek-into-cryptos-future-ethereum-set-to-gain.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/finance-news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/fintech-provider-monei-kicks-off-eurm-stablecoin-pilot-in-spain.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/football-star-cristiano-ronaldo-plays-football-with-binance-nft-holders-amid-lawsuit.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/gamefi-star-meme-kombat-hits-8-million-raise-as-ico-heads-for-sellout.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/genesis-settles-sec-lawsuit-agrees-to-21-million-civil-penalty-for-earn-product.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/german-dz-bank-plans-to-roll-out-bitcoin-trading-pilot-this-year-report.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/global-x-spot-bitcoin-etf-approval-race-sec-applications.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/gomining-introduces-new-nft-generation-flow-with-the-release-of-the-mine-box-collection.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/group-of-17-russian-banks-officially-joins-second-stage-of-digital-ruble-pilot.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/hong-kong-set-to-release-consultation-on-regulatory-framework-for-otc-crypto-platforms.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/ico-news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/industry-talk/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/jupiter-airdrop-farmer-makes-1-1-million-using-almost-10000-wallets-after-token-launch.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/komodo-cto-exclusive-large-tradfi-players-will-be-entering-crypto-this-year-defi-poised-to-grow-once-again.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/magic-eden-rewards-top-nft-news-today-24-january.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/marathon-digital-snaps-up-two-bitcoin-mining-sites-from-hut-8-for-13-5-million.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/mega-dice-accepts-bonk-and-pepe-and-12-more-new-tokens-as-crypto-casino-expansion-continues.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/metas-reality-labs-reports-4-65-billion-operating-loss-in-q4-2023-as-metaverse-efforts-continue.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/monthly-nft-sales-on-bitcoin-fall-62-more-top-nft-news.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/new-cryptocurrency.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/new-era-fof-nfts-with-rari-chain-top-nft-news-today-26-january.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/next-cryptocurrency-to-explode.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/nft-giant-opensea-keeps-options-open-for-potential-acquisition.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/nft-news/feed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/nft-news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/nft-news/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/nft-news/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/nft-news/page/37/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/organizations-aim-to-shape-nft-regulations-as-digital-assets-gain-adoption.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/page/2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/page/3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/polygon-labs-lays-off-19-of-staff-following-restructuring-increases-workers-pay-by-15.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/press-releases/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/price-predictions/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/rarible-mercedes-nhl-top-nft-news-17-january.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/reserve-bank-of-india-furthers-cbdc-efforts-report.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/rich-dad-poor-dad-author-explains-why-he-owns-bitcoin-over-stocks.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/ripple-co-founder-hacked-of-over-112-million-worth-of-xrp.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/sec-implicitly-recognizes-ether-as-commodity-paving-way-for-etf.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/sec-postpones-decision-on-blackrocks-spot-ethereum-etf-to-march.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/sec-postpones-decision-on-fidelitys-spot-ethereum-etf.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/singapore-authorities-raise-concerns-around-crypto-draining-kits.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/solana-price-prediction-as-crypto-billionaire-arthur-hayes-says-its-time-to-get-back-on-the-solana-train.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/sothebys-breaks-new-ground-with-first-bitcoin-ordinals-poem-sale.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/south-korea-blighted-by-crypto-powered-drug-pollution-report.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/sponsored/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/spot-ether-etf-approval-critera-what-you-need-to-know.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/spot-ethereum-etf-approval-expected-may-23rd-and-could-surge-in-value-new-report-says.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/spot-ethereum-etf-approval-timeline-predictions-td-cowen.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/star-treks-jonathan-frakes-set-to-direct-series-for-jeff-garziks-web3-production-studio-deadline.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/taipei-blockchain-week-opens-with-vitalik-buterin-binances-richard-teng.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/technology-news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/tether-achieves-record-6-2-billion-annual-profit-nears-100-billion-in-assets.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/thailands-sec-orders-zipmex-to-suspend-trading-and-brokerage-services.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/three-arrows-co-founders-opnx-exchange-to-cease-operations-february-2024.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/top-crypto-gainers-today-on-dextools-pork2-south-pork.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/top-nft-news-today-16-january.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/top-nft-news-today-18-january.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/top-nft-news-today-19-january.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/top-nft-news-today-23-january.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/top-nft-news-today-25-january.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/traders-predict-this-is-the-best-bep-20-token-to-buy-as-bnb-price-recovers.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/u-s-congress-members-push-back-against-secs-controversial-accounting-bulletin-sab-121.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/u-s-government-charges-trio-responsible-for-ftxs-missing-400-million-cite-sim-swap-attack.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/u-s-regulatory-approach-pushing-crypto-overseas-new-21shares-report-says.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/uae-and-china-complete-first-13-6m-cross-border-cbdc-transaction.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/uk-remains-one-of-the-few-to-hold-back-on-retail-access-to-crypto-etfs.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/us-spot-bitcoin-etf-options-approval-could-lead-to-regulatory-headache-more-crypto-news.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/user-interface-bug-in-friend-tech-caused-traders-to-overpay-187-eth-for-keys.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/valkyrie-cio-says-market-may-see-ripple-ethereum-etfs-next.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/vitalik-buterin-discusses-challenges-between-crypto-and-ai-warns-tread-carefully.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/vitalik-buterin-proposes-enshrined-zk-evm-for-enhanced-ethereum-main-chain-efficiency.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/vitalik-buterin-proposes-simplified-ethereum-proof-of-stake-design.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/news/vitalik-buterins-zuzalu-retreat-spurs-ethereum-backed-zu-villages-whats-behind-this-mysterious-gathering.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/notfound.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/privacy-policy.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/review_categories/exchanges/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/safari-pinned-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/terms-and-conditions.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/amkamdam.com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/bitmap.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/bitmaphuy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/click-iframe/a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/click-iframe/b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/click-iframe/bb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/click-iframe/c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/click-iframe/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/click-iframe/kak.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/click-iframe/zuy1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/favicon-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/favicon-192x192.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/loading_gif/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/loading_gif/generate_schedule..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/loading_gif/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/test/loading_gif/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/videos/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-chromedriver/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/amkamdam.com.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/amkamdam.com.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amkamdam.com.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/count_replace" beforeDir="false" afterPath="$PROJECT_DIR$/count_replace" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/da.com" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/replace/me-index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/replace/me-index.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +999,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2bApe6KPeUaTC5Ba0bSM16b2BM2" />
+  <component name="ProjectId" id="2bqWV3V8a8eEMB55n3QAa0C2G7X" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -50,6 +1011,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -58,18 +1020,22 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/old-chromedriver" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/replace/assets/css" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/a" />
+      <recent name="$PROJECT_DIR$/aa" />
+      <recent name="$PROJECT_DIR$/replace" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.editallfiles">
+  <component name="RunManager" selected="Python.tor">
     <configuration name="editallfiles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="amkamdam.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,8 +1082,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.editallfiles" />
         <item itemvalue="Python.tor" />
+        <item itemvalue="Python.editallfiles" />
       </list>
     </recent_temporary>
   </component>
@@ -126,60 +1092,42 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="450679db-6ac0-44c4-884f-5365f2d8aea7" name="Default Changelist" comment="" />
-      <created>1705667829390</created>
+      <changelist id="d2b6b28b-633d-488b-a11e-85b21f893e04" name="Default Changelist" comment="" />
+      <created>1706943109439</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1705667829390</updated>
-      <workItem from="1705667830786" duration="13348000" />
-      <workItem from="1705900279363" duration="7190000" />
-      <workItem from="1706005316562" duration="4424000" />
-      <workItem from="1706187432767" duration="6327000" />
-      <workItem from="1706383288713" duration="1246000" />
+      <updated>1706943109439</updated>
+      <workItem from="1706943110722" duration="5789000" />
+      <workItem from="1706951771368" duration="6313000" />
+      <workItem from="1707155587356" duration="658000" />
+      <workItem from="1707160652258" duration="284000" />
+      <workItem from="1707162019645" duration="214000" />
+      <workItem from="1707754565228" duration="3788000" />
+      <workItem from="1708075754892" duration="599000" />
+      <workItem from="1708079761328" duration="328000" />
     </task>
-    <task id="LOCAL-00001" summary="tor visits and clicks on analytics.google.com/ and a-ads.com/">
-      <created>1705683386847</created>
+    <task id="LOCAL-00001" summary="ku">
+      <created>1706943512106</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1705683386847</updated>
+      <updated>1706943512106</updated>
     </task>
-    <task id="LOCAL-00002" summary="tor visits and clicks on analytics.google.com/ and a-ads.com/">
-      <created>1705686303139</created>
+    <task id="LOCAL-00002" summary="ku">
+      <created>1706950287754</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1705686303139</updated>
+      <updated>1706950287754</updated>
     </task>
-    <task id="LOCAL-00003" summary="fixed their css again">
-      <created>1706343139216</created>
+    <task id="LOCAL-00003" summary="rename me-index.html to me-index.xhtml so it doesn't get edited by editallfiles.py">
+      <created>1707047990015</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1706343139216</updated>
+      <updated>1707047990015</updated>
     </task>
-    <task id="LOCAL-00004" summary="fixed their css again">
-      <created>1706343310554</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1706343310554</updated>
-    </task>
-    <task id="LOCAL-00005" summary="fixed their css again">
-      <created>1706344109533</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1706344109533</updated>
-    </task>
-    <task id="LOCAL-00006" summary="fixed their css again">
-      <created>1706345225362</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1706345225362</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,71 +1148,71 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="tor visits and clicks on analytics.google.com/ and a-ads.com/" />
-    <MESSAGE value="fixed their css again" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed their css again" />
+    <MESSAGE value="ku" />
+    <MESSAGE value="rename me-index.html to me-index.xhtml so it doesn't get edited by editallfiles.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="710" y="318" width="1200" height="1009" key="#Deployment" timestamp="1705669274281">
+    <state x="710" y="318" width="1200" height="1009" key="#Deployment" timestamp="1706945737393">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="710" y="318" width="1200" height="1009" key="#Deployment/70.38.2490.1562@70.38.2490.1562" timestamp="1705669274281" />
-    <state x="681" y="301" width="1248" height="1050" key="#SSH_Configurations" timestamp="1705669233889">
+    <state x="710" y="318" width="1200" height="1009" key="#Deployment/70.38.2490.1562@70.38.2490.1562" timestamp="1706945737393" />
+    <state x="681" y="301" width="1248" height="1050" key="#SSH_Configurations" timestamp="1706945708090">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="681" y="301" width="1248" height="1050" key="#SSH_Configurations/70.38.2490.1562@70.38.2490.1562" timestamp="1705669233889" />
-    <state x="916" y="585" width="788" height="475" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1705673359961">
+    <state x="681" y="301" width="1248" height="1050" key="#SSH_Configurations/70.38.2490.1562@70.38.2490.1562" timestamp="1706945708090" />
+    <state x="170" y="138" width="2290" height="1362" key="DiffContextDialog" timestamp="1706949952083">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="916" y="585" width="788" height="475" key="#com.intellij.fileTypes.FileTypeChooser/70.38.2490.1562@70.38.2490.1562" timestamp="1705673359961" />
-    <state x="645" y="186" width="1330" height="1272" key="CommitChangelistDialog2" timestamp="1705686303082">
+    <state x="170" y="138" width="2290" height="1362" key="DiffContextDialog/70.38.2490.1562@70.38.2490.1562" timestamp="1706949952083" />
+    <state x="987" y="465" width="636" height="719" key="FileChooserDialogImpl" timestamp="1707754770839">
+      <screen x="70" y="37" width="2490" height="1563" />
+    </state>
+    <state x="987" y="465" key="FileChooserDialogImpl/70.37.2490.1563@70.37.2490.1563" timestamp="1707754770839" />
+    <state x="987" y="466" width="636" height="719" key="FileChooserDialogImpl/70.38.2490.1562@70.38.2490.1562" timestamp="1707155610006" />
+    <state width="2424" height="424" key="GridCell.Tab.0.bottom" timestamp="1708075721576">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="645" y="186" width="1330" height="1272" key="CommitChangelistDialog2/70.38.2490.1562@70.38.2490.1562" timestamp="1705686303082" />
-    <state x="170" y="138" width="2290" height="1362" key="DiffContextDialog" timestamp="1706418413713">
+    <state width="2424" height="424" key="GridCell.Tab.0.bottom/70.37.2490.1563@70.37.2490.1563" timestamp="1707760422409" />
+    <state width="2424" height="424" key="GridCell.Tab.0.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1708075721576" />
+    <state width="2424" height="424" key="GridCell.Tab.0.center" timestamp="1708075721575">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="170" y="138" width="2290" height="1362" key="DiffContextDialog/70.38.2490.1562@70.38.2490.1562" timestamp="1706418413713" />
-    <state x="992" y="463" width="636" height="719" key="FileChooserDialogImpl" timestamp="1705679806801">
+    <state width="2424" height="424" key="GridCell.Tab.0.center/70.37.2490.1563@70.37.2490.1563" timestamp="1707760422408" />
+    <state width="2424" height="424" key="GridCell.Tab.0.center/70.38.2490.1562@70.38.2490.1562" timestamp="1708075721575" />
+    <state width="2424" height="424" key="GridCell.Tab.0.left" timestamp="1708075721575">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="992" y="463" width="636" height="719" key="FileChooserDialogImpl/70.38.2490.1562@70.38.2490.1562" timestamp="1705679806801" />
-    <state width="2422" height="414" key="GridCell.Tab.0.bottom" timestamp="1706187422906">
+    <state width="2424" height="424" key="GridCell.Tab.0.left/70.37.2490.1563@70.37.2490.1563" timestamp="1707760422407" />
+    <state width="2424" height="424" key="GridCell.Tab.0.left/70.38.2490.1562@70.38.2490.1562" timestamp="1708075721575" />
+    <state width="2424" height="424" key="GridCell.Tab.0.right" timestamp="1708075721575">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="414" key="GridCell.Tab.0.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1706187422906" />
-    <state width="2422" height="414" key="GridCell.Tab.0.center" timestamp="1706187422906">
+    <state width="2424" height="424" key="GridCell.Tab.0.right/70.37.2490.1563@70.37.2490.1563" timestamp="1707760422408" />
+    <state width="2424" height="424" key="GridCell.Tab.0.right/70.38.2490.1562@70.38.2490.1562" timestamp="1708075721575" />
+    <state x="714" y="454" width="1192" height="736" key="NewModule_or_Project.wizard" timestamp="1707155644825">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="414" key="GridCell.Tab.0.center/70.38.2490.1562@70.38.2490.1562" timestamp="1706187422906" />
-    <state width="2422" height="414" key="GridCell.Tab.0.left" timestamp="1706187422905">
+    <state x="714" y="454" width="1192" height="736" key="NewModule_or_Project.wizard/70.38.2490.1562@70.38.2490.1562" timestamp="1707155644825" />
+    <state x="759" y="200" width="1536" height="1261" key="SettingsEditor" timestamp="1707046083362">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="414" key="GridCell.Tab.0.left/70.38.2490.1562@70.38.2490.1562" timestamp="1706187422905" />
-    <state width="2422" height="414" key="GridCell.Tab.0.right" timestamp="1706187422906">
+    <state x="759" y="200" width="1536" height="1261" key="SettingsEditor/70.38.2490.1562@70.38.2490.1562" timestamp="1707046083362" />
+    <state x="1142" y="672" width="343" height="307" key="VCS.EditChangelistDialog" timestamp="1707046711347">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="414" key="GridCell.Tab.0.right/70.38.2490.1562@70.38.2490.1562" timestamp="1706187422906" />
-    <state x="903" y="271" width="1575" height="1262" key="SettingsEditor" timestamp="1706344096768">
+    <state x="1142" y="672" width="343" height="307" key="VCS.EditChangelistDialog/70.38.2490.1562@70.38.2490.1562" timestamp="1707046711347" />
+    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1707047992586">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="903" y="271" width="1575" height="1262" key="SettingsEditor/70.38.2490.1562@70.38.2490.1562" timestamp="1706344096768" />
-    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1706345228395">
-      <screen x="70" y="38" width="2490" height="1562" />
+    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2/70.38.2490.1562@70.38.2490.1562" timestamp="1707047992586" />
+    <state x="906" y="452" width="1232" height="833" key="find.popup" timestamp="1707760659108">
+      <screen x="70" y="37" width="2490" height="1563" />
     </state>
-    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2/70.38.2490.1562@70.38.2490.1562" timestamp="1706345228395" />
-    <state x="866" y="675" width="887" height="295" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1706343256493">
-      <screen x="70" y="38" width="2490" height="1562" />
-    </state>
-    <state x="866" y="675" width="887" height="295" key="git4idea.remote.GitConfigureRemotesDialog/70.38.2490.1562@70.38.2490.1562" timestamp="1706343256493" />
-    <state x="1039" y="635" width="541" height="374" key="webDeployment.PermissionsDialog" timestamp="1705904250035">
-      <screen x="70" y="38" width="2490" height="1562" />
-    </state>
-    <state x="1039" y="635" width="541" height="374" key="webDeployment.PermissionsDialog/70.38.2490.1562@70.38.2490.1562" timestamp="1705904250035" />
+    <state x="906" y="452" width="1232" height="833" key="find.popup/70.37.2490.1563@70.37.2490.1563" timestamp="1707760659108" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/amkamdam_com$editallfiles.coverage" NAME="editallfiles Coverage Results" MODIFIED="1706006011271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/amkamdam_com$tor.coverage" NAME="tor Coverage Results" MODIFIED="1705682154932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/amkamdam_com$editallfiles.coverage" NAME="editallfiles Coverage Results" MODIFIED="1707053757424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/amkamdam_com$tor.coverage" NAME="tor Coverage Results" MODIFIED="1707757081424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

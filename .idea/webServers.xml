@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="d06d2196-1fb1-4527-bb31-76ec550619a9" name="amkamdam">
-        <fileTransfer accessType="SFTP" host="212.227.199.128" port="22" sshConfigId="219eb9ff-d54f-49d8-9d8f-6179ce21b565" sshConfig="al@212.227.199.128:22 agent" authAgent="true">
+      <webServer id="2de500c8-2a05-4aa7-aac4-f17b99e7edf8" name="amkamdam">
+        <fileTransfer accessType="SFTP" host="212.227.199.128" port="22" sshConfigId="6a6717e1-6974-45d9-8676-69babd9dc1da" sshConfig="amkamdam" authAgent="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
