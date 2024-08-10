@@ -1,0 +1,24 @@
+$(document).ready(function() {
+    $('.exchange-post__gallery-list-link').on('click', function(e) {
+        const ths = $(this);
+        const wrapper = ths.closest('.exchange-post__gallery-list');
+        const imgSrc = ths.attr('href');
+        const viewImg = ths.closest('.exchange-post__gallery').find('.exchange-post__gallery-view img');
+        viewImg.attr('src', imgSrc);
+        wrapper.find('.active').removeClass('active');
+        ths.addClass('active');
+        e.preventDefault();
+    });
+
+    $('.exchange-post__toggle-control').on('click', function(e) {
+        const ths = $(this);
+        const toggleBody = ths.closest('.exchange-post__toggle').find('.exchange-post__toggle-body');
+        if (ths.hasClass('active')) {
+            toggleBody.slideUp(300);
+            ths.removeClass('active');
+        } else {
+            toggleBody.slideDown(300);
+            ths.addClass('active');
+        }
+    });
+})

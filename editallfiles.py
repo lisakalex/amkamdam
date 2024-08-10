@@ -1,4 +1,4 @@
-#!/home/al/.amkamdam/bin/python
+#!/home/al/.amkamdam/bin/python3
 import glob2
 from bs4 import BeautifulSoup
 import time
@@ -13,7 +13,7 @@ shutil.copytree('./replace/', './a/cryptonews.com/', dirs_exist_ok=True)
 
 # noinspection PyInterpreter
 def replace_header_footer(read_file1):
-    with open('replace/me-index.xhtml', 'r') as file1:
+    with open('replace/me-index.xhtml', 'r', encoding='utf-8') as file1:
         soup = BeautifulSoup(file1.read(), features="html.parser")
 
     head = soup.find("head")
@@ -51,24 +51,24 @@ def replace_header_footer(read_file1):
 
 files = ['html', 'htm']
 count_replace = 1
-with open('replaced', "w") as file:
+with open('replaced', "w", encoding='utf-8') as file:
     file.write('')
 
 for fl in files:
     for filepath in glob2.iglob('./a/cryptonews.com/**/*.' + fl, recursive=True):
         print(str(count_replace) + ' ' + filepath)
         todaytime = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
-        with open('replaced', "a") as file:
+        with open('replaced', "a", encoding='utf-8') as file:
             file.write(todaytime + ' ' + str(count_replace) + ' ' + filepath + '\n')
 
-        with open(filepath) as file:
+        with open(filepath, 'r', encoding='utf-8') as file:
             read_file = file.read()
 
         read_file = replace_header_footer(read_file)
         # read_file = insert_in_head(read_file)
         count_replace = count_replace + 1
 
-        with open(filepath, "w") as file:
+        with open(filepath, "w", encoding='utf-8') as file:
             file.write(read_file)
 
 shutil.rmtree('./html', ignore_errors=True)
@@ -81,10 +81,10 @@ finish_time = round(finish_time / 60, 2)
 print('copied ' + str(count_replace) + ' files, time taken ' + str(finish_time) + ' min')
 
 todaytime = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
-with open('count_replace', "a") as file:
+with open('count_replace', "a", encoding='utf-8') as file:
     file.write('\n' + todaytime + ' files ' + str(count_replace) + ', time ' + str(finish_time) + ' min\n')
 
-with open('replaced', "a") as file:
+with open('replaced', "a", encoding='utf-8') as file:
     file.write(todaytime + ' files ' + str(count_replace) + ', time ' + str(finish_time) + ' min\n')
 
 ha = None

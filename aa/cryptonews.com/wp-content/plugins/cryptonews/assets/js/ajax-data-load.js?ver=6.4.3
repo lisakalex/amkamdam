@@ -1,0 +1,192 @@
+
+jQuery(document).ready(function () {
+
+    function getUrlParameter(sParam) {
+        let sPageURL = window.location.search.substring(1),
+            sURLvariables = sPageURL.split('&'),
+            sParameterName,
+            i;
+
+        for (i = 0; i < sURLvariables.length; i++) {
+            sParameterName = sURLvariables[i].split('=');
+
+            if (sParameterName[0] === sParam) {
+                return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+            }
+        }
+        return false;
+    };
+
+    function getResults(startPage, filterType, sortType, period, clearResults) {
+        let btnMore = $('.load-more-button');
+        let resList = $('.search-results__list');
+        let separator = $('.search-results__separator');
+        let noPosts = $('.search__no-posts');
+
+        $.ajax({
+            type: 'POST',
+            url: site_vars.url,
+            data: {
+                'action': 'get_search_result_by_ajax',
+                'page': startPage,
+                searchKeyword,
+                filterType,
+                sortType,
+                period
+            },
+            success: function (response) {
+                $('.search-preloader').addClass('hide');
+                noPosts.removeClass('show');
+                btnMore.removeClass('hide');
+                separator.show();
+
+                if (filterType === 'topics' || filterType === 'coins') {
+                    btnMore.addClass('hide');
+                    separator.hide();
+                }
+                if (clearResults === true) {
+                    resList.empty();
+                }
+
+                if (response.content.length > 1 && (response.content.includes('col-4 col-md-12')
+                    || response.content.includes('col-12 col-md-6 col-lg-4 col-xl-4 mb-30'))) {
+                    btnMore.removeClass('hide');
+                    separator.removeClass('hide');
+                    resList.append(response.content);
+                } else {
+                    isAjaxItemsFound = false;
+                    btnMore.addClass('hide');
+                    separator.addClass('hide');
+                    noPosts.addClass('show');
+                }
+                startAjaxLoading = false;
+            },
+            fail: function () {
+                startAjaxLoading = false;
+                isAjaxItemsFound = false;
+            }
+        });
+    }
+
+    let searchKeyword = getUrlParameter('s');
+    let startAjaxLoading = false;
+    let isAjaxItemsFound = true;
+    let startPage = 1;
+
+    $('.load-more-button').click(function (e) {
+        e.preventDefault();
+
+        startPage++;
+        startAjaxLoading = true;
+        $('.search-preloader').removeClass('hide');
+
+        let sortType = $('.search_filters__sort_item.active').data('sort-type');
+        let filterType = $('.search_filters__filter_item.active').data('filter');
+        let period = $('.search_filters__period_item.active').data('period');
+
+        if (filterType === 'guides' || filterType === 'coins') {
+            period = 'three-years';
+            sortType = 'DESC';
+        }
+
+        getResults(startPage, filterType, sortType, period, false);
+    });
+
+    $('.search_filters__filter_item').click(function (e) {
+        e.preventDefault();
+
+        if($(this).hasClass('active')) {
+            return false;
+        }
+
+        $('.search-preloader').removeClass('hide');
+        startAjaxLoading = true;
+
+        startPage = 1;
+        let filterType = $(this).data('filter');
+        let sortType = $('.search_filters__sort_item.active').data('sort-type');
+        let period = $('.search_filters__period_item.active').data('period');
+
+        $('.search_filters__blocks').show();
+        if (filterType === 'guides' || filterType === 'coins') {
+            $('.search_filters__blocks').hide();
+            period = 'three-years';
+            sortType = 'DESC';
+        }
+
+        $('.search_filters__filter_item').removeClass('active');
+        $(this).addClass('active');
+
+        getResults(startPage, filterType, sortType, period, true);
+    });
+
+    $('.search_filters__sort_item').click(function (e) {
+        e.preventDefault();
+
+        $('.search-preloader').removeClass('hide');
+        startAjaxLoading = true;
+
+        startPage = 1;
+        let sortType = $(this).data('sort-type');
+        let filterType = $('.search_filters__filter_item.active').data('filter');
+        let period = $('.search_filters__period_item.active').data('period');
+
+        if (filterType === 'guides' || filterType === 'coins') {
+            period = 'three-years';
+            sortType = 'DESC';
+        }
+
+        $('.search_filters__sort_item').removeClass('active');
+        $(this).addClass('active');
+
+        getResults(startPage, filterType, sortType, period, true);
+    });
+
+    $('.search_filters__period_item').click(function (e) {
+        e.preventDefault();
+
+        $('.search-preloader').removeClass('hide');
+        startAjaxLoading = true;
+
+        startPage = 1;
+        let period = $(this).data('period');
+        let filterType = $('.search_filters__filter_item.active').data('filter');
+        let sortType = $('.search_filters__sort_item.active').data('sort-type');
+
+        if (filterType === 'guides' || filterType === 'coins') {
+            period = 'three-years';
+            sortType = 'DESC';
+        }
+
+        $('.search_filters__period_item').removeClass('active');
+        $(this).addClass('active');
+
+        getResults(startPage, filterType, sortType, period, true);
+    });
+
+    $('.homepage-block__selected-articles-tag').click(function (e) {
+        startAjaxLoading = true;
+        let description = $('.homepage-block__selected-articles-text');
+        let categoryKey = $(this).data('category-key');
+
+        $.ajax({
+            type: 'POST',
+            url: site_vars.url,
+            data: {
+                'action': 'get_selected_articles_description_by_ajax',
+                'categoryKey': categoryKey,
+            },
+            success: function (response) {
+
+                description.empty();
+                description.append(response.content);
+
+                startAjaxLoading = false;
+            },
+            fail: function () {
+                startAjaxLoading = false;
+                isAjaxItemsFound = false;
+            }
+        });
+    });
+});
