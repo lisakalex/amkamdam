@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="https://schema.org/WebPage">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="theme-color" content="#ffffff">
+
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '950573196594703');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=950573196594703&ev=PageView&noscript=1"
+/></noscript>
+
+<title>Register - Coin Poker</title>
+<meta name="description" content="Register now on CoinPoker to join the thrilling world of online poker. Quick sign-up process to start playing and winning instantly!">
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://coinpoker.com/register/">
+<meta property="og:url" content="https://coinpoker.com/register/">
+<meta property="og:site_name" content="Coin Poker">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="article:author" content>
+<meta property="article:publisher" content>
+<meta property="og:title" content="Register - Coin Poker">
+<meta property="og:description" content="Register now on CoinPoker to join the thrilling world of online poker. Quick sign-up process to start playing and winning instantly!">
+<meta property="og:image" content>
+<meta property="og:image:secure_url" content>
+<meta property="fb:pages" content>
+<meta property="fb:admins" content>
+<meta property="fb:app_id" content>
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content>
+<meta name="twitter:creator" content>
+<meta name="twitter:title" content="Register - Coin Poker">
+<meta name="twitter:description" content="Register now on CoinPoker to join the thrilling world of online poker. Quick sign-up process to start playing and winning instantly!">
+<link href="https://fonts.gstatic.com" crossorigin rel="preconnect" />
+<link rel="alternate" type="application/rss+xml" title="Coin Poker &raquo; Feed" href="https://coinpoker.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Coin Poker &raquo; Comments Feed" href="https://coinpoker.com/comments/feed/" />
+<style id="wp-emoji-styles-inline-css" type="text/css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel="stylesheet" id="wp-block-library-css" href="https://coinpoker.com/wp-includes/css/dist/block-library/style.min.css?ver=6.5.4" type="text/css" media="all" />
+<style id="classic-theme-styles-inline-css" type="text/css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="blankslate-style-css" href="https://coinpoker.com/wp-content/themes/coinpoker/style.css?ver=1.2.14" type="text/css" media="all" />
+<link rel="stylesheet" id="mytheme-main-css" href="https://coinpoker.com/wp-content/themes/coinpoker/dist/styles/main.css?ver=1.2.14" type="text/css" media="all" />
+<link rel="stylesheet" id="tablepress-default-css" href="https://coinpoker.com/wp-content/plugins/tablepress/css/build/default.css?ver=2.1.5" type="text/css" media="all" />
+<script type="text/javascript" src="https://coinpoker.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://coinpoker.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://coinpoker.com/wp-json/" /><link rel="alternate" type="application/json" href="https://coinpoker.com/wp-json/wp/v2/pages/12058" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://coinpoker.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.5.4" />
+<link rel="shortlink" href="https://coinpoker.com/?p=12058" />
+<link rel="alternate" type="application/json+oembed" href="https://coinpoker.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcoinpoker.com%2Fregister%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://coinpoker.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcoinpoker.com%2Fregister%2F&#038;format=xml" />
+<link rel="alternate" hreflang="x-default" href="https://coinpoker.com/register/?token=fx_b78699_ac827b773e4732c1d0b6fff70a17457c_1&affid=CryptonewsEN" /><link rel="alternate" hreflang="en" href="https://coinpoker.com/register/?token=fx_b78699_ac827b773e4732c1d0b6fff70a17457c_1&affid=CryptonewsEN" /><link rel="alternate" hreflang="ru" href="https://ru.coinpoker.com/register/?token=fx_b78699_ac827b773e4732c1d0b6fff70a17457c_1&affid=CryptonewsEN" /><link rel="alternate" hreflang="ja" href="https://jp.coinpoker.com/register/?token=fx_b78699_ac827b773e4732c1d0b6fff70a17457c_1&affid=CryptonewsEN" /><link rel="alternate" hreflang="es" href="https://es.coinpoker.com/register/?token=fx_b78699_ac827b773e4732c1d0b6fff70a17457c_1&affid=CryptonewsEN" /><link rel="alternate" hreflang="it" href="https://it.coinpoker.com/register/?token=fx_b78699_ac827b773e4732c1d0b6fff70a17457c_1&affid=CryptonewsEN" /><link rel="alternate" hreflang="pt" href="https://pt.coinpoker.com/register/?token=fx_b78699_ac827b773e4732c1d0b6fff70a17457c_1&affid=CryptonewsEN" /><link rel="alternate" hreflang="zh" href="https://zh.coinpoker.com/register/?token=fx_b78699_ac827b773e4732c1d0b6fff70a17457c_1&affid=CryptonewsEN" />
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KWBG6NG');</script>
+
+<link rel="icon" href="https://coinpoker.com/wp-content/uploads/2023/09/cropped-CoinPoker_Icon-2-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://coinpoker.com/wp-content/uploads/2023/09/cropped-CoinPoker_Icon-2-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://coinpoker.com/wp-content/uploads/2023/09/cropped-CoinPoker_Icon-2-180x180.png" />
+<meta name="msapplication-TileImage" content="https://coinpoker.com/wp-content/uploads/2023/09/cropped-CoinPoker_Icon-2-270x270.png" />
+</head>
+<body class="page-template page-template-template-register page-template-template-register-php page page-id-12058 wp-embed-responsive">
+<a href="#content" class="skip-link screen-reader-text">Skip to the content</a>
+<div class="nomenu-bgs">
+<div class="nomenu-container container">
+<div class="row pl-15 pr-15">
+<div class="col-12 col-md-6 col-lg-5">
+<div class="header-logo">
+<a href="https://coinpoker.com" class="header-logo"><img src="https://coinpoker.com/wp-content/themes/coinpoker/logo.svg" alt="Coinpoker"></a></div>
+<div class="row">
+<div class="col-12">
+<h1 class="h3 mt-md-120 mt-40 nomenu-h3">Sign Up</h1>
+<p data-aos="fade" data-aos-delay="400" class="mb-48 aos-init aos-animate">Get started, enter your details.</p>
+
+<div class="singup-form">
+<form id="signup-form" action method="post">
+<label class="input-wrap mb-25">
+<span class="color-white d-inline-block fs-14 mb-5">Email Address</span>
+<input type="email" name="user_email" class="input" placeholder="Type here your email address...">
+</label>
+<label class="input-wrap mb-25">
+<span class="color-white d-inline-block fs-14 mb-5">NickName</span>
+<input type="text" name="user_name" class="input" placeholder="Type here your nickname...">
+</label>
+<label class="input-wrap mb-25 nomenu-pass-container">
+<span class="color-white d-inline-block fs-14 mb-5">Password</span>
+<input type="password" name="user_password" class="input" placeholder="Enter your password...">
+<div class="nomenu-pass-icon">
+<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.23716 6.7528C1.08279 6.5321 1 6.26928 1 5.99995C1 5.73063 1.08279 5.46781 1.23716 5.24711C2.23819 3.82988 4.70291 0.908875 8.00002 0.908875C11.2971 0.908875 13.7618 3.82988 14.7629 5.24711C14.9172 5.46781 15 5.73063 15 5.99995C15 6.26928 14.9172 6.5321 14.7629 6.7528C13.7618 8.17002 11.2971 11.091 8.00002 11.091C4.70291 11.091 2.23819 8.17002 1.23716 6.7528Z" stroke="#9096AF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="square" />
+<path d="M8.00013 8.54542C9.40599 8.54542 10.5457 7.40575 10.5457 5.99988C10.5457 4.59402 9.40599 3.45435 8.00013 3.45435C6.59427 3.45435 5.45459 4.59402 5.45459 5.99988C5.45459 7.40575 6.59427 8.54542 8.00013 8.54542Z" stroke="#9096AF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="square" />
+</svg>
+</div>
+</label>
+<label class="input-wrap mb-25">
+<span class="color-white d-inline-block fs-14 mb-5">CODE (Optional)</span>
+<input type="text" name="ReferralCode" class="input" placeholder="Referral Code">
+</label>
+<div class="text-center">
+<div class="alert alert-danger form-errors text-capitalize" role="alert" style="display: none;"></div>
+<button type="submit" name="register_user" class="button nomenu button--submit" data-bs-toggle="modal" data-bs-target="#successModal">
+Sign Up
+</button>
+</div>
+</form>
+</div>
+
+</div>
+</div>
+<script>
+  jQuery(document).ready(function($) {
+    $('#signup-form').submit(function(e) {
+      e.preventDefault();
+
+      var email = $('[name="user_email"]').val();
+      var password = $('[name="user_password"]').val();
+      var nickname = $('[name="user_name"]').val();
+      var referral = $('[name="ReferralCode"]').val();
+      var affiliate = $('[name="Affiliate"]').val();
+      
+      $.ajax({
+        url: 'https://webapi.coinpoker.com/api/v1/auth/register',
+        method: 'POST',
+        data: {
+          Email: email,
+          Password: password,
+          Nickname: nickname,
+          ...(affiliate ? { Affiliate: affiliate } : {}),
+          ...(referral ? { ReferralCode: referral } : {}),
+          TermsOfService: true
+        },
+        success: function(response) {
+          console.log('Success:', response);
+          // Handle success response here
+          $('.form-errors').hide(); // Hide the error div
+          var redirectUrl = '/signup-verification/?email=' + encodeURIComponent(email);
+          window.location.href = redirectUrl;
+        },
+        error: function(xhr, status, error) {
+          console.log('Error:', error);
+          var errorMessage = 'An error occurred. Please try again.';
+          if (xhr && xhr.responseJSON && xhr.responseJSON.message) {
+            errorMessage = xhr.responseJSON.message;
+            if(xhr.responseJSON.details) {
+                errorMessage = xhr.responseJSON.details;
+            }
+          }
+          $('.form-errors').text(errorMessage).show();
+        }
+      });
+    });
+  });
+</script>
+</div>
+<div class="col-12 col-md-6 offset-lg-1 d-none d-md-flex">
+<div class="nomenu-bgimage">
+<img src="https://coinpoker.com/wp-content/uploads/register-advantages.png" alt="Register advantages" data-aos="fade" class="aos-init aos-animate">
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+        jQuery(document).ready(function($) {
+            var deviceAgent = navigator.userAgent.toLowerCase();
+            if (deviceAgent.match(/(iphone|ipod|ipad)/)) {
+                $("html").addClass("ios");
+                $("html").addClass("mobile");
+            }
+            if (deviceAgent.match(/(Android)/)) {
+                $("html").addClass("android");
+                $("html").addClass("mobile");
+            }
+            if (navigator.userAgent.search("MSIE") >= 0) {
+                $("html").addClass("ie");
+            } else if (navigator.userAgent.search("Chrome") >= 0) {
+                $("html").addClass("chrome");
+            } else if (navigator.userAgent.search("Firefox") >= 0) {
+                $("html").addClass("firefox");
+            } else if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) {
+                $("html").addClass("safari");
+            } else if (navigator.userAgent.search("Opera") >= 0) {
+                $("html").addClass("opera");
+            }
+        });
+    </script>
+<script type="text/javascript" id="rocket-browser-checker-js-after">
+/* <![CDATA[ */
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/coinpoker.com","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-after">
+/* <![CDATA[ */
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://coinpoker.com/wp-content/themes/coinpoker/assets/scripts/main.js?ver=1.2.14" id="mytheme-main-js"></script>
+</body>
+</html>
