@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row mb-20"><div class="col-12">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/news/">News</a>
+<a href="/news/indian-crypto-exchanges-expect-clear-regulations-following-g20-declaration.htm">Indian Crypto Exchanges Expect Clear Regulations Following G20 Declaration</a>
+</div>
+</div></div>
+<div class="row">
+<main class="col-12 col-md-8">
+<div class="row">
+<div class="col-12 col-md-3 d-none d-md-block">
+<div class="d-none d-md-block mb-30 mt-60">
+<a href="/editors/jai-pratap/">
+<img alt="Jai Pratap" class="img-fluid img-circle author__image mb-15" loading="auto" src="https://cimg.co/authors/986/imgpsh-fullsize-anim.jpeg" srcset="https://cimg.co/authors/986/responsive-images/imgpsh-fullsize-anim___media_library_original_300_300.jpeg 300w" style="max-width:80px; max-height:80px;" width="300"/>
+</a> <div>
+<a class="c-black" href="/editors/jai-pratap/"><b>Jai Pratap</b></a>
+</div>
+<div>
+<a class="c-text" href="/editors/jai-pratap/">@jai-pratap</a>
+</div>
+<div class="text-left mt-5">
+</div>
+</div>
+</div>
+<div class="col-12 col-md-9 mb-40">
+<div class="row mb-20">
+<div class="col-6">
+<div class="fs-12">
+<time datetime="2023-09-15T06:46:00+00:00">
+                                            Sep 15, 2023 2:46 AM EDT
+                                        </time>
+                                                                        · 3 min read</div>
+</div>
+<div class="col-6 text-right">
+</div>
+<div class="col-6 mt-20 d-md-none d-block">
+<div>
+<a class="c-black" href="/editors/jai-pratap/"><b>Jai Pratap</b></a>
+</div>
+<div>
+<a class="c-dark-grey" href="/editors/jai-pratap/">@jai-pratap</a>
+</div>
+<div class="text-left mt-5">
+</div>
+</div>
+</div>
+<div class="article-single__content category_contents_details">
+<h1 class="mb-40">Indian Crypto Exchanges Expect Clear Regulations Following G20 Declaration</h1>
+<div class="dslot text-right" did="9" style="min-height: 90px;">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/970x90.jpg" width=""/>
+</div>
+<figure class="image"><img alt="" class="content-img" src="https://cimg.co/news/124923/329968/india-g20-pexels-1.jpg" srcset="https://cimg.co/news/124923/329968/responsive-images/india-g20-pexels-1___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/124923/329968/responsive-images/india-g20-pexels-1___media_library_original_900_600.jpg 900w, https://cimg.co/news/124923/329968/responsive-images/india-g20-pexels-1___media_library_original_720_480.jpg 720w, https://cimg.co/news/124923/329968/responsive-images/india-g20-pexels-1___media_library_original_600_400.jpg 600w, https://cimg.co/news/124923/329968/responsive-images/india-g20-pexels-1___media_library_original_300_200.jpg 300w" width="1200"/><figcaption>Source: Pexels</figcaption></figure><p>The recent push by G20 members to establish a global framework to regulate crypto has sent a wave of optimism among Indian crypto firms and investors. </p><p>India’s intention to work with global consensus on regulating the crypto industry has come as good news for domestic crypto exchanges, which have been living under uncertainty for a long time. </p><p>The recent <a href="/news/key-g20-policy-paper-suggests-against-blanket-crypto-ban-calls-for-comprehensive-regulatory-oversight.htm">recommendations on crypto regulations</a> by the International Monetary Fund (IMF) and Financial Stability Board (FSB) are seen as a first step towards achieving clear and effective regulations in India.</p><h2>Indian Exchanges Optimistic After G20 Declaration</h2><p>In an interview with CryptoNews, Chief Public Policy Officer at CoinDCX, Kiran Mysore Vivekananda, said that the <a href="https://www.fsb.org/2023/09/imf-fsb-synthesis-paper-policies-for-crypto-assets/" target="_blank">IMF-FSB synthesis paper</a> combines everything and gives sort of guidance to authorities to look at macroeconomic and financial stability risks and frame regulations accordingly. </p><p>He further noted that the proposed paper includes nine high level recommendations that mainly deal with taxonomy of crypto, the travel rule to stop money laundering and anti-terror funding, consumer protection, operational standards for crypto firms, and a uniform taxation. </p><blockquote><p>“With these high level recommendations made by IMF-FSB in the synthesis paper, we as an industry are super excited about the movement which has happened, which is positive, and we look forward to supporting the government and creating a progressive regulation.”</p></blockquote><p>In an email to CryptoNews, CoinSwitch’s co-founder and CEO, Ashish Singha said:</p><blockquote><p>“The Indian government has not only undertaken measures to expand the dialogue but has also made concerted efforts to improve the understanding of virtual digital assets (VDAs). Recognizing the importance of a global consensus on crypto represents a significant and positive stride for the industry.” </p></blockquote><h2>“The best way forward is a self regulatory mechanism”</h2><p>Stressing on the importance of having a self regulatory mechanism for the crypto industry, Kiran Mysore Vikeanada of CoinDCX said that he believes that the best way forward is a self regulatory mechanism that is overseen by the ministry of finance. He said:</p><blockquote><p>“You have an industry who is serious about it, and they self-regulate, and there is also oversight of the government like the Ministry of Finance, I think it would be a win-win situation and we have seen self regulatory mechanisms working domestically in India in many other sectors.”</p></blockquote><p>Kiran also cited the example of Japan where self regulatory mechanism has proven effective.</p><blockquote><p>“There are examples in crypto where a self regulatory mechanism has worked.  Japan has played a very key role here, where they have moved towards self regulatory mechanisms and during the FTX debacle. Majority of the Japanese investors were safeguarded, because they had set up this SRO methodology.”</p></blockquote><p>While delivering the keynote address at the <a href="https://economictimes.indiatimes.com/markets/stocks/news/rbi-governor-urges-fintech-companies-to-form-self-regulatory-body/articleshow/103447108.cms?from=mdr" target="_blank">Global FinTech Fest 2023</a> earlier this month, the Reserve Bank of India’s Governor Shaktikanta Das urged fintech firms to establish a self regulatory organization themselves. </p><blockquote><p>"It (SRO) will give you (fintechs) an opportunity to voice your requirements more frequently to the SRO. The other advantage is that all the aspects of regulation will not be burdened on the RBI," Governor Das said. </p></blockquote><h2>Will the Indian Government Roll Back Heavy Tax Regulations on Crypto? </h2><p>India currently imposes <a href="/news/indias-crypto-space-been-crippled-under-crypto-tax-laws-report.htm">heavy taxes on crypto gains</a> and mandates 1% TDS (Tax Deductible at Source) on every crypto trade.Talking about heavy crypto tax regulations in India, Vivekananda, said: </p><blockquote><p>“Last year when India introduced TDS (Tax Deducted at Source), their intention was to discourage people from investing in crypto. Now the Chainalysis report shows India as the leading country in adopting crypto. And our data shows that 18% of active users in the top five foreign exchanges are Indians. That clearly shows that adoption has not come down. So the purpose of introducing TDS has failed.”</p></blockquote><p>He added that it is important for India to have global cooperation and consensus on taxation.</p><div class="dslot row mb-20" did="5">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/970x250.jpg" width=""/>
+</div><p>As reported earlier, India ranked 1st in <a href="/news/india-tops-chainalysis-global-crypto-adoption-index-despite-heavy-tax-regulations.htm">Chainalysis’ Global Crypto Adoption Index</a> that evaluated more than 150 countries based on several metrics to gauge grassroots adoption of cryptocurrency. </p><p>For the time being, retail Indian crypto investors are majorly relying on foreign P2P services for trading crypto to evade taxes and turning away from centralized exchanges. </p><p>Given India is looking to take a regulatory approach towards crypto, domestic players are expecting to get things more clear soon with proper regulations in place. </p>
+<div class="mb-15 text-right">
+</div>
+<div class="dslot" did="12">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/970x90.jpg" width=""/>
+</div> </div>
+<div class="modal__content text-white">
+</div>
+<div class="row mt-10 mb-10">
+<div class="col-6">
+<div class="fs-12">
+<time datetime="2023-09-15T06:46:00+00:00">
+                                            Sep 15, 2023 2:46 AM EDT
+                                        </time>
+</div>
+</div>
+<div class="col-6 text-right">
+</div>
+</div>
+<hr/>
+<div class="align-self-end mt-5">
+<div class="article-tag-box text-lg-right">
+</div>
+</div>
+</div>
+</div>
+</main>
+<div class="col-12 offset-lg-1 col-lg-3">
+<div class="dslot d-none d-lg-block mb-40" did="6" style="min-height:600px;">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/300x600.jpg" width=""/>
+</div>
+<h3 class="mb-20">Recommended</h3>
+<div class="mb-40 col-lg-60">
+<div class="row" id="load_more_target">
+<div class="col-6 col-md-4 col-lg-12"><article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/ben-bitboy-crypto-fired-from-his-own-company-in-coup-whats-going-on.htm">
+<div class="img-sized"><img alt="Ben 'BitBoy' Crypto Fired From His Own Company In 'Coup' - What's Going On?" class="img-fluid" loading="auto" src="https://cimg.co/news/123580/326765/bitboy-media-library-orig.jpg" srcset="https://cimg.co/news/123580/326765/responsive-images/bitboy-media-library-orig___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/123580/326765/responsive-images/bitboy-media-library-orig___media_library_original_900_600.jpg 900w, https://cimg.co/news/123580/326765/responsive-images/bitboy-media-library-orig___media_library_original_720_480.jpg 720w, https://cimg.co/news/123580/326765/responsive-images/bitboy-media-library-orig___media_library_original_600_400.jpg 600w, https://cimg.co/news/123580/326765/responsive-images/bitboy-media-library-orig___media_library_original_300_200.jpg 300w" width="1200"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/blockchain-news/"> Blockchain News </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-08-28 17:52:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/ben-bitboy-crypto-fired-from-his-own-company-in-coup-whats-going-on.htm">
+<h4>Ben 'BitBoy' Crypto Fired From His Own Company In 'Coup' - What's Going On?</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-6 col-md-4 col-lg-12"><article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/coinbase-pushes-toward-global-expansion-sets-sights-regulated-markets.htm">
+<div class="img-sized"><img alt="Coinbase Pushes Toward Global Expansion, Sets Sights On Regulated Markets" class="img-fluid" loading="auto" src="https://cimg.co/news/124521/328920/adobestock-449548306-edit.jpg" srcset="https://cimg.co/news/124521/328920/responsive-images/adobestock-449548306-edit___media_library_original_1200_807.jpg 1200w, https://cimg.co/news/124521/328920/responsive-images/adobestock-449548306-edit___media_library_original_900_605.jpg 900w, https://cimg.co/news/124521/328920/responsive-images/adobestock-449548306-edit___media_library_original_720_484.jpg 720w, https://cimg.co/news/124521/328920/responsive-images/adobestock-449548306-edit___media_library_original_600_404.jpg 600w, https://cimg.co/news/124521/328920/responsive-images/adobestock-449548306-edit___media_library_original_300_202.jpg 300w" width="1200"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/blockchain-news/"> Blockchain News </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-08 21:18:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/coinbase-pushes-toward-global-expansion-sets-sights-regulated-markets.htm">
+<h4>Coinbase Pushes Toward Global Expansion, Sets Sights On Regulated Markets</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-6 col-md-4 col-lg-12"><article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/fbi-identifies-north-korean-lazarus-group-as-culprit-behind-41-million-stake-casino-hack.htm">
+<div class="img-sized"><img alt="FBI Identifies North Korean Lazarus Group as Culprit Behind $41 Million Stake Casino Hack" class="img-fluid" loading="auto" src="https://cimg.co/news/124509/328803/north-korean-hacker.jpeg" srcset="https://cimg.co/news/124509/328803/responsive-images/north-korean-hacker___media_library_original_1500_1000.jpeg 1500w, https://cimg.co/news/124509/328803/responsive-images/north-korean-hacker___media_library_original_1200_800.jpeg 1200w, https://cimg.co/news/124509/328803/responsive-images/north-korean-hacker___media_library_original_900_600.jpeg 900w, https://cimg.co/news/124509/328803/responsive-images/north-korean-hacker___media_library_original_720_480.jpeg 720w, https://cimg.co/news/124509/328803/responsive-images/north-korean-hacker___media_library_original_600_400.jpeg 600w, https://cimg.co/news/124509/328803/responsive-images/north-korean-hacker___media_library_original_300_200.jpeg 300w" width="1500"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/blockchain-news/"> Blockchain News </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-08 19:00:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/fbi-identifies-north-korean-lazarus-group-as-culprit-behind-41-million-stake-casino-hack.htm">
+<h4>FBI Identifies North Korean Lazarus Group as Culprit Behind $41 Million Stake Casino Hack</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+<div class="dslot mb-40 d-none d-lg-block" did="7">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/300x250-mobile.jpg" width=""/>
+</div>
+<div class="dslot d-lg-none" did="8">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/468x60.png" width=""/>
+</div>
+<div class="d-none d-lg-block">
+<h3 class="mb-20">Latest news</h3>
+<div class="mb-30">
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/virtual-currency-chief-at-nysdfs-leaves-pursue-career-private-sector.htm">
+<div class="small-image-list img-sized"><img alt="Virtual Currency Chief at NYSDFS Leaves to Pursue a Career in Private Sector" class="" loading="auto" src="https://cimg.co/news/124924/329969/statue-of-liberty-gc0edba.jpg" srcset="https://cimg.co/news/124924/329969/responsive-images/statue-of-liberty-gc0edba___media_library_original_1920_1079.jpg 1920w, https://cimg.co/news/124924/329969/responsive-images/statue-of-liberty-gc0edba___media_library_original_1200_674.jpg 1200w, https://cimg.co/news/124924/329969/responsive-images/statue-of-liberty-gc0edba___media_library_original_900_506.jpg 900w, https://cimg.co/news/124924/329969/responsive-images/statue-of-liberty-gc0edba___media_library_original_720_405.jpg 720w, https://cimg.co/news/124924/329969/responsive-images/statue-of-liberty-gc0edba___media_library_original_600_337.jpg 600w, https://cimg.co/news/124924/329969/responsive-images/statue-of-liberty-gc0edba___media_library_original_300_169.jpg 300w" width="1920"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/altcoin-news/"> Altcoin News </a> <div class="article__badge-date" data-utctime="2023-09-15 06:46:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/virtual-currency-chief-at-nysdfs-leaves-pursue-career-private-sector.htm">
+                Virtual Currency Chief at NYSDFS Leaves to Pursue a Career in Private Sector
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/indian-crypto-exchanges-expect-clear-regulations-following-g20-declaration.htm">
+<div class="small-image-list img-sized"><img alt="Indian Crypto Exchanges Expect Clear Regulations Following G20 Declaration" class="" loading="auto" src="https://cimg.co/news/124923/329968/india-g20-pexels-1.jpg" srcset="https://cimg.co/news/124923/329968/responsive-images/india-g20-pexels-1___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/124923/329968/responsive-images/india-g20-pexels-1___media_library_original_900_600.jpg 900w, https://cimg.co/news/124923/329968/responsive-images/india-g20-pexels-1___media_library_original_720_480.jpg 720w, https://cimg.co/news/124923/329968/responsive-images/india-g20-pexels-1___media_library_original_600_400.jpg 600w, https://cimg.co/news/124923/329968/responsive-images/india-g20-pexels-1___media_library_original_300_200.jpg 300w" width="1200"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/blockchain-news/"> Blockchain News </a> <div class="article__badge-date" data-utctime="2023-09-15 06:46:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/indian-crypto-exchanges-expect-clear-regulations-following-g20-declaration.htm">
+                Indian Crypto Exchanges Expect Clear Regulations Following G20 Declaration
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/russian-banks-say-digital-ruble-will-drive-up-loan-rates-new-cbdc-dangers.htm">
+<div class="small-image-list img-sized"><img alt="Russian Banks Say Digital Ruble Will Drive up Loan Rates – New CBDC Dangers?" class="" loading="auto" src="https://cimg.co/news/124905/329937/3russia-1409.jpeg" srcset="https://cimg.co/news/124905/329937/responsive-images/3russia-1409___media_library_original_1500_843.jpeg 1500w, https://cimg.co/news/124905/329937/responsive-images/3russia-1409___media_library_original_1200_674.jpeg 1200w, https://cimg.co/news/124905/329937/responsive-images/3russia-1409___media_library_original_900_506.jpeg 900w, https://cimg.co/news/124905/329937/responsive-images/3russia-1409___media_library_original_720_405.jpeg 720w, https://cimg.co/news/124905/329937/responsive-images/3russia-1409___media_library_original_600_337.jpeg 600w, https://cimg.co/news/124905/329937/responsive-images/3russia-1409___media_library_original_300_169.jpeg 300w" width="1500"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/altcoin-news/"> Altcoin News </a> <div class="article__badge-date" data-utctime="2023-09-15 06:00:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/russian-banks-say-digital-ruble-will-drive-up-loan-rates-new-cbdc-dangers.htm">
+                Russian Banks Say Digital Ruble Will Drive up Loan Rates – New CBDC Dangers?
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/us-senator-sherrod-brown-urges-cftc-sec-treasury-secretary-enhance-crypto-transparency.htm">
+<div class="small-image-list img-sized"><img alt="US Senator Sherrod Brown Urges CFTC, SEC and Treasury Secretary to Enhance Crypto Transparency" class="" loading="auto" src="https://cimg.co/news/124920/329967/senator-brown-1.jpg" srcset="https://cimg.co/news/124920/329967/responsive-images/senator-brown-1___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/124920/329967/responsive-images/senator-brown-1___media_library_original_900_600.jpg 900w, https://cimg.co/news/124920/329967/responsive-images/senator-brown-1___media_library_original_720_480.jpg 720w, https://cimg.co/news/124920/329967/responsive-images/senator-brown-1___media_library_original_600_400.jpg 600w, https://cimg.co/news/124920/329967/responsive-images/senator-brown-1___media_library_original_300_200.jpg 300w" width="1200"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/blockchain-news/"> Blockchain News </a> <div class="article__badge-date" data-utctime="2023-09-15 05:53:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/us-senator-sherrod-brown-urges-cftc-sec-treasury-secretary-enhance-crypto-transparency.htm">
+                US Senator Sherrod Brown Urges CFTC, SEC and Treasury Secretary to Enhance Crypto Transparency
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/hong-kong-lawmaker-addresses-vitalik-buterins-concerns-on-citys-crypto-friendliness.htm">
+<div class="small-image-list img-sized"><img alt="Hong Kong Lawmaker Addresses Vitalik Buterin’s Concerns on City's Crypto-Friendliness" class="" loading="auto" src="https://cimg.co/news/124919/329966/vitalik-buterin-hong-kong-1.jpg" srcset="https://cimg.co/news/124919/329966/responsive-images/vitalik-buterin-hong-kong-1___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/124919/329966/responsive-images/vitalik-buterin-hong-kong-1___media_library_original_900_600.jpg 900w, https://cimg.co/news/124919/329966/responsive-images/vitalik-buterin-hong-kong-1___media_library_original_720_480.jpg 720w, https://cimg.co/news/124919/329966/responsive-images/vitalik-buterin-hong-kong-1___media_library_original_600_400.jpg 600w, https://cimg.co/news/124919/329966/responsive-images/vitalik-buterin-hong-kong-1___media_library_original_300_200.jpg 300w" width="1200"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/blockchain-news/"> Blockchain News </a> <div class="article__badge-date" data-utctime="2023-09-15 04:52:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/hong-kong-lawmaker-addresses-vitalik-buterins-concerns-on-citys-crypto-friendliness.htm">
+                Hong Kong Lawmaker Addresses Vitalik Buterin’s Concerns on City's Crypto-Friendliness
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/china-may-explore-new-silk-roadbri-cbdc-adoption-digital-yuan-going-global.htm">
+<div class="small-image-list img-sized"><img alt="China May Explore New Silk Road/BRI CBDC Adoption – Digital Yuan Going Global?" class="" loading="auto" src="https://cimg.co/news/124902/329933/3china-1409.jpeg" srcset="https://cimg.co/news/124902/329933/responsive-images/3china-1409___media_library_original_1250_830.jpeg 1250w, https://cimg.co/news/124902/329933/responsive-images/3china-1409___media_library_original_1200_797.jpeg 1200w, https://cimg.co/news/124902/329933/responsive-images/3china-1409___media_library_original_900_598.jpeg 900w, https://cimg.co/news/124902/329933/responsive-images/3china-1409___media_library_original_720_478.jpeg 720w, https://cimg.co/news/124902/329933/responsive-images/3china-1409___media_library_original_600_398.jpeg 600w, https://cimg.co/news/124902/329933/responsive-images/3china-1409___media_library_original_300_199.jpeg 300w" width="1250"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/altcoin-news/"> Altcoin News </a> <div class="article__badge-date" data-utctime="2023-09-15 01:00:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/china-may-explore-new-silk-roadbri-cbdc-adoption-digital-yuan-going-global.htm">
+                China May Explore New Silk Road/BRI CBDC Adoption – Digital Yuan Going Global?
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/biggest-crypto-gainers-today-dextools-emoti-jinbe-monkey.htm">
+<div class="small-image-list img-sized"><img alt="Biggest Crypto Gainers Today on DEXTools – Emoti, JINBE, MONKEY" class="" loading="auto" src="https://cimg.co/news/124916/329956/dext-media-library-origin.jpg" srcset="https://cimg.co/news/124916/329956/responsive-images/dext-media-library-origin___media_library_original_900_300.jpg 900w, https://cimg.co/news/124916/329956/responsive-images/dext-media-library-origin___media_library_original_720_240.jpg 720w, https://cimg.co/news/124916/329956/responsive-images/dext-media-library-origin___media_library_original_600_200.jpg 600w, https://cimg.co/news/124916/329956/responsive-images/dext-media-library-origin___media_library_original_300_100.jpg 300w" width="900"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/altcoin-news/"> Altcoin News </a> <div class="article__badge-date" data-utctime="2023-09-15 00:01:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/biggest-crypto-gainers-today-dextools-emoti-jinbe-monkey.htm">
+                Biggest Crypto Gainers Today on DEXTools – Emoti, JINBE, MONKEY
+            </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="pt-60 pb-20 pb-md-40 pb-md-60">
+<h3 class="mb-20">Similar News</h3>
+<div class="row">
+<div class="col-12 col-sm-6 col-lg-4 col-xl-3"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/crypto-theft-from-fortress-trust-traced-back-phishing-attack-cloud-vendor.htm">
+<div class="img-sized"><img alt="Crypto Theft from Fortress Trust Traced Back to Phishing Attack on Cloud Vendor" class="img-fluid" loading="auto" src="https://cimg.co/news/124912/329949/adobestock-619771244.jpg" srcset="https://cimg.co/news/124912/329949/responsive-images/adobestock-619771244___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/124912/329949/responsive-images/adobestock-619771244___media_library_original_900_600.jpg 900w, https://cimg.co/news/124912/329949/responsive-images/adobestock-619771244___media_library_original_720_480.jpg 720w, https://cimg.co/news/124912/329949/responsive-images/adobestock-619771244___media_library_original_600_400.jpg 600w, https://cimg.co/news/124912/329949/responsive-images/adobestock-619771244___media_library_original_300_200.jpg 300w" width="1200"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/blockchain-news/"> Blockchain News </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-14 22:09:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/crypto-theft-from-fortress-trust-traced-back-phishing-attack-cloud-vendor.htm">
+<h4>Crypto Theft from Fortress Trust Traced Back to Phishing Attack on Cloud Vendor</h4>
+</a>
+</div>
+</div>
+</article>
+</div><div class="col-12 col-sm-6 col-lg-4 col-xl-3"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/binance-us-loses-key-executives-as-regulatory-issues-intensify-heres-latest.htm">
+<div class="img-sized"><img alt="Binance US Loses Key Executives as Regulatory Issues Intensify – Here's the Latest" class="img-fluid" loading="auto" src="https://cimg.co/news/124908/329944/kanchanara-eyabhdagbe-unsplash.jpg" srcset="https://cimg.co/news/124908/329944/responsive-images/kanchanara-eyabhdagbe-unsplash___media_library_original_1920_1277.jpg 1920w, https://cimg.co/news/124908/329944/responsive-images/kanchanara-eyabhdagbe-unsplash___media_library_original_1200_798.jpg 1200w, https://cimg.co/news/124908/329944/responsive-images/kanchanara-eyabhdagbe-unsplash___media_library_original_900_599.jpg 900w, https://cimg.co/news/124908/329944/responsive-images/kanchanara-eyabhdagbe-unsplash___media_library_original_720_479.jpg 720w, https://cimg.co/news/124908/329944/responsive-images/kanchanara-eyabhdagbe-unsplash___media_library_original_600_399.jpg 600w, https://cimg.co/news/124908/329944/responsive-images/kanchanara-eyabhdagbe-unsplash___media_library_original_300_200.jpg 300w" width="1920"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/blockchain-news/"> Blockchain News </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-14 21:29:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/binance-us-loses-key-executives-as-regulatory-issues-intensify-heres-latest.htm">
+<h4>Binance US Loses Key Executives as Regulatory Issues Intensify – Here's the Latest</h4>
+</a>
+</div>
+</div>
+</article>
+</div><div class="col-12 col-sm-6 col-lg-4 col-xl-3"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/hearing-date-set-for-binance-vs-sec-lawsuit-motions-ongoing-legal-battle-heres-what-you-need-know.htm">
+<div class="img-sized"><img alt="Hearing Date Set for Binance vs. SEC Lawsuit Motions in Ongoing Legal Battle – Here's What You Need to Know" class="img-fluid" loading="auto" src="https://cimg.co/news/124897/329925/adobestock-494313732-edit-3-1.jpeg" srcset="https://cimg.co/news/124897/329925/responsive-images/adobestock-494313732-edit-3-1___media_library_original_1200_800.jpeg 1200w, https://cimg.co/news/124897/329925/responsive-images/adobestock-494313732-edit-3-1___media_library_original_900_600.jpeg 900w, https://cimg.co/news/124897/329925/responsive-images/adobestock-494313732-edit-3-1___media_library_original_720_480.jpeg 720w, https://cimg.co/news/124897/329925/responsive-images/adobestock-494313732-edit-3-1___media_library_original_600_400.jpeg 600w, https://cimg.co/news/124897/329925/responsive-images/adobestock-494313732-edit-3-1___media_library_original_300_200.jpeg 300w" width="1200"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/blockchain-news/"> Blockchain News </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-14 16:38:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/hearing-date-set-for-binance-vs-sec-lawsuit-motions-ongoing-legal-battle-heres-what-you-need-know.htm">
+<h4>Hearing Date Set for Binance vs. SEC Lawsuit Motions in Ongoing Legal Battle – Here's What You Need to Know</h4>
+</a>
+</div>
+</div>
+</article>
+</div><div class="col-12 col-sm-6 col-lg-4 col-xl-3"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/despite-crypto-market-rout-in-the-us-clear-heads-will-prevail-says-ethereum-co-founder.htm">
+<div class="img-sized"><img alt="Despite Crypto Market Rout in the US, “Clear Heads Will Prevail,” Says Ethereum Co-Founder" class="img-fluid" loading="auto" src="https://cimg.co/news/124894/329906/joseph-lubin.jpg" srcset="https://cimg.co/news/124894/329906/responsive-images/joseph-lubin___media_library_original_1500_1500.jpg 1500w, https://cimg.co/news/124894/329906/responsive-images/joseph-lubin___media_library_original_1200_1200.jpg 1200w, https://cimg.co/news/124894/329906/responsive-images/joseph-lubin___media_library_original_900_900.jpg 900w, https://cimg.co/news/124894/329906/responsive-images/joseph-lubin___media_library_original_720_720.jpg 720w, https://cimg.co/news/124894/329906/responsive-images/joseph-lubin___media_library_original_600_600.jpg 600w, https://cimg.co/news/124894/329906/responsive-images/joseph-lubin___media_library_original_300_300.jpg 300w" width="1500"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/blockchain-news/"> Blockchain News </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-14 15:25:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/despite-crypto-market-rout-in-the-us-clear-heads-will-prevail-says-ethereum-co-founder.htm">
+<h4>Despite Crypto Market Rout in the US, “Clear Heads Will Prevail,” Says Ethereum Co-Founder</h4>
+</a>
+</div>
+</div>
+</article>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

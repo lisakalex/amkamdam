@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/guides/">Guides</a>
+<a href="/guides/yield-farming-liquidity-mining-staking-and-their-risks.htm">Yield Farming, Liquidity Mining, Staking and Their Risks</a>
+</div>
+</div>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<main class="col-12 col-lg-8">
+<div class="row">
+<div class="col-12 col-md-3 col-lg-2 d-none d-md-block">
+</div>
+<div class="scrollspy col-lg-9 col-md-9 col-sm-12">
+<div class="row">
+<div class="col-12">
+<div class="article-single__content category_contents_details">
+<h1 class="scrollspy" id="yield-farming-liquidity-mining-staking-and-their-risks"> Yield Farming, Liquidity Mining, Staking and Their Risks</h1>
+<figure class="image"><img src="https://cimg.co/guide/78679/193267/adobestock-491129852.jpeg" width="1200"/><figcaption>Source: Adobe / Creative Images</figcaption></figure><p>Do you want to know how savvy investors are making the value of their crypto grow passively by… farming? It is much easier than farming in real life, though it boasts a tad bit more risk and is a little more complex. This guide will show you all of the strategies, pros, and cons of yield farming.</p><h2>What Is Yield Farming?</h2><p>Yield farming is a way to earn passive income. The process goes like this: you provide a token as liquidity to a <a href="/guides/top-10-decentralized-exchanges-dex-in-2021.htm" rel="noopener" target="_blank"><u>decentralized exchange (DEX)</u></a>. That DEX will pay you interest on the liquidity that you have provided which comes mainly from its customers' fees for certain transactions like borrowing, swapping coins/tokens, and trading.</p><div class="dslot row mb-30" did="15"></div><p>The fees charged to the customer are typically sent to a pool of investors. Investors receive returns, or, their yield, in proportion to the share of the pool that they held. It is worth noting; those investors in each liquidity pool are only related by providing liquidity in the same token pair.</p><p>Furthermore, the investor, or, liquidity provider can choose to reinvest their profits to gain more yield. The option to reinvest is where yield farming is very lucrative. Having invested x amount of crypto and, had a return larger than your initial investment.  The ideal results would look like this: </p><blockquote><p><i><strong>(Initial investment + interest paid on initial investment) × interest paid = exponentially larger yield</strong></i></p></blockquote><p>The process often gives the investor a larger amount of crypto to use as liquidity. Earning a larger percentage of interest from the platform increases their yield. Here’s a visual of the general process:</p><figure class="image"><img class="lazyload" data-src="https://lh6.googleusercontent.com/K1jF4N0cRTkrWymVj4XM2ra4AKKDUoTaLkOJvRo8LcB40PfobQekKB4EY8o9pMAhE69aQo5SxeKNSjZdK-kX6iUketTgZX_WubXw2DmXm34hhuUDNTtpzX3GmQ2BxDwDcoFg5DvV8mmHfvq0QQ" data-srcset="" src="https://cimg.co/p/no_image.svg"/><figcaption>Source: Elizabeth Bopp / Cryptonews.com</figcaption></figure><p>Now it is time to take a look at all the other strategies used to grow crypto via yield farming. Last but not least, we'll check out the risks involved with each strategy. </p><p>Before moving on to comparing strategies, check out this <a href="/guides/what-is-yield-farming.htm" rel="noopener" target="_blank"><u>guide</u></a> that gives a simple definition of yield farming, which goes like this: </p><blockquote><p><i>“Yield farming, to put it in very basic terms, is when your funds are stored and you gain rewards. These rewards are sometimes paid in dividends. Usually, these rewards are high, and can even double your original input, but they come with high risk. You may double what you put in, but you lose half or more of that as well.”</i></p></blockquote><p>Yield farming is a complex subject for any investor, especially if you're a beginner in the space. This video goes into great detail on the subject:</p><figure class="media"><oembed data-embedo-height="400" data-embedo-url="https://youtu.be/LaeI5D6NDvw" loading="lazy"></oembed></figure><h2>What is a Liquidity Pool?</h2><p>Strategies that involve providing liquidity use a liquidity pool. This means that fees charged by the DEX to its customers are returned to the liquidity pool.  This creates more liquidity to the DEX for customers, or market makers, to trade with. A pool, or liquidity pool, is a smart contract known as an <a href="https://www.gemini.com/cryptopedia/search?query=automated%20market%20maker" rel="noopener" target="_blank"><u>Automated Market Maker (AMM</u></a><u>),</u> which can be defined as: </p><blockquote><p><i>“An automated market maker (AMM) is a fully automated decentralized exchange where trades are made against a pool of tokens called a liquidity pool. An algorithm regulates the values and prices of the tokens in the liquidity pool. Since AMMs do not rely on an active market of buyers and sellers, trades can occur at any time.”  - Crypto Glossary at Gemini.com</i></p></blockquote><p>The AMM, or, <a href="/guides/what-is-a-smart-contract.htm" rel="noopener" target="_blank">smart contract</a> used in a liquidity protocol holds the funds in the liquidity pool.  providing liquidity to the DEX for customers, or market makers, to trade with.</p><p>When a liquidity pool is created, the AMM contract is deployed, that pool is, in a sense, its own market. This is not to be mistaken that the pool will not be affected by the crypto market as a whole. The tokens in the pool will still gain or lose value as they do in real-time in the market. Saying that a liquidity pool is ‘its own market’ means that the pool itself is vulnerable to manipulation. It is more susceptible to manipulation by liquidity providers. Thus affecting the value of the tokens in that pool. In crypto markets, the value of a coin/token depends on many variables. In a liquidity pool, an individual has more power. </p><p>This will be explained further when discussing the risks of yield farming.</p><h2>Risks of Yield Farming</h2><p>There are many risk factors in yield farming that could leave you sitting high and dry…in an empty pool. Let's go through them one by one.</p><p>Let's begin with general risks when investing in decentralized finance. A major risk in investing in a decentralized environment is malicious hackers gaining access to cryptocurrencies and stealing them. While DEXs’ often have advanced security features, they need time to work out bugs and unfortunately, many adventurous users tend to fall victim to undetected design flaws.</p><p>Another risk that applies to decentralized exchanges is misleading information and price manipulation by whales. Such manipulation is speculated to be the bi-product of inside information being utilized. This causes mistrust in the markets as some trading pairs might be at risk of manipulation by just a few entities.</p><p>Furthermore, if a liquidity provider has a large share of tokens and has reached the end of their locked period, they could remove their share and make the value of that pool go down. In such an instance, the interest the rest of the pool would earn would not be as large because the pool is not as large anymore. DEX/platforms have discovered these flaws and re-structured their lock-up periods in an attempt to eliminate this risk. Still, the volatility of the crypto market plays a key role in all parts of investing in crypto, including yield farming.</p><p>Here is a great infographic showing the risks of blockchain technology as a whole. The risks in the infographic apply to any transactions conducted via blockchains.</p><figure class="image"><img class="lazyload" data-src="https://lh5.googleusercontent.com/47doZRUoijtjfzBMS-l3m8cpUTYPHUF_YCHBLSSC3GRNCf05XCU8XgPxAah_4Yen8q793P6ul398REduKGSxvIaEzzPuRogP51slytMzSrOJ6ZIhx_ugGcutNFP5sKd8hhY90mDsMi9OYJ8WyQ" data-srcset="" src="https://cimg.co/p/no_image.svg"/><figcaption>Source: <a href="https://101blockchains.com/enterprise-blockchain-risk-assesment/" rel="noopener" target="_blank">101Blockchains.com</a></figcaption></figure><p>A few more risks that are exclusive to yield farming and liquidity mining are: liquidation aka impermanent loss, and so-called rug pulls.</p><p><a href="https://www.gemini.com/cryptopedia/search?query=impermanent%20loss" rel="noopener" target="_blank"><u>Liquidation or impermanent loss</u></a> occurs when the value of the token that was invested into the liquidity pool loses a certain amount of value the DEX will liquidate. This means the platform sells the shares of the liquidity pools to mitigate losses. In liquidity pools, this is also known as an impermanent loss.</p><p>Fintech outlet <a href="https://finbold.com/guide/liquidity-mining-definition/#Risks_of_Liquidity_Mining" rel="noopener" target="_blank"><i>Finbold</i></a><i> </i>defines impermanent loss as:</p><blockquote><p> "<i><strong>.</strong>..suffering a loss in the event that the price of their tokens falls while they are still locked up in the liquidity pool. This is called an impermanent loss since it can only be realized if the miner decides to withdraw the tokens with depressed prices. Sometimes this unrealized loss can be offset by the gains from the LP rewards…”</i></p></blockquote><p>Meanwhile, <a href="https://www.gemini.com/cryptopedia/search?query=rug%20pull" rel="noopener" target="_blank">Rug Pulls</a> are the double-edged sword of <a href="/guides/what-is-defi.htm" rel="noopener" target="_blank">Defi</a>. The risk here is embedded in the peer-to-peer style governance of Defi and the ‘trustless’ environment that is cultivated. A rug pull is a malicious scheme where either a developer or creator of the DEX or a hacker, withdraws (generally 100% of) funds in the pool, thus liquidating the entire pool and leaving liquidity providers alongside traders… liquidated…and without recourse.</p><p>More often than not, the developer, or hacker, revokes the funds of the pool after liquidity providers have re-invested for at least one cycle.</p><p>The scammer will do this so that the liquidity provider trusts the DEX/platform. They wait to pull funds because there is a much larger amount of crypto for them to take. The person(s) running the scheme will more than likely empty the pool. This hurts the liquidity providers as well as the customers who were making trades, exchanging assets, or taking loans on the platform.</p><h2>Other Means of Growing Crypto</h2><p>Yield farming is not the only way that investors are growing their crypto. There are many strategies as well as various terms for those strategies that are sometimes used interchangeably. Here are a few different strategies that share common principles, or work towards common goals as yield farming:</p><ul><li><i><strong><u>Liquidity Mining</u></strong></i></li><li><a href="/guides/what-is-proof-of-stake.htm" rel="noopener" target="_blank"><i><strong><u>Proof-of-Stake (POS) Staking</u></strong></i></a></li></ul><p>Let's take a closer look at each.</p><h3>What Is Liquidity Mining</h3><p><a href="https://101blockchains.com/liquidity-mining/" rel="noopener" target="_blank"><u>Liquidity mining</u></a> is very similar to yield farming - the terms are even used interchangeably at times. So what’s the difference?</p><p>Liquidity mining is the hands-off version of yield farming. Liquidity mining’s main process is very similar to yield farming. One distinct benefit of liquidity mining is that the investor has access to governance. Decentralized platforms allow users to make decisions in their operations.  An extra benefit related to liquidity mining that sets it apart from yield farming according to <a href="https://101blockchains.com/staking-vs-yield-farming-vs-liquidity-mining/" rel="noopener" target="_blank">101blockchains.com</a> is:</p><blockquote><p><i>“It is important to note that the reward in liquidity mining depends profoundly on the share in total pool liquidity. Furthermore, the newly minted tokens could also offer access to governance of a project alongside prospects for exchanging to obtain other cryptocurrencies or better rewards.”</i></p></blockquote><p>Having governance access to a token is important to someone who believes in a project and wants to be a part of the growth of the token’s ecosystem. This is common for tokens built on a blockchain that boasts many projects.</p><h3>Risks of Liquidity Mining</h3><p>Liquidity mining shares the same basic risks as yield farming. Again, the key difference here is in governance access. If tokens in the liquidity pool were lost in the liquidation process, the benefits of governance access that came with having that token would be lost.</p><h2>What Is Proof-of-Stake (PoS) Staking?</h2><p><a href="/guides/what-is-proof-of-stake.htm" rel="noopener" target="_blank"><u>Proof of Stake</u></a> is a type of consensus algorithm used by high-performance blockchains. This algorithm requires users to keep their native token stored, either in a wallet or DEX, in return for benefits. Here’s a more detailed definition of Proof-of-Stake according to <a href="https://www.gemini.com/cryptopedia/staking-rewards-pos-blockchains#section-proof-of-stake-explained" rel="noopener" target="_blank">Gemini.com</a>:</p><blockquote><p><i><strong>“Blockchain networks that use Proof-of-Stake (PoS) consensus algorithms require you to stake tokens to be able to participate in the verification and creation of blocks on a blockchain. Staking on a PoS blockchain network may provide an opportunity to earn passive income on digital assets in the form of block rewards while participating in the governance of the protocol.”</strong></i></p></blockquote><p>There is also a<i> </i><a href="https://www.gemini.com/cryptopedia/search?query=Proof%20of%20Work%20(PoW)" rel="noopener" target="_blank"><u>Proof of Work</u></a> algorithm used by security-optimized blockchains. On Proof-of-Work algorithms, one must perform some sort of task that helps keep the blockchain working to receive benefits. The tasks performed are usually mining, running a validator node, or verifying transactions.</p><p>When staking tokens by the Proof-of-Stake investment model, you are providing liquidity to the DEX/platform. Staking on every platform is different in the amount of time that is required to stake. Sometimes there is the option to pull your tokens at any time. Stakers are paid interest on their stake in the form of the token provided. It can also be a different token that is native to that DEX/platform, if applicable.</p><p>If you want a more in-depth explanation of Proof-of-Work vs. Proof-of-Stake click<strong> </strong><a href="/guides/what-is-proof-of-stake.htm" rel="noopener" target="_blank"><u>here</u></a>!</p><figure class="image"><img class="lazyload" data-src="https://lh5.googleusercontent.com/qoMXG1qC8NMIy7PzcQzwg1SqBH9CawjruKvy6wiHLLSeb3iHEFEmOPcvKGBPW3lnF1rQsxr8L2YwRzrXHhNHX1gmRtLCeMDq_HOCSRiDL-cjYzFgMvL-oDThQPCXyqln4-QtQIovXXcdas3Gkg" data-srcset="" src="https://cimg.co/p/no_image.svg"/><figcaption>Source. <a href="https://www.ledger.com/wp-content/uploads/2019/10/What-is-proof-of-stake-1.jpg" rel="noopener" target="_blank">www.ledger.com</a></figcaption></figure><h2>Risks Involved With Staking</h2><p>Compared to other means of growing crypto discussed in this article, staking is one of the least risky of them. However, with minimal risk come lesser rewards. Proof-of-Stake staking is not free of risk, just like all other investment channels, there are risks involved such as:</p><blockquote><p><i>“...slashing, volatility risks, validator risks, and server risks. In addition, you might have to encounter issues of loss or theft of funds, waiting periods for rewards, project failure, liquidity risks, minimum holdings, and extended lock-up periods,” </i><a href="https://101blockchains.com/staking-vs-yield-farming-vs-liquidity-mining/" rel="noopener" target="_blank"><i>explains 101blockchains.</i></a></p></blockquote><h2><strong>Closing Thoughts:</strong></h2><p>There are many ways to invest, or, grow your crypto. Everyday there are advances in blockchain technology that provide new investment opportunities. It is important to note that there are great risks involved in each of those opportunities. When considering investing in crypto and, when looking at different strategies for investing, always be diligent in researching potential benefits and risks involved. Consider consulting with a financial advisor if you are not 100% comfortable with crypto investments. </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="mb-50">
+<hr class="mt-20 mb-60"/>
+<h2 class="mb-30">Other Defi Guides Guides</h2>
+<div class="row">
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">Defi Guides</div>
+<a class="article__title article__title--md" href="/guides/metamask-guide-how-to-set-up-metamask-wallet.htm">MetaMask Guide: How to Set Up MetaMask Wallet?</a>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">Defi Guides</div>
+<a class="article__title article__title--md" href="/guides/how-to-use-aave.htm">How to Use Aave?</a>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">Defi Guides</div>
+<a class="article__title article__title--md" href="/guides/how-to-use-compound.htm">How To Use Compound?</a>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">Defi Guides</div>
+<a class="article__title article__title--md" href="/guides/what-is-web3.htm">What Is Web3?</a>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">Defi Guides</div>
+<a class="article__title article__title--md" href="/guides/yield-farming-liquidity-mining-staking-and-their-risks.htm">Yield Farming, Liquidity Mining, Staking and Their Risks</a>
+</div>
+</div>
+</div>
+</div>
+</main>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<main>
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/coins/">Market Cap</a>
+<a href="/coins/zilliqa/">Zilliqa</a>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30 text-center">
+<img alt="Zilliqa" class="img-fluid img-circle author__image author__image--has-bg mb-15" src="https://cimg.co/coinlogo/728/cnszil.svg"/>
+<div>
+<b>Zilliqa</b>
+<br/>
+<small>ZIL</small>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content mb-60 scrollspy">
+<h1 id=""> Zilliqa </h1>
+<p>Zilliqa platform and its ZIL token were designed with the aim to minimize the scalability and transaction rate issues in contemporary blockchain technologies. They utilize sharding technology to increase transactions.</p><table class="table table-responsive mb-40">
+<thead>
+<tr>
+<th>Market Cap</th>
+<th>Volume 24h</th>
+<th>Circulating Supply</th>
+<th>Maximum Supply</th> </tr>
+</thead>
+<tbody>
+<tr>
+<td>$329,623,464</td>
+<td>$55,817,852.00 </td>
+<td>15867699447.00000000 <b>ZIL</b></td>
+<td>15867699447.00000000 <b>ZIL</b></td> </tr>
+</tbody>
+</table>
+<div id="leading2"> </div>
+<figure><img alt="" class="content-img" sizes="(min-width: 640px) 720px, 100vw" src="https://cimg.co/w/coins-attachments/1/5be/3130de6b60.png" srcset="https://cimg.co/w/coins-attachments/1/5be/3130de6b60.png 300w, https://cimg.co/w/coins-attachments/2/5be/3130de6b60.png 600w, https://cimg.co/w/coins-attachments/3/5be/3130de6b60.png 720w, https://cimg.co/w/coins-attachments/4/5be/3130de6b60.png 900w"/><figcaption> </figcaption></figure><p> </p>
+<p>The Zilliqa platform bills itself as the blockchain platform of the “next generation.” It was built from scratch as the third generation blockchain, with the ambition to surpass what its creators describe as its first and second generation predecessors, namely <a href="/coins/bitcoin/">Bitcoin</a> and <a href="/coins/ethereum/">Ethereum</a>. One of the key issues which were identified with the prolonged use of the cryptocurrencies such as these two was <a href="https://en.wikipedia.org/wiki/Bitcoin_scalability_problem" rel="nofollow noopener" target="_blank">scalability</a>. </p>
+<p>The concept of scalability describes how well a technology can grow in parallel with maintaining its efficiency and successfully handling increased demand. A system, business or software that is described as scalable has an advantage because it is more adaptable to the changing needs or demands of its users or clients.</p>
+<p>Having the cryptocurrencies compete with the likes of Visa or Mastercard on an equal footing ultimately required a faster and more advanced infrastructure on the blockchain. Pressured by the competition from the global payment processing players (Visa, for instance, can process about <a href="https://usa.visa.com/run-your-business/small-business-tools/retail.html" rel="nofollow noopener" target="_blank">24,000 transactions per second</a>) Zilliqa focused on creating a platform that will arguably focus on the needs of the users who demand the fast and frictionless payment experience they are used to, and do not care about the technical limitations of the blockchain. </p>
+<h2 id="zilliqa-aims-to-address-the-roots-of-scalability-problem">Zilliqa Aims to Address the Roots of Scalability Problem</h2>
+<p>Understanding what Zilliqa tries to achieve in this field starts by having a clear overview of what causes the scalability problem in the first place. Since the blockchain consists of a network of nodes, the increase in their numbers inevitably makes it harder to achieve consensus. Knowing that each node has a say in deciding if one block is valid or not, the more nodes there are in the network, the longer it will take to reach a decision.</p>
+<p>This ultimately puts a strain on the blockchain’s <a href="https://www.investopedia.com/terms/c/consensus-mechanism-cryptocurrency.asp" rel="nofollow noopener" target="_blank">consensus mechanism</a> used on a particular network. The reason for this is the fact that reaching consensus becomes a longer procedure whenever the higher number of nodes act as the processing blocks. In addition, digital ledgers grow in size and slow down the processing time, just as it happened with Bitcoin and Ethereum. In this manner, consensus management grows more complex as the network size increases, while bringing down the speed and quality of the entire platform’s operation. </p>
+<p>Moving information off the chain (instead of keeping them <a href="https://www.investopedia.com/terms/c/chain-transactions-cryptocurrency.asp" rel="nofollow noopener" target="_blank">onchain</a>) was one of the measures that were tried in helping the blockchain deal with the scalability problem. Off-chain scaling was supposed to make it possible to approve some of the essential transactions without having each of them green-lighted by every member of the community. Some currencies such as <a href="/coins/decred/">Decred</a> opted for the implementation of the  which will allow it to process transactions via micropayment channels instead of doing it on the main blockchain. </p>
+<p>Yet, there are downsides to this approach to handling scalability problem. For starters, the public could complain about a project’s transparency once they learn that they do not participate in the verification of off-chain transactions, or that they have no say in deciding on the future network updates. </p>
+<p>Other platforms, such as Bitcoin XT, attempted to approach the scalability issues with a more structural approach which involves proposed increases in the block size on their network. As the time interval for the block verification depends on the complexity of cryptographic puzzles solved during mining, increasing the block size was supposed to deliver more transactions per block and per second. Yet, this scalability solution has its weaknesses just as off-chain transaction processing. Since the larger blocks are more demanding in terms of mining resources, this may result in higher fees for users. Eventually, the cost of operating the full nodes can become too high which could lead to the centralization of hashing resources among fewer individuals having access to them. </p>
+<figure><img alt="" class="content-img" sizes="(min-width: 640px) 720px, 100vw" src="https://cimg.co/w/coins-attachments/1/5be/3131cf2ecb.jpg" srcset="https://cimg.co/w/coins-attachments/1/5be/3131cf2ecb.jpg 300w, https://cimg.co/w/coins-attachments/2/5be/3131cf2ecb.jpg 600w, https://cimg.co/w/coins-attachments/3/5be/3131cf2ecb.jpg 720w, https://cimg.co/w/coins-attachments/4/5be/3131cf2ecb.jpg 900w, https://cimg.co/w/coins-attachments/0/5be/3131cf2ecb.jpg 1000w"/><figcaption> </figcaption></figure><p> </p>
+<h2 id="zilliqas-sharding-technology-">Zilliqa’s Sharding Technology </h2>
+<p>Zilliqa hopes to cure these problems not by attempting just to mitigate them, but by bypassing them altogether. To that purpose, the platform’s designers created the architecture which is supposed to make the consensus mechanism speed more resistant to the negative impact of the size of a network it takes place on. This principle relies on introducing a hybrid consensus mechanism that allows for more transaction processing throughput as the number of nodes on the network increases. Zilliqa’s protocol enables the division of the mining nodes into groups made up of 600 nodes. Since each of these groups is described as a “shard” on the Zilliqa network, its scalability solution was dubbed “sharding”. </p>
+<p>Each shard is capable of processing a fraction of the totality of transactions taking place on the Zilliqa network, operating as a sort of a mini version of the blockchain itself. The amount of transactions processed is increased simply by having shards handle them separately from one another instead of doing it as a group. The Zilliqa platform thus profits from the increased number of shards on it, as the transaction can be managed by more units which take care of them. The network itself is in charge of spreading the consensus workload among the individual shards in order to mitigate the drain on computing resources. So, if the network supports five shards, each of them would be in charge of processing one-fifth of the transactions taking place on it. </p>
+<p>While processing transactions, each shard creates a microblock. The processing itself takes place in parallel intervals which are described as the “DS epoch” (with “DS” standing for the<a href="https://docs.zilliqa.com/whitepaper.pdf" rel="nofollow noopener" target="_blank">“directory service” nodes</a>). At the end of each of these processing periods, the created microblocks are combined by a group of nodes designated as the “directory service committee” or the “DS committee.” This is done in order to create a full block that is ultimately joined with the blockchain. In order to ensure the management of different shards, nodes are selected at random for each DS epoch interval. The DS committees manage the network by linking the nodes with appropriate shards. They also manage transaction requests by forwarding transactions to shards that will be in charge of processing them. </p>
+<p>So, what does this technology bring in terms of real-life use? While the launch of Zilliqa’s mainnet has still not happened (as of November 2018), its testnet is undergoing internal tests which show the processing speeds peaking at <a href="https://medium.com/@jilliangodsil/zilliqa-aims-to-tackle-slow-crypto-speeds-5687561c498b" rel="nofollow noopener" target="_blank">2,488 transactions per second</a>. </p>
+<p>Considering that the testnet is a scaled-down version of the mainnet, it still remains to be seen if the platform will be able to live up to its promise of processing 15,000 transactions per second, bringing it closer to what the competing global system can offer to their users. </p>
+<h2 id="how-can-the-hybrid-consensus-model-help-zilliqa?">How Can The Hybrid Consensus Model Help Zilliqa?</h2><p> </p>
+<p>Zilliqa’s sharding-based approach is not without issues. The key one stems from the division of blockchain into groups of nodes, as this leads to the splitting of information which are stored on them. Bearing in mind that the nodes which make up shards contain “pieces” of blockchain (unlike what is the case with Bitcoin, for example), they do not have complete information needed to process a transaction. The analogy would go along the lines of having each shard contain a piece of a book which they need to assemble into a sensible source of information by working together. In networks consisting of thousands of personal computers, ensuring unobstructed communication thus becomes essential in making the entire platform work in unison. </p>
+<p>Zilliqa attempts to get around this issue by relying on its hybrid consensus model, the same one which allows for scaling with the size of a network. It is organized around two basic layers: the shard layer and the DS committee layer which was described earlier. </p>
+<p>The complete <a href="https://en.wikipedia.org/wiki/Proof-of-work_system" rel="nofollow noopener" target="_blank">proof of work</a> (PoW) hash is available upon the start of the mining operation. The PoW system implemented by Zilliqa is Ethereum’s own PoW algorithm called <a href="https://github.com/ethereum/wiki/wiki/Ethash" rel="nofollow noopener" target="_blank">Ethash</a>. It uses available computing resources to validate that a single machine can operate only one node, i.e. it confirms the identity of the node. Only once the identification process is complete, the node is assigned to a specific shard. </p>
+<p>When it comes to the shards, the Zilliqa platform applies the <a href="https://en.wikipedia.org/wiki/Byzantine_fault_tolerance#Practical_Byzantine_fault_tolerance" rel="nofollow noopener" target="_blank">Practical Byzantine Fault Tolerance</a> consensus model. Since the shard layer does not process full blocks of information, it focuses only on microblocks combined by the DS committee. It is needed to have the majority of nodes in a shard agree on confirming a miniblock together with the DS committee. A verified block is the only one which can refer to the block which precedes it. </p>
+<p>This hybrid mechanism is focused on higher throughput and it relies on the finality principle which does not allow for the disagreement between nodes that can lead to hard forks. It arguably needs less power for the consensus reaching process compared to other methods, such as those employed by Bitcoin or Ethereum. </p>
+<h2 id="security-and-smart-contracts-">Security and Smart Contracts </h2>
+<p>Zilliqa’s hybrid consensus mechanism is also its first line of defense against <a href="https://en.wikipedia.org/wiki/Sybil_attack" rel="nofollow noopener" target="_blank">Sybil attacks</a> which involve attackers taking the role of various nodes on a network. At the same time, the platform employs its own programming language called <a href="https://blog.zilliqa.com/scilla-design-story-piece-by-piece-part-1-why-do-we-need-a-new-language-27d5f14ae661" rel="nofollow noopener" target="_blank">Scilla</a> which is focused on the development of smart contracts with automatized verification of their security features. It allows developers to work on the applications and smart contracts that can operate safely on the Zilliqa network. This is done by giving the developers the opportunity to address potential weaknesses or bugs with the applications at the level of the programming language itself. </p>
+<p>The Scilla programming language is not <a href="https://medium.com/@evinsellin/what-exactly-is-turing-completeness-a08cc36b26e2" rel="nofollow noopener" target="_blank">Turing-complete</a>, meaning that it will not provide support for applications that require certain types of conditional statements or loops. Still, it can be readily involved in the formal logic proof process which allows the users to verify that a smart contract is safe before they start using it. </p>
+<p>Zilliqa focuses on functional programming and data flow with smart contracts built on top of this platform. This is related to the fact that running a smart contract often involves having them check various states and functions between themselves. As this would potentially overload the communication resources available to shards on the network, smart contracts built upon Zilliqa do not permit state changes or checks, focusing instead on issues such as security and efficiency. Based on this, decentralized applications (dapps) that need high throughput and transaction rates might arguably find a place for themselves on this network in face of its immediate competitors such as Ethereum or <a href="/coins/neo/">NEO</a>.</p>
+<h2 id="zilliqa-token">Zilliqa Token</h2>
+<p>The ZIL token serves as the basic incentive for mining i.e. it is distributed as a reward for the miners who vote for specific blocks and validate them. </p>
+<p>ZIL token started its existence as an <a href="https://www.investopedia.com/news/what-erc20-and-what-does-it-mean-ethereum/" rel="nofollow noopener" target="_blank">ERC-20 token</a> based on the Ethereum blockchain. Once the Zilliqa mainnet is launched, these tokens will be exchanged for the Zilliqa coins. These coins will have the function similar to that of the <a href="/guides/what-is-ether.htm">gas on the Ethereum platform</a>, meaning that they will be used to manage the execution of smart contracts. Finally, this cryptocurrency can be used as the means of payment of fees related to the transactions that will take place on the network. Zilliqa was initially funded via private sources which raised about USD 12 million by late 2017. Due to the high interest garnered by the platform, the Zilliqa team opted for having an initial coin offering (ICO) which raised USD 22 million in total by January 2018. </p>
+<p>The coin’s market cap stood at USD 274 million in November 2018, down from just short of USD 1.5 billion it had in the first half of the same year. The total supply of ZIL coins is capped at 12,600,000,000 ZIL, with 7,901,840,271 in circulation in November 2018. </p>
+<p>Zilliqa coins are available for trading at crypto exchanges such as Huobi and KuCoin. </p>
+<h2 id="who-is-behind-zilliqa?-">Who Is Behind Zilliqa? </h2>
+<p>The Zilliqa project was devised by a group of scientists headed by Prateek Saxena from the University of California and his colleagues Amrit Kumar and Xinshu Dong and from the University of Singapore. The project’s history started at the Computer Science Lab of the University of Singapore with a group of enthusiasts who studied the ideas put forward in the paper authored by Loi Luu, co-founder of the Kyber Network.  </p>
+<p>Xinshu Dong is a cyber-security expert holding a Ph.D. degree in Computer Science, just like his colleague Amrit Kumar who was in charge of researching and managing the crypto segment of the Zilliqa project. Prateek Saxena served as the chief scientific advisor with the project which also included Yaoqi Jia as its head of technology.</p><div class="vapp">
+<feeds name="ZIL" title="Zilliqa"></feeds>
+</div>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-3 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/coinex/">CoinEx</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="CoinEx" class="img-fluid img-circle author__image author__image--has-bg mb-15" src="https://cimg.co/reviewlogo/78/coinex-logo.svg"/>
+<div>
+<a class="c-black" href="#"><b>CoinEx</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/coinex" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+<div class="fs-12"></div>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="coinex"> CoinEx</h1>
+<p>CoinEx is a strong name in the cryptocurrency industry, often considered synonymous with privacy-centric access to a wide array of stablecoins. Offering access to spot and perpetual markets, as well as margin trading, all with low fees and excellent security, this is a one-stop shop for most crypto traders. For many, the biggest selling point is the lack of forced KYC, but the exchange offers much more. </p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/coinex" target="_blank">CoinEx</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://support.coinex.com/hc/en-us" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>Hong Kong</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>713.4 BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>Yes</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>No</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>ViaBTC</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+</b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>Über 60 Fiat Währungen</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>655</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>CET</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>Very Low (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+</ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+</ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/63610/36083/landing-site.png" srcset="https://cimg.co/review/63610/36083/responsive-images/landing-site___media_library_original_1874_939.png 1874w, https://cimg.co/review/63610/36083/responsive-images/landing-site___media_library_original_1200_601.png 1200w, https://cimg.co/review/63610/36083/responsive-images/landing-site___media_library_original_900_450.png 900w, https://cimg.co/review/63610/36083/responsive-images/landing-site___media_library_original_720_360.png 720w, https://cimg.co/review/63610/36083/responsive-images/landing-site___media_library_original_600_300.png 600w, https://cimg.co/review/63610/36083/responsive-images/landing-site___media_library_original_300_150.png 300w" width="1874"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/63610/36084/stats.png" data-srcset="https://cimg.co/review/63610/36084/responsive-images/stats___media_library_original_1874_939.png 1874w, https://cimg.co/review/63610/36084/responsive-images/stats___media_library_original_1200_601.png 1200w, https://cimg.co/review/63610/36084/responsive-images/stats___media_library_original_900_450.png 900w, https://cimg.co/review/63610/36084/responsive-images/stats___media_library_original_720_360.png 720w, https://cimg.co/review/63610/36084/responsive-images/stats___media_library_original_600_300.png 600w, https://cimg.co/review/63610/36084/responsive-images/stats___media_library_original_300_150.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1874"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/63610/36085/create-account.png" data-srcset="https://cimg.co/review/63610/36085/responsive-images/create-account___media_library_original_1880_939.png 1880w, https://cimg.co/review/63610/36085/responsive-images/create-account___media_library_original_1200_599.png 1200w, https://cimg.co/review/63610/36085/responsive-images/create-account___media_library_original_900_449.png 900w, https://cimg.co/review/63610/36085/responsive-images/create-account___media_library_original_720_359.png 720w, https://cimg.co/review/63610/36085/responsive-images/create-account___media_library_original_600_299.png 600w, https://cimg.co/review/63610/36085/responsive-images/create-account___media_library_original_300_149.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1880"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/63610/36086/dashboard.png" data-srcset="https://cimg.co/review/63610/36086/responsive-images/dashboard___media_library_original_1874_939.png 1874w, https://cimg.co/review/63610/36086/responsive-images/dashboard___media_library_original_1200_601.png 1200w, https://cimg.co/review/63610/36086/responsive-images/dashboard___media_library_original_900_450.png 900w, https://cimg.co/review/63610/36086/responsive-images/dashboard___media_library_original_720_360.png 720w, https://cimg.co/review/63610/36086/responsive-images/dashboard___media_library_original_600_300.png 600w, https://cimg.co/review/63610/36086/responsive-images/dashboard___media_library_original_300_150.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1874"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/63610/36087/help-center.png" data-srcset="https://cimg.co/review/63610/36087/responsive-images/help-center___media_library_original_1874_939.png 1874w, https://cimg.co/review/63610/36087/responsive-images/help-center___media_library_original_1200_601.png 1200w, https://cimg.co/review/63610/36087/responsive-images/help-center___media_library_original_900_450.png 900w, https://cimg.co/review/63610/36087/responsive-images/help-center___media_library_original_720_360.png 720w, https://cimg.co/review/63610/36087/responsive-images/help-center___media_library_original_600_300.png 600w, https://cimg.co/review/63610/36087/responsive-images/help-center___media_library_original_300_150.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1874"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/63610/36088/deposit-crypto.png" data-srcset="https://cimg.co/review/63610/36088/responsive-images/deposit-crypto___media_library_original_1874_939.png 1874w, https://cimg.co/review/63610/36088/responsive-images/deposit-crypto___media_library_original_1200_601.png 1200w, https://cimg.co/review/63610/36088/responsive-images/deposit-crypto___media_library_original_900_450.png 900w, https://cimg.co/review/63610/36088/responsive-images/deposit-crypto___media_library_original_720_360.png 720w, https://cimg.co/review/63610/36088/responsive-images/deposit-crypto___media_library_original_600_300.png 600w, https://cimg.co/review/63610/36088/responsive-images/deposit-crypto___media_library_original_300_150.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1874"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/63610/36089/withdraw.png" data-srcset="https://cimg.co/review/63610/36089/responsive-images/withdraw___media_library_original_1874_939.png 1874w, https://cimg.co/review/63610/36089/responsive-images/withdraw___media_library_original_1200_601.png 1200w, https://cimg.co/review/63610/36089/responsive-images/withdraw___media_library_original_900_450.png 900w, https://cimg.co/review/63610/36089/responsive-images/withdraw___media_library_original_720_360.png 720w, https://cimg.co/review/63610/36089/responsive-images/withdraw___media_library_original_600_300.png 600w, https://cimg.co/review/63610/36089/responsive-images/withdraw___media_library_original_300_150.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1874"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/63610/36092/exchange.png" data-srcset="https://cimg.co/review/63610/36092/responsive-images/exchange___media_library_original_1874_939.png 1874w, https://cimg.co/review/63610/36092/responsive-images/exchange___media_library_original_1200_601.png 1200w, https://cimg.co/review/63610/36092/responsive-images/exchange___media_library_original_900_450.png 900w, https://cimg.co/review/63610/36092/responsive-images/exchange___media_library_original_720_360.png 720w, https://cimg.co/review/63610/36092/responsive-images/exchange___media_library_original_600_300.png 600w, https://cimg.co/review/63610/36092/responsive-images/exchange___media_library_original_300_150.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1874"/></div>
+</div>
+</div><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/63610/36083/landing-site.png" data-srcset="https://cimg.co/review/63610/36083/responsive-images/landing-site___media_library_original_1874_939.png 1874w, https://cimg.co/review/63610/36083/responsive-images/landing-site___media_library_original_1200_601.png 1200w, https://cimg.co/review/63610/36083/responsive-images/landing-site___media_library_original_900_450.png 900w, https://cimg.co/review/63610/36083/responsive-images/landing-site___media_library_original_720_360.png 720w, https://cimg.co/review/63610/36083/responsive-images/landing-site___media_library_original_600_300.png 600w, https://cimg.co/review/63610/36083/responsive-images/landing-site___media_library_original_300_150.png 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1874"/></figure><h3>CoinEx: Key Features </h3><p>CoinEx includes all the features necessary for new and relatively experienced crypto traders alike. Even veteran traders with high requirements who prefer privacy will find all they need on CoinEx. Some of its most notable features include:</p><ul><li><strong>Huge selection of altcoins.</strong> Not only does CoinEx offer a wide array of different altcoins, even including the different protocols they're available on, but they're also constantly adding exciting new projects that go through their vetting process.</li><li><strong>Low fees. </strong>Not only are their fees competitively low, but they can also be brought down further if you hold CET, their native token, or choose it to pay your fees. These two different discounts can be stacked.</li><li><strong>High-level security. </strong>The exchange uses cold wallet storage, but they also let you know whenever <i>anything </i>happens on your account, just in case it is not you.</li><li><strong>No forced KYC. </strong>All you need to enter to sign up for CoinEx is an email address, a strong password, and 2FA, but if you want to raise your daily withdrawal limit from USD 10,000 to USD 1m, you can get verified.</li><li><strong>Free(ish) deposits and withdrawals. </strong>Deposits are free, while withdrawals incur a miner's fee that depends on the blockchain in question.</li><li><strong>Detailed Help Center. </strong>The exchange's support page has detailed guides for pretty much everything you may have problems with, and if you can't find a satisfactory answer, you can contact them directly.</li></ul><p>All in all, CoinEx is a great choice for privacy-minded investors of all experience levels. In this review, you can learn everything you need to know before signing up for it. </p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/coinex" rel="noindex nofollow" target="_blank">Open Account</a></p><h3>CoinEx History and Background </h3><p>CoinEx was founded in December 2017 and is headquartered in Hong Kong. It is trading under the ViaBTC Group. Currently, they say they have more than two million customers in over 100 countries and regions. The exchange is available in 15 languages, including Chinese, English, Japanese, Korean, Russian, etc.  </p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/63610/36084/stats.png" data-srcset="https://cimg.co/review/63610/36084/responsive-images/stats___media_library_original_1874_939.png 1874w, https://cimg.co/review/63610/36084/responsive-images/stats___media_library_original_1200_601.png 1200w, https://cimg.co/review/63610/36084/responsive-images/stats___media_library_original_900_450.png 900w, https://cimg.co/review/63610/36084/responsive-images/stats___media_library_original_720_360.png 720w, https://cimg.co/review/63610/36084/responsive-images/stats___media_library_original_600_300.png 600w, https://cimg.co/review/63610/36084/responsive-images/stats___media_library_original_300_150.png 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1874"/></figure><p>Haipo Yang is the founder and CEO of CoinEx. His previous experience includes working for Tencent TEG/Weibo and Futu Securities. Coming from a strong mathematical background, he independently completed all the code for the ViaBTC mining pool in 2016 that was then launched two months later. After that, he went on to establish the CoinEx exchange. The rest of the team is in the shadows, but the exchange's website states that, CoinEx core team members are from world-leading internet and finance companies, including the earliest adopters and professionals of cryptocurrency who boast rich experience in global operations and services in the industry.</p><p>CoinEx is one of the leading exchanges for <a href="/coins/bitcoin-cash/" rel="noopener" target="_blank">bitcoin cash (BCH)</a>-priced assets, providing reliable access to millions of customers globally. At the moment, they estimate that 85% of their total customer base is international, with only 15% coming from China, which used to be their main domain upon launch. </p><p>In August 2020, the exchange launched a trade-driven mining program that was immensely popular and made them the world's biggest exchange by 24-hour trading volume for a short while. Nowadays, they rank around 40th among the 500+ cryptocurrency exchanges listed on data aggregator CoinMarketCap.</p><p>They are regulated under Estonian law, as they hold the Estonian digital asset trading license. However, there is no data as to whether funds on the exchange are insured. They are also available globally, with the notable exception of all countries where cryptocurrency trading is prohibited, and they reserve the right to refuse customers from those jurisdictions. </p><p>CoinEx does not force know-your-customer (KYC) checks, but those customers who choose to go through with it get significantly higher withdrawal limits and access to all promotional activities on the platform. Those who do not want to verify their accounts only need to provide their email address and set up a password (while a two-factor authentication option is highly encouraged). </p><p>To unlock the perks for verified users, they have to provide an ID document and go through the face verification process with a webcam. Another option is uploading a selfie of them holding their ID document and a hand-written note. </p><p>CoinEx also offers fee discounts based on how many CET tokens, the native token of the exchange, a user holds more on that in the Fees section of the review. </p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/63610/36092/exchange.png" data-srcset="https://cimg.co/review/63610/36092/responsive-images/exchange___media_library_original_1874_939.png 1874w, https://cimg.co/review/63610/36092/responsive-images/exchange___media_library_original_1200_601.png 1200w, https://cimg.co/review/63610/36092/responsive-images/exchange___media_library_original_900_450.png 900w, https://cimg.co/review/63610/36092/responsive-images/exchange___media_library_original_720_360.png 720w, https://cimg.co/review/63610/36092/responsive-images/exchange___media_library_original_600_300.png 600w, https://cimg.co/review/63610/36092/responsive-images/exchange___media_library_original_300_150.png 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1874"/></figure><h3>CoinEx Fees </h3><p>CoinEx offers relatively low fees that can be brought down even further using the CET token. The total fee percentage will depend on two main factors: how much CET you hold (both on the exchange and in a wallet that you can bind to the exchange) and whether you choose to pay transaction fees with CET, which nets you 30% off the amount due. The two potential discounts can even be stacked, where the total amount is shown in the table below in the 'Spot Fees with Deduction' column. </p><p>The trading fee discounts based on CET holdings are shown below. </p><figure class="table"><table><tbody><tr><td>VIP Level</td><td>CET Holding</td><td>Spot Fees</td><td>Spot Fees with Deduction</td><td>Margin Daily Interest</td><td>Perpetual Fees</td></tr><tr><td>VIP0</td><td>0 CET</td><td>0.2%</td><td>0.14%</td><td>0.1%</td><td>Maker 0.03% / Taker 0.05%</td></tr><tr><td>VIP1</td><td>1,000 CET</td><td>0.18%</td><td>0.126%</td><td>0.09%</td><td>Maker 0.028% / Taker 0.048%</td></tr><tr><td>VIP2</td><td>10,000 CET</td><td>0.16%</td><td>0.112%</td><td>0.08%</td><td>Maker 0.026% / Taker 0.046%</td></tr><tr><td>VIP3</td><td>100,000 CET</td><td>0.14%</td><td>0.098%</td><td>0.07%</td><td>Maker 0.024% / Taker 0.044%</td></tr><tr><td>VIP4</td><td>500,000 CET</td><td>0.12%</td><td>0.084%</td><td>0.06%</td><td>Maker 0.022% / Taker 0.042%</td></tr><tr><td>VIP5</td><td>1,000,000 CET</td><td>0.1%</td><td>0.07%</td><td>0.05%</td><td>Maker 0.02% / Taker 0.04%</td></tr></tbody></table></figure><p> </p><p>If you have more CET than what you hold in your exchange wallet, it is always prudent to keep your funds off any exchange and in a private wallet instead. It is possible to bind the address of a wallet to your CoinEx account. Your funds are still perfectly safe; all the exchange has access to is the data about how many CET tokens you're holding and nothing else. This can bump you up in terms of VIP levels, so it might be worth considering. </p><p>Users with very high trading volumes per month (starting at USD 10m) can get additional discounts under different Spot Market Making Levels. Makers have noticeably lower trading fees than takers. This is because they provide the "gasoline" for the market, as the exchange puts it; in other words, as they place an order and wait for the correct conditions to be met before it is executed, their funds provide liquidity for the exchange. Takers, on the other hand, are those who take up the orders that makers have placed, reducing the market depth. </p><p>All cryptocurrency deposits on CoinEx are free. However, each token has a minimum deposit and withdrawal amount that varies a lot between the hundreds of tokens available, some of them also available on different mainnets. Withdrawals do incur a fee, but this also changes on a case-by-case basis. Users can consult the exchange's exhaustive list of all available tokens and their fees <a href="https://www.coinex.com/fees?type=deposit" rel="noopener" target="_blank">here</a>. </p><p>CoinEx also offers special discounts for liquidity providers on its automated market-making functions. The AMM market has its own fees and rules, and the VIP rankings and CET discounts do not apply to these fee percentages. </p><p> </p><figure class="table"><table><tbody><tr><td>User Type</td><td>Normal AMM Fee Rate</td><td>Stablecoin AMM Fee Rate</td></tr><tr><td>CoinEx users</td><td>0.3%</td><td>0.1%</td></tr><tr><td>Market Makers</td><td>0.15%</td><td>0.05%</td></tr></tbody></table></figure><p> </p><p>All users can become liquidity providers, and 100% of transaction fees in all CET markets will be rewarded to them, as well as 50% of transaction fees in other markets.  </p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/coinex" rel="noindex nofollow" target="_blank">Trade now</a></p><h3>CoinEx Design and Usability </h3><p>CoinEx offers a relatively straightforward design and easy-to-use interface. There is a fine line between showing all relevant information and overwhelming users with too many numbers, but CoinEx treads it professionally. Their landing site shows new listings, all top coins in different tabs, and the current trading volume, as well as a few other pertinent information, without looking cluttered. </p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/63610/36085/create-account.png" data-srcset="https://cimg.co/review/63610/36085/responsive-images/create-account___media_library_original_1880_939.png 1880w, https://cimg.co/review/63610/36085/responsive-images/create-account___media_library_original_1200_599.png 1200w, https://cimg.co/review/63610/36085/responsive-images/create-account___media_library_original_900_449.png 900w, https://cimg.co/review/63610/36085/responsive-images/create-account___media_library_original_720_359.png 720w, https://cimg.co/review/63610/36085/responsive-images/create-account___media_library_original_600_299.png 600w, https://cimg.co/review/63610/36085/responsive-images/create-account___media_library_original_300_149.png 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1880"/></figure><p>The onboarding process is quite simple and straightforward. In the upper right corner of the site, there is a Sign Up button. Clicking it brings you to a screen where all you need to enter is your email address and a password. Once you've confirmed your email address, you're pretty much ready to go! While you don't have to set up two-factor authentication, you're strongly encouraged to do so in order to keep your account as secure as possible. </p><p>Of course, the need for a strong password goes without saying, as well as the necessity of keeping the password safe and away from prying eyes. After that, all you need to do is deposit funds into your account and you can start trading. </p><p>On the other hand, as earlier mentioned, CoinEx does have a KYC process that is completely voluntary and that raises the daily withdrawal limit for users from USD 10,000 to a whopping USD 1m for verified users. </p><p>Trading on the platform is quite simple. At the time of writing (October 2021), the platform supports more than 60 fiat currencies and 6 third-party payment partners, which accept payments via Visa or Mastercard as well. No matter which payment option users choose, buying a cryptocurrency is a matter of a few clicks.  </p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/63610/36086/dashboard.png" data-srcset="https://cimg.co/review/63610/36086/responsive-images/dashboard___media_library_original_1874_939.png 1874w, https://cimg.co/review/63610/36086/responsive-images/dashboard___media_library_original_1200_601.png 1200w, https://cimg.co/review/63610/36086/responsive-images/dashboard___media_library_original_900_450.png 900w, https://cimg.co/review/63610/36086/responsive-images/dashboard___media_library_original_720_360.png 720w, https://cimg.co/review/63610/36086/responsive-images/dashboard___media_library_original_600_300.png 600w, https://cimg.co/review/63610/36086/responsive-images/dashboard___media_library_original_300_150.png 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1874"/></figure><p>Trading cryptocurrencies among themselves is even more simple, although the number of trading pairs and order types can seem overwhelming at first. Users who only want to buy and sell cryptocurrencies without complications have to choose the Market option, but other types of trades Limit and Stop-Limit trading, specifically, are available in the tabs adjacent to the Market one. </p><p>Using these options is as straightforward as buying and selling at market price, which means you only have to enter the required information and click the Buy or Sell button, depending on what you need. Aside from spot trading, CoinEx also offers perpetual contracts and margin trading. Of course, these can be combined, which means you can place long buys using leverage from the exchange. </p><p>Of course, margin trading carries significant risk and should not be attempted by traders who cannot afford to lose the amount they're putting on the line. Before starting margin trading, users will have to transfer the appropriate amount of funds from their spot trading account to the margin trading account. </p><p>Finally, users who want to take their trading with them wherever they go can download the CoinEx mobile app for both Android and iOS devices. Interestingly, aside from downloading the Android version from the Google Play store, users can also download the APK version directly from the website if they prefer, removing the need for a Google account, but also not tying the download to your other data if that is what you prefer. </p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/63610/36087/help-center.png" data-srcset="https://cimg.co/review/63610/36087/responsive-images/help-center___media_library_original_1874_939.png 1874w, https://cimg.co/review/63610/36087/responsive-images/help-center___media_library_original_1200_601.png 1200w, https://cimg.co/review/63610/36087/responsive-images/help-center___media_library_original_900_450.png 900w, https://cimg.co/review/63610/36087/responsive-images/help-center___media_library_original_720_360.png 720w, https://cimg.co/review/63610/36087/responsive-images/help-center___media_library_original_600_300.png 600w, https://cimg.co/review/63610/36087/responsive-images/help-center___media_library_original_300_150.png 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1874"/></figure><p>Users who run into any problems on the platform can get help through several channels. The first is their Help Center, which features answers to common questions and detailed guides to using the exchange. A Help button in the lower right corner of the screen lets you enter your inquiry and lists out all articles that could help you. </p><p>If you can't find what you're looking for, or you have a specific issue, you can contact their support either through that same Help button, which has a Contact Us option at the bottom or at the top of the screen through the Submit Request option. You will have to provide the email address connected to your account, the type of issue you've run into, and a detailed explanation. On the exchange's side, they note that they will reply as soon as possible.</p><h3>CoinEx Security</h3><p>To ensure the safety of their users funds, CoinEx uses multi-sig cold wallet storage, although they do not specify what percentage of the funds deposited with them are kept offline. They also add that collaboration with the world's top-tier security team [provides] full-dimension protection, but there is no information as to who makes up that security team. The exchange has never been hacked in its 4-year existence. </p><p>CoinEx holds the Estonian digital asset trading license, which means that all your funds on the exchange will be 100% reserved. In other words, they cannot be used for any other purposes, which makes withdrawals quick and efficient and ensures that you don't have to wait for them to make up for anything they used elsewhere. </p><p>Another important security aspect is their Bug Bounty program, which encourages technologically savvy users who recognize bugs or other issues on the exchange to report the threat and receive a reward of up to USDT 10,000 in return. The minimum reward is USDT 200, which means that even the smallest exploitable bugs that are turned in will be rewarded. </p><figure class="table"><table><tbody><tr><td>Level</td><td>Reward</td></tr><tr><td>Level 1</td><td>USDT 200 - 1,000</td></tr><tr><td>Level 2</td><td>USDT 1,500 - 4,000</td></tr><tr><td>Level 3</td><td>USDT 5,000 - 10,000</td></tr></tbody></table></figure><p>When it comes to the security measures that users are encouraged to take, aside from generating a strong password and setting up two-factor authentication (either through Google Authenticator or SMS codes), users can also set up an API withdrawal whitelist on WEB and API separately. </p><p>When you log into the exchange, you will receive an SMS or email with your IP address, time, and location, so you're immediately notified if it wasn't you. You will also be notified if your IP address changes frequently (for example if you use several devices or if you travel often), and all deposits and withdrawals are also sent to your email address or via SMS.  </p><p>CoinEx was ranked 80th out of 150 exchanges by research company <strong>CryptoCompare</strong>, giving it a B grade overall. The weakest points according to this ranking is the lack of transparency when it comes to the team, but the lack of a forced KYC and no adherence to strict regulatory frameworks are another reason for its relatively low ranking. In terms of market quality, data provision, and security, the exchange scores relatively well. </p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/coinex" rel="noindex nofollow" target="_blank">Visit CoinEx</a></p><h3>CoinEx Deposits and Withdrawals </h3><p>Funding your CoinEx account is simple. Deposits are free, and to send cryptocurrencies to your account, you will have to click on Assets, choose Deposit in the drop-down menu, find the coin you want to deposit (don't forget to choose the protocol type if applicable), and copy your CoinEx address to your wallet. There is a minimum deposit amount for each token that is available on the platform, all of which are listed <a href="https://www.coinex.com/fees?type=deposit" rel="noopener" target="_blank">here</a>. There is no maximum deposit limit. </p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/63610/36088/deposit-crypto.png" data-srcset="https://cimg.co/review/63610/36088/responsive-images/deposit-crypto___media_library_original_1874_939.png 1874w, https://cimg.co/review/63610/36088/responsive-images/deposit-crypto___media_library_original_1200_601.png 1200w, https://cimg.co/review/63610/36088/responsive-images/deposit-crypto___media_library_original_900_450.png 900w, https://cimg.co/review/63610/36088/responsive-images/deposit-crypto___media_library_original_720_360.png 720w, https://cimg.co/review/63610/36088/responsive-images/deposit-crypto___media_library_original_600_300.png 600w, https://cimg.co/review/63610/36088/responsive-images/deposit-crypto___media_library_original_300_150.png 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1874"/></figure><p>While it is not exactly possible to deposit fiat funds to your account, you can use fiat to directly purchase crypto on CoinEx. As mentioned above, there are six third-party payment providers that are accepted: Simplex, XanPool, Mercuryo, Paxful, Moonpay, and AdvCash. </p><p>Withdrawals are also straightforward. After entering the amount you wish to withdraw and the address where you want to send your tokens, you will have to confirm your withdrawal request through an email and then wait up to 15 minutes (up to 30 minutes for large amounts) for the request to go through an internal audit. </p><p>After that, you will also need to wait for the required block deposits to go through, depending on the rules of the blockchain in question. The platform only charges the required miner fee for withdrawals. </p><p>It is also possible to sell cryptocurrencies for fiat on the exchange, but only using Mercuryo. Important to note, however, is that CoinEx only supports RUB when selling cryptocurrencies. EUR and USD will be added soon, according to the exchange. </p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/63610/36089/withdraw.png" data-srcset="https://cimg.co/review/63610/36089/responsive-images/withdraw___media_library_original_1874_939.png 1874w, https://cimg.co/review/63610/36089/responsive-images/withdraw___media_library_original_1200_601.png 1200w, https://cimg.co/review/63610/36089/responsive-images/withdraw___media_library_original_900_450.png 900w, https://cimg.co/review/63610/36089/responsive-images/withdraw___media_library_original_720_360.png 720w, https://cimg.co/review/63610/36089/responsive-images/withdraw___media_library_original_600_300.png 600w, https://cimg.co/review/63610/36089/responsive-images/withdraw___media_library_original_300_150.png 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1874"/></figure><h3>Conclusion </h3><p>CoinEx is an excellent cryptocurrency exchange for people looking for a strong spot trading market with the possibility of choosing perpetual futures and margin trading for more experienced investors. The number of supported tokens is immense and still steadily growing, which means you will be able to find an excellent selection of low-cap altcoins here. The exchange is especially well-suited to users who prefer their privacy.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/coinex" rel="noindex nofollow" target="_blank">Open a Free Account</a></p><p> </p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/nash/">Nash.io</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="6078294db9837.png" class="img-fluid img-circle author__image author__image--has-bg mb-15" loading="auto" src="https://cimg.co/reviewlogo/71/6078294db9837.png"/>
+<div>
+<a class="c-black" href="#"><b>Nash.io</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/nash" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+<div class="fs-12"></div>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="nash"> Nash.io</h1>
+<p>Nash is a decentralized cryptocurrency trading platform that aims ‘to empower a billion users to invest in and trade digital assets by 2030’. Nash is a ‘fully-featured exchange where you can trade Bitcoin without giving up your private keys,’ meaning that unlike the traditional centralized exchanges, Nash runs on a blockchain protocol. The users have sole access to non-custodial trading wallets with encrypted 12-word passphrases like many other decentralized wallets. Since every transaction can be tracked on a public blockchain ledger, Nash's security is extremely high. More than an exchange, Nash sees itself as becoming a platform for global decentralized banking, for anyone, anywhere. With 0%-1% fees, goals of user-centered design, crypto-to-crypto trading, prime brokerage tools, crypto securities trading, and inter-exchange liquidity networks, Nash aims to be a premier platform for decentralized finance.</p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/nash" target="_blank">Nash.io</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://nash.io/contact/" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>Vaduz, Liechtenstein</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>2.2 BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>Yes</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>Yes</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>Neon Exchange AG</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+                                                                                                                                                        Bank Transfer,
+                                                                                                                                                                                                                                        Credit Card,
+                                                                                                                                                                                                                                        Debit Card,
+                                                                                                                                                                                                                                        Crypto Transfer,
+                                                                                                                                            </b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>EUR, GBP</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>7</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>NEX</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>Low (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+</ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+</ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/51190/17714/607d491caa753.png" srcset="https://cimg.co/review/51190/17714/responsive-images/607d491caa753___media_library_original_1794_937.png 1794w, https://cimg.co/review/51190/17714/responsive-images/607d491caa753___media_library_original_1200_626.png 1200w, https://cimg.co/review/51190/17714/responsive-images/607d491caa753___media_library_original_900_470.png 900w, https://cimg.co/review/51190/17714/responsive-images/607d491caa753___media_library_original_720_376.png 720w, https://cimg.co/review/51190/17714/responsive-images/607d491caa753___media_library_original_600_313.png 600w, https://cimg.co/review/51190/17714/responsive-images/607d491caa753___media_library_original_300_156.png 300w" width="1794"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/51190/17715/607d491d23a96.png" data-srcset="https://cimg.co/review/51190/17715/responsive-images/607d491d23a96___media_library_original_1797_683.png 1797w, https://cimg.co/review/51190/17715/responsive-images/607d491d23a96___media_library_original_1200_456.png 1200w, https://cimg.co/review/51190/17715/responsive-images/607d491d23a96___media_library_original_900_342.png 900w, https://cimg.co/review/51190/17715/responsive-images/607d491d23a96___media_library_original_720_273.png 720w, https://cimg.co/review/51190/17715/responsive-images/607d491d23a96___media_library_original_600_228.png 600w, https://cimg.co/review/51190/17715/responsive-images/607d491d23a96___media_library_original_300_114.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1797"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/51190/17716/607d491db03e3.png" data-srcset="https://cimg.co/review/51190/17716/responsive-images/607d491db03e3___media_library_original_2558_1417.png 2558w, https://cimg.co/review/51190/17716/responsive-images/607d491db03e3___media_library_original_1200_664.png 1200w, https://cimg.co/review/51190/17716/responsive-images/607d491db03e3___media_library_original_900_498.png 900w, https://cimg.co/review/51190/17716/responsive-images/607d491db03e3___media_library_original_720_398.png 720w, https://cimg.co/review/51190/17716/responsive-images/607d491db03e3___media_library_original_600_332.png 600w, https://cimg.co/review/51190/17716/responsive-images/607d491db03e3___media_library_original_300_166.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="2558"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/51190/17717/607d491e39187.png" data-srcset="https://cimg.co/review/51190/17717/responsive-images/607d491e39187___media_library_original_2189_935.png 2189w, https://cimg.co/review/51190/17717/responsive-images/607d491e39187___media_library_original_1200_512.png 1200w, https://cimg.co/review/51190/17717/responsive-images/607d491e39187___media_library_original_900_384.png 900w, https://cimg.co/review/51190/17717/responsive-images/607d491e39187___media_library_original_720_307.png 720w, https://cimg.co/review/51190/17717/responsive-images/607d491e39187___media_library_original_600_256.png 600w, https://cimg.co/review/51190/17717/responsive-images/607d491e39187___media_library_original_300_128.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="2189"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/51190/17718/607d491ece764.png" data-srcset="https://cimg.co/review/51190/17718/responsive-images/607d491ece764___media_library_original_1746_1059.png 1746w, https://cimg.co/review/51190/17718/responsive-images/607d491ece764___media_library_original_1200_727.png 1200w, https://cimg.co/review/51190/17718/responsive-images/607d491ece764___media_library_original_900_545.png 900w, https://cimg.co/review/51190/17718/responsive-images/607d491ece764___media_library_original_720_436.png 720w, https://cimg.co/review/51190/17718/responsive-images/607d491ece764___media_library_original_600_363.png 600w, https://cimg.co/review/51190/17718/responsive-images/607d491ece764___media_library_original_300_181.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1746"/></div>
+</div>
+</div><h2>Nash Exchange: Review Summary</h2><figure class="image"><img alt="nash exchange review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/607/d563602930.png" data-srcset="https://cimg.co/w/rw-attachments/1/607/d563602930.png 300w, https://cimg.co/w/rw-attachments/2/607/d563602930.png 600w, https://cimg.co/w/rw-attachments/3/607/d563602930.png 720w, https://cimg.co/w/rw-attachments/4/607/d563602930.png 900w, https://cimg.co/w/rw-attachments/0/607/d563602930.png 2189w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><ul><li><strong>Decentralized exchange.</strong> Using decentralized technology, Nash has probably one of the most technologically advanced exchanges out there while staying true to the original decentralized spirit of crypto.</li><li><strong>Token Registered as a Security.</strong> Nash’s (NEX) token is made on the NEO blockchain and is a legally approved security token by the Financial Market Authority (FMA) of Liechtenstein. You can use (NEX) to stake dividends, locking them into a smart contract. Once staked, you can claim dividends.</li><li><strong>Nash Wallet.</strong> The Nash Wallet, using advanced multi-party computation (MPC), can be argued to rival the security of a hardware wallet. When using Nash, your assets will be owned by you in this wallet, in contrast to leaving them on an exchange.</li><li><strong>Margin Trading.</strong> Nash makes it clear that you can download a recommended margin trading application to use with their platform.</li><li><strong>Customer support.</strong> With the ability to live chat Monday - Friday, Nash support has had a satisfaction rating as high as 95%.</li><li><strong>Ease-of-use.</strong> The design is neat and every step is clearly understood. The platform tries its best to introduce the average person to the world of decentralized exchanges.</li><li><strong>Low fees.</strong> There are no fees when you’re making a transaction on Nash. Fees are only given to the takers of transactions. However, you should watch out for network fees, particularly those that are run on the Ethereum blockchain.</li></ul><h3>Background and History</h3><p>In a weekly report in 2017, the open-sourced community founders of The City of Zion (CoZ) announced a project. Neon Meta Exchange (NEX) put forth a new technology that would attempt to elevate the security and performance in the exchanging of digital assets. Throughout 2018, they gave presentations all over the world and gained partnerships along the way. Over the year, NEX registered their token as a security and took the time to be legally compliant, which was completed in August 2018. In September 2018, just a month after they became legally compliant, their <a href="/guides/what-is-an-ico.htm">ICO</a> was launched, seeking to follow CoZ guidelines of responsible ICOs.</p><p>In 2019, NEX was rebranded as Nash, and they launched a new website and referral program to the community. In September of the same year, Nash was officially launched, and users traded Neo and Ethereum on their off-chain matching engine. A funds management system was soon in place. Nash also published extensive articles on their project in major news publications. Their customer support system also became well-developed with a customer satisfaction rate of 95%.</p><p>Nash’s overarching mission is “to bring borderless finance to everyone.” Not willing to back down from their vision, they have worked their way into creating a decentralized exchange that looks to compete with the biggest centralized exchanges out there.</p><h4>Notable Achievements</h4><p>Technologically, Nash’s achievements are noteworthy. With an MPC API protocol for their Nash wallet, Nash and the user account work together to create a blockchain signature. Nash has a pre-signature to make sure that the transaction is valid on the blockchain. This generates security restrictions enforced by Nash while giving the user the permission to be the only one starting transactions on the wallet.</p><figure class="image"><img alt="nash exchange fees" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/607/e9dfa61937.png" data-srcset="https://cimg.co/w/rw-attachments/1/607/e9dfa61937.png 300w, https://cimg.co/w/rw-attachments/2/607/e9dfa61937.png 600w, https://cimg.co/w/rw-attachments/3/607/e9dfa61937.png 720w, https://cimg.co/w/rw-attachments/4/607/e9dfa61937.png 900w, https://cimg.co/w/rw-attachments/0/607/e9dfa61937.png 1797w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>With Nash’s technological protocols, they have arguably made their wallet as secure as having a hardware wallet. This would do a lot in terms of bringing decentralized finance to the masses. Physical hardware wallets could seem tricky to the average person and shy someone away from decentralized finance.</p><p>Nash’s NEX token has also been deemed an official security token, good recognition for a decentralized application.</p><h4>Regulations, licenses, countries</h4><p>Having the only fully compliant exchange token, Nash puts special emphasis on their management of regulatory practices. Over a year-long approval process, Nash worked with regulators at the FMA (Financial Market Authority) to issue and transact traditional securities on the blockchain. NEX is now deemed the only fully regulated security token.</p><p>Why would Nash want to have this special license? For one, those who choose to invest in Nash have protection against harmful practices such as fraud, insider trading, and market manipulation. It also gives a way for Nash to pay investors dividends. Nash doubles down on the idea that an exchange token’s value is tied to the exchange’s success. They believe that other exchanges are not as compliant with these legal structures, so they went above and beyond to make sure that the law recognized the token as a security, not wanting to create unnecessary risks for investors.</p><p>Though widespread across the world and prevalent among most countries, Nash does not allow certain countries to operate due to restrictions. These countries include the following according to the Nash.io website:</p><figure class="image"><img alt="Nash exchange review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/607/816728e28d.png" data-srcset="https://cimg.co/w/rw-attachments/1/607/816728e28d.png 300w, https://cimg.co/w/rw-attachments/2/607/816728e28d.png 600w, https://cimg.co/w/rw-attachments/3/607/816728e28d.png 720w, https://cimg.co/w/rw-attachments/4/607/816728e28d.png 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h4>Verification Requirements and Account Tiers</h4><p>Since it’s a decentralized exchange, Nash’s verification functions differently from other exchanges. Technically, all you need is another wallet to connect other cryptocurrencies to make trades, instead of having to go through fiat. For the person who doesn’t plan on making orders by the magnitude of the hundreds of thousands of dollars, this should be enough.</p><p>To make trades from the national currency and to have access to higher trading volume, you’ll need a whole array of private information, from your personal information, your ID or passport, and your bank account information. The difference between Nash and most exchanges, however, is other exchanges hold all of your coins on the exchange. This is where the popular crypto saying ‘not your keys, not your coins’ comes from. Although you own decentralized assets, you’re keeping them on a centralized exchange, which doesn’t sit well with many.</p><p>What differs Nash from these other exchanges is the fact that the platform is decentralized and you’ll be able to have full control of your assets in a non-custodial wallet. The exchange isn’t the one that has access to your coins, so you’ll retain ownership of your assets, as opposed to being at the mercy of an exchange. The assets go to your encrypted Nash wallet that only you can access, making your assets more secure to leave than centralized exchanges.</p><h4>Account tiers</h4><p>The account tiers that are available mostly correspond to the trading volume that you want to be able to generate. Without Tier 1 verification, or just remaining at Tier 0, you are restricted to trading 5,000 USD per day, 30,000 USD per month, and 365,000 USD per year. So if you want to keep a lot of your privacy this way, you can stick to this tier.</p><p>If that’s not enough, the rest of the tiers are as follows according to the Nash website:</p><figure class="image"><img alt="nash review limits" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/607/e9ea0dd548.png" data-srcset="https://cimg.co/w/rw-attachments/1/607/e9ea0dd548.png 300w, https://cimg.co/w/rw-attachments/2/607/e9ea0dd548.png 600w, https://cimg.co/w/rw-attachments/3/607/e9ea0dd548.png 720w, https://cimg.co/w/rw-attachments/4/607/e9ea0dd548.png 900w, https://cimg.co/w/rw-attachments/0/607/e9ea0dd548.png 1931w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/nash" rel="noindex nofollow" target="_blank">Visit Nash.io</a></p><h3>Design and Usability</h3><p>Nash does live up to their mission to make the interface user-friendly. They want their decentralized exchange to be just as intuitive as a traditional finance exchange. The design is neat, clean, and does a great job of easing users onto the platform.</p><figure class="image"><img alt="Nash review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/607/e9e20819e6.png" data-srcset="https://cimg.co/w/rw-attachments/1/607/e9e20819e6.png 300w, https://cimg.co/w/rw-attachments/2/607/e9e20819e6.png 600w, https://cimg.co/w/rw-attachments/3/607/e9e20819e6.png 720w, https://cimg.co/w/rw-attachments/4/607/e9e20819e6.png 900w, https://cimg.co/w/rw-attachments/0/607/e9e20819e6.png 2558w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>To create an account on Nash, you just have to go to the home page and click the sign-up button at the top right. You enter your full legal name, an optional referral code if you have one, your country and state of residence, an email, and a password. Afterward, you’ll receive a verification email. Then you’ll sign into Nash and begin to generate your digital asset account. Nash uses 12 secret words to create your account for digital assets such as Ethereum and NEO. Even if you lose your password, you can still sign in using the 12 secret words, much like any other decentralized wallet. It will prompt you to put in the secret words in order to move on.</p><p>Next, you’ll be able to factor in a 2-step authentication by downloading an app like Authy. You’ll just need to scan the QR code and have it run by your chosen authentication app.</p><figure class="image"><img alt="Nash exchange 2FA" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/607/d57cfd9b40.png" data-srcset="https://cimg.co/w/rw-attachments/1/607/d57cfd9b40.png 300w, https://cimg.co/w/rw-attachments/2/607/d57cfd9b40.png 600w, https://cimg.co/w/rw-attachments/3/607/d57cfd9b40.png 720w, https://cimg.co/w/rw-attachments/4/607/d57cfd9b40.png 900w, https://cimg.co/w/rw-attachments/0/607/d57cfd9b40.png 1794w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h4>Nash Wallet</h4><p>The software wallet functions on an MPC API protocol, which Nash claims is as secure as a hardware wallet. This aligns with their mission of bringing DeFi to the masses. What would make cryptocurrencies more accessible to the general public are incredibly secure wallets anyone can download for free. Hardware wallets that regular people have to buy and have shipped to their homes definitely hinder the speed at which users feel like they have access to their coins. If Nash accomplishes their goal, its online wallet will be more capable than a hardware wallet because of the ease of access.</p><h4>Making Trades</h4><p>This might be the part that bothers those who aren’t used to trading on decentralized applications. To begin making trades, you need to send funds to Nash Channels. Nash is partnered with different asset providers. You’ll have to make an account, fill out the information, get verified, and then make your purchase. You can buy and sell using the current exchange rate.</p><p>Now you can send assets from an external account to your Nash wallet and begin trading.</p><figure class="image"><img alt="Nash review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/607/81d8302ea6.png" data-srcset="https://cimg.co/w/rw-attachments/1/607/81d8302ea6.png 300w, https://cimg.co/w/rw-attachments/2/607/81d8302ea6.png 600w, https://cimg.co/w/rw-attachments/3/607/81d8302ea6.png 720w, https://cimg.co/w/rw-attachments/4/607/81d8302ea6.png 900w, https://cimg.co/w/rw-attachments/0/607/81d8302ea6.png 1127w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>From here, you can go to the trades tab and hit basic. You can then select the token you want to trade and receive. Buying and selling are based on the current exchange rate.</p><p>Like what you would see on regular trading platforms, you have the history of trade orders, the price graphs, recent trades. It’s nice that these are all on the left side of the platform and you can make trades with specific customizations on the right side.</p><p>You can download the Margin program to sync up to the platform and do margin trading. Nash has it in plain sight on the front page. Integration that’s clearly advertised is a big step in introducing margin trading on decentralized platforms. There is also Tuned for trading strategies requiring coding and scripting.</p><figure class="image"><img alt="Nash exchange review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/607/81d9d739c2.png" data-srcset="https://cimg.co/w/rw-attachments/1/607/81d9d739c2.png 300w, https://cimg.co/w/rw-attachments/2/607/81d9d739c2.png 600w, https://cimg.co/w/rw-attachments/3/607/81d9d739c2.png 720w, https://cimg.co/w/rw-attachments/4/607/81d9d739c2.png 900w, https://cimg.co/w/rw-attachments/0/607/81d9d739c2.png 1325w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Nash has its own limit order function as well. When set, the exchange only occurs when the price is at or below the chosen price or at or above the chosen price. The time that the limit order is functioning is its time in force, to which Nash has four types available: good ‘til canceled, good ‘til time, fill or kill, and immediate or cancel.</p><p><strong>Good ‘til cancel</strong> means that the order will remain until filled. <strong>Good ‘til time</strong> means that the order will stay until a time you choose. <strong>Fill or kill</strong> means that if the order can be filled in its entirety, it will do so instantly, and if it can’t be fulfilled then it will be canceled. <strong>Immediate or cancel</strong> is similar to fill or kill, except that if an order can be filled it will go through as much as it can and cancel what it can’t fulfill.</p><p>Nash also has a stop-market order and a stop-limit order. With the stop-market order, a requested market amount ordered will go ahead once the stop price is attained. With stop-limit, a limit order will execute when the targeted limit price is reached.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/nash" rel="noindex nofollow" target="_blank">Go to Nash.io</a></p><h3>Security</h3><p>As mentioned, Nash has 2FA (2-factor authentication) set up to make sure that only you created the account. Nash works in conjunction with common authenticator apps to make sure attackers don’t hack your account.</p><p>In terms of wallets, Nash’s security is currently not compatible with hardware wallets. Using multi-party computation (MPC), Nash has upgraded client protocols to create signatures. In this way, Nash claims that their non-custodial wallet has hardware-level security for free. According to Nash, the use of a seed phrase that grants complete access to crypto funds, even if Nash is online, gives the same security as a hardware wallet. Nash claims that the security is arguably safer than a hardware wallet while having the smooth interface of online wallets. The extent of the damage an attacker can inflict is apparently limited.</p><figure class="image"><img alt="nash security" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/607/e9e34af522.png" data-srcset="https://cimg.co/w/rw-attachments/1/607/e9e34af522.png 300w, https://cimg.co/w/rw-attachments/2/607/e9e34af522.png 600w, https://cimg.co/w/rw-attachments/3/607/e9e34af522.png 720w, https://cimg.co/w/rw-attachments/4/607/e9e34af522.png 900w, https://cimg.co/w/rw-attachments/0/607/e9e34af522.png 1746w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Nash's mission is to be accessible to a widespread amount of people. Having a non-custodial wallet that you can access anywhere with the same security level as a hardware wallet could be a way for everyone to have access to decentralized banking. This method gets close to the security of having a hardware wallet. Ownership of cryptoassets is yours from the beginning, unlike leaving your funds on a centralized exchange. Compared to keeping money on centralized exchanges, you can argue that Nash’s security system is far more secure since only you, the user, have access to your encrypted wallet, unlike leaving it on exchanges where the exchange has access to your funds.</p><h3>Mobile App</h3><figure class="image"><img alt="nash.io" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/607/822de39136.png" data-srcset="https://cimg.co/w/rw-attachments/1/607/822de39136.png 300w, https://cimg.co/w/rw-attachments/2/607/822de39136.png 600w, https://cimg.co/w/rw-attachments/3/607/822de39136.png 720w, https://cimg.co/w/rw-attachments/4/607/822de39136.png 900w, https://cimg.co/w/rw-attachments/0/607/822de39136.png 1099w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>The mobile app interface is just as intuitive as the computer version. It’s neatly divided into assets, portfolio, and transfers, showing the overall market cap, global volume, and BTC dominance. With a touch, you can send and receive assets as well. It also comes with fingerprint security if you choose to set that up. True to their mission, Nash definitely makes it simple to trade crypto, even on mobile.</p><p>Connecting with decentralized applications, or dapps is also made easy with a WalletConnect QR code when using Android. Running on MPC, you aren’t using a private key when using dapps, making it more secure than connecting on dapps the usual way through browser extensions.</p><h3>Customer Support</h3><figure class="image"><img alt="nash exchange" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/607/823011dc90.png" data-srcset="https://cimg.co/w/rw-attachments/1/607/823011dc90.png 300w, https://cimg.co/w/rw-attachments/2/607/823011dc90.png 600w, https://cimg.co/w/rw-attachments/3/607/823011dc90.png 720w, https://cimg.co/w/rw-attachments/4/607/823011dc90.png 900w, https://cimg.co/w/rw-attachments/0/607/823011dc90.png 1305w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Armed with a live chat that is open Monday - Friday, customer support has already gained the approval of many users. The live chat also gives out a list of suggestions and redirects you to the website’s articles once you type in what you need. As of February 2020, 75% of support tickets have been solved in one touch and they had a 95% satisfaction rate.</p><h3>Nash Fees</h3><figure class="image"><img alt="nash fees" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/607/8233b35536.png" data-srcset="https://cimg.co/w/rw-attachments/1/607/8233b35536.png 300w, https://cimg.co/w/rw-attachments/2/607/8233b35536.png 600w, https://cimg.co/w/rw-attachments/3/607/8233b35536.png 720w, https://cimg.co/w/rw-attachments/4/607/8233b35536.png 900w, https://cimg.co/w/rw-attachments/0/607/8233b35536.png 1442w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>What might appeal to those who could care less about whether an exchange is centralized or decentralized are the incredibly low fees. Nash charges no fees for deposits, withdrawals, or transfers. For several assets, though, Nash charges network fees to complete transactions, taken from Nash channels and the Nash wallet. Above, you’ll be able to see the volume and the amount the taker of transactions is charged. When a maker creates an order, it lingers in the books until a taker matches it, adding market liquidity.</p><p>You should also be aware that while there are no transaction fees the exchange charges the maker, you have to keep in mind the fees on the network you’re running on. For example, transactions on the Ethereum network are costly, so you’ll be paying those fees if you’re making any Eth-based transactions. Otherwise, if you’re using NEO, you won’t get hit with those high fees because of the network. When the Ethereum fees become more manageable, this would be a huge boon to the Nash exchange.</p><p>When it comes to purchases and sales using your personal wallet, Nash charges a 1% fee.</p><h2>Nash Review: Conclusion</h2><p>With the widespread dominance of centralized exchanges, Nash is a breath of fresh air. They have truly committed to becoming a decentralized exchange available to the common person. Nash has made significant steps in achieving its goal of making decentralized banking accessible to the masses. With everything traded being user-owned, an intuitive design, low fees, and an interface that welcomes new users, Nash is a promising platform with the vision and design to follow through on their massive goals.</p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

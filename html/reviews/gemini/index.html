@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/gemini/">Gemini</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="5f11ec24baeb1.png" class="img-fluid img-circle author__image author__image--has-bg mb-15" loading="auto" src="https://cimg.co/reviewlogo/49/5f11ec24baeb1.png"/>
+<div>
+<a class="c-black" href="#"><b>Gemini</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/gemini" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+<div class="fs-12"></div>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="gemini"> Gemini</h1>
+<p>Gemini is one of the biggest cryptocurrency exchanges that operates in six continents. Based in the United States, it was founded by twin brothers Cameron and Tyler Winklevoss back in 2014. Since then, it has become one of the biggest regulated crypto exchanges with a user-friendly platform and zero publicly known large-scale hacks. It has listed over 20 digital assets, including Bitcoin, Ethereum, Litecoin, Chainlink, Maker, and many more. As for a fully regulated exchange, Gemini’s fees are higher compared with unregulated competitors, and all of its users have to undergo extensive know-your-customer (KYC) checks in order to open an account. Nevertheless, it remains an attractive option for investors seeking ease of use and unparalleled security on both regulatory as well as technical fronts.</p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/gemini" target="_blank">Gemini</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://support.gemini.com/hc/en-us" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>New York, US</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>565.0 BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>Yes</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>No</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>Gemini Trust Company, LLC</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+                                                                                                                                                        Bank Transfer,
+                                                                                                                                                                                                                                        Credit Card,
+                                                                                                                                                                                                                                        Debit Card,
+                                                                                                                                                                                                                                        Crypto Transfer,
+                                                                                                                                            </b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>USD</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>46</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>GUSD</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>High (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+</ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+</ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/229/15425/5ffdaafe20d33.jpg" srcset="https://cimg.co/review/229/15425/responsive-images/5ffdaafe20d33___media_library_original_858_534.jpg 858w, https://cimg.co/review/229/15425/responsive-images/5ffdaafe20d33___media_library_original_720_448.jpg 720w, https://cimg.co/review/229/15425/responsive-images/5ffdaafe20d33___media_library_original_600_373.jpg 600w, https://cimg.co/review/229/15425/responsive-images/5ffdaafe20d33___media_library_original_300_186.jpg 300w" width="858"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/229/15426/5ffdaafe53669.jpg" data-srcset="https://cimg.co/review/229/15426/responsive-images/5ffdaafe53669___media_library_original_748_447.jpg 748w, https://cimg.co/review/229/15426/responsive-images/5ffdaafe53669___media_library_original_720_430.jpg 720w, https://cimg.co/review/229/15426/responsive-images/5ffdaafe53669___media_library_original_600_358.jpg 600w, https://cimg.co/review/229/15426/responsive-images/5ffdaafe53669___media_library_original_300_179.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="748"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/229/15427/5ffdaafe94f0e.jpg" data-srcset="https://cimg.co/review/229/15427/responsive-images/5ffdaafe94f0e___media_library_original_961_535.jpg 961w, https://cimg.co/review/229/15427/responsive-images/5ffdaafe94f0e___media_library_original_900_501.jpg 900w, https://cimg.co/review/229/15427/responsive-images/5ffdaafe94f0e___media_library_original_720_400.jpg 720w, https://cimg.co/review/229/15427/responsive-images/5ffdaafe94f0e___media_library_original_600_334.jpg 600w, https://cimg.co/review/229/15427/responsive-images/5ffdaafe94f0e___media_library_original_300_167.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="961"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/229/15428/5ffdaafee5dab.jpg" data-srcset="https://cimg.co/review/229/15428/responsive-images/5ffdaafee5dab___media_library_original_1900_894.jpg 1900w, https://cimg.co/review/229/15428/responsive-images/5ffdaafee5dab___media_library_original_1200_564.jpg 1200w, https://cimg.co/review/229/15428/responsive-images/5ffdaafee5dab___media_library_original_900_423.jpg 900w, https://cimg.co/review/229/15428/responsive-images/5ffdaafee5dab___media_library_original_720_338.jpg 720w, https://cimg.co/review/229/15428/responsive-images/5ffdaafee5dab___media_library_original_600_282.jpg 600w, https://cimg.co/review/229/15428/responsive-images/5ffdaafee5dab___media_library_original_300_141.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1900"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/229/15429/5ffdaaff3e95b.jpg" data-srcset="https://cimg.co/review/229/15429/responsive-images/5ffdaaff3e95b___media_library_original_1796_824.jpg 1796w, https://cimg.co/review/229/15429/responsive-images/5ffdaaff3e95b___media_library_original_1200_550.jpg 1200w, https://cimg.co/review/229/15429/responsive-images/5ffdaaff3e95b___media_library_original_900_412.jpg 900w, https://cimg.co/review/229/15429/responsive-images/5ffdaaff3e95b___media_library_original_720_330.jpg 720w, https://cimg.co/review/229/15429/responsive-images/5ffdaaff3e95b___media_library_original_600_275.jpg 600w, https://cimg.co/review/229/15429/responsive-images/5ffdaaff3e95b___media_library_original_300_137.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1796"/></div>
+</div>
+</div><h2>Gemini review: key features</h2><p>Gemini is a top cryptocurrency exchange designed with security in mind. The signature features of the exchange include:</p><ul><li><strong>Fiat-to-crypto onramp for beginners and experienced traders.</strong> Gemini is simple enough to use for beginners and retail traders but includes advanced trading options for professionals.</li><li><strong>Gemini custody and OTC desk.</strong> Institutional investors might want to take advantage of Gemini’s markets and security infrastructure.</li><li><strong>Free deposits and withdrawals.</strong> Gemini does not take extra fees for both crypto and fiat deposits and withdrawals unless you exceed dedicated transaction amounts, which is great for retail traders.</li><li><strong>Excellent customer support.</strong> You will get a reply to your query in less than two hours during non-busy times.</li></ul><figure class="image"><img alt="Gemini review " class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ff/de4df239bf.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ff/de4df239bf.jpg 300w, https://cimg.co/w/rw-attachments/2/5ff/de4df239bf.jpg 600w, https://cimg.co/w/rw-attachments/3/5ff/de4df239bf.jpg 720w, https://cimg.co/w/rw-attachments/4/5ff/de4df239bf.jpg 900w, https://cimg.co/w/rw-attachments/0/5ff/de4df239bf.jpg 1900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Overall, Gemini is a leading cryptocurrency exchange for everyday crypto traders. If you’re looking for a reliable fiat-to-crypto onramp and off-ramp and don’t mind somewhat higher fees, Gemini exchange might be an ideal option for you.</p><h2>Background and history</h2><p>Gemini digital asset exchange was founded in 2014 by twin brothers American entrepreneurs Tyler and Cameron Winklevoss with a mission to build a bridge from the old world of finance to the future of money. Before founding Gemini, the Winklevoss brothers worked on Facebook’s predecessor ConnectU social platform with Facebook’s founder Mark Zuckerberg, who allegedly copied its source code for his own project. The whole drama involving the brothers and Mark Zuckerberg has been captured in a biographical drama film “<a href="https://www.imdb.com/title/tt1285016/">The Social Network.</a>”</p><figure class="image"><img alt="Gemini exchange review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ff/dc5d48957b.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ff/dc5d48957b.jpg 300w, https://cimg.co/w/rw-attachments/2/5ff/dc5d48957b.jpg 600w, https://cimg.co/w/rw-attachments/3/5ff/dc5d48957b.jpg 720w, https://cimg.co/w/rw-attachments/4/5ff/dc5d48957b.jpg 900w, https://cimg.co/w/rw-attachments/0/5ff/dc5d48957b.jpg 1895w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: Gemini.com</p><p>According to the exchange, the Winklevoss brothers bought their first bitcoin from the proceeds of the <a href="https://en.wikipedia.org/wiki/ConnectU">Facebook lawsuits</a> during the Wild West days of crypto back in 2012, when they saw the value of the investment but also understood the risks. They quickly realized that there would need to be more focus on regulation, safety, and security surrounding digital assets for the crypto world to fulfill its potential. They wanted to create a regulated, easy, and safe way to buy, sell, and store Bitcoin and other cryptos. They waited to operate until they got their New York Trust license – one of the oldest regulatory banking frameworks – which was and remains a first for crypto companies. Since its launch in 2015, they have continued to build products to buy, sell, and store cryptocurrencies with the most robust security, compliance, and technology. The company is expanding internationally into Europe and Asia.</p><figure class="image"><img alt="Gemini exchange achievements" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ff/dc64ccac38.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ff/dc64ccac38.jpg 300w, https://cimg.co/w/rw-attachments/2/5ff/dc64ccac38.jpg 600w, https://cimg.co/w/rw-attachments/3/5ff/dc64ccac38.jpg 720w, https://cimg.co/w/rw-attachments/4/5ff/dc64ccac38.jpg 900w, https://cimg.co/w/rw-attachments/0/5ff/dc64ccac38.jpg 1821w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Other notable events of the exchange’s history include:</p><ul><li>In 2018, <a href="/news/3-good-news-for-the-crypto-market-2594.htm">Gemini launched</a> its own stablecoin, <a href="/coins/gemini-dollar/">Gemini Dollar (GUSD)</a>, which is an ERC20 token that maintains a 1:1 peg with the US dollar, backed by USD held at State Street Bank and Trust Company.</li><li>Near the end of 2018, Gemini launched its mobile app for traders.</li><li>In November of 2019, Gemini Trust Company acquired Nifty Gateway, a popular non-fungible tokens (NFTs) platform.</li><li>In late 2019, <a href="https://www.gemini.com/blog/new-enhancements-to-the-gemini-mobile-app">Gemini mobile app added</a> support for Apple Watch and Android Wear.</li><li>In 2020, <a href="https://www.gemini.com/blog/gemini-welcomes-david-abner-as-global-head-of-business-development">Gemini established a banking partnership with JP Morgan</a>.</li><li>In May 2020, <a href="/news/samsung-adds-bitcoin-focused-exchange-gemini-to-its-flagship-6674.htm">Gemini became</a> the first US cryptocurrency exchange to Integrate with Samsung Blockchain Wallet.</li><li>Also in May 2020, <a href="/news/ruling-russian-party-s-blockchain-vote-attacked-bitcoin-401k-6646.htm">Gemini launched</a> a Bitcoin-based retirement plan service for employees in partnership with Bitwage.</li></ul><p>You can check all the latest news surrounding the Gemini exchange on Cryptonews .</p><figure class="image"><img alt="Gemini review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ff/dc60ee71c7.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ff/dc60ee71c7.jpg 300w, https://cimg.co/w/rw-attachments/2/5ff/dc60ee71c7.jpg 600w, https://cimg.co/w/rw-attachments/3/5ff/dc60ee71c7.jpg 720w, https://cimg.co/w/rw-attachments/4/5ff/dc60ee71c7.jpg 900w, https://cimg.co/w/rw-attachments/0/5ff/dc60ee71c7.jpg 1301w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>As of 2021, Cameron Winklevoss acts as the President, while Tyler Winklevoss is the CEO of Gemini. Besides, the company is led by an accomplished group of senior executives, including Noah Perlman as Chief Compliance Officer, David Damato as Chief Security Officer, Sydney Schaub as General Counsel, Jeanine Hightower-Sellitto as Managing Director, Operations, Robert Cornish as Chief Technology Officer, and Carolyn Vadino as Head of Communications. In Europe, Julian Sawyer is the Managing Director leading the company’s expansion into the region, and Blair Halliday is the Chief Compliance Officer for Europe. Jeremy Ng joined in 2020 to oversee Gemini's strategic vision in APAC, and <a href="https://www.gemini.com/blog/gemini-welcomes-david-abner-as-global-head-of-business-development">David Abner has become</a> Global Head of Business development.</p><h3>Supported countries</h3><p>Gemini is primarily a United States-based exchange and operates within all US states. Apart from the United States, Gemini is available in more than 50 other countries, including:</p><ul><li><strong>North America:</strong> Canada, Cayman Islands, British Virgin Islands.</li><li><strong>South America:</strong> Argentina, Brazil, Chile, Peru.</li><li><strong>Europe:</strong> Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, Greece, Guernsey, Hungary, Iceland, Ireland, Italy, Jersey, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Norway, Poland, Portugal, Romania, Slovakia, Spain, Sweden, Switzerland, and the United Kingdom.</li><li><strong>Asia:</strong> Hong Kong, India, Israel, Myanmar, Philippines, Singapore, South Korea, Taiwan, Turkey, Vietnam.</li><li><strong>Oceania:</strong> Australia and New Zealand.</li><li><strong>Africa:</strong> Egypt, Nigeria, and South Africa.</li></ul><p>When customers sign up for a Gemini account, applicable regulations require them to collect: full legal name, date of birth, address, phone number, social security number, and email. Additional documentation is required to be fully verified and to withdraw from the exchange. Those documents include:</p><ul><li>U.S. residents: A valid passport or driver's license.</li><li>International residents: Depending on your country of residence, we will require at least two government-issued documents: a valid passport, a driver’s license, and/or a national identity card.</li><li>Canadian residents: A valid passport, driver’s license, and social insurance number.</li></ul><p> </p><p>Identity verification on Gemini requires a rather extensive set of documents, but you can expect to get your account verified within 1 and 3 business days. Upon additional request, the verification time may extend from 2 to 5 business days.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/gemini" rel="noindex nofollow" target="_blank">Visit Gemini</a></p><h2>Gemini fees</h2><p>Gemini exchange has a rather complicated fee structure for different products, which is divided into the following categories: <strong>API fees</strong>, <strong>mobile fees</strong>, <strong>web fees</strong>, <strong>custody fees</strong>, <strong>ActiveTrader fees</strong>, and <strong>transfer fees</strong>.</p><h3>Gemini web and mobile fees</h3><p>All orders placed via Gemini’s website and mobile phone application incur a convenience fee and a transaction fee. The convenience fee is fixed at 0.5%, while the transaction fee is denominated in your account currency, and is based on your mobile order amount.</p><figure class="table"><table><tbody><tr><th>Mobile Order Amount</th><th>Convenience Fee</th><th>Transaction Fee</th></tr><tr><th>≤ USD 10.00</th><th>0.5%</th><th>USD 0.99</th></tr><tr><th>&gt; USD 10.00 but ≤ USD 25.00</th><th>0.5%</th><th>USD 1.49</th></tr><tr><th>&gt; USD 25.00 but ≤ USD 50.000</th><th>0.5%</th><th>USD 1.99</th></tr><tr><th>&gt; USD 50.00 but ≤ USD 200.00</th><th>0.5%</th><th>USD 2.99</th></tr><tr><th>≥ USD 200.00</th><th>0.5%</th><th>1.49%</th></tr></tbody></table></figure><p>As such, Gemini is a rather expensive exchange for retail traders but it is still cheaper than, for example, <a href="/reviews/coinbase/">Coinbase</a>. Even so, if low volume transaction fees are a big concern for you, you might want to check competing regulated exchanges like <a href="/reviews/bitflyer/">BitFlyer</a>, <a href="/reviews/kraken/">Kraken</a>, <a href="/reviews/bittrex/">Bittrex</a>, <a href="/reviews/bitstamp/">Bitstamp</a>, and <a href="/reviews/coinbase-pro/">Coinbase Pro</a>, where a simple bitcoin (BTC) purchase will cost you from 0.16% to 0.5% per order without any additional trading fees.</p><h3>Gemini Active Trader &amp; API fees</h3><p>Despite relatively high web and mobile trading fees, traders might want to consider trading via Gemini's ActiveTrader platform or its API. All Gemini orders placed via its ActiveTrader platform or API are subject to the rates on this schedule. Here, Gemini uses a 30-day trading volume adjusted maker-taker fee model for all API orders.</p><figure class="table"><table><tbody><tr><th>30-day Trade Volume</th><th>Taker Fee</th><th>Maker Fee</th><th>Auction Fee</th></tr><tr><th>0</th><th>0.350%</th><th>0.100%</th><th>0.200%</th></tr><tr><th>≥ USD 1,000,000</th><th>0.250%</th><th>0.100%</th><th>0.150%</th></tr><tr><th>≥ USD 2,500,000</th><th>0.200%</th><th>0.075%</th><th>0.125%</th></tr><tr><th>≥ USD 5,000,000</th><th>0.150%</th><th>0.075%</th><th>0.100%</th></tr><tr><th>≥ USD 7,500,000</th><th>0.125%</th><th>0.000%</th><th>0.075%</th></tr><tr><th>≥ USD 10,000,000</th><th>0.100%</th><th>0.000%</th><th>0.050%</th></tr><tr><th>≥ USD 15,000,000</th><th>0.100%</th><th>0.000%</th><th>0.000%</th></tr><tr><th>≥ USD 50,000,000</th><th>0.075%</th><th>0.000%</th><th>0.000%</th></tr><tr><th>≥ USD 100,000,000</th><th>0.050%</th><th>0.000%</th><th>0.000%</th></tr><tr><th>≥ USD 250,000,000</th><th>0.040%</th><th>0.000%</th><th>0.000%</th></tr><tr><th>≥ USD 500,000,000</th><th>0.030%</th><th>0.000%</th><th>0.000%</th></tr></tbody></table></figure><p>As you can see, using Gemini's API or ActiveTrader platform for trading allows you to make use of significantly better rates. Moreover, the more you trade, the better rates you’re going to get, meaning that it is an excellent option for high-volume traders who are looking for secure and trustworthy access to crypto markets. Nevertheless, unlike simple web and mobile purchases, ActiveTrader and API interfaces are aimed towards more experienced traders, and might be too confusing for first-time traders.</p><p>Here’s how Gemini's trading fees match up with competing exchanges.</p><figure class="table"><table><tbody><tr><th><strong>Exchange</strong></th><th><strong>Maker fee</strong></th><th><strong>Taker fee</strong></th><th><strong>Visit Exchange</strong></th></tr><tr><th><a href="https://cryptonews.com/ext/gemini/"><strong>Gemini</strong></a></th><th>0.35%</th><th>0.25%</th><th><a href="https://cryptonews.com/ext/gemini/">Visit</a></th></tr><tr><th><a href="/reviews/kraken/"><strong>Kraken</strong></a></th><th>0.16%</th><th>0.26%</th><th><a href="https://cryptonews.com/ext/kraken/">Visit</a></th></tr><tr><th><a href="/reviews/bittrex/"><strong>Bittrex</strong></a></th><th>0.2%</th><th>0.2%</th><th><a href="https://cryptonews.com/ext/bittrex/">Visit</a></th></tr><tr><th><a href="/reviews/coinbase-pro/"><strong>Coinbase Pro</strong></a></th><th>0.5%</th><th>0.5%</th><th><a href="https://cryptonews.com/ext/coinbase-pro/">Visit</a></th></tr><tr><th><a href="/reviews/binance/"><strong>Binance</strong></a></th><th>0.1%</th><th>0.1%</th><th><a href="https://cryptonews.com/ext/binance/">Visit</a></th></tr><tr><th><a href="/reviews/kucoin/"><strong>KuCoin</strong></a></th><th>0.1%</th><th>0.1%</th><th><a href="https://cryptonews.com/ext/kucoin/">Visit</a></th></tr><tr><th><a href="/reviews/bitfinex/"><strong>Bitfinex</strong></a></th><th>0.1%</th><th>0.2%</th><th><a href="https://cryptonews.com/ext/bitfinex/">Visit</a></th></tr></tbody></table></figure><p>Mind that exchanges like Bitfinex, KuCoin, and Binance might not fully be regulated within the United States, so be sure to check if you’re eligible to trade there prior to opening an account. Binance does have a U.S.-based alternative exchange <a href="https://cryptonews.com/ext/binance-us/">Binance.US</a> - you can read our full review <a href="/reviews/binance-us/">here</a>.</p><h3>Gemini custody fees</h3><p>Investors who are interested in storing and managing their crypto assets with Gemini may open a Gemini custody account. It is regulated institutional-grade crypto storage built on industry-leading security practices.</p><p>The Gemini custody services cost as follows:</p><figure class="table"><table><tbody><tr><th>Service</th><th>Fee</th></tr><tr><th>Custody Fee</th><th>0.4% (charged annually in the respective cryptocurrency)</th></tr><tr><th>Minimum Balance</th><th>None</th></tr><tr><th>Setup Fee</th><th>Free</th></tr><tr><th>Administrative Withdrawal Fee</th><th>USD 125</th></tr></tbody></table></figure><h3>Deposit and withdrawal fees</h3><p>Gemini lets its customers deposit and withdraw cryptocurrencies as well as fiat funds. All deposits, including cryptocurrencies, bank wires, and even Gemini Dollar (GUSD) redemption, are <strong>free of charge</strong>.</p><p>However, a cryptocurrency purchase via <strong>Debit Card Transfer will cost you 3.49%</strong> of a total purchase amount.</p><p>In terms of withdrawals, GUSD, wire, ACH, and cryptocurrency transfers are <strong>free of charge</strong>, too. The only exception for crypto assets is larger withdrawals. A complete list of withdrawal fees for all coins for both retail and institutional investors can be found <a href="https://www.gemini.com/fees/transfer-fee-schedule#section-withdrawal-fees-institutional-customers">here</a>.</p><p><a href="https://gemini.com/fees">Please find all information about our fees here.</a></p><p>All in all, trading at Gemini comes at medium fees. They are not the cheapest, but they are not exorbitant, too. It seems like based on your trading methods, volume, and experience, you’re going to pay the right price for the security, convenience, and quality of service provided by Gemini.</p><figure class="image"><img alt="Gemini exchange review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ff/de50b24a22.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ff/de50b24a22.jpg 300w, https://cimg.co/w/rw-attachments/2/5ff/de50b24a22.jpg 600w, https://cimg.co/w/rw-attachments/3/5ff/de50b24a22.jpg 720w, https://cimg.co/w/rw-attachments/4/5ff/de50b24a22.jpg 900w, https://cimg.co/w/rw-attachments/0/5ff/de50b24a22.jpg 961w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/gemini" rel="noindex nofollow" target="_blank">Visit Exchange</a></p><h2>Usability and design</h2><p>Gemini is best-suited for crypto beginners and investors who value security of their funds. As one of the older Bitcoin and digital asset exchanges, it has a great user experience, a convenient mobile app, an advanced platform for traders, and neat interoperability between different products.</p><figure class="image"><img alt="Gemini review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ff/de4350d9fd.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ff/de4350d9fd.jpg 300w, https://cimg.co/w/rw-attachments/2/5ff/de4350d9fd.jpg 600w, https://cimg.co/w/rw-attachments/3/5ff/de4350d9fd.jpg 720w, https://cimg.co/w/rw-attachments/4/5ff/de4350d9fd.jpg 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>For example, less crypto-savvy users might want to take advantage of Gemini’s Exchange and Gemini’s Custody for storing their coins, while institutional investors might want to use the Gemini’s Custody together with Gemini Clearance over-the-counter (OTC) platform.</p><figure class="image"><img alt="Gemini clearing" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ff/de594568fd.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ff/de594568fd.jpg 300w, https://cimg.co/w/rw-attachments/2/5ff/de594568fd.jpg 600w, https://cimg.co/w/rw-attachments/3/5ff/de594568fd.jpg 720w, https://cimg.co/w/rw-attachments/4/5ff/de594568fd.jpg 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Professional traders are more likely to make the best out of Gemini’s Active Trader and API tools.</p><figure class="image"><img alt="Gemini active trader" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ff/de54dbe1a5.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ff/de54dbe1a5.jpg 300w, https://cimg.co/w/rw-attachments/2/5ff/de54dbe1a5.jpg 600w, https://cimg.co/w/rw-attachments/3/5ff/de54dbe1a5.jpg 720w, https://cimg.co/w/rw-attachments/4/5ff/de54dbe1a5.jpg 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Gemini exchange currently lists the following digital assets:</p><ul><li><a href="/coins/0x/">0x (ZRX)</a></li><li><a href="/coins/aave-new/">Aave (AAVE)</a></li><li>Amp (AMP)</li><li><a href="/coins/bal-balancer/">Balancer (BAL)</a></li><li><a href="/coins/basic-attention-token/">Basic Attention Token (BAT)</a></li><li><a href="/coins/bitcoin/">Bitcoin (BTC)</a></li><li><a href="/coins/bitcoin-cash/">Bitcoin Cash (BCH)</a></li><li><a href="/coins/chainlink/">Chainlink (LINK)</a></li><li><a href="/coins/comp-compoundd/">Compound (COMP)</a></li><li><a href="/coins/crv-curve-dao-token/">Curve (CRV)</a></li><li><a href="/coins/dai/">Dai (DAI)</a></li><li><a href="/coins/decentraland/">Decentraland (MANA)</a></li><li><a href="/coins/ethereum/">Ethereum (ETH)</a></li><li><a href="/coins/fil-filecoin/">Filecoin (FIL)</a></li><li>Keep Network (KEEP)</li><li><a href="/coins/kyber-network/">Kyber Network (KNC)</a></li><li><a href="/coins/litecoin/">Litecoin (LTC)</a></li><li><a href="/coins/maker/">Maker (MKR)</a></li><li>Nexus Mutual (NXM)</li><li><a href="/coins/oxt-orchid-protocol/">Orchid (OXT)</a></li><li><a href="/coins/paxg-pax-gold/">PAX Gold (PAXG)</a></li><li>Ren (REN)</li><li><a href="/coins/storj/">Storj (STORJ)</a></li><li><a href="/coins/snx-synthetix-network-token/">Synthetic (SNX)</a></li><li><a href="/coins/uma-uma/">Uma (UMA)</a></li><li><a href="/coins/uni-uniswap/">Uniswap (UNI)</a></li><li><a href="/coins/yfi-yearnfinance/">Yearn.finance (YFI)</a></li><li><a href="/coins/zcash/">Zcash (ZEC)</a></li></ul><p>Retail users might also make use of Gemini’s mobile application, which lets you make easy traders on-the-go with just a few clicks of a button. It offers the same features as the web platform, except neatly packed in a mobile environment.</p><figure class="image"><img alt="Gemini review mobile app" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ff/de45587612.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ff/de45587612.jpg 300w, https://cimg.co/w/rw-attachments/2/5ff/de45587612.jpg 600w, https://cimg.co/w/rw-attachments/3/5ff/de45587612.jpg 720w, https://cimg.co/w/rw-attachments/4/5ff/de45587612.jpg 900w, https://cimg.co/w/rw-attachments/0/5ff/de45587612.jpg 1796w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>All in all, Gemini is one of the best cryptocurrency exchanges out there, regardless of your needs and experience with crypto, but is especially useful for professional and institutional investors looking for a trustworthy and secure digital assets exchange.</p><figure class="image"><img alt="Gemini Active Trader review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ff/de5eae7232.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ff/de5eae7232.jpg 300w, https://cimg.co/w/rw-attachments/2/5ff/de5eae7232.jpg 600w, https://cimg.co/w/rw-attachments/3/5ff/de5eae7232.jpg 720w, https://cimg.co/w/rw-attachments/4/5ff/de5eae7232.jpg 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h3>Customer support</h3><p>Gemini has an extensive blog and FAQ section for customers dealing with issues. Aside from that, you can reach out to the exchange’s staff via the following channels:</p><ol><li>Submit a ticket request through this form using the email address on record for your User Account;</li><li>Write to Customer Support at: Gemini Trust Company, LLC, 600 Third Avenue, 2nd Floor, New York, NY 10016;</li><li>Call Customer Support at +1 (866) 240-5113 (toll-free in the USA); or</li><li>Direct message @GeminiSupport on Twitter. Note: the customer support line will also direct users to email. We do monitor voicemail.</li></ol><p>Gemini takes customer support seriously, so you’re likely to receive a response within a few hours.</p><figure class="image"><img alt="Gemini custody review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ff/de5816a0e6.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ff/de5816a0e6.jpg 300w, https://cimg.co/w/rw-attachments/2/5ff/de5816a0e6.jpg 600w, https://cimg.co/w/rw-attachments/3/5ff/de5816a0e6.jpg 720w, https://cimg.co/w/rw-attachments/4/5ff/de5816a0e6.jpg 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h2>Security measures</h2><p>Security is a key pillar at Gemini. Protecting customers’ assets to help ensure their data and funds are secure is a priority. Gemini was built with a security-first mentality, which is a key differentiator in crypto that can be a deciding factor for investors when choosing a crypto exchange or custodian.</p><figure class="image"><img alt="Gemini exchange security" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ff/de628ab748.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ff/de628ab748.jpg 300w, https://cimg.co/w/rw-attachments/2/5ff/de628ab748.jpg 600w, https://cimg.co/w/rw-attachments/3/5ff/de628ab748.jpg 720w, https://cimg.co/w/rw-attachments/4/5ff/de628ab748.jpg 900w, https://cimg.co/w/rw-attachments/0/5ff/de628ab748.jpg 1254w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Security is the key influence on how Gemini builds its products and how it positions itself in the market. This is reflected in the institutional-grade technology and protocols that underpin the Gemini exchange and its custody platform. The majority of our assets are held in its offline cold storage system and only a small portion is held in its online hot wallet.</p><p>As a financial institution, Gemini maintains sensitive data pertaining to its customers, which includes Personally Identifiable Information (“PII”), banking/financial information, and other data that may directly or indirectly identify Gemini’s customers. As a New York State Trust Company and regulated cryptocurrency exchange and custodian, Gemini has taken important steps to help ensure its customers’ data and funds remain secure.</p><p>Gemini implements field-level encryption for sensitive data in its databases, as well as encryption in transit between all Gemini production systems to ensure customer and employee data is protected at all times.</p><p>Gemini maintains a data classification framework, which appropriately assigns a risk rating to all data handled by the organization based on its sensitivity. The data classification framework helps drive initiatives to improve Gemini’s data handling and distribution processes. Gemini also implements strict physical security controls to ensure its assets, data, and personnel remain secure from physical threats.</p><p>Besides, the exchange has strong internal controls and governance. Access to systems and customer data is granted based on the employee’s role and job duties. As per the principle of least privilege, access is limited to the least amount required to complete the task.</p><p>Gemini was also one of the first platforms to obtain insurance on its online “hot” wallet and created the world’s first insurance captive to provide USD 200 million of protection for digital assets in Gemini Custody.</p><p><i>“It’s one thing for us to say how secure we are, but we must also demonstrate our security. We take part in external checks of our security, for example, complying with all cybersecurity controls required by our regulators. We are </i><a href="https://gemini.com/blog/gemini-completes-soc-2-type-2-examination-another-first-in-crypto"><i>Soc 2 Type 1 and 2</i></a><i> compliant, which means we invite regular evaluations of our systems to see how they have been performing over a period of time,”</i> said the exchange’s spokesperson to Cryptonews.com.</p><p>According to the <a href="https://www.cryptocompare.com/external/research/exchange-ranking/">CryptoCompare Exchange Benchmark report of July 2020</a>, Gemini is the top cryptocurrency exchange on the market, currently receiving the highest AA rating on legal compliance, data provision, security, technological factors, transaction risk control (KYC/AML), as well as market quality.</p><p>On the user side of things, you can protect your Gemini account using:</p><ul><li><strong>Two-Factor Authentication (2FA)</strong> for logging in and making withdrawals from the account.</li><li><strong>Hardware Security Keys via WebAuthn</strong> for securing your account with an extra security 2FA layer.</li><li><strong>Approved addresses</strong> for crypto withdrawals (address whitelisting).</li><li><strong>Rate-limiting</strong> to thwart brute force attempts.</li><li><strong>Top-grade encryption</strong> for securing your password and personal information in transit and at rest.</li></ul><p>More technical and regulatory specifications of security measures adopted by Gemini can be found <a href="https://www.gemini.com/security">here</a>.</p><h2>Deposit and withdrawal methods</h2><p>As a fully-functional digital asset exchange, Gemini lets you deposit and withdraw both cryptocurrencies as well as fiat currencies.</p><figure class="image"><img alt="Gemini exchange 2" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ff/de669c62f3.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ff/de669c62f3.jpg 300w, https://cimg.co/w/rw-attachments/2/5ff/de669c62f3.jpg 600w, https://cimg.co/w/rw-attachments/3/5ff/de669c62f3.jpg 720w, https://cimg.co/w/rw-attachments/4/5ff/de669c62f3.jpg 900w, https://cimg.co/w/rw-attachments/0/5ff/de669c62f3.jpg 845w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h3>Fiat currency</h3><p>Customers looking to deposit funds with fiat currency will first need to link their bank account. Once the bank account is verified, either they can initiate a Bank Transfer (ACH) deposit (U.S only) via the platform or a wire transfer can be sent. If you initiate an international wire from a foreign country, your funds will be converted to USD by an intermediary before it reaches your account.</p><p>If you have USD in your account that is available to withdraw, you can initiate a Bank Transfer (ACH) withdrawal (domestic only) or initiate a wire transfer to your linked bank account in your name.</p><h3>Digital assets</h3><p>Customers looking to deposit funds in BTC, ETH, BCH, LTC, ZEC, BAT, LINK, DAI, OXT, or other digital assets will need to instruct their external wallet or the service provider that holds their digital assets to initiate a withdrawal to their unique Gemini deposit address.</p><p>If customers would like to transfer digital assets to an external wallet or exchange, they must navigate to the Withdrawal Page and follow the steps below:</p><ol><li>Select the currency from the dropdown</li><li>Select the destination address (this is provided by your external wallet or exchange)</li><li>Input the amount</li><li>After reviewing transfer details, select Request Withdrawal</li></ol><p>If customers are using the Authy app for Two-Factor Authentication (2FA), the withdrawal can only proceed if you approve the transaction on your Authy app within 4 minutes of requesting the withdrawal.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/gemini" rel="noindex nofollow" target="_blank">Open Free Account</a></p><h2>Gemini review: conclusion</h2><p>Gemini cryptocurrency exchange is a top-notch platform for all sorts of crypto traders and holders. It does not have the widest selection of tradeable crypto assets, but it does provide quality service that focuses on security and regulatory compliance. As such, one can be sure that all of the crypto assets listed on its platform are legit projects.</p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

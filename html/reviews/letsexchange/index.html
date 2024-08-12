@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/letsexchange/">LetsExchange</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="61082a6f406a0.png" class="img-fluid img-circle author__image author__image--has-bg mb-15" loading="auto" src="https://cimg.co/reviewlogo/75/61082a6f406a0.png"/>
+<div>
+<a class="c-black" href="#"><b>LetsExchange</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/letsexchange" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+<div class="fs-12"></div>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="letsexchange"> LetsExchange</h1>
+<p>LetsExchange is an instant crypto-to-crypto exchange with a simple interface that lets you perform crypto swaps without registration. It provides a way for you to only use your private wallet with all its anonymity, privacy, and security, and no registration and KYC are required to start trading. Unlike other exchanges whose access comes at the expense of your anonymity and privacy, LetsExchange gives you a way to trade 210+ coins with your privacy intact. Besides, it has a detailed receipt system that keeps track of user transactions, which helps the service to fill a unique niche in the crypto industry.</p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/letsexchange" target="_blank">LetsExchange</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://letsexchange.io/contacts" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>Seychelles</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>0.0 BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>No</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>No</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>LetsExchange</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+                                                                                                                                                        Crypto Transfer,
+                                                                                                                                            </b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>-</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>210</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>-</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>Medium (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+<li>Instant, straightforward swaps Excellent support with transactions receipts No KYC or verification required to swap SmartRate technology for automatic best swap rate Non-custodial exchange 24/7 customer support</li> </ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+<li>Only crypto-to-crypto swaps</li> </ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/57505/20419/610a3ca372288.png" srcset="https://cimg.co/review/57505/20419/responsive-images/610a3ca372288___media_library_original_634_364.png 634w, https://cimg.co/review/57505/20419/responsive-images/610a3ca372288___media_library_original_600_344.png 600w, https://cimg.co/review/57505/20419/responsive-images/610a3ca372288___media_library_original_300_172.png 300w" width="634"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/57505/20420/610a3ca442102.png" data-srcset="https://cimg.co/review/57505/20420/responsive-images/610a3ca442102___media_library_original_1299_635.png 1299w, https://cimg.co/review/57505/20420/responsive-images/610a3ca442102___media_library_original_1200_586.png 1200w, https://cimg.co/review/57505/20420/responsive-images/610a3ca442102___media_library_original_900_439.png 900w, https://cimg.co/review/57505/20420/responsive-images/610a3ca442102___media_library_original_720_351.png 720w, https://cimg.co/review/57505/20420/responsive-images/610a3ca442102___media_library_original_600_293.png 600w, https://cimg.co/review/57505/20420/responsive-images/610a3ca442102___media_library_original_300_146.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1299"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/57505/20421/610a3ca4e70f7.png" data-srcset="https://cimg.co/review/57505/20421/responsive-images/610a3ca4e70f7___media_library_original_566_598.png 566w, https://cimg.co/review/57505/20421/responsive-images/610a3ca4e70f7___media_library_original_300_316.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="566"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/57505/20422/610a3ca5941b5.png" data-srcset="https://cimg.co/review/57505/20422/responsive-images/610a3ca5941b5___media_library_original_559_462.png 559w, https://cimg.co/review/57505/20422/responsive-images/610a3ca5941b5___media_library_original_300_247.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="559"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/57505/20423/610a3ca648d8e.png" data-srcset="https://cimg.co/review/57505/20423/responsive-images/610a3ca648d8e___media_library_original_566_538.png 566w, https://cimg.co/review/57505/20423/responsive-images/610a3ca648d8e___media_library_original_300_285.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="566"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/57505/20424/610a3ca70d3bf.png" data-srcset="https://cimg.co/review/57505/20424/responsive-images/610a3ca70d3bf___media_library_original_576_616.png 576w, https://cimg.co/review/57505/20424/responsive-images/610a3ca70d3bf___media_library_original_300_320.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="576"/></div>
+</div>
+</div><h2>Key Features</h2><figure class="image"><img alt="letsexchange review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/611/cf64845cee.png" data-srcset="https://cimg.co/w/rw-attachments/1/611/cf64845cee.png 300w, https://cimg.co/w/rw-attachments/2/611/cf64845cee.png 600w, https://cimg.co/w/rw-attachments/3/611/cf64845cee.png 720w, https://cimg.co/w/rw-attachments/4/611/cf64845cee.png 900w, https://cimg.co/w/rw-attachments/0/611/cf64845cee.png 1456w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>LetsExchange.io is a project with the simple premise of instant, effortless crypto exchanges. With no Know Your Customer (KYC) or registration required and using <strong>SmartRate</strong> technology that selects the most profitable rate across multiple exchange platforms, LetsExchange.io is a great choice that does the most important aspects of crypto extremely well - it executes swaps efficiently, securely, and privately.</p><ul><li><strong>Instant, effortless crypto-to-crypto swaps.</strong> Registration-free, easy-to-use, with a fully automated exchange service, LetsExchange does one thing really well: seamless crypto exchanges, with more coming soon.</li><li><strong>Extremely varied cryptocurrency options.</strong> With over 210+ cryptocurrency coins to exchange, you have a vast array of cryptocurrency trading options at your disposal.</li><li><strong>Limitless Trading.</strong> It provides both fixed and floating rate options, and doesn’t apply upper transaction limits. As a result, it is suitable for crypto traders of any preferences and trading turnovers.</li><li><strong>Security.</strong> LetsExchange doesn’t store users’ funds or personal data with its non-custodial system. All coins are validated and all data is encrypted. The website has an SSL certificate and DDoS protection.</li><li><strong>SmartRate technology.</strong> For every swap, LetsExchange instantly selects the most profitable rate across multiple major exchange platforms. It also uses its own inventory of coins.</li><li><strong>Transparency.</strong> The exchange process is clear and transparent at every step, and the user can request a receipt with full transaction details.</li><li><strong>Real-time support.</strong> Available 24/7. It comes with a chat bubble on the right corner, where you can list out your problems and concerns.</li><li><strong>Fixed and floating rates.</strong> Users can select the Fixed Rate option to get the exact amount they see when starting a trade. The classic exchange flow with floating rates is also available.</li></ul><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/letsexchange" rel="noindex nofollow" target="_blank">Visit LetsExchange </a></p><h3>LetsExchange History</h3><p>Founded in 2020, LetsExchange.io completed its full-fledged platform launch on March 1, 2021. Although new, it has already developed into a fully functional application with a simple, easy-to-use interface that will only be adding more in the future.</p><p>The beginning stage of the LetsExchange upgrade is complete and more features and benefits for crypto traders and investors are on their way. Although the layout looks simple now, detailed exchange statistics, analytics, portfolio management tools are coming soon along with other updates. Any fan of the exchange will greatly appreciate the additions that are forthcoming.</p><p>On top of the multitude of cryptocurrencies already available, LetsExchange is looking to add an array of coins, reaching near 300 cryptocurrencies for traders to use. The exchange has also announced new language versions of the website so that users across the world will be able to use the platform.</p><p>And if you have a network of crypto enthusiasts, you can be a part of their affiliate program and have a wider range of ways to utilize the LetsExchange and increase your earnings, especially with a variety of integration options that are coming onto an affiliate program.</p><p>You can expect additional features added on as the exchange continues its growth.</p><h3>Regulations, licenses, jurisdiction and supported countries</h3><p>There are no verification requirements or account tiers with LetsExchange, making it one of the easiest exchanges to use with instant feedback on your crypto.</p><p>Since it has no Know-Your-Customer (KYC) verification needed in order to get started, LetsExchange is only limited by whatever the jurisdictions of a user’s country as no personal information is taken. Theoretically, anyone in the world can use LetsExchange, making it convenient for anyone having trouble solidifying their crypto assets through other means.</p><h3>LetsExchange Design and Usability</h3><p>The design has the visual of a decentralized application with a simplified interface. This simplicity has its charm and utility. The user intuitively knows how it functions with how neat everything looks. The words for the process, Details, Deposit, Exchange, are large and supported by a white background. It’s very clear where you should enter your crypto address. The exchange button, like in a decentralized exchange, is shown in big bold letters, making it able for anyone to use.</p><p>Overall, the design is minimal, emphasizing the streamlined process that LetsExchange is proud of.</p><p>Its ease of use can be demonstrated by exchanging any designated currency pair in clear, concise steps. First, select which trading pair you want to exchange.</p><figure class="image"><img alt="letsexchange review guide" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/611/cf6a79def2.png" data-srcset="https://cimg.co/w/rw-attachments/1/611/cf6a79def2.png 300w, https://cimg.co/w/rw-attachments/2/611/cf6a79def2.png 600w, https://cimg.co/w/rw-attachments/3/611/cf6a79def2.png 720w, https://cimg.co/w/rw-attachments/4/611/cf6a79def2.png 900w, https://cimg.co/w/rw-attachments/0/611/cf6a79def2.png 1280w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>After that is done, you input the wallet address that you’ll use to receive the currency you want.</p><figure class="image"><img alt="letsexchange review flow" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/611/cf6c50f359.png" data-srcset="https://cimg.co/w/rw-attachments/1/611/cf6c50f359.png 300w, https://cimg.co/w/rw-attachments/2/611/cf6c50f359.png 600w, https://cimg.co/w/rw-attachments/3/611/cf6c50f359.png 720w, https://cimg.co/w/rw-attachments/4/611/cf6c50f359.png 900w, https://cimg.co/w/rw-attachments/0/611/cf6c50f359.png 1280w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>After that, you will choose whether you are okay with slippage, meaning if you are fine with the price deviating a little bit from the one set. Once you check and confirm the exchange details, the exchange will prompt you to put in your deposit address, the address you will take money out of in order to complete the exchange.</p><figure class="image"><img alt="letsexchange tutorial" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/611/cf6e1076c0.png" data-srcset="https://cimg.co/w/rw-attachments/1/611/cf6e1076c0.png 300w, https://cimg.co/w/rw-attachments/2/611/cf6e1076c0.png 600w, https://cimg.co/w/rw-attachments/3/611/cf6e1076c0.png 720w, https://cimg.co/w/rw-attachments/4/611/cf6e1076c0.png 900w, https://cimg.co/w/rw-attachments/0/611/cf6e1076c0.png 1280w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>After that, you are all set! Simple. Also, you can request a receipt or sign up if needed.</p><figure class="image"><img alt="letsexchange review tutorial" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/611/cf6f697080.png" data-srcset="https://cimg.co/w/rw-attachments/1/611/cf6f697080.png 300w, https://cimg.co/w/rw-attachments/2/611/cf6f697080.png 600w, https://cimg.co/w/rw-attachments/3/611/cf6f697080.png 720w, https://cimg.co/w/rw-attachments/4/611/cf6f697080.png 900w, https://cimg.co/w/rw-attachments/0/611/cf6f697080.png 1280w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>As demonstrated, LetsExchange is one of the easiest-to-use exchanges, with its clean, minimal design. Not only that, there is a receipt system that keeps track of your transactions. And with the excellent customer support the platform has, you can expect to hear back from any problems you might encounter.</p><p>This receipt system is what makes LetsExchange unique, which is not what you would find in other exchanges. Traditional centralized exchanges usually need a whole array of personal information from you in order to have you purchase crypto. On the flip side, decentralized exchanges, although fast and with no KYC, provide very little support, since smart contracts govern the entire protocol. LetsExchange mixes some of the best qualities of these worlds, the simplicity and ease of decentralized protocols with support like centralized exchanges.</p><p>Perhaps the main draw of LetsExchange is in how usable it is with its 210+ cryptocurrencies. To make hefty profits in crypto trading, you need to be quick in how you react to the market. Peaks may turn into dips and vice-versa...in a matter of hours.</p><p>If there is a new, hyped coin that you want to buy right here, it can be a difficult task to buy. Although only a few exchanges support the coin, you still have to register an account, documents, and wait for all the KYC details to be approved. When it’s finally done, the price might not be in your favor. And with most exchanges other than LetsExchange, you have transaction limits or at least a tiered system you need to go through in order to have the full freedom to make all of your transactions.</p><p>Without extensive sign-up hassles, the ability to trade immediately, and have no trading limits on the trades you execute, LetsExchange looks to fill a unique niche in the crypto trading world, especially when you consider the receipt system, which has already given users a bit of breathing room, giving LetsExchange traders the peace-of-mind that their transactions are tracked.</p><p>Along with these functions, LetsExchange comes with some data on the rates that are out during the time of your trades.</p><figure class="image"><img alt="letsexchange review 5" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/610/a3b97bf10e.png" data-srcset="https://cimg.co/w/rw-attachments/1/610/a3b97bf10e.png 300w, https://cimg.co/w/rw-attachments/2/610/a3b97bf10e.png 600w, https://cimg.co/w/rw-attachments/3/610/a3b97bf10e.png 720w, https://cimg.co/w/rw-attachments/4/610/a3b97bf10e.png 900w, https://cimg.co/w/rw-attachments/0/610/a3b97bf10e.png 1299w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>LetsExchange has already mentioned that they are planning to add on significantly to features like this in order to give you a fuller exchange experience with charts and trends you can keep track of, so look forward to these updates if you become a fan of the exchange.</p><h4>LetsExchange Affiliate Program</h4><p>LetsExchange also offers an exclusive affiliate program if you contact their <a href="https://letsexchange.io/contacts" rel="noopener" target="_blank">support</a> and message them.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/letsexchange" rel="noindex nofollow" target="_blank">Visit LetsExchange </a></p><h3>Customer support</h3><figure class="image"><img alt="letsexchange customer support" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/611/cf73e28d1c.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/611/cf73e28d1c.jpg 300w, https://cimg.co/w/rw-attachments/2/611/cf73e28d1c.jpg 600w, https://cimg.co/w/rw-attachments/3/611/cf73e28d1c.jpg 720w, https://cimg.co/w/rw-attachments/4/611/cf73e28d1c.jpg 900w, https://cimg.co/w/rw-attachments/0/611/cf73e28d1c.jpg 1280w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>You can find extensive reviews on customer support <a href="https://www.trustpilot.com/review/letsexchange.io" rel="noopener" target="_blank">TrustPilot</a>. Scrolling down, most have given positive reviews and remarked on the customer service. This is one of the main draws of LetsExchange and may be one of the best in the industry in this regard. With many exchanges that take a while to respond when you could be losing valuable trading time, this is a welcome addition to the world of cryptocurrency.</p><p>Here are a few examples.</p><figure class="image"><img alt="letsexchange review trustpilot1" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/610/a3bea55024.png" data-srcset="https://cimg.co/w/rw-attachments/1/610/a3bea55024.png 300w, https://cimg.co/w/rw-attachments/2/610/a3bea55024.png 600w, https://cimg.co/w/rw-attachments/3/610/a3bea55024.png 720w, https://cimg.co/w/rw-attachments/4/610/a3bea55024.png 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><figure class="image"><img alt="letsexchange review 2" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/610/a3c0078b12.png" data-srcset="https://cimg.co/w/rw-attachments/1/610/a3c0078b12.png 300w, https://cimg.co/w/rw-attachments/2/610/a3c0078b12.png 600w, https://cimg.co/w/rw-attachments/3/610/a3c0078b12.png 720w, https://cimg.co/w/rw-attachments/4/610/a3c0078b12.png 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>At the bottom right of each page, you can quickly spot the chat bubble and see if any of your issues can be immediately resolved. If not, you can give your email and a representative will get back to you.</p><figure class="image"><img alt="letsexchange support" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/610/a3c1d0e99a.png" data-srcset="https://cimg.co/w/rw-attachments/1/610/a3c1d0e99a.png 300w, https://cimg.co/w/rw-attachments/2/610/a3c1d0e99a.png 600w, https://cimg.co/w/rw-attachments/3/610/a3c1d0e99a.png 720w, https://cimg.co/w/rw-attachments/4/610/a3c1d0e99a.png 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Besides, you can find LetsExchange on a variety of media channels:</p><ul><li><a href="https://twitter.com/letsexchange_io" rel="noopener" target="_blank">Twitter</a></li><li><a href="https://www.reddit.com/user/letsexchange_io" rel="noopener" target="_blank">Reddit</a></li><li><a href="https://letsexchange.medium.com/" rel="noopener" target="_blank">Medium</a></li><li><a href="https://www.youtube.com/channel/UC5JtMYWlBvzfx0-5BptyXOA" rel="noopener" target="_blank">YouTube</a></li></ul><h3>System security measures</h3><p>LetsExchange doesn’t store your funds or personal data. Every coin in the exchange has been validated and double-checked, with the platform’s security enhanced by encryption, an SSL certificate, and DDoS protection. As mentioned, LetsExchange has a receipt system that makes it convenient for you to share any problems you have had using the exchange.</p><p>Also, the system requires that you use your own wallet, allowing you flexibility to use the most secure wallet that you can personally find. This gives increased security, since LetsExchange doesn’t have access to your private keys and you can pick whatever wallet you deem the safest.</p><p>As mentioned, you can find reviews on <a href="https://www.trustpilot.com/review/letsexchange.io" rel="noopener" target="_blank">TrustPilot</a>. Several customers have already shown their satisfaction with the exchange. And those who had problems aired out on TrustPilot have been responded to by the exchange’s staff. It is refreshing to see this kind of engagement with users, as it is often a rarity nowadays.</p><h3>Deposit and withdrawal methods</h3><p>Deposit and withdrawal is dependent on your wallet. All you have to do is copy and paste your wallet addresses into the application in order to use the exchange. As mentioned before, LetsExchanges doesn’t provide and manage a wallet for you, unlike traditional exchanges, giving another level of security since no one has access to your private keys. All your assets are stored in your own wallet, so only you can send the amount that you’re exchanging to the platform.</p><h2>Conclusion</h2><p>LetsExchange provides a private and simple way for you to exchange the crypto that you want. The design is clean and easy-to-use, so if you’re looking for a new way to generate fast transactions for your crypto, then Letsexchange.io will allow you to do just that and more. With SmartRate technology, an extensive range of coins and intuitive UI, LetsExchange may be what you need to begin using crypto comfortably.</p><p>Overall, LetsExchange is an exchange that you should try if you value privacy and anonymity above all else. With such an active customer support system, risks are mitigated. You can always get a clear scope of your problem and find possible solutions to them in a timely manner. Even though some features are coming out soon, LetsExchange’s simple and clean functionality allows you to be comfortable in doing the most important aspect of an exchange: trading cryptocurrencies.</p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

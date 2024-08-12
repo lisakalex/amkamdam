@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/mybtc/">MyBTC.ca</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="5f11eaf562a8f.png" class="img-fluid img-circle author__image author__image--has-bg mb-15" loading="auto" src="https://cimg.co/reviewlogo/48/5f11eaf562a8f.png"/>
+<div>
+<a class="c-black" href="#"><b>MyBTC.ca</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/mybtc" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+<div class="fs-12"></div>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="mybtc"> MyBTC.ca</h1>
+<p>If you’re looking for a faster way to buy and <a href="https://mybtc.ca/sell">sell</a> bitcoin and purchase ether in Canada, look no further - <a href="https://mybtc.ca/">MyBTC.ca</a> is an exclusively Canadian cryptocurrency exchange that facilitates quick bitcoin (BTC) purchases at affordable fees. As a non-custodial platform, it transfers your crypto directly to the destination wallet address provided by the user, meaning that the exchange has minimal counterparty risk and leaves you in charge of where the bitcoin or ether is sent. Supported payment methods include Interac e-Transfer, credit and debit cards, bank wire transfer, cash or debit card and Flexepin vouchers. The service is very user-friendly and easy to use, however, the convenience of Canada’s fastest delivery and best rated customer support comes with slightly higher transaction costs.</p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/mybtc" target="_blank">MyBTC.ca</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://mybtc.ca/contact" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>Toronto, Canada</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>?? BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>No</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>No</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>MyBTC.ca</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+                                                                                                                                                        Bank Transfer,
+                                                                                                                                                                                                                                        Credit Card,
+                                                                                                                                                                                                                                        Debit Card,
+                                                                                                                                            </b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>CAD</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>2</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>-</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>Medium (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+<li>Buy &amp; sell BTC or purchase ETH in seconds with CAD</li> <li>Beginner-friendly service</li> <li>Around the clock customer support</li> <li>Transparent fee structure</li> </ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+<li>Canada only service</li> <li>Mandatory KYC</li> <li>No orderbook for swing trading</li> </ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/228/14826/5f1b04e2c1ec3.jpg" srcset="https://cimg.co/review/228/14826/responsive-images/5f1b04e2c1ec3___media_library_original_1504_924.jpg 1504w, https://cimg.co/review/228/14826/responsive-images/5f1b04e2c1ec3___media_library_original_1200_737.jpg 1200w, https://cimg.co/review/228/14826/responsive-images/5f1b04e2c1ec3___media_library_original_900_552.jpg 900w, https://cimg.co/review/228/14826/responsive-images/5f1b04e2c1ec3___media_library_original_720_442.jpg 720w, https://cimg.co/review/228/14826/responsive-images/5f1b04e2c1ec3___media_library_original_600_368.jpg 600w, https://cimg.co/review/228/14826/responsive-images/5f1b04e2c1ec3___media_library_original_300_184.jpg 300w" width="1504"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/228/14827/5f1b04e43840b.jpg" data-srcset="https://cimg.co/review/228/14827/responsive-images/5f1b04e43840b___media_library_original_1755_984.jpg 1755w, https://cimg.co/review/228/14827/responsive-images/5f1b04e43840b___media_library_original_1200_672.jpg 1200w, https://cimg.co/review/228/14827/responsive-images/5f1b04e43840b___media_library_original_900_504.jpg 900w, https://cimg.co/review/228/14827/responsive-images/5f1b04e43840b___media_library_original_720_403.jpg 720w, https://cimg.co/review/228/14827/responsive-images/5f1b04e43840b___media_library_original_600_336.jpg 600w, https://cimg.co/review/228/14827/responsive-images/5f1b04e43840b___media_library_original_300_168.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1755"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/228/14828/5f1b04e5935db.jpg" data-srcset="https://cimg.co/review/228/14828/responsive-images/5f1b04e5935db___media_library_original_1497_506.jpg 1497w, https://cimg.co/review/228/14828/responsive-images/5f1b04e5935db___media_library_original_1200_405.jpg 1200w, https://cimg.co/review/228/14828/responsive-images/5f1b04e5935db___media_library_original_900_304.jpg 900w, https://cimg.co/review/228/14828/responsive-images/5f1b04e5935db___media_library_original_720_243.jpg 720w, https://cimg.co/review/228/14828/responsive-images/5f1b04e5935db___media_library_original_600_202.jpg 600w, https://cimg.co/review/228/14828/responsive-images/5f1b04e5935db___media_library_original_300_101.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1497"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/228/14829/5f1b04e771f24.jpg" data-srcset="https://cimg.co/review/228/14829/responsive-images/5f1b04e771f24___media_library_original_1550_658.jpg 1550w, https://cimg.co/review/228/14829/responsive-images/5f1b04e771f24___media_library_original_1200_509.jpg 1200w, https://cimg.co/review/228/14829/responsive-images/5f1b04e771f24___media_library_original_900_382.jpg 900w, https://cimg.co/review/228/14829/responsive-images/5f1b04e771f24___media_library_original_720_305.jpg 720w, https://cimg.co/review/228/14829/responsive-images/5f1b04e771f24___media_library_original_600_254.jpg 600w, https://cimg.co/review/228/14829/responsive-images/5f1b04e771f24___media_library_original_300_127.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1550"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/228/14830/5f1b04e81717d.jpg" data-srcset="https://cimg.co/review/228/14830/responsive-images/5f1b04e81717d___media_library_original_751_359.jpg 751w, https://cimg.co/review/228/14830/responsive-images/5f1b04e81717d___media_library_original_720_344.jpg 720w, https://cimg.co/review/228/14830/responsive-images/5f1b04e81717d___media_library_original_600_286.jpg 600w, https://cimg.co/review/228/14830/responsive-images/5f1b04e81717d___media_library_original_300_143.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="751"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/228/208776/mybtc-fees.jpg" data-srcset="https://cimg.co/review/228/208776/responsive-images/mybtc-fees___media_library_original_1020_368.jpg 1020w, https://cimg.co/review/228/208776/responsive-images/mybtc-fees___media_library_original_900_324.jpg 900w, https://cimg.co/review/228/208776/responsive-images/mybtc-fees___media_library_original_720_259.jpg 720w, https://cimg.co/review/228/208776/responsive-images/mybtc-fees___media_library_original_600_216.jpg 600w, https://cimg.co/review/228/208776/responsive-images/mybtc-fees___media_library_original_300_108.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1020"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/228/208777/mybtc-account.jpg" data-srcset="https://cimg.co/review/228/208777/responsive-images/mybtc-account___media_library_original_1600_1063.jpg 1600w, https://cimg.co/review/228/208777/responsive-images/mybtc-account___media_library_original_1200_797.jpg 1200w, https://cimg.co/review/228/208777/responsive-images/mybtc-account___media_library_original_900_597.jpg 900w, https://cimg.co/review/228/208777/responsive-images/mybtc-account___media_library_original_720_478.jpg 720w, https://cimg.co/review/228/208777/responsive-images/mybtc-account___media_library_original_600_398.jpg 600w, https://cimg.co/review/228/208777/responsive-images/mybtc-account___media_library_original_300_199.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1600"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/228/209293/fees-and-limits-updated-table.jpg" data-srcset="https://cimg.co/review/228/209293/responsive-images/fees-and-limits-updated-table___media_library_original_1742_758.jpg 1742w, https://cimg.co/review/228/209293/responsive-images/fees-and-limits-updated-table___media_library_original_1200_522.jpg 1200w, https://cimg.co/review/228/209293/responsive-images/fees-and-limits-updated-table___media_library_original_900_391.jpg 900w, https://cimg.co/review/228/209293/responsive-images/fees-and-limits-updated-table___media_library_original_720_313.jpg 720w, https://cimg.co/review/228/209293/responsive-images/fees-and-limits-updated-table___media_library_original_600_261.jpg 600w, https://cimg.co/review/228/209293/responsive-images/fees-and-limits-updated-table___media_library_original_300_130.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1742"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/228/209294/fund-your-account-screenshot.jpg" data-srcset="https://cimg.co/review/228/209294/responsive-images/fund-your-account-screenshot___media_library_original_1786_1258.jpg 1786w, https://cimg.co/review/228/209294/responsive-images/fund-your-account-screenshot___media_library_original_1200_845.jpg 1200w, https://cimg.co/review/228/209294/responsive-images/fund-your-account-screenshot___media_library_original_900_633.jpg 900w, https://cimg.co/review/228/209294/responsive-images/fund-your-account-screenshot___media_library_original_720_507.jpg 720w, https://cimg.co/review/228/209294/responsive-images/fund-your-account-screenshot___media_library_original_600_422.jpg 600w, https://cimg.co/review/228/209294/responsive-images/fund-your-account-screenshot___media_library_original_300_211.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1786"/></div>
+</div>
+</div><h2>MyBTC Review: Key features</h2><p>Launched in 2016, MyBTC.ca is one of the leading Canadian bitcoin and ether brokers that lets you buy &amp; sell bitcoin and purchase ether in a quick and convenient manner. The service is very easy to use and guides the user through the entire process of purchase, meaning that it is suitable even for non-tech savvy newbies who are interested in acquiring some <a href="/coins/bitcoin">bitcoin (BTC)</a> or <a href="/coins/ethereum/">ether (ETH)</a> cryptocurrency.</p><figure class="image"><img alt="MyBTC.ca review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/b0506132e7.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/b0506132e7.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/b0506132e7.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/b0506132e7.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/b0506132e7.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/b0506132e7.jpg 1550w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>MyBTC stands out due to the following features:</p><ul><li><strong>Buy bitcoin and ether instantly using five different payment method options</strong>. Canadians can buy bitcoin and ether via Interac e-Transfer, bank wire, credit or debit card, cash or debit card, and Flexepin vouchers.</li><li><strong>Sell bitcoin immediately.</strong> Once 2 confirmations have been confirmed on the blockchain you can cash out via Interac e-Transfer, bank transfer or request a New Black Prepaid Visa card to load with CAD.</li><li><strong>Non-custodial platform</strong>. MyBTC.ca transfers bitcoin or ether directly to the desired destination wallet address, meaning that there’s little to none counterparty risk as the platform can’t lose your funds.</li><li><strong>Fast verification</strong>. All MyBTC.ca users must complete industry standard ID Verification and (KYC) checks before onboarding and making their first purchase.</li><li><strong>Video tutorials</strong>. Learn about the platform and its features interactively by watching instructional videos on the MyBTC.ca <a href="https://www.youtube.com/channel/UCihV-jk_GPsA_lZpyZYgN6Q">YouTube</a> channel suite.</li><li><strong>User-friendly exchange</strong>. The platform guides you through the entire purchase process and makes sure that the customer support is available for you at all times.</li><li><strong>100% Canadian platform</strong>. MyBTC.ca serves Canadian clients only. Likewise, it only accepts deposits in Canadian Dollars (CAD), too.</li></ul><p>In brief, MyBTC.ca offers an easy and convenient way to buy and sell bitcoin and purchase ether in Canada. Though it does not offer the lowest fees in the industry, it provides a simple, fast, and easy to use way to buy and sell bitcoins or purchase ETH, even for new non-techy traders and individuals.</p><figure class="image"><img alt="MyBTC review features" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/b0538170a3.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/b0538170a3.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/b0538170a3.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/b0538170a3.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/b0538170a3.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/b0538170a3.jpg 1497w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h2>History of the exchange</h2><p>Created and launched in 2016, MyBTC has become one of the better-known places for buying bitcoin in Canada. The platform’s founder and CEO, <a href="https://www.linkedin.com/in/mybtcca/">Duane Seamans</a>, is said to have been involved in the Bitcoin space since 2014.</p><p><i>Since day one, we've been committed to servicing Canadian Bitcoiners with fast and frictionless payment methods — catering to consumers who like the security of funding with the traditional banking network and also those who prefer otherwise</i>, says Duane Seamans, CEO at MyBTC.ca.</p><p>Since its launch, MyBTC.ca managed to become a trusted broker and ink deals with Interac, Flexepin, and Canada Post to facilitate their operations. Alongside that, the company has a stable banking relationship with a Canadian financial institution, meaning that their funds are insured and kept safely.</p><p>The company’s mailing address is located at 260 Adelaide St E #206, Toronto, ON M5A 1N1, Ontario, Canada. However, as its website explains, there are neither employees nor any business operations present at this address.</p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/228/209293/fees-and-limits-updated-table.jpg" data-srcset="https://cimg.co/review/228/209293/responsive-images/fees-and-limits-updated-table___media_library_original_1742_758.jpg 1742w, https://cimg.co/review/228/209293/responsive-images/fees-and-limits-updated-table___media_library_original_1200_522.jpg 1200w, https://cimg.co/review/228/209293/responsive-images/fees-and-limits-updated-table___media_library_original_900_391.jpg 900w, https://cimg.co/review/228/209293/responsive-images/fees-and-limits-updated-table___media_library_original_720_313.jpg 720w, https://cimg.co/review/228/209293/responsive-images/fees-and-limits-updated-table___media_library_original_600_261.jpg 600w, https://cimg.co/review/228/209293/responsive-images/fees-and-limits-updated-table___media_library_original_300_130.jpg 300w" src="https://cimg.co/p/no_image.svg" width="1742"/></figure><p>MyBTC is regulated by <strong>The Financial Transaction and Reports Analysis Centre of Canada (FINTRAC)</strong>, which is the country’s anti-money laundering (AML) and counter-terrorist financing (CTF) intelligence unit and regulator. As a business dealing in virtual currency, it counts as a <strong>Money Services Business (MSB)</strong> and has an issued MSB license no. M20844324, which can be verified at the regulator’s <a href="https://www.fintrac-canafe.gc.ca/covid19/vcmsb-listing-eng">public registry</a>.</p><p>MyBTC.ca is purely a Canadian exchange. If you want to open an account with MyBTC.ca, you need to be at least 18 years old resident or citizen in Canada. In order to use the exchange, you need to verify your identity and personal information.</p><h3>MyBTC verification</h3><p>MyBTC is a regulated crypto broker. As such, you must pass the identity verification procedure (KYC) before getting your hands on some crypto via their platform. It can be done in two ways - online and offline.</p><figure class="image"><img alt="MyBTC.ca review KYC" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/b065c49ccc.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/b065c49ccc.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/b065c49ccc.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/b065c49ccc.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/b065c49ccc.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/b065c49ccc.jpg 1022w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>To verify your identity online, MyBTC will ask you the following information during the sign-up process:</p><ul><li><strong>Proof of identity</strong>. Photo of a government-issued ID or passport</li><li><strong>Proof of possession</strong>. Selfie photo of yourself holding your ID with a paper reading “MyBTC.ca ID verification for bitcoin purchase” and current date.</li><li><strong>Proof of residence</strong>. Utility, phone, internet bill or bank/credit card statement (not older than three months).</li></ul><p>If your utility bills are issued in landlords, parents, or partner’s name, you should reach out to the customer support for an alternative onboarding procedure.</p><p> </p><figure class="image"><img alt="MyBTC.ca review online verification" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/b05f8c3ca7.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/b05f8c3ca7.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/b05f8c3ca7.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/b05f8c3ca7.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/b05f8c3ca7.jpg 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>If you’re going for an offline verification, you can do so at a local Canada Post. In this case, make sure to bring along the following documents:</p><ul><li>A valid government-issued ID or passport</li><li>MyBTC.ca profile information</li><li>A unique barcode sent to your home address</li></ul><figure class="image"><img alt="MyBTC.ca offline verification" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/b0633d4530.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/b0633d4530.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/b0633d4530.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/b0633d4530.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/b0633d4530.jpg 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>If your utility bills are issued in landlords, parents, or partner’s name, you should reach out to the customer support for an alternative onboarding procedure.</p><h2>MyBTC.ca fees and limits</h2><p>MyBTC.ca has a transparent and straightforward fee structure. Fees and limits depend on your preferred purchase method. See the various payment method options and their respective limits, fees and delivery timeframes in the table shown below: </p><figure class="table"><table><tbody><tr><td><strong>Method</strong></td><td><strong>Limits</strong></td><td><strong>Fees</strong></td><td><strong>Delivery Timeframe</strong></td></tr><tr><td>Interac e-Transfer</td><td>CAD 30 - CAD 25,000</td><td>7.75% ($10.00 min.)</td><td>0-30 Minutes</td></tr><tr><td>Bank Wire</td><td>CAD 10,000 - CAD 500,000</td><td>4.75%</td><td>Next Business Day</td></tr><tr><td>Credit Card</td><td>CAD 75 - CAD 25,000</td><td>~9.75%</td><td>Processed Immediately</td></tr><tr><td>Cash or Debit Card</td><td>CAD 50 - CAD 2,500</td><td>9.75% ($10.00 min.)</td><td>Instant Funding</td></tr><tr><td>Flexepin Voucher</td><td>CAD 20 - CAD 500</td><td>9.75% ($5.00 min.)</td><td>Instant Funding</td></tr></tbody></table></figure><p>As you can see, the best way to fund larger amounts to buy BTC or ETH via MyBTC.ca is by sending a bank wire transfer. The minimum sending amount is $10,000 CAD. Interac e-Transfer is the most popular payment method by far as most people are already familiarized with this product offered within their online banking. For those who prefer cash or debit purchases or need more buying power, MyBTC.ca accepts Flexepin vouchers or you can pay in store at the post office. </p><p>Below are the withdrawal limits and fees so you can select from a variety of payment methods to withdraw from your account:</p><figure class="table"><table><tbody><tr><td><strong>Method</strong></td><td><strong>Limits</strong></td><td><strong>Fee</strong></td><td><strong>Timeframe</strong></td></tr><tr><td>Interac e-Transfer</td><td>CAD 20 - CAD 10,000</td><td>CAD 5.00</td><td>0-6 hours</td></tr><tr><td>Bank Transfer</td><td>CAD 10,000 - CAD 100,000</td><td>CAD 50.00</td><td>1-2 Business Days</td></tr><tr><td>Prepaid Visa Card</td><td>CAD 50 - CAD 2,500</td><td>CAD 5.00</td><td>Instant</td></tr></tbody></table></figure><p>Compared with other exchanges, MyBTC.ca services come with a certain premium. Although you will pay similar or even higher percentages per transaction at most competing instant-exchanges, including <a href="/reviews/switchere/">Switchere</a>, <a href="/reviews/changelly/">Changelly</a>, and <a href="/reviews/changenow/">ChangeNow</a>, there are some centralized exchanges like <a href="/reviews/coinbase/">Coinbase</a> or <a href="/reviews/bitbuy/">BitBuy</a> that offer lower purchase rates, though they may be subject to delays and might not be as convenient or easy to use as MyBTC.ca.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/mybtc" rel="noindex nofollow" target="_blank">Visit MyBTC.ca</a></p><h4>Order Limits and Fees</h4><p>If your purchase is greater than CAD 350.00, the minimum order fee is waived and you will still benefit from fast confirmation times. For orders where you are selling bitcoin (BTC), your order will execute and convert to Canadian Dollars (CAD) when 2 confirmations have been reached.</p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/228/208776/mybtc-fees.jpg" data-srcset="https://cimg.co/review/228/208776/responsive-images/mybtc-fees___media_library_original_1020_368.jpg 1020w, https://cimg.co/review/228/208776/responsive-images/mybtc-fees___media_library_original_900_324.jpg 900w, https://cimg.co/review/228/208776/responsive-images/mybtc-fees___media_library_original_720_259.jpg 720w, https://cimg.co/review/228/208776/responsive-images/mybtc-fees___media_library_original_600_216.jpg 600w, https://cimg.co/review/228/208776/responsive-images/mybtc-fees___media_library_original_300_108.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1020"/></figure><h2>Exchange’s security measures</h2><p>MyBTC.ca is a secure and regulated exchange. Due to its non-custodial nature, the exchange does not keep user funds in their own digital wallet, which makes it an unattractive target for hackers. As such, the exchange has no recorded security incidents to date. Besides, it is regulated by FINTRAC, meaning that it is a secure and reliable exchange.</p><p>In fact, MyBTC.ca sends your Bitcoin directly to your private wallet, which means that you should get one prior to using the service. If you don’t have a Bitcoin wallet yet, there are many secure yet different options. Please use this <a href="https://bitcoin.org/en/choose-your-wallet">Bitcoin.org helper</a> to find a Bitcoin wallet that suits your needs best. For ultimate security (or storing more than USD 1,000 worth of Bitcoin) we recommend getting a hardware wallet by <a href="https://cryptonews.com/ext/ledger/">Ledger</a> or <a href="https://cryptonews.com/ext/trezor/">Trezor</a>.</p><p>In terms of general security, MyBTC service runs on hardware secured by one of the most secure cloud service providers, all communications are encrypted with SSL, and the service doesn’t store your credit card or banking information.</p><p>On the user side of things, you can secure your account with two-factor authentication (2FA). Besides, your MyBTC account is connected to your phone number and email, which makes it more difficult for someone else to access your trading history.</p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/228/208777/mybtc-account.jpg" data-srcset="https://cimg.co/review/228/208777/responsive-images/mybtc-account___media_library_original_1600_1063.jpg 1600w, https://cimg.co/review/228/208777/responsive-images/mybtc-account___media_library_original_1200_797.jpg 1200w, https://cimg.co/review/228/208777/responsive-images/mybtc-account___media_library_original_900_597.jpg 900w, https://cimg.co/review/228/208777/responsive-images/mybtc-account___media_library_original_720_478.jpg 720w, https://cimg.co/review/228/208777/responsive-images/mybtc-account___media_library_original_600_398.jpg 600w, https://cimg.co/review/228/208777/responsive-images/mybtc-account___media_library_original_300_199.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1600"/></figure><p>Looking at online reviews, we can see that MyBTC.ca has a solid user rating. Per <a href="https://www.trustpilot.com/review/mybtc.ca">TrustPilot</a>, it is rated 4.8/5 by 217 users. On <a href="http://bittrust.org/mybtcca">BitTrust</a>, MyBTC is rated 4.66/5 based on 65 reviews. On <a href="https://www.google.com/maps/place/MyBTC.ca+%E2%80%94+Canadian+Bitcoin+Brokers/@43.6519586,-79.372606,17z/data=!4m7!3m6!1s0x89d4cb30b8b9bae3:0xc4523233edf4de78!8m2!3d43.6519586!4d-79.3704173!9m1!1b1">Google</a>, 214 users rated MyBTC.ca 4.7/5 rating. Based solely on these ratings, it can be said that most of MyBTC.ca’s users were happy with the service.</p><figure class="image"><img alt="MyBTC.ca reviews" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/b074b25b67.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/b074b25b67.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/b074b25b67.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/b074b25b67.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/b074b25b67.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/b074b25b67.jpg 1440w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h2>Design and usability</h2><p>MyBTC.ca is a very simple platform that guides users through the entire purchasing process. It means that you don’t have to have any experience to use the service, as MyBTC.ca is designed to be newbie-friendly.</p><p>Basically, you can register, verify your identity, and buy bitcoins in minutes. There are no complicated trading charts or dashboards, making it a nice and pleasant experience.</p><p>To buy or sell bitcoins or purchase ether with MyBTC.ca, you need to: </p><ol><li>Go to <a href="https://cryptonews.com/ext/mybtc">MyBTC.ca homepage</a> and click “Buy Now” anywhere on the page.</li><li>You will be asked to register your Canadian phone number, email, and verify your identity.</li><li>Fund your account with BTC for selling or CAD for buying.</li><li>Enter your bitcoin or ether wallet address if you’re buying, select your withdrawal method if you’ve sold bitcoin.</li><li>Complete your order and send bitcoin to a wallet or complete your withdrawal to actualize your BTC in CAD.</li></ol><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/228/209294/fund-your-account-screenshot.jpg" data-srcset="https://cimg.co/review/228/209294/responsive-images/fund-your-account-screenshot___media_library_original_1786_1258.jpg 1786w, https://cimg.co/review/228/209294/responsive-images/fund-your-account-screenshot___media_library_original_1200_845.jpg 1200w, https://cimg.co/review/228/209294/responsive-images/fund-your-account-screenshot___media_library_original_900_633.jpg 900w, https://cimg.co/review/228/209294/responsive-images/fund-your-account-screenshot___media_library_original_720_507.jpg 720w, https://cimg.co/review/228/209294/responsive-images/fund-your-account-screenshot___media_library_original_600_422.jpg 600w, https://cimg.co/review/228/209294/responsive-images/fund-your-account-screenshot___media_library_original_300_211.jpg 300w" src="https://cimg.co/p/no_image.svg" width="1786"/></figure><p>When buying bitcoin or ether, once your payment is sent, you will receive the coins into your wallet once it’s confirmed on the blockchain. If you’ve sold bitcoin, your MyBTC.ca account balance will be populated once 2 confirmations are verified on the blockchain so you can withdraw to CAD.</p><p><br/>This it! As you can see, using MyBTC is as easy as pie. Enjoy your bitcoin!</p><h3>Customer support</h3><p>MyBTC.ca has an excellent 24/7 customer support team that is accessible via a number of channels. Besides, you can check its comprehensive <a href="https://mybtc.ca/faq">FAQ page</a>, which should answer most of your questions.</p><p>In case you need further assistance, you can contact MyBTC’s customer support team via the following channels:</p><ul><li>The contact form on the website.</li><li>Email: <a href="https://mailto:help@mybtc.ca"><span class="__cf_email__" data-cfemail="0e666b627e4e63776c7a6d206d6f">[email protected]</span></a></li><li>Live chat feature on Facebook</li><li>Via Twitter messages or tweets</li></ul><p>The support is typically quick to respond, so you should receive an answer to your query within an hour or so.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/mybtc" rel="noindex nofollow" target="_blank">Go to Exchange</a></p><h2>Deposit and withdrawal methods</h2><p>MyBTC.ca is a bitcoin-only broker that does not support any selling or trading options. For this reason, it supports fiat deposits and bitcoin withdrawals only and both of them are performed during the same transaction.</p><figure class="image"><img alt="MyBTC.ca review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/b059ce32da.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/b059ce32da.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/b059ce32da.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/b059ce32da.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/b059ce32da.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/b059ce32da.jpg 1245w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Currently, MyBTC supports sIx different ways to buy bitcoin with Canadian Dollars (CAD):</p><ul><li><strong>INTERAC E-TRANSFER.</strong> You can purchase between CAD 50 and CAD 10,000 via all Canadian banks with a fee of 7.75% (minimum CAD 10) and receive your bitcoin within 30 minutes.</li><li><strong>Interac Online.</strong> Buy CAD 20 to CAD 1,000 worth of bitcoin with a 7.75% transaction fee (or a minimum of CAD 5) and get instant funding to your account.</li><li><strong>Bank Wire transfer.</strong> The cheapest but also the slowest way to make a purchase via this broker. Buy between CAD 5,000 and CAD 100,000 with a 4.75% fee using all Canadian banks and receive your BTC next business day.</li><li><strong>Credit or debit card.</strong> The most expensive but also the quickest way to get BTC via the MyBTC platform. You can acquire between CAD 75 and CAD 25,000, and your payment will be processed immediately. However, you will pay up to 9.75% commission.</li><li><strong>Cash or debit at Canada Post.</strong> Use cash or your debit card to buy from CAD 50 to CAD 2,500 worth of BTC with 7.75% (or minimum CAD 5) and receive instant funding to your account in more than 6000 Canada Post locations.</li><li><strong>Flexepin Voucher.</strong> Another popular way to fund your Bitcoin purchase. <a href="https://www.topmeup.ca/opv/Purchase.aspx?product=FLEXPE">Get Flexepin</a> voucher online or at certain <a href="https://mybtc.ca/flexepin-voucher-purchase-locations">retail locations</a> and use it to buy between CAD 20 and CAD 1,000 in bitcoin with a 7.75% transaction fee (or min. CAD 5) and receive BTC almost instantly.</li></ul><p>Mind that you should only make deposits or transactions from accounts with your own name.</p><p>As you purchase cryptocurrency directly to your private wallet, there is no need to make a separate withdrawal from the platform. MyBTC.ca leaves you in charge of your own private keys, which makes it a secure non-custodial broker.</p><h2>Conclusion</h2><p>MyBTC is a great non-custodial fiat-to-crypto gateway for Canadians that offers lower fees compared with other instant-exchanges. It is super easy and convenient to use, even though you have to verify your identity. Security-wise, it is more secure than centralized exchanges, though you will have to set up your own private wallet in order to use the service.</p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

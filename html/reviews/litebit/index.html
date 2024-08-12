@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/litebit/">LiteBit</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="610a4c837aabb.png" class="img-fluid img-circle author__image author__image--has-bg mb-15" loading="auto" src="https://cimg.co/reviewlogo/76/610a4c837aabb.png"/>
+<div>
+<a class="c-black" href="#"><b>LiteBit</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/litebit" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+<div class="fs-12"></div>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="litebit"> LiteBit</h1>
+<p>LiteBit is a leading Dutch exchange that has been around since 2013. As a legacy broker that was at the forefront of crypto broker innovation in the early days, LiteBit is still standing strong as a leading European crypto brokerage and have a mission to be Europe’s #1 broker, winning the ‘Best Crypto Broker’ award in 2019 and 2020 as voted by the public. One of the first to provide a wallet to customers, LiteBit is continuously looking how to improve crypto trading in general. LiteBit’s goal is to be the most customer-friendly and reliable platform in Europe.</p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/litebit" target="_blank">LiteBit</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://www.litebit.eu/en/contact" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>Rotterdam, The Netherlands</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>105.0 BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>Yes</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>No</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>Ventures BV</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+                                                                                                                                                        Bank Transfer,
+                                                                                                                                                                                                                                        Crypto Transfer,
+                                                                                                                                            </b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>EUR</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>50</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>-</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>Medium (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+<li>Easy-to-use, user-friendly interface High liquidity Allows trades in fiat and crypto Top level customer support</li> </ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+<li>Average fees but good fees for big cryptos like Bitcoin and Ethereum</li> </ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/57637/20443/610aed614508f.png" srcset="https://cimg.co/review/57637/20443/responsive-images/610aed614508f___media_library_original_1276_296.png 1276w, https://cimg.co/review/57637/20443/responsive-images/610aed614508f___media_library_original_1200_279.png 1200w, https://cimg.co/review/57637/20443/responsive-images/610aed614508f___media_library_original_900_209.png 900w, https://cimg.co/review/57637/20443/responsive-images/610aed614508f___media_library_original_720_167.png 720w, https://cimg.co/review/57637/20443/responsive-images/610aed614508f___media_library_original_600_139.png 600w, https://cimg.co/review/57637/20443/responsive-images/610aed614508f___media_library_original_300_69.png 300w" width="1276"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/57637/20444/610aed61c0fce.png" data-srcset="https://cimg.co/review/57637/20444/responsive-images/610aed61c0fce___media_library_original_438_408.png 438w, https://cimg.co/review/57637/20444/responsive-images/610aed61c0fce___media_library_original_300_279.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="438"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/57637/20445/610aed6247002.png" data-srcset="https://cimg.co/review/57637/20445/responsive-images/610aed6247002___media_library_original_1275_640.png 1275w, https://cimg.co/review/57637/20445/responsive-images/610aed6247002___media_library_original_1200_602.png 1200w, https://cimg.co/review/57637/20445/responsive-images/610aed6247002___media_library_original_900_451.png 900w, https://cimg.co/review/57637/20445/responsive-images/610aed6247002___media_library_original_720_361.png 720w, https://cimg.co/review/57637/20445/responsive-images/610aed6247002___media_library_original_600_301.png 600w, https://cimg.co/review/57637/20445/responsive-images/610aed6247002___media_library_original_300_150.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1275"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/57637/20446/610aed62bce3c.png" data-srcset="https://cimg.co/review/57637/20446/responsive-images/610aed62bce3c___media_library_original_1104_608.png 1104w, https://cimg.co/review/57637/20446/responsive-images/610aed62bce3c___media_library_original_900_495.png 900w, https://cimg.co/review/57637/20446/responsive-images/610aed62bce3c___media_library_original_720_396.png 720w, https://cimg.co/review/57637/20446/responsive-images/610aed62bce3c___media_library_original_600_330.png 600w, https://cimg.co/review/57637/20446/responsive-images/610aed62bce3c___media_library_original_300_165.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1104"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/57637/20447/610aed6322257.png" data-srcset="https://cimg.co/review/57637/20447/responsive-images/610aed6322257___media_library_original_1443_666.png 1443w, https://cimg.co/review/57637/20447/responsive-images/610aed6322257___media_library_original_1200_554.png 1200w, https://cimg.co/review/57637/20447/responsive-images/610aed6322257___media_library_original_900_416.png 900w, https://cimg.co/review/57637/20447/responsive-images/610aed6322257___media_library_original_720_332.png 720w, https://cimg.co/review/57637/20447/responsive-images/610aed6322257___media_library_original_600_277.png 600w, https://cimg.co/review/57637/20447/responsive-images/610aed6322257___media_library_original_300_138.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1443"/></div>
+</div>
+</div><p>LiteBit is a well-established and reliable Dutch cryptocurrency exchange. As a platform on a mission to become leading European crypto broker, it offers its users the following features and capabilities:</p><ul><li><strong>Fiat-to-crypto and crypto-to-crypto trading.</strong> Provides fiat-to-crypto and crypto-to-crypto features with over 50+ cryptocurrencies such as Bitcoin, Ethereum, Cardano, Ripple, Chainlink, Litecoin and others, with some being difficult to find on other exchanges.</li><li><strong>Good liquidity.</strong> Buy crypto with <strong>iDEAL</strong>, <strong>SEPA</strong>, <strong>Sofort</strong>, <strong>Giropay</strong>, <strong>Mister cash</strong> and other payment methods that streamline the process. You can also link your bank account to have an easier access to your crypto funds.</li><li><strong>Easy-to-use interface.</strong> The design is simple and clear, from the registration to market overview to trading. Whether you are looking for which cryptocurrency to buy, check market prices, or trading in general.</li><li><strong>Customer support.</strong> With automated instant chat, email that lets you receive in 24 hours, and even phone support during their working hours, the customer support is extensive. This is probably a big reason why the exchange has been popular with the public. Phone support is rare for cryptocurrency exchanges and having this on hand, and it is a big plus for LiteBit.</li></ul><figure class="image"><img alt="litebit exchange homepage" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/610/a6f059becb.png" data-srcset="https://cimg.co/w/rw-attachments/1/610/a6f059becb.png 300w, https://cimg.co/w/rw-attachments/2/610/a6f059becb.png 600w, https://cimg.co/w/rw-attachments/3/610/a6f059becb.png 720w, https://cimg.co/w/rw-attachments/4/610/a6f059becb.png 900w, https://cimg.co/w/rw-attachments/0/610/a6f059becb.png 1719w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h2>Background and history of the exchange</h2><p>LiteBit was founded by two crypto enthusiasts. Their mission: make trading simple. From the early days of Litecoin, which was then followed by Bitcoin, they went on to build the currency exchange that we know today.</p><p>As interest grew, investestors saw its potential and LiteBit’s new website was up and running by the time of the 2017 bull run. This was when users all across Europe discovered LiteBit and the features that they offer. After the run reached its peak, they moved to another headquarters that overlooked Rotterdam.After this, they began to make a name for themselves and are still looking to become the best crypto brokerage in Europe.</p><p>Their strive to be Europe’s best cryptocurrency exchange is shown by winning the best crypto broker award 2019 and 2020, after having grown to 50 employees. They are not stopping there, however, and are continuously looking to improve, as shown by their experienced team and the activity of the exchange.</p><p>LiteBit's team consists of 55 employees with Oliver van Duijn as the CEO. The team, which consists of a FinTech team with a FinTech Board director, Digital Marketing Strategist, Crypto Fraud Specialist and Department, Legal and Compliance Officer, experienced UX designers, the team has members who are experts in keeping a brokerage up-to-date. And with how fast the cryptocurrency space moves, it is good to know that they have an entire team that is capable of keeping LiteBit at the forefront of the crypto world.</p><p>Overall, the level of professionalism is top notch and you can expect that seasoned veterans of crypto are running the show. This, combined with the fact that LiteBit has been around since the early days of crypto, makes it have a high degree of professionalism and experience.</p><h3>Regulations, licenses, jurisdiction and supported countries</h3><p>In 2021, LiteBit partnered with RIDDLE&amp;CODE, FinTech solutions, a cutting-edge European company that manages all facets of digital assets. Now, their Token Management Platform (TMP) to scale, which allows for up-to-date proficiencies. Because of European Union regulations on crypto that have increasingly clamped down, this is a good assurance for customers that LiteBit has taken the necessary steps to continue being a relevant cryptocurrency exchange for the next generation of finance.</p><p>This makes sure that LiteBit is in compliance with all the rules and can scale their business accordingly to attract more customers to its growing platform.</p><p>As of right now, they support several countries and have a list of countries they do not support, a notable one being those who identify as a person from the United States. You can find their full country policy <a href="https://support.litebit.eu/hc/en-us/articles/360012283479-Country-Policy" rel="noopener" target="_blank">here</a>.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/litebit" rel="noindex nofollow" target="_blank">Visit LiteBit </a></p><h4>Verification requirements and account tiers</h4><p> </p><p>LiteBit requires that you put your name, phone number and passport identification in order to begin trading on your account.</p><p>Because of Netherlands law, they require you to submit KYC to start trading, but it is nothing out of the ordinary. These verification requirements, like name, phone number, and passport ID, are commonplace for many exchanges</p><p>Tier 3 verification - phone, address and ID verification with valid passport: Daily, weekly, monthly limit of up to EUR 200,000, EUR 1,500,000 and EUR 1,500,000 respectively.</p><p>LiteBit takes security seriously, so they implement the necessary verification procedures, repeatedly doing checks on multiple accounts for fraud. This is in compliance with European and Dutch crypto trading protocols.</p><h2>LiteBit Fees</h2><p>LiteBit charges a 2% transaction fee for all transactions, which is average for the industry. However, updated in 2020, they lowered the fees for some of the most popular cryptocurrencies. And for those who use the exchange a lot, they have a LiteBit credit system that allows you to save money on fees, rewarding those who spend their time on the platform. This is a great incentive for loyal customers who continuously use the exchange.</p><p>You can find more information about LiteBit credits <a href="https://support.litebit.eu/hc/en-us/articles/115000972870-What-are-LiteBit-credits-" rel="noopener" target="_blank">here</a>.</p><figure class="image"><img alt="litebit review fees" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/610/aea90a4b50.png" data-srcset="https://cimg.co/w/rw-attachments/1/610/aea90a4b50.png 300w, https://cimg.co/w/rw-attachments/2/610/aea90a4b50.png 600w, https://cimg.co/w/rw-attachments/3/610/aea90a4b50.png 720w, https://cimg.co/w/rw-attachments/4/610/aea90a4b50.png 900w, https://cimg.co/w/rw-attachments/0/610/aea90a4b50.png 1281w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h2>LiteBit Design and Usability</h2><figure class="image"><img alt="litebit design" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/610/aeaa4b55b3.png" data-srcset="https://cimg.co/w/rw-attachments/1/610/aeaa4b55b3.png 300w, https://cimg.co/w/rw-attachments/2/610/aeaa4b55b3.png 600w, https://cimg.co/w/rw-attachments/3/610/aeaa4b55b3.png 720w, https://cimg.co/w/rw-attachments/4/610/aeaa4b55b3.png 900w, https://cimg.co/w/rw-attachments/0/610/aeaa4b55b3.png 1104w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>LiteBit's user interface can be summarized in three key points:</p><ol><li>Simple, clean design</li><li>Perform crypto-to-crypto trades</li><li>Real-time market assessments</li></ol><p>The design of LiteBit’s interface is clean and simple, with a white background for even their trading charts. This makes it easy for users to get onboard the site, from registration to verification to trading to asking for support help. The blue at the top with the white lettering makes going to each section straightforward. The gold that highlights the important buttons, like signing up and trading, are also coherent with the design. The white, uncomplicated background makes everything a breeze to find and use.</p><p>It is as simple as selecting your crypto at the top left corner to be shown the real-time market price and buying your cryptocurrency. The whole process is fluid.</p><p>When making a purchase, you can choose the options at the top to buy the crypto right away at market prices. So going from registration to buying your first cryptocurrency is a streamlined process and you will be trading cryptocurrencies in no time.</p><figure class="image"><img alt="LiteBit Usability" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/610/aeb2002a14.png" data-srcset="https://cimg.co/w/rw-attachments/1/610/aeb2002a14.png 300w, https://cimg.co/w/rw-attachments/2/610/aeb2002a14.png 600w, https://cimg.co/w/rw-attachments/3/610/aeb2002a14.png 720w, https://cimg.co/w/rw-attachments/4/610/aeb2002a14.png 900w, https://cimg.co/w/rw-attachments/0/610/aeb2002a14.png 1275w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h3>LiteBit Wallet</h3><figure class="image"><img alt="Litebit review wallet" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/610/aeb899de87.png" data-srcset="https://cimg.co/w/rw-attachments/1/610/aeb899de87.png 300w, https://cimg.co/w/rw-attachments/2/610/aeb899de87.png 600w, https://cimg.co/w/rw-attachments/3/610/aeb899de87.png 720w, https://cimg.co/w/rw-attachments/4/610/aeb899de87.png 900w, https://cimg.co/w/rw-attachments/0/610/aeb899de87.png 1443w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>One of the unique aspects of LiteBit is their wallet. Although they are more commonplace now, when it was first launched, this wallet made LiteBit an innovative brokerage in the early days. It is still intact, designed and updated for the next generation of crypto. The LiteBit wallet is a cold wallet, meaning that it is stored offline and can exchange currencies when logged onto the internet.</p><p>You can use this wallet to sell directly for euros, making it a good option for those who are looking for an exchange with advanced wallet functionalities built in.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/litebit" rel="noindex nofollow" target="_blank">Visit LiteBit </a></p><h3>Affiliate program</h3><figure class="image"><img alt="litebit affiliate program" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/610/aebb501aa6.png" data-srcset="https://cimg.co/w/rw-attachments/1/610/aebb501aa6.png 300w, https://cimg.co/w/rw-attachments/2/610/aebb501aa6.png 600w, https://cimg.co/w/rw-attachments/3/610/aebb501aa6.png 720w, https://cimg.co/w/rw-attachments/4/610/aebb501aa6.png 900w, https://cimg.co/w/rw-attachments/0/610/aebb501aa6.png 1185w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>LiteBit also has an affiliate program that you can be up-to-speed with recommending friends to the platform. Through this program, you are given an affiliate link to take advantages of</p><ol><li>25% of the profit margin</li><li>Being paid in LiteBit credits for your account</li><li>Free service with LiteBit wallet</li></ol><p>So if you are someone with a network of friends or associates that are into cryptocurrencies, you can leverage that network to your advantage through LiteBit’s affiliate program. And if you have multiple friends who trade on the daily, you can potentially make profits in more ways than just trading cryptocurrencies.</p><h3>Mobile app</h3><figure class="image"><img alt="litebit review mobile app" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/610/aebf109393.png" data-srcset="https://cimg.co/w/rw-attachments/1/610/aebf109393.png 300w, https://cimg.co/w/rw-attachments/2/610/aebf109393.png 600w, https://cimg.co/w/rw-attachments/3/610/aebf109393.png 720w, https://cimg.co/w/rw-attachments/4/610/aebf109393.png 900w, https://cimg.co/w/rw-attachments/0/610/aebf109393.png 438w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>The mobile app has many of the same qualities as the original with the same clean interface. With this, you can conduct trades on the go, which is a necessity in the crypto world with how much the price fluctuates on a given notice. Litebit’s app is, in essence, your cryptocurrency portfolio on the go with trades you can make at the tap of a button.</p><p>The mobile app allows you to:</p><ol><li><strong>Trade instantly.</strong> Be ahead of the market and countertrade crypto volatility with instant transactions.</li><li><strong>Fluid transactions.</strong> Trading can be as simple as tapping a button on your phone.</li><li><strong>Biometric security.</strong> You fingerprint can secure your account, making it certain that you are the only one that has access to your funds.</li></ol><h3>Customer support</h3><figure class="image"><img alt="litebit customer support" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/610/aec8c37100.png" data-srcset="https://cimg.co/w/rw-attachments/1/610/aec8c37100.png 300w, https://cimg.co/w/rw-attachments/2/610/aec8c37100.png 600w, https://cimg.co/w/rw-attachments/3/610/aec8c37100.png 720w, https://cimg.co/w/rw-attachments/4/610/aec8c37100.png 900w, https://cimg.co/w/rw-attachments/0/610/aec8c37100.png 1276w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>As mentioned, their customer support is excellent in comparison to other exchanges. So if your money is valued in this area, then this is a good reason to have LiteBit as your broker. With a 24/7 automated assistant and the ability to actually phone the broker, this makes Litebit impressive. There are many brokers that simply do not offer their phone number to contact for help. The fact that Litebit has a department for this should pique the curiosity of many crypto fans.</p><figure class="image"><img alt="litebit review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/610/aeca1316fa.png" data-srcset="https://cimg.co/w/rw-attachments/1/610/aeca1316fa.png 300w, https://cimg.co/w/rw-attachments/2/610/aeca1316fa.png 600w, https://cimg.co/w/rw-attachments/3/610/aeca1316fa.png 720w, https://cimg.co/w/rw-attachments/4/610/aeca1316fa.png 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h2>LiteBit Security</h2><p>LiteBit constantly reviews the accounts that are created on its platform, providing an extra layer of security.This, along with a Crypto Fraud Department Team that is always on the lookout for any suspicious anomalies in their system. They have really stepped up in the last few years to make sure that their customers are safe.</p><p>You can find a detailed rendition of how they comply to tighten their exchange’s security and some features to help you <a href="https://support.litebit.eu/hc/en-us/articles/4402229579026-What-measures-does-LiteBit-take-to-prevent-fraud-" rel="noopener" target="_blank">recognize fraud</a>.</p><p>The exchange encourages you to implement 2FA in order to completely secure your account. Also, you will need email verification if you’re using the platform on another IP address. The website also has articles detailing ways for you to ensure that you are doing everything you can to make your account as secure as possible.</p><h2>Conclusion</h2><p>You can expect a high grade of professionalism and customer-oriented mindset when it comes to LiteBit. They are an exchange that has been around since the early days of crypto and are continuously adding onto their repertoire to give their loyal users more reasons to enjoy the platform. Although very beginner-friendly for entry-level cryptocurrency users, advanced traders can also add this exchange and all its features to their options.</p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/swissborg/">SwissBorg</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="SwissBorg" class="img-fluid img-circle author__image author__image--has-bg mb-15" loading="auto" src="https://cimg.co/reviewlogo/84/swissborg-logo.jpg" srcset="https://cimg.co/reviewlogo/84/responsive-images/swissborg-logo___media_library_original_300_300.jpg 300w" width="300"/>
+<div>
+<a class="c-black" href="#"><b>SwissBorg</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/swissborg" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+<div class="fs-12"></div>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="swissborg"> SwissBorg</h1>
+<p>SwissBorg is a crypto wealth management app that offers access to a multitude of crypto and fiat investment options. Strictly regulated and available only in a select few countries, with plans to expand further globally, the app offers services that were previously only available within the traditional finance sector. With robust security measures and transparent fees, the app is very beginner friendly, but also well suited for pros who will have to go through an extensive KYC process in order to remove deposit and withdrawal limits completely. </p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/swissborg" target="_blank">SwissBorg</a></b></td>
+</tr>
+<tr>
+<td>Main location:</td>
+<td><b></b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>?? BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>Yes</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>No</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>SwissBorg</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+                                                                                                                                                        Bank Transfer,
+                                                                                                                                            </b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>16</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>44</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>CHSB</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>Very Low (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+</ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+</ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/80061/200664/landing-site.jpg" srcset="https://cimg.co/review/80061/200664/responsive-images/landing-site___media_library_original_1909_933.jpg 1909w, https://cimg.co/review/80061/200664/responsive-images/landing-site___media_library_original_1200_586.jpg 1200w, https://cimg.co/review/80061/200664/responsive-images/landing-site___media_library_original_900_439.jpg 900w, https://cimg.co/review/80061/200664/responsive-images/landing-site___media_library_original_720_351.jpg 720w, https://cimg.co/review/80061/200664/responsive-images/landing-site___media_library_original_600_293.jpg 600w, https://cimg.co/review/80061/200664/responsive-images/landing-site___media_library_original_300_146.jpg 300w" width="1909"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/80061/200665/trusted-app.jpg" data-srcset="https://cimg.co/review/80061/200665/responsive-images/trusted-app___media_library_original_1890_818.jpg 1890w, https://cimg.co/review/80061/200665/responsive-images/trusted-app___media_library_original_1200_519.jpg 1200w, https://cimg.co/review/80061/200665/responsive-images/trusted-app___media_library_original_900_389.jpg 900w, https://cimg.co/review/80061/200665/responsive-images/trusted-app___media_library_original_720_311.jpg 720w, https://cimg.co/review/80061/200665/responsive-images/trusted-app___media_library_original_600_259.jpg 600w, https://cimg.co/review/80061/200665/responsive-images/trusted-app___media_library_original_300_129.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1890"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/80061/200666/chsb-token.jpg" data-srcset="https://cimg.co/review/80061/200666/responsive-images/chsb-token___media_library_original_1119_845.jpg 1119w, https://cimg.co/review/80061/200666/responsive-images/chsb-token___media_library_original_900_679.jpg 900w, https://cimg.co/review/80061/200666/responsive-images/chsb-token___media_library_original_720_543.jpg 720w, https://cimg.co/review/80061/200666/responsive-images/chsb-token___media_library_original_600_453.jpg 600w, https://cimg.co/review/80061/200666/responsive-images/chsb-token___media_library_original_300_226.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1119"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/80061/200667/btc-screen.jpg" data-srcset="https://cimg.co/review/80061/200667/responsive-images/btc-screen___media_library_original_1640_2360.jpg 1640w, https://cimg.co/review/80061/200667/responsive-images/btc-screen___media_library_original_1200_1726.jpg 1200w, https://cimg.co/review/80061/200667/responsive-images/btc-screen___media_library_original_900_1295.jpg 900w, https://cimg.co/review/80061/200667/responsive-images/btc-screen___media_library_original_720_1036.jpg 720w, https://cimg.co/review/80061/200667/responsive-images/btc-screen___media_library_original_600_863.jpg 600w, https://cimg.co/review/80061/200667/responsive-images/btc-screen___media_library_original_300_431.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1640"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/80061/200668/earn-yield.jpg" data-srcset="https://cimg.co/review/80061/200668/responsive-images/earn-yield___media_library_original_1640_2360.jpg 1640w, https://cimg.co/review/80061/200668/responsive-images/earn-yield___media_library_original_1200_1726.jpg 1200w, https://cimg.co/review/80061/200668/responsive-images/earn-yield___media_library_original_900_1295.jpg 900w, https://cimg.co/review/80061/200668/responsive-images/earn-yield___media_library_original_720_1036.jpg 720w, https://cimg.co/review/80061/200668/responsive-images/earn-yield___media_library_original_600_863.jpg 600w, https://cimg.co/review/80061/200668/responsive-images/earn-yield___media_library_original_300_431.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1640"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/80061/200669/premium-account.jpg" data-srcset="https://cimg.co/review/80061/200669/responsive-images/premium-account___media_library_original_1640_2360.jpg 1640w, https://cimg.co/review/80061/200669/responsive-images/premium-account___media_library_original_1200_1726.jpg 1200w, https://cimg.co/review/80061/200669/responsive-images/premium-account___media_library_original_900_1295.jpg 900w, https://cimg.co/review/80061/200669/responsive-images/premium-account___media_library_original_720_1036.jpg 720w, https://cimg.co/review/80061/200669/responsive-images/premium-account___media_library_original_600_863.jpg 600w, https://cimg.co/review/80061/200669/responsive-images/premium-account___media_library_original_300_431.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1640"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/80061/200670/help-center.jpg" data-srcset="https://cimg.co/review/80061/200670/responsive-images/help-center___media_library_original_1330_850.jpg 1330w, https://cimg.co/review/80061/200670/responsive-images/help-center___media_library_original_1200_766.jpg 1200w, https://cimg.co/review/80061/200670/responsive-images/help-center___media_library_original_900_575.jpg 900w, https://cimg.co/review/80061/200670/responsive-images/help-center___media_library_original_720_460.jpg 720w, https://cimg.co/review/80061/200670/responsive-images/help-center___media_library_original_600_383.jpg 600w, https://cimg.co/review/80061/200670/responsive-images/help-center___media_library_original_300_191.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1330"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/80061/200671/deposit-crypto.jpg" data-srcset="https://cimg.co/review/80061/200671/responsive-images/deposit-crypto___media_library_original_1640_2360.jpg 1640w, https://cimg.co/review/80061/200671/responsive-images/deposit-crypto___media_library_original_1200_1726.jpg 1200w, https://cimg.co/review/80061/200671/responsive-images/deposit-crypto___media_library_original_900_1295.jpg 900w, https://cimg.co/review/80061/200671/responsive-images/deposit-crypto___media_library_original_720_1036.jpg 720w, https://cimg.co/review/80061/200671/responsive-images/deposit-crypto___media_library_original_600_863.jpg 600w, https://cimg.co/review/80061/200671/responsive-images/deposit-crypto___media_library_original_300_431.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1640"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/80061/200672/deposit-btc.jpg" data-srcset="https://cimg.co/review/80061/200672/responsive-images/deposit-btc___media_library_original_1640_2360.jpg 1640w, https://cimg.co/review/80061/200672/responsive-images/deposit-btc___media_library_original_1200_1726.jpg 1200w, https://cimg.co/review/80061/200672/responsive-images/deposit-btc___media_library_original_900_1295.jpg 900w, https://cimg.co/review/80061/200672/responsive-images/deposit-btc___media_library_original_720_1036.jpg 720w, https://cimg.co/review/80061/200672/responsive-images/deposit-btc___media_library_original_600_863.jpg 600w, https://cimg.co/review/80061/200672/responsive-images/deposit-btc___media_library_original_300_431.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1640"/></div>
+</div>
+</div><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/80061/200664/landing-site.jpg" data-srcset="https://cimg.co/review/80061/200664/responsive-images/landing-site___media_library_original_1909_933.jpg 1909w, https://cimg.co/review/80061/200664/responsive-images/landing-site___media_library_original_1200_586.jpg 1200w, https://cimg.co/review/80061/200664/responsive-images/landing-site___media_library_original_900_439.jpg 900w, https://cimg.co/review/80061/200664/responsive-images/landing-site___media_library_original_720_351.jpg 720w, https://cimg.co/review/80061/200664/responsive-images/landing-site___media_library_original_600_293.jpg 600w, https://cimg.co/review/80061/200664/responsive-images/landing-site___media_library_original_300_146.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1909"/></figure><h3>SwissBorg Review Summary: Key Features </h3><p>As a wealth management app that offers crypto access to its customers, SwissBorg is well-positioned to offer all of the perks and advantages that the traditional finance sector has enjoyed for a longer time. Here are some of its key features:</p><ul><li><strong>App only.</strong> While some may prefer trading both on desktop and within a mobile app, the former option is unfortunately not available here — but the app is very well optimized for its medium, letting you take your portfolio with you anywhere.</li><li><strong>Low, transparent fees.</strong> Fees can (and do) cause headaches for anyone, but the SwissBorg app offers a transparent overview of them, with the minimums and maximums that can be charged as well, as they limit both so you don’t overpay if you’re a large volume investor.</li><li><strong>Robust KYC measures.</strong> Within the crypto sphere, this can be seen as both a pro and a con; some prefer the security that comes from regulation, which also includes relinquishing your private information, while others much prefer their privacy to any benefits they would otherwise get. SwissBorg is an app for the former type of person, as you will not be able to use it until you have completed your account verification.</li><li><strong>Very experienced team. </strong>Most of SwissBorg’s team comes from the traditional finance world, having worked within wealth management or adjacent areas before joining forces to launch this project, which gives them a thorough understanding of the space that is very well applicable to crypto as well.</li><li><strong>Premium accounts. </strong>Users who own a large amount of the app’s native CHSB token and are willing to stake it for at least a year will receive perks such as lower fees and higher yield returns on other staked assets.</li><li><strong>Transparency and accessibility. </strong>Not only is everything within the app very well explained so even complete beginners can feel secure using it, but everything that you can do has its steps laid out for you to follow the process if you want to.</li></ul><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/80061/200665/trusted-app.jpg" data-srcset="https://cimg.co/review/80061/200665/responsive-images/trusted-app___media_library_original_1890_818.jpg 1890w, https://cimg.co/review/80061/200665/responsive-images/trusted-app___media_library_original_1200_519.jpg 1200w, https://cimg.co/review/80061/200665/responsive-images/trusted-app___media_library_original_900_389.jpg 900w, https://cimg.co/review/80061/200665/responsive-images/trusted-app___media_library_original_720_311.jpg 720w, https://cimg.co/review/80061/200665/responsive-images/trusted-app___media_library_original_600_259.jpg 600w, https://cimg.co/review/80061/200665/responsive-images/trusted-app___media_library_original_300_129.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1890"/></figure><h3>SwissBorg Background and History </h3><p>SwissBorg was started back in 2017 in Lausanne, Switzerland. Its founders, Cyrus Fazel and Anthony Lesoismier, are still with the company in the positions of CEO and CSO, respectively. At launch, the company raised USD 53m in an initial coin offering (ICO). </p><p>SwissBorg has aimed to include their community in their decision-making process as much as possible, so they had two major referendums in 2018 alone. The first was meant to gauge users’ preferences between a mobile app and a responsive website, with the mobile app option taking the majority of votes and more than 4,000 users participating. The second referendum of the year asked what ICO category the platform would focus on next. All these referendums were powered by their native CHSB token as a means of voting.  </p><p>The SwissBorg team comes from a strong finance background. The company’s CEO, Cyrus Fazel, worked as Senior Hedge Fund Advisor at <strong>SEQUOIA Asset Management</strong> for two years, while Lesoismier spent five years at <strong>JD Brokers </strong>prior to starting the company. Similar with the rest of the team: Jeremy Baumann, the Chief Financial Officer, spent years at the <strong>Lombard Odier Group</strong>, most recently as equity portfolio manager; Christophe Diserens, who is now the Chief Compliance Officer of SwissBorg, was the Vice President at <strong>EFG Bank </strong>previously, where he spent almost a decade; while Alexander Petoud, the company’s Chief of Staff, spent six years at <strong>Pictet Wealth Management</strong> in various roles. Right now, the SwissBorg team is made up of people from more than 20 countries. </p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/swissborg" rel="noindex nofollow" target="_blank">Visit Swissborg</a></p><p>SwissBorg holds a Virtual Currency Service License by the Estonian regulator that handles crypto-related businesses. The company is also self-regulated in Switzerland by VQF, and in April 2022 was registered as a PSAN (digital assets service provider) by France’s AMF. The company</p><p>SwissBorg is based in Switzerland, with offices within the same country, as well as the UK, Portugal, and Estonia. The platform is available in more than 110 global countries and territories, but the extent of their availability depends on the territory in question; their <a href="https://swissborg.com/supported-countries">supported countries</a> page has a detailed list of all the areas where they offer their services and whether fiat, crypto, stablecoins, and/or local currencies are supported there. The company does not accept clients from the United States.</p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/80061/200666/chsb-token.jpg" data-srcset="https://cimg.co/review/80061/200666/responsive-images/chsb-token___media_library_original_1119_845.jpg 1119w, https://cimg.co/review/80061/200666/responsive-images/chsb-token___media_library_original_900_679.jpg 900w, https://cimg.co/review/80061/200666/responsive-images/chsb-token___media_library_original_720_543.jpg 720w, https://cimg.co/review/80061/200666/responsive-images/chsb-token___media_library_original_600_453.jpg 600w, https://cimg.co/review/80061/200666/responsive-images/chsb-token___media_library_original_300_226.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1119"/></figure><p> </p><p>Users of the platform need to go through a KYC process before they can use their services. These are separated into three levels, each of which requires specific personal information and posits different transaction limits. The first level, which requires Proof of Identity, limits deposits and withdrawals to EUR 5,000, which may be enough for low-volume traders; however, to go beyond that, you will also need to submit Proof of Residence to attain the second account level which raises your deposits to EUR 50,000 and withdrawals to EUR 1m. For the final account tier, once you’ve submitted your Proof of Funds (and once they’ve been accepted), all restrictions on deposits and withdrawals are lifted. </p><h3>SwissBorg Fees </h3><p>When it comes to crypto assets, SwissBorg does not charge any deposit fees (you will, of course, still be on the hook for the network fee when sending out the funds from your personal wallet, but this is usual with all types of wallets). The same is true for fiat currencies; while the bank or platform you’re sending the funds from may charge something, this is not the case with SwissBorg itself.  </p><p>On the other hand, the platform does charge withdrawal fees for both crypto and fiat. As a rule, withdrawals are 0.1% of the total amount, but the platform does have some minimum and maximum fees that can be charged when you’re withdrawing. For example, you will never be charged less than BTC 0.0002, but also not more than BTC BTC 0.0029 at any given time, no matter how small or big your withdrawal is. The same logic applies to all available fiat currencies, with the detailed list of the minimums and maximums available on <a href="https://swissborg.com/legal/swissborg-app-fees">their website</a>.  </p><p>Exchange fees, which are charged on pairs by using the higher of the two assets’ fees, are almost always constant: on a standard account, every crypto asset’s fee is 1%, while fiat currencies do not incur a fee at all. The SwissBorg app also offers a range of Premium tiers for app users, with the Explorer Premium account available when staking 500 CHSB tokens a year, offer a 1.25X yield boost, while the Generation Premium account offers 50% off fees and a 2X yield boost when locking 20,000 CHSB tokens per year. The middle tiers - Community Premium and Pioneer Premium - also offer yield boosts and fee discounts.</p><h3>SwissBorg Design and Usability </h3><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/80061/200667/btc-screen.jpg" data-srcset="https://cimg.co/review/80061/200667/responsive-images/btc-screen___media_library_original_1640_2360.jpg 1640w, https://cimg.co/review/80061/200667/responsive-images/btc-screen___media_library_original_1200_1726.jpg 1200w, https://cimg.co/review/80061/200667/responsive-images/btc-screen___media_library_original_900_1295.jpg 900w, https://cimg.co/review/80061/200667/responsive-images/btc-screen___media_library_original_720_1036.jpg 720w, https://cimg.co/review/80061/200667/responsive-images/btc-screen___media_library_original_600_863.jpg 600w, https://cimg.co/review/80061/200667/responsive-images/btc-screen___media_library_original_300_431.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1640"/></figure><p>Since the platform is app-only, meaning that it does not have a web browser-based platform, you will first need to download the app from the corresponding app store, depending on your device’s operating system. This may be considered a drawback by some; while mobile devices are extremely useful when it comes to trading on the go, many still prefer the wider overview they can get by using a web platform in parallel.  </p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/swissborg" rel="noindex nofollow" target="_blank">Open a free account</a></p><p>Signing up for SwissBorg is quite the process: the app has an extensive Know-Your-Customer (KYC) procedure that ensures you’re from a supported country and that your identity is fully known by them. To start with, you will need to provide your mobile phone number that will have to be confirmed through a code that they send you via SMS. You will also have to set up a four-digit PIN that will help you log in later. Then, you need to provide your legal name as it appears on your identity document, date of birth and nationality, after which you will also need to enter your residential address. Before using the app, you’ll have to choose an identity document, take a photo with it and upload it into their system, and wait to get verified by their team. Once this phase is complete, you’re free to use their app. For most users, this verification is completed automatically in less than 10 minutes.</p><p>As we’ve already covered in a previous section, this KYC level is only the first and has a EUR 5,000 limit on depositing and withdrawing. This means that, if you need to raise that limit, you will need to pass additional checks, but this is not obligatory.  </p><p>Once you’ve completed this process and reached the KYC account level that you need for your own trading and investing purposes, the actual trading and investing in the app is quite simple and straightforward. When buying tokens, you can filter them by selecting which crypto-related niche you’re interested in, like the metaverse, stablecoins, early projects, etc. This lets even beginners find their feet quickly, but also discover projects they may not have known about previously, which also helps projects find adopters and drive their reach in a more efficient manner. Under the Earn tab, you can find the projects that offer a certain yield percentage — which will be shown under its graph as the highest return that was made within the app — so you can choose one of these and potentially generate passive income, if the markets are so inclined. </p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/80061/200668/earn-yield.jpg" data-srcset="https://cimg.co/review/80061/200668/responsive-images/earn-yield___media_library_original_1640_2360.jpg 1640w, https://cimg.co/review/80061/200668/responsive-images/earn-yield___media_library_original_1200_1726.jpg 1200w, https://cimg.co/review/80061/200668/responsive-images/earn-yield___media_library_original_900_1295.jpg 900w, https://cimg.co/review/80061/200668/responsive-images/earn-yield___media_library_original_720_1036.jpg 720w, https://cimg.co/review/80061/200668/responsive-images/earn-yield___media_library_original_600_863.jpg 600w, https://cimg.co/review/80061/200668/responsive-images/earn-yield___media_library_original_300_431.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1640"/></figure><p>Performing an exchange is exceedingly simple. You simply choose the currency you want to exchange, the one you want to receive in return, and the app calculates the optimal execution price, based on the live rate obtained from different exchanges on a constant basis. The process is also very transparent: every detail of the execution will be shown to you once it is completed, which includes the path taken, the rate at every step, the date, and the service fee. To execute an order, there is a minimum and maximum amount: the minimum is 5 USD / EUR / GBP / CAD or the equivalent of it in digital assets or CHSB tokens, while the maximum is 20,000 USD / EUR / GBP / CAD or the equivalent of it in digital assets or 5,000 CHSB Tokens. </p><p>The app also shows you the profit and loss formulas in the top right corner of the Portfolio tab. The formulas themselves are also listed in their Help Center, which means you can find them <a href="https://help.swissborg.com/hc/en-gb/articles/360018706617-Profit-and-Loss-Formulas">here</a>. This can help you make the best choice when it comes to investing and trading, but also simply stay informed as SwissBorg strives to keep everything aboveground and transparent for their customers. </p><p>Finally, as we previously mentioned, for customers who want to profit off of the funds they hold, SwissBorg offers a Smart Yield option. This is available for USDC, BTC, and ETH tokens, where you can assign a portion or all of your balance to a Smart Yield wallet. You then earn a daily return on your yield balance. All yields earned are reinvested which can compound your returns over time. The funds earn a yield every 24 hours, after which they can be withdrawn, but they can also be left in the account to boost the next batch of the yield.  </p><p>The app also offers a SwissBorg Premium account. This is achieved by staking a certain amount of CHSB tokens, starting from CHSB 500 for a Explorer Premium account, that has to be locked up for a minimum of 12 months; for this, you will get a 1.25X yield multiplier. The next option is Community Premium, which is available for 2,000 CHSB offers a 1.5X yield multiplier and exchange fees will be reduced to 0.75% for all tokens. The third tier is Pioneer Premium, which is available for 7,000 CHSB, which offers a 1.75X yield multiplier and the same 0.75% fee for all exchanges. </p><p>An even more exclusive option used to be staking CHSB 20,000 for the same time period, which grants you Generation Premium access, a 2X yield multiplier and exchange fees are reduced to 0.5% for all tokens. Genesis Premium is no longer available as of February 2022, but those who had previously been at this account level continue to enjoy the benefits until they redeem their staked tokens, or until they are unlocked after the mandatory 12 months of staking. </p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/80061/200669/premium-account.jpg" data-srcset="https://cimg.co/review/80061/200669/responsive-images/premium-account___media_library_original_1640_2360.jpg 1640w, https://cimg.co/review/80061/200669/responsive-images/premium-account___media_library_original_1200_1726.jpg 1200w, https://cimg.co/review/80061/200669/responsive-images/premium-account___media_library_original_900_1295.jpg 900w, https://cimg.co/review/80061/200669/responsive-images/premium-account___media_library_original_720_1036.jpg 720w, https://cimg.co/review/80061/200669/responsive-images/premium-account___media_library_original_600_863.jpg 600w, https://cimg.co/review/80061/200669/responsive-images/premium-account___media_library_original_300_431.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1640"/></figure><h3>SwissBorg Customer Support</h3><p> </p><p>Both the SwissBorg app and the website have a Help Center that aims to answer all of your questions without the need for human interference. You can either enter your question (or the relevant keywords) into the search bar, or search for a related article through the help topics just below. If your question is something that you suspect to be a common issue, be sure to take a look at their FAQ section as well, as it covers a good number of different potential problems.  </p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/swissborg" rel="noindex nofollow" target="_blank">Start Trading</a></p><p>If you can’t find what you’re looking for, you can submit a help request. You will need to provide your email address (the one that is tied to your account), a subject, a (preferably detailed) description of the issue, along with any screenshots or other attachments you deem relevant to the case. Additionally, to receive your answer as soon as possible, be sure to narrow down the subject of your enquiry in the Request type drop-down menu so it gets filtered out faster. There is also an in-app chat option that you can use to contact their support team, which will get you a reply relatively quickly. Overall, SwissBorg is praised in online user reviews for their quick turnaround time when it comes to support. </p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/80061/200670/help-center.jpg" data-srcset="https://cimg.co/review/80061/200670/responsive-images/help-center___media_library_original_1330_850.jpg 1330w, https://cimg.co/review/80061/200670/responsive-images/help-center___media_library_original_1200_766.jpg 1200w, https://cimg.co/review/80061/200670/responsive-images/help-center___media_library_original_900_575.jpg 900w, https://cimg.co/review/80061/200670/responsive-images/help-center___media_library_original_720_460.jpg 720w, https://cimg.co/review/80061/200670/responsive-images/help-center___media_library_original_600_383.jpg 600w, https://cimg.co/review/80061/200670/responsive-images/help-center___media_library_original_300_191.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1330"/></figure><h3>SwissBorg Security </h3><p>To keep clients’ funds secure, SwissBorg implements a segregated custody approach: all your funds will be kept separate from the company’s, so that even in the event of a bankruptcy, your holdings will not be affected. However, they do not mention any sort of cold storage where users’ funds would be kept, so it is safe to assume that everything you send to your SwissBorg account will be kept in their online wallets, which does affect security up to a point. </p><p>The platform has never been hacked, and it has a safety net in place, but only for premium users, in the event that this does happen. However, they are also not insured by a third-party entity, which means that they may not be able to refund other users in the case of a malicious attack.  </p><p>SwissBorg takes a unique approach to depositing in order to make the process more secure. Whenever you want to send funds to your SwissBorg account, you can create a new wallet address for security; however, in case it is easier for you to keep a single address memorized in your private wallet, it will still be available. In other words, all the different wallet addresses that you generate through the app are connected to your account, which means you can choose whether you want to use a different one each time you’re making a deposit, stick to a single one, or any path in between.  </p><p>The exchange has not been evaluated by any third party blockchain security companies. </p><h3>SwissBorg Deposit and Withdrawal Methods </h3><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/80061/200671/deposit-crypto.jpg" data-srcset="https://cimg.co/review/80061/200671/responsive-images/deposit-crypto___media_library_original_1640_2360.jpg 1640w, https://cimg.co/review/80061/200671/responsive-images/deposit-crypto___media_library_original_1200_1726.jpg 1200w, https://cimg.co/review/80061/200671/responsive-images/deposit-crypto___media_library_original_900_1295.jpg 900w, https://cimg.co/review/80061/200671/responsive-images/deposit-crypto___media_library_original_720_1036.jpg 720w, https://cimg.co/review/80061/200671/responsive-images/deposit-crypto___media_library_original_600_863.jpg 600w, https://cimg.co/review/80061/200671/responsive-images/deposit-crypto___media_library_original_300_431.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1640"/></figure><p>Depositing your funds at SwissBorg will depend on whether you’re going for fiat or for crypto. If you want to fill up your account with fiat, you will have to make a direct bank transfer to the app. The platform’s help center offers a detailed explanation on how to make the deposit, how to hold more than one fiat currency in your portfolio (since you’re usually stuck with the one that your bank account uses), and what to pay attention to. You will only be able to deposit funds from bank accounts that match your SwissBorg data; if the bank account you’re depositing from is in someone else’s name, the deposit will be declined and the platform will charge you a withdrawal fee for the attempt. Even if you have a joint account with someone else, your name must be on it before you can use it to deposit funds. </p><p>Crypto deposits are similar, if not even simpler. The help center will guide you through the process step by step; all you need to do is choose the crypto asset you want to deposit and copy-paste your SwissBorg address into your personal wallet when sending. The processing time depends on the network itself. Finally, as we’ve previously stated, the app does not charge any deposit fees for either fiat or crypto. </p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/80061/200672/deposit-btc.jpg" data-srcset="https://cimg.co/review/80061/200672/responsive-images/deposit-btc___media_library_original_1640_2360.jpg 1640w, https://cimg.co/review/80061/200672/responsive-images/deposit-btc___media_library_original_1200_1726.jpg 1200w, https://cimg.co/review/80061/200672/responsive-images/deposit-btc___media_library_original_900_1295.jpg 900w, https://cimg.co/review/80061/200672/responsive-images/deposit-btc___media_library_original_720_1036.jpg 720w, https://cimg.co/review/80061/200672/responsive-images/deposit-btc___media_library_original_600_863.jpg 600w, https://cimg.co/review/80061/200672/responsive-images/deposit-btc___media_library_original_300_431.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1640"/></figure><p>Withdrawing funds does come at a cost, and you can find out more about this in our Fees section of the review. To withdraw fiat, you will need to enter your bank account details like SWIFT and IBAN (if it’s your first time withdrawing) and the amount you’re withdrawing. You will also need to enter a PIN or passcode, or do a biometrics check, before the withdrawal can go through. Entering an invalid PIN or passcode too many times can even lock you out of your account, so be sure to remember all the relevant information before you attempt this. </p><p>The procedure for withdrawing crypto assets is almost identical, except that there are fewer fields to fill in; simply enter your address, the amount, and confirm everything using a PIN, passcode, or biometric data. There are no additional waiting times; the processing time for your withdrawal will depend on the network itself and how quickly your request can be handled.  </p><h3>SwissBorg Review: Conclusion </h3><p>SwissBorg is an excellent wealth management app with both crypto and fiat options that helps you keep track of your portfolio no matter where you are. While the fact that it is geographically restricted and only offers a mobile app may be considered downsides by some users, its robust offering, secure app, and perks for users tend to outweigh them. All in all, SwissBorg delivers on what it promises, and does it very well.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/swissborg" rel="noindex nofollow" target="_blank">Go to Swissborg</a></p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

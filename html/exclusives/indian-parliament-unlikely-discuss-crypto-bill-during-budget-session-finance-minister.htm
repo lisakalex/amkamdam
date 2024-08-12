@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<main>
+<div class="container">
+<div class="row mb-20"><div class="col-12">
+<div class="breadcrumbs mb-40">
+<a href="/">Cryptonews</a>
+<a href="/exclusives/">Exclusives</a>
+<a href="/exclusives/indian-parliament-unlikely-discuss-crypto-bill-during-budget-session-finance-minister.htm">Indian Parliament Unlikely to Discuss Crypto Bill During Budget Session - Finance Minister</a>
+</div>
+</div></div>
+<div class="row">
+<div class="col-12 col-md-3 col-lg-2 d-none d-md-block">
+<div class="d-none d-md-block mb-30 mt-60">
+<div>
+<a class="c-black" href="/editors/jaroslaw-adamowski"><b>Jaroslaw Adamowski</b></a>
+</div>
+<div>
+<a class="c-dark-grey" href="/editors/jaroslaw-adamowski">@jaroslaw-adamowski</a>
+</div>
+<div class="text-left mt-5">
+</div>
+</div>
+</div>
+<div class="col-12 col-md-9 col-lg-6 mb-40">
+<div class="row mb-40">
+<div class="col-6">
+<div class="fs-12">
+<span data-actualdate="03 Feb 2022" data-nextdate="04 Feb 2022" data-previousdate="02 Feb 2022" data-utctimelocale="2022-02-03 09:50:00">03 Feb 2022</span>
+                                                    · 2 min read</div>
+</div>
+<div class="col-6 text-right">
+</div>
+<div class="col-6 mt-20 d-md-none d-block">
+<div>
+<a class="c-black" href="/editors/jaroslaw-adamowski"><b>Jaroslaw Adamowski</b></a>
+</div>
+<div>
+<a class="c-dark-grey" href="/editors/jaroslaw-adamowski">@jaroslaw-adamowski</a>
+</div>
+<div class="text-left mt-5">
+</div>
+</div>
+</div>
+<div class="article-single__content">
+<h1 class="mb-40">Indian Parliament Unlikely to Discuss Crypto Bill During Budget Session - Finance Minister</h1>
+<div class="dslot text-right" did="9" style="min-height: 90px;">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/970x90.jpg" width=""/>
+</div>
+<figure class="image"><img alt="" class="content-img" src="https://v2.cimg.co/news/70417/62525/7120cc6db2.jpg" srcset="" width=""/><figcaption>Source: iStock/omersukrugoksu</figcaption></figure><p> </p><p>The <a href="/news/india-still-debates-crypto-regulation-finance-secretary.htm" rel="noopener noreferrer" target="_blank">vivid debate</a> surrounding India’s forthcoming crypto legislation has taken another turn as the country’s Finance Minister Nirmala Sitharaman announced that the bill is unlikely to be discussed during the parliament’s ongoing budget 2022 session that is to end on April 8. </p><p>Sitharaman confirmed earlier plans to impose a new 30% tax on gains from crypto transfers, but said the bill’s provisions are currently undergoing consultations with various stakeholders.</p><p>“The government of India observed a robust rise in the transactions of private crypto assets, which generated a certain gain and thus decided to tax the profits,” she was <a href="https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-bill-unlikely-this-budget-session-hints-finance-minister/articleshow/89317423.cms" rel="noopener noreferrer" target="_blank">quoted</a> as saying by The Economic Times.</p><p>Once the consultations are completed, the Indian cabinet will present the draft bill and the timeline for its potential adoption by the country’s parliament, according to the minister.</p><p>Sitharaman has also commented on the government’s plans to introduce a 1% tax deducted at source (TDS) rate which would allow the authorities to collect a levy at the source from where an individual's income is created for crypto transfers that pass a threshold that is to be determined. </p><div class="dslot row mb-20" did="5">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/970x250.jpg" width=""/>
+</div><p>“The government will also track the money trail in crypto deals and every transaction will have 1% TDS imposed, taxing every transaction in the crypto world,“ she said.</p><p>Meanwhile, India’s Prime Minister Narendra Modi presented his stance on the planned central bank digital currency (), the digital rupee, that is expected to be rolled out by the <strong>Reserve Bank of India </strong>(RBI), the country’s central bank, in the years 2022 to 2023.<br/><br/>“The RBI-backed CBDC will be controlled and monitored by the central bank and it will be a digital avatar of India's fiat currency. The digital payments and online transfer of funds will be more safe, secure and risk-free,” the prime minister was quoted as saying.</p><p>At the same time, Indian Finance Secretary T. V. Somanathan <a href="https://aninews.in/news/business/business/cryptos-like-bitcoin-and-ethereum-will-never-become-a-legal-tender-finance-secretary20220202173808/" rel="noopener noreferrer" target="_blank">told</a> local news agency ANI that the digital rupee would remain the country's only digital legal tender.</p><p>Other digital currencies and cryptos “will never become legal tender. <a href="http://www.cryptonews.com/coins/bitcoin" rel="noopener noreferrer" target="_blank">Bitcoin</a>, <a href="http://www.cryptonews.com/coins/ethereum" rel="noopener noreferrer" target="_blank">ethereum</a>, or any picture of [an] actor [turned into an]  will never become a legal tender,” he said.<br/>____<br/><strong>Learn more:</strong> <br/>- <a href="/news/russian-finance-ministry-says-crypto-regulation-compromise-coming-within-month.htm" rel="noopener noreferrer" target="_blank">Russian Finance Ministry Says Crypto Regulation Compromise Coming ‘Within a Month’</a><br/>- <a href="/exclusives/2022-crypto-regulation-trends-focus-on-defi-stablecoins-nfts-and-more.htm" rel="noopener noreferrer" target="_blank">2022 Crypto Regulation Trends: Focus on DeFi, Stablecoins, NFTs, and More</a><br/><br/>- <a href="/news/another-case-for-bitcoin-as-lebanon-reportedly-targets-depositors-fiat.htm" rel="noopener noreferrer" target="_blank">Another Case for Bitcoin as Lebanon Reportedly Targets Depositors’ Fiat</a><br/><br/>- <a href="/news/hard-regulate-crypto-without-global-consensus-admits-top-imf-official.htm" rel="noopener noreferrer" target="_blank">Hard to Regulate Crypto Without Global Consensus, Admits Top IMF Official</a><br/>- <a href="/news/ex-fincen-officials-urge-calm-after-us-treasurys-unhosted-wallet-regulation-proposal-returns.htm" rel="noopener noreferrer" target="_blank">Ex-FinCEN Officials Urge Calm After US Treasury’s 'Unhosted Wallet' Regulation Proposal Returns</a></p>
+<div class="mb-15 text-right">
+</div>
+<div class="dslot" did="12">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/970x90.jpg" width=""/>
+</div>
+</div>
+<hr/>
+<div class="align-self-end mt-5">
+<div class="article-tag-box text-lg-right">
+</div>
+</div>
+</div>
+<div class="col-12 offset-lg-1 col-lg-3">
+<div class="dslot d-none d-lg-block mb-40" did="6" style="min-height:600px;">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/300x600.jpg" width=""/>
+</div>
+<h3 class="mb-20">Recommended</h3>
+<div class="mb-40 col-lg-60">
+<div class="row" id="load_more_target">
+<div class="col-6 col-md-4 col-lg-12"><article class="mb-30">
+<div class="row">
+<div class="col-4 col-sm-12">
+<a class="article__image article__image--sm-wider mb-15" href="/exclusives/metaverse-trends-2022-prepare-for-more-gaming-new-virtual-experiences-with-nfts.htm">
+<div class="img-sized"><img alt="Metaverse Trends in 2022: Prepare for More Gaming and New Virtual Experiences with NFTs" class="lazyload img-fluid" data-sizes="auto" data-src="https://v2.cimg.co/news/68994/57044/responsive-images/webp-net-resizeimage___media_library_original_600_399.jpg" src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgMTIwOCA4MDUiPgoJPGltYWdlIHdpZHRoPSIxMjA4IiBoZWlnaHQ9IjgwNSIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9qcGVnO2Jhc2U2NCwvOWovNEFBUVNrWkpSZ0FCQVFBQUFRQUJBQUQvMndCREFBTUNBZ01DQWdNREF3TUVBd01FQlFnRkJRUUVCUW9IQndZSURBb01EQXNLQ3dzTkRoSVFEUTRSRGdzTEVCWVFFUk1VRlJVVkRBOFhHQllVR0JJVUZSVC8yd0JEQVFNRUJBVUVCUWtGQlFrVURRc05GQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJUL3dBQVJDQUFWQUNBREFSRUFBaEVCQXhFQi84UUFId0FBQVFVQkFRRUJBUUVBQUFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSQUFBZ0VEQXdJRUF3VUZCQVFBQUFGOUFRSURBQVFSQlJJaE1VRUdFMUZoQnlKeEZES0JrYUVJSTBLeHdSVlMwZkFrTTJKeWdna0tGaGNZR1JvbEppY29LU28wTlRZM09EazZRMFJGUmtkSVNVcFRWRlZXVjFoWldtTmtaV1puYUdscWMzUjFkbmQ0ZVhxRGhJV0doNGlKaXBLVGxKV1dsNWlabXFLanBLV21wNmlwcXJLenRMVzJ0N2k1dXNMRHhNWEd4OGpKeXRMVDFOWFcxOWpaMnVIaTQrVGw1dWZvNmVyeDh2UDA5ZmIzK1BuNi84UUFId0VBQXdFQkFRRUJBUUVCQVFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSRUFBZ0VDQkFRREJBY0ZCQVFBQVFKM0FBRUNBeEVFQlNFeEJoSkJVUWRoY1JNaU1vRUlGRUtSb2JIQkNTTXpVdkFWWW5MUkNoWWtOT0VsOFJjWUdSb21KeWdwS2pVMk56ZzVPa05FUlVaSFNFbEtVMVJWVmxkWVdWcGpaR1ZtWjJocGFuTjBkWFozZUhsNmdvT0VoWWFIaUltS2twT1VsWmFYbUptYW9xT2twYWFucUttcXNyTzB0YmEzdUxtNndzUEV4Y2JIeU1uSzB0UFUxZGJYMk5uYTR1UGs1ZWJuNk9ucTh2UDA5ZmIzK1BuNi85b0FEQU1CQUFJUkF4RUFQd0RHK0cvZzJ6MVBXRWtVRGFHelhMbk9La290Uko1ZGRENjU4TVc5dHBtbnh3cVFNQ3Z5MnRoNmxadHM2NHh1THI4VUYzYk9qa1lJNzFoU3dkU25PNE9COG8vRjN3YkFOUll4WUFKcjlVeWZFU1NVWkhKVXAzS1h3dzFDVFNKRjNtdlh4T0VqaU5TNlU0eVBab1BpQjlud1RKK3RlVi9acVQyTitkUllYM3hBKzJKaFpQMW9lWHg3Q2RXSjVMOFFOVG12aVNoeWE3OE5oNDBuYzVhbGFKamFPeEVZSTROZHFrMUt4NGRPckpTc2phWm5kT1dOS3BOb3VyWG1tUnBJOFlPSE5aS1R1WWUybGN6NVpXdUppcm5JcTZxdEc2TktyZkxjLzlrPSI+Cgk8L2ltYWdlPgo8L3N2Zz4="/></div>
+</a>
+</div>
+<div class="col-8 col-sm-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/exclusives/features/"> Features </a> <div class="article__badge-date" data-utctime="2022-01-16 12:00:00">Jan Sun, 2022</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/exclusives/metaverse-trends-2022-prepare-for-more-gaming-new-virtual-experiences-with-nfts.htm">
+<h4>Metaverse Trends in 2022: Prepare for More Gaming and New Virtual Experiences with NFTs</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-6 col-md-4 col-lg-12"><article class="mb-30">
+<div class="row">
+<div class="col-4 col-sm-12">
+<a class="article__image article__image--sm-wider mb-15" href="/exclusives/heres-how-ukraine-crisis-might-impact-bitcoin-crypto-market.htm">
+<div class="img-sized"><img alt="Here’s How the Ukraine Crisis Might Impact Bitcoin and the Crypto Market" class="lazyload img-fluid" data-sizes="auto" data-src="https://v2.cimg.co/news/69925/60550/responsive-images/snapshot___media_library_original_600_399.jpg" src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgMTA3OSA3MTkiPgoJPGltYWdlIHdpZHRoPSIxMDc5IiBoZWlnaHQ9IjcxOSIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9qcGVnO2Jhc2U2NCwvOWovNEFBUVNrWkpSZ0FCQVFBQUFRQUJBQUQvMndCREFBTUNBZ01DQWdNREF3TUVBd01FQlFnRkJRUUVCUW9IQndZSURBb01EQXNLQ3dzTkRoSVFEUTRSRGdzTEVCWVFFUk1VRlJVVkRBOFhHQllVR0JJVUZSVC8yd0JEQVFNRUJBVUVCUWtGQlFrVURRc05GQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJUL3dBQVJDQUFWQUNBREFSRUFBaEVCQXhFQi84UUFId0FBQVFVQkFRRUJBUUVBQUFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSQUFBZ0VEQXdJRUF3VUZCQVFBQUFGOUFRSURBQVFSQlJJaE1VRUdFMUZoQnlKeEZES0JrYUVJSTBLeHdSVlMwZkFrTTJKeWdna0tGaGNZR1JvbEppY29LU28wTlRZM09EazZRMFJGUmtkSVNVcFRWRlZXVjFoWldtTmtaV1puYUdscWMzUjFkbmQ0ZVhxRGhJV0doNGlKaXBLVGxKV1dsNWlabXFLanBLV21wNmlwcXJLenRMVzJ0N2k1dXNMRHhNWEd4OGpKeXRMVDFOWFcxOWpaMnVIaTQrVGw1dWZvNmVyeDh2UDA5ZmIzK1BuNi84UUFId0VBQXdFQkFRRUJBUUVCQVFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSRUFBZ0VDQkFRREJBY0ZCQVFBQVFKM0FBRUNBeEVFQlNFeEJoSkJVUWRoY1JNaU1vRUlGRUtSb2JIQkNTTXpVdkFWWW5MUkNoWWtOT0VsOFJjWUdSb21KeWdwS2pVMk56ZzVPa05FUlVaSFNFbEtVMVJWVmxkWVdWcGpaR1ZtWjJocGFuTjBkWFozZUhsNmdvT0VoWWFIaUltS2twT1VsWmFYbUptYW9xT2twYWFucUttcXNyTzB0YmEzdUxtNndzUEV4Y2JIeU1uSzB0UFUxZGJYMk5uYTR1UGs1ZWJuNk9ucTh2UDA5ZmIzK1BuNi85b0FEQU1CQUFJUkF4RUFQd0Q0OS9aNzhSTjRkMXEzbjNiY01EV2R3YVAwVDhMZnRORzMwNjNnRTNJVURyVU5nanlyOXBYNHBmOEFDVTZMSVBNM1pVOTZVWmpjVDg4UEU0TDZoSzNxeHJXOXlMSFUrRHQ5cUJJdkdLNVp6c2RjWVhPNzBYNGhUdzZySEF6bkdjZGFtK2dsR3pzZDk0dEUyczZJSkZKWUZhNUZWdEt4MnVqN3QwZk9maWZTSGhta0pIT2E5Q003bm55alpuUytISVZXd0xEcml1T2U1MlEySzBNWUdxcS9mZFd5K0V4bDhSOUJlRjBGNzRlMnlESTIxNWsxYVI2a0hlSjR2OFI3S09HNGwyakhOZDFONkhuVkZxZi8yUT09Ij4KCTwvaW1hZ2U+Cjwvc3ZnPg=="/></div>
+</a>
+</div>
+<div class="col-8 col-sm-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/exclusives/features/"> Features </a> <div class="article__badge-date" data-utctime="2022-01-27 14:11:00">Jan Thu, 2022</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/exclusives/heres-how-ukraine-crisis-might-impact-bitcoin-crypto-market.htm">
+<h4>Here’s How the Ukraine Crisis Might Impact Bitcoin and the Crypto Market</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-6 col-md-4 col-lg-12"><article class="mb-30">
+<div class="row">
+<div class="col-4 col-sm-12">
+<a class="article__image article__image--sm-wider mb-15" href="/exclusives/how-music-nfts-could-disrupt-music-industry.htm">
+<div class="img-sized"><img alt="How Music NFTs Could Disrupt the Music Industry" class="lazyload img-fluid" data-sizes="auto" data-src="https://v2.cimg.co/news/68946/57000/responsive-images/adobestock-gorodenkoff-1-1___media_library_original_600_368.jpg" src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgMTIwMCA3MzciPgoJPGltYWdlIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjczNyIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9qcGVnO2Jhc2U2NCwvOWovNEFBUVNrWkpSZ0FCQVFBQUFRQUJBQUQvMndCREFBTUNBZ01DQWdNREF3TUVBd01FQlFnRkJRUUVCUW9IQndZSURBb01EQXNLQ3dzTkRoSVFEUTRSRGdzTEVCWVFFUk1VRlJVVkRBOFhHQllVR0JJVUZSVC8yd0JEQVFNRUJBVUVCUWtGQlFrVURRc05GQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJUL3dBQVJDQUFUQUI0REFSRUFBaEVCQXhFQi84UUFId0FBQVFVQkFRRUJBUUVBQUFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSQUFBZ0VEQXdJRUF3VUZCQVFBQUFGOUFRSURBQVFSQlJJaE1VRUdFMUZoQnlKeEZES0JrYUVJSTBLeHdSVlMwZkFrTTJKeWdna0tGaGNZR1JvbEppY29LU28wTlRZM09EazZRMFJGUmtkSVNVcFRWRlZXVjFoWldtTmtaV1puYUdscWMzUjFkbmQ0ZVhxRGhJV0doNGlKaXBLVGxKV1dsNWlabXFLanBLV21wNmlwcXJLenRMVzJ0N2k1dXNMRHhNWEd4OGpKeXRMVDFOWFcxOWpaMnVIaTQrVGw1dWZvNmVyeDh2UDA5ZmIzK1BuNi84UUFId0VBQXdFQkFRRUJBUUVCQVFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSRUFBZ0VDQkFRREJBY0ZCQVFBQVFKM0FBRUNBeEVFQlNFeEJoSkJVUWRoY1JNaU1vRUlGRUtSb2JIQkNTTXpVdkFWWW5MUkNoWWtOT0VsOFJjWUdSb21KeWdwS2pVMk56ZzVPa05FUlVaSFNFbEtVMVJWVmxkWVdWcGpaR1ZtWjJocGFuTjBkWFozZUhsNmdvT0VoWWFIaUltS2twT1VsWmFYbUptYW9xT2twYWFucUttcXNyTzB0YmEzdUxtNndzUEV4Y2JIeU1uSzB0UFUxZGJYMk5uYTR1UGs1ZWJuNk9ucTh2UDA5ZmIzK1BuNi85b0FEQU1CQUFJUkF4RUFQd0R3N3hFOXZkTHRUQnI3bUZWSldQelhFMFpTazVIRStJZEVqVzJEZ0NzYXNrWllaVFVqa3JqUzFXSGNveWFxbTBqV1U1dWRtWjkxOHFLQ3A0cnFjazBkTUUwZWcydmlPM2xVRjVBVDlhK1Mrc1N1ZlZQQ1Jhc1lQaTd4aWl3ZVhHd05XNjdrWnd3VUlhbVg0WDhRMjkwMnk0SXg3MXZDdTlqa3E0Tlh1amExR0xUcFdCUmx4V3l4RmlWaGp6T0M4bUE0a2F2SnNqNkM1VTFHWjMrOHhOREVWYlNaNDMrVmlQcFZ4TXBHbUw2ZkgrdGFxWk5qLzlrPSI+Cgk8L2ltYWdlPgo8L3N2Zz4="/></div>
+</a>
+</div>
+<div class="col-8 col-sm-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/exclusives/features/"> Features </a> <div class="article__badge-date" data-utctime="2022-01-15 02:00:00">Jan Sat, 2022</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/exclusives/how-music-nfts-could-disrupt-music-industry.htm">
+<h4>How Music NFTs Could Disrupt the Music Industry</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+<div class="dslot mb-40 d-none d-lg-block" did="7">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/300x250-mobile.jpg" width=""/>
+</div>
+<div class="dslot d-lg-none" did="8">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/468x60.png" width=""/>
+</div>
+<div class="d-none d-lg-block">
+<h3 class="mb-20">Latest news</h3>
+<div class="mb-30">
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4">
+<a class="article__image article__image--sm-wider" href="/exclusives/indian-parliament-unlikely-discuss-crypto-bill-during-budget-session-finance-minister.htm">
+<div class="small-image-list"><img alt="Indian Parliament Unlikely to Discuss Crypto Bill During Budget Session - Finance Minister" class="lazyload" data-sizes="auto" data-src="https://v2.cimg.co/news/70417/62525/7120cc6db2.jpg"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/exclusives/features/"> Features </a> <div class="article__badge-date" data-utctime="2022-02-03 09:50:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/exclusives/indian-parliament-unlikely-discuss-crypto-bill-during-budget-session-finance-minister.htm">
+                Indian Parliament Unlikely to Discuss Crypto Bill During Budget Session - Finance Minister
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4">
+<a class="article__image article__image--sm-wider" href="/news/reports-that-irs-wont-tax-staking-rewards-create-legal-confusion-us-uk-taxman-updates-its-own-guidance.htm">
+<div class="small-image-list"><img alt="Reports That IRS Won’t Tax Staking Rewards Create Legal Confusion in US; UK Taxman Updates Its Own Guidance" class="lazyload" data-sizes="auto" data-src="https://v2.cimg.co/news/70407/62352/responsive-images/adobestock-aevan-1-1___media_library_original_300_200.jpg" src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgMTIwMCA4MDAiPgoJPGltYWdlIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjgwMCIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9qcGVnO2Jhc2U2NCwvOWovNEFBUVNrWkpSZ0FCQVFBQUFRQUJBQUQvMndCREFBTUNBZ01DQWdNREF3TUVBd01FQlFnRkJRUUVCUW9IQndZSURBb01EQXNLQ3dzTkRoSVFEUTRSRGdzTEVCWVFFUk1VRlJVVkRBOFhHQllVR0JJVUZSVC8yd0JEQVFNRUJBVUVCUWtGQlFrVURRc05GQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJUL3dBQVJDQUFWQUNBREFSRUFBaEVCQXhFQi84UUFId0FBQVFVQkFRRUJBUUVBQUFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSQUFBZ0VEQXdJRUF3VUZCQVFBQUFGOUFRSURBQVFSQlJJaE1VRUdFMUZoQnlKeEZES0JrYUVJSTBLeHdSVlMwZkFrTTJKeWdna0tGaGNZR1JvbEppY29LU28wTlRZM09EazZRMFJGUmtkSVNVcFRWRlZXVjFoWldtTmtaV1puYUdscWMzUjFkbmQ0ZVhxRGhJV0doNGlKaXBLVGxKV1dsNWlabXFLanBLV21wNmlwcXJLenRMVzJ0N2k1dXNMRHhNWEd4OGpKeXRMVDFOWFcxOWpaMnVIaTQrVGw1dWZvNmVyeDh2UDA5ZmIzK1BuNi84UUFId0VBQXdFQkFRRUJBUUVCQVFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSRUFBZ0VDQkFRREJBY0ZCQVFBQVFKM0FBRUNBeEVFQlNFeEJoSkJVUWRoY1JNaU1vRUlGRUtSb2JIQkNTTXpVdkFWWW5MUkNoWWtOT0VsOFJjWUdSb21KeWdwS2pVMk56ZzVPa05FUlVaSFNFbEtVMVJWVmxkWVdWcGpaR1ZtWjJocGFuTjBkWFozZUhsNmdvT0VoWWFIaUltS2twT1VsWmFYbUptYW9xT2twYWFucUttcXNyTzB0YmEzdUxtNndzUEV4Y2JIeU1uSzB0UFUxZGJYMk5uYTR1UGs1ZWJuNk9ucTh2UDA5ZmIzK1BuNi85b0FEQU1CQUFJUkF4RUFQd0QwRHdINFAreXhyaE1ENlY4TE5uMHlQUUJvdTFlbGN6TFJVdTlHRWlFWXBEUE4vR1BoVlhESGJXOEpXSmF1ZWhSZUpMTFJMY1pLaXRIQzVDWk5iZkVIVDdyanpGSDQxenVEUmFhTmFIV0xLN2o0a1huM3BXYUdjcjRwTnZJcllZR3JpbUZ6eGZ4eHIxekZwcFpXNSt0ZW5HS1p4dG5DYU40cHZTU2ZNUDUwNVFRNHliT2x0dkhPcFFZQ3lIODZ5Y0VYek0xYlh4amYzd3hJMmZ4cWVSSU9acy8vMlE9PSI+Cgk8L2ltYWdlPgo8L3N2Zz4="/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/altcoin-news/"> Altcoin News </a> <div class="article__badge-date" data-utctime="2022-02-03 09:13:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/reports-that-irs-wont-tax-staking-rewards-create-legal-confusion-us-uk-taxman-updates-its-own-guidance.htm">
+                Reports That IRS Won’t Tax Staking Rewards Create Legal Confusion in US; UK Taxman Updates Its Own Guidance
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4">
+<a class="article__image article__image--sm-wider" href="/news/4th-largest-crypto-theft-shows-defi-weakness-as-hacker-nets-usd-325m-solanas-wormhole.htm">
+<div class="small-image-list"><img alt="The 4th Largest Crypto Theft Shows DeFi Weakness as Hacker Nets USD 325M in a Wormhole" class="lazyload" data-sizes="auto" data-src="https://v2.cimg.co/news/70404/62349/responsive-images/as___media_library_original_300_199.jpg" src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgMTE4NiA3OTAiPgoJPGltYWdlIHdpZHRoPSIxMTg2IiBoZWlnaHQ9Ijc5MCIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9qcGVnO2Jhc2U2NCwvOWovNEFBUVNrWkpSZ0FCQVFBQUFRQUJBQUQvMndCREFBTUNBZ01DQWdNREF3TUVBd01FQlFnRkJRUUVCUW9IQndZSURBb01EQXNLQ3dzTkRoSVFEUTRSRGdzTEVCWVFFUk1VRlJVVkRBOFhHQllVR0JJVUZSVC8yd0JEQVFNRUJBVUVCUWtGQlFrVURRc05GQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJUL3dBQVJDQUFWQUNBREFSRUFBaEVCQXhFQi84UUFId0FBQVFVQkFRRUJBUUVBQUFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSQUFBZ0VEQXdJRUF3VUZCQVFBQUFGOUFRSURBQVFSQlJJaE1VRUdFMUZoQnlKeEZES0JrYUVJSTBLeHdSVlMwZkFrTTJKeWdna0tGaGNZR1JvbEppY29LU28wTlRZM09EazZRMFJGUmtkSVNVcFRWRlZXVjFoWldtTmtaV1puYUdscWMzUjFkbmQ0ZVhxRGhJV0doNGlKaXBLVGxKV1dsNWlabXFLanBLV21wNmlwcXJLenRMVzJ0N2k1dXNMRHhNWEd4OGpKeXRMVDFOWFcxOWpaMnVIaTQrVGw1dWZvNmVyeDh2UDA5ZmIzK1BuNi84UUFId0VBQXdFQkFRRUJBUUVCQVFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSRUFBZ0VDQkFRREJBY0ZCQVFBQVFKM0FBRUNBeEVFQlNFeEJoSkJVUWRoY1JNaU1vRUlGRUtSb2JIQkNTTXpVdkFWWW5MUkNoWWtOT0VsOFJjWUdSb21KeWdwS2pVMk56ZzVPa05FUlVaSFNFbEtVMVJWVmxkWVdWcGpaR1ZtWjJocGFuTjBkWFozZUhsNmdvT0VoWWFIaUltS2twT1VsWmFYbUptYW9xT2twYWFucUttcXNyTzB0YmEzdUxtNndzUEV4Y2JIeU1uSzB0UFUxZGJYMk5uYTR1UGs1ZWJuNk9ucTh2UDA5ZmIzK1BuNi85b0FEQU1CQUFJUkF4RUFQd0Q3VnZmaVZKcFdzdWpOOG9iSFd1dFU3bzg1MXJPeDZCNFkrSTF0cWlxclNBTjdtdWVVZVU3S2MrYzdlM3U0N2hRVllHb05TZWdENDM4ZEkvOEFiTXhBUDNqWHBRMlBCcWZFWWRuNGp2TkhuQlJtQXpXRlhVN3NPMmtlcytEdml4TXFJc3hQNDFIczlEU1ZhelBVOUorSWR2ZUJSdUc0MW00TkdxcUpuQ2VJUEJ0bGMzenUrY2s1NlZvcHRHTXFhYk9PMWZ3Wll4eWpHZXZwV1U1dTUyVXFVYkdycFBndXk4Z01DUWZwV2tadXh6MUtVYm5TNkw0YmdndUZLdTNCb2NtUW9JLy8yUT09Ij4KCTwvaW1hZ2U+Cjwvc3ZnPg=="/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/ethereum-news/"> Ethereum News </a> <div class="article__badge-date" data-utctime="2022-02-03 05:42:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/4th-largest-crypto-theft-shows-defi-weakness-as-hacker-nets-usd-325m-solanas-wormhole.htm">
+                The 4th Largest Crypto Theft Shows DeFi Weakness as Hacker Nets USD 325M in a Wormhole
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4">
+<a class="article__image article__image--sm-wider" href="/news/bitcoin-ethereum-trim-gains-altcoins-drop-even-more.htm">
+<div class="small-image-list"><img alt="Bitcoin and Ethereum Trim Gains, Altcoins Drop Even More" class="lazyload" data-sizes="auto" data-src="https://v2.cimg.co/news/70403/62346/responsive-images/7___media_library_original_300_200.jpg" src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgMTI4MCA4NTQiPgoJPGltYWdlIHdpZHRoPSIxMjgwIiBoZWlnaHQ9Ijg1NCIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9qcGVnO2Jhc2U2NCwvOWovNEFBUVNrWkpSZ0FCQVFBQUFRQUJBQUQvMndCREFBTUNBZ01DQWdNREF3TUVBd01FQlFnRkJRUUVCUW9IQndZSURBb01EQXNLQ3dzTkRoSVFEUTRSRGdzTEVCWVFFUk1VRlJVVkRBOFhHQllVR0JJVUZSVC8yd0JEQVFNRUJBVUVCUWtGQlFrVURRc05GQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJUL3dBQVJDQUFWQUNBREFSRUFBaEVCQXhFQi84UUFId0FBQVFVQkFRRUJBUUVBQUFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSQUFBZ0VEQXdJRUF3VUZCQVFBQUFGOUFRSURBQVFSQlJJaE1VRUdFMUZoQnlKeEZES0JrYUVJSTBLeHdSVlMwZkFrTTJKeWdna0tGaGNZR1JvbEppY29LU28wTlRZM09EazZRMFJGUmtkSVNVcFRWRlZXVjFoWldtTmtaV1puYUdscWMzUjFkbmQ0ZVhxRGhJV0doNGlKaXBLVGxKV1dsNWlabXFLanBLV21wNmlwcXJLenRMVzJ0N2k1dXNMRHhNWEd4OGpKeXRMVDFOWFcxOWpaMnVIaTQrVGw1dWZvNmVyeDh2UDA5ZmIzK1BuNi84UUFId0VBQXdFQkFRRUJBUUVCQVFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSRUFBZ0VDQkFRREJBY0ZCQVFBQVFKM0FBRUNBeEVFQlNFeEJoSkJVUWRoY1JNaU1vRUlGRUtSb2JIQkNTTXpVdkFWWW5MUkNoWWtOT0VsOFJjWUdSb21KeWdwS2pVMk56ZzVPa05FUlVaSFNFbEtVMVJWVmxkWVdWcGpaR1ZtWjJocGFuTjBkWFozZUhsNmdvT0VoWWFIaUltS2twT1VsWmFYbUptYW9xT2twYWFucUttcXNyTzB0YmEzdUxtNndzUEV4Y2JIeU1uSzB0UFUxZGJYMk5uYTR1UGs1ZWJuNk9ucTh2UDA5ZmIzK1BuNi85b0FEQU1CQUFJUkF4RUFQd0R1ejhOcGJCTjdyd0svbFg2MXp1eDRzTUVaOTVwdHZiSWNsY2l1cU5PVXRTcFlPeGpyQ3M4dXlQa24wcnJWQjlUSDZxYjluOFBicS9pRGlNNFB0V1R0RjdpK3J2c2Vqbld2N2IwbHd1QXhGZUpQRHVoVVZ6Mk1QVVVsZG5sMS93Q0ZkU3ZMcVRhRzI1cjNZWXluQkpIYnpSWkpvSGhHNnRMOURJcElCNzEzMXFuTlR1aUpKSlhQY2JDK3R0TTBwQXlnTUJYeGs1eVUzcVpRcTAxdWVGZURQRTExTGJxcHdBZmV2M1BPdUg4Tmg1TnhaeVVhYVZIbVI2VnBGeVpMZkxLTW12eFRIUVZQRXBSUExWZWFsWTJ0RDArSzZsWm5ITmZTNDJYczhFcFJQYm9UZFNGbVpQam1Wck9Ga2pPQUsvUE1QVmxWcWU4ZVppZmMyUC9aIj4KCTwvaW1hZ2U+Cjwvc3ZnPg=="/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/bitcoin-news/"> Bitcoin News </a> <div class="article__badge-date" data-utctime="2022-02-03 04:24:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/bitcoin-ethereum-trim-gains-altcoins-drop-even-more.htm">
+                Bitcoin and Ethereum Trim Gains, Altcoins Drop Even More
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4">
+<a class="article__image article__image--sm-wider" href="/news/woori-bank-accept-blockchain-based-driving-permits-as-form-of-authentication.htm">
+<div class="small-image-list"><img alt="Woori Bank to Accept Blockchain-based Driving Permits as Form of Authentication" class="lazyload" data-sizes="auto" data-src="https://v2.cimg.co/news/70374/62319/responsive-images/41456d789f___media_library_original_300_200.jpg" src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgOTAwIDYwMCI+Cgk8aW1hZ2Ugd2lkdGg9IjkwMCIgaGVpZ2h0PSI2MDAiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvanBlZztiYXNlNjQsLzlqLzRBQVFTa1pKUmdBQkFRQUFBUUFCQUFELzJ3QkRBQU1DQWdNQ0FnTURBd01FQXdNRUJRZ0ZCUVFFQlFvSEJ3WUlEQW9NREFzS0N3c05EaElRRFE0UkRnc0xFQllRRVJNVUZSVVZEQThYR0JZVUdCSVVGUlQvMndCREFRTUVCQVVFQlFrRkJRa1VEUXNORkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCVC93QUFSQ0FBVkFDQURBUkVBQWhFQkF4RUIvOFFBSHdBQUFRVUJBUUVCQVFFQUFBQUFBQUFBQUFFQ0F3UUZCZ2NJQ1FvTC84UUF0UkFBQWdFREF3SUVBd1VGQkFRQUFBRjlBUUlEQUFRUkJSSWhNVUVHRTFGaEJ5SnhGREtCa2FFSUkwS3h3UlZTMGZBa00ySnlnZ2tLRmhjWUdSb2xKaWNvS1NvME5UWTNPRGs2UTBSRlJrZElTVXBUVkZWV1YxaFpXbU5rWldabmFHbHFjM1IxZG5kNGVYcURoSVdHaDRpSmlwS1RsSldXbDVpWm1xS2pwS1dtcDZpcHFyS3p0TFcydDdpNXVzTER4TVhHeDhqSnl0TFQxTlhXMTlqWjJ1SGk0K1RsNXVmbzZlcng4dlAwOWZiMytQbjYvOFFBSHdFQUF3RUJBUUVCQVFFQkFRQUFBQUFBQUFFQ0F3UUZCZ2NJQ1FvTC84UUF0UkVBQWdFQ0JBUURCQWNGQkFRQUFRSjNBQUVDQXhFRUJTRXhCaEpCVVFkaGNSTWlNb0VJRkVLUm9iSEJDU016VXZBVlluTFJDaFlrTk9FbDhSY1lHUm9tSnlncEtqVTJOemc1T2tORVJVWkhTRWxLVTFSVlZsZFlXVnBqWkdWbVoyaHBhbk4wZFhaM2VIbDZnb09FaFlhSGlJbUtrcE9VbFphWG1KbWFvcU9rcGFhbnFLbXFzck8wdGJhM3VMbTZ3c1BFeGNiSHlNbkswdFBVMWRiWDJObmE0dVBrNWVibjZPbnE4dlAwOWZiMytQbjYvOW9BREFNQkFBSVJBeEVBUHdENGg4TjZRenpLekN2MENOVGwxUGlmWk9vN0k5aTBLSlk3ZEZQU3RIajdLeU8yamt5bDd6TDEweVFnbGFtT09aZGZKNDh1eHpXbzY2YlJ5V1BGZDhjWHBjK1NyNWR5eXNqbTlIMlFxQ3d4aXZuYXQwZlpZSndiMU9tMDdVZk1rQ3FlSzgyVGJQcjZjb3BHcmUzS0xEOTduRmEwMUs1ejRtdENNVHozeFRxVVVZYmV3RmVqejhpMVBpNnY3MmVoMCt0YUpEYXFkaEkvQ3U2clRUUjh4aE1aVVRSbVFaczdjdXB5YThwMDBqNmVHT3F2UW90cTg4dTdKcTRxd1Y2ODViczhxOGY2M2NHZGtEWUgxcnljVFZrblk5REJVNHRYWi8vWiI+Cgk8L2ltYWdlPgo8L3N2Zz4="/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/blockchain-news/"> Blockchain News </a> <div class="article__badge-date" data-utctime="2022-02-03 02:00:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/woori-bank-accept-blockchain-based-driving-permits-as-form-of-authentication.htm">
+                Woori Bank to Accept Blockchain-based Driving Permits as Form of Authentication
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4">
+<a class="article__image article__image--sm-wider" href="/exclusives/4-social-listening-apps-for-crypto-reviewed-for-2022.htm">
+<div class="small-image-list"><img alt="4 Social Listening Apps for Crypto, Reviewed for 2022" class="lazyload" data-sizes="auto" data-src="https://v2.cimg.co/news/70364/62323/responsive-images/webp-net-resizeimage___media_library_original_300_200.jpg" src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgMTIzNiA4MjQiPgoJPGltYWdlIHdpZHRoPSIxMjM2IiBoZWlnaHQ9IjgyNCIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9qcGVnO2Jhc2U2NCwvOWovNEFBUVNrWkpSZ0FCQVFBQUFRQUJBQUQvMndCREFBTUNBZ01DQWdNREF3TUVBd01FQlFnRkJRUUVCUW9IQndZSURBb01EQXNLQ3dzTkRoSVFEUTRSRGdzTEVCWVFFUk1VRlJVVkRBOFhHQllVR0JJVUZSVC8yd0JEQVFNRUJBVUVCUWtGQlFrVURRc05GQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJUL3dBQVJDQUFWQUNBREFSRUFBaEVCQXhFQi84UUFId0FBQVFVQkFRRUJBUUVBQUFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSQUFBZ0VEQXdJRUF3VUZCQVFBQUFGOUFRSURBQVFSQlJJaE1VRUdFMUZoQnlKeEZES0JrYUVJSTBLeHdSVlMwZkFrTTJKeWdna0tGaGNZR1JvbEppY29LU28wTlRZM09EazZRMFJGUmtkSVNVcFRWRlZXVjFoWldtTmtaV1puYUdscWMzUjFkbmQ0ZVhxRGhJV0doNGlKaXBLVGxKV1dsNWlabXFLanBLV21wNmlwcXJLenRMVzJ0N2k1dXNMRHhNWEd4OGpKeXRMVDFOWFcxOWpaMnVIaTQrVGw1dWZvNmVyeDh2UDA5ZmIzK1BuNi84UUFId0VBQXdFQkFRRUJBUUVCQVFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSRUFBZ0VDQkFRREJBY0ZCQVFBQVFKM0FBRUNBeEVFQlNFeEJoSkJVUWRoY1JNaU1vRUlGRUtSb2JIQkNTTXpVdkFWWW5MUkNoWWtOT0VsOFJjWUdSb21KeWdwS2pVMk56ZzVPa05FUlVaSFNFbEtVMVJWVmxkWVdWcGpaR1ZtWjJocGFuTjBkWFozZUhsNmdvT0VoWWFIaUltS2twT1VsWmFYbUptYW9xT2twYWFucUttcXNyTzB0YmEzdUxtNndzUEV4Y2JIeU1uSzB0UFUxZGJYMk5uYTR1UGs1ZWJuNk9ucTh2UDA5ZmIzK1BuNi85b0FEQU1CQUFJUkF4RUFQd0R6cjlrdndwNTFzTHNyOHdHYzE4Wm0xYTN1bjF1V1VyNm5ySHhMMUc0ZEpMVTUyNHhYeWROOHN1WStzY2VhTmo1YzFmd2k2YS85cEM5V3pYMDlQR0owK1ZuenRUQnRWT1pIMFA4QUN0djlEaWlicUJpdm1jVzd5dWo2WENxMGJITy9zbGVLN0tIVG83Y3VvWWdEclgwbWJVcE44eDh4bHRTTnJIdS9qTHdjdXRJYmlFQnNqUEZmSTgxdEQ2bUxQbmJ4dHBaMFMvS3lKam4wcnVwdHRhSFBKcTVzZUNkWkZzVlpheHFLNTFVblkrU3ZnVjQxMUhTOWZnaWhrTzBzTzlmcEdPcHhsVGR6ODJ3VlNVWnF4K25ud3UxT1hWOUVoYWY1aVVGZmw5ZGN0UnBINkhSOTZDYlBLZjJpTktnZ2tNaUtBMzBycHc3dVlWZEdlVStFNVcyL1N0cWlOYVRQLzlrPSI+Cgk8L2ltYWdlPgo8L3N2Zz4="/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/exclusives/features/"> Features </a> <div class="article__badge-date" data-utctime="2022-02-02 23:00:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/exclusives/4-social-listening-apps-for-crypto-reviewed-for-2022.htm">
+                4 Social Listening Apps for Crypto, Reviewed for 2022
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4">
+<a class="article__image article__image--sm-wider" href="/exclusives/how-use-layer-2-solutions-save-ethereum-fees-immutable-x.htm">
+<div class="small-image-list"><img alt="How to Use Layer-2 Solutions to Save on Ethereum Fees: Immutable X" class="lazyload" data-sizes="auto" data-src="https://v2.cimg.co/news/70353/62322/responsive-images/webp-net-resizeimage___media_library_original_300_168.jpg" src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgMTQ0NiA4MTMiPgoJPGltYWdlIHdpZHRoPSIxNDQ2IiBoZWlnaHQ9IjgxMyIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9qcGVnO2Jhc2U2NCwvOWovNEFBUVNrWkpSZ0FCQVFBQUFRQUJBQUQvMndCREFBTUNBZ01DQWdNREF3TUVBd01FQlFnRkJRUUVCUW9IQndZSURBb01EQXNLQ3dzTkRoSVFEUTRSRGdzTEVCWVFFUk1VRlJVVkRBOFhHQllVR0JJVUZSVC8yd0JEQVFNRUJBVUVCUWtGQlFrVURRc05GQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJUL3dBQVJDQUFSQUI0REFSRUFBaEVCQXhFQi84UUFId0FBQVFVQkFRRUJBUUVBQUFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSQUFBZ0VEQXdJRUF3VUZCQVFBQUFGOUFRSURBQVFSQlJJaE1VRUdFMUZoQnlKeEZES0JrYUVJSTBLeHdSVlMwZkFrTTJKeWdna0tGaGNZR1JvbEppY29LU28wTlRZM09EazZRMFJGUmtkSVNVcFRWRlZXVjFoWldtTmtaV1puYUdscWMzUjFkbmQ0ZVhxRGhJV0doNGlKaXBLVGxKV1dsNWlabXFLanBLV21wNmlwcXJLenRMVzJ0N2k1dXNMRHhNWEd4OGpKeXRMVDFOWFcxOWpaMnVIaTQrVGw1dWZvNmVyeDh2UDA5ZmIzK1BuNi84UUFId0VBQXdFQkFRRUJBUUVCQVFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSRUFBZ0VDQkFRREJBY0ZCQVFBQVFKM0FBRUNBeEVFQlNFeEJoSkJVUWRoY1JNaU1vRUlGRUtSb2JIQkNTTXpVdkFWWW5MUkNoWWtOT0VsOFJjWUdSb21KeWdwS2pVMk56ZzVPa05FUlVaSFNFbEtVMVJWVmxkWVdWcGpaR1ZtWjJocGFuTjBkWFozZUhsNmdvT0VoWWFIaUltS2twT1VsWmFYbUptYW9xT2twYWFucUttcXNyTzB0YmEzdUxtNndzUEV4Y2JIeU1uSzB0UFUxZGJYMk5uYTR1UGs1ZWJuNk9ucTh2UDA5ZmIzK1BuNi85b0FEQU1CQUFJUkF4RUFQd0Q1Y3Y3YnpFTmVEd3RtN3dsYUtQN1h6akFxdlRaeE9xZUUxMUM0M0VkNi9wVEUxWVpsZ3VaNzJQdytlUSsweFJmdGJGZEl0dGdHTVY0WER1UmUzeGQ3ZFQ3REUxWTVaaGVSRkM0bDN1VFg5ZlpUZ0ZocUNpZmgrWVl0MTZyWjNGN2NDTkRYK1gvRFdWVHhWZU5qK3Q4MnhrYU5OM09TdnZGRWRqUHRZanJYOU95dzhjdndOcGRqOFhsbmthZUtzVGk3VFZJTjZITmNmRFdkd280cmxaNytZVVZtT0c5cEF5NTR5am12NjJ5ekd4eE5GU1IrR1k3RFNvMUdtZGZxdityYjZWL25wd04vRWlmMHh4RjhEUEpmRm4vSDBQclg3SnhKL3U1L09tSy8zbjVuVmVFditQQmZwWDVQay84QXZpOVQ5dHlyL2NTemQvNncxL2EvRGY4QXVxUHlMT3Y0N1AvWiI+Cgk8L2ltYWdlPgo8L3N2Zz4="/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/exclusives/features/"> Features </a> <div class="article__badge-date" data-utctime="2022-02-02 20:52:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/exclusives/how-use-layer-2-solutions-save-ethereum-fees-immutable-x.htm">
+                How to Use Layer-2 Solutions to Save on Ethereum Fees: Immutable X
+            </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-12">
+<div class="lazyload" data-script="https://cdn.vuukle.com/platform.js" id="vuukle-comments"></div>
+</div>
+<div class="pt-60 pb-20 pb-md-40 pb-md-60">
+<h3 class="mb-20">Similar News</h3>
+<div class="row">
+<div class="col-12 col-sm-6 col-lg-4 col-xl-3"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-sm-12">
+<a class="article__image article__image--sm-wider mb-15" href="/exclusives/crypto-tech-trends-2022-ux-scalability-metaverse-applications-bitcoin-integrations.htm">
+<div class="img-sized"><img alt="Crypto Tech Trends in 2022: UX, Scalability, Metaverse Applications, and Bitcoin Integrations" class="lazyload img-fluid" data-sizes="auto" data-src="https://v2.cimg.co/news/70054/60963/responsive-images/adobestock-334022001___media_library_original_600_400.jpg" src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgMTE4OCA3OTIiPgoJPGltYWdlIHdpZHRoPSIxMTg4IiBoZWlnaHQ9Ijc5MiIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9qcGVnO2Jhc2U2NCwvOWovNEFBUVNrWkpSZ0FCQVFBQUFRQUJBQUQvMndCREFBTUNBZ01DQWdNREF3TUVBd01FQlFnRkJRUUVCUW9IQndZSURBb01EQXNLQ3dzTkRoSVFEUTRSRGdzTEVCWVFFUk1VRlJVVkRBOFhHQllVR0JJVUZSVC8yd0JEQVFNRUJBVUVCUWtGQlFrVURRc05GQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJUL3dBQVJDQUFWQUNBREFSRUFBaEVCQXhFQi84UUFId0FBQVFVQkFRRUJBUUVBQUFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSQUFBZ0VEQXdJRUF3VUZCQVFBQUFGOUFRSURBQVFSQlJJaE1VRUdFMUZoQnlKeEZES0JrYUVJSTBLeHdSVlMwZkFrTTJKeWdna0tGaGNZR1JvbEppY29LU28wTlRZM09EazZRMFJGUmtkSVNVcFRWRlZXVjFoWldtTmtaV1puYUdscWMzUjFkbmQ0ZVhxRGhJV0doNGlKaXBLVGxKV1dsNWlabXFLanBLV21wNmlwcXJLenRMVzJ0N2k1dXNMRHhNWEd4OGpKeXRMVDFOWFcxOWpaMnVIaTQrVGw1dWZvNmVyeDh2UDA5ZmIzK1BuNi84UUFId0VBQXdFQkFRRUJBUUVCQVFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSRUFBZ0VDQkFRREJBY0ZCQVFBQVFKM0FBRUNBeEVFQlNFeEJoSkJVUWRoY1JNaU1vRUlGRUtSb2JIQkNTTXpVdkFWWW5MUkNoWWtOT0VsOFJjWUdSb21KeWdwS2pVMk56ZzVPa05FUlVaSFNFbEtVMVJWVmxkWVdWcGpaR1ZtWjJocGFuTjBkWFozZUhsNmdvT0VoWWFIaUltS2twT1VsWmFYbUptYW9xT2twYWFucUttcXNyTzB0YmEzdUxtNndzUEV4Y2JIeU1uSzB0UFUxZGJYMk5uYTR1UGs1ZWJuNk9ucTh2UDA5ZmIzK1BuNi85b0FEQU1CQUFJUkF4RUFQd0Q2KzhZM2FpMmZKN1YvR1UxTG41VDZhZHZpUG1ueC93Q0pUYnlTb0R4elgxV0N3VGtreno1NG0vdTNQRXJyV2pjNnNDVDNyN2FsVDlqU09KZkZjOWU4SWVJdnN0cW1EMnI4N3pTUHRKTTk2bGlIR05rZlJYanFReDJzZ3oycmdwNGVmUGVSNWRTcmRXUjh0ZkVOL01rbHoxNXI3ZkFUYXRFOGlTYWxlNTVERkV6YW5uM3I2NmNMMGpLZUpVRDByUnJreFc2ajJyOC94dUhiazJkbUh4OEphSDFSNHd1SGx0NUMzUEZhWkZCWTJQTlVQUHh0YVZGZTZmTW5qOXo5cWxIdWErcXA0YUZPcFpIZ1U4YlVxT3pPQnNiWld1c25ybXZvSnhYczdHMVJ1UzFPMDAyRlNncng2bUVoUGMrWHE0eXBRbjdwLzlrPSI+Cgk8L2ltYWdlPgo8L3N2Zz4="/></div>
+</a>
+</div>
+<div class="col-8 col-sm-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/exclusives/features/"> Features </a> <div class="article__badge-date" data-utctime="2022-01-30 12:00:00">Jan Sun, 2022</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/exclusives/crypto-tech-trends-2022-ux-scalability-metaverse-applications-bitcoin-integrations.htm">
+<h4>Crypto Tech Trends in 2022: UX, Scalability, Metaverse Applications, and Bitcoin Integrations</h4>
+</a>
+</div>
+</div>
+</article>
+</div><div class="col-12 col-sm-6 col-lg-4 col-xl-3"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-sm-12">
+<a class="article__image article__image--sm-wider mb-15" href="/exclusives/2021-was-busiest-year-by-far-for-bitcoin-iras-interest-ethereum-altcoins-grows.htm">
+<div class="img-sized"><img alt="2021 Was ‘Busiest Year by Far’ for Bitcoin IRAs, Interest in Ethereum &amp; Altcoins Grows" class="lazyload img-fluid" data-sizes="auto" data-src="https://v2.cimg.co/news/69548/60832/responsive-images/adobestock-432628505___media_library_original_600_402.jpg" src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgMTE5MiA4MDAiPgoJPGltYWdlIHdpZHRoPSIxMTkyIiBoZWlnaHQ9IjgwMCIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9qcGVnO2Jhc2U2NCwvOWovNEFBUVNrWkpSZ0FCQVFBQUFRQUJBQUQvMndCREFBTUNBZ01DQWdNREF3TUVBd01FQlFnRkJRUUVCUW9IQndZSURBb01EQXNLQ3dzTkRoSVFEUTRSRGdzTEVCWVFFUk1VRlJVVkRBOFhHQllVR0JJVUZSVC8yd0JEQVFNRUJBVUVCUWtGQlFrVURRc05GQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJUL3dBQVJDQUFWQUNBREFSRUFBaEVCQXhFQi84UUFId0FBQVFVQkFRRUJBUUVBQUFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSQUFBZ0VEQXdJRUF3VUZCQVFBQUFGOUFRSURBQVFSQlJJaE1VRUdFMUZoQnlKeEZES0JrYUVJSTBLeHdSVlMwZkFrTTJKeWdna0tGaGNZR1JvbEppY29LU28wTlRZM09EazZRMFJGUmtkSVNVcFRWRlZXVjFoWldtTmtaV1puYUdscWMzUjFkbmQ0ZVhxRGhJV0doNGlKaXBLVGxKV1dsNWlabXFLanBLV21wNmlwcXJLenRMVzJ0N2k1dXNMRHhNWEd4OGpKeXRMVDFOWFcxOWpaMnVIaTQrVGw1dWZvNmVyeDh2UDA5ZmIzK1BuNi84UUFId0VBQXdFQkFRRUJBUUVCQVFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSRUFBZ0VDQkFRREJBY0ZCQVFBQVFKM0FBRUNBeEVFQlNFeEJoSkJVUWRoY1JNaU1vRUlGRUtSb2JIQkNTTXpVdkFWWW5MUkNoWWtOT0VsOFJjWUdSb21KeWdwS2pVMk56ZzVPa05FUlVaSFNFbEtVMVJWVmxkWVdWcGpaR1ZtWjJocGFuTjBkWFozZUhsNmdvT0VoWWFIaUltS2twT1VsWmFYbUptYW9xT2twYWFucUttcXNyTzB0YmEzdUxtNndzUEV4Y2JIeU1uSzB0UFUxZGJYMk5uYTR1UGs1ZWJuNk9ucTh2UDA5ZmIzK1BuNi85b0FEQU1CQUFJUkF4RUFQd0RwNGRGbVpNaERpdTVzOHhJNFR4MzRmdTBVeVJSTWZvSzhpckhsbGRIczBKS1ViTTR2UmZDTi9xMTJESkMzQjdpbENMbTdzdXBOUVZrZWdqd25OcDlxb2FNamowcjFvV1NzZU5PN2R6NnY4SGVDTGJWYkZQa0JKSHBYSk9iVE95RUUwYnQ1OEdOUHVveXNzU242aXNKUG0zTm94NWRqRy80VkhwV2tNU2tLQS9TcFV1VXB4NWpqL0hlZ1dsclpzRlJSZ2VsYndtMnpHcFRTUjdIOEpvRk9uUms4bkZPcHVLbTlEdTc1UUZOWU0zUnhPdmtydU9heVpxanhqNGdYRE9ycWVsYlV6T3Bxai8vWiI+Cgk8L2ltYWdlPgo8L3N2Zz4="/></div>
+</a>
+</div>
+<div class="col-8 col-sm-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/exclusives/features/"> Features </a> <div class="article__badge-date" data-utctime="2022-01-29 12:00:00">Jan Sat, 2022</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/exclusives/2021-was-busiest-year-by-far-for-bitcoin-iras-interest-ethereum-altcoins-grows.htm">
+<h4>2021 Was ‘Busiest Year by Far’ for Bitcoin IRAs, Interest in Ethereum &amp; Altcoins Grows</h4>
+</a>
+</div>
+</div>
+</article>
+</div><div class="col-12 col-sm-6 col-lg-4 col-xl-3"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-sm-12">
+<a class="article__image article__image--sm-wider mb-15" href="/exclusives/mcdonalds-jobs-feds-triggers-eth-changes-diem-sales-20-crypto-jokes.htm">
+<div class="img-sized"><img alt="McDonald’s Jobs, Fed’s Triggers, ETH Changes, Diem Sales and 20 Crypto Jokes" class="lazyload img-fluid" data-sizes="auto" data-src="https://v2.cimg.co/news/69995/60962/responsive-images/4-coin-bureau-instagram-media-library-original-1070-1178___media_library_original_600_400.jpg" src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgMTA2OCA3MTIiPgoJPGltYWdlIHdpZHRoPSIxMDY4IiBoZWlnaHQ9IjcxMiIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9qcGVnO2Jhc2U2NCwvOWovNEFBUVNrWkpSZ0FCQVFBQUFRQUJBQUQvMndCREFBTUNBZ01DQWdNREF3TUVBd01FQlFnRkJRUUVCUW9IQndZSURBb01EQXNLQ3dzTkRoSVFEUTRSRGdzTEVCWVFFUk1VRlJVVkRBOFhHQllVR0JJVUZSVC8yd0JEQVFNRUJBVUVCUWtGQlFrVURRc05GQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJUL3dBQVJDQUFWQUNBREFSRUFBaEVCQXhFQi84UUFId0FBQVFVQkFRRUJBUUVBQUFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSQUFBZ0VEQXdJRUF3VUZCQVFBQUFGOUFRSURBQVFSQlJJaE1VRUdFMUZoQnlKeEZES0JrYUVJSTBLeHdSVlMwZkFrTTJKeWdna0tGaGNZR1JvbEppY29LU28wTlRZM09EazZRMFJGUmtkSVNVcFRWRlZXVjFoWldtTmtaV1puYUdscWMzUjFkbmQ0ZVhxRGhJV0doNGlKaXBLVGxKV1dsNWlabXFLanBLV21wNmlwcXJLenRMVzJ0N2k1dXNMRHhNWEd4OGpKeXRMVDFOWFcxOWpaMnVIaTQrVGw1dWZvNmVyeDh2UDA5ZmIzK1BuNi84UUFId0VBQXdFQkFRRUJBUUVCQVFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSRUFBZ0VDQkFRREJBY0ZCQVFBQVFKM0FBRUNBeEVFQlNFeEJoSkJVUWRoY1JNaU1vRUlGRUtSb2JIQkNTTXpVdkFWWW5MUkNoWWtOT0VsOFJjWUdSb21KeWdwS2pVMk56ZzVPa05FUlVaSFNFbEtVMVJWVmxkWVdWcGpaR1ZtWjJocGFuTjBkWFozZUhsNmdvT0VoWWFIaUltS2twT1VsWmFYbUptYW9xT2twYWFucUttcXNyTzB0YmEzdUxtNndzUEV4Y2JIeU1uSzB0UFUxZGJYMk5uYTR1UGs1ZWJuNk9ucTh2UDA5ZmIzK1BuNi85b0FEQU1CQUFJUkF4RUFQd0Q2QStLUHhpL3NEVzVZektSaHZXdlpqaUlRalk4V2NHNWJuSU4rMGVpVzVJbDVBOWE0cFlwTm5WR21yYm5HYXgrMC9PWlNpU042ZGF4amliVE5aVTQ4dTUzSHdoK0tsNTRsMWFMTWpFRnErbFZXblVwSGczY0tscmtYeGsrSGE2eDRnbWJ6Y0VzZTlmTjhzV2p5OFhpcThLbnVubnNud0t1WklzeHNTRDZWbDdOR0t4dUlzWXpmczlYVWsrNDU2MWNhY1JQSDE3SHRId1krR0wrSGRRaDNEb1JYb0pxTWJJeXc5V3JVcVhaNWg4YnZpVHF1bStNSmtpYjVRL3JYems2c2t6N1NwUWhKM2FOcndGOFU5VHZZSTQ1VVJnZStheHE0aVVZM1JWUENVcE8xanNkWDhaWFZuRUhTTmNtc2NKaXAxWldaamk4SlNweHVrWFBoNTQvdnI3WFlZM1JRQzNZMTdrcHRIQmhhY2ViWS85az0iPgoJPC9pbWFnZT4KPC9zdmc+"/></div>
+</a>
+</div>
+<div class="col-8 col-sm-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/exclusives/features/"> Features </a> <div class="article__badge-date" data-utctime="2022-01-29 11:00:00">Jan Sat, 2022</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/exclusives/mcdonalds-jobs-feds-triggers-eth-changes-diem-sales-20-crypto-jokes.htm">
+<h4>McDonald’s Jobs, Fed’s Triggers, ETH Changes, Diem Sales and 20 Crypto Jokes</h4>
+</a>
+</div>
+</div>
+</article>
+</div><div class="col-12 col-sm-6 col-lg-4 col-xl-3"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-sm-12">
+<a class="article__image article__image--sm-wider mb-15" href="/exclusives/crypto-tax-trends-2022-increased-reporting-updated-rules-wealth-tax-debate.htm">
+<div class="img-sized"><img alt="Crypto Tax Trends in 2022: Increased Reporting, Updated Rules, and a Wealth Tax Debate" class="lazyload img-fluid" data-sizes="auto" data-src="https://v2.cimg.co/news/69545/59240/responsive-images/adobestock-474642937___media_library_original_600_400.jpg" src="data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHg9IjAiCiB5PSIwIiB2aWV3Qm94PSIwIDAgMTE5NyA3OTgiPgoJPGltYWdlIHdpZHRoPSIxMTk3IiBoZWlnaHQ9Ijc5OCIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9qcGVnO2Jhc2U2NCwvOWovNEFBUVNrWkpSZ0FCQVFBQUFRQUJBQUQvMndCREFBTUNBZ01DQWdNREF3TUVBd01FQlFnRkJRUUVCUW9IQndZSURBb01EQXNLQ3dzTkRoSVFEUTRSRGdzTEVCWVFFUk1VRlJVVkRBOFhHQllVR0JJVUZSVC8yd0JEQVFNRUJBVUVCUWtGQlFrVURRc05GQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJRVUZCUVVGQlFVRkJUL3dBQVJDQUFWQUNBREFSRUFBaEVCQXhFQi84UUFId0FBQVFVQkFRRUJBUUVBQUFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSQUFBZ0VEQXdJRUF3VUZCQVFBQUFGOUFRSURBQVFSQlJJaE1VRUdFMUZoQnlKeEZES0JrYUVJSTBLeHdSVlMwZkFrTTJKeWdna0tGaGNZR1JvbEppY29LU28wTlRZM09EazZRMFJGUmtkSVNVcFRWRlZXVjFoWldtTmtaV1puYUdscWMzUjFkbmQ0ZVhxRGhJV0doNGlKaXBLVGxKV1dsNWlabXFLanBLV21wNmlwcXJLenRMVzJ0N2k1dXNMRHhNWEd4OGpKeXRMVDFOWFcxOWpaMnVIaTQrVGw1dWZvNmVyeDh2UDA5ZmIzK1BuNi84UUFId0VBQXdFQkFRRUJBUUVCQVFBQUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSRUFBZ0VDQkFRREJBY0ZCQVFBQVFKM0FBRUNBeEVFQlNFeEJoSkJVUWRoY1JNaU1vRUlGRUtSb2JIQkNTTXpVdkFWWW5MUkNoWWtOT0VsOFJjWUdSb21KeWdwS2pVMk56ZzVPa05FUlVaSFNFbEtVMVJWVmxkWVdWcGpaR1ZtWjJocGFuTjBkWFozZUhsNmdvT0VoWWFIaUltS2twT1VsWmFYbUptYW9xT2twYWFucUttcXNyTzB0YmEzdUxtNndzUEV4Y2JIeU1uSzB0UFUxZGJYMk5uYTR1UGs1ZWJuNk9ucTh2UDA5ZmIzK1BuNi85b0FEQU1CQUFJUkF4RUFQd0RJOFJmSFRVL0ZoYUpHWVJ0V3J1em5UU09jMFRVSDByVm83eG4rZmRuclVwS080L2FPV2lQdEg0UCtNVHJ1a3hMNW1TQU85Ykpwa05NOVdqamRseVRUQ3grVGQxNG90Tk9PTGZCUHRVTmtxTGU1dGVEbHV2RnQ4aUxuazE0ZU54RXFaNmVIb0tSOWRmRERTcmp3YnA2eXlzUW9HY0d2UHcyWTNseXM2NnVFc3JuZmFmOEFHMndXNyt6enlnRUhISnI2dW5MblZ6eDVlNjdINVlhWkY5cGtRT3hPVFVJcDZIMHI4RDlLZ3RaWTVBdTV2ZXZCelNOb0hwNEorOGV0L0VEeGxlYWJwdmx3cW9YR090Zk5ZS21uVVBYeEVtb25qR3JhaGNUMmIzZ2xaSmVUd2EvUktLdEJIeWs5WkgvLzJRPT0iPgoJPC9pbWFnZT4KPC9zdmc+"/></div>
+</a>
+</div>
+<div class="col-8 col-sm-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/exclusives/features/"> Features </a> <div class="article__badge-date" data-utctime="2022-01-23 12:00:00">Jan Sun, 2022</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/exclusives/crypto-tax-trends-2022-increased-reporting-updated-rules-wealth-tax-debate.htm">
+<h4>Crypto Tax Trends in 2022: Increased Reporting, Updated Rules, and a Wealth Tax Debate</h4>
+</a>
+</div>
+</div>
+</article>
+</div> </div>
+</div>
+</div>
+</div>
+</main>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

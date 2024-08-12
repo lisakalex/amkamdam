@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/coinsmart/">CoinSmart</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="5d14d085c542d.png" class="img-fluid img-circle author__image author__image--has-bg mb-15" loading="auto" src="https://cimg.co/reviewlogo/25/5d14d085c542d.png"/>
+<div>
+<a class="c-black" href="#"><b>CoinSmart</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/coinsmart" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+<div class="fs-12"></div>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="coinsmart"> CoinSmart</h1>
+<p>Promoted under the motto of making the cryptocurrencies less cryptic, the CoinSmart exchange is all about removing the barriers between the cryptoverse and the world of users who see it as both complex and alluring at the same time. It is a Canadian, Toronto-based digital currency exchange which entered the crypto scene in July 2018. Despite its relative novelty, CoinSmart has come a long way in its quest for simpler and more accessible trading, building its reputation on the strong customer support and an array of custom tools and interfaces supporting easier entry into the world of crypto trading.</p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/coinsmart" target="_blank">CoinSmart</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://www.coinsmart.com/contact-us/" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>Toronto, Canada</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>0.0 BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>No</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>No</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>CoinSmart</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+                                                                                                                                                        Bank Transfer,
+                                                                                                                                                                                                                                        Crypto Transfer,
+                                                                                                                                            </b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>CAD</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>10</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>-</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>High (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p><p><strong>General Info</strong><br/>Web address: <a href="https://www.coinsmart.com/" target="_blank">CoinSmart</a><br/>Support contact: <a href="https://www.coinsmart.com/contact-us/" target="_blank">Link</a><br/>Main location: Toronto, Canada<br/>Daily volume: 46 BTC<br/>Mobile app available: No<br/>Is decentralized: No<br/>Parent Company: CoinSmart <br/>Transfer types: E-transfer, bank wire, bank draft, crypto withdrawal<br/>Supported fiat: CAD<br/>Supported pairs: 10 coins with CAD pairs<br/>Has token: -<br/>Fees: Medium (<a href="/price-tracker/">compare rates</a>)</p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+<li>Fast verification. User-friendly or even beginner-friendly interface. Strong regulatory compliance background. Backed by a bank. Robust support. Quality altcoin support. Great referral program.</li> </ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+<li>Limited geographical coverage. At the moment, CoinSmart provides support for Canadian citizens only.</li> </ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/205/14724/5d14d0c15795b.png" srcset="https://cimg.co/review/205/14724/responsive-images/5d14d0c15795b___media_library_original_474_332.png 474w, https://cimg.co/review/205/14724/responsive-images/5d14d0c15795b___media_library_original_300_210.png 300w" width="474"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/205/14725/5d14d0cf09a4f.jpg" data-srcset="https://cimg.co/review/205/14725/responsive-images/5d14d0cf09a4f___media_library_original_1847_795.jpg 1847w, https://cimg.co/review/205/14725/responsive-images/5d14d0cf09a4f___media_library_original_1200_516.jpg 1200w, https://cimg.co/review/205/14725/responsive-images/5d14d0cf09a4f___media_library_original_900_387.jpg 900w, https://cimg.co/review/205/14725/responsive-images/5d14d0cf09a4f___media_library_original_720_309.jpg 720w, https://cimg.co/review/205/14725/responsive-images/5d14d0cf09a4f___media_library_original_600_258.jpg 600w, https://cimg.co/review/205/14725/responsive-images/5d14d0cf09a4f___media_library_original_300_129.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1847"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/205/14726/5d14d0ed20df3.png" data-srcset="https://cimg.co/review/205/14726/responsive-images/5d14d0ed20df3___media_library_original_1437_749.png 1437w, https://cimg.co/review/205/14726/responsive-images/5d14d0ed20df3___media_library_original_1200_625.png 1200w, https://cimg.co/review/205/14726/responsive-images/5d14d0ed20df3___media_library_original_900_469.png 900w, https://cimg.co/review/205/14726/responsive-images/5d14d0ed20df3___media_library_original_720_375.png 720w, https://cimg.co/review/205/14726/responsive-images/5d14d0ed20df3___media_library_original_600_312.png 600w, https://cimg.co/review/205/14726/responsive-images/5d14d0ed20df3___media_library_original_300_156.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1437"/></div>
+</div>
+</div><h2>CoinSmart Key Features Overview</h2><ul><li>Designed to serve entry and pro level users alike</li><li>Smart Guarantee feature is supposed to eliminates long waiting times for deposits, withdrawals and account verification.</li><li>Offers more convenience to Canadian users, with deposit and withdrawals methods for Canadian nationals including interac e-transfer, bank transfer and wire</li><li>SmartTrade supports direct trading between any coin and CAD</li><li>Allows the users to save on conversion and transfer costs by circumventing the conversion fees for Canadian dollars (CAD) enforced by banks</li><li>Learning tools offered as part of GetSmart program can help one get into trading more easily</li><li>Simple trading interface paired with 24/7 customer support.</li><li>Enterprise-grade and bank-level security, cold wallet storage and support for faster creation of tax-time reports.</li></ul><figure class="image"><img alt="" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5d1/4d58b5983f.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5d1/4d58b5983f.jpg 300w, https://cimg.co/w/rw-attachments/2/5d1/4d58b5983f.jpg 600w, https://cimg.co/w/rw-attachments/3/5d1/4d58b5983f.jpg 720w, https://cimg.co/w/rw-attachments/4/5d1/4d58b5983f.jpg 900w, https://cimg.co/w/rw-attachments/0/5d1/4d58b5983f.jpg 1847w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h2>CoinSmart History</h2><p>Coinsmart is a digital currency exchange based in Toronto. It was founded as a brainchild of Justin Hartzman and Jeremy Koven who previously worked at Needls digital marketing agency and WeSellYourSite brokering service.</p><p>Hartzman is the co-founder and CEO of the project and holds a Bachelor of Management and Organizational Studies degree from Western University. Koven helped Hartzman fund Needls and WeSellYourSite and has a professional background in the finances.</p><p>In addition to the expertise in internet marketing which the CoinSmart co-founders brought to the table, the exchange also managed to land support from Edmund Lau, who serves as its technical advisor. Lau was the CTO at WorldGaming and DealTap, specializing in software and product development and business planning.</p><p>CoinSmart emerged as a solution to what the platformâ€™s co-founders identified as obstacles to easier trading while they were interacting with the competing exchanges. This, among other things, included the operations with fiat currencies and slow verification intervals which they sought to improve with CoinSmart.</p><h2>Assets Available on CoinSmart</h2><p>CoinSmart offers a range of popular cryptocurrencies for the traders looking to go beyond the standard Bitcoin or Ethereum options. As of June 2019, the list of supported markets included the following:</p><ul><li>Bitcoin (BTC)</li><li>Ethereum (ETH)</li><li>Litecoin (LTC)</li><li>Ripple (XRP)</li><li>Bitcoin Cash (BCH)</li><li>Dash (DASH)</li><li>EOS (EOS)</li><li>NEO (NEO)</li><li>XLM (XLM)</li><li>Cardano (ADA)</li></ul><p>CoinSmart was the first Canadian exchange to offer XMR/CAD pairs, making it a pioneering regional platform to simplify the procedure of acquiring XMR for the Canadian nationals.</p><p>Considering that the number of supported cryptos has actually increased over time, the promise given by the platform officials that CoinSmart will continue to add new coins can be taken as a reasonably valid one, making CoinSmart an exchange to keep oneâ€™s eye on in the coming months.</p><h2>CoinSmart Fees</h2><p>CoinSmart charges variable fees, depending on them being related deposits and withdrawals, which are further divided into those involving Canadian dollars or cryptocurrencies:</p><p><strong>Deposit Fees:</strong></p><ul><li>Email Money Transfer ($2000 or more) - 0%</li><li>Email Money Transfer ($100 - $1999) - 1.5%</li><li>Wire Transfer - 0%</li></ul><p><strong>Withdrawal Fees:(Canadian Dollars)</strong></p><ul><li>EFT-Electronic Funds Transfer - 1%</li><li>Wire - 1%</li></ul><p><strong>Withdrawal Fees(Cryptocurrency)</strong></p><ul><li>BTC 0.0005</li><li>ETH 0.005</li><li>LTC 0.001</li><li>XRP 0.002</li><li>DASH 0.005</li><li>BCH 0.0001</li><li>XMR 0.05</li><li>ADA 0.3</li></ul><p><strong>Trading Fees</strong> - .20% for single trade and .40% for double trade</p><p>In practice, this means that a USD 1,000 trading fee will amount to USD 2.00 on the occasion of a single trade.</p><p>A single trade constitutes trading between Canadian Dollars and cryptocurrencies as well as trading between two cryptocurrencies whenever one of them is Bitcoin (BTC). Double trade involves trading between two cryptocurrencies other than Bitcoin (BTC).</p><p>The fees seem rather moderate when compared to what is found with the competing crypto exchanges, particularly those based in Canada.</p><figure class="image"><img alt="" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5d1/4d6742ba7b.png" data-srcset="https://cimg.co/w/rw-attachments/1/5d1/4d6742ba7b.png 300w, https://cimg.co/w/rw-attachments/2/5d1/4d6742ba7b.png 600w, https://cimg.co/w/rw-attachments/3/5d1/4d6742ba7b.png 720w, https://cimg.co/w/rw-attachments/4/5d1/4d6742ba7b.png 900w, https://cimg.co/w/rw-attachments/0/5d1/4d6742ba7b.png 474w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h2>CoinSmart Security Overview</h2><p>At CoinSmart, security is presented as one a key building blocks on the platformâ€™s path to establishing itself as a proven crypto trading solution. First of all, CoinSmart hopes to prevent frauds by implementing an identity verification process capable of recognizing fake addresses and dates of birth. This is achieved by having access to the databases shared by the data collection agencies. As a one-time protective measure, on the occasion of making oneâ€™s first fiat deposit, users are required to provide a selfie picture with a note containing a reference to "CoinSmart" and a current date and email it. After this, all withdrawals are to be processed within 24 hours.</p><p>CoinSmart users can also use a two-factor authentication system (2FA) by downloading the Google Authenticator app and linking it with their accounts. This entails the use of a password generated on a phone on the occasion of trying to log on. This code is entered together with the information on their individual accounts.</p><p>CoinSmart offers access to a cold digital wallet for each cryptocurrency supported by the platform, without requiring the user to actually purchase a currency in question. Its implementation is in line with the widely accepted industry practices, with this option being a preferred one for those who do not want to expose their coins to the risks associated with internet access. This type of support is provided in cooperation with the cold storage solution provider BitGo which boasts of serving clients such as The Royal Mint.</p><p>CoinSmart also applies the standard KYC (Know Your Client) procedures in line with the demand of Anti-Money Laundering practices. To make this process more secure, the exchange has implemented the Chainalysis big data analytics software which sorts all available wallet addresses into categories based on associated risks (such as â€œDarknetâ€, â€œGamblingâ€ and other categories). Finally, CoinSmart is backed by DC bank and Luminus Financial, which operate as well-established banks in Canada. The userâ€™s funds stay in Canada and remain protected from the potentially harmful regulations which may be imposed in overseas countries.</p><h2>What Is Smart Guarantee?</h2><p>CoinSmartâ€™s SmartGuarantee system is dedicated to delivering a seamless customer experience whenever the users want to engage in buying, selling or trading cryptocurrencies. It comes with an array of features:</p><ul><li>Deposits are made available in oneâ€™s account on the same day they are received</li><li>Fiat withdrawal requests are processed within 5 business days.</li><li>Accounts verifications are processed on the same day.</li></ul><p>Likewise, under SmartGuarantee, a userâ€™s account will be credited for the deposit fee if the deposit is not credited on the same day. The same goes for the withdrawal fee, in case a userâ€™s fiat withdrawal request is not processed within the promised span of 5 business days. Finally, if a userâ€™s account verification is not processed on the same day it is submitted, CoinSmart guarantees the waiver of the deposit fee on a userâ€™s first deposit.</p><h2>CoinSmartâ€™s Interface</h2><p>Based on its mission statement, CoinSmart designed a markedly intuitive platform, built around accessibility for all types of investors and experience levels under their belts.</p><p>There is a SmartTrade buy/sell interface whose uncluttered and simpler design will prove a great entry point for less experienced crypto enthusiasts. The advanced trading platform is made available for veteran users, featuring charting, market books and live positions. The users are able to select among various types of orders they want to place, including market order options to trade at the most recent dominant rates, limit order and stop order options.</p><p>Finally, premium traders are offered customized Over-The-Counter (OTC) trading services aimed at large companies and individual users that intend to buy or sell orders worth greater than or equal to USD 25,000. They are given a dedicated account representative, access to discounted fees and optimized pricing based on order size/volume.</p><p>No matter which option is chosen, CoinSmart will provide its SmartSupport services to all users, including 24/7 omnichannel support. Its support teams can be reached via email, phone call, or live chat.</p><figure class="image"><img alt="" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5d1/4d6d21d19f.png" data-srcset="https://cimg.co/w/rw-attachments/1/5d1/4d6d21d19f.png 300w, https://cimg.co/w/rw-attachments/2/5d1/4d6d21d19f.png 600w, https://cimg.co/w/rw-attachments/3/5d1/4d6d21d19f.png 720w, https://cimg.co/w/rw-attachments/4/5d1/4d6d21d19f.png 900w, https://cimg.co/w/rw-attachments/0/5d1/4d6d21d19f.png 1437w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h2>How Does One Start Using CoinSmart?</h2><p>As of June 2019, CoinSmart is available to Canadian Citizens and Permanent Residents of Canada over the age of 18. The process of using its services starts by visiting the <a href="https://www.coinsmart.com/" rel="noopener" target="_blank">exchangeâ€™s site</a> and clicking on the sign-up button.</p><p>There is an instant verification option involving Equifax which should take no more than a few minutes. The users are required to submit their full name, date of birth, mailing address and phone number.</p><p>The alternative is to go through the slower registration process requiring the user to make available the following:</p><ol><li>Copies of the front and back of the government issued ID</li><li>A selfie with the user holding the same ID and a piece of paper with the word "CoinSmart" and today's date on it.</li><li>A copy of a recent utility bill with a userâ€™s name and address.</li></ol><p>The information received in this manner is supposed to be verified within an hour or two, with a caveat that this process can take as long as 12 hours.</p><p>Once the verification is done, the users can start buying/selling their currencies as part of a simple procedure involving:</p><ol><li>Clicking on the "Buy/Sell/Trade" menu option.</li><li>Click on the Buy or Sell icon.</li><li>Choosing the currency they want to buy or sell.</li><li>Enter the desired quantity in crypto or Canadian Dollars.</li><li>Click the Buy Now or Sell Now button.</li></ol><p>Bear in mind that CoinSmart comes in package with a rather attractive referral program. For every person referred by a user, both the referrer and the person referred will be given USD 25 when making their first deposits.</p><p>If you have more questions on how to use the CoinSmart services, contact their brokers or watch the tutorial below.<br/>https://www.youtube.com/watch?v=EvHQl3xrDcU</p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

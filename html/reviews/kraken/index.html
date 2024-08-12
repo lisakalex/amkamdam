@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/kraken/">Kraken</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="Kraken" class="img-fluid img-circle author__image author__image--has-bg mb-15" src="https://cimg.co/reviewlogo/5/5b20d7875ab17.svg"/>
+<div>
+<a class="c-black" href="#"><b>Kraken</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/kraken" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+<div class="fs-12"></div>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="kraken"> Kraken</h1>
+<p>Founded in 2011, US-based Kraken is the largest crypto exchange when it comes to trading bitcoin and altcoins in euros. It’s also one of the most secure exchanges out there, given its comprehensive range of safety measures, self-regulated approach, and security audits. </p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/kraken" target="_blank">Kraken</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://support.kraken.com/hc/en-us/requests/new" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>San Francisco, US</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>14219.4 BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>Yes</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>No</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>Payward, Inc</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+                                                                                                                                                        Bank Transfer,
+                                                                                                                                                                                                                                        Crypto Transfer,
+                                                                                                                                            </b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>USD, EUR, GBP, JPY</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>138</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>-</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>Medium (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+</ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+</ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/185/14638/5a6574a3ae75a.png" srcset="https://cimg.co/review/185/14638/responsive-images/5a6574a3ae75a___media_library_original_1162_771.png 1162w, https://cimg.co/review/185/14638/responsive-images/5a6574a3ae75a___media_library_original_900_597.png 900w, https://cimg.co/review/185/14638/responsive-images/5a6574a3ae75a___media_library_original_720_477.png 720w, https://cimg.co/review/185/14638/responsive-images/5a6574a3ae75a___media_library_original_600_398.png 600w, https://cimg.co/review/185/14638/responsive-images/5a6574a3ae75a___media_library_original_300_199.png 300w" width="1162"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/185/14639/5a6574a3048db.png" data-srcset="https://cimg.co/review/185/14639/responsive-images/5a6574a3048db___media_library_original_1124_545.png 1124w, https://cimg.co/review/185/14639/responsive-images/5a6574a3048db___media_library_original_900_436.png 900w, https://cimg.co/review/185/14639/responsive-images/5a6574a3048db___media_library_original_720_349.png 720w, https://cimg.co/review/185/14639/responsive-images/5a6574a3048db___media_library_original_600_290.png 600w, https://cimg.co/review/185/14639/responsive-images/5a6574a3048db___media_library_original_300_145.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1124"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/185/14640/5a6574a25e62d.png" data-srcset="https://cimg.co/review/185/14640/responsive-images/5a6574a25e62d___media_library_original_1159_772.png 1159w, https://cimg.co/review/185/14640/responsive-images/5a6574a25e62d___media_library_original_900_599.png 900w, https://cimg.co/review/185/14640/responsive-images/5a6574a25e62d___media_library_original_720_479.png 720w, https://cimg.co/review/185/14640/responsive-images/5a6574a25e62d___media_library_original_600_399.png 600w, https://cimg.co/review/185/14640/responsive-images/5a6574a25e62d___media_library_original_300_199.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1159"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/185/14641/5e736a9430998.jpg" data-srcset="https://cimg.co/review/185/14641/responsive-images/5e736a9430998___media_library_original_1914_896.jpg 1914w, https://cimg.co/review/185/14641/responsive-images/5e736a9430998___media_library_original_1200_561.jpg 1200w, https://cimg.co/review/185/14641/responsive-images/5e736a9430998___media_library_original_900_421.jpg 900w, https://cimg.co/review/185/14641/responsive-images/5e736a9430998___media_library_original_720_337.jpg 720w, https://cimg.co/review/185/14641/responsive-images/5e736a9430998___media_library_original_600_280.jpg 600w, https://cimg.co/review/185/14641/responsive-images/5e736a9430998___media_library_original_300_140.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1914"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/185/14642/5e74c3e020dea.jpg" data-srcset="https://cimg.co/review/185/14642/responsive-images/5e74c3e020dea___media_library_original_1895_768.jpg 1895w, https://cimg.co/review/185/14642/responsive-images/5e74c3e020dea___media_library_original_1200_486.jpg 1200w, https://cimg.co/review/185/14642/responsive-images/5e74c3e020dea___media_library_original_900_364.jpg 900w, https://cimg.co/review/185/14642/responsive-images/5e74c3e020dea___media_library_original_720_291.jpg 720w, https://cimg.co/review/185/14642/responsive-images/5e74c3e020dea___media_library_original_600_243.jpg 600w, https://cimg.co/review/185/14642/responsive-images/5e74c3e020dea___media_library_original_300_121.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1895"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/185/14643/5e74c3e05c460.jpg" data-srcset="https://cimg.co/review/185/14643/responsive-images/5e74c3e05c460___media_library_original_470_514.jpg 470w, https://cimg.co/review/185/14643/responsive-images/5e74c3e05c460___media_library_original_300_328.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="470"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/185/14644/5e74c3e0d9862.jpg" data-srcset="https://cimg.co/review/185/14644/responsive-images/5e74c3e0d9862___media_library_original_1080_2179.jpg 1080w, https://cimg.co/review/185/14644/responsive-images/5e74c3e0d9862___media_library_original_900_1815.jpg 900w, https://cimg.co/review/185/14644/responsive-images/5e74c3e0d9862___media_library_original_720_1452.jpg 720w, https://cimg.co/review/185/14644/responsive-images/5e74c3e0d9862___media_library_original_600_1210.jpg 600w, https://cimg.co/review/185/14644/responsive-images/5e74c3e0d9862___media_library_original_300_605.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1080"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/185/14645/5e74c3e12e886.jpg" data-srcset="https://cimg.co/review/185/14645/responsive-images/5e74c3e12e886___media_library_original_834_833.jpg 834w, https://cimg.co/review/185/14645/responsive-images/5e74c3e12e886___media_library_original_720_719.jpg 720w, https://cimg.co/review/185/14645/responsive-images/5e74c3e12e886___media_library_original_600_599.jpg 600w, https://cimg.co/review/185/14645/responsive-images/5e74c3e12e886___media_library_original_300_299.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="834"/></div>
+</div>
+</div><p>Another big plus is that its fees are among the lowest in the industry, with free deposits and very competitive withdrawals and trades. Besides, you can trade on the go using its web platform or one of its mobile apps.</p><figure class="image"></figure><p>Source: Kraken.com</p><p> </p><h2>Kraken Review</h2><p>Kraken offers an exhaustive range of different trading options that range from placing the usual limit orders and stop-loss orders to a dark pool and margin trading. It enables trades not only between cryptocurrency pairs but also between fiat currencies (e.g., pounds, euros), so it’s an excellent fiat-to-crypto gateway. During its year in the cryptoverse, it has made a name for the following key features:</p><p><strong>Fiat-to-crypto onramp with high liquidity.</strong> Kraken allows you to trade more than 32 cryptocurrencies in more than 140 markets with six fiat currencies: U.S. dollars (USD), euros (EUR), Canadian dollars (CAD), Japanese Yens (JPY), Great Britain Pounds (GBP), and Swiss Francs (CHF). <br/><strong>Dark Pool.</strong> If you’re looking for an exchange with an invisible order book, look no further. In the dark pool, each trader only knows his orders and can trade anonymously without revealing their interest to other traders.<br/><strong>Kraken’s Over The Counter (OTC) service.</strong> High volume traders can use Kraken’s OTC with a one on one service.<br/><strong>24/7 customer support desk.</strong> Kraken offers around the clock global customer support chat in case you have questions or run into troubles using the exchange.<br/><strong>Margin and futures trading.</strong> Kraken exchange offers cryptocurrency margin trading with up to 5x leverage.<br/><strong>Forex trading.</strong> Aside from trading cryptocurrencies, you can also exchange your fiat currency into one of six other supported fiat currencies.<br/><strong>Secure and trustworthy platform.</strong> Kraken is the industry leader in terms of crypto security. It has never been hacked before, so you can get goodnight’s sleep even when your funds are left in the exchange’s custody.</p><p>All in all, Kraken is an old and reputable cryptocurrency exchange for traders looking for fiat on and off-ramp. It comes with a variety of features and advanced trading options for every seasoned trader, as well as simple trading options for novice crypto enthusiasts.</p><figure class="image"></figure><p>Source: Kraken.com</p><h2>Kraken Exchange History and Background</h2><p>Kraken was founded in 2011 by early crypto pioneer <a href="https://twitter.com/jespow">Jesse Powell</a> and launched in 2013. Since then, it has become one of the most reputable exchanges in the industry. Based in San Francisco, US, Kraken is a fully regulated exchange, meaning that you must pass Know Your Customer (KYC) checks in order to trade. Besides, it has the distinction of being the exchange chosen by the Tokyo District Court to handle customer compensation claims related to the infamous collapse of Mt. Gox in 2014.</p><p>During its years of operations, Kraken has built a reputation as a secure destination and a popular choice among traders and institutional investors. It was the first crypto exchange to pass the <strong>Proof-of-Reserves</strong> cryptographic audit and provides crypto market price information to Bloomberg Terminal.</p><p>Kraken is a self-regulated exchange and complies with rules and regulations in all supported jurisdictions. It is registered as a Money Services Business (MSB) with <strong>FinCEN</strong> in the United States (reg. no. 31000136371793) and <strong>FINTRAC</strong> in Canada (reg. no. M19343731). Kraken Futures is regulated in the United Kingdom by the <strong>Financial Conduct Authority</strong> (reg. no. 757895).</p><p>The exchange’s headquarters are in San Francisco, but it has offices in various cities all over the globe, including London in the UK, Chiyoda City in Japan, and Singapore. According to Craft.co, Kraken exchange has received more than USD 126 million in venture capital. As such, it has acquired a number of crypto-oriented startups like <strong>CryptoWatch</strong>, <strong>CleverCoin</strong>, <strong>Coinsetter</strong>, <strong>Cavirter</strong>, <strong>Bit Trade</strong>, <strong>Crypto Facilities</strong>, and <strong>InterChange</strong>.</p><p>As of today, the exchange serves approximately 4 million customers in over 200 countries.</p><figure class="image"></figure><p>Source: Kraken.com</p><h3>Supported Countries</h3><p>Kraken is a worldwide exchange, though some of the exchange’s features may be limited to specific regions or jurisdictions. At the moment, Kraken does not serve the residents of:</p><ul><li>Afghanistan</li><li>Cuba</li><li>Guinea-Bissau</li><li>Iran</li><li>Iraq</li><li>Japan</li><li>North Korea</li><li>Tajikistan</li></ul><p>Kraken is a fully regulated exchange and is <strong>accesible to the residents and citizens of the United States</strong>, except for residents living in the states of <strong>New York (NY)</strong> and <strong>Washington (WA)</strong>.</p><figure class="image"></figure><p>Source: Kraken.com</p><h3>Registration Requirements</h3><p>All users must verify their identity (KYC) before being eligible to trade on Kraken. There are three levels of account verification: <strong>Starter</strong>, <strong>Intermediate</strong>, and <strong>Pro</strong>.</p><figure class="table"><table><tbody><tr><th>Features / Verification level</th><th>Starter</th><th>Intermediate</th><th>Pro</th></tr><tr><th>Verification time</th><th>1 to 60 minutes</th><th>1 to 5 days</th><th>1 to 5 days</th></tr><tr><th>Security measures</th><th>Yes</th><th>Yes</th><th>Yes</th></tr><tr><th>Crypto deposits</th><th>Unlimited</th><th>Unlimited</th><th>Unlimited</th></tr><tr><th>Crypto withdrawals</th><th>Low limits</th><th>High limits</th><th>Highest limits</th></tr><tr><th>Fiat deposits</th><th>-</th><th>High limits</th><th>Highest limits</th></tr><tr><th>Fiat withdrawals</th><th>-</th><th>High limits</th><th>Highest limits</th></tr><tr><th>Exchange funds</th><th>Unlimited</th><th>Unlimited</th><th>Unlimited</th></tr><tr><th>Margin trading</th><th>Low limits</th><th>High limits</th><th>Highest limits</th></tr><tr><th>Dark pool trading</th><th>-</th><th>-</th><th>-</th></tr><tr><th>Kraken Futures</th><th>-</th><th>Yes</th><th>Yes</th></tr><tr><th>Corporate account</th><th>-</th><th>-</th><th>Yes</th></tr><tr><th>OTC desk</th><th>-</th><th>-</th><th>Yes</th></tr><tr><th>API keys</th><th>16</th><th>16</th><th>25</th></tr><tr><th>API call rate limits</th><th>Low</th><th>High</th><th>Highest</th></tr></tbody></table></figure><p>In most locations, Kraken asks you to provide your <i>full name</i>, <i>date of birth</i>, <i>address</i>, and <i>phone number</i>. Besides, you have to be at least 18 years old and reside in a supported area.</p><p>Starter level verification takes only up to an hour, while the corporate level Pro verification process can take longer than five days.</p><figure class="image"></figure><p>Source: Kraken.com</p><p>Note that some features of Kraken may require a higher verification level compared with other supported countries and regions due to inconsistent crypto regulations worldwide.</p><h2>Kraken Fees</h2><p>Low fees are one of Kraken’s biggest attractions. All fees are charged on a per-trade basis, apart from the deposit and withdrawal fees. Kraken uses a typical maker-taker fee schedule based on the cryptocurrencies being traded and the volume a user has traded in the previous 30 days.</p><p>All trading fees fall into four categories: regular trading fees, stablecoin trading fees, dark pool trading fees, and margin trading fees.</p><p>Regular <strong>trading fees</strong> range from 0.16% for the makers and 0.26% for the takers, but they can be as low as 0.00% (maker) and 0.10% (taker) for users trading more than USD 10,000,000 per month.</p><figure class="image"></figure><p>Source: Kraken.com</p><p>Different fees apply to trading pairs involving <strong>stablecoins</strong>. Here, you pay 0.20% or less (based on 30-day volume) per trade regardless of whether you are on the taker or maker side of the deal. Traders exchanging more than USD 1,000,000 a month in stablecoins do not pay any fees.</p><figure class="image"></figure><p>Source: Kraken.com</p><p>Compared with other exchanges, Kraken’s fees are cheaper than <a href="/reviews/bitstamp/">Bitstamp</a>’s (0.5% per trade) but slightly more expensive than <a href="/reviews/coinbase-pro">Coinbase Pro</a>’s (0,15% makers and 0.25% takers) and <a href="/reviews/bitfinex">Bitfinex</a>, which can boast of having the cheapest order execution fees amongst major fiat-to-crypto exchanges (0.10% makers, 0.20% takers).</p><p><strong>Dark pool</strong> traders are charged the most - initially, you would pay a 0.36% fee, which is the same for both market takers and makers. If you trade more than USD 10,000,000 per month, the dark pool fees can be as low as 0.20% per trade.</p><figure class="image"></figure><p>Source: Kraken.com</p><p>Last but not least, different rates apply to Kraken’s <strong>margin trading</strong>. <a href="/coins/bitcoin">Bitcoin (BTC)</a> and <a href="/coins/tether">Tether (USDT)</a> pairs have a 0.01% opening fee and a 0.01% rollover fee for every 4 hours, while other cryptocurrencies cost 0.02% to open a trade and incur the same 0.02% fee every four hours.</p><p>As such, Kraken charges less than all <a href="/guides/top-crypto-margin-trading-exchanges.htm">major margin trading exchanges</a>, though these trades get more expensive the longer your position remains open.</p><figure class="image"></figure><p>Source: Kraken.com</p><p>Margin allowance limits depend on your verification level. The maximum leverage available at Kraken is <strong>5x</strong>.</p><p>Another category of Kraken fees is <strong>deposits and withdrawals</strong>.</p><p>With deposits, these are free for the vast majority of cryptocurrencies. For some newer or less common currencies, such as <a href="/coins/augur">Augur (REP)</a>, <a href="/coins/gnosis-gno/">Gnosis (GNO)</a>, or <a href="/coins/chainlink/">Chainlink (LINK)</a>, there are deposit and wallet setup fees. For instance, LINK has a 0.6 LINK address setup fee and 0.6 LINK deposit fee, while GNO is free to deposit but has a 0.07 GNO wallet fee.</p><p>All withdrawals incur a fee with Kraken. As the sample table below illustrates, the withdrawal fees at Kraken aren’t the lowest compared with other exchanges, but they aren’t costly either. Also, the cost depends on the cryptocurrency being withdrawn.</p><figure class="table"><table><tbody><tr><th>Currency</th><th>Kraken withdrawal</th><th>Coinbase Pro withdrawal</th><th>Bitstamp withdrawal</th><th>Bitfinex withdrawal</th></tr><tr><th>Bitcoin (BTC)</th><th>0.0005 BTC</th><th>Free</th><th>0.0005 BTC</th><th>0.0004 BTC</th></tr><tr><th>Ethereum (ETH)</th><th>0.005 ETH</th><th>Free</th><th>0.001 ETH</th><th>0.00135 ETH</th></tr><tr><th>Litecoin</th><th>0.001 LTC</th><th>Free</th><th>0.001 LTC</th><th>0.001 LTC</th></tr><tr><th>Monero</th><th>0.0001 XMR</th><th>Free</th><th>-</th><th>0.0001 XMR</th></tr><tr><th>Dash</th><th>0.005 DASH</th><th>Free</th><th>-</th><th>0.002 DASH</th></tr><tr><th>XRP</th><th>0.02 XRP</th><th>Free</th><th>0.02 XRP</th><th>0.1 XRP</th></tr></tbody></table></figure><p>The withdrawal fees and minimums for all cryptocurrencies on Kraken can be <a href="https://support.kraken.com/hc/en-us/articles/360000767986-Cryptocurrency-withdrawal-fees-and-minimums">found here</a>.</p><p>Kraken also charges fees for withdrawing fiat currencies. A standard USD wire would cost you 5 USD per transaction, while a global SWIFT USD transaction incurs a 35 USD fee. EUR withdrawal via SEPA would cost you 0.09 EUR, while worldwide SWIFT transfer via Etana Custody is priced at 35 EUR, too. CAD, GBP, CHF, and JPY withdrawals are possible, too, but the fees vary based on the transaction method.</p><p>A full overview of all Kraken’s withdrawal fees can be <a href="https://support.kraken.com/hc/en-us/articles/360000423043-Fiat-currency-withdrawal-options-fees-minimums-and-processing-times-">found here</a>.</p><p>All in all, Kraken fees appear to be low, justified, and reasonable. As such, the exchange falls onto the less expensive end of regulated exchanges, even though some of its functions may have slightly cheaper alternatives elsewhere.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/kraken" rel="noindex nofollow" target="_blank">Trade On Kraken</a></p><h2>Kraken Security</h2><p>Kraken takes security very seriously and its wallets have never been hacked before. Its platform has gone down only once – in January 2018 – since it launched in 2011, and even then this was to perform necessary system upgrades. And aside from this upgrade, it takes a wide range of measures to lower the risks of coins being stolen through its system, including the following:</p><ul><li>Transferring new deposits directly to offline ‘cold’ wallets, which are physically isolated from any online system.</li><li>Storing the vast bulk of coins in cold wallets, with only the coins required to maintain Kraken’s liquidity being kept in online ‘hot’ wallets.</li><li>Storing a small number of coins in semi-cold wallets, which are kept on defended machines with locked drives.</li><li>Encrypting all wallets and data in data centers.</li></ul><figure class="image"></figure><p>Source: Kraken.com</p><p>These measures guard Kraken’s platform itself against being compromised by hackers, yet the exchange also has the following features in place to protect individual accounts:</p><ul><li><strong>Universal 2nd Factor (U2F) authentication</strong>, by far the most secure way to protect your account using hardware authentication devices like YubiKey or its alternatives.</li><li><strong>Two-factor authentication</strong>, which can be used for logins, trades, funding, and for actions performed using Kraken’s API.</li><li><strong>Master account lock</strong>.</li><li><strong>Info-leakage protection</strong>: (opportunistic) login and password recovery attempts won’t reveal any account info or even the existence of an account.</li><li><strong>PGP/GPG encryption</strong> for emails.</li><li>User verification documents are uploaded to an isolated, highly secure system.</li><li>All sensitive user data is encrypted and can be decrypted only by accessing multiple security systems at once.</li><li>Global settings lock, which can be activated to prevent changing of user account info (e.g. withdrawal address) by a third party who’s hacked into an account.</li></ul><p>And if the above weren’t enough, Kraken also takes a number of measures to guarantee its legal compliance, system security, and financial security. These include the maintenance of full currency reserves with cryptographically verifiable proof-of-reserves audits and the daily backing up of data, all of which combine to significantly lower the risk of users losing money.</p><p>Apart from the security on the platform’s side of things, Kraken also conducts regular security audits when onboarding new cryptocurrencies and crypto security devices like hardware wallets.</p><p>Kraken’s security practices are widely recognized. <a href="https://icorating.com/report/exchange-security-report-v-20-update/">The Exchange Security Report 2.0</a> by ICO Rating features Kraken as the most secure exchange in the whole industry with a score of A. <a href="https://docsend.com/view/xpgbiry">Exchange Benchmark Report</a>, which also weighs the security of the exchange, puts Kraken in the 4th place amongst all exchanges with another superb A rating.</p><figure class="image"></figure><p>Source: Kraken.com</p><p>All in all, Kraken’s security is solid as a rock, as its practices are best in the industry. Even though it is <a href="/guides/why-it-is-risky-to-leave-your-cryptocurrency-in-exchange.htm">not recommended</a>, you should feel safe leaving your funds on the exchange.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/kraken" rel="noindex nofollow" target="_blank">Go To Exchange</a></p><h2>Exchange Usability</h2><p>Kraken has a comprehensive variety of trading options. It lets you:</p><ul><li>Buy and sell bitcoin and altcoins using six fiat currencies (USD, EUR, GBP, JPY, CHF, CAD).</li><li>Perform crypto-to-crypto trades.</li><li>Perform Forex trades with supported fiat currencies.</li><li>Place invisible orders in the dark pool.</li><li>Margin trade with up to 5x leverage.</li><li>Earn crypto using Kraken’s best-in-class staking service.</li></ul><figure class="image"></figure><p>Source: Kraken.com</p><p>In addition to these services, high-volume Kraken traders (more than USD 100,000 per month) can use its OTC services and get a dedicated account manager for individual trading needs.</p><p>When it comes to exchange’s usability, Kraken exchange is best suited for advanced and professional traders. Even so, it has been working to improve its front end and help beginners to buy and sell cryptocurrencies with ease, so now you can buy cryptocurrency directly via its overview dashboard by clicking the “New Order” tab.</p><figure class="image"></figure><p>Source: Kraken.com</p><p>Here, you can choose from three different order options: Simple, Intermediate, and Advanced.</p><p>The <strong>Simple</strong> option is by far the simplest way to buy or sell your cryptocurrency holdings.</p><figure class="image"></figure><p>Source: Kraken.com</p><p>The <strong>Intermediate</strong> option allows you to input more advanced order features and variables that go according to your trading strategy.</p><figure class="image"></figure><p>Source: Kraken.com</p><p>The <strong>Advanced</strong> section includes everything you get with an Intermediate order plus the <strong>Conditional Close</strong> feature, which lets you set a condition on which the order will be executed.</p><figure class="image"></figure><p>Source: Kraken.com</p><p>All in all, the platform’s interface is easy to use and navigate, as you can easily find whatever you’re looking for.</p><p>Aside from that, seasoned traders can go to Kraken Pro exchange for a more advanced trading view and features.</p><figure class="image"></figure><p>Source: trade.kraken.com</p><p>Here, you can create a fully customizable panel based on your trading techniques, strategies, and technical analysis. It looks super cool, too, but it may be too confusing for beginners - it’s easier to use the “New Order” panel.</p><p>Kraken exchange is also accessible via a tablet or smartphone since it’s site is completely mobile friendly. For the most optimal on-the-go trading experience, download and install <strong>Kraken Futures</strong> and <strong>Kraken Pro</strong> mobile apps for both iOS and Android devices.</p><figure class="image"></figure><p>Kraken mobile apps. Kraken Futures on the left, Kraken Pro on the right.</p><p>Regardless of your preferred interface, Kraken offers a wide range of trade types and even margin trading. This makes it a powerful resource for trading cryptocurrency and gaining the maximum possible value from funds.</p><h3>Kraken’s customer support</h3><p>Kraken has a comprehensive <a href="https://support.kraken.com/hc/en-us">support center</a> that provides answers to all your questions.</p><p>In case it doesn’t, you can reach out to its customer support team via a 24/7 chat on its website.</p><h2>Supported Deposit and Withdrawal Methods</h2><p>Kraken supports a variety of deposit and withdrawal methods. These include cryptocurrency deposits and fiat deposits via bank transfer. There are no credit or debit card deposit options for instant crypto purchases.</p><p>The supported fiat deposit and withdrawal bank transfer options include:</p><ul><li>FewWire / FewWire (Etana Custody) (1 - 5 business days)</li><li>SWIFT (2 - 5 business days)</li><li>Silvergate Exchange Network (near-instant)</li><li>SEPA / SEPA (Etana Custody / Fidor / Bank Frick) (0 - 5 days)</li><li>Canadian domestic wire transfer (1 - 3 days)</li><li>In-person cash/debit via Canada post (30 - 60 minutes)</li><li>InterFIn (0 - 10 min)</li><li>FPS/BACS (Clear Junction) (0 - 3 days)</li><li>CHAPS (Same day)</li><li>SIC (near instant on working days during business hours)</li></ul><p>The fees range from free to up to USD 50 or its equivalent based on the chosen method.</p><p>Fiat deposits and withdrawals are not available for users at the <strong>Starter</strong> verification level.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/kraken" rel="noindex nofollow" target="_blank">Try Kraken Now</a></p><h2>Kraken review: conclusion</h2><p>Kraken is a 100% legit cryptocurrency exchange for both beginners and serious traders. Its vast selection of features, low fees, clear user interface, and liquidity is definitely an attraction. However, it’s not the best option if you’re looking for a place to buy cryptocurrencies quickly since it does not accept bank card deposits. Aside from that, it is a top tier exchange with some of the best security practices in the industry, so if you don’t mind passing all the extensive KYC procedures, it’s definitely a great exchange to have in your trading arsenal.</p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

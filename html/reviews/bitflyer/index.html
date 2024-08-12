@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/bitflyer/">bitFlyer</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="bitFlyer" class="img-fluid img-circle author__image author__image--has-bg mb-15" src="https://cimg.co/reviewlogo/10/5aba32afb43dc.svg"/>
+<div>
+<a class="c-black" href="#"><b>bitFlyer</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/bitflyer" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+<div class="fs-12"></div>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="bitflyer"> bitFlyer</h1>
+<p>bitFlyer is a regulated Japanese cryptocurrency exchange that offers virtual currency exchange and trading services in Japan, the United States, and Europe. The exchange lets you buy and sell bitcoin, as well as other cryptocurrencies using your preferred fiat currency, be it USD, EUR, or JPY. It also let’s make quick crypto purchases using a bank card and other payment methods. Although bitFlyer is a popular exchange in Japan, it is the best-kept secret amongst European and US traders due to its very low fees, responsive support, excellent security, and ease of use. Mind that due to differences in regulation, the Japanese, European, and United States versions of the exchange offer somewhat different services at different rates. Despite that, it remains a newbie-friendly exchange and an excellent fiat gateway exchange regardless of your jurisdiction.</p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/bitflyer" target="_blank">bitFlyer</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://bitflyer.com/en-us/contact" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>Tokyo, Japan</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>1180.9 BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>Yes</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>No</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>bitFlyer Holdings, Inc.</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+                                                                                                                                                        Bank Transfer,
+                                                                                                                                                                                                                                        Credit Card,
+                                                                                                                                                                                                                                        Debit Card,
+                                                                                                                                                                                                                                        Crypto Transfer,
+                                                                                                                                            </b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>USD, EUR, JPY</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>10</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>-</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>Low (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p><p>Founded: January 9, 2014<br/>Web address: bitFlyer.com<br/>Support contact: https://bitFlyer.com/en-eu/ex/Contact <br/>Parent Company: bitFlyer, Inc.<br/>Company location: bitFlyer EUROPE S.A., 14, Rue Erasme L-1468 Luxembourg, Grand Duchy of Luxembourg (also has locations in Tokyo and San Francisco)</p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+<li>Very low fees Simple user interface accessible for beginners Advanced exchange for PRO traders Regulated exchange</li> </ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+<li>Limited number of supported cryptocurrencies Forced KYC measures Mobile app doesn’t support advanced trading</li> </ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/190/14674/5aba337e8d77f.png" srcset="https://cimg.co/review/190/14674/responsive-images/5aba337e8d77f___media_library_original_1434_801.png 1434w, https://cimg.co/review/190/14674/responsive-images/5aba337e8d77f___media_library_original_1200_670.png 1200w, https://cimg.co/review/190/14674/responsive-images/5aba337e8d77f___media_library_original_900_502.png 900w, https://cimg.co/review/190/14674/responsive-images/5aba337e8d77f___media_library_original_720_402.png 720w, https://cimg.co/review/190/14674/responsive-images/5aba337e8d77f___media_library_original_600_335.png 600w, https://cimg.co/review/190/14674/responsive-images/5aba337e8d77f___media_library_original_300_167.png 300w" width="1434"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/190/14675/5aba3380a2c99.png" data-srcset="https://cimg.co/review/190/14675/responsive-images/5aba3380a2c99___media_library_original_1237_547.png 1237w, https://cimg.co/review/190/14675/responsive-images/5aba3380a2c99___media_library_original_1200_530.png 1200w, https://cimg.co/review/190/14675/responsive-images/5aba3380a2c99___media_library_original_900_397.png 900w, https://cimg.co/review/190/14675/responsive-images/5aba3380a2c99___media_library_original_720_318.png 720w, https://cimg.co/review/190/14675/responsive-images/5aba3380a2c99___media_library_original_600_265.png 600w, https://cimg.co/review/190/14675/responsive-images/5aba3380a2c99___media_library_original_300_132.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1237"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/190/14676/5aba3382f3da7.png" data-srcset="https://cimg.co/review/190/14676/responsive-images/5aba3382f3da7___media_library_original_1235_726.png 1235w, https://cimg.co/review/190/14676/responsive-images/5aba3382f3da7___media_library_original_1200_705.png 1200w, https://cimg.co/review/190/14676/responsive-images/5aba3382f3da7___media_library_original_900_529.png 900w, https://cimg.co/review/190/14676/responsive-images/5aba3382f3da7___media_library_original_720_423.png 720w, https://cimg.co/review/190/14676/responsive-images/5aba3382f3da7___media_library_original_600_352.png 600w, https://cimg.co/review/190/14676/responsive-images/5aba3382f3da7___media_library_original_300_176.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1235"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/190/14677/5aba338539525.png" data-srcset="https://cimg.co/review/190/14677/responsive-images/5aba338539525___media_library_original_1440_654.png 1440w, https://cimg.co/review/190/14677/responsive-images/5aba338539525___media_library_original_1200_545.png 1200w, https://cimg.co/review/190/14677/responsive-images/5aba338539525___media_library_original_900_408.png 900w, https://cimg.co/review/190/14677/responsive-images/5aba338539525___media_library_original_720_327.png 720w, https://cimg.co/review/190/14677/responsive-images/5aba338539525___media_library_original_600_272.png 600w, https://cimg.co/review/190/14677/responsive-images/5aba338539525___media_library_original_300_136.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1440"/></div>
+</div>
+</div><p>t</p><h2>bitFlyer Review Summary</h2><p>bitFlyer is Japan’s biggest cryptocurrency exchange, and one of the biggest in the world. It launched in 2014 and added the separate US and EU-based operations at the end of 2017.</p><figure class="image"><img alt="bitFlyer review homepage" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/86c9b644c6.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/86c9b644c6.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/86c9b644c6.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/86c9b644c6.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/86c9b644c6.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/86c9b644c6.jpg 1642w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Today, it remains a highly popular option for buying and selling bitcoin and altcoins in a secure, regulated, and trustworthy environment. Despite that, bitFlyer remains one of the lowest-fee exchanges among regulated players, which makes it a great and reliable option for every trader.</p><p>bitFlyer’s key features include:</p><ul><li><strong>Ability to buy and sell bitcoin and top altcoins.</strong> bitFlyer exchange supports 5 - 8 popular cryptocurrencies, including <a href="/coins/bitcoin" rel="noopener" target="_blank">bitcoin (BTC)</a>, <a href="/coins/ethereum/" rel="noopener" target="_blank">ethereum (ETH)</a>, <a href="/coins/litecoin/" rel="noopener" target="_blank">litecoin (LTC)</a>, and others.</li><li><strong>Very low fees.</strong> bitFlyer charges some of the lowest fees amongst regulated exchanges, which makes it a great fiat gateway for new crypto enthusiasts as well as veteran traders.</li><li><strong>Highly secure exchange.</strong> bitFlyer hasn’t been hacked before and is the top exchange in the cryptoverse in terms of regulatory compliance.</li><li><strong>Easy to use.</strong> bitFlyer offers two modes of trading - a simple interface for basic trades, and an advanced Lightning exchange for pro investors.</li><li><strong>Margin and futures trading.</strong> Japanese customers can trade on bitFlyer’s <strong>Lightning FX platform</strong>, which allows you to open a position with up to <strong>4x leverage</strong>.</li><li><strong>Corporate account.</strong> Institutional investors can apply for a corporate account that comes with extra perks and features.</li></ul><p>In brief, bitFlyer is a top-tier exchange that operates in the key markets. Due to its regulated nature, the exchange may not be the best option for privacy-conscious users, but it remains an excellent fiat gateway and a best-kept secret amongst many experienced crypto investors.</p><figure class="image"><img alt="bitflyer exchange key features" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/86d1415253.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/86d1415253.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/86d1415253.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/86d1415253.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/86d1415253.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/86d1415253.jpg 1452w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Key features of the bitFlyer exchange. Source: bitFlyer.com</p><h2>bitFlyer History and Background</h2><p>Launched in April 2014 in the wake of the Mt Gox hack, bitFlyer is the biggest Japanese exchange trading in bitcoin. It was founded by <strong>Takafumi Komiyama</strong> and <strong>Yuzo Kano</strong>, who both previously worked for an investment bank <strong>Goldman Sachs</strong> in different roles (Komiyama was a developer, Kano was an equity derivative and convertible bonds trader).</p><figure class="image"><img alt="bitflyer review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/874c46c0fe.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/874c46c0fe.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/874c46c0fe.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/874c46c0fe.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/874c46c0fe.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/874c46c0fe.jpg 1465w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Ever since its founding, the exchange has raised over <strong>USD 37 million</strong> in 7 rounds of investments. Its backers include big names like <strong>Digital Currency Group</strong>, <strong>SBI Investment</strong>, <strong>Venture Labo Investment</strong>, and others.</p><figure class="image"><img alt="bitflyer Japan review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/86eb9835de.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/86eb9835de.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/86eb9835de.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/86eb9835de.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/86eb9835de.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/86eb9835de.jpg 1237w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>The exchange’s headquarters are located in the center of Tokyo, Japan. The full address of its office in Midtown Tower, 9-7-1 Akasaka, Minato-ku, Tokyo 107-6230, Japan. bitFLyer, Inc is a licensed <strong>Virtual Currency Exchange Operator</strong> (reg. No. 00003), issued and approved by the Director of the Kanto Local Finance Bureau in Japan. It’s also regulated by the <strong>Japan Financial Services Agency (JFSA)</strong>.</p><figure class="image"><img alt="bitflyer review " class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/86ed417384.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/86ed417384.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/86ed417384.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/86ed417384.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/86ed417384.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/86ed417384.jpg 1020w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>bitFlyer exchange headquarters in Tokyo, Japan. Source: bitFyer.com</p><p>Besides, the exchange performs regular audits on its capital reserves, carried out by a big four financial firm <strong>Ernst &amp; Young ShinNihon LLC</strong>. It’s banking partner in Japan is <strong>Sumitomo Mitsui Banking Corporation</strong>.</p><p>In early 2018, bitFlyer exchange has decided to expand its reach beyond Japan, and also opened fully-regulated counterparts in the United States and Europe.</p><figure class="image"><img alt="bitFlyer exchange review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/872e3f1d76.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/872e3f1d76.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/872e3f1d76.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/872e3f1d76.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/872e3f1d76.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/872e3f1d76.jpg 1372w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>The United States version of bitFlyer, <strong>bitFlyer USA</strong>, is based in Silicon Valley, San Francisco, California. The exchange fully is compliant with all the mandatory regulators both at a federal and state level and works with the <strong>New York Department of Financial Services (NYDFS)</strong>.</p><p>The European branch of bitFlyer, <strong>bitFlyer Europe</strong>, is located in Luxembourg and incorporated under bitFlyer EUROPE S.A. The company’s office can be found at 121 Rue de Hollerich, L-1741, Luxembourg, Grand Duchy of Luxembourg. The European branch of the exchange is registered with <strong>Luxembourg Trade and Companies Register</strong> and supervised by the <strong>Commission de Surveillance du Secteur Financier (CSSF)</strong>.</p><p>All of the bitFlyer exchanges are a part of its parent exchange - <strong>bitFlyer Holdings, Inc</strong>. They operate using the same matching engine and API, and the only thing that differs across these exchanges are access to the order books and some features due to regulatory constraints.</p><figure class="table"><table><tbody><tr><th>bitFlyer supported countries</th><th>Twitter</th><th>Website</th></tr><tr><th>Japan</th><th><a href="https://twitter.com/bitFlyer" rel="noopener" target="_blank">@bitFlyer</a></th><th><a href="https://cryptonews.com/ext/bitflyer/" rel="noopener" target="_blank">bitFlyer Japan</a></th></tr><tr><th>United States</th><th><a href="https://twitter.com/bitFlyerUSA" rel="noopener" target="_blank">@bitFlyerUSA</a></th><th><a href="https://cryptonews.com/ext/bitflyer/" rel="noopener" target="_blank">bitFlyer U.S.A</a></th></tr><tr><th>Europe</th><th><a href="https://twitter.com/bitFlyerEU" rel="noopener" target="_blank">@bitFlyerEU</a></th><th><a href="https://cryptonews.com/ext/bitflyer/" rel="noopener" target="_blank">bitFlyer Europe</a></th></tr></tbody></table></figure><h3>bitFlyer Account Verification</h3><p>In order to start trading o bitFlyer, you have to be a citizen or resident of the supported regions (USA, Japan, or Europe) and go through a quick KYC (know your customer) identification process. A small perk of trading with bitFlyer is that you can open an account first, and verify your identity later once you need to increase your account limits.</p><figure class="image"><img alt="bitflyer cryptocurrency exchange review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/86f57e4f33.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/86f57e4f33.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/86f57e4f33.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/86f57e4f33.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/86f57e4f33.jpg 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>If you do not want to upgrade your account at first, you will have to deposit up to EUR 250 or its equivalent first before you can start making bitcoin or other crypto deposits.</p><p>To get a verified <strong>PRO account</strong>, you will need to submit the following documents:</p><ul><li>A copy of your ID or passport</li><li>Proof of address</li><li>A picture of you</li><li>Nationality</li><li>Phone number</li></ul><p>Advanced or institutional investors can apply for a corporate account to get the best out of bitFlyer exchange and services. The customer verification process is smooth, frictionless, and quick.</p><figure class="image"><img alt="bitFlyer review corporate account" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/87331cfae7.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/87331cfae7.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/87331cfae7.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/87331cfae7.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/87331cfae7.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/87331cfae7.jpg 1427w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h2>bitFlyer Fees</h2><p>bitFlyer’s trading fees are some of the lowest in the industry. As shown below, they vary depending on the size of the trade being made, but they remain low even when at the lower end of the trade-size spectrum. Besides, bitFlyer fees vary according to your jurisdiction, meaning that <strong>bitFlyer Japan</strong>, <strong>bitFlyer USA</strong>, and <strong>bitFlyer Europe</strong> employ different fee structures.</p><figure class="table"><table><tbody><tr><th>Exchange</th><th>Maker fees</th><th>Taker fees</th></tr><tr><th><a href="https://cryptonews.com/ext/bitflyer/" rel="noopener" target="_blank">BitFlyer US</a></th><th>0.12%</th><th>0.12%</th></tr><tr><th><a href="https://cryptonews.com/ext/bitflyer/" rel="noopener" target="_blank">BitFlyer Europe</a></th><th>0.20%</th><th>0.20%</th></tr><tr><th><a href="https://cryptonews.com/ext/bitflyer/" rel="noopener" target="_blank">BitFlyer Japan</a></th><th>0.15%</th><th>0.15%</th></tr><tr><th><a href="https://cryptonews.com/ext/bitfinex/" rel="noopener" target="_blank">Bitfinex</a></th><th>0.10%</th><th>0.20%</th></tr><tr><th><a href="https://cryptonews.com/ext/bittrex/" rel="noopener" target="_blank">Bittrex</a></th><th>0.200%</th><th>0.200%</th></tr><tr><th><a href="https://cryptonews.com/ext/kraken/" rel="noopener" target="_blank">Kraken</a></th><th>0.16%</th><th>0.26%</th></tr><tr><th><a href="https://cryptonews.com/ext/coinbase-pro/" rel="noopener" target="_blank">Coinbase Pro</a></th><th>0.50%</th><th>0.50%</th></tr><tr><th><a href="https://cryptonews.com/ext/bitstamp/" rel="noopener" target="_blank">Bitstamp</a></th><th>0.50%</th><th>0.50%</th></tr></tbody></table></figure><p>In this bitFlyer review, we examine all of them, starting with the U.S. version of the exchange.</p><h3>bitFlyer USA Fees</h3><p>The fee structure of the bitFlyer US exchange is relatively straightforward. The trading platform makes money by charging you for trading and exchange cryptocurrencies, and also takes a small fee for cryptocurrency withdrawals. Crypto deposits to the platform are generally free.</p><figure class="table"><table><tbody><tr><th>30-Day Volume</th><th>Lightning Spot Fee</th><th>Buy/Sell Virtual Currencies</th></tr><tr><th>Less than USD 1,000,000</th><th>0.12%</th><th>Free</th></tr><tr><th>Between USD 1,000,000 and 10,000,000</th><th>0.07%</th><th>Free</th></tr><tr><th>More than USD 10,000,000</th><th>0.12%</th><th>Free</th></tr></tbody></table></figure><figure class="image"><img alt="bitflyer USA fees" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/870c6e45c0.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/870c6e45c0.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/870c6e45c0.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/870c6e45c0.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/870c6e45c0.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/870c6e45c0.jpg 1174w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>As you can see, you will pay max <strong>0.12%</strong> per every spot trade on the bitFlyer’s Lightning platform for advanced traders. This is extremely cheap for a regulated exchange since other platforms like <a href="/reviews/bitfinex/" rel="noopener" target="_blank">Bitfinex</a>, <a href="/reviews/coinbase/" rel="noopener" target="_blank">Coinbase</a>, <a href="/reviews/kraken/" rel="noopener" target="_blank">Kraken</a>, or <a href="/reviews/bittrex/" rel="noopener" target="_blank">Bittrex</a> charge much more.</p><p>A regular purchase via simple bitFlyer exchange does not display a fee but includes a <strong>floating 0.1% - 6% rate</strong> added to the price. The rate tends to change based on market volatility.</p><p>Apart from these fees, you will also pay for USD deposits and withdrawals. While most of the bank transfers are free, you will pay a <strong>USD 10 fee</strong> for every wire withdrawal using <strong>Fedwire</strong>.</p><figure class="table"><table><tbody><tr><th>Deposit and Withdrawal Method</th><th>Fee</th></tr><tr><th>Bank Deposit (ACH)</th><th>Free</th></tr><tr><th>Bank Withdrawal (ACH)</th><th>Free</th></tr><tr><th>Wire Deposit (Fedwire)</th><th>Free</th></tr><tr><th>Wire Withdrawal (ACH)</th><th>USD 10</th></tr></tbody></table></figure><p>As you can see, bitFlyer US fees are on the low side. Unfortunately, the USA platform does not support instant cryptocurrency purchases yet, but that is likely to come in the future. You can find the latest bitFlyer USA platform fees <a href="https://bitflyer.com/en-us/commission" rel="noopener" target="_blank">here</a>.</p><h3>bitFlyer Europe Fees</h3><p>The European version of bitFlyer charges the following fees: spot trading, instant buy and sell, and withdrawing certain cryptocurrencies from its platform. There are also fees associated with making SEPA bank transfers when making EUR deposits and withdrawals.</p><p>First and foremost, you will pay a <strong>0.20% fee</strong> for every fulfilled order made via bitFlyer’s Lightning exchange. The fee gets lower if you increase your 30-day trading volume.</p><figure class="table"><table><tbody><tr><th>30-Day Volume</th><th>Lightning Spot Fee</th><th>Buy/Sell</th></tr><tr><th>Less than EUR 1,000,000</th><th>0.20%</th><th>Free</th></tr><tr><th>Between EUR 1,000,000 and 10,000,000</th><th>0.15%</th><th>Free</th></tr><tr><th>More than EUR 10,000,000</th><th>0.10%</th><th>Free</th></tr></tbody></table></figure><p>Less advanced users can make direct purchases via bitFlyers "buy or sell virtual" currency section. These are generally free, but bitFlyer adds from <strong>0.1% - 6%</strong> to the conversion rate, based on the market volatility.</p><p>Also, bitFlyer Europe charges fees for withdrawing cryptocurrencies from its platform. There are no fees for making crypto deposits.</p><figure class="image"><img alt="bitFlyer europe fees" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/87220ed37c.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/87220ed37c.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/87220ed37c.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/87220ed37c.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/87220ed37c.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/87220ed37c.jpg 1177w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>bitFlyer Europe also supports instant cryptocurrency purchases using bank cards by <strong>Visa</strong>, <strong>Mastercard</strong>, <strong>Sofort</strong>, <strong>iDeal</strong>, or <strong>GiraPay</strong>. These are some of the lowest fees out there, as you will pay only <strong>1.95%</strong> of the transaction amount per purchase (+ fixed fee).</p><figure class="table"><table><tbody><tr><th>Instant Buy Fees</th><th>Free</th></tr><tr><th>Processing Fee</th><th>Free</th></tr><tr><th>Transaction Fee</th><th>Credit Card: 1.95% + €0.25 per transaction</th></tr><tr><th>Transaction Fee</th><th>Other payment methods: 1.95% + €0.30 per transaction</th></tr></tbody></table></figure><p>Last but not least, bitFlyer EUR deposits and withdrawals incur fixed fees, too. SEPA bank deposits are <strong>free</strong>, while withdrawal fees depend on the transaction amount.</p><ul><li>Withdrawals up to EUR 250,000 incur a 0.30 EUR fee.</li><li>Withdrawals higher than USD 250,000 incur a fixed 10 EUR fee.</li></ul><p>In case these rates change, you can find the latest information on bitFlyer fees <a href="https://bitflyer.com/en-EU/commission" rel="noopener" target="_blank">here</a>.</p><h3>bitFlyer Japan Fees</h3><p>bitFlyer Japan has the broadest offering of supported cryptocurrencies and crypto services. The exchange supports bitcoin and altcoin sales and purchases, spot trading, and futures trading.</p><p>A regular bitcoin exchange via bitFlyers advanced trading interface, Lightning exchange, will cost you up to<strong>0.15%</strong> or less based on your 30-day trading volume.</p><figure class="table"><table><tbody><tr><th>30-Day Volume</th><th>Bitcoin Exchange/Lightning Spot Fee</th><th>Lightning FX/Futures</th></tr><tr><th>Less than JPY 100,000</th><th>0.15%</th><th>Free</th></tr><tr><th>Between JPY 100,000 and 200,000</th><th>0.14%</th><th>Free</th></tr><tr><th>Between JPY 200,000 and 500,000</th><th>0.13%</th><th>Free</th></tr><tr><th>Between JPY 500,000 and 1,000,000</th><th>0.12%</th><th>Free</th></tr><tr><th>Between JPY 1,000,000 and 2,000,000</th><th>0.11%</th><th>Free</th></tr><tr><th>Between JPY 2,000,000 and 5,000,000</th><th>0.10%</th><th>Free</th></tr><tr><th>Between JPY 5,000,000 and 10,000,000</th><th>0.09%</th><th>Free</th></tr><tr><th>Between JPY 10,000,000 and 20,000,000</th><th>0.07%</th><th>Free</th></tr><tr><th>Between JPY 20,000,000 and 50,000,000</th><th>0.05%</th><th>Free</th></tr><tr><th>Between JPY 50,000,000 and 100,000,000</th><th>0.03%</th><th>Free</th></tr><tr><th>Between JPY 100,000,000 and 500,000,000</th><th>0.02%</th><th>Free</th></tr><tr><th>JPY 500 million and more</th><th>0.01%</th><th>Free</th></tr></tbody></table></figure><p>Different trading fees apply for bitcoin and altcoin market buys via bitFlyer regular exchange. Although they are generally free, they include a floating fee of between <strong>0.1% and 6%</strong>, which depends on current market volatility. Aside from making trades and taking on futures positions, you will also pay a small fee for withdrawing cryptocurrencies. Cryptocurrency deposits on bitFlyer Japan are generally <strong>free of charge</strong>.</p><figure class="image"><img alt="bitflyer japan fees" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/8741a52d63.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/8741a52d63.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/8741a52d63.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/8741a52d63.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/8741a52d63.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/8741a52d63.jpg 1065w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><figure class="image"><img alt="bitflyer japan fees 2" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/874312d298.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/874312d298.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/874312d298.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/874312d298.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/874312d298.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/874312d298.jpg 1058w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>When it comes to fiat (JPY) deposits and withdrawals, Japanese citizens and residents can make deposits via <strong>SBI Sumishin Net Bank</strong> (free of charge) or <strong>other Japanese banks</strong>. You will pay a fixed fee of JPY 330 (tax included) per deposit using the latter option.</p><p>JPY withdrawals fall under the following fee structure:</p><figure class="table"><table><tbody><tr><th>Bank</th><th>Withdrawal of less than JPY 30,000</th><th>Withdrawal of JPY 30,000 or more</th></tr><tr><th>Mitsui Sumitomo Bank customers</th><th>220 JPY</th><th>440 JPY</th></tr><tr><th>Other Japanese banks</th><th>550 JPY</th><th>770 JPY</th></tr></tbody></table></figure><p>bitFlyer Japan also charges fees for futures trading with up to <strong>4x leverage</strong>, though these tend to vary according to market conditions. A complete overview of bitFlyer Japan fees can be found <a href="https://bitflyer.com/en-jp/commission" rel="noopener" target="_blank">here</a>.</p><p>All in all, bitFlyer fees are some of the lowest in the industry amongst regulated exchanges, be it in Japan, Europe, or the United States.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/bitflyer" rel="noindex nofollow" target="_blank">Open a FREE bitFlyer account</a></p><h2>bitFlyer Security</h2><p>Given that bitFlyer’s launch was partly a response to the Mt Gox hacking scandal, it’s not entirely surprising to hear that security is one of the exchange’s strong points. The exchange has never been hacked before, nor has it undergone any major security breach, data leak, or related incident.</p><p>Nevertheless, it is still a centralized exchange, meaning that it will not grant you your private key unless you withdraw your funds to a private wallet. Leaving your private key in centralized custodial services is generally considered as a vulnerability since <a href="/guides/why-it-is-risky-to-leave-your-cryptocurrency-in-exchange.htm" rel="noopener" target="_blank">they can get hacked</a>.</p><p>That said, bitFlyer is a highly ethical, fully regulated exchange and would likely refund your funds of they would be lost due to the exchange's fault.</p><p>bitFlyer reinforces its system through the following safeguards:</p><ul><li><strong>SSL encryption</strong> – used to encrypt all customer-related communication, and all internal communications.</li><li>The use of a <strong>web application firewall (WAF)</strong> to monitor and detect unauthorized access to bitFlyer’s system.</li><li>The use of <strong>IP Anycast</strong> (assigning one IP address to multiple nodes) to prevent distributed denial of service (DDoS) attacks.</li><li>Use of <strong>multi-signature bitcoin addresses</strong>.</li><li>Adoption of its own <strong>proprietary Bitcoin daemon</strong>, as opposed to the public Bitcoin daemon.</li><li>Running regular <strong>safety and stress tests</strong> on its system.</li><li>The <strong>segregation of customer funds</strong> from bitFlyer’s own accounts</li><li>Over 80% of bitFlyer customer funds are held in <strong>cold wallets</strong>, which are protected by physical locks and <strong>24-hour surveillance</strong> systems.</li></ul><p>According to <a href="https://www.cryptocompare.com/external/research/exchange-ranking/" rel="noopener" target="_blank">CryptoCompare’s Exchange Benchmark Report</a>, bitFlyer is one of the top industry’s exchanges and deserves a straight <strong>A rating</strong>. In terms of security, bitFlyer scores a solid 9.9 points out of 20, meaning that there is still plenty of room for improvements on the tech side of things. According to the same report, bitFlyer does the best job in the whole sphere when it comes to legal compliance, scoring stellar 17.8 out of max. 20 points.</p><figure class="image"><img alt="bitflyer review lightning" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/876e7d3a21.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/876e7d3a21.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/876e7d3a21.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/876e7d3a21.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/876e7d3a21.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/876e7d3a21.jpg 1896w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>In addition to these system-level security measures, bitFlyer also enables customers to use <strong>two-factor authentication (2FA)</strong> to log in to their accounts and complete transactions. The only issue is that bitFlyer still allows its users to use <strong>SMS verification</strong>, which has <a href="/news/sim-swap-attacks-are-on-the-rise-how-to-protect-your-crypto-3980.htm" rel="noopener" target="_blank">proven to be insecure</a> and has led to the loss of many user funds on various exchanges. Besides, you can protect your trading account by reviewing your login history, enabling login alerts (on by default), and setting up a secure and robust password.</p><figure class="image"><img alt="bitflyer review security" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/87669bb358.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/87669bb358.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/87669bb358.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/87669bb358.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/87669bb358.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/87669bb358.jpg 1700w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>bitFlyer also requires them to verify their accounts, something which is necessary if they wish to gain the “Trade Pro” account classification, which enables unlimited deposits and withdrawals.</p><p>All in all, bitFlyer’s security is solid, though there’s still room for improvement. The exchange is fully regulated and trustworthy, thus has a generally good reputation online. It has never been hacked before, but that also doesn’t guarantee that hacks won’t happen in the future.</p><h2>bitFlyer Features and Usability</h2><p>As a general rule, the features and functions of bitFlyer exchange depend on which version of it you’re using. While European and United States customers can access crypto instant and spot trading, Japanese customers can also trade bitFlyer futures and open leveraged positions.</p><p>Besides, <strong>bitFlyer Japan</strong>, <strong>bitFlyer USA</strong>, and <strong>bitFlyer Europe</strong> offer a somewhat different selection of tradeable crypto assets.</p><figure class="table"><table><tbody><tr><th>Cryptocurrency</th><th>bitFlyer Japan</th><th>bitFlyer Europe</th><th>bitFlyer USA</th></tr><tr><th><a href="/coins/bitcoin/" rel="noopener" target="_blank">Bitcoin (BTC)</a></th><th>✔</th><th>✔</th><th>✔</th></tr><tr><th><a href="/coins/ethereum/" rel="noopener" target="_blank">Ethereum (ETH)</a></th><th>✔</th><th>✔</th><th>✔</th></tr><tr><th><a href="/coins/litecoin/" rel="noopener" target="_blank">Litecoin (LTC)</a></th><th>✔</th><th>✔</th><th>✔</th></tr><tr><th><a href="/coins/ethereum-classic/" rel="noopener" target="_blank">Ethereum Classic (ETC)</a></th><th>✔</th><th>✔</th><th>✔</th></tr><tr><th><a href="/coins/bitcoin-cash/" rel="noopener" target="_blank">Bitcoin Cash (BCH)</a></th><th>✔</th><th>✔</th><th>✔</th></tr><tr><th><a href="/coins/monacoin/" rel="noopener" target="_blank">Monacoin (MONA)</a></th><th>✔</th><th>✔</th><th>x</th></tr><tr><th><a href="/coins/lisk/" rel="noopener" target="_blank">Lisk (LSK)</a></th><th>✔</th><th>✔</th><th>x</th></tr><tr><th><a href="/coins/ripple/" rel="noopener" target="_blank">Ripple (XRP)</a></th><th>✔</th><th>x</th><th>x</th></tr><tr><th><a href="/coins/basic-attention-token/" rel="noopener" target="_blank">Basic Attention Token (BAT)</a></th><th>✔</th><th>x</th><th>x</th></tr></tbody></table></figure><p>While bitFlyer allows for such advanced trading options as stop and limit trades, its website and the user interface are clean and uncomplicated. The “Home” dashboard is straightforward, showing the user their total assets in bitcoins and your default fiat currency, as well as showing the 24-hour change in the value of their assets.</p><figure class="image"><img alt="bitflyer exchange review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/8782b095ce.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/8782b095ce.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/8782b095ce.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/8782b095ce.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/8782b095ce.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/8782b095ce.jpg 1888w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Depositing and withdrawing funds is also simple, with a separate page enabling customers to pay euros or bitcoins into their account and to pay them out.</p><figure class="image"><img alt="bitflyer account funding" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/878777e9ab.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/878777e9ab.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/878777e9ab.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/878777e9ab.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/878777e9ab.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/878777e9ab.jpg 1892w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Once you have your account properly funded, you can start trading. If you’re still a new entrant to the crypto space, you’ll greatly appreciate bitFlyer’s “Buy / Sell Bitcoin” and “Buy / Sell Altcoins” sections in the exchange’s main menu, since they allow you to market buy or sell supported cryptocurrencies at the current market rate with a simple click of a button.</p><figure class="image"><img alt="bitflyer buy bitcoin" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/878aa4ce33.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/878aa4ce33.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/878aa4ce33.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/878aa4ce33.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/878aa4ce33.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/878aa4ce33.jpg 1889w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Here, you can also review your order history, as well as follow cryptocurrency prices. The interface is clean and simple but does not allow for advanced cryptocurrency trades, which can be made in the advanced bitFlyer’s platform for more experienced traders called <strong>bitFlyer Lightning</strong> (see below).</p><figure class="image"><img alt="bitflyer lightning exchange review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/879390f659.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/879390f659.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/879390f659.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/879390f659.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/879390f659.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/879390f659.jpg 1878w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>bitFlyer Europe customers may also enjoy a unique feature available to them solely to them - the ability to instant buy cryptocurrencies using a credit or debit bank card, iDeal, and other popular European payment processors.</p><figure class="image"><img alt="bitflyer review instant buy" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/878dd3a64d.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/878dd3a64d.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/878dd3a64d.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/878dd3a64d.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/878dd3a64d.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/878dd3a64d.jpg 1316w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Instant buy feature is available for bitFlyer Europe customers only. Source: bitFlyer.com</p><p>An instant transaction will cost you <strong>1.95% + €0.25 or €0.30 fee</strong> (based on the payment method), which is much cheaper than other popular bitcoin purchase options like <a href="/reviews/coinbase/" rel="noopener" target="_blank">Coinbase</a> or <a href="/reviews/bitstamp/" rel="noopener" target="_blank">Bitstamp</a>.</p><p>Aside from this simple trading interface, bitFlyer also has a separate trading platform for more experienced retail traders and professional investors, which comes with faster order execution, advanced trading options, and lower fee - bitFlyer Lightning platform, which can be opened directly from the main menu.</p><h3>bitFlyer Lightning Exchange and FX</h3><figure class="image"><img alt="bitflyer lightning features" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/8799c2c63e.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/8799c2c63e.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/8799c2c63e.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/8799c2c63e.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/8799c2c63e.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/8799c2c63e.jpg 1519w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>At bitFlyer Lightning exchange, users will find the usual graph that tracks price averages and value movements, as well as columns listing the exchange’s order books and recent trades. It may look complicated at first, but the actual process of trading bitcoin can be very simple, with users having the option to conduct market trades that allow them to buy bitcoin at the current market value.</p><figure class="image"><img alt="bitflyer lightning exchange" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/8798493052.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/8798493052.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/8798493052.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/8798493052.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/8798493052.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/8798493052.jpg 1919w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Additionally, you can chat with other traders, browse your trade reports, make use of bitFlyer’s API, fund your account, create alerts and choose one of the custom layout themes for the best PRO trading experience.</p><p>The Japanese customers can also access Lightning FX, bitFlyer’s margin trading feature with up 4x leverage. You can find a thorough explanation of what is bitFlyer’s Lightning FX by following <a href="https://lightning.bitflyer.com/About-Fx?lang=en" rel="noopener" target="_blank">this link</a>.</p><h3>bitFlyer Mobile App</h3><p>Things are made even easier for users, thanks to bitFlyer’s mobile app. It is available for <strong>iOS and Android</strong>, and it lets users make trades, deposit bitcoin, and even pay for goods at retailers that accept bitcoin.</p><figure class="image"><img alt="bitflyer review mobile app" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/879df7e499.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/879df7e499.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/879df7e499.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/879df7e499.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/879df7e499.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/879df7e499.jpg 1290w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>The mobile app supports all of the essential functions of bitFlyer exchange but does not support the advanced Lightning exchange just yet. Nevertheless, the Lightning platform is fully responsive so that you can access it from your mobile browser.</p><h3>bitFlyer Customer Support</h3><p>bitFlyer customer support is accessible via the contact form on the website. Besides, you can browse its extensive <a href="https://bitflyer.com/en-eu/faq" rel="noopener" target="_blank">FAQ section</a> to find the answers you’re seeking.</p><p>bitFlyer’s customer support is very responsive, and you should receive an answer within 24 hours or so.</p><h2>Available Deposit/Withdrawal Methods</h2><p>There are two ways of making deposits and withdrawals at bitFlyer: bank transfers and crypto wallet transfers. Besides, European customers can use their credit and debit cards to buy bitcoin on bitFlyer instantly.</p><figure class="image"><img alt="bitflyer europe instant purchase" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/87a4f7bc7a.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/87a4f7bc7a.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/87a4f7bc7a.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/87a4f7bc7a.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/87a4f7bc7a.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/87a4f7bc7a.jpg 1237w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>With bank transfers, deposits and withdrawals of euros are possible only via SEPA payments, which can take up to three days for deposits and between one and two days for withdrawals. The United States citizens and residents can make bank deposits and withdrawals using ACH and Fedwire. Japanese customers will get the best rates by using SBI Sumishin Net Bank, while other Japanese banks are accepted, too.</p><p>Customers are required to quote a six-digit code with deposits to ensure security. Unsurprisingly, the exchange requires users to deposit and withdraw only to accounts in their own names.</p><figure class="image"><img alt="bitflyer deposits and withdrawals" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/87ab3b5265.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/87ab3b5265.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/87ab3b5265.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/87ab3b5265.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/87ab3b5265.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/87ab3b5265.jpg 1316w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>With crypto wallet transfers, these are achieved using the usual method: sending bitcoin from (or to) an external bitcoin wallet owned by the user to (or from) their bitFlyer wallet. You won’t be able to deposit or withdraw cryptocurrencies before you make a fiat deposit to your bitFlyer account first.</p><p>Overall, making deposits and withdrawals from and to the bitFlyer trading platform is as easy as pie. For more information about deposit and withdrawal fees, check out the bitFlyer fees section above.</p><figure class="image"><img alt="bitflyer review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5eb/87ac98480f.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5eb/87ac98480f.jpg 300w, https://cimg.co/w/rw-attachments/2/5eb/87ac98480f.jpg 600w, https://cimg.co/w/rw-attachments/3/5eb/87ac98480f.jpg 720w, https://cimg.co/w/rw-attachments/4/5eb/87ac98480f.jpg 900w, https://cimg.co/w/rw-attachments/0/5eb/87ac98480f.jpg 1825w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/bitflyer" rel="noindex nofollow" target="_blank">Open Free Account</a></p><h2>bitFlyer Review: Conclusion</h2><p>bitFlyer cryptocurrency exchange is an excellent trading option for traders and investors seeking to buy and sell virtual currencies in a secure and regulated way. The exchange offers excellent service for both new crypto users, as well as advanced traders. Besides, bitFlyer has some of the lowest fees in the industry, which makes it a handy alternative for everyone who is looking for a quick, reliable, and inexpensive fiat gateway.</p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

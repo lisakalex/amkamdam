@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row mb-20"><div class="col-12">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/exclusives/">Exclusives</a>
+<a href="/exclusives/inflation-scares-in-an-uncharted-recovery.htm">Inflation Scares in an Uncharted Recovery</a>
+</div>
+</div></div>
+<div class="row">
+<main class="col-12 col-md-8">
+<div class="row">
+<div class="col-12 col-md-3 d-none d-md-block">
+<div class="d-none d-md-block mb-30 mt-60">
+<div>
+<a class="c-black" href="/editors/francesca-caselli/"><b>Francesca Caselli</b></a>
+</div>
+<div>
+<a class="c-text" href="/editors/francesca-caselli/">@francesca-caselli</a>
+</div>
+<div class="text-left mt-5">
+</div>
+</div>
+<div class="d-none d-md-block mb-30 mt-60">
+<div>
+<a class="c-black" href="/editors/prachi-mishra/"><b>Prachi Mishra</b></a>
+</div>
+<div>
+<a class="c-text" href="/editors/prachi-mishra/">@prachi-mishra</a>
+</div>
+<div class="text-left mt-5">
+</div>
+</div>
+</div>
+<div class="col-12 col-md-9 mb-40">
+<div class="row mb-20">
+<div class="col-6">
+<div class="fs-12">
+<time datetime="2021-10-15T20:00:00+00:00">
+                                            Oct 15, 2021 4:00 PM EDT
+                                        </time>
+                                                                        · 4 min read</div>
+</div>
+<div class="col-6 text-right">
+</div>
+<div class="col-6 mt-20 d-md-none d-block">
+<div>
+<a class="c-black" href="/editors/francesca-caselli/"><b>Francesca Caselli</b></a>
+</div>
+<div>
+<a class="c-dark-grey" href="/editors/francesca-caselli/">@francesca-caselli</a>
+</div>
+<div class="text-left mt-5">
+</div>
+<div>
+<a class="c-black" href="/editors/prachi-mishra/"><b>Prachi Mishra</b></a>
+</div>
+<div>
+<a class="c-dark-grey" href="/editors/prachi-mishra/">@prachi-mishra</a>
+</div>
+<div class="text-left mt-5">
+</div>
+</div>
+</div>
+<div class="article-single__content category_contents_details">
+<h1 class="mb-40">Inflation Scares in an Uncharted Recovery</h1>
+<div class="dslot text-right" did="9" style="min-height: 90px;">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/970x90.jpg" width=""/>
+</div>
+<figure class="image"><img alt="" class="content-img" sizes="100vw" src="https://cimg.co/news/62726/32536/241a43b87a.jpg" srcset="https://cimg.co/news/62726/32536/responsive-images/241a43b87a___media_library_original_900_600.jpg 900w, https://cimg.co/news/62726/32536/responsive-images/241a43b87a___media_library_original_720_480.jpg 720w, https://cimg.co/news/62726/32536/responsive-images/241a43b87a___media_library_original_600_400.jpg 600w, https://cimg.co/news/62726/32536/responsive-images/241a43b87a___media_library_original_300_200.jpg 300w" width="900"/><figcaption>Source: Adobe/noskaphoto</figcaption></figure><p><i>Francesca Caselli is an economist in the World Economic Studies Division of the I<strong>nternational Monetary Fund</strong> (IMF) Research Department. Prachi Mishra is an Advisor in the Research Department at the IMF.</i></p><p>_____</p><p>The economic recovery has fueled a rapid acceleration in inflation this year for advanced and emerging market economies, driven by firming demand, supply shortages, and rapidly rising commodity prices.</p><p>We <a href="https://www.imf.org/en/Publications/WEO/Issues/2021/10/12/world-economic-outlook-october-2021/#Chapters" rel="noopener" target="_blank">forecast </a>in our latest World Economic Outlook that higher inflation will likely continue in the coming months before returning to pre-pandemic levels by mid-2022, though risks of acceleration do remain.</p><p>The good news for policymakers is that long-term inflation expectations are well anchored, but economists still disagree about how enduring the upward pressure for prices will ultimately be.</p><p>Some have said government stimulus may push unemployment rates low enough to boost wages and overheat economies, possibly de-anchoring expectations and resulting in a self-fulfilling inflation spiral. Others estimate that pressures will ultimately be transitory as a one-time surge in spending fades.</p><h2><strong>Inflation dynamics and recovering demand</strong></h2><p>We examine if headline consumer price index inflation has moved in line with unemployment. Although the pandemic period poses many challenges to estimating this relationship, the unprecedented disturbance doesn’t seem to have substantially altered this relationship.</p><div class="dslot row mb-20" did="5">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/970x250.jpg" width=""/>
+</div><p>Advanced economies are likely to face moderate near-term inflation pressure, with the impact softening over time. Estimates of the relationship between <a href="https://www.ecb.europa.eu/explainers/tell-me-more/html/what-is-economic-slack.en.html" rel="noopener" target="_blank">slack</a>, the amount of resources in an economy that aren’t being used, and inflation for emerging markets instead seem to be more sensitive to the inclusion of the pandemic period in the estimation sample.</p><h2><strong>Anchoring expectations</strong></h2><p>Inflation during the pandemic has been well anchored, according to measures of long-term expectations known as breakevens drawn from government bonds in 14 nations. These closely watched gauges have been stable so far during both the crisis and the recovery, though uncertainty about the outlook remains.</p><p>A key question is what combination of conditions could cause a persistent spike in inflation, including the possibility that expectations become unanchored and help spark a self-fulfilling upward spiral for prices.</p><p>Such episodes in the past have been associated with sharp exchange-rate depreciation in emerging markets and have often followed surging fiscal and current account deficits. Longer-term government spending commitments and external shocks could also contribute to expectations becoming de-anchored, especially in economies with central banks that aren’t believed to be able or willing to contain inflation.</p><p>Moreover, even when expectations are well anchored, a prolonged overshoot of the inflation target that policymakers have set could cause a de-anchoring of expectations.</p><h2><strong>Sectoral shocks</strong></h2><p>The pandemic has triggered large price movements in some sectors, notably food, transportation, clothing, and communications. Strikingly, the dispersion or variability in prices across sectors has so far remained relatively subdued by recent historical standards, especially compared with the global financial crisis. The reason is relatively smaller and shorter-lived swings in fuel, food, and housing prices post the pandemic, which are the three largest components of consumption baskets, on average.</p><figure class="image"><a href="https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-1-1024x1016.png" rel="noopener" target="_blank"><img alt="" class="lazyload" data-src="https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-1.png" data-srcset="https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-1-66x66.png 66w, https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-1-150x150.png 150w, https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-1-200x198.png 200w, https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-1-300x298.png 300w, https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-1-400x397.png 400w, https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-1-600x595.png 600w, https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-1-768x762.png 768w, https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-1-800x794.png 800w, https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-1-1024x1016.png 1024w, https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-1-1200x1191.png 1200w, https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-1.png 1300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="665"/></a></figure><p>Our forecast is that annual inflation in advanced economies will peak at 3.6% on average in the final months of this year before reverting in the first half of 2022 to 2%, in line with central bank targets. Emerging markets will see faster increases, reaching 6.8% on average then easing to 4%.</p><p>The projections, however, come with considerable uncertainty, and inflation may be elevated for longer. Contributing factors could include surging housing costs and prolonged supply shortages in advanced and developing economies, or food-price pressure and currency depreciations in emerging markets.</p><p>Food prices around the world jumped by about <a href="http://www.fao.org/worldfoodsituation/foodpricesindex/en/" rel="noopener" target="_blank">40% </a>during the pandemic, an especially acute challenge for low-income countries where such purchases make up a big share of consumer spending.</p><p>Simulations of several extreme risk scenarios show prices could rise significantly faster on continued supply chain disruptions, large commodity price swings, and a de-anchoring of expectations.</p><figure class="image"><a href="https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-2-1024x936.png" rel="noopener" target="_blank"><img alt="" class="lazyload" data-src="https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-2.png" data-srcset="https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-2-200x183.png 200w, https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-2-300x274.png 300w, https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-2-400x366.png 400w, https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-2-600x548.png 600w, https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-2-768x702.png 768w, https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-2-800x731.png 800w, https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-2-1024x936.png 1024w, https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-2-1200x1097.png 1200w, https://blogs.imf.org/wp-content/uploads/2021/10/eng-weo-chp-2-sept-28-chart-2.png 1300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="671"/></a></figure><h2><strong>Policy implications</strong></h2><p>When expectations become de-anchored, inflation can quickly take off and be costly to rein back in. Ultimately, central bank policy credibility and price expectations are difficult to precisely define, and any assessment of anchoring can’t be decided entirely based on relationships in historical data.</p><p>Policymakers therefore must walk a fine line between remaining patient in their support for the recovery and being ready to act quickly. Even more importantly, they must establish sound monetary frameworks, including triggers for when they would reduce support for the economy to rein in unwelcome inflation.</p><p>These thresholds for action could include early signs of de-anchoring inflation expectations, including forward-looking surveys, unsustainable fiscal and current account balances, or sharp currency swings.</p><p>Case studies show that while strong policy action has often tamed inflation and expectations for it, sound and credible central bank communication also played an especially crucial role in anchoring views. Authorities must be alert to triggers for a perfect storm of price risks that could be individually benign but when combined may lead to significantly more rapid increases than predicted in the IMF’s forecasts.</p><p>Finally, a key feature of the outlook is that there are significant differences across different economies. Faster inflation in the United States, for example, is projected to help drive the acceleration for advanced economies, though pressures in the euro area and Japan are estimated to remain relatively weak.<br/>___<br/><br/><i>This article has been republished from </i><a href="https://blogs.imf.org/" rel="noopener" target="_blank"><i>blogs.imf.org</i></a><i>.</i><br/><strong>___</strong><br/><strong>Learn more:</strong><br/>- <a href="/exclusives/bitcoin-inflation-maturing-into-a-real-asset-11070.htm" rel="noopener" target="_blank">Bitcoin &amp; Inflation: Maturing Into A Real Asset</a><br/>- <a href="/exclusives/how-bitcoin-crypto-might-help-ease-wealth-inequality-without-miracles.htm" rel="noopener" target="_blank">How Bitcoin &amp; Crypto Might Help Ease Wealth Inequality (Without Miracles)</a><br/><br/>- <a href="/exclusives/how-traditional-finance-world-could-cause-traditional-global-financial-crisis.htm" rel="noopener" target="_blank">How Traditional Finance World Could Cause Traditional Global Financial Crisis</a><br/>- <a href="/news/bitcoin-price-to-face-another-test-as-central-banks-eye-rate-hikes.htm" rel="noopener" target="_blank">Bitcoin Price to Face Another Test as Central Banks Eye Rate Hikes</a><br/><br/>- <a href="/exclusives/rising-inflation-unless-uk-acts-now-it-will-not-be-temporary.htm" rel="noopener" target="_blank">Rising Inflation: Unless UK Acts Now, It Will Not Be Temporary</a><br/>- <a href="/exclusives/inflation-might-keep-rising-in-2021-but-what-happens-next-10585.htm" rel="noopener" target="_blank"><u>Inflation Might Keep Rising in 2021 - But What Happens Next?</u></a></p>
+<div class="mb-15 text-right">
+</div>
+<div class="dslot" did="12">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/970x90.jpg" width=""/>
+</div> </div>
+<div class="modal__content text-white">
+</div>
+<div class="row mt-10 mb-10">
+<div class="col-6">
+<div class="fs-12">
+<time datetime="2021-10-15T20:00:00+00:00">
+                                            Oct 15, 2021 4:00 PM EDT
+                                        </time>
+</div>
+</div>
+<div class="col-6 text-right">
+</div>
+</div>
+<hr/>
+<div class="align-self-end mt-5">
+<div class="article-tag-box text-lg-right">
+</div>
+</div>
+</div>
+</div>
+</main>
+<div class="col-12 offset-lg-1 col-lg-3">
+<div class="dslot d-none d-lg-block mb-40" did="6" style="min-height:600px;">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/300x600.jpg" width=""/>
+</div>
+<h3 class="mb-20">Recommended</h3>
+<div class="mb-40 col-lg-60">
+<div class="row" id="load_more_target">
+<div class="col-6 col-md-4 col-lg-12"><article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/researchers-deploy-ai-uncover-crypto-giveaway-scam-schemes-twitter.htm">
+<div class="img-sized"><img alt="Researchers Deploy AI to Uncover Crypto Giveaway Scam Schemes on Twitter" class="img-fluid" loading="auto" src="https://cimg.co/news/122275/323512/scam-7503834-1280-media-l.jpg" srcset="https://cimg.co/news/122275/323512/responsive-images/scam-7503834-1280-media-l___media_library_original_1280_853.jpg 1280w, https://cimg.co/news/122275/323512/responsive-images/scam-7503834-1280-media-l___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/122275/323512/responsive-images/scam-7503834-1280-media-l___media_library_original_900_600.jpg 900w, https://cimg.co/news/122275/323512/responsive-images/scam-7503834-1280-media-l___media_library_original_720_480.jpg 720w, https://cimg.co/news/122275/323512/responsive-images/scam-7503834-1280-media-l___media_library_original_600_400.jpg 600w, https://cimg.co/news/122275/323512/responsive-images/scam-7503834-1280-media-l___media_library_original_300_200.jpg 300w" width="1280"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/technology-news/"> Technology News </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-08-12 16:00:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/researchers-deploy-ai-uncover-crypto-giveaway-scam-schemes-twitter.htm">
+<h4>Researchers Deploy AI to Uncover Crypto Giveaway Scam Schemes on Twitter</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-6 col-md-4 col-lg-12"><article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/rumors-sec-poised-to-approve-ethereum-futures-etf-after-crypto-prices-crash-ethbtc-bounces.htm">
+<div class="img-sized"><img alt="Rumors SEC Poised To Approve Ethereum Futures ETF - ETH/BTC Bounces After Crypto Crash" class="img-fluid" loading="auto" src="https://cimg.co/news/122743/324602/eth-btc-chart.jpg" srcset="https://cimg.co/news/122743/324602/responsive-images/eth-btc-chart___media_library_original_567_424.jpg 567w, https://cimg.co/news/122743/324602/responsive-images/eth-btc-chart___media_library_original_300_224.jpg 300w" width="567"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/ethereum-news/"> Ethereum News </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-08-17 23:48:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/rumors-sec-poised-to-approve-ethereum-futures-etf-after-crypto-prices-crash-ethbtc-bounces.htm">
+<h4>Rumors SEC Poised To Approve Ethereum Futures ETF - ETH/BTC Bounces After Crypto Crash</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-6 col-md-4 col-lg-12"><article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/defi-value-locked-reaches-nearly-42-billion-as-token-market-experiences-significant-growth-heres-latest.htm">
+<div class="img-sized"><img alt="DeFi Value Locked Reaches Nearly $42 Billion as Token Market Experiences Significant Growth – Here's the Latest" class="img-fluid" loading="auto" src="https://cimg.co/news/122363/323717/8c53f6a846.jpg" srcset="https://cimg.co/news/122363/323717/responsive-images/8c53f6a846___media_library_original_900_600.jpg 900w, https://cimg.co/news/122363/323717/responsive-images/8c53f6a846___media_library_original_720_480.jpg 720w, https://cimg.co/news/122363/323717/responsive-images/8c53f6a846___media_library_original_600_400.jpg 600w, https://cimg.co/news/122363/323717/responsive-images/8c53f6a846___media_library_original_300_200.jpg 300w" width="900"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/defi-news/"> DeFi News </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-08-14 13:00:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/defi-value-locked-reaches-nearly-42-billion-as-token-market-experiences-significant-growth-heres-latest.htm">
+<h4>DeFi Value Locked Reaches Nearly $42 Billion as Token Market Experiences Significant Growth – Here's the Latest</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+<div class="dslot mb-40 d-none d-lg-block" did="7">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/300x250-mobile.jpg" width=""/>
+</div>
+<div class="dslot d-lg-none" did="8">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/468x60.png" width=""/>
+</div>
+<div class="d-none d-lg-block">
+<h3 class="mb-20">Latest news</h3>
+<div class="mb-30">
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/chainlink-price-prediction-as-200-million-trading-volume-comes-are-whales-buying.htm">
+<div class="small-image-list img-sized"><img alt="Chainlink Price Prediction as $200 Million Trading Volume Comes In – Are Whales Buying?" class="" loading="auto" src="https://cimg.co/news/124415/328452/chainlink-price-predictio.jpg" srcset="https://cimg.co/news/124415/328452/responsive-images/chainlink-price-predictio___media_library_original_3708_2292.jpg 3708w, https://cimg.co/news/124415/328452/responsive-images/chainlink-price-predictio___media_library_original_1200_742.jpg 1200w, https://cimg.co/news/124415/328452/responsive-images/chainlink-price-predictio___media_library_original_900_556.jpg 900w, https://cimg.co/news/124415/328452/responsive-images/chainlink-price-predictio___media_library_original_720_445.jpg 720w, https://cimg.co/news/124415/328452/responsive-images/chainlink-price-predictio___media_library_original_600_371.jpg 600w, https://cimg.co/news/124415/328452/responsive-images/chainlink-price-predictio___media_library_original_300_185.jpg 300w" width="3708"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/price-predictions/"> Price Predictions </a> <div class="article__badge-date" data-utctime="2023-09-07 13:24:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/chainlink-price-prediction-as-200-million-trading-volume-comes-are-whales-buying.htm">
+                Chainlink Price Prediction as $200 Million Trading Volume Comes In – Are Whales Buying?
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/new-report-cryptos-rich-list-boasts-22-billionaires-88000-of-millionaires.htm">
+<div class="small-image-list img-sized"><img alt="New Report: Crypto's Rich List Boasts 22 Billionaires and 88,000 of Millionaires" class="" loading="auto" src="https://cimg.co/news/124414/328413/money-g860b04e73-1280-med.jpg" srcset="https://cimg.co/news/124414/328413/responsive-images/money-g860b04e73-1280-med___media_library_original_1280_853.jpg 1280w, https://cimg.co/news/124414/328413/responsive-images/money-g860b04e73-1280-med___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/124414/328413/responsive-images/money-g860b04e73-1280-med___media_library_original_900_600.jpg 900w, https://cimg.co/news/124414/328413/responsive-images/money-g860b04e73-1280-med___media_library_original_720_480.jpg 720w, https://cimg.co/news/124414/328413/responsive-images/money-g860b04e73-1280-med___media_library_original_600_400.jpg 600w, https://cimg.co/news/124414/328413/responsive-images/money-g860b04e73-1280-med___media_library_original_300_200.jpg 300w" width="1280"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/altcoin-news/"> Altcoin News </a> <div class="article__badge-date" data-utctime="2023-09-07 13:00:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/new-report-cryptos-rich-list-boasts-22-billionaires-88000-of-millionaires.htm">
+                New Report: Crypto's Rich List Boasts 22 Billionaires and 88,000 of Millionaires
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/x2-token-blasts-up-14000-after-going-viral-crypto-analysts-say-crypto-next-100x-potential.htm">
+<div class="small-image-list img-sized"><img alt="X2 Token Blasts Up 14,000% Before Dramatic Rug-Pull and Crypto Analysts Say This Crypto is Next to Explode – 100x Potential?" class="" loading="auto" src="https://cimg.co/news/124380/328438/image.jpg" srcset="https://cimg.co/news/124380/328438/responsive-images/image___media_library_original_1280_853.jpg 1280w, https://cimg.co/news/124380/328438/responsive-images/image___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/124380/328438/responsive-images/image___media_library_original_900_600.jpg 900w, https://cimg.co/news/124380/328438/responsive-images/image___media_library_original_720_480.jpg 720w, https://cimg.co/news/124380/328438/responsive-images/image___media_library_original_600_400.jpg 600w, https://cimg.co/news/124380/328438/responsive-images/image___media_library_original_300_200.jpg 300w" width="1280"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/industry-talk/"> Industry Talk </a> <div class="article__badge-date" data-utctime="2023-09-07 12:54:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/x2-token-blasts-up-14000-after-going-viral-crypto-analysts-say-crypto-next-100x-potential.htm">
+                X2 Token Blasts Up 14,000% Before Dramatic Rug-Pull and Crypto Analysts Say This Crypto is Next to Explode – 100x Potential?
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/binance-coin-price-prediction-as-bnb-overtakes-xrp-become-5th-largest-coin-world-can-bnb-reach-1000.htm">
+<div class="small-image-list img-sized"><img alt="Binance Coin Price Prediction as BNB Overtakes XRP to Become 5th Largest Coin in the World – Can BNB Reach $1,000?" class="" loading="auto" src="https://cimg.co/news/124409/328412/binance-coin-price-predic.jpg" srcset="https://cimg.co/news/124409/328412/responsive-images/binance-coin-price-predic___media_library_original_3708_2292.jpg 3708w, https://cimg.co/news/124409/328412/responsive-images/binance-coin-price-predic___media_library_original_1200_742.jpg 1200w, https://cimg.co/news/124409/328412/responsive-images/binance-coin-price-predic___media_library_original_900_556.jpg 900w, https://cimg.co/news/124409/328412/responsive-images/binance-coin-price-predic___media_library_original_720_445.jpg 720w, https://cimg.co/news/124409/328412/responsive-images/binance-coin-price-predic___media_library_original_600_371.jpg 600w, https://cimg.co/news/124409/328412/responsive-images/binance-coin-price-predic___media_library_original_300_185.jpg 300w" width="3708"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/price-predictions/"> Price Predictions </a> <div class="article__badge-date" data-utctime="2023-09-07 12:40:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/binance-coin-price-prediction-as-bnb-overtakes-xrp-become-5th-largest-coin-world-can-bnb-reach-1000.htm">
+                Binance Coin Price Prediction as BNB Overtakes XRP to Become 5th Largest Coin in the World – Can BNB Reach $1,000?
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/tornado-cash-co-founder-roman-storm-maintains-innocence-in-money-laundering-case-heres-the-latest.htm">
+<div class="small-image-list img-sized"><img alt="Tornado Cash Co-Founder Roman Storm Maintains Innocence in Money Laundering Case – Here's the Latest" class="" loading="auto" src="https://cimg.co/news/124413/328407/handcuffs.jpeg" srcset="https://cimg.co/news/124413/328407/responsive-images/handcuffs___media_library_original_1815_1208.jpeg 1815w, https://cimg.co/news/124413/328407/responsive-images/handcuffs___media_library_original_1200_799.jpeg 1200w, https://cimg.co/news/124413/328407/responsive-images/handcuffs___media_library_original_900_599.jpeg 900w, https://cimg.co/news/124413/328407/responsive-images/handcuffs___media_library_original_720_479.jpeg 720w, https://cimg.co/news/124413/328407/responsive-images/handcuffs___media_library_original_600_399.jpeg 600w, https://cimg.co/news/124413/328407/responsive-images/handcuffs___media_library_original_300_200.jpeg 300w" width="1815"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/ethereum-news/"> Ethereum News </a> <div class="article__badge-date" data-utctime="2023-09-07 12:31:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/tornado-cash-co-founder-roman-storm-maintains-innocence-in-money-laundering-case-heres-the-latest.htm">
+                Tornado Cash Co-Founder Roman Storm Maintains Innocence in Money Laundering Case – Here's the Latest
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/xrp-price-prediction-as-bears-push-xrp-below-050-support-time-buy-dip.htm">
+<div class="small-image-list img-sized"><img alt="XRP Price Prediction as Bears Push XRP Below $0.50 Support – Time to Buy the Dip?" class="" loading="auto" src="https://cimg.co/news/124386/328386/xrp-price-prediction-as-b.jpg" srcset="https://cimg.co/news/124386/328386/responsive-images/xrp-price-prediction-as-b___media_library_original_3708_2292.jpg 3708w, https://cimg.co/news/124386/328386/responsive-images/xrp-price-prediction-as-b___media_library_original_1200_742.jpg 1200w, https://cimg.co/news/124386/328386/responsive-images/xrp-price-prediction-as-b___media_library_original_900_556.jpg 900w, https://cimg.co/news/124386/328386/responsive-images/xrp-price-prediction-as-b___media_library_original_720_445.jpg 720w, https://cimg.co/news/124386/328386/responsive-images/xrp-price-prediction-as-b___media_library_original_600_371.jpg 600w, https://cimg.co/news/124386/328386/responsive-images/xrp-price-prediction-as-b___media_library_original_300_185.jpg 300w" width="3708"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/price-predictions/"> Price Predictions </a> <div class="article__badge-date" data-utctime="2023-09-07 12:00:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/xrp-price-prediction-as-bears-push-xrp-below-050-support-time-buy-dip.htm">
+                XRP Price Prediction as Bears Push XRP Below $0.50 Support – Time to Buy the Dip?
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/it-too-late-buy-kaspa-kas-price-blasts-up-16-lpx-token-surges-past-16-million.htm">
+<div class="small-image-list img-sized"><img alt="Is It Too Late to Buy Kaspa? KAS Price Blasts Up 16% and LPX Token Surges Past $1.6 Million" class="" loading="auto" src="https://cimg.co/news/124392/328380/image.jpg" srcset="https://cimg.co/news/124392/328380/responsive-images/image___media_library_original_1280_853.jpg 1280w, https://cimg.co/news/124392/328380/responsive-images/image___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/124392/328380/responsive-images/image___media_library_original_900_600.jpg 900w, https://cimg.co/news/124392/328380/responsive-images/image___media_library_original_720_480.jpg 720w, https://cimg.co/news/124392/328380/responsive-images/image___media_library_original_600_400.jpg 600w, https://cimg.co/news/124392/328380/responsive-images/image___media_library_original_300_200.jpg 300w" width="1280"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/industry-talk/"> Industry Talk </a> <div class="article__badge-date" data-utctime="2023-09-07 11:33:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/it-too-late-buy-kaspa-kas-price-blasts-up-16-lpx-token-surges-past-16-million.htm">
+                Is It Too Late to Buy Kaspa? KAS Price Blasts Up 16% and LPX Token Surges Past $1.6 Million
+            </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="pt-60 pb-20 pb-md-40 pb-md-60">
+<h3 class="mb-20">Similar News</h3>
+<div class="row">
+<div class="col-12 col-sm-6 col-lg-4 col-xl-3"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/exclusives/crypto-is-losing-the-sense-of-rarity-does-it-matter.htm">
+<div class="img-sized"><img alt="Crypto is Losing the Sense of Rarity: Does It Matter?" class="img-fluid" loading="auto" src="https://cimg.co/news/114054/275878/adobestock-pixel-shot-1.jpeg" srcset="https://cimg.co/news/114054/275878/responsive-images/adobestock-pixel-shot-1___media_library_original_2016_1344.jpeg 2016w, https://cimg.co/news/114054/275878/responsive-images/adobestock-pixel-shot-1___media_library_original_1200_800.jpeg 1200w, https://cimg.co/news/114054/275878/responsive-images/adobestock-pixel-shot-1___media_library_original_900_600.jpeg 900w, https://cimg.co/news/114054/275878/responsive-images/adobestock-pixel-shot-1___media_library_original_720_480.jpeg 720w, https://cimg.co/news/114054/275878/responsive-images/adobestock-pixel-shot-1___media_library_original_600_400.jpeg 600w, https://cimg.co/news/114054/275878/responsive-images/adobestock-pixel-shot-1___media_library_original_300_200.jpeg 300w" width="2016"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/exclusives/opinions/"> Opinions </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-05-21 10:00:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/exclusives/crypto-is-losing-the-sense-of-rarity-does-it-matter.htm">
+<h4>Crypto is Losing the Sense of Rarity: Does It Matter?</h4>
+</a>
+</div>
+</div>
+</article>
+</div><div class="col-12 col-sm-6 col-lg-4 col-xl-3"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/exclusives/think-like-hacker-opsec-tips-ensure-crypto-security.htm">
+<div class="img-sized"><img alt="Think Like a Hacker: OPSEC Tips To Ensure Crypto Security" class="img-fluid" loading="auto" src="https://cimg.co/news/112252/271396/adobestock-weerasak-1.jpeg" srcset="https://cimg.co/news/112252/271396/responsive-images/adobestock-weerasak-1___media_library_original_1650_1101.jpeg 1650w, https://cimg.co/news/112252/271396/responsive-images/adobestock-weerasak-1___media_library_original_1200_801.jpeg 1200w, https://cimg.co/news/112252/271396/responsive-images/adobestock-weerasak-1___media_library_original_900_601.jpeg 900w, https://cimg.co/news/112252/271396/responsive-images/adobestock-weerasak-1___media_library_original_720_480.jpeg 720w, https://cimg.co/news/112252/271396/responsive-images/adobestock-weerasak-1___media_library_original_600_400.jpeg 600w, https://cimg.co/news/112252/271396/responsive-images/adobestock-weerasak-1___media_library_original_300_200.jpeg 300w" width="1650"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/exclusives/opinions/"> Opinions </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-04-30 10:00:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/exclusives/think-like-hacker-opsec-tips-ensure-crypto-security.htm">
+<h4>Think Like a Hacker: OPSEC Tips To Ensure Crypto Security</h4>
+</a>
+</div>
+</div>
+</article>
+</div><div class="col-12 col-sm-6 col-lg-4 col-xl-3"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/exclusives/how-utility-nfts-will-drive-mainstream-web3-adoption.htm">
+<div class="img-sized"><img alt="How Utility NFTs Will Drive Mainstream Web3 Adoption" class="img-fluid" loading="auto" src="https://cimg.co/news/109790/266052/adobestock-denisismagilov-1.jpeg" srcset="https://cimg.co/news/109790/266052/responsive-images/adobestock-denisismagilov-1___media_library_original_1350_900.jpeg 1350w, https://cimg.co/news/109790/266052/responsive-images/adobestock-denisismagilov-1___media_library_original_1200_800.jpeg 1200w, https://cimg.co/news/109790/266052/responsive-images/adobestock-denisismagilov-1___media_library_original_900_600.jpeg 900w, https://cimg.co/news/109790/266052/responsive-images/adobestock-denisismagilov-1___media_library_original_720_480.jpeg 720w, https://cimg.co/news/109790/266052/responsive-images/adobestock-denisismagilov-1___media_library_original_600_400.jpeg 600w, https://cimg.co/news/109790/266052/responsive-images/adobestock-denisismagilov-1___media_library_original_300_200.jpeg 300w" width="1350"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/exclusives/opinions/"> Opinions </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-04-09 10:00:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/exclusives/how-utility-nfts-will-drive-mainstream-web3-adoption.htm">
+<h4>How Utility NFTs Will Drive Mainstream Web3 Adoption</h4>
+</a>
+</div>
+</div>
+</article>
+</div><div class="col-12 col-sm-6 col-lg-4 col-xl-3"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/exclusives/everstake-ceo-many-delegators-fail-to-understand-what-staking-is-and-it-may-lead-to-trouble.htm">
+<div class="img-sized"><img alt="Everstake CEO: Many Delegators Fail to Understand What Staking Is - And It May Lead to Trouble" class="img-fluid" loading="auto" src="https://cimg.co/news/109147/264785/adobestock-unitas-photogr.jpeg" srcset="https://cimg.co/news/109147/264785/responsive-images/adobestock-unitas-photogr___media_library_original_1095_730.jpeg 1095w, https://cimg.co/news/109147/264785/responsive-images/adobestock-unitas-photogr___media_library_original_900_600.jpeg 900w, https://cimg.co/news/109147/264785/responsive-images/adobestock-unitas-photogr___media_library_original_720_480.jpeg 720w, https://cimg.co/news/109147/264785/responsive-images/adobestock-unitas-photogr___media_library_original_600_400.jpeg 600w, https://cimg.co/news/109147/264785/responsive-images/adobestock-unitas-photogr___media_library_original_300_200.jpeg 300w" width="1095"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/exclusives/opinions/"> Opinions </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-04-02 10:00:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/exclusives/everstake-ceo-many-delegators-fail-to-understand-what-staking-is-and-it-may-lead-to-trouble.htm">
+<h4>Everstake CEO: Many Delegators Fail to Understand What Staking Is - And It May Lead to Trouble</h4>
+</a>
+</div>
+</div>
+</article>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

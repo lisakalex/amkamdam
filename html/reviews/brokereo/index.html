@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/brokereo/">Brokereo</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="5fc7f0942adfa.png" class="img-fluid img-circle author__image author__image--has-bg mb-15" loading="auto" src="https://cimg.co/reviewlogo/62/5fc7f0942adfa.png"/>
+<div>
+<a class="c-black" href="#"><b>Brokereo</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/brokereo" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+<div class="fs-12">74-89% of retail investor accounts lose money when trading CFDs.</div>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="brokereo"> Brokereo</h1>
+<p>Brokereo is a new trading platform offering access to cryptocurrency CFD trading, but also commodities, shares, indices, metals, and forex trading CFDs. This means fewer trading pair choices within the cryptocurrency space, but many more advanced trading options in general, not to mention being exposed to a wide variety of asset classes. The broker is especially attractive for more serious traders, as they charge no dealer commissions. Additionally, traders of the Islamic faith can rest assured their trades are halal-friendly if they are willing to go with an Islamic trading plan, which excludes interest and hidden fees.</p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/brokereo" target="_blank">Brokereo</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://www.brokereo.com/en/contactus" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>Cyprus</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>0.0 BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>Yes</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>No</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>Concorde Investments Ltd</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+                                                                                                                                                        Bank Transfer,
+                                                                                                                                                                                                                                        Credit Card,
+                                                                                                                                                                                                                                        Debit Card,
+                                                                                                                                            </b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>USD, EUR, GBP</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>350</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>-</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>Medium (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+<li>Wide selection of tradable assets Islamic plans available Professional trading accounts if prerequisites are met CySEC regulated</li> </ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+<li>You do not own the underlying asset when you trade Hefty inactivity fees The account tiers can be unfriendly towards small traders Only EEA countries accepted</li> </ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/39657/14857/5fc918cdc3e51.jpg" srcset="https://cimg.co/review/39657/14857/responsive-images/5fc918cdc3e51___media_library_original_1600_692.jpg 1600w, https://cimg.co/review/39657/14857/responsive-images/5fc918cdc3e51___media_library_original_1200_519.jpg 1200w, https://cimg.co/review/39657/14857/responsive-images/5fc918cdc3e51___media_library_original_900_389.jpg 900w, https://cimg.co/review/39657/14857/responsive-images/5fc918cdc3e51___media_library_original_720_311.jpg 720w, https://cimg.co/review/39657/14857/responsive-images/5fc918cdc3e51___media_library_original_600_259.jpg 600w, https://cimg.co/review/39657/14857/responsive-images/5fc918cdc3e51___media_library_original_300_129.jpg 300w" width="1600"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/39657/14858/5fc918ce13c8c.jpg" data-srcset="https://cimg.co/review/39657/14858/responsive-images/5fc918ce13c8c___media_library_original_1874_837.jpg 1874w, https://cimg.co/review/39657/14858/responsive-images/5fc918ce13c8c___media_library_original_1200_535.jpg 1200w, https://cimg.co/review/39657/14858/responsive-images/5fc918ce13c8c___media_library_original_900_401.jpg 900w, https://cimg.co/review/39657/14858/responsive-images/5fc918ce13c8c___media_library_original_720_321.jpg 720w, https://cimg.co/review/39657/14858/responsive-images/5fc918ce13c8c___media_library_original_600_267.jpg 600w, https://cimg.co/review/39657/14858/responsive-images/5fc918ce13c8c___media_library_original_300_133.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1874"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/39657/14859/5fc918ce5befc.jpg" data-srcset="https://cimg.co/review/39657/14859/responsive-images/5fc918ce5befc___media_library_original_1621_681.jpg 1621w, https://cimg.co/review/39657/14859/responsive-images/5fc918ce5befc___media_library_original_1200_504.jpg 1200w, https://cimg.co/review/39657/14859/responsive-images/5fc918ce5befc___media_library_original_900_378.jpg 900w, https://cimg.co/review/39657/14859/responsive-images/5fc918ce5befc___media_library_original_720_302.jpg 720w, https://cimg.co/review/39657/14859/responsive-images/5fc918ce5befc___media_library_original_600_252.jpg 600w, https://cimg.co/review/39657/14859/responsive-images/5fc918ce5befc___media_library_original_300_126.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1621"/></div>
+</div>
+</div><h2>Brokereo Review: Key Features</h2><figure class="image"><img alt="brokereo review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5fc/8fc695ab56.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5fc/8fc695ab56.jpg 300w, https://cimg.co/w/rw-attachments/2/5fc/8fc695ab56.jpg 600w, https://cimg.co/w/rw-attachments/3/5fc/8fc695ab56.jpg 720w, https://cimg.co/w/rw-attachments/4/5fc/8fc695ab56.jpg 900w, https://cimg.co/w/rw-attachments/0/5fc/8fc695ab56.jpg 1874w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Brokereo is a relatively new player in the CFDs trading market, but its team is certainly not inexperienced. Their current offer displays that they are looking to become a steady, trustworthy, and powerful presence in the trading world.</p><p>Some other important perks of Brokereo include:</p><ul><li><strong>Ability to trade more than 300 CFDs,</strong> including crypto assets, stocks, forex, commodities, top indices, and more.</li><li><strong>Robust regulatory compliance measures</strong> guaranteed by the financial authorities in Cyprus, which are especially customer-friendly, even preventing users from going into a negative balance.</li><li><strong>Brokereo education section</strong> helps newcomers learn the ins-and-outs of trading from a theoretical standpoint, with courses and tutorials aside from articles and guides.</li><li><strong>MetaTrader 4 engine</strong>, also widely used within the industry, is the background to their trading interface, meaning you get access to all their tools and advantages no matter which device you’re using.</li><li><strong>Islamic trading plans</strong> mean that religious traders can rest assured their trades are halal, as these plans include no interest or hidden fees.</li><li><strong>Brokereo affiliates program</strong> lets you earn money by advertising the platform and referring people to it.</li><li><strong>Excellent and trusty customer support</strong> that can help you with any issue you might have.</li></ul><figure class="image"><img alt="brokereo review key features" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5fc/917f0383e6.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5fc/917f0383e6.jpg 300w, https://cimg.co/w/rw-attachments/2/5fc/917f0383e6.jpg 600w, https://cimg.co/w/rw-attachments/3/5fc/917f0383e6.jpg 720w, https://cimg.co/w/rw-attachments/4/5fc/917f0383e6.jpg 900w, https://cimg.co/w/rw-attachments/0/5fc/917f0383e6.jpg 1036w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>All in all, Brokereo is a great option for starting traders looking for a new, competitive, and reliable CFDs broker for their daily trading activities.</p><h2>Brokereo History and Background</h2><p>Brokereo is a new online trading platform, launched in November 2020. Since they’re so new, little is known about their team and background, except that Brokereo’s parent company is Concorde Investments (Cyprus) Ltd. They’re regulated to operate within EEA members, including all EU member states, plus Iceland, Liechtenstein, and Norway. Missing from their accepted countries list is the United States, due to regulatory restrictions that are out of their control—in other words, US citizens cannot trade non-US assets with online brokerages that do not have a CFTC license.</p><figure class="image"><img alt="Brokereo educational resources" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5fc/918b14f3fb.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5fc/918b14f3fb.jpg 300w, https://cimg.co/w/rw-attachments/2/5fc/918b14f3fb.jpg 600w, https://cimg.co/w/rw-attachments/3/5fc/918b14f3fb.jpg 720w, https://cimg.co/w/rw-attachments/4/5fc/918b14f3fb.jpg 900w, https://cimg.co/w/rw-attachments/0/5fc/918b14f3fb.jpg 1568w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h3>Brokereo Account Tiers</h3><p>Brokereo offers three account tiers, according to the trader’s skills and expectations:</p><ul><li><strong>Silver:</strong> meant for beginner traders, the account type requires the minimum deposit amount of EUR 250, the spreads start from 1.0, the maximum forex leverage for professional clients is 1:500. Plus, users get access to all 300+ CFD assets, 24/5 support without being charged a commission.</li><li><strong>Gold:</strong> account type is suited towards experienced traders who are not professionals, and to the same offer from the Silver plan adds a 25% swap discount, spreads starting from 0.4, forex leverage up to 1:500, and a dedicated account manager.</li><li><strong>Platinum:</strong> the account type curated for traders considering themselves close to professionals improves the swap discount to 50% and includes spreads starting from 0.3, while the rest of the offer is in line with the Gold account.</li></ul><p>Asides from that, Brokereo also offers Islamic accounts with each plan. Due to the religion’s rules that forbid charging interest, Brokereo promises no hidden costs or re-quotes, no interests or swap charges on overnight positions, no time limit for holding positions, no spread widening no upfront commissions. Other than that, Islamic accounts will share the same trading conditions as other trading accounts.</p><p>There is an additional account tier only available to professional clients, and it comes without the protective restrictions and limitations applicable to the retail accounts. It also includes additional functions and features separate from the other tiers. To qualify for this account, prospective traders need to prove they meet two of three requirements:</p><ol><li><strong>Trading volume:</strong> they must be able to prove they’ve carried out large transactions over the previous four quarters with at least 10 transactions per quarter.</li><li><strong>Market expertise:</strong> they can prove they’ve worked within the financial sector for at least a year in a professional capacity.</li><li><strong>Financial status:</strong> they can show that their financial instrument portfolio exceeds EUR 500,000.</li></ol><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/brokereo" rel="noindex nofollow" target="_blank">Open Free Account</a><br/><span class="fs-12">74-89% of retail investor accounts lose money when trading CFDs.</span></p><h2>Brokereo Fees</h2><p>Brokereo does not charge any dealer commissions — instead, they collect money through the spread and the overnight swap fee as part of their business model.</p><p>As with many CFD brokerages, Brokereo calculates its spreads with the following formula:</p><p><i><strong>Spread Calculation Formula = Lots * Contract Size * Spread</strong></i></p><p>For example:</p><figure class="image"><img alt="Brokereo spreads" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/600/03ec258c3d.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/600/03ec258c3d.jpg 300w, https://cimg.co/w/rw-attachments/2/600/03ec258c3d.jpg 600w, https://cimg.co/w/rw-attachments/3/600/03ec258c3d.jpg 720w, https://cimg.co/w/rw-attachments/4/600/03ec258c3d.jpg 900w, https://cimg.co/w/rw-attachments/0/600/03ec258c3d.jpg 799w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><ul><li><strong>Spread amount</strong> = 0.01 * 100,000 * 0.0003 = USD 0.30</li><li><strong>Note:</strong> Spread must be converted to trading account's currency (EUR)</li><li><strong>Conversion Rate of EURUSD</strong> = 1.09496</li><li><strong>Total Spread Amount</strong> = 0.30 / 1.09496 = EUR 0.27</li></ul><p>When it comes to Swap/Rollover fees, is calculated using the following formula:</p><p><i><strong>Swap Calculation Formula = (Lot Size) * (Number of days of open position) * (Swap Long/Short in Asset base currency)</strong></i></p><figure class="image"><img alt="Brokereo fees swap rollover" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/600/04000cde4b.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/600/04000cde4b.jpg 300w, https://cimg.co/w/rw-attachments/2/600/04000cde4b.jpg 600w, https://cimg.co/w/rw-attachments/3/600/04000cde4b.jpg 720w, https://cimg.co/w/rw-attachments/4/600/04000cde4b.jpg 900w, https://cimg.co/w/rw-attachments/0/600/04000cde4b.jpg 809w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>For example:</p><p><strong>Swap amount</strong> = 0.01 * -37.5 * 1 = USD 0.38<br/><strong>Note:</strong> Swap has to be converted to account's trading currency (EUR)<br/><strong>Conversion Rate of EURUSD</strong> = 1.09496<br/><strong>Swap Amount</strong> = 0.38 / 1.09496 = EUR 0.35</p><p>Overall, Brokereo bid/ask spreads go as low as 0.03, which can be considered as moderate, though they are different for every trading instrument. The latest swap/overnight rates can be found <a href="https://brokereo-fo-content.s3-eu-west-1.amazonaws.com/Content/Documents/swaps.pdf" rel="noopener" target="_blank">here</a>.</p><p>Besides, they have hefty inactivity fees that apply to trading accounts with no trading activity for over 60 days. They multiply according to the following inactivity fee schedule:</p><figure class="table"><table><tbody><tr><th>Inactivity Period</th><th>Monthly maintenance fee</th></tr><tr><th>61 to 90 days</th><th>80 EUR for each extra month maintenance</th></tr><tr><th>91 to 180 days</th><th>120 EUR for each extra month maintenance</th></tr><tr><th>181 to 270 days</th><th>200 EUR for each extra month maintenance</th></tr><tr><th>Over 271 days</th><th>500 EUR for each extra month maintenance</th></tr></tbody></table></figure><p>When it comes to deposits and withdrawals, these come <strong>free of charge</strong>.</p><h2>Brokereo Design and Usability</h2><figure class="image"><img alt="Brokereo review metatrader 4" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5fc/917db1b0c6.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5fc/917db1b0c6.jpg 300w, https://cimg.co/w/rw-attachments/2/5fc/917db1b0c6.jpg 600w, https://cimg.co/w/rw-attachments/3/5fc/917db1b0c6.jpg 720w, https://cimg.co/w/rw-attachments/4/5fc/917db1b0c6.jpg 900w, https://cimg.co/w/rw-attachments/0/5fc/917db1b0c6.jpg 1782w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Brokereo has a user interface that is easy on the eyes and intuitive to use. Opening an account is relatively straightforward, as it requires filling in your name, email address, phone number, address, and other personal information like employment status, the industry you’re working in, yearly salary, etc. The questionnaire is very detailed and asks quiz-like questions about your experience and knowledge in trading, like whether you understand what leverage is (and puts it to the test with a quick math question!)</p><p>Once you’ve signed up, you can choose from three trading interfaces: the WebTrader, the MetaTrader 4, and the mobile app. Of course, they all offer the same trading features, except that the MetaTrader 4 is a type of desktop software that offers customization, multifunctionality, plus a plethora of analytical objects. The browser-based trader is no downgrade either since it is also based on the MetaTrader 4: you can still customize your interface and get access to analytics, complete with visualizations to help you make informed choices quickly.</p><figure class="image"><img alt="Brokereo review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5fc/917b18f337.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5fc/917b18f337.jpg 300w, https://cimg.co/w/rw-attachments/2/5fc/917b18f337.jpg 600w, https://cimg.co/w/rw-attachments/3/5fc/917b18f337.jpg 720w, https://cimg.co/w/rw-attachments/4/5fc/917b18f337.jpg 900w, https://cimg.co/w/rw-attachments/0/5fc/917b18f337.jpg 1621w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>The mobile app (which synchronizes your account with the desktop and/or browser-based exchange) lets you trade wherever you are with its full set of trading tools. This means you won’t have to rush towards a PC to carry out a more complex trade — everything is available at your fingertips. On the other hand, asides from mobility and convenience, you don’t really gain anything exclusive with the mobile app.</p><p>The exchange offers a selection of different trading assets, aside from cryptocurrency CFDs: commodities, shares, indices, metals, and forex trading are all part of their offer. These are then combined with all the necessary advanced trading features. In terms of cryptocurrencies, they offer the following CFDs:</p><ul><li>Bitcoin</li><li>Ethereum</li><li>XRP</li><li>Litecoin</li><li>Dash</li><li>Ethereum Classic</li><li>Bitcoin Gold</li><li>Stellar</li><li>Cardano</li><li>Bitcoin Cash SV</li><li>IOTA</li><li>Lisk</li><li>NEO</li><li>QTUM</li><li>NEM</li><li>Zcash</li><li>Verge</li><li>Siacoin</li></ul><p>These trade against EUR, USD, and GBP. Perhaps surprisingly, some users consider this a poor selection, as many cryptocurrency exchanges offer vastly more trading pairs. However, it should be kept in mind that Brokereo’s focus is not just on cryptocurrency CFDs, meaning that users who want to be exposed to more traditional assets, including top stocks, commodities, and precious metals like gold and silver, indices, etc. As such, Brokereo actually has a wider selection than most other crypto trading platforms.</p><p>Another significant difference between Brokereo and other platforms is the use of CFDs, or contracts for differences, which work a lot like futures contracts in that they take advantage of the price changes without ever truly touching the underlying asset. Over time, this has proven a fruitful approach for more traditional traders who want to dip their toes into crypto but would rather not hold the volatile coins outright.</p><figure class="image"><img alt="Brokereo customer support" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5fc/91874773c7.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5fc/91874773c7.jpg 300w, https://cimg.co/w/rw-attachments/2/5fc/91874773c7.jpg 600w, https://cimg.co/w/rw-attachments/3/5fc/91874773c7.jpg 720w, https://cimg.co/w/rw-attachments/4/5fc/91874773c7.jpg 900w, https://cimg.co/w/rw-attachments/0/5fc/91874773c7.jpg 1577w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Brokereo’s customer support works only on weekdays, 08:00 to 17:00 GMT, through their phone number and live chat. You can still send them an email whenever you feel like it. Additionally, the platform offers a trusty ticket submission system for reaching out to them. The customer support hours are the same for every trading plan; in other words, there are no perks for having a better plan.</p><h2>Brokereo Security</h2><p>Since Brokereo is regulated by the Cyprus Securities and Exchange Commission (CySEC, the financial supervisory authority of Cyprus), they have a certain number of rules and restrictions in place for the sake of their customers. For example, customers are secured against a negative balance: the CySEC ensures that, as soon as your account balance runs out, your position is automatically closed, so you don’t accumulate debt to the broker. CySEC regulation also ensures an equalization fund in case Brokereo has to close for some reason.</p><p>As the platform only trades cryptocurrency CFDs, there is no need to store any coins in hot or cold storage (or anything in between). Users’ deposits and profits are kept completely separate from the broker’s business accounts (again, a perk of CySEC rules), and Brokereo is subject to regular audits to ensure compliance.</p><p>Brokereo has yet to be reviewed by external evaluators, so there is no professional review of the platform’s security as of the time of writing.</p><figure class="image"><img alt="Brokereo review 2021" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5fc/91825d7642.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5fc/91825d7642.jpg 300w, https://cimg.co/w/rw-attachments/2/5fc/91825d7642.jpg 600w, https://cimg.co/w/rw-attachments/3/5fc/91825d7642.jpg 720w, https://cimg.co/w/rw-attachments/4/5fc/91825d7642.jpg 900w, https://cimg.co/w/rw-attachments/0/5fc/91825d7642.jpg 1600w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h2>Brokereo Deposit and Withdrawal Methods</h2><p>Brokereo accepts credit cards, bank transfers, Neteller, and Skrill as payment methods. Unfortunately, their website does not provide information about deposit and withdrawal fees or times at this point.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/brokereo" rel="noindex nofollow" target="_blank">Visit Brokereo</a><br/><span class="fs-12">74-89% of retail investor accounts lose money when trading CFDs.</span></p><h2>Conclusion</h2><p>Brokereo is an excellent trading platform for more than just cryptocurrency CFDs, with a robust regulatory framework, backed by the CySEC, for even the most distrustful traders. With access to other tradable assets as well, every trader looking to diversify their portfolio can find what they’re looking for at Brokereo.</p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row mb-20"><div class="col-12">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/news/">News</a>
+<a href="/news/3-most-trending-cryptocurrency-coins-today-homer-simpson-aidoge-ai-sponge-sponge.htm">3 Most Trending Cryptocurrency Coins Today – Homer ($SIMPSON), AiDoge ($AI), Sponge ($SPONGE)</a>
+</div>
+</div></div>
+<div class="row">
+<main class="col-12 col-md-8">
+<div class="row">
+<div class="col-12 col-md-3 d-none d-md-block">
+<div class="d-none d-md-block mb-30 mt-60">
+<a href="/editors/jimmy-aki/">
+<img alt="Jimmy Aki" class="img-fluid img-circle author__image mb-15" loading="auto" src="https://v2.cimg.co/authors/814/jimmy-new.jpg" srcset="https://v2.cimg.co/authors/814/responsive-images/jimmy-new___media_library_original_1200_1200.jpg 1200w, https://v2.cimg.co/authors/814/responsive-images/jimmy-new___media_library_original_900_900.jpg 900w, https://v2.cimg.co/authors/814/responsive-images/jimmy-new___media_library_original_720_720.jpg 720w, https://v2.cimg.co/authors/814/responsive-images/jimmy-new___media_library_original_600_600.jpg 600w, https://v2.cimg.co/authors/814/responsive-images/jimmy-new___media_library_original_300_300.jpg 300w" width="1200"/>
+</a> <div>
+<a class="c-black" href="/editors/jimmy-aki/"><b>Jimmy Aki</b></a>
+</div>
+<div>
+<a class="c-text" href="/editors/jimmy-aki/">@jimmy-aki</a>
+</div>
+<div class="text-left mt-5">
+</div>
+</div>
+</div>
+<div class="col-12 col-md-9 mb-40">
+<div class="row mb-20">
+<div class="col-6">
+<div class="fs-12">
+<time datetime="2023-05-14T12:38:00+00:00">
+                                            May 14, 2023 5:38 AM EDT
+                                        </time>
+                                                                        · 4 min read</div>
+</div>
+<div class="col-6 text-right">
+</div>
+<div class="col-6 mt-20 d-md-none d-block">
+<div>
+<a class="c-black" href="/editors/jimmy-aki/"><b>Jimmy Aki</b></a>
+</div>
+<div>
+<a class="c-dark-grey" href="/editors/jimmy-aki/">@jimmy-aki</a>
+</div>
+<div class="text-left mt-5">
+</div>
+</div>
+</div>
+<div class="article-single__content category_contents_details">
+<h1 class="mb-40">3 Most Trending Cryptocurrency Coins Today – Homer ($SIMPSON), AiDoge ($AI), Sponge ($SPONGE)</h1>
+<div class="dslot text-right" did="9" style="min-height: 90px;">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/970x90.jpg" width=""/>
+</div>
+<figure class="image"><img alt="" class="content-img" sizes="100vw" src="https://v2.cimg.co/news/113866/275459/meme-coins.jpg" srcset="https://v2.cimg.co/news/113866/275459/responsive-images/meme-coins___media_library_original_768_432.jpg 768w, https://v2.cimg.co/news/113866/275459/responsive-images/meme-coins___media_library_original_720_405.jpg 720w, https://v2.cimg.co/news/113866/275459/responsive-images/meme-coins___media_library_original_600_338.jpg 600w, https://v2.cimg.co/news/113866/275459/responsive-images/meme-coins___media_library_original_300_169.jpg 300w" width="768"/></figure><p>Meme coins are the new hot sensation in the crypto market currently. Not only have some of these assets generated significant returns for investors, but well-known public figures have also supported their long-term viability. </p><p>However, while there are thousands to choose from, finding the best value-driven meme coins to buy might be a little challenging, particularly for investors who are new to the field.</p><p>In this article, we’ll explore the 3 most trending cryptocurrency coins today.</p><h2>Homer ($SIMPSON)</h2><p>Our top pick of the 3 most trending cryptocurrency coins today is $HOMER, the native coin of Homer Simpson. </p><p><img alt="" class="content-img lazyload" data-src="https://v2.cimg.co/news/113866/275460/simpson-1d-graph-coinmarketcap.jpg" data-srcset="https://v2.cimg.co/news/113866/275460/responsive-images/simpson-1d-graph-coinmarketcap___media_library_original_929_396.jpg 929w, https://v2.cimg.co/news/113866/275460/responsive-images/simpson-1d-graph-coinmarketcap___media_library_original_900_384.jpg 900w, https://v2.cimg.co/news/113866/275460/responsive-images/simpson-1d-graph-coinmarketcap___media_library_original_720_307.jpg 720w, https://v2.cimg.co/news/113866/275460/responsive-images/simpson-1d-graph-coinmarketcap___media_library_original_600_256.jpg 600w, https://v2.cimg.co/news/113866/275460/responsive-images/simpson-1d-graph-coinmarketcap___media_library_original_300_128.jpg 300w" sizes="100vw" src="https://v2.cimg.co/p/no_image.svg" width="929"/><br/> </p><p>$HOMER, dubbed the first ever “DOH coin,” similar to the popular Homer Simpson’s character’s sound, is a decentralized cryptocurrency that was just created for warm vibes. </p><div class="dslot row mb-20" did="5">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/970x250.jpg" width=""/>
+</div><p>The asset’s developers claim the asset has no promises, no roadmap, and no usefulness.</p><p>For the<a href="/news/simpson-coin-price-surges-but-sponge-aidogecom-can-pump-100x.htm"> HOMER token</a> allocation split, 55% will go to the presale, 27% to liquidity (LP), 10% to marketing, 5% to the presale group, and 3% to the team. </p><p>Furthermore, 5% of the presale will be divided among 50 people who purchased early and are supportive.  </p><p>The presale was, however, renounced, and the LP was locked after it was attacked by bots. The team promised to push through. </p><p>At press time, $HOMER’s price is $3.36e-11, with a trading volume of $44 million, indicating a surge of 92.62% in the last 24 hours.</p><p>The asset has been listed on the Uiswap DEX and has a total market cap of $67,930,000, with a token supply of 89 billion. Its potential has also been shown in other areas. </p><p>Homer Simpson has recently come in second only behind the ETH token on Dexscanner, pointing to the massive appeal the meme coin has for investors.</p><figure class="media"><oembed data-embedo-height="400" data-embedo-url="https://twitter.com/HomerSimpson_HS/status/1657691972763787265" loading="lazy"></oembed></figure><h2>AiDoge ($AI)</h2><p><a href="/news/aidoge-blasts-past-5-million-milestone-as-presale-pump-continues-just-300000-go-until-price-increase.htm">AiDoge</a> is the first-of-its-kind top meme currency that combines AI's intuitivity with the humor of online memes.</p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://v2.cimg.co/news/113866/275458/aidoge-coin.jpg" data-srcset="https://v2.cimg.co/news/113866/275458/responsive-images/aidoge-coin___media_library_original_624_312.jpg 624w, https://v2.cimg.co/news/113866/275458/responsive-images/aidoge-coin___media_library_original_600_300.jpg 600w, https://v2.cimg.co/news/113866/275458/responsive-images/aidoge-coin___media_library_original_300_150.jpg 300w" sizes="100vw" src="https://v2.cimg.co/p/no_image.svg" width="624"/></figure><p>The AI-driven innovation of the meme-generating platform keeps users engaged and entertained.</p><p>Investors are undoubtedly looking for the next meme currency gem that might produce quick exponential increases in light of the remarkable gains recent days observed by new-wave cryptocurrencies like Pepecoin ($PEPE) and SpongeBob ($SPONGE) have experienced.</p><p>The unexpected increase in AiDoge's <a href="https://cryptonews.com/ext/aidoge/en" target="_blank">presale</a> since it debuted implies that many investors believe the cryptocurrency may soon become the next big trend.</p><figure class="media"><oembed data-embedo-height="400" data-embedo-url="https://www.youtube.com/watch?v=HiO4zkn0Luc" loading="lazy"></oembed></figure><p>Additionally, the project's native $AI token presale has continued to soar, raising over $7 million in just a few weeks after launching.</p><p>At the time of writing, investors can purchase the<a href="https://cryptonews.com/ext/aidoge/en" target="_blank"> $AI token</a> for $0.00003. The price will gradually increase till it gets to the listing price of $0.0000336 per token, so investors who buy now will be sitting on gains of almost 15% by the time the coin hits the market.</p><p>AiDoge's ability to produce contextually pertinent memes is built on the same machine-learning AI technology that underpins applications like ChatGPT and DALL-e.</p><p>To guarantee that the system returns high-quality and current memes in response to text prompts, it has been trained on enormous meme datasets and cryptocurrency news.</p><p>Furthermore, all generated memes in AiDoge are presented on a public wall feed where users can vote on their favorite memes. Meme creators who produce the most popular memes are compensated with $AI.</p><figure class="media"><oembed data-embedo-height="400" data-embedo-url="https://twitter.com/aidogecrypto/status/1657038089334714372?s=20" loading="lazy"></oembed></figure><p>Thus, AiDoge provides meme artists with their first practical route to a source of money associated with their pastime, all while the blockchain technology that powers the AiDoge network safeguards their ownership rights to their creations.</p><p>Thanks to this innovation, "<a href="/news/meme-earn-new-ai-meme-creator-provides-creators-with-token-rewards-how-does-it-work.htm">meme-to-earn</a>" is now a reality. </p><p>Making meme creation available to everyone will spark a creative explosion and introduce the masses to the limitless potential of crypto-secured decentralized networks.</p><p><a href="https://cryptonews.com/ext/aidoge/en" target="_blank"><strong><u>Buy AiDoge Here</u></strong></a></p><h2>Sponge ($SPONGE)</h2><p>The Spongebob coin (<a href="https://cryptonews.com/ext/spongebob-site/en" target="_blank">$SPONGE</a>), a new competitor to the burgeoning cryptocurrency market, has recently appeared. </p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://v2.cimg.co/news/113866/275465/spongebob.jpg" data-srcset="https://v2.cimg.co/news/113866/275465/responsive-images/spongebob___media_library_original_960_540.jpg 960w, https://v2.cimg.co/news/113866/275465/responsive-images/spongebob___media_library_original_900_506.jpg 900w, https://v2.cimg.co/news/113866/275465/responsive-images/spongebob___media_library_original_720_405.jpg 720w, https://v2.cimg.co/news/113866/275465/responsive-images/spongebob___media_library_original_600_338.jpg 600w, https://v2.cimg.co/news/113866/275465/responsive-images/spongebob___media_library_original_300_169.jpg 300w" sizes="100vw" src="https://v2.cimg.co/p/no_image.svg" width="960"/></figure><p>The meme-based cryptocurrency inspiration was derived from the popular US cartoon television series SpongeBob SquarePants. </p><p>However, <a href="https://cryptonews.com/ext/spongebob-site/en" target="_blank">$SPONGE</a> has neither inherent worth, a formal team, nor a roadmap. The coin serves simply as entertainment and is basically redundant.</p><p>It runs on the Ethereum network with the objectives of creating the best meme coins and building a community-driven digital asset.</p><p>Investors interested in possible gains akin to those observed with recent meme coins like $PEPE and $TURBO have been buzzing about this meme currency.</p><p>Pepe has experienced rises of 7,000%, while Spongebob has experienced upswings of up to 1,000% in its short history.</p><figure class="media"><oembed data-embedo-height="400" data-embedo-url="https://youtu.be/NPpirtSQAu0" loading="lazy"></oembed></figure><p><a href="https://cryptonews.com/ext/spongebob-site/en" target="_blank">$SPONGE</a> has seen its market cap gain approximately $40 million since its debut on May 4, indicating a 1,038% increase. As a result, it has had the best seven-day performance of any meme coin. </p><p>The coin is currently trading at $0.000556 with a $19 million 24-hour trading volume, indicating a slump of 10.48% in the same period. </p><p>The meme token is already available on seven exchanges: Uniswap, MEXC Global, Poloniex, LBank, CoinW, Toobit, and BTCEX, only a few days after it first went on the market. </p><figure class="media"><oembed data-embedo-height="400" data-embedo-url="https://twitter.com/spongeoneth/status/1656968574043320321?s=20" loading="lazy"></oembed></figure><p>Additionally, the<a href="/news/crypto-expert-meme-coins-are-best-cryptos-invest-for-50x-gains-next-altcoin-season.htm"> meme coin</a> Twitter page revealed the latest listing of the  $SPONGE token on Bitget and Gate.io. </p><p>Despite the $SPONGE website's claim that the token is only for "entertainment purposes," given the coin's evolution, it's important to take into account the prospect of utility advancements in the future.</p><p><a href="https://cryptonews.com/ext/spongebob-site/en" target="_blank"><strong>Visit SpongeBob Now</strong></a></p><h2>Conclusion </h2><p>In this article, we looked at the 3 most trending cryptocurrency coins today, along with their market-dominating potential. </p><p>However, we advise potential investors to carry out diligent research and trade cautiously due to crypto market volatility.</p><p><a href="https://cryptonews.com/ext/aidoge/en" target="_blank"><strong><u>Buy AiDoge Here</u></strong></a></p><p><a href="https://cryptonews.com/ext/spongebob-site/en" target="_blank"><strong>Visit SpongeBob Now</strong></a> </p><p><i><sup>Disclaimer: The Industry Talk section features insights by crypto industry players and is not a part of the editorial content of Cryptonews.com</sup></i><sup>.</sup></p>
+<div class="mb-15 text-right">
+</div>
+<div class="dslot" did="12">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/970x90.jpg" width=""/>
+</div> </div>
+<div class="modal__content text-white">
+</div>
+<div class="row mt-10 mb-10">
+<div class="col-6">
+<div class="fs-12">
+<time datetime="2023-05-14T12:38:00+00:00">
+                                            May 14, 2023 5:38 AM EDT
+                                        </time>
+</div>
+</div>
+<div class="col-6 text-right">
+</div>
+</div>
+<hr/>
+<div class="align-self-end mt-5">
+<div class="article-tag-box text-lg-right">
+</div>
+</div>
+</div>
+</div>
+</main>
+<div class="col-12 offset-lg-1 col-lg-3">
+<div class="dslot d-none d-lg-block mb-40" did="6" style="min-height:600px;">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/300x600.jpg" width=""/>
+</div>
+<h3 class="mb-20">Recommended</h3>
+<div class="mb-40 col-lg-60">
+<div class="row" id="load_more_target">
+<div class="col-6 col-md-4 col-lg-12"><article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/pepe-coin-price-prediction-as-pepe-rockets-up-1000000-5-days-best-new-meme-coin.htm">
+<div class="img-sized"><img alt="Pepe Coin Price Prediction as PEPE Rockets Up 1,000,000% in 5 Days – Best New Meme Coin?" class="img-fluid" loading="auto" src="https://v2.cimg.co/news/110742/268053/pepe-coin-price-predictio.jpg" srcset="https://v2.cimg.co/news/110742/268053/responsive-images/pepe-coin-price-predictio___media_library_original_2504_958.jpg 2504w, https://v2.cimg.co/news/110742/268053/responsive-images/pepe-coin-price-predictio___media_library_original_1200_459.jpg 1200w, https://v2.cimg.co/news/110742/268053/responsive-images/pepe-coin-price-predictio___media_library_original_900_344.jpg 900w, https://v2.cimg.co/news/110742/268053/responsive-images/pepe-coin-price-predictio___media_library_original_720_275.jpg 720w, https://v2.cimg.co/news/110742/268053/responsive-images/pepe-coin-price-predictio___media_library_original_600_230.jpg 600w, https://v2.cimg.co/news/110742/268053/responsive-images/pepe-coin-price-predictio___media_library_original_300_115.jpg 300w" width="2504"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/altcoin-news/"> Altcoin News </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-04-19 09:57:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/pepe-coin-price-prediction-as-pepe-rockets-up-1000000-5-days-best-new-meme-coin.htm">
+<h4>Pepe Coin Price Prediction as PEPE Rockets Up 1,000,000% in 5 Days – Best New Meme Coin?</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-6 col-md-4 col-lg-12"><article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/xrp-price-prediction-as-800-million-trading-volume-comes-can-xrp-reach-1-2023.htm">
+<div class="img-sized"><img alt="XRP Price Prediction as $800 Million Trading Volume Comes In – Can XRP Reach $10 in 2023?" class="img-fluid" loading="auto" src="https://v2.cimg.co/news/110510/267591/xrp-price-prediction-as-8.jpg" srcset="https://v2.cimg.co/news/110510/267591/responsive-images/xrp-price-prediction-as-8___media_library_original_3706_2292.jpg 3706w, https://v2.cimg.co/news/110510/267591/responsive-images/xrp-price-prediction-as-8___media_library_original_1200_742.jpg 1200w, https://v2.cimg.co/news/110510/267591/responsive-images/xrp-price-prediction-as-8___media_library_original_900_557.jpg 900w, https://v2.cimg.co/news/110510/267591/responsive-images/xrp-price-prediction-as-8___media_library_original_720_445.jpg 720w, https://v2.cimg.co/news/110510/267591/responsive-images/xrp-price-prediction-as-8___media_library_original_600_371.jpg 600w, https://v2.cimg.co/news/110510/267591/responsive-images/xrp-price-prediction-as-8___media_library_original_300_186.jpg 300w" width="3706"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/altcoin-news/"> Altcoin News </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-04-17 09:49:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/xrp-price-prediction-as-800-million-trading-volume-comes-can-xrp-reach-1-2023.htm">
+<h4>XRP Price Prediction as $800 Million Trading Volume Comes In – Can XRP Reach $10 in 2023?</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-6 col-md-4 col-lg-12"><article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/trader-predicts-shiba-inu-pepe-wojak-price-explosion-makes-1-million-profit.htm">
+<div class="img-sized"><img alt="Trader Predicts the Shiba Inu, Pepe &amp; Wojak Price Explosion, Makes $1 Million Profit" class="img-fluid" loading="auto" src="https://v2.cimg.co/news/113032/273575/pepe-crypto-price-bybit.jpg" srcset="https://v2.cimg.co/news/113032/273575/responsive-images/pepe-crypto-price-bybit___media_library_original_1073_734.jpg 1073w, https://v2.cimg.co/news/113032/273575/responsive-images/pepe-crypto-price-bybit___media_library_original_900_616.jpg 900w, https://v2.cimg.co/news/113032/273575/responsive-images/pepe-crypto-price-bybit___media_library_original_720_493.jpg 720w, https://v2.cimg.co/news/113032/273575/responsive-images/pepe-crypto-price-bybit___media_library_original_600_410.jpg 600w, https://v2.cimg.co/news/113032/273575/responsive-images/pepe-crypto-price-bybit___media_library_original_300_205.jpg 300w" width="1073"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/altcoin-news/"> Altcoin News </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-05-05 00:34:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/trader-predicts-shiba-inu-pepe-wojak-price-explosion-makes-1-million-profit.htm">
+<h4>Trader Predicts the Shiba Inu, Pepe &amp; Wojak Price Explosion, Makes $1 Million Profit</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+<div class="dslot mb-40 d-none d-lg-block" did="7">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/300x250-mobile.jpg" width=""/>
+</div>
+<div class="dslot d-lg-none" did="8">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/468x60.png" width=""/>
+</div>
+<div class="d-none d-lg-block">
+<h3 class="mb-20">Latest news</h3>
+<div class="mb-30">
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/jump-trading-allegedly-supported-terra-before-it-collapsed-new-sec-filings-show.htm">
+<div class="small-image-list img-sized"><img alt="Jump Trading Allegedly Supported Terra Before It Collapsed, New SEC Filings Show" class="" loading="auto" src="https://v2.cimg.co/news/114093/275903/screen-shot-2023-05-11-at.jpg" srcset="https://v2.cimg.co/news/114093/275903/responsive-images/screen-shot-2023-05-11-at___media_library_original_1271_721.jpg 1271w, https://v2.cimg.co/news/114093/275903/responsive-images/screen-shot-2023-05-11-at___media_library_original_1200_681.jpg 1200w, https://v2.cimg.co/news/114093/275903/responsive-images/screen-shot-2023-05-11-at___media_library_original_900_511.jpg 900w, https://v2.cimg.co/news/114093/275903/responsive-images/screen-shot-2023-05-11-at___media_library_original_720_408.jpg 720w, https://v2.cimg.co/news/114093/275903/responsive-images/screen-shot-2023-05-11-at___media_library_original_600_340.jpg 600w, https://v2.cimg.co/news/114093/275903/responsive-images/screen-shot-2023-05-11-at___media_library_original_300_170.jpg 300w" width="1271"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/altcoin-news/"> Altcoin News </a> <div class="article__badge-date" data-utctime="2023-05-16 19:25:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/jump-trading-allegedly-supported-terra-before-it-collapsed-new-sec-filings-show.htm">
+                Jump Trading Allegedly Supported Terra Before It Collapsed, New SEC Filings Show
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/bankrupt-celsius-network-channels-75-million-of-ether-figment-staking-service-whats-going-on.htm">
+<div class="small-image-list img-sized"><img alt="Bankrupt Celsius Network Channels $75 Million of Ether to Figment Staking Service – What's Going On?" class="" loading="auto" src="https://v2.cimg.co/news/114056/275810/celsius-network.jpeg" srcset="https://v2.cimg.co/news/114056/275810/responsive-images/celsius-network___media_library_original_1350_760.jpeg 1350w, https://v2.cimg.co/news/114056/275810/responsive-images/celsius-network___media_library_original_1200_676.jpeg 1200w, https://v2.cimg.co/news/114056/275810/responsive-images/celsius-network___media_library_original_900_507.jpeg 900w, https://v2.cimg.co/news/114056/275810/responsive-images/celsius-network___media_library_original_720_405.jpeg 720w, https://v2.cimg.co/news/114056/275810/responsive-images/celsius-network___media_library_original_600_338.jpeg 600w, https://v2.cimg.co/news/114056/275810/responsive-images/celsius-network___media_library_original_300_169.jpeg 300w" width="1350"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/ethereum-news/"> Ethereum News </a> <div class="article__badge-date" data-utctime="2023-05-16 18:30:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/bankrupt-celsius-network-channels-75-million-of-ether-figment-staking-service-whats-going-on.htm">
+                Bankrupt Celsius Network Channels $75 Million of Ether to Figment Staking Service – What's Going On?
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/this-key-on-chain-indicator-will-soon-join-the-list-of-those-signalling-a-bitcoin-btc-bull-market-is-here.htm">
+<div class="small-image-list img-sized"><img alt="This Key On-chain Indicator Will Soon Join the List of Those Signalling a Bitcoin (BTC) Bull Market is Here" class="" loading="auto" src="https://v2.cimg.co/news/114089/275898/btc-4.jpeg" srcset="https://v2.cimg.co/news/114089/275898/responsive-images/btc-4___media_library_original_1200_800.jpeg 1200w, https://v2.cimg.co/news/114089/275898/responsive-images/btc-4___media_library_original_900_600.jpeg 900w, https://v2.cimg.co/news/114089/275898/responsive-images/btc-4___media_library_original_720_480.jpeg 720w, https://v2.cimg.co/news/114089/275898/responsive-images/btc-4___media_library_original_600_400.jpeg 600w, https://v2.cimg.co/news/114089/275898/responsive-images/btc-4___media_library_original_300_200.jpeg 300w" width="1200"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/bitcoin-news/"> Bitcoin News </a> <div class="article__badge-date" data-utctime="2023-05-16 18:17:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/this-key-on-chain-indicator-will-soon-join-the-list-of-those-signalling-a-bitcoin-btc-bull-market-is-here.htm">
+                This Key On-chain Indicator Will Soon Join the List of Those Signalling a Bitcoin (BTC) Bull Market is Here
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/crypto-influencer-loomdart-pitches-ftx-20-as-path-forward-for-ftx-creditors.htm">
+<div class="small-image-list img-sized"><img alt="Crypto Influencer Loomdart Pitches FTX 2.0 as the Path Forward for FTX Creditors" class="" loading="auto" src="https://v2.cimg.co/news/114081/275884/adobestock-343719449.jpeg" srcset="https://v2.cimg.co/news/114081/275884/responsive-images/adobestock-343719449___media_library_original_1920_1280.jpeg 1920w, https://v2.cimg.co/news/114081/275884/responsive-images/adobestock-343719449___media_library_original_1200_800.jpeg 1200w, https://v2.cimg.co/news/114081/275884/responsive-images/adobestock-343719449___media_library_original_900_600.jpeg 900w, https://v2.cimg.co/news/114081/275884/responsive-images/adobestock-343719449___media_library_original_720_480.jpeg 720w, https://v2.cimg.co/news/114081/275884/responsive-images/adobestock-343719449___media_library_original_600_400.jpeg 600w, https://v2.cimg.co/news/114081/275884/responsive-images/adobestock-343719449___media_library_original_300_200.jpeg 300w" width="1920"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/altcoin-news/"> Altcoin News </a> <div class="article__badge-date" data-utctime="2023-05-16 18:00:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/crypto-influencer-loomdart-pitches-ftx-20-as-path-forward-for-ftx-creditors.htm">
+                Crypto Influencer Loomdart Pitches FTX 2.0 as the Path Forward for FTX Creditors
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/us-sen-cynthia-lummis-criticizes-signature-bank-executive-for-blaming-crypto-for-its-downfall.htm">
+<div class="small-image-list img-sized"><img alt="US Sen. Cynthia Lummis Criticizes Signature Bank Executive for Blaming Crypto for Its Downfall" class="" loading="auto" src="https://v2.cimg.co/news/114088/275896/screen-shot-2023-05-16-at.jpg" srcset="https://v2.cimg.co/news/114088/275896/responsive-images/screen-shot-2023-05-16-at___media_library_original_1267_608.jpg 1267w, https://v2.cimg.co/news/114088/275896/responsive-images/screen-shot-2023-05-16-at___media_library_original_1200_576.jpg 1200w, https://v2.cimg.co/news/114088/275896/responsive-images/screen-shot-2023-05-16-at___media_library_original_900_432.jpg 900w, https://v2.cimg.co/news/114088/275896/responsive-images/screen-shot-2023-05-16-at___media_library_original_720_346.jpg 720w, https://v2.cimg.co/news/114088/275896/responsive-images/screen-shot-2023-05-16-at___media_library_original_600_288.jpg 600w, https://v2.cimg.co/news/114088/275896/responsive-images/screen-shot-2023-05-16-at___media_library_original_300_144.jpg 300w" width="1267"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/blockchain-news/"> Blockchain News </a> <div class="article__badge-date" data-utctime="2023-05-16 17:51:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/us-sen-cynthia-lummis-criticizes-signature-bank-executive-for-blaming-crypto-for-its-downfall.htm">
+                US Sen. Cynthia Lummis Criticizes Signature Bank Executive for Blaming Crypto for Its Downfall
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/demand-for-eth-staking-soars-despite-nearly-month-long-waiting-period.htm">
+<div class="small-image-list img-sized"><img alt="Demand for ETH Staking Soars Despite Nearly Month-Long Waiting Period" class="" loading="auto" src="https://v2.cimg.co/news/114087/275892/eth-5.jpeg" srcset="https://v2.cimg.co/news/114087/275892/responsive-images/eth-5___media_library_original_6000_4000.jpeg 6000w, https://v2.cimg.co/news/114087/275892/responsive-images/eth-5___media_library_original_1200_800.jpeg 1200w, https://v2.cimg.co/news/114087/275892/responsive-images/eth-5___media_library_original_900_600.jpeg 900w, https://v2.cimg.co/news/114087/275892/responsive-images/eth-5___media_library_original_720_480.jpeg 720w, https://v2.cimg.co/news/114087/275892/responsive-images/eth-5___media_library_original_600_400.jpeg 600w, https://v2.cimg.co/news/114087/275892/responsive-images/eth-5___media_library_original_300_200.jpeg 300w" width="6000"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/ethereum-news/"> Ethereum News </a> <div class="article__badge-date" data-utctime="2023-05-16 17:30:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/demand-for-eth-staking-soars-despite-nearly-month-long-waiting-period.htm">
+                Demand for ETH Staking Soars Despite Nearly Month-Long Waiting Period
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/litecoin-price-prediction-as-litecoin-halving-countdown-begins-can-ltc-reach-1-2023.htm">
+<div class="small-image-list img-sized"><img alt="Litecoin Price Prediction as Litecoin Halving Countdown Begins – Can LTC Reach $1,000 in 2023?" class="" loading="auto" src="https://v2.cimg.co/news/114084/275889/ltc.jpeg" srcset="https://v2.cimg.co/news/114084/275889/responsive-images/ltc___media_library_original_5472_3648.jpeg 5472w, https://v2.cimg.co/news/114084/275889/responsive-images/ltc___media_library_original_1200_800.jpeg 1200w, https://v2.cimg.co/news/114084/275889/responsive-images/ltc___media_library_original_900_600.jpeg 900w, https://v2.cimg.co/news/114084/275889/responsive-images/ltc___media_library_original_720_480.jpeg 720w, https://v2.cimg.co/news/114084/275889/responsive-images/ltc___media_library_original_600_400.jpeg 600w, https://v2.cimg.co/news/114084/275889/responsive-images/ltc___media_library_original_300_200.jpeg 300w" width="5472"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/altcoin-news/"> Altcoin News </a> <div class="article__badge-date" data-utctime="2023-05-16 16:20:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/litecoin-price-prediction-as-litecoin-halving-countdown-begins-can-ltc-reach-1-2023.htm">
+                Litecoin Price Prediction as Litecoin Halving Countdown Begins – Can LTC Reach $1,000 in 2023?
+            </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="pt-60 pb-20 pb-md-40 pb-md-60">
+<h3 class="mb-20">Similar News</h3>
+<div class="row">
+<div class="col-12 col-sm-6 col-lg-4 col-xl-3"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/crypto-whales-are-accumulating-viral-new-spongebob-meme-coin-at-just-20-million-market-cap-how-buy-early.htm">
+<div class="img-sized"><img alt="Crypto Whales are Accumulating This Viral New SpongeBob Meme Coin at Just $20 Million Market Cap – How to Buy Early?" class="img-fluid" loading="auto" src="https://v2.cimg.co/news/114029/275759/fwmcudawiam5qzx.jpg" srcset="https://v2.cimg.co/news/114029/275759/responsive-images/fwmcudawiam5qzx___media_library_original_1920_1080.jpg 1920w, https://v2.cimg.co/news/114029/275759/responsive-images/fwmcudawiam5qzx___media_library_original_1200_675.jpg 1200w, https://v2.cimg.co/news/114029/275759/responsive-images/fwmcudawiam5qzx___media_library_original_900_506.jpg 900w, https://v2.cimg.co/news/114029/275759/responsive-images/fwmcudawiam5qzx___media_library_original_720_405.jpg 720w, https://v2.cimg.co/news/114029/275759/responsive-images/fwmcudawiam5qzx___media_library_original_600_338.jpg 600w, https://v2.cimg.co/news/114029/275759/responsive-images/fwmcudawiam5qzx___media_library_original_300_169.jpg 300w" width="1920"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/industry-talk/"> Industry Talk </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-05-16 11:05:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/crypto-whales-are-accumulating-viral-new-spongebob-meme-coin-at-just-20-million-market-cap-how-buy-early.htm">
+<h4>Crypto Whales are Accumulating This Viral New SpongeBob Meme Coin at Just $20 Million Market Cap – How to Buy Early?</h4>
+</a>
+</div>
+</div>
+</article>
+</div><div class="col-12 col-sm-6 col-lg-4 col-xl-3"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/best-crypto-icos.htm">
+<div class="img-sized"><img alt="12 Best Crypto ICOs to Invest in 2023" class="img-fluid" loading="auto" src="https://v2.cimg.co/news/86805/218649/ico.jpg" srcset="https://v2.cimg.co/news/86805/218649/responsive-images/ico___media_library_original_1482_610.jpg 1482w, https://v2.cimg.co/news/86805/218649/responsive-images/ico___media_library_original_1200_493.jpg 1200w, https://v2.cimg.co/news/86805/218649/responsive-images/ico___media_library_original_900_370.jpg 900w, https://v2.cimg.co/news/86805/218649/responsive-images/ico___media_library_original_720_296.jpg 720w, https://v2.cimg.co/news/86805/218649/responsive-images/ico___media_library_original_600_246.jpg 600w, https://v2.cimg.co/news/86805/218649/responsive-images/ico___media_library_original_300_123.jpg 300w" width="1482"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/industry-talk/"> Industry Talk </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-05-16 05:25:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/best-crypto-icos.htm">
+<h4>12 Best Crypto ICOs to Invest in 2023</h4>
+</a>
+</div>
+</div>
+</article>
+</div><div class="col-12 col-sm-6 col-lg-4 col-xl-3"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/cryptos-with-most-potential.htm">
+<div class="img-sized"><img alt="Top 20+ Cryptos With the Most Potential in 2023" class="img-fluid" loading="auto" src="https://v2.cimg.co/news/87114/274709/screen-shot-2023-05-10-at.jpg" srcset="https://v2.cimg.co/news/87114/274709/responsive-images/screen-shot-2023-05-10-at___media_library_original_1401_701.jpg 1401w, https://v2.cimg.co/news/87114/274709/responsive-images/screen-shot-2023-05-10-at___media_library_original_1200_600.jpg 1200w, https://v2.cimg.co/news/87114/274709/responsive-images/screen-shot-2023-05-10-at___media_library_original_900_450.jpg 900w, https://v2.cimg.co/news/87114/274709/responsive-images/screen-shot-2023-05-10-at___media_library_original_720_360.jpg 720w, https://v2.cimg.co/news/87114/274709/responsive-images/screen-shot-2023-05-10-at___media_library_original_600_300.jpg 600w, https://v2.cimg.co/news/87114/274709/responsive-images/screen-shot-2023-05-10-at___media_library_original_300_150.jpg 300w" width="1401"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/industry-talk/"> Industry Talk </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-05-16 05:13:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/cryptos-with-most-potential.htm">
+<h4>Top 20+ Cryptos With the Most Potential in 2023</h4>
+</a>
+</div>
+</div>
+</article>
+</div><div class="col-12 col-sm-6 col-lg-4 col-xl-3"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/best-upcoming-icos.htm">
+<div class="img-sized"><img alt="8 Best Upcoming ICO Cryptos to Invest in" class="img-fluid" loading="auto" src="https://v2.cimg.co/news/87395/219834/trading-gc88bb6b99-1280.jpg" srcset="https://v2.cimg.co/news/87395/219834/responsive-images/trading-gc88bb6b99-1280___media_library_original_1280_853.jpg 1280w, https://v2.cimg.co/news/87395/219834/responsive-images/trading-gc88bb6b99-1280___media_library_original_1200_799.jpg 1200w, https://v2.cimg.co/news/87395/219834/responsive-images/trading-gc88bb6b99-1280___media_library_original_900_599.jpg 900w, https://v2.cimg.co/news/87395/219834/responsive-images/trading-gc88bb6b99-1280___media_library_original_720_479.jpg 720w, https://v2.cimg.co/news/87395/219834/responsive-images/trading-gc88bb6b99-1280___media_library_original_600_399.jpg 600w, https://v2.cimg.co/news/87395/219834/responsive-images/trading-gc88bb6b99-1280___media_library_original_300_199.jpg 300w" width="1280"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/industry-talk/"> Industry Talk </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-05-16 05:07:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/best-upcoming-icos.htm">
+<h4>8 Best Upcoming ICO Cryptos to Invest in</h4>
+</a>
+</div>
+</div>
+</article>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

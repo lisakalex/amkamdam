@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row mb-20"><div class="col-12">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/news/">News</a>
+<a href="/news/bitcoin-went-through-its-third-halving-next-target-halvation-6517.htm">Bitcoin Went Through its Third Halving, Next Target - 'Halvation'</a>
+</div>
+</div></div>
+<div class="row">
+<main class="col-12 col-md-8">
+<div class="row">
+<div class="col-12 col-md-3 d-none d-md-block">
+<div class="d-none d-md-block mb-30 mt-60">
+<a href="/editors/sead-fadilpasic/">
+<img alt="Sead Fadilpašić" class="img-fluid img-circle author__image mb-15" loading="auto" src="https://cimg.co/authors/12/5a65ab71dd90c.jpg" srcset="https://cimg.co/authors/12/responsive-images/5a65ab71dd90c___media_library_original_900_1021.jpg 900w, https://cimg.co/authors/12/responsive-images/5a65ab71dd90c___media_library_original_720_817.jpg 720w, https://cimg.co/authors/12/responsive-images/5a65ab71dd90c___media_library_original_600_681.jpg 600w, https://cimg.co/authors/12/responsive-images/5a65ab71dd90c___media_library_original_300_340.jpg 300w" style="max-width:80px; max-height:80px;" width="900"/>
+</a> <div>
+<a class="c-black" href="/editors/sead-fadilpasic/"><b>Sead Fadilpašić</b></a>
+</div>
+<div>
+<a class="c-text" href="/editors/sead-fadilpasic/">@sead-fadilpasic</a>
+</div>
+<div class="text-left mt-5">
+</div>
+</div>
+</div>
+<div class="col-12 col-md-9 mb-40">
+<div class="row mb-20">
+<div class="col-6">
+<div class="fs-12">
+<time datetime="2020-05-11T19:24:00+00:00">
+                                            May 11, 2020 3:24 PM EDT
+                                        </time>
+                                                                        · 6 min read</div>
+</div>
+<div class="col-6 text-right">
+</div>
+<div class="col-6 mt-20 d-md-none d-block">
+<div>
+<a class="c-black" href="/editors/sead-fadilpasic/"><b>Sead Fadilpašić</b></a>
+</div>
+<div>
+<a class="c-dark-grey" href="/editors/sead-fadilpasic/">@sead-fadilpasic</a>
+</div>
+<div class="text-left mt-5">
+</div>
+</div>
+</div>
+<div class="article-single__content category_contents_details">
+<h1 class="mb-40">Bitcoin Went Through its Third Halving, Next Target - 'Halvation'</h1>
+<div class="dslot text-right" did="9" style="min-height: 90px;">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/970x90.jpg" width=""/>
+</div>
+<p><a href="/coins/bitcoin/">Bitcoin (BTC)</a> just went through its third  of the mining reward, which is jokingly referred to as 'Halvation' (halving + salvation) that should send the price of the most popular cryptocurrency to the Moon or even further.  </p><figure><img alt="" class="content-img" sizes="(min-width: 640px) 720px, 100vw" src="https://cimg.co/w/articles-attachments/1/5eb/99f3e1e3b3.png" srcset="https://cimg.co/w/articles-attachments/1/5eb/99f3e1e3b3.png 300w, https://cimg.co/w/articles-attachments/2/5eb/99f3e1e3b3.png 600w, https://cimg.co/w/articles-attachments/3/5eb/99f3e1e3b3.png 720w, https://cimg.co/w/articles-attachments/4/5eb/99f3e1e3b3.png 900w, https://cimg.co/w/articles-attachments/0/5eb/99f3e1e3b3.png 1132w"/><figcaption>Source: Adobe/yuromanovich</figcaption></figure><p>Today, on <a href="https://www.blockchain.com/btc/block/000000000000000000024bead8df69990852c202db0e0097c1a12ea637d7e96d" rel="noopener" target="_blank">block 630,000</a>, mined by <b>AntPool</b>, Bitcoin's rate of new supply was cut in half from BTC 12.5 per mined blockchain block to BTC 6.25, with which the world's oldest cryptocurrency stepped into a new era that will last for four years until the next halving. And this is happening in the time of the  pandemic, economic crisis, and the world's central banks' <a href="/exclusives/exclusive-qe-won-t-trigger-hyperinflation-says-world-s-hyper-6176.htm">money supply experiments</a>.</p><div class="tweet tweetContainer"><oembed data-embedo-height="400" data-embedo-url="https://twitter.com/cburniske/status/1259933023501340672" loading="lazy"></oembed></div><p>BTC trades at USD 8,564 and is up by 1% in the past hour (19:33 UTC) and is almost unchanged in a day. The price is down by 3% in a week, trimming its monthly gains to 25%. BTC is now up by 21% in a year.</p><div class="infogram-embed" data-id="9caf5176-da75-4105-a5d9-f32ea9159587" data-title="Bitcoin supply" data-type="interactive"></div><div class="raw-html-embed"></div><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/9caf5176-da75-4105-a5d9-f32ea9159587" style="color:#989898!important;text-decoration:none!important;" target="_blank">Source: en.bitcoin.it/wiki/Controlled_supply, Cryptonews.com </a><br/><a href="https://infogram.com" rel="nofollow" style="color:#989898!important;text-decoration:none!important;" target="_blank">Infogram</a></div><p>Today, <a href="https://www.blockchain.com/btc/block/0000000000000000000d656be18bb095db1b23bd797266b0ac3ba720b1962b1e" rel="noopener" target="_blank">the last Bitcoin block with the BTC 12.5 reward</a> was mined by the <b>F2Pool</b> miners. The same mining pool was responsible for <a href="https://www.blockchain.com/btc/block/420000" rel="noopener" target="_blank">block 420,000</a> when the second Bitcoin halving occurred on July 9 of 2016.</p><div class="tweet tweetContainer"><oembed data-embedo-height="400" data-embedo-url="https://twitter.com/lopp/status/1259929075902222345" loading="lazy"></oembed></div><p>We <a href="/news/michelle-phan-and-ashton-kutcher-bet-on-bitcoin-rewards-more-6518.htm">looked</a> into Bitcoin's past and discussed the major rises in its network metrics over the last four years, yet what awaits ahead is very much up for debate. Indeed, the debates have been on for months, starting with major <a href="/exclusives/the-bitcoin-halving-debate-has-the-market-priced-in-this-maj-5218.htm">questions</a> such as if the halving has already been priced in. These go hand in hand with many halving narratives debated daily.</p><p>Ryan Selkis, CEO of crypto researcher <b>Messari</b> <a href="/news/bitcoin-halving-as-a-crypto-super-cycle-marketing-event-its-6487.htm">argued</a> that this third halving "officially drops" the monetary expansion rate of BTC below the <b>US Federal Reserve System's</b> 2% inflation target for the first time, which "marks bitcoin’s evolution from beta to production as bona fide digital gold" and the market underestimates this narrative. Still, both Selkis and research analyst Ryan Watkins see the halving as a marketing event made more relevant by BTC's advancements into the mainstream subconsciousness. </p><h2 data-param="1" id="so...-what-now?">So... What now?</h2><p>People have been hard at work trying to figure out what'll happen now. Digital asset management firm <b>CoinShares</b> found the most probable <a href="/news/six-bitcoin-halving-scenarios-and-likelihood-of-each-6479.htm">scenario</a> to be that the halving will result in positive supply-side impact over the mid- to longer-term. Christopher Bendiksen, Head of Research at the company, said that the combination of a 50% reduction in available new supply with a reduction in the miners' sale of their ongoing production to cover costs might drastically reduce the selling pressure caused by miners. This then combined with macroeconomic events and inflows into passive bitcoin investment products "could cause a perfect storm for the bitcoin price over the mid- to long-term." The company also found that absolutely nothing happening immediately post halving is a likely scenario.</p><div class="dslot row mb-20" did="5">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/970x250.jpg" width=""/>
+</div><p>Meanwhile, using the stock-to-flow (S2F) <a href="/news/s2f-bitcoin-price-model-s-author-strikes-again-with-usd-288k-6415.htm">model</a>, its anonymous author PlanB estimated that BTC will reach USD 100,000 by the end of 2021, <a href="/news/s2f-bitcoin-price-model-s-author-strikes-again-with-usd-288k-6415.htm">and</a> USD 288,000 by 2024. </p><div class="tweet tweetContainer"><oembed data-embedo-height="400" data-embedo-url="https://twitter.com/udiWertheimer/status/1259931491154477058" loading="lazy"></oembed></div><p>CoinShares' Bendiksen, however, is "not convinced that the supply reduction in itself is enough to materially impact the bitcoin price." Messari research analyst Jack Purdy also disagrees with halving bulls' predictions made via S2F, while the CEO of Singaporean hedge fund <b>Three Arrows Capital</b>, Su Zhu, <a href="/news/hedge-fund-chief-concerned-by-growing-bitcoin-stock-to-flow-5283.htm">warned</a> that these predictions could be wide of the mark and claimed that investors pinning their hopes on mining reward halving and stock-to-flow movements could end up in “over-leveraged positions.”</p><p>Furthermore, <b>CryptoCompare</b>, a provider of the crypto market data, argues that S2F and two previous halvings are not enough to conclude that there's a strong rally coming. The team <a href="/news/four-reasons-why-bitcoin-might-not-rally-right-after-the-hal-6430.htm">believes</a> that there'll be less of the price increase in the year after the halving as the market is very much different from what it was back in 2016, miners don't have the same impact on the price as back then, BTC options market doesn't predict a price rise, and there are external impacts as well, such as coronavirus-prompted crisis, as well as BTC now apparently tracking equities closely.</p><p>Zooming into this market difference, Meltem Demirors, chief strategy officer at <b>CoinShares</b>, <a href="/news/meltem-demirors-explains-why-the-next-bitcoin-halving-will-b-5372.htm">stated</a> that there is a "much bigger market for BTC" today compared to the 2016 halving. Back then, there "was no directionality in the crypto market," and investors could "only really go fundamentally long" with their BTC investments. "There are [now] bigger firms involved in bitcoin," Demirors says. "So I think that directionality in a much deeper market for bitcoin is going to change the way people trade around the time of the halving."</p><p>Although previous BTC halvings have all led to a rise in price both before and after the event occurred, this time may play out differently due to the emergence of a whole new derivatives market for bitcoin, one of the largest derivatives exchanges in the world, <b>CME Group</b>, <a href="/news/this-is-why-third-bitcoin-halving-is-different-according-to-6515.htm">said</a> today.</p><div class="tweet tweetContainer"><oembed data-embedo-height="400" data-embedo-url="https://twitter.com/RyanWatkins_/status/1259930505082003457" loading="lazy"></oembed></div><h2 data-param="1" id="the-changing-face-of-btc-mining-industry">The changing face of BTC mining industry</h2><p>Few doubt that this third Bitcoin halving will change the mining industry, and that only the most efficient and economically viable will <a href="/news/these-miners-might-suffer-the-most-after-bitcoin-halving-6460.htm">survive</a>. Qingfei Li, <b>F2Pool’s</b> Head of Customer Service, <a href="/exclusives/hopes-and-strategies-in-play-as-miners-prepare-for-bitcoin-h-6331.htm">said</a> that some 40% or more of Bitcoin mining machines will be switched off in the first two weeks after the halving. Alysa Xu, the chief strategy officer at <b>OKEx</b>, wasn't of the same opinion though, stating that their mining capacity and hashrate will stay "nearly unaffected" even if the BTC price reaches a lower level.</p><p>Meanwhile, countries such as the US and Russia will gain a more prominent role in the Bitcoin mining ecosystem, as CEO of a Russia-based mining colocation provider <b>BitRiver</b>, Igor Runets, believes. Nonetheless, Alysa Xu and the head of <b>Binance Pool</b>, Lisa He, both <a href="https://%5BURL=" target="_blank">argue</a> that the completed infrastructure, cheaper electricity, available workforce, and government support greatly benefit China, and that its current c. 65% concentration will likely <a href="/news/china-s-dominance-in-bitcoin-mining-dropped-amid-growing-com-6490.htm">not drastically decrease</a>. </p><p>That said, network hashrate should experience "a reasonable decline" post-halving as older ASIC mining rigs (such as <b>Bitmain</b>'s S9s) are phased out of the Bitcoin network, <a href="/exclusives/how-healthy-will-the-bitcoin-network-be-post-halving-6427.htm">finds</a> Johnson Xu, the Chief Analyst at <b>TokenInsight</b>, a token data and rating agency. The percentage of mining revenue from fees will at least temporarily double post-halving, while short term average fees are likely to spike post-halving if hashrate sees a decline and network activity maintains its pre-halving status. </p><h2 data-param="1" id="the-question-of-security">The question of security</h2><p>Some <a href="/exclusives/how-will-bitcoin-halving-affect-its-security-6031.htm">argued</a> that Bitcoin's halving puts its security at risk, saying that, by reducing the quantity of new BTC given to those who mine it, there will be less financial incentive to maintain the Bitcoin network's high hashrate, making  more feasible in theory. </p><div class="tweet tweetContainer"><oembed data-embedo-height="400" data-embedo-url="https://twitter.com/econoar/status/1259927574601281536" loading="lazy"></oembed></div><p>Others, however, believe that the increasing value of transaction fees will ensure Bitcoin's security. Even with declining block rewards, Bitcoin's rising value and adoption would mean that the rewards accruing from transaction fees will incentivize mining, they say. Also, Bitcoin educator Andreas Antonopoulos stressed that ”Bitcoin could run today with one-tenth of the mining power and be very very secure without any problems.” </p><p>Since July of 2016, Bitcoin hashrate increased by almost 8,000%. </p><p><b>Bitcoin hashrate chart:</b></p><figure><img alt="" class="content-img lazyload" data-src="https://cimg.co/w/articles-attachments/1/5eb/9b01423d1b.png" data-srcset="https://cimg.co/w/articles-attachments/1/5eb/9b01423d1b.png 300w, https://cimg.co/w/articles-attachments/2/5eb/9b01423d1b.png 600w, https://cimg.co/w/articles-attachments/3/5eb/9b01423d1b.png 720w, https://cimg.co/w/articles-attachments/4/5eb/9b01423d1b.png 900w, https://cimg.co/w/articles-attachments/0/5eb/9b01423d1b.png 807w" sizes="(min-width: 640px) 720px, 100vw" src="https://cimg.co/p/no_image.svg"/><figcaption>Source: Blockchain.com</figcaption></figure><p>__</p><p>All this said, crypto market analysis firm <b>Coin Metrics</b> <a href="/news/relax-there-is-not-enough-data-to-predict-the-impact-of-bitc-5394.htm">says</a> that the data we poses is simply not enough to know with any certainty how the world’s most popular crypto will act post-halving. This year, with not only BTC's, but also the halvings of <a href="/coins/bitcoin-cash/">Bitcoin Cash (BCH)</a>, <a href="/coins/bitcoin-sv/">Bitcoin SV (BSV)</a>, and <a href="/coins/zcash/">Zcash (ZEC)</a>, as well as <a href="/coins/litecoin/">Litecoin (LTC)</a> 2019 <a href="/news/litecoin-enters-lower-supply-era-as-second-halving-is-comple-4380.htm">halving</a>, should give us plenty of info to work with, they conclude.</p>
+<div class="mb-15 text-right">
+</div>
+<div class="dslot" did="12">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/970x90.jpg" width=""/>
+</div> </div>
+<div class="modal__content text-white">
+</div>
+<div class="row mt-10 mb-10">
+<div class="col-6">
+<div class="fs-12">
+<time datetime="2020-05-11T19:24:00+00:00">
+                                            May 11, 2020 3:24 PM EDT
+                                        </time>
+</div>
+</div>
+<div class="col-6 text-right">
+</div>
+</div>
+<hr/>
+<div class="align-self-end mt-5">
+<div class="article-tag-box text-lg-right">
+</div>
+</div>
+</div>
+</div>
+</main>
+<div class="col-12 offset-lg-1 col-lg-3">
+<div class="dslot d-none d-lg-block mb-40" did="6" style="min-height:600px;">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/300x600.jpg" width=""/>
+</div>
+<h3 class="mb-20">Recommended</h3>
+<div class="mb-40 col-lg-60">
+<div class="row" id="load_more_target">
+<div class="col-6 col-md-4 col-lg-12"><article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/ben-bitboy-crypto-fired-from-his-own-company-in-coup-whats-going-on.htm">
+<div class="img-sized"><img alt="Ben 'BitBoy' Crypto Fired From His Own Company In 'Coup' - What's Going On?" class="img-fluid" loading="auto" src="https://cimg.co/news/123580/326765/bitboy-media-library-orig.jpg" srcset="https://cimg.co/news/123580/326765/responsive-images/bitboy-media-library-orig___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/123580/326765/responsive-images/bitboy-media-library-orig___media_library_original_900_600.jpg 900w, https://cimg.co/news/123580/326765/responsive-images/bitboy-media-library-orig___media_library_original_720_480.jpg 720w, https://cimg.co/news/123580/326765/responsive-images/bitboy-media-library-orig___media_library_original_600_400.jpg 600w, https://cimg.co/news/123580/326765/responsive-images/bitboy-media-library-orig___media_library_original_300_200.jpg 300w" width="1200"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/blockchain-news/"> Blockchain News </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-08-28 17:52:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/ben-bitboy-crypto-fired-from-his-own-company-in-coup-whats-going-on.htm">
+<h4>Ben 'BitBoy' Crypto Fired From His Own Company In 'Coup' - What's Going On?</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-6 col-md-4 col-lg-12"><article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/ethereum-co-founder-vitalik-buterin-shares-insights-on-sam-bankman-frieds-reputation.htm">
+<div class="img-sized"><img alt="Ethereum Co-founder Vitalik Buterin Shares Insights on Sam Bankman-Fried’s Reputation" class="img-fluid" loading="auto" src="https://cimg.co/news/122080/323077/vitalik-buterin-1-media-l.jpg" srcset="https://cimg.co/news/122080/323077/responsive-images/vitalik-buterin-1-media-l___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/122080/323077/responsive-images/vitalik-buterin-1-media-l___media_library_original_900_600.jpg 900w, https://cimg.co/news/122080/323077/responsive-images/vitalik-buterin-1-media-l___media_library_original_720_480.jpg 720w, https://cimg.co/news/122080/323077/responsive-images/vitalik-buterin-1-media-l___media_library_original_600_400.jpg 600w, https://cimg.co/news/122080/323077/responsive-images/vitalik-buterin-1-media-l___media_library_original_300_200.jpg 300w" width="1200"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/blockchain-news/"> Blockchain News </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-08-10 10:38:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/ethereum-co-founder-vitalik-buterin-shares-insights-on-sam-bankman-frieds-reputation.htm">
+<h4>Ethereum Co-founder Vitalik Buterin Shares Insights on Sam Bankman-Fried’s Reputation</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-6 col-md-4 col-lg-12"><article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/spacex-reports-373-million-bitcoin-write-down-in-financial-documents.htm">
+<div class="img-sized"><img alt="SpaceX Reports $373 Million Bitcoin Write-Down in Financial Documents" class="img-fluid" loading="auto" src="https://cimg.co/news/122827/325011/adobestock-310563156-edit.jpg" srcset="https://cimg.co/news/122827/325011/responsive-images/adobestock-310563156-edit___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/122827/325011/responsive-images/adobestock-310563156-edit___media_library_original_900_600.jpg 900w, https://cimg.co/news/122827/325011/responsive-images/adobestock-310563156-edit___media_library_original_720_480.jpg 720w, https://cimg.co/news/122827/325011/responsive-images/adobestock-310563156-edit___media_library_original_600_400.jpg 600w, https://cimg.co/news/122827/325011/responsive-images/adobestock-310563156-edit___media_library_original_300_200.jpg 300w" width="1200"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/blockchain-news/"> Blockchain News </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-08-18 17:11:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/spacex-reports-373-million-bitcoin-write-down-in-financial-documents.htm">
+<h4>SpaceX Reports $373 Million Bitcoin Write-Down in Financial Documents</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+<div class="dslot mb-40 d-none d-lg-block" did="7">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/300x250-mobile.jpg" width=""/>
+</div>
+<div class="dslot d-lg-none" did="8">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/468x60.png" width=""/>
+</div>
+<div class="d-none d-lg-block">
+<h3 class="mb-20">Latest news</h3>
+<div class="mb-30">
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/chainlink-price-prediction-as-200-million-trading-volume-comes-are-whales-buying.htm">
+<div class="small-image-list img-sized"><img alt="Chainlink Price Prediction as $200 Million Trading Volume Comes In – Are Whales Buying?" class="" loading="auto" src="https://cimg.co/news/124415/328452/chainlink-price-predictio.jpg" srcset="https://cimg.co/news/124415/328452/responsive-images/chainlink-price-predictio___media_library_original_3708_2292.jpg 3708w, https://cimg.co/news/124415/328452/responsive-images/chainlink-price-predictio___media_library_original_1200_742.jpg 1200w, https://cimg.co/news/124415/328452/responsive-images/chainlink-price-predictio___media_library_original_900_556.jpg 900w, https://cimg.co/news/124415/328452/responsive-images/chainlink-price-predictio___media_library_original_720_445.jpg 720w, https://cimg.co/news/124415/328452/responsive-images/chainlink-price-predictio___media_library_original_600_371.jpg 600w, https://cimg.co/news/124415/328452/responsive-images/chainlink-price-predictio___media_library_original_300_185.jpg 300w" width="3708"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/price-predictions/"> Price Predictions </a> <div class="article__badge-date" data-utctime="2023-09-07 13:24:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/chainlink-price-prediction-as-200-million-trading-volume-comes-are-whales-buying.htm">
+                Chainlink Price Prediction as $200 Million Trading Volume Comes In – Are Whales Buying?
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/new-report-cryptos-rich-list-boasts-22-billionaires-88000-of-millionaires.htm">
+<div class="small-image-list img-sized"><img alt="New Report: Crypto's Rich List Boasts 22 Billionaires and 88,000 of Millionaires" class="" loading="auto" src="https://cimg.co/news/124414/328413/money-g860b04e73-1280-med.jpg" srcset="https://cimg.co/news/124414/328413/responsive-images/money-g860b04e73-1280-med___media_library_original_1280_853.jpg 1280w, https://cimg.co/news/124414/328413/responsive-images/money-g860b04e73-1280-med___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/124414/328413/responsive-images/money-g860b04e73-1280-med___media_library_original_900_600.jpg 900w, https://cimg.co/news/124414/328413/responsive-images/money-g860b04e73-1280-med___media_library_original_720_480.jpg 720w, https://cimg.co/news/124414/328413/responsive-images/money-g860b04e73-1280-med___media_library_original_600_400.jpg 600w, https://cimg.co/news/124414/328413/responsive-images/money-g860b04e73-1280-med___media_library_original_300_200.jpg 300w" width="1280"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/altcoin-news/"> Altcoin News </a> <div class="article__badge-date" data-utctime="2023-09-07 13:00:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/new-report-cryptos-rich-list-boasts-22-billionaires-88000-of-millionaires.htm">
+                New Report: Crypto's Rich List Boasts 22 Billionaires and 88,000 of Millionaires
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/x2-token-blasts-up-14000-after-going-viral-crypto-analysts-say-crypto-next-100x-potential.htm">
+<div class="small-image-list img-sized"><img alt="X2 Token Blasts Up 14,000% Before Dramatic Rug-Pull and Crypto Analysts Say This Crypto is Next to Explode – 100x Potential?" class="" loading="auto" src="https://cimg.co/news/124380/328438/image.jpg" srcset="https://cimg.co/news/124380/328438/responsive-images/image___media_library_original_1280_853.jpg 1280w, https://cimg.co/news/124380/328438/responsive-images/image___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/124380/328438/responsive-images/image___media_library_original_900_600.jpg 900w, https://cimg.co/news/124380/328438/responsive-images/image___media_library_original_720_480.jpg 720w, https://cimg.co/news/124380/328438/responsive-images/image___media_library_original_600_400.jpg 600w, https://cimg.co/news/124380/328438/responsive-images/image___media_library_original_300_200.jpg 300w" width="1280"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/industry-talk/"> Industry Talk </a> <div class="article__badge-date" data-utctime="2023-09-07 12:54:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/x2-token-blasts-up-14000-after-going-viral-crypto-analysts-say-crypto-next-100x-potential.htm">
+                X2 Token Blasts Up 14,000% Before Dramatic Rug-Pull and Crypto Analysts Say This Crypto is Next to Explode – 100x Potential?
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/binance-coin-price-prediction-as-bnb-overtakes-xrp-become-5th-largest-coin-world-can-bnb-reach-1000.htm">
+<div class="small-image-list img-sized"><img alt="Binance Coin Price Prediction as BNB Overtakes XRP to Become 5th Largest Coin in the World – Can BNB Reach $1,000?" class="" loading="auto" src="https://cimg.co/news/124409/328412/binance-coin-price-predic.jpg" srcset="https://cimg.co/news/124409/328412/responsive-images/binance-coin-price-predic___media_library_original_3708_2292.jpg 3708w, https://cimg.co/news/124409/328412/responsive-images/binance-coin-price-predic___media_library_original_1200_742.jpg 1200w, https://cimg.co/news/124409/328412/responsive-images/binance-coin-price-predic___media_library_original_900_556.jpg 900w, https://cimg.co/news/124409/328412/responsive-images/binance-coin-price-predic___media_library_original_720_445.jpg 720w, https://cimg.co/news/124409/328412/responsive-images/binance-coin-price-predic___media_library_original_600_371.jpg 600w, https://cimg.co/news/124409/328412/responsive-images/binance-coin-price-predic___media_library_original_300_185.jpg 300w" width="3708"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/price-predictions/"> Price Predictions </a> <div class="article__badge-date" data-utctime="2023-09-07 12:40:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/binance-coin-price-prediction-as-bnb-overtakes-xrp-become-5th-largest-coin-world-can-bnb-reach-1000.htm">
+                Binance Coin Price Prediction as BNB Overtakes XRP to Become 5th Largest Coin in the World – Can BNB Reach $1,000?
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/tornado-cash-co-founder-roman-storm-maintains-innocence-in-money-laundering-case-heres-the-latest.htm">
+<div class="small-image-list img-sized"><img alt="Tornado Cash Co-Founder Roman Storm Maintains Innocence in Money Laundering Case – Here's the Latest" class="" loading="auto" src="https://cimg.co/news/124413/328407/handcuffs.jpeg" srcset="https://cimg.co/news/124413/328407/responsive-images/handcuffs___media_library_original_1815_1208.jpeg 1815w, https://cimg.co/news/124413/328407/responsive-images/handcuffs___media_library_original_1200_799.jpeg 1200w, https://cimg.co/news/124413/328407/responsive-images/handcuffs___media_library_original_900_599.jpeg 900w, https://cimg.co/news/124413/328407/responsive-images/handcuffs___media_library_original_720_479.jpeg 720w, https://cimg.co/news/124413/328407/responsive-images/handcuffs___media_library_original_600_399.jpeg 600w, https://cimg.co/news/124413/328407/responsive-images/handcuffs___media_library_original_300_200.jpeg 300w" width="1815"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/ethereum-news/"> Ethereum News </a> <div class="article__badge-date" data-utctime="2023-09-07 12:31:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/tornado-cash-co-founder-roman-storm-maintains-innocence-in-money-laundering-case-heres-the-latest.htm">
+                Tornado Cash Co-Founder Roman Storm Maintains Innocence in Money Laundering Case – Here's the Latest
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/xrp-price-prediction-as-bears-push-xrp-below-050-support-time-buy-dip.htm">
+<div class="small-image-list img-sized"><img alt="XRP Price Prediction as Bears Push XRP Below $0.50 Support – Time to Buy the Dip?" class="" loading="auto" src="https://cimg.co/news/124386/328386/xrp-price-prediction-as-b.jpg" srcset="https://cimg.co/news/124386/328386/responsive-images/xrp-price-prediction-as-b___media_library_original_3708_2292.jpg 3708w, https://cimg.co/news/124386/328386/responsive-images/xrp-price-prediction-as-b___media_library_original_1200_742.jpg 1200w, https://cimg.co/news/124386/328386/responsive-images/xrp-price-prediction-as-b___media_library_original_900_556.jpg 900w, https://cimg.co/news/124386/328386/responsive-images/xrp-price-prediction-as-b___media_library_original_720_445.jpg 720w, https://cimg.co/news/124386/328386/responsive-images/xrp-price-prediction-as-b___media_library_original_600_371.jpg 600w, https://cimg.co/news/124386/328386/responsive-images/xrp-price-prediction-as-b___media_library_original_300_185.jpg 300w" width="3708"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/price-predictions/"> Price Predictions </a> <div class="article__badge-date" data-utctime="2023-09-07 12:00:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/xrp-price-prediction-as-bears-push-xrp-below-050-support-time-buy-dip.htm">
+                XRP Price Prediction as Bears Push XRP Below $0.50 Support – Time to Buy the Dip?
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/it-too-late-buy-kaspa-kas-price-blasts-up-16-lpx-token-surges-past-16-million.htm">
+<div class="small-image-list img-sized"><img alt="Is It Too Late to Buy Kaspa? KAS Price Blasts Up 16% and LPX Token Surges Past $1.6 Million" class="" loading="auto" src="https://cimg.co/news/124392/328380/image.jpg" srcset="https://cimg.co/news/124392/328380/responsive-images/image___media_library_original_1280_853.jpg 1280w, https://cimg.co/news/124392/328380/responsive-images/image___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/124392/328380/responsive-images/image___media_library_original_900_600.jpg 900w, https://cimg.co/news/124392/328380/responsive-images/image___media_library_original_720_480.jpg 720w, https://cimg.co/news/124392/328380/responsive-images/image___media_library_original_600_400.jpg 600w, https://cimg.co/news/124392/328380/responsive-images/image___media_library_original_300_200.jpg 300w" width="1280"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/industry-talk/"> Industry Talk </a> <div class="article__badge-date" data-utctime="2023-09-07 11:33:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/it-too-late-buy-kaspa-kas-price-blasts-up-16-lpx-token-surges-past-16-million.htm">
+                Is It Too Late to Buy Kaspa? KAS Price Blasts Up 16% and LPX Token Surges Past $1.6 Million
+            </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="pt-60 pb-20 pb-md-40 pb-md-60">
+<h3 class="mb-20">Similar News</h3>
+<div class="row">
+<div class="col-12 col-sm-6 col-lg-4 col-xl-3"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/bitcoin-miners-consider-hedging-options-for-revenue-stability.htm">
+<div class="img-sized"><img alt="Bitcoin Miners Consider Hedging Options for Revenue Stability" class="img-fluid" loading="auto" src="https://cimg.co/news/124298/328109/bitcoin-mining-media-libr.jpeg" srcset="https://cimg.co/news/124298/328109/responsive-images/bitcoin-mining-media-libr___media_library_original_1738_1159.jpeg 1738w, https://cimg.co/news/124298/328109/responsive-images/bitcoin-mining-media-libr___media_library_original_1200_800.jpeg 1200w, https://cimg.co/news/124298/328109/responsive-images/bitcoin-mining-media-libr___media_library_original_900_600.jpeg 900w, https://cimg.co/news/124298/328109/responsive-images/bitcoin-mining-media-libr___media_library_original_720_480.jpeg 720w, https://cimg.co/news/124298/328109/responsive-images/bitcoin-mining-media-libr___media_library_original_600_400.jpeg 600w, https://cimg.co/news/124298/328109/responsive-images/bitcoin-mining-media-libr___media_library_original_300_200.jpeg 300w" width="1738"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/bitcoin-news/"> Bitcoin News </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-06 09:50:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/bitcoin-miners-consider-hedging-options-for-revenue-stability.htm">
+<h4>Bitcoin Miners Consider Hedging Options for Revenue Stability</h4>
+</a>
+</div>
+</div>
+</article>
+</div><div class="col-12 col-sm-6 col-lg-4 col-xl-3"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/grayscale-urges-sec-greenlight-spot-bitcoin-etf-as-quickly-as-possible.htm">
+<div class="img-sized"><img alt="Grayscale Urges SEC to Greenlight Spot Bitcoin ETF ‘As Quickly As Possible’" class="img-fluid" loading="auto" src="https://cimg.co/news/124266/328051/grayscale-bitcoin-etf.jpg" srcset="https://cimg.co/news/124266/328051/responsive-images/grayscale-bitcoin-etf___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/124266/328051/responsive-images/grayscale-bitcoin-etf___media_library_original_900_600.jpg 900w, https://cimg.co/news/124266/328051/responsive-images/grayscale-bitcoin-etf___media_library_original_720_480.jpg 720w, https://cimg.co/news/124266/328051/responsive-images/grayscale-bitcoin-etf___media_library_original_600_400.jpg 600w, https://cimg.co/news/124266/328051/responsive-images/grayscale-bitcoin-etf___media_library_original_300_200.jpg 300w" width="1200"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/bitcoin-news/"> Bitcoin News </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-06 04:17:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/grayscale-urges-sec-greenlight-spot-bitcoin-etf-as-quickly-as-possible.htm">
+<h4>Grayscale Urges SEC to Greenlight Spot Bitcoin ETF ‘As Quickly As Possible’</h4>
+</a>
+</div>
+</div>
+</article>
+</div><div class="col-12 col-sm-6 col-lg-4 col-xl-3"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/crypto-exchange-bitfinex-diversifies-adds-bitcoin-balance-sheet.htm">
+<div class="img-sized"><img alt="Crypto Exchange Bitfinex Diversifies, Adds Bitcoin to Balance Sheet" class="img-fluid" loading="auto" src="https://cimg.co/news/124220/327929/bitfinex.jpeg" srcset="https://cimg.co/news/124220/327929/responsive-images/bitfinex___media_library_original_999_665.jpeg 999w, https://cimg.co/news/124220/327929/responsive-images/bitfinex___media_library_original_900_599.jpeg 900w, https://cimg.co/news/124220/327929/responsive-images/bitfinex___media_library_original_720_479.jpeg 720w, https://cimg.co/news/124220/327929/responsive-images/bitfinex___media_library_original_600_399.jpeg 600w, https://cimg.co/news/124220/327929/responsive-images/bitfinex___media_library_original_300_200.jpeg 300w" width="999"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/bitcoin-news/"> Bitcoin News </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-05 18:00:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/crypto-exchange-bitfinex-diversifies-adds-bitcoin-balance-sheet.htm">
+<h4>Crypto Exchange Bitfinex Diversifies, Adds Bitcoin to Balance Sheet</h4>
+</a>
+</div>
+</div>
+</article>
+</div><div class="col-12 col-sm-6 col-lg-4 col-xl-3"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/chain-data-short-term-bitcoin-holders-face-losses-amid-price-decline-heres-the-latest.htm">
+<div class="img-sized"><img alt="On-Chain Data: Short-Term Bitcoin Holders Face Losses Amid Price Decline – Here's the Latest" class="img-fluid" loading="auto" src="https://cimg.co/news/124195/327879/bitcoin-chart.jpeg" srcset="https://cimg.co/news/124195/327879/responsive-images/bitcoin-chart___media_library_original_1920_1280.jpeg 1920w, https://cimg.co/news/124195/327879/responsive-images/bitcoin-chart___media_library_original_1200_800.jpeg 1200w, https://cimg.co/news/124195/327879/responsive-images/bitcoin-chart___media_library_original_900_600.jpeg 900w, https://cimg.co/news/124195/327879/responsive-images/bitcoin-chart___media_library_original_720_480.jpeg 720w, https://cimg.co/news/124195/327879/responsive-images/bitcoin-chart___media_library_original_600_400.jpeg 600w, https://cimg.co/news/124195/327879/responsive-images/bitcoin-chart___media_library_original_300_200.jpeg 300w" width="1920"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/bitcoin-news/"> Bitcoin News </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-05 10:04:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/chain-data-short-term-bitcoin-holders-face-losses-amid-price-decline-heres-the-latest.htm">
+<h4>On-Chain Data: Short-Term Bitcoin Holders Face Losses Amid Price Decline – Here's the Latest</h4>
+</a>
+</div>
+</div>
+</article>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

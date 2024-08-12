@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/xcoins/">xcoins.com</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="5ed7a16f22e3b.jpg" class="img-fluid img-circle author__image author__image--has-bg mb-15" loading="auto" src="https://cimg.co/reviewlogo/44/5ed7a16f22e3b.jpg"/>
+<div>
+<a class="c-black" href="#"><b>xcoins.com</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/xcoins" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+<div class="fs-12"></div>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="xcoins"> xcoins.com</h1>
+<p>In this <a href="https://rapi.cryptonews.comhttps://cryptonews.com/ext/xcoins/en" rel="noopener" target="_blank">xcoins.com</a> review (not to be confused with its unrelated crypto lending service xCoins.io), we take a look at its history, fees, security, usability, and available deposit and withdrawal methods. Xcoins.com is a leading gateway for individuals to buy bitcoin (BTC), ethereum (ETH), litecoin (LTC), XRP, bitcoin cash (BCH), and dogecoin (DOGE) cryptocurrencies with your bank card. The service operates worldwide, offers relatively low transaction fees, and an instant delivery guarantee, which makes it one of the best options for acquiring top digital assets in a legal and secure way.</p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/xcoins" target="_blank">xcoins.com</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://xcoins.com/en/support/" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>Malta</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>1000.0 BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>No</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>No</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>CF Technologies</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+                                                                                                                                                        Credit Card,
+                                                                                                                                                                                                                                        Debit Card,
+                                                                                                                                            </b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>USD, EUR, GBP, TRY, AUD, CAD</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>10</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>-</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>Medium (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+<li>Low exchange rates</li> <li>Great for beginners</li> <li>Non-custodial platform</li> <li>Quick verification</li> <li>Excellent customer support</li> </ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+<li>Limited number of cryptocurrencies</li> <li>Limited payment methods</li> <li>Low privacy</li> <li>No advanced trading options</li> </ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/224/168381/4-account-registration.jpg" srcset="https://cimg.co/review/224/168381/responsive-images/4-account-registration___media_library_original_1880_939.jpg 1880w, https://cimg.co/review/224/168381/responsive-images/4-account-registration___media_library_original_1200_599.jpg 1200w, https://cimg.co/review/224/168381/responsive-images/4-account-registration___media_library_original_900_449.jpg 900w, https://cimg.co/review/224/168381/responsive-images/4-account-registration___media_library_original_720_359.jpg 720w, https://cimg.co/review/224/168381/responsive-images/4-account-registration___media_library_original_600_299.jpg 600w, https://cimg.co/review/224/168381/responsive-images/4-account-registration___media_library_original_300_149.jpg 300w" width="1880"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/224/168382/3-how-it-works.jpg" data-srcset="https://cimg.co/review/224/168382/responsive-images/3-how-it-works___media_library_original_1880_939.jpg 1880w, https://cimg.co/review/224/168382/responsive-images/3-how-it-works___media_library_original_1200_599.jpg 1200w, https://cimg.co/review/224/168382/responsive-images/3-how-it-works___media_library_original_900_449.jpg 900w, https://cimg.co/review/224/168382/responsive-images/3-how-it-works___media_library_original_720_359.jpg 720w, https://cimg.co/review/224/168382/responsive-images/3-how-it-works___media_library_original_600_299.jpg 600w, https://cimg.co/review/224/168382/responsive-images/3-how-it-works___media_library_original_300_149.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1880"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/224/168383/1-landing-site.jpg" data-srcset="https://cimg.co/review/224/168383/responsive-images/1-landing-site___media_library_original_1880_939.jpg 1880w, https://cimg.co/review/224/168383/responsive-images/1-landing-site___media_library_original_1200_599.jpg 1200w, https://cimg.co/review/224/168383/responsive-images/1-landing-site___media_library_original_900_449.jpg 900w, https://cimg.co/review/224/168383/responsive-images/1-landing-site___media_library_original_720_359.jpg 720w, https://cimg.co/review/224/168383/responsive-images/1-landing-site___media_library_original_600_299.jpg 600w, https://cimg.co/review/224/168383/responsive-images/1-landing-site___media_library_original_300_149.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1880"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/224/168384/5-confirm-buy-order.jpg" data-srcset="https://cimg.co/review/224/168384/responsive-images/5-confirm-buy-order___media_library_original_1880_939.jpg 1880w, https://cimg.co/review/224/168384/responsive-images/5-confirm-buy-order___media_library_original_1200_599.jpg 1200w, https://cimg.co/review/224/168384/responsive-images/5-confirm-buy-order___media_library_original_900_449.jpg 900w, https://cimg.co/review/224/168384/responsive-images/5-confirm-buy-order___media_library_original_720_359.jpg 720w, https://cimg.co/review/224/168384/responsive-images/5-confirm-buy-order___media_library_original_600_299.jpg 600w, https://cimg.co/review/224/168384/responsive-images/5-confirm-buy-order___media_library_original_300_149.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1880"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/224/168385/6-mobile-1.jpg" data-srcset="https://cimg.co/review/224/168385/responsive-images/6-mobile-1___media_library_original_579_826.jpg 579w, https://cimg.co/review/224/168385/responsive-images/6-mobile-1___media_library_original_300_427.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="579"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/224/168386/6-mobile-2.jpg" data-srcset="https://cimg.co/review/224/168386/responsive-images/6-mobile-2___media_library_original_594_905.jpg 594w, https://cimg.co/review/224/168386/responsive-images/6-mobile-2___media_library_original_300_457.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="594"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/224/168387/7-get-in-touch.jpg" data-srcset="https://cimg.co/review/224/168387/responsive-images/7-get-in-touch___media_library_original_1880_939.jpg 1880w, https://cimg.co/review/224/168387/responsive-images/7-get-in-touch___media_library_original_1200_599.jpg 1200w, https://cimg.co/review/224/168387/responsive-images/7-get-in-touch___media_library_original_900_449.jpg 900w, https://cimg.co/review/224/168387/responsive-images/7-get-in-touch___media_library_original_720_359.jpg 720w, https://cimg.co/review/224/168387/responsive-images/7-get-in-touch___media_library_original_600_299.jpg 600w, https://cimg.co/review/224/168387/responsive-images/7-get-in-touch___media_library_original_300_149.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1880"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/224/168388/2-why-xcoins.jpg" data-srcset="https://cimg.co/review/224/168388/responsive-images/2-why-xcoins___media_library_original_1880_939.jpg 1880w, https://cimg.co/review/224/168388/responsive-images/2-why-xcoins___media_library_original_1200_599.jpg 1200w, https://cimg.co/review/224/168388/responsive-images/2-why-xcoins___media_library_original_900_449.jpg 900w, https://cimg.co/review/224/168388/responsive-images/2-why-xcoins___media_library_original_720_359.jpg 720w, https://cimg.co/review/224/168388/responsive-images/2-why-xcoins___media_library_original_600_299.jpg 600w, https://cimg.co/review/224/168388/responsive-images/2-why-xcoins___media_library_original_300_149.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1880"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/224/168389/1-landing-site.jpg" data-srcset="https://cimg.co/review/224/168389/responsive-images/1-landing-site___media_library_original_1880_939.jpg 1880w, https://cimg.co/review/224/168389/responsive-images/1-landing-site___media_library_original_1200_599.jpg 1200w, https://cimg.co/review/224/168389/responsive-images/1-landing-site___media_library_original_900_449.jpg 900w, https://cimg.co/review/224/168389/responsive-images/1-landing-site___media_library_original_720_359.jpg 720w, https://cimg.co/review/224/168389/responsive-images/1-landing-site___media_library_original_600_299.jpg 600w, https://cimg.co/review/224/168389/responsive-images/1-landing-site___media_library_original_300_149.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1880"/></div>
+</div>
+</div><h3>xcoins.com Review: Key Features</h3><p>Established in 2016, xcoins.com is a leading cryptocurrency platform that allows users to buy and sell cryptocurrencies instantly with Visa, Mastercard, SEPA, Faster Payment or other payment methods based on your country of residence. xcoins.com was issued a Class 3 Virtual Financial Asset (VFA) License by Malta Financial Services Authority (MFSA), making them one of the first cryptocurrency exchanges to receive these permissions. This means that their internal processes and policies are in line with the highest standards in the industry. The service requires all users to open an account and verify their identity but the process is almost instant and takes only a few  minutes. xcoins.com has become an integral part of the crypto ecosystem and has helped more than 250,000 customers from over 167 countries to buy and sell more than USD 250 million in digital cash.</p><ul><li><strong>Buy and sell top 6 cryptocurrencies in U.S. Dollars (USD), Euros (EUR), Pound sterling (GBP), Australian dollar (AUD), Canadian dollar (CAD) and Turkish lira (TRY)</strong>. xcoins.com offers exchange services for major cryptocurrencies, including <a href="/coins/bitcoin/" rel="noopener" target="_blank">Bitcoin (BTC)</a>, <a href="/coins/ethereum/" rel="noopener" target="_blank">Ethereum (ETH)</a>, <a href="/coins/ripple/" rel="noopener" target="_blank">Ripple (XRP)</a>, <a href="/coins/litecoin/" rel="noopener" target="_blank">Litecoin (LTC)</a>, <a href="/coins/bitcoin-cash/" rel="noopener" target="_blank">Bitcoin Cash (BCH)</a>, and <a href="/coins/dogecoin/" rel="noopener" target="_blank">Dogecoin (DOGE)</a>.</li><li><strong>Some of the lowest exchange rates</strong>. xcoins.com exchanges cryptocurrencies at the best available rate. Also note that credit or debit card transactions come with an additional payment processing fee that is charged by the payment service providers.</li><li><strong>Instant delivery guarantee. </strong>xcoins.com guarantees that your order will be processed within 15 minutes. They also guarantee that if  your order takes longer, then your next purchase is going to be free of charge.</li><li><strong>Quick and instant verification.</strong> You cannot purchase crypto via xcoins.com if your account is not verified. Fortunately, their verification is almost instant as it takes only a few minutes to get verified.</li><li><strong>Top-notch customer service</strong>. xcoins.com prides itself on delivering exceptional customer support. The support agents are available 24/7 via live chat, phone, or email.</li></ul><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/224/168388/2-why-xcoins.jpg" data-srcset="https://cimg.co/review/224/168388/responsive-images/2-why-xcoins___media_library_original_1880_939.jpg 1880w, https://cimg.co/review/224/168388/responsive-images/2-why-xcoins___media_library_original_1200_599.jpg 1200w, https://cimg.co/review/224/168388/responsive-images/2-why-xcoins___media_library_original_900_449.jpg 900w, https://cimg.co/review/224/168388/responsive-images/2-why-xcoins___media_library_original_720_359.jpg 720w, https://cimg.co/review/224/168388/responsive-images/2-why-xcoins___media_library_original_600_299.jpg 600w, https://cimg.co/review/224/168388/responsive-images/2-why-xcoins___media_library_original_300_149.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1880"/></figure><p>To summarise,  xcoins.com is a quality service for anyone interested in acquiring cryptocurrency in a secure and regulated manner. The service offers some of the best exchange rates amongst instant cryptocurrency exchanges. Its non-custodial nature leaves you in control of your private keys, which means you don’t have to rely on third parties to keep your coins secure. </p><h3>xcoins.com Origin and Background</h3><p>xcoins.com was founded in 2016 and is operated by its parent company CF Technologies Ltd., which is based in Malta. The full address of the exchange is Phoenix Business Centre, The Penthouse, Old Railway Track, Santa Venera SVR 9022, Malta.</p><p>The platform was established with a simple and attainable mission in sight - to make the process of buying and selling Bitcoin as smooth and as seamless as possible so that even your grandma can buy and sell crypto.</p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/224/168389/1-landing-site.jpg" data-srcset="https://cimg.co/review/224/168389/responsive-images/1-landing-site___media_library_original_1880_939.jpg 1880w, https://cimg.co/review/224/168389/responsive-images/1-landing-site___media_library_original_1200_599.jpg 1200w, https://cimg.co/review/224/168389/responsive-images/1-landing-site___media_library_original_900_449.jpg 900w, https://cimg.co/review/224/168389/responsive-images/1-landing-site___media_library_original_720_359.jpg 720w, https://cimg.co/review/224/168389/responsive-images/1-landing-site___media_library_original_600_299.jpg 600w, https://cimg.co/review/224/168389/responsive-images/1-landing-site___media_library_original_300_149.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1880"/></figure><p>Today, xcoins.com is proud to have  exchanged more than $250,000,000 in digital cash for over 250,000 customers from more than 167 countries.The exchange is fully regulated in Malta and complies with all European regulations, including anti-money laundering (AML) and know your customer (KYC) regulations, as well as European Union Data Protection (GDPR) policy.</p><p>The platform is constantly working on implementing new features that make buying and selling Bitcoin and other top cryptocurrencies increasingly simpler.<strong> </strong></p><h3>Xcoins.com’s  Supported Countries</h3><p><a href="https://xcoins.com" rel="noopener" target="_blank">xcoins.com</a> offers its services worldwide, to 167 countries. If you want to know the list of countries they operate in, check out their <a href="https://xcoins.com/en/support/" rel="noopener" target="_blank">support page here</a>. </p><h3>Account Registration &amp; Verification </h3><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/224/168381/4-account-registration.jpg" data-srcset="https://cimg.co/review/224/168381/responsive-images/4-account-registration___media_library_original_1880_939.jpg 1880w, https://cimg.co/review/224/168381/responsive-images/4-account-registration___media_library_original_1200_599.jpg 1200w, https://cimg.co/review/224/168381/responsive-images/4-account-registration___media_library_original_900_449.jpg 900w, https://cimg.co/review/224/168381/responsive-images/4-account-registration___media_library_original_720_359.jpg 720w, https://cimg.co/review/224/168381/responsive-images/4-account-registration___media_library_original_600_299.jpg 600w, https://cimg.co/review/224/168381/responsive-images/4-account-registration___media_library_original_300_149.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1880"/></figure><p>All xcoins.com users must be verified in order to use the service. The registration and verification process is relatively quick and straightforward, and consists of just a couple of steps:</p><ol><li>Registration, mobile phone, and email verification (takes up to 2 minutes)</li><li>Identify verification with your driving licence, passport, national ID, and selfie (proof of living).</li></ol><p>The entire registration and verification process is smooth and simple - it only takes a few minutes to get verified and start buying Bitcoin.</p><p><a href="https://rapi.cryptonews.comhttps://cryptonews.com/ext/xcoins/en" rel="noopener" target="_blank">Visit Xcoins</a></p><h3>Xcoins Fees and Limits</h3><p><a href="https://xcoins.com" rel="noopener" target="_blank">xcoins.com</a> follows an extremely simple fee structure. It charges a low fee on top of the transaction. There is also a standard rate for purchases using Visa or Mastercard bank cards.</p><p>Besides, the xcoins.com exchange rate is one of the most generous in the industry when compared with other instant exchange services. Here’s how it compares with other popular instant exchanges if we were to buy USD 100 worth of Bitcoin (at the time of writing, 1 BTC = ~ USD 9,500).</p><figure class="table"><table><tbody><tr><td>Exchange</td><td>USD Amount</td><td>Amount of Bitcoin (BTC) received</td></tr><tr><td><a href="https://cryptonews.com/ext/xcoins" rel="noopener" target="_blank">Xcoins</a></td><td>USD 100</td><td>0.00997 BTC</td></tr><tr><td><a href="https://cryptonews.com/ext/changelly" rel="noopener" target="_blank">Changelly</a></td><td>USD 100</td><td>0.0094 BTC</td></tr><tr><td><a href="https://cryptonews.com/ext/switchere" rel="noopener" target="_blank">CoinSwitch</a></td><td>USD 100</td><td>0.009360 BTC</td></tr><tr><td><a href="https://cryptonews.com/ext/changenow" rel="noopener" target="_blank">ChangeNOW</a></td><td>USD 100</td><td>0.0089832 BTC</td></tr><tr><td><a href="https://cryptonews.com/ext/switchere" rel="noopener" target="_blank">SwitchHere</a></td><td>USD 100</td><td>0.00899509 BTC</td></tr></tbody></table></figure><p>Besides, xcoins.com is currently offering a guarantee that if your transaction is not completed within 15 minutes, your next transaction is going to be free of charge.</p><h3>xcoins.com’s Security Measures</h3><p>xcoins.com is a non-custodial cryptocurrency broker, which means that it does not offer digital wallet services, and you cannot lose your funds to hackers. That makes the exchange extremely secure, or at least way more secure than most centralised exchanges. Also, the exchange seems to not have experienced any hack or major data leak thus far. </p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/224/168382/3-how-it-works.jpg" data-srcset="https://cimg.co/review/224/168382/responsive-images/3-how-it-works___media_library_original_1880_939.jpg 1880w, https://cimg.co/review/224/168382/responsive-images/3-how-it-works___media_library_original_1200_599.jpg 1200w, https://cimg.co/review/224/168382/responsive-images/3-how-it-works___media_library_original_900_449.jpg 900w, https://cimg.co/review/224/168382/responsive-images/3-how-it-works___media_library_original_720_359.jpg 720w, https://cimg.co/review/224/168382/responsive-images/3-how-it-works___media_library_original_600_299.jpg 600w, https://cimg.co/review/224/168382/responsive-images/3-how-it-works___media_library_original_300_149.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1880"/></figure><p>Since xcoins.com does not provide digital wallet service, you must have your own private wallet and manage your private keys. If you don’t have one yet, we recommend using hardware wallets by <a href="https://cryptonews.com/ext/ledger/" rel="noopener" target="_blank">Ledger</a> or <a href="https://cryptonews.com/ext/trezor/" rel="noopener" target="_blank">Trezor</a>. Alternatively, you can get yourself a software or a web wallet that supports the cryptocurrency of your choice. See our <a href="/guides/how-to-choose-a-bitcoin-wallet.htm" rel="noopener" target="_blank">“How to Choose a Bitcoin Wallet”</a> guide to learn more about finding the right cryptocurrency wallet for you.</p><p>As all cryptocurrency exchanges, xcoins.com  has its own pros and cons. For one, strict KYC and AML measures give you peace of mind, given you can rest assured security is a priority with this exchange. However, they also tend to have little room for privacy. All of your transactions to private crypto wallets are recorded and associated with only you, s. On the user side of the platform, xcoins.com lets you secure your account with two-factor authentication (2FA). Although your account does not contain your coins, it contains a record of your transactions and other valuable private data. This is why it is recommended to keep it as secure as possible, using both a unique and secure password (that you don’t use on any other services) and two-factor authentication. </p><figure class="image"><img alt="xcoins review security" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ee/5d7a889e82.png" data-srcset="https://cimg.co/w/rw-attachments/1/5ee/5d7a889e82.png 300w, https://cimg.co/w/rw-attachments/2/5ee/5d7a889e82.png 600w, https://cimg.co/w/rw-attachments/3/5ee/5d7a889e82.png 720w, https://cimg.co/w/rw-attachments/4/5ee/5d7a889e82.png 900w, https://cimg.co/w/rw-attachments/0/5ee/5d7a889e82.png 1239w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>To sum up, xcoins.com is a very secure option due to its non-custodial and regulated nature. With xcoins.com, you are in charge of safekeeping your own keys, which is one of the major advantages (and burdens) of dealing with cryptocurrencies.</p><h3>Xcoins Design and Usability</h3><p>Using xcoins.com is very simple as the service was designed to be a simple and convenient crypto gateway for both new and experienced cryptocurrency investors. </p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/224/168383/1-landing-site.jpg" data-srcset="https://cimg.co/review/224/168383/responsive-images/1-landing-site___media_library_original_1880_939.jpg 1880w, https://cimg.co/review/224/168383/responsive-images/1-landing-site___media_library_original_1200_599.jpg 1200w, https://cimg.co/review/224/168383/responsive-images/1-landing-site___media_library_original_900_449.jpg 900w, https://cimg.co/review/224/168383/responsive-images/1-landing-site___media_library_original_720_359.jpg 720w, https://cimg.co/review/224/168383/responsive-images/1-landing-site___media_library_original_600_299.jpg 600w, https://cimg.co/review/224/168383/responsive-images/1-landing-site___media_library_original_300_149.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1880"/></figure><p>At pixel time, xcoins.com allows you to buy and sell the following cryptocurrencies using U.S. dollars (USD), euros (EUR), pound sterling (GBP), Australian dollar (AUD), Canadian dollar (CAD) and Turkish lira (TRY).</p><ul><li>Bitcoin (BTC)</li><li>Litecoin (LTC)</li><li>Ethereum (ETH)</li><li>Ripple (XRP)</li><li>Bitcoin Cash (BCH)</li><li>Dogecoin (DOGE)</li></ul><p>Buying and selling on xcoins.com is extremely simple, giving users a pleasurable experience with no stress  during the purchase. All you need to do is:</p><ol><li>Select your payment currency, a cryptocurrency that you want to receive, and enter your payment amount.</li><li>Enter your private selected cryptocurrency’s wallet address.</li><li>Fill in your bank card details.</li><li>Complete payment.</li></ol><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/224/168384/5-confirm-buy-order.jpg" data-srcset="https://cimg.co/review/224/168384/responsive-images/5-confirm-buy-order___media_library_original_1880_939.jpg 1880w, https://cimg.co/review/224/168384/responsive-images/5-confirm-buy-order___media_library_original_1200_599.jpg 1200w, https://cimg.co/review/224/168384/responsive-images/5-confirm-buy-order___media_library_original_900_449.jpg 900w, https://cimg.co/review/224/168384/responsive-images/5-confirm-buy-order___media_library_original_720_359.jpg 720w, https://cimg.co/review/224/168384/responsive-images/5-confirm-buy-order___media_library_original_600_299.jpg 600w, https://cimg.co/review/224/168384/responsive-images/5-confirm-buy-order___media_library_original_300_149.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1880"/><figcaption>xcoins.com order confirmation window</figcaption></figure><p> </p><p>That’s it! Your cryptocurrency payment should be initiated within 15 minutes. If it takes longer than that, xcoins.com even promises to cover your next purchase’s fee.</p><p>Xcoins also has a sell coins feature which allows you to sell cryptocurrencies for fiat at some of the best rates in the market. A definite bonus is that you will receive money almost instantly to your bank account. The whole process of selling coins is as simple and as convenient as buying<a href="https://rapi.cryptonews.comhttps://cryptonews.com/ext/xcoins/en" rel="noopener" target="_blank">Go to Exchange</a></p><h3>Xcoins Mobile App</h3><p>For now, the xcoins.com platform is accessible solely via the web platform. Nevertheless, its website is fully mobile responsive, which makes it easy and convenient to use regardless of the device you’re using. Xcoins.com is also working on a mobile app that should be out shortly.  </p><p>Here are some screenshots of using the Xcoins website via a smartphone. </p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/224/168385/6-mobile-1.jpg" data-srcset="https://cimg.co/review/224/168385/responsive-images/6-mobile-1___media_library_original_579_826.jpg 579w, https://cimg.co/review/224/168385/responsive-images/6-mobile-1___media_library_original_300_427.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="579"/></figure><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/224/168386/6-mobile-2.jpg" data-srcset="https://cimg.co/review/224/168386/responsive-images/6-mobile-2___media_library_original_594_905.jpg 594w, https://cimg.co/review/224/168386/responsive-images/6-mobile-2___media_library_original_300_457.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="594"/></figure><h3>Customer support</h3><p>xcoins.com employs a top-notch customer support team that is available 24/7/ via a live chat, phone, and email. Moreover, xcoins.com has an extensive <a href="https://xcoins.com/en/support/" rel="noopener" target="_blank">knowledge base</a> that answers the customer’s most frequent questions.</p><ul><li>Email / Skype: <a class="__cf_email__" data-cfemail="bdd5d8d1cdfdc5ded2d4d3ce93ded2d0" href="/cdn-cgi/l/email-protection">[email protected]</a></li><li>Phone: US: +888 71COINS / International: +1 (305) 946 1796</li><li>Help center: <a href="https://xcoins.com/en/support/" rel="noopener" target="_blank">click here</a>.</li></ul><p>The team is known to respond to a timeframe, which is approximately within just 1 hour. The live chat support is very responsive, too. However, be advised that the quickest way to contact the team is by making a call. </p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/224/168387/7-get-in-touch.jpg" data-srcset="https://cimg.co/review/224/168387/responsive-images/7-get-in-touch___media_library_original_1880_939.jpg 1880w, https://cimg.co/review/224/168387/responsive-images/7-get-in-touch___media_library_original_1200_599.jpg 1200w, https://cimg.co/review/224/168387/responsive-images/7-get-in-touch___media_library_original_900_449.jpg 900w, https://cimg.co/review/224/168387/responsive-images/7-get-in-touch___media_library_original_720_359.jpg 720w, https://cimg.co/review/224/168387/responsive-images/7-get-in-touch___media_library_original_600_299.jpg 600w, https://cimg.co/review/224/168387/responsive-images/7-get-in-touch___media_library_original_300_149.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1880"/></figure><h3>Deposit and Withdrawal Methods</h3><p>xcoins.com is a non-custodial cryptocurrency instant exchange, and the only way to buy cryptocurrencies via the xcoins.com platform is by using Visa, Mastercard, SEPA, Faster Payment or other payment methods based on your country of residence. </p><p>The platform sends coins directly to your private wallet, so it acts as a broker or mediator between you and coin sellers. As such, users don’t actually need to make deposits or withdrawals into their exchange accounts.</p><h3>xcoins.com Review: Conclusion</h3><p>xcoins.com is a solid choice for anyone who wants to buy bitcoin and other top cryptocurrencies quickly, securely, and conveniently. The platform has the best exchange rates amongst instant exchanges, and the 5% payment processing fee is rather low for direct credit or debit card purchases. Putting all of these things into consideration, it is clear that the platform is a great fiat gateway for both newbies as well as more experienced crypto enthusiasts.</p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>
