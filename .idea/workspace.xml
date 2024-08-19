@@ -26,320 +26,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2b6b28b-633d-488b-a11e-85b21f893e04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/a_origenal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsapi.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsapi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/ku/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/paged/newstechnology-news-1.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ku/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsapi-1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsapi-2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsapi/newsapi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsapi/newstechnology-news-1-1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsapi/newstechnology-news-1-2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newsapi/newstechnology-news-1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replace/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/a/coinpoker.com/register/index.html?token=fx_b78699_ac827b773e4732c1d0b6fff70a17457c_1&amp;affid=CryptonewsEN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/a/wgetlog.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/count_replace" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cronreload.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/about-us.htm" beforeDir="false" afterPath="$PROJECT_DIR$/html/about-us.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/about-us/editorial-guidelines/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/advertising.htm" beforeDir="false" afterPath="$PROJECT_DIR$/html/advertising.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/css/style-new-old.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/css/style-new.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/empty-kak-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/giphy1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/icon-arrow-left-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/icon-arrow-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/icon-arrow-right-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/icon-arrow-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/icon-pin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/logo-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/assets/images/icons/logo-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/logos/amkamdam.com.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/logos/bitmap_Layer 1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/logos/bitmap_Layer 1_copy_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/logos/da-1.com-1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/logos/da-1.com-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/logos/da-1.com.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/logos/da.com.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/logos/hindex.amkamdam.com.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/logos/huy-1.com.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/logos/huy.com.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/logos/huy/bitmap1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/logos/huy/bitmap6.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/logos/huy/logokak-4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/logos/huy/logokak-5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/logos/huy1/da-1.com.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/logos/intspeed.com.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/logos/logo.com.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/me_banner/1160x90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/me_banner/300x250-mobile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/html/assets/images/me_banner/300x250-mobile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/me_banner/300x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/html/assets/images/me_banner/300x600.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/me_banner/970x250.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/html/assets/images/me_banner/970x250.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/me_banner/970x90.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/html/assets/images/me_banner/970x90.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/oreginal_banner/1160x90.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/assets/images/oreginal_banner/1160x90.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/oreginal_banner/300x250-mobile.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/assets/images/oreginal_banner/300x250-mobile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/oreginal_banner/300x250.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/assets/images/oreginal_banner/300x250.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/oreginal_banner/300x540.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/assets/images/oreginal_banner/300x540.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/oreginal_banner/300x600-1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/html/assets/images/oreginal_banner/300x600-1.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/oreginal_banner/960x200.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/assets/images/oreginal_banner/960x200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/js/cookieconsent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/js/frontend-old.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/js/frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/assets/js/frontend.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/js/me.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/coins/binance-coin/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/coins/bitcoin/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/coins/cardano/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/coins/dogecoin/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/coins/ethereum/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/coins/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/coins/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/coins/litecoin/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/coins/pepe/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/coins/ripple/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/coins/shib-shiba-inu/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/coins/sol-solana/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/converter/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/best-altcoins/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/best-anonymous-casinos/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/best-bitcoin-betting-sites/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/best-bitcoin-blackjack-sites/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/best-bitcoin-casinos/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/best-bitcoin-gambling-sites/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/best-bitcoin-slots-sites/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/best-cold-wallets/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/best-crash-gambling-sites/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/best-crypto-icos/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/best-crypto-presales/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/best-crypto-to-buy/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/best-crypto-wallets/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/best-instant-withdrawal-bitcoin-casinos/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/best-meme-coins/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/best-no-account-casinos/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/best-solana-meme-coins/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/best-telegram-casinos/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/crypto-launches/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/how-to-buy-bitcoin/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/new-coinbase-listings/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/new-cryptocurrency/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/next-1000x-crypto/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/next-crypto-to-explode/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/cryptocurrency/upcoming-binance-listings/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/disclaimer.htm" beforeDir="false" afterPath="$PROJECT_DIR$/html/disclaimer.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/editors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/editors/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/events/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/exclusives/anurag-arjun-co-founder-of-avail-on-scaling-ethereum-the-future-of-l2s-rollups-and-why-crypto-needs-a-unification-layer-ep-338.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/exclusives/brave-browser-founder-warns-against-ai-and-google-search-model.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/exclusives/eduard-jubany-tur-founder-of-zkx-on-perpetual-futures-defi-growth-in-asia-and-how-defi-can-democratize-finance-ep-333.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/exclusives/ethan-buchman-ceo-of-cycles-protocol-on-the-history-of-money-cosmos-ecosystem-and-collaborative-finance-ep-337.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/exclusives/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/exclusives/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/exclusives/josh-fraser-co-founder-of-origin-protocol-on-liquid-staking-getting-better-yields-in-crypto-and-the-future-of-defi-ep-339.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/exclusives/podcast/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/exclusives/podcast/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/exclusives/spencer-farrar-partner-at-theory-ventures-on-web3-venture-capital-funding-and-strategy-ep-334.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/exclusives/tomer-pascal-ceo-of-cityverse-tycoon-on-web3-mobile-gaming-ecosystem-pwas-and-battling-the-apple-google-app-stores-ep-335.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/exclusives/tristan-frizza-founder-of-zeta-markets-on-solanas-defi-layer-2-plans-perpetual-trading-and-2024-defi-summer-ep-336.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/exclusives/unique-divine-co-founder-and-ceo-of-nibiru-on-creating-l1s-parallel-optimistic-execution-and-evm-compatibility-ep-340.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/favicon-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/favicon-48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/feed/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/gambling/best-casino-apps/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/gambling/best-offshore-casinos/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/gambling/fastest-payout-online-casinos/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/gambling/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/guides/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/guides/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/have-a-story.htm" beforeDir="false" afterPath="$PROJECT_DIR$/html/have-a-story.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/icon-arrow-left-white.svg?9b3929825f14e8c165c585c243b29fe1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/icon-arrow-left.svg?2e59d3d4e0c0dcc39a98c7890a07b073" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/icon-arrow-right-white.svg?761d52baa8a5f8e3fc684afe6f57fddb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/icon-arrow-right.svg?99589f509123978a58e0ca23f31624c2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/icon-cons.svg?a6c1c23f5361456991c3d7a0ce9eb502" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/icon-pin.svg?479c0ed4dfa6690e6d995b5fd937ff5b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/icon-pros.svg?888885a1152e7e57b9eefb9093ca7dcc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/icon-search-white.svg?6a383821bcb5ab4d70fb7ba2769f1be7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/icon-star-gradient.svg?ea81e1de07370ca5e2e6f63e98468cf3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/sub-menu.svg?9e0d9e5f9e4becd43b7a40e0d3460c21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.json" beforeDir="false" afterPath="$PROJECT_DIR$/a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/jobs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/me-index.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/ai-monopoly-risks-prompt-us-antitrust-investigation.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/altcoin-news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/news/altcoin-news/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/andrew-tate-burns-10m-of-top-g-meme-coin.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/binances-user-base-hits-200-million-totaling-100-billion-in-custodial-holdings.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/bitcoin-bull-run-poised-for-boost-as-global-liquidity-hits-record-94-trillion.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/bitcoin-news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/news/bitcoin-news/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/bitcoin-price-crash-following-roaring-kittys-youtube-livestream.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/bitcoin-price-prediction-as-millionaire-trader-says-btc-will-fall-to-40000-level-heres-why.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/bitcoin-price-prediction-impact-of-microstrategys-7b-short-positions-and-nfp-data.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/bitmex-launches-200x-leverage-for-ethereum-perpetual-swap.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/blockchain-news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/news/blockchain-news/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/breaking-robinhood-to-acquire-bitstamp-crypto-exchange-in-200-million-all-cash-deal.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/caitlyn-jenner-claims-sahil-arora-hacked-her-post-jenner-memecoin-release.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/crypto-etns-listed-on-the-lse-fail-to-attract-inflows.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/crypto-mining-regulation-takes-center-stage-at-st-petersburg-international-economic-forum.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/cryptonews-deals/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/news/cryptonews-deals/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/defi-news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/news/defi-news/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/donald-trump-vows-to-become-the-crypto-president.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/elliptic-report0reveals-the-future-of-crypto-crime-is-ai-driven.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/eth-etf-approval-by-sec-could-take-a-while-gary-gensler-says.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/ethereum-news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/news/ethereum-news/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/ex-prosecutors-join-support-for-binance-execs-nigeria-case.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/exclusive-rune-christensen-on-makerdaos-vision-for-defi-and-the-future-of-finance.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/exclusive-sui-blockchain-co-founder-adeniyi-abiodun-on-incoming-features.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/expert-insights-low-ethereum-gas-fees-are-beneficial-but-not-for-everyone.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/feed/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/news/feed/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/finance-news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/news/finance-news/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/fleek-and-polygon-labs-join-hands-on-highly-performant-permissionless-cloud-services.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/high-bitcoin-transaction-fees-return-as-blockchain-faces-congestion-again.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/ico-news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/news/ico-news/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/news/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/industry-talk/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/news/industry-talk/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/ireland-prime-destination-europe-crypto-ventures-ramp-network.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/kraken-seeks-over-100-million-in-pre-ipo-fundraising-bloomberg.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/new-york-court-charges-three-uk-nationals-linked-to-evolved-apes-nft-rugpull.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/new-zealand-kiwis-crypto-real-estate-digital-assets-study.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/nft-news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/news/nft-news/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/nfts-for-mass-issuance-to-be-classified-as-virtual-assets-s-korea.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/notcoin-price-could-this-worldwide-viral-coin-reach-1.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/nyse-backed-bakkt-contemplates-sale-amid-evolving-crypto-landscape.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/one-third-of-u-s-voters-prioritize-political-candidates-stance-on-crypto-harris-poll-finds.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/page/2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/press-releases/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/news/press-releases/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/price-predictions/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/news/price-predictions/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/roaring-kitty-gamesto-stock-gme-meme-coin.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/ryan-salame-former-ftx-exec-and-sbf-associate-gets-prison-time.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/saudi-arabia-joins-mbridge-for-cross-border-cbdc-payments.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/social-platform-friend-tech-announces-migration-to-friendchain-network.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/south-korea-universities-crypto-cash-conversion-hurdles.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/south-korean-lawmakers-consider-abolishing-crypto-tax-law.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/sponsored/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/news/sponsored/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/news/technology-news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/news/technology-news/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/telegram-debuts-ton-linked-in-app-digital-payment-token-stars.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/web3-web4-vc-investment-trends-fineqia-bundeep-singh-rangar.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/whats-happening-in-crypto-today-daily-crypto-news-digest.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/will-ethereum-reach-10000-this-year-amid-its-spot-etf-approvals.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/news/world-of-women-and-tezos-partner-to-push-for-gender-equality-across-web3.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/nft/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/notfound.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/notfound.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/price-predictions/bitcoin-price-prediction/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/price-predictions/ethereum-price-prediction/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/price-predictions/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/price-tracker/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/privacy-policy.htm" beforeDir="false" afterPath="$PROJECT_DIR$/html/privacy-policy.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/reviews/category/casinos/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/reviews/category/exchanges/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/reviews/category/services/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/reviews/category/wallets/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/reviews/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/reviews/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/safari-pinned-tab.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/site.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/tech/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/terms-and-conditions.htm" beforeDir="false" afterPath="$PROJECT_DIR$/html/terms-and-conditions.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test/a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test/amkamdam.com.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test/bitmap.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test/bitmaphuy.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test/click-iframe/a.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test/click-iframe/b.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test/click-iframe/bb.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test/click-iframe/c.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test/click-iframe/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test/click-iframe/kak.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test/click-iframe/zuy1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test/favicon-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test/favicon-192x192.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test/loading_gif/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test/loading_gif/generate_schedule..html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test/loading_gif/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test/loading_gif/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/videos/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/web-stories/adeniyi-abiodun-co-founder-sui-interview/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/web-stories/api3-raises-4m-in-funding-round-led-by-dwf-labs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/web-stories/bitcoin-price-prediction-6/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/web-stories/bitcoin-price-prediction-as-musk-denies-crypto-talks-with-trump/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/web-stories/bonk-price-prediction-as-bonk-drops-20-overnight/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/web-stories/david-schwartz-on-ripples-bold-new-strategies/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/web-stories/dogecoin-price-prediction-as-doge-approaches-ripple-in-rankings/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/web-stories/ethereum-etf-approval-was-a-political-decision-says-james-seyffart/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/web-stories/james-seyffart-on-eth-etf-launch-timeline/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/web-stories/mastercard-and-trulioo-partner-to-enhance-fraud-prevention/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/web-stories/okx-steps-into-netherlands/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/web-stories/qatar-completes-infrastructure-for-cbdc/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/web-stories/ralph-kuepfer-unveils-blockchain-and-ai-innovations/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/web-stories/solana-price-prediction-following/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/web-stories/us-republican-lawmaker-mchenry-pressures-senate-to-pass-fit21-crypto-bill-before-elections/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/plugins/brand-management-plugin/public/css/brand-management-public.css?ver=6.4.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/plugins/brand-management-plugin/public/fonts/BMFont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/plugins/brand-management-plugin/public/fonts/BMFont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/plugins/brand-management-plugin/public/fonts/BMFont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/plugins/brand-management-plugin/public/fonts/BMFont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/plugins/brand-management-plugin/public/fonts/BMFont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/plugins/crypto-price-predictor/js/cpp-ajax.js?ver=1.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/plugins/cryptonews-post-blocks/assets/css/style.css?ver=6.4.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/plugins/cryptonews/assets/css/brand-management.css?ver=1717999039" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/plugins/cryptonews/assets/css/brand-management.css?ver=1717999054" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/plugins/cryptonews/assets/css/presale-toplist.css?ver=6.4.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/plugins/cryptonews/assets/js/ajax-data-load.js?ver=6.4.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/plugins/cryptopresales-brand-management-plugin/public/css/crypto-bm-public.css?ver=6.4.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/plugins/geotargetingwp/public/css/flags.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/plugins/geotargetingwp/public/css/geotarget-public.min.css?ver=6.4.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/plugins/geotargetingwp/public/js/geotarget-public.js?ver=3.5.1.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/plugins/geotargetingwp/public/js/min/selectize.min.js?ver=3.5.1.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/plugins/web-stories/assets/js/web-stories-carousel.js?ver=8ea2dc44ace1055446e3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/plugins/web-stories/assets/js/web-stories-lightbox.js?ver=c8ca68e505a2dcb7bca4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/assets/css/blocks/do-not-miss-articles.css?ver=6.4.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/assets/css/blocks/partnered-articles.css?ver=6.4.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/assets/css/blocks/selected-articles.css?ver=6.4.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/assets/css/blocks/stories.css?ver=6.4.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/assets/css/blocks/top-section.css?ver=6.4.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/assets/js/reviews.js?ver=6.4.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/about-image-mob.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/about-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/arrow-closed-mob.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/arrow-closed.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/arrow-news-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/arrow-opened.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/disclosure-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/editor-star-blue.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/editor-star.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/follow-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/footer-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/guides-category.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/news-letter-mob.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/news-letter.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/pagination-arrow-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/pagination-arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/price-down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/price-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/price-up.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/slide-bot-line-tablet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/slide-bot-line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/slide-left-line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/statistic-background.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/users-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/video-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/images/youtube-button.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/js/frontend-new.js?ver=1717999039" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/style-new.css?ver=1717999039" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/themes/cryptonews/style-new.css?ver=1717999054" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/uploads/2023/11/IW-Profile-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/uploads/2024/01/0-150x150.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/uploads/2024/01/1706188408-next-1000x-crypto-300x163.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/uploads/2024/01/Cropped_Image-1-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-content/uploads/2024/02/1707781513-best-solana-meme-coins-300x169.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-includes/css/dist/block-library/style.min.css?ver=6.4.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-includes/js/dist/dom-ready.min.js?ver=392bdd43726760d1f3ca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wp-includes/js/jquery/jquery.min.js?ver=6.4.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/paged/exclusivesfeatures-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/exclusivesfeatures-1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/paged/newsfinance-news-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/newsfinance-news-1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/paged/newssponsored-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/newssponsored-1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/paged/newstechnology-news-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/newstechnology-news-1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsapi.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/newsapi/newsapi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/note.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old-chromedriver/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/replaced" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/root_cronreload.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/syslog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuy1" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -353,6 +67,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -373,6 +94,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -383,24 +105,50 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/html/paged" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/a" />
+      <recent name="$PROJECT_DIR$/html/paged" />
+      <recent name="$PROJECT_DIR$/newsapi" />
+      <recent name="$PROJECT_DIR$/html/ku" />
       <recent name="$PROJECT_DIR$/html" />
-      <recent name="$PROJECT_DIR$/aa" />
-      <recent name="$PROJECT_DIR$/replace/assets/css" />
+      <recent name="$PROJECT_DIR$/ku" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/newsapi" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/old-chromedriver" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.editallfiles">
+  <component name="RunManager" selected="Python.a">
+    <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="amkamdam.com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="editallfiles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="amkamdam.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -415,6 +163,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/editallfiles.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="newsapi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="amkamdam.com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/newsapi/newsapi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -447,8 +217,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tor" />
-        <item itemvalue="Python.editallfiles" />
+        <item itemvalue="Python.a" />
+        <item itemvalue="Python.newsapi" />
         <item itemvalue="Python.tor" />
         <item itemvalue="Python.editallfiles" />
         <item itemvalue="Python.tor" />
@@ -493,7 +263,7 @@
       <workItem from="1719572047237" duration="786000" />
       <workItem from="1722405991274" duration="1600000" />
       <workItem from="1722492551465" duration="156000" />
-      <workItem from="1723235805310" duration="7643000" />
+      <workItem from="1723235805310" duration="65564000" />
     </task>
     <task id="LOCAL-00001" summary="ku">
       <created>1706943512106</created>
@@ -537,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723280537745</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="begin new amkamdam da">
+      <created>1723451994209</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723451994209</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,7 +351,8 @@
     <MESSAGE value="rename me-index.html to me-index.xhtml so it doesn't get edited by editallfiles.py" />
     <MESSAGE value="huy" />
     <MESSAGE value="begin new amkamdam" />
-    <option name="LAST_COMMIT_MESSAGE" value="begin new amkamdam" />
+    <MESSAGE value="begin new amkamdam da" />
+    <option name="LAST_COMMIT_MESSAGE" value="begin new amkamdam da" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="318" width="1200" height="1009" key="#Deployment" timestamp="1717736825652">
@@ -589,33 +367,97 @@
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state x="819" y="468" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.38.2490.1562@70.38.2490.1562" timestamp="1723235974271" />
-    <state width="2422" height="411" key="GridCell.Tab.0.bottom" timestamp="1718113401784">
+    <state x="954" y="445" key="#xdebugger.evaluate" timestamp="1723472227902">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="411" key="GridCell.Tab.0.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1718113401784" />
-    <state width="2422" height="411" key="GridCell.Tab.0.center" timestamp="1718113401783">
+    <state x="954" y="445" key="#xdebugger.evaluate/70.38.2490.1562@70.38.2490.1562" timestamp="1723472227902" />
+    <state width="2486" height="741" key="DebuggerActiveHint" timestamp="1723822993824">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="411" key="GridCell.Tab.0.center/70.38.2490.1562@70.38.2490.1562" timestamp="1718113401783" />
-    <state width="2422" height="411" key="GridCell.Tab.0.left" timestamp="1718113401782">
+    <state width="2486" height="741" key="DebuggerActiveHint/70.38.2490.1562@70.38.2490.1562" timestamp="1723822993824" />
+    <state x="170" y="138" width="2290" height="1362" key="DiffContextDialog" timestamp="1723994942793">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="411" key="GridCell.Tab.0.left/70.38.2490.1562@70.38.2490.1562" timestamp="1718113401782" />
-    <state width="2422" height="411" key="GridCell.Tab.0.right" timestamp="1718113401783">
+    <state x="170" y="138" width="2290" height="1362" key="DiffContextDialog/70.38.2490.1562@70.38.2490.1562" timestamp="1723994942793" />
+    <state width="2422" height="431" key="GridCell.Tab.0.bottom" timestamp="1724041885584">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="411" key="GridCell.Tab.0.right/70.38.2490.1562@70.38.2490.1562" timestamp="1718113401783" />
-    <state x="542" y="192" width="1536" height="1261" key="SettingsEditor" timestamp="1717998771732">
+    <state width="2422" height="431" key="GridCell.Tab.0.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1724041885584" />
+    <state width="2422" height="431" key="GridCell.Tab.0.center" timestamp="1724041885583">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="542" y="192" width="1536" height="1261" key="SettingsEditor/70.38.2490.1562@70.38.2490.1562" timestamp="1717998771732" />
-    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1723280541072">
+    <state width="2422" height="431" key="GridCell.Tab.0.center/70.38.2490.1562@70.38.2490.1562" timestamp="1724041885583" />
+    <state width="2422" height="431" key="GridCell.Tab.0.left" timestamp="1724041885583">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2/70.38.2490.1562@70.38.2490.1562" timestamp="1723280541072" />
+    <state width="2422" height="431" key="GridCell.Tab.0.left/70.38.2490.1562@70.38.2490.1562" timestamp="1724041885583" />
+    <state width="2422" height="431" key="GridCell.Tab.0.right" timestamp="1724041885583">
+      <screen x="70" y="38" width="2490" height="1562" />
+    </state>
+    <state width="2422" height="431" key="GridCell.Tab.0.right/70.38.2490.1562@70.38.2490.1562" timestamp="1724041885583" />
+    <state width="2422" height="431" key="GridCell.Tab.1.bottom" timestamp="1724041886134">
+      <screen x="70" y="38" width="2490" height="1562" />
+    </state>
+    <state width="2422" height="431" key="GridCell.Tab.1.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1724041886134" />
+    <state width="2422" height="431" key="GridCell.Tab.1.center" timestamp="1724041886134">
+      <screen x="70" y="38" width="2490" height="1562" />
+    </state>
+    <state width="2422" height="431" key="GridCell.Tab.1.center/70.38.2490.1562@70.38.2490.1562" timestamp="1724041886134" />
+    <state width="2422" height="431" key="GridCell.Tab.1.left" timestamp="1724041886134">
+      <screen x="70" y="38" width="2490" height="1562" />
+    </state>
+    <state width="2422" height="431" key="GridCell.Tab.1.left/70.38.2490.1562@70.38.2490.1562" timestamp="1724041886134" />
+    <state width="2422" height="431" key="GridCell.Tab.1.right" timestamp="1724041886134">
+      <screen x="70" y="38" width="2490" height="1562" />
+    </state>
+    <state width="2422" height="431" key="GridCell.Tab.1.right/70.38.2490.1562@70.38.2490.1562" timestamp="1724041886134" />
+    <state x="542" y="192" width="1536" height="1261" key="SettingsEditor" timestamp="1723469612994">
+      <screen x="70" y="38" width="2490" height="1562" />
+    </state>
+    <state x="542" y="192" width="1536" height="1261" key="SettingsEditor/70.38.2490.1562@70.38.2490.1562" timestamp="1723469612994" />
+    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1723451996308">
+      <screen x="70" y="38" width="2490" height="1562" />
+    </state>
+    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2/70.38.2490.1562@70.38.2490.1562" timestamp="1723451996308" />
+    <state width="1245" height="781" key="XDebugger.FullValuePopup" timestamp="1723994829469">
+      <screen x="70" y="38" width="2490" height="1562" />
+    </state>
+    <state width="1245" height="781" key="XDebugger.FullValuePopup/70.38.2490.1562@70.38.2490.1562" timestamp="1723994829469" />
+    <state x="872" y="424" width="888" height="790" key="find.popup" timestamp="1723815765569">
+      <screen x="70" y="38" width="2490" height="1562" />
+    </state>
+    <state x="872" y="424" width="888" height="790" key="find.popup/70.38.2490.1562@70.38.2490.1562" timestamp="1723815765569" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/a.py</url>
+          <line>190</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/a.py</url>
+          <line>477</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/a.py</url>
+          <line>468</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/a.py</url>
+          <line>449</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/amkamdam_com$editallfiles.coverage" NAME="editallfiles Coverage Results" MODIFIED="1718003104809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/amkamdam_com$a.coverage" NAME="a Coverage Results" MODIFIED="1724041885524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/amkamdam_com$newsapi.coverage" NAME="newsapi Coverage Results" MODIFIED="1723963543643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/amkamdam_com$tor.coverage" NAME="tor Coverage Results" MODIFIED="1707757081424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
