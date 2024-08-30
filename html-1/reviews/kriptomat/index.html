@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/kriptomat/">Kriptomat</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="5ecd30e463585.png" class="img-fluid img-circle author__image author__image--has-bg mb-15" loading="auto" src="https://cimg.co/reviewlogo/43/5ecd30e463585.png"/>
+<div>
+<a class="c-black" href="#"><b>Kriptomat</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/kriptomat" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+<div class="fs-12"></div>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="kriptomat"> Kriptomat</h1>
+<p>Kriptomat is a custodial cryptocurrency exchange from one of the most innovative European countries - Estonia. The exchange serves as a simple and reliable fiat-to-crypto gateway that is regulated under EU legislation and is open to customers from more than 80 countries worldwide. It has obtained multiple internationally recognized cryptocurrency and security licenses and has not experienced any data leaks during its two years of existence. Despite being strictly regulated and audited, the exchange offers an expedited version of identity verification, as well as surprisingly low fees for a regulated platform, thus making it one of the best up-and-coming European exchanges in the market.</p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/kriptomat" target="_blank">Kriptomat</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://kriptomat.io/contact-us/" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>Tallinn, Estonia</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>1000.0 BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>Yes</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>No</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>KRIPTOMAT OÜ</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+                                                                                                                                                        Bank Transfer,
+                                                                                                                                                                                                                                        Credit Card,
+                                                                                                                                                                                                                                        Debit Card,
+                                                                                                                                            </b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>EUR</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>100</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>-</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>Medium (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+<li>Very easy to use - ideal for beginners Low fees and high limits Regulated exchange with spotless reputation Secure fiat-to-crypto gateway</li> </ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+<li>No advanced trading features Privacy risks SMS-based 2FA by default Deposits and withdrawals are not supported for all offered cryptocurrencies</li> </ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/223/14801/5ed62e0a9bea3.jpg" srcset="https://cimg.co/review/223/14801/responsive-images/5ed62e0a9bea3___media_library_original_407_726.jpg 407w, https://cimg.co/review/223/14801/responsive-images/5ed62e0a9bea3___media_library_original_300_535.jpg 300w" width="407"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/223/14802/5ed62e0e53a42.jpg" data-srcset="https://cimg.co/review/223/14802/responsive-images/5ed62e0e53a42___media_library_original_1400_1201.jpg 1400w, https://cimg.co/review/223/14802/responsive-images/5ed62e0e53a42___media_library_original_1200_1029.jpg 1200w, https://cimg.co/review/223/14802/responsive-images/5ed62e0e53a42___media_library_original_900_772.jpg 900w, https://cimg.co/review/223/14802/responsive-images/5ed62e0e53a42___media_library_original_720_617.jpg 720w, https://cimg.co/review/223/14802/responsive-images/5ed62e0e53a42___media_library_original_600_514.jpg 600w, https://cimg.co/review/223/14802/responsive-images/5ed62e0e53a42___media_library_original_300_257.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1400"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/223/14803/5ed62e12df063.jpg" data-srcset="https://cimg.co/review/223/14803/responsive-images/5ed62e12df063___media_library_original_1886_885.jpg 1886w, https://cimg.co/review/223/14803/responsive-images/5ed62e12df063___media_library_original_1200_563.jpg 1200w, https://cimg.co/review/223/14803/responsive-images/5ed62e12df063___media_library_original_900_422.jpg 900w, https://cimg.co/review/223/14803/responsive-images/5ed62e12df063___media_library_original_720_337.jpg 720w, https://cimg.co/review/223/14803/responsive-images/5ed62e12df063___media_library_original_600_281.jpg 600w, https://cimg.co/review/223/14803/responsive-images/5ed62e12df063___media_library_original_300_140.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1886"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/223/14804/5ed62e1447002.jpg" data-srcset="https://cimg.co/review/223/14804/responsive-images/5ed62e1447002___media_library_original_1633_755.jpg 1633w, https://cimg.co/review/223/14804/responsive-images/5ed62e1447002___media_library_original_1200_554.jpg 1200w, https://cimg.co/review/223/14804/responsive-images/5ed62e1447002___media_library_original_900_416.jpg 900w, https://cimg.co/review/223/14804/responsive-images/5ed62e1447002___media_library_original_720_332.jpg 720w, https://cimg.co/review/223/14804/responsive-images/5ed62e1447002___media_library_original_600_277.jpg 600w, https://cimg.co/review/223/14804/responsive-images/5ed62e1447002___media_library_original_300_138.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1633"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/223/14805/5ed62e158a6fc.jpg" data-srcset="https://cimg.co/review/223/14805/responsive-images/5ed62e158a6fc___media_library_original_561_655.jpg 561w, https://cimg.co/review/223/14805/responsive-images/5ed62e158a6fc___media_library_original_300_350.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="561"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/223/14806/5ed62e16d878b.jpg" data-srcset="https://cimg.co/review/223/14806/responsive-images/5ed62e16d878b___media_library_original_772_462.jpg 772w, https://cimg.co/review/223/14806/responsive-images/5ed62e16d878b___media_library_original_720_430.jpg 720w, https://cimg.co/review/223/14806/responsive-images/5ed62e16d878b___media_library_original_600_359.jpg 600w, https://cimg.co/review/223/14806/responsive-images/5ed62e16d878b___media_library_original_300_179.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="772"/></div>
+</div>
+</div><h2>Kriptomat Review: Key features</h2><p>Kriptomat is a regulated custodial exchange that provides a quick and straightforward way to buy and sell bitcoin as well as other top cryptocurrencies. It offers quick user verification and numerous payment options that make it simple, accessible, and easy to use even for beginners.</p><figure class="image"><img alt="Kriptomat exchange review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/658f1122c5.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/658f1122c5.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/658f1122c5.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/658f1122c5.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/658f1122c5.jpg 900w, https://cimg.co/w/rw-attachments/0/5ed/658f1122c5.jpg 1886w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Registered users can use the Kriptomat platform to:</p><ul><li><strong>Buy, sell, deposit, withdraw, and exchange 30 top digital currencies</strong> using most popular payment methods like <strong>bank transfers</strong>, <strong>SEPA</strong>, <strong>Visa</strong>, <strong>Mastercard</strong>, <strong>Skrill</strong>, <strong>Neteller</strong>, <strong>Zimpler</strong>, <strong>Sofort</strong>, and others.</li><li><strong>Low fees.</strong> Kriptomat offers surprisingly low buying, selling, and trading fees that make it one of the most fiat-to-crypto gateways in Europe as well as outside of it.</li><li><strong>Use a secure and regulated multi-currency digital wallet service</strong> to store, secure, and transfer digital currencies. Kriptomat exchange adheres to the highest degree international security standards, has obtained multiple licenses, and complies with the strictest data protection laws like <strong>GDPR</strong>.</li><li><strong>Beginner-friendly exchange.</strong> Kriptomat was designed with the end-user in mind. It makes it super easy to transfer, trade, buy, sell, deposit, and withdraw both fiat and crypto funds to your linked bank account or private crypto wallet securely.</li><li><strong>Trade on-the-go using Kriptomat mobile app.</strong> The exchange supports trading on <strong>iOS</strong> and <strong>Android</strong> devices and lets you set up price alerts to get notified about the latest market developments.</li><li><strong>The platform is accessible in more than 80 countries</strong>, and is translated into <strong>23 languages</strong>, meaning that Kriptomat offers a truly global service.</li><li><strong>Earn rewards and money via the Kriptomat Rewards</strong> section or generous referral and affiliate programs.</li><li><strong>Expedited know your customer (KYC) process.</strong> Despite being heavily regulated, Kriptomat verification takes only a few minutes.</li></ul><figure class="image"><img alt="Kriptomat review key features" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/6592c8b999.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/6592c8b999.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/6592c8b999.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/6592c8b999.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/6592c8b999.jpg 900w, https://cimg.co/w/rw-attachments/0/5ed/6592c8b999.jpg 1590w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: Kriptomat.io</p><p>In brief, Kriptomat offers a high-level crypto trading platform that complies with all the developing cryptocurrency laws and regulations. Its exchange is highly secure, and while that is not the case with other regulated services, it offers surprisingly low trading fees that range from <strong>1.45% to 3.95% per transaction</strong> (based on your payment method). However, it does not have any advanced trading features yet, making it a super user-friendly and handy fiat-to-crypto onramp and offramp.</p><h2>Kriptomat Origins and Background</h2><p>Launched in Tallinn, Estonia, in early 2018, Kriptomat is a relatively new, yet secure and user-friendly with a frictionless cryptocurrency trading experience. The platform’s mantra is that “everybody, everywhere, deserves the freedom, fairness, and fulfillment that crypto represents.”</p><p>Kriptomat is fully transparent and regulated in Estonia, as it is registered with the<strong>Estonian commercial register</strong> (reg. <strong>code 14424637</strong>). The exchange supervised by the <strong>Ministry of Finance’s Financial Intelligence Unit (FIU)</strong> and has two licenses to ensure its compliance:</p><ul><li><a href="https://mtr.mkm.ee/taotluse_tulemus/481745" rel="noopener" target="_blank">License for providing services of exchanging a virtual currency against fiat currency.</a></li><li><a href="https://mtr.mkm.ee/taotluse_tulemus/481745" rel="noopener" target="_blank">License for providing a virtual currency wallet service.</a></li></ul><p>Its current management team consists of CEO Srdjan Mahmutovich, COO Dejan Davidovic, and CTO Jaka Erjavec. The company's business address is Tornimäe tn 5, 10145 Tallinn, Estonia.</p><figure class="image"><img alt="Kriptomat review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/659651ee49.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/659651ee49.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/659651ee49.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/659651ee49.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/659651ee49.jpg 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Kriptomat senior management team. Source: Kriptomat.io</p><p>After the launch of the exchange, Kriptomat planned to raise money by issuing security tokens via a <a href="/guides/what-is-a-security-token-offering-sto.htm" rel="noopener" target="_blank">security token offering (STO)</a> in 2019. However, the funding round was canceled due to <a href="https://kriptomat.io/platform/kriptomat-sto-update/" rel="noopener" target="_blank">issues with their security issuance partner</a>, and all of the funds were returned to investors.</p><p>In 2021, the exchange continues to improve its services by adding new cryptocurrencies and payment methods. In May, Kriptomat has become the first European cryptocurrency exchange awarded with an <a href="https://kriptomat.io/platform/iso-information-security-accreditation/?utm_source=t.co&amp;utm_medium=social&amp;utm_campaign=Kriptomat%20Has%20Been%20Awarded%20the%20ISO%20Information%20Security%20Accreditation" rel="noopener" target="_blank"><strong>ISO/IEC 207001:2013 certificate</strong></a> for rigorous operational and technological standards for Information Security Management Systems.</p><figure class="image"><img alt="Kriptomat exchange certifications" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/659a6358ce.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/659a6358ce.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/659a6358ce.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/659a6358ce.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/659a6358ce.jpg 900w, https://cimg.co/w/rw-attachments/0/5ed/659a6358ce.jpg 835w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Besides, the exchange is preparing to launch <a href="https://kriptomat.io/platform/next-generation-experience/?utm_source=t.co&amp;utm_medium=social&amp;utm_campaign=A%20Next-Generation%20Cryptocurrency%20Experience%20Is%20on%20Its%20Way" rel="noopener" target="_blank">Kriptomat 2.0</a> - a new version of the exchange that is going to improve its user-interface. Currently, Kriptomat 2.0 is it closed beta testing mode and should roll out anytime soon.</p><figure class="image"><img alt="Kriptomat review new interface" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/64158bc218.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/64158bc218.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/64158bc218.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/64158bc218.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/64158bc218.jpg 900w, https://cimg.co/w/rw-attachments/0/5ed/64158bc218.jpg 1400w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: Kriptomat.io</p><h3>Kriptomat Supported Countries</h3><p>Kriptomat is a global cryptocurrency exchange that offers its services for people from all over the globe. Currently, the exchange accepts customers from 82 countries across 6 continents. These include:</p><ul><li><strong>Europe:</strong> Albania, Andorra, Austria, Belarus, Belgium, Bosnia &amp; Hercegovina, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Gibraltar, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova, Monaco, Montenegro, Netherlands, Norway, Poland, Portugal, Romania, San Marino, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Turkey, Ukraine, and United Kingdom.</li><li><strong>Asia:</strong> Armenia, Azerbaijan, Bahrain, Cambodia, Georgia, Hong Kong, Indonesia, Israel, Japan, Kazakhstan, Philippines, Russia, Singapore, Sri Lanka, Taiwan, Thailand, and United Arab Emirates.</li><li><strong>North America:</strong> Canada, Cayman Islands, Costa Rica, Greenland, Grenada, Mexico.</li><li><strong>South America:</strong> Argentina, Brazil, Chile, Colombia, French Guiana, Peru, Uruguay, Venezuela.</li><li><strong>Africa:</strong> Kenya, Nigeria, Seychelles, South Africa, Tunisia.</li><li><strong>Oceania:</strong> Australia and New Zealand.</li></ul><figure class="image"><img alt="Kriptomat supported countries" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/65a02aa86c.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/65a02aa86c.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/65a02aa86c.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/65a02aa86c.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/65a02aa86c.jpg 900w, https://cimg.co/w/rw-attachments/0/5ed/65a02aa86c.jpg 1521w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>At pixel time, Kriptomat website is available in <strong>23 languages</strong>: English, German, Portuguese (incl. Brasilian Portuguese), Estonian, Romanian, Spanish, French, Slovenian, Slovak, Croatian, Swedish, Italian, Turkish, Latvian, Czech, Lithuanian, Greek, Hungarian, Belarusian, Dutch, Russian, and Polish.</p><p>Currently, Kriptomat exchange is not accessible to the citizens and residents of the following jurisdictions:</p><ul><li>The United States of America</li><li>China</li><li>India</li><li>Afghanistan</li><li>Algeria</li><li>American Samoa</li><li>Bangladesh</li><li>Bolivia</li><li>Congo</li><li>North Korea</li><li>Ecuador</li><li>Egypt</li><li>Ethiopia</li><li>Macedonia</li><li>Iran</li><li>Iraq</li><li>Kyrgyzstan</li><li>Pakistan</li><li>Palestine</li><li>Qatar</li><li>Saudi Arabia</li><li>Syria</li><li>Morocco</li><li>Nepal</li><li>Vanuatu</li><li>Vietnam</li><li>Zambia</li></ul><p>Cryptocurrency regulations are always changing all over the globe, so the lists above are not definite. You can check the latest list of Kriptomat supported countries, as well as supported local payment methods <a href="https://kriptomat.io/global/" rel="noopener" target="_blank">here</a>.</p><figure class="image"><img alt="Kriptomat review get started" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/65a2f180a1.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/65a2f180a1.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/65a2f180a1.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/65a2f180a1.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/65a2f180a1.jpg 900w, https://cimg.co/w/rw-attachments/0/5ed/65a2f180a1.jpg 1595w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h3>Account Registration &amp; Verification</h3><p>Registration and account verification with Kriptomat is simple and will not consume much of your time.</p><figure class="image"><img alt="Kriptomat KYC " class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/65a99a98ca.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/65a99a98ca.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/65a99a98ca.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/65a99a98ca.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/65a99a98ca.jpg 900w, https://cimg.co/w/rw-attachments/0/5ed/65a99a98ca.jpg 1653w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Kriptomat verification process.</p><p>Kriptomat deals with verified clients only. That means that every user, regardless of your trading volume or primary jurisdiction, <strong>must pass know your customer (KYC)</strong> and <strong>anti-money laundering checks (AML)</strong> to unlock trading.</p><p>Despite that, Kriptomat employs a quicker version of the KYC procedure, making it an almost frictionless experience. Hence, registration and account verification takes only a few minutes.</p><figure class="image"><img alt="Kriptomat expedited KYC" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/65a68c752f.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/65a68c752f.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/65a68c752f.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/65a68c752f.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/65a68c752f.jpg 900w, https://cimg.co/w/rw-attachments/0/5ed/65a68c752f.jpg 1617w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Upon clicking the "register" button on the exchange's website or mobile app, you will be guided to verify the following details:</p><ul><li>Your email address</li><li>Your mobile phone number</li><li>Upload an identity confirming document (ID or passport)</li><li>Proof of living (selfie)</li></ul><p>After verification, you're free to deposit and withdraw funds and perform trades on the platform.</p><p>Here is a short video guide on how to pass the Kriptomat identity verification process:</p><h2>Kriptomat Fees and Trading Limits</h2><p>Like most cryptocurrency exchanges, Kriptomat charges fees for buying, trading, and selling cryptocurrencies and crypto withdrawal fees.</p><p>A regular cryptocurrency purchase at Kriptomat will cost you <strong>1.45%</strong> of the total transaction amount, or at least<strong>1.45 EUR</strong> (or its equivalent). The same applies to every crypto-to-fiat sale. When it comes to credit card buys, a user will pay <strong>3.65%</strong> for every transaction above 100 EUR. A variable credit card fee is charged for every purchase below 100 EUR.</p><figure class="table"><table><tbody><tr><th><strong>Transaction</strong></th><th><strong>Fee</strong></th><th><strong>Minimal Fee</strong></th></tr><tr><th><strong>Buy (fiat-to-crypto)</strong></th><th>1.45%</th><th>1.45 EUR</th></tr><tr><th><strong>Sell (crypto-to-fiat)</strong></th><th>1.45%</th><th>1.45 EUR</th></tr><tr><th><strong>Zimpler buy</strong></th><th>2.89%</th><th>-</th></tr><tr><th><strong>Sofort deposit</strong></th><th>3.95%</th><th>-</th></tr><tr><th><strong>Skrill buy</strong></th><th>Variable fee</th><th>-</th></tr><tr><th><strong>Neteller buy</strong></th><th>Variable fee</th><th>-</th></tr><tr><th><strong>Credit card buy (above 100 EUR)</strong></th><th>3.65%</th><th>-</th></tr><tr><th><strong>Credit card buy (below 100 EUR)</strong></th><th>Variable fee</th><th>-</th></tr></tbody></table></figure><p>Kriptomat does not charge any fees for SEPA deposits and withdrawals. However, it costs a <strong>fixed 1 euro deposit fee</strong> for deposits from your bank account and a <strong>fixed 2 euro withdrawal fee</strong> for withdrawals from your Kriptomat account. In some cases, your bank may charge extra fees for transfers between your and Kriptomat bank accounts. The minimal SEPA deposit amount must be <strong>at least 35 euros</strong> (or its equivalent).</p><p>Moreover, the deposits and withdrawals in and out the Kriptomat platform are subjected to the following transaction limits:</p><figure class="image"><img alt="Kriptomat review transaction limits" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/64af189588.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/64af189588.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/64af189588.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/64af189588.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/64af189588.jpg 900w, https://cimg.co/w/rw-attachments/0/5ed/64af189588.jpg 845w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>When it comes to cryptocurrency deposits, Kriptomat does not charge a fee for moving coins into the exchange’s wallet, and regular crypto transactions are <strong>free of charge</strong>.</p><p>Deposits and withdrawals currently are not supported for all cryptocurrencies, but there’s a small withdrawal fee for coins whose withdrawal feature is functional.</p><figure class="table"><table><tbody><tr><th><strong>Coin</strong></th><th><strong>Withdrawal Fee</strong></th></tr><tr><th><strong>Bitcoin (BTC)</strong></th><th>0.000625 BTC</th></tr><tr><th><strong>Ripple (XRP)</strong></th><th>0.025 XRP</th></tr><tr><th><strong>Ethereum (ETH)</strong></th><th>0.00625 ETH</th></tr><tr><th><strong>Litecoin (LTC)</strong></th><th>0.00125 LTC</th></tr><tr><th><strong>Stellar (XLM)</strong></th><th>0.00003 XLM</th></tr><tr><th><strong>Bitcoin Cash (BCH)</strong></th><th>0.00013 BCH</th></tr><tr><th><strong>Dash (DASH)</strong></th><th>0.00625 DASH</th></tr><tr><th><strong>Dai (DAI)</strong></th><th>1.25 DAI</th></tr><tr><th><strong>Zcash (ZEC)</strong></th><th>0.00013 ZEC</th></tr><tr><th><strong>Augur (REP)</strong></th><th>0.25 REP</th></tr><tr><th><strong>Gnosis (GNO)</strong></th><th>0.00625 GNO</th></tr><tr><th><strong>0xProject (ZRX)</strong></th><th>2.5 ZRX</th></tr><tr><th><strong>OmiseGO (OMG)</strong></th><th>0.5 OMG</th></tr><tr><th><strong>Enjin (ENJ)</strong></th><th>32.5 ENJ</th></tr><tr><th><strong>Status (SNT)</strong></th><th>43.75 SNT</th></tr><tr><th><strong>SunContract (SNC)</strong></th><th>6.25 SNC</th></tr><tr><th><strong>Metal (MTL)</strong></th><th>2.5 MTL</th></tr><tr><th><strong>Civic (CVC)</strong></th><th>13.875 CVC</th></tr><tr><th><strong>Request Network (REQ)</strong></th><th>37.5 REQ</th></tr><tr><th><strong>FunFair (FUN)</strong></th><th>107.5 FUN</th></tr><tr><th><strong>Propy (PRO)</strong></th><th>1.25 PRO</th></tr><tr><th><strong>Loopring (LRC)</strong></th><th>13.125 LRC</th></tr><tr><th><strong>EOS (EOS)</strong></th><th>Deposit &amp; withdrawal not available</th></tr><tr><th><strong>Cardano (ADA)</strong></th><th>Deposit &amp; withdrawal not available</th></tr><tr><th><strong>Monero (XMR)</strong></th><th>Deposit &amp; withdrawal not available</th></tr><tr><th><strong>IOTA (IOTA)</strong></th><th>Deposit &amp; withdrawal not available</th></tr><tr><th><strong>NEO (NEO)</strong></th><th>Deposit &amp; withdrawal not available</th></tr><tr><th><strong>Ethereum Classic (ETC)</strong></th><th>Deposit &amp; withdrawal not available</th></tr><tr><th><strong>NEM (NEM)</strong></th><th>Deposit &amp; withdrawal not available</th></tr></tbody></table></figure><p>The minimal crypto transaction amount should be <strong>at least 15 EUR</strong>, and minimal allowed trade value should <strong>exceed 30 EUR</strong> for all trading pairs.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/kriptomat" rel="noindex nofollow" target="_blank">Sing Up On Kriptomat</a></p><h2>Kriptomat Security</h2><p>Kriptomat is a generally secure exchange and has not experienced any hack yet. The exchange employs international security standards and audits to ensure that your funds remain protected at all times. It has obtained <strong>ISO 27002:2013 certification for information security management</strong> and C<strong>ryptoCurrency Security Standard</strong>. Besides, the exchange is a government-regulated in the European Union, complies with <strong>General Data Protection Regulation (GDPR)</strong>, and is a <strong>fully licensed digital asset exchange and wallet service provider.</strong></p><figure class="image"><img alt="Kriptomat security" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/65b1a0d555.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/65b1a0d555.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/65b1a0d555.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/65b1a0d555.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/65b1a0d555.jpg 900w, https://cimg.co/w/rw-attachments/0/5ed/65b1a0d555.jpg 1607w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>In order to maintain the highest physical and cybersecurity standards, Kriptomat utilizes the following security measures:</p><ul><li><strong>Cold storage with controlled access.</strong> 98% of digital assets are kept in highly secure offline wallets with monitored balances and strictly limited access.</li><li><strong>A dedicated 24/7 monitoring team.</strong> Kriptomat has a separate unit that monitors and responds to all and any suspicious activities on the exchange.</li><li><strong>Strict operational procedures.</strong> All platform support and development operations follow defined operational processes, and the most sensitive tasks are carried out according to the “<a href="https://www.unido.org/overview/member-states/change-management/faq/what-four-eyes-principle#:~:text=The%20four%2Deyes%20principle%20means,of%20authority%20and%20increase%20transparency." rel="noopener" target="_blank">four-eyes principle</a>.”</li><li><strong>Security tests.</strong> Kriptomat performs regular penetration tests to identify and mitigate potential vulnerabilities following secure coding principles.</li><li><strong>Encryption mechanisms.</strong> All communication within the platform uses encryption to prevent man-in-the-middle attacks and data leaks to unauthorized users.</li><li><strong>Network security</strong> is ensured by following the network zoning principles.</li><li><strong>Physical security measures</strong> that ensure the safety of physical platform components. These include an access control system, security guards, distributed safe deposit boxes for cold storages, severs’ location confidentiality, and more.</li><li><strong>DDoS protection system with a Web Application Firewall</strong> that protects against attacks on potential application vulnerabilities.</li></ul><p>When it comes to user account security, Kriptomat protects your account with a combination of passwords and <strong>two-factor authentication (2FA)</strong>. In fact, it is one of a few exchanges that activates your <strong>SMS-based 2FA</strong> automatically after you verify your phone number. This is a solid security measure for less tech-savvy users, but the recommended action here is to switch to <strong>Google Authenticator-based 2FA</strong>, which is also supported by Kriptomat. Over time, Google’s 2FA has proven to be more secure than SMS-based 2FA, as the latter is susceptible to <a href="/news/sim-swap-attacks-are-on-the-rise-how-to-protect-your-crypto-3980.htm" rel="noopener" target="_blank"><strong>SIM-swap attacks</strong></a>.</p><p>What’s more, you will have to <strong>authorize every new device and location</strong> that logs in to your account. When the Kriptomat platform detects a new device or login location, it will send an automatic email to your inbox with a confirmation link. The new location or device will be authorized only if you click on the email link using the same log in location and device used in the initial login attempt. Also, Kriptomat will log you out automatically after <strong>15 minutes of inactivity</strong>.</p><figure class="image"><img alt="Kriptomat device authorization" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/65bcd40cef.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/65bcd40cef.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/65bcd40cef.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/65bcd40cef.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/65bcd40cef.jpg 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Finally, Kriptomat is a custodial platform, meaning that as a user, you are not going to have your private keys to purchased coins unless you withdraw them from the exchange. It introduces an additional point of risk, and <a href="/guides/why-it-is-risky-to-leave-your-cryptocurrency-in-exchange.htm" rel="noopener" target="_blank">we do not recommend</a> keeping your cryptocurrency with trusted third parties longer than necessary.</p><p>Also, the platform collects KYC information about all of its users and their transactions. While this is a common practice for all regulated cryptocurrency exchanges, it carries of risk of your data being leaked or stolen. Nonetheless, Kriptomat has proven to use high-level data protection measures to ensure that your details don’t end up somewhere on the dark web.</p><figure class="image"><img alt="Kriptomat multicurrency wallet" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/65c0985754.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/65c0985754.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/65c0985754.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/65c0985754.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/65c0985754.jpg 900w, https://cimg.co/w/rw-attachments/0/5ed/65c0985754.jpg 1627w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>To sum it up, Kriptomat is generally secure and has no history of breaches. It uses highest degree security practices to guarantee the safety of your funds and data. Despite that, custodial and strictly regulated platforms come with their challenges, and as the history of crypto exchanges has shown, no custodial or regulated exchange is 100% failproof. As a result, you should take as many safety precautions as possible, regardless of how secure the platform is.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/kriptomat" rel="noindex nofollow" target="_blank">Start Trading</a></p><h2>Kriptomat Design and Usability</h2><p>Kriptomat exchange is designed to be as user-friendly as possible. For this reason, it provides a quick way to buy and sell bitcoin and other cryptocurrencies with just a few clicks of a button.</p><figure class="image"><img alt="Kriptomat buy bitcoin" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/65c907a4c6.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/65c907a4c6.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/65c907a4c6.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/65c907a4c6.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/65c907a4c6.jpg 900w, https://cimg.co/w/rw-attachments/0/5ed/65c907a4c6.jpg 1610w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>That makes the exchange suitable for both crypto beginners and more experienced users looking for a cheap, reliable, and convenient fiat gateway. However, Kriptomat might not be the best option for professional traders who need a cryptocurrency trading platform with advanced trading features and capabilities.</p><p>The homepage of the platform, “My Wallets” section, gives you an overview of your crypto balances and their total value in euros. Here, you can send and receive cryptocurrencies by clicking on one of the displayed wallets. Sending or receiving a transaction is as easy as pie, thus proving that Kriptomat is one of the most user-friendly exchanges out there.</p><figure class="image"><img alt="Kriptomat review wallets" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/6510dc1f0d.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/6510dc1f0d.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/6510dc1f0d.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/6510dc1f0d.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/6510dc1f0d.jpg 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>The “Buy/Sell” section opens a window where you can buy, sell, or exchange cryptocurrencies with each other. All of these actions are extremely simple to do, as they are require merely a few clicks of the button.</p><figure class="image"><img alt="Kriptomat review exchange" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/65179c6f60.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/65179c6f60.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/65179c6f60.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/65179c6f60.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/65179c6f60.jpg 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>For instance, if you want to buy bitcoin, all you have to do is select Bitcoin (BTC) in “Choose your coin section,” (1) then select your preferred payment method (2), and enter the amount for wish you want to buy bitcoin (3). Next, simply click on the buy bitcoin (4) button to enter your payment details and finalize your purchase.</p><figure class="image"><img alt="Kriptomat review exchange explained" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/6519aa9972.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/6519aa9972.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/6519aa9972.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/6519aa9972.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/6519aa9972.jpg 900w, https://cimg.co/w/rw-attachments/0/5ed/6519aa9972.jpg 533w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>The portfolio section allows you to track the value of your holding, as well as set price alerts. It’s a convenient feature if you want to be notified of the latest price developments, or get alerts when you should buy or sell certain digital assets.</p><figure class="image"><img alt="Kriptomat review portfolio" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/651c9b6403.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/651c9b6403.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/651c9b6403.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/651c9b6403.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/651c9b6403.jpg 900w, https://cimg.co/w/rw-attachments/0/5ed/651c9b6403.jpg 1137w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>The “History” tab lets you review and export all of your trades, which is handy for calculating their crypto taxes.</p><p>The “Settings” section is where you can customize your Kriptomat experience. You can change your local currency, adjust the time zone, make profile changes, change password, set up Google 2FA, review your account’s log in activities, review linked bank accounts and cryptocurrency addresses, and limits.</p><figure class="image"><img alt="Kriptomat review account settings" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/6526a4fbaa.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/6526a4fbaa.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/6526a4fbaa.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/6526a4fbaa.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/6526a4fbaa.jpg 900w, https://cimg.co/w/rw-attachments/0/5ed/6526a4fbaa.jpg 1111w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Last but not least, the “Rewards” section lets you play games and win rewards issued by Kriptomat partners. For example, now you earn Enjin Kriptos, which you can use for crafting trading fee discounts later.</p><figure class="image"><img alt="Kriptomat rewards" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/6528b0485b.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/6528b0485b.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/6528b0485b.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/6528b0485b.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/6528b0485b.jpg 900w, https://cimg.co/w/rw-attachments/0/5ed/6528b0485b.jpg 1090w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>If you're interested in earning with Kriptomat, the exchange has a generous <strong>referral program</strong> that you can access via the "Invite a friend" button at the platform's upper right corner. You can earn up to 25% of the transaction fees from all of your referred people who buy 25 EUR or more worth of crypto.</p><figure class="image"><img alt="Kriptomat referal program" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/6532659760.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/6532659760.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/6532659760.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/6532659760.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/6532659760.jpg 900w, https://cimg.co/w/rw-attachments/0/5ed/6532659760.jpg 1460w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/kriptomat" rel="noindex nofollow" target="_blank">Visit Kriptomat.io</a></p><h3>Kriptomat Mobile App</h3><p>The Kriptomat exchange is accessible via its website or mobile apps. Its apps offer the same functionality as the web version of the exchange, including registration, verification, trading, crypto purchases, ability to link your bank account, customer support, portfolio tracking, alerts, and more.</p><figure class="image"><img alt="Kriptomat mobile app" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/655d383727.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/655d383727.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/655d383727.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/655d383727.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/655d383727.jpg 900w, https://cimg.co/w/rw-attachments/0/5ed/655d383727.jpg 1221w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Kriptomat mobile app is available on <strong>iOS</strong> and <strong>Android</strong> devices.</p><figure class="image"><img alt="Kriptomat trade on the go" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/6562d1cef4.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/6562d1cef4.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/6562d1cef4.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/6562d1cef4.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/6562d1cef4.jpg 900w, https://cimg.co/w/rw-attachments/0/5ed/6562d1cef4.jpg 1633w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h3>Kriptomat Customer Support</h3><p>Kriptomat has a responsive customer support team that is quick to help you with any issues or questions. You can reach the support team via the following channels:</p><ul><li>Email: <strong><a class="__cf_email__" data-cfemail="a3d0d6d3d3ccd1d7e3c8d1cad3d7cccec2d78dcacc" href="/cdn-cgi/l/email-protection">[email protected]</a></strong></li><li>Website support bot</li><li><a href="https://kriptomat.io/contact-us/" rel="noopener" target="_blank">Contact form on the website.</a></li></ul><p>Besides, the exchange team runs an extensive list of social media channels, which include <a href="https://twitter.com/kriptomat" rel="noopener" target="_blank">Twitter</a>, <a href="https://www.facebook.com/kriptomat.io/" rel="noopener" target="_blank">Facebook</a>, <a href="https://t.me/KriptomatOfficialChat" rel="noopener" target="_blank">Telegram</a>, <a href="https://medium.com/kriptomat-blog" rel="noopener" target="_blank">Medium</a>, <a href="https://www.linkedin.com/company/kriptomat/" rel="noopener" target="_blank">LinkedIn</a>, <a href="https://www.youtube.com/channel/UCu4ULzLTiynXUuO7KlgEQAw" rel="noopener" target="_blank">YouTube</a>, <a href="https://www.reddit.com/r/Kriptomat/" rel="noopener" target="_blank">Reddit</a>, <a href="https://kriptomat.tumblr.com/" rel="noopener" target="_blank">Tumblr</a>, and <a href="https://www.instagram.com/kriptomat.io/?hl=en" rel="noopener" target="_blank">Instagram</a>.</p><figure class="image"><img alt="Kriptomat support chat." class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/65c374fb58.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/65c374fb58.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/65c374fb58.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/65c374fb58.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/65c374fb58.jpg 900w, https://cimg.co/w/rw-attachments/0/5ed/65c374fb58.jpg 433w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>You can reach Kriptomat's support team via its website bot.</p><p>Prior to contacting the exchange’s support team, be sure to check out its extensive <a href="https://kriptomat.io/faq/" rel="noopener" target="_blank">FAQ section</a>, <a href="https://help.kriptomat.io/en/" rel="noopener" target="_blank">help center and knowledge base</a>, <a href="https://kriptomat.io/how-it-works/" rel="noopener" target="_blank">cryptocurrency guides</a>, and <a href="https://kriptomat.io/news/" rel="noopener" target="_blank">blog</a>, where they publish Kriptomat’s latest news and announcements.</p><p>The support team works from 08:00 to 17:00 on working days and typically replies <strong>within an hour.</strong> Outside of the working hours, during weekends or holidays, it may take <strong>up to 24 hours</strong> to get a response.</p><h2>Deposit and Withdrawal Methods</h2><p>Kriptomat supports both fiat and cryptocurrency deposits and withdrawals, though available fiat methods can vary based on your country.</p><p>The supported fiat transfer methods include:</p><ul><li>Bank transfer (SEPA)</li><li>Credit or debit card (Visa &amp; Mastercard)</li><li>Neteller</li><li>Skrill</li><li>Zimpler</li><li>Sofort</li></ul><p>Apart from these, Kriptomat lets you link your exchange and bank accounts for a seamless experience. Bank transfers take approximately 1-5 business days, while SEPA payments take 1 to 3 business days to clear and appear on your account. The same timeframe applies to fiat currency withdrawals. The minimal amount for a fiat international withdrawal is 50 EUR or its equivalent, while deposits must be at least 35 EUR of value.</p><p>Available deposit and withdrawal methods vary based on your jurisdiction, and you can find what methods are supported in your country <a href="https://kriptomat.io/global/" rel="noopener" target="_blank">here</a>.</p><figure class="image"><img alt="Kriptomat review buy bitcoin" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ed/65ccf6624a.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ed/65ccf6624a.jpg 300w, https://cimg.co/w/rw-attachments/2/5ed/65ccf6624a.jpg 600w, https://cimg.co/w/rw-attachments/3/5ed/65ccf6624a.jpg 720w, https://cimg.co/w/rw-attachments/4/5ed/65ccf6624a.jpg 900w, https://cimg.co/w/rw-attachments/0/5ed/65ccf6624a.jpg 1655w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Cryptocurrency deposits at Kriptomat are free of charge, but the platform charges a small network fee for withdrawals. See the fees section of this Kriptomat review above for more details.</p><p>Keep in mind that crypto deposits and withdrawals are not supported for all cryptocurrencies yet. At the time of writing, Kriptomat does not support crypto deposits or withdrawals for the following projects:</p><ul><li><a href="/coins/eos/" rel="noopener" target="_blank">EOS (EOS)</a></li><li><a href="/coins/cardano/" rel="noopener" target="_blank">Cardano (ADA)</a></li><li><a href="/coins/monero/" rel="noopener" target="_blank">Monero (XMR)</a></li><li><a href="/coins/iota/" rel="noopener" target="_blank">IOTA (IOTA)</a></li><li><a href="/coins/neo/" rel="noopener" target="_blank">NEO (NEO)</a></li><li><a href="/coins/ethereum-classic/" rel="noopener" target="_blank">Ethereum Classic (ETC)</a></li><li><a href="/coins/nem/" rel="noopener" target="_blank">NEM (XEM)</a></li></ul><p>You can find the latest updated actions for all supported cryptocurrencies on Kriptomat exchange <a href="https://kriptomat.io/fees-and-limits/" rel="noopener" target="_blank">here</a>.</p><p>You can expect your crypto withdrawal to clear within a few hours, though sometimes it may take a bit more, up to 24 hours in busy times. The minimal crypto withdrawal amount must be equal to 15 EUR or its equivalent.</p><h2>Kriptomat Review: Conclusion</h2><p>Kriptomat exchange is an ambitious project that offers a prestigious service at an affordable cost. The exchange complies with all necessary cryptocurrency laws and has been awarded multiple internationally recognized licenses to ensure the safety and security of its users’ privacy. As a result, it offers a neat crypto gateway service with a seamless user experience that can serve newbies and experienced crypto enthusiasts.</p><p>In our view, Kriptomat is one of the best up-and-coming European cryptocurrency exchanges, which makes us excited to see what the exchange will offer in the future.</p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

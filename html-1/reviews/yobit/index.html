@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/yobit/">YoBit</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="5ebbf4111c145.png" class="img-fluid img-circle author__image author__image--has-bg mb-15" loading="auto" src="https://cimg.co/reviewlogo/42/5ebbf4111c145.png"/>
+<div>
+<a class="c-black" href="#"><b>YoBit</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/yobit" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+<div class="fs-12"></div>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="yobit"> YoBit</h1>
+<p>YoBit is a cryptocurrency exchange that was launched in 2015 by a group of independent European developers and is incorporated in Panama. Today, YoBit is one of the top ten exchanges in terms of traffic, liquidity, and trading volume. </p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/yobit" target="_blank">YoBit</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://yobit.net/en/support/" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>Panama City, Panama</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>1549.7 BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>No</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>No</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>YoBiCrypto Corp.</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+                                                                                                                                                        Bank Transfer,
+                                                                                                                                                                                                                                        Credit Card,
+                                                                                                                                                                                                                                        Debit Card,
+                                                                                                                                                                                                                                        Crypto Transfer,
+                                                                                                                                            </b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>USD, RUB</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>8500</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>YoBit Token (YO)</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>Medium (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+<li>Unparalleled number of supported currencies Simple and easy to use Supports fiat currencies Supports private trading</li> </ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+<li>No margin trading Self-regulated exchange Limited charting tools</li> </ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/222/14796/5ecb8c1667379.jpg" srcset="https://cimg.co/review/222/14796/responsive-images/5ecb8c1667379___media_library_original_1688_901.jpg 1688w, https://cimg.co/review/222/14796/responsive-images/5ecb8c1667379___media_library_original_1200_640.jpg 1200w, https://cimg.co/review/222/14796/responsive-images/5ecb8c1667379___media_library_original_900_480.jpg 900w, https://cimg.co/review/222/14796/responsive-images/5ecb8c1667379___media_library_original_720_384.jpg 720w, https://cimg.co/review/222/14796/responsive-images/5ecb8c1667379___media_library_original_600_320.jpg 600w, https://cimg.co/review/222/14796/responsive-images/5ecb8c1667379___media_library_original_300_160.jpg 300w" width="1688"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/222/14797/5ecb8c3a88647.jpg" data-srcset="https://cimg.co/review/222/14797/responsive-images/5ecb8c3a88647___media_library_original_1036_844.jpg 1036w, https://cimg.co/review/222/14797/responsive-images/5ecb8c3a88647___media_library_original_900_733.jpg 900w, https://cimg.co/review/222/14797/responsive-images/5ecb8c3a88647___media_library_original_720_586.jpg 720w, https://cimg.co/review/222/14797/responsive-images/5ecb8c3a88647___media_library_original_600_488.jpg 600w, https://cimg.co/review/222/14797/responsive-images/5ecb8c3a88647___media_library_original_300_244.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1036"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/222/14798/5ecb8c3aecf00.jpg" data-srcset="https://cimg.co/review/222/14798/responsive-images/5ecb8c3aecf00___media_library_original_1205_729.jpg 1205w, https://cimg.co/review/222/14798/responsive-images/5ecb8c3aecf00___media_library_original_1200_725.jpg 1200w, https://cimg.co/review/222/14798/responsive-images/5ecb8c3aecf00___media_library_original_900_544.jpg 900w, https://cimg.co/review/222/14798/responsive-images/5ecb8c3aecf00___media_library_original_720_435.jpg 720w, https://cimg.co/review/222/14798/responsive-images/5ecb8c3aecf00___media_library_original_600_362.jpg 600w, https://cimg.co/review/222/14798/responsive-images/5ecb8c3aecf00___media_library_original_300_181.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1205"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/222/14799/5ecb8c3b7f912.jpg" data-srcset="https://cimg.co/review/222/14799/responsive-images/5ecb8c3b7f912___media_library_original_808_797.jpg 808w, https://cimg.co/review/222/14799/responsive-images/5ecb8c3b7f912___media_library_original_720_710.jpg 720w, https://cimg.co/review/222/14799/responsive-images/5ecb8c3b7f912___media_library_original_600_591.jpg 600w, https://cimg.co/review/222/14799/responsive-images/5ecb8c3b7f912___media_library_original_300_295.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="808"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/222/14800/5ecb8c3bec006.jpg" data-srcset="https://cimg.co/review/222/14800/responsive-images/5ecb8c3bec006___media_library_original_1040_856.jpg 1040w, https://cimg.co/review/222/14800/responsive-images/5ecb8c3bec006___media_library_original_900_740.jpg 900w, https://cimg.co/review/222/14800/responsive-images/5ecb8c3bec006___media_library_original_720_592.jpg 720w, https://cimg.co/review/222/14800/responsive-images/5ecb8c3bec006___media_library_original_600_493.jpg 600w, https://cimg.co/review/222/14800/responsive-images/5ecb8c3bec006___media_library_original_300_246.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1040"/></div>
+</div>
+</div><p>It offers a massive range of tradeable cryptocurrencies (more than 500) in over 8500 crypto-to-crypto and fiat-to-crypto markets. It is designed with simplicity and convenience in mind, meaning that itâ€™s a user-friendly exchange for both amateur and advanced crypto users. Its robust trading engine delivers speedy and reliable performance, and its advanced security measures ensure that user funds remain in wallets that have never been hacked before. </p><p>A savvy investor may also want to take part in YoBitâ€™s InvestBox activities, games, or initial exchange offerings (IEOs), while crypto project developers may enjoy its easy to use coin listing feature. YoBit is a pro-privacy exchange, and it is due to these reasons we granted the exchange a solid rating of 4.5 stars out of 5.</p><h2>YoBit Exchange Review: Key Features</h2><p>YoBit is a popular cryptocurrency exchange that supports lots of cryptocurrencies, payment methods, and features. According to the most popular coin index site, <a href="https://coinmarketcap.com/rankings/exchanges/">CoinMarketCap.com</a>, YoBit is one of the top ten exchanges in terms of traffic, liquidity, and trading volume. While it does not support complex trading functions like trading with leverage, it does come with many handy features, events, and games that make up a wholesome crypto trading experience.</p><p> </p><ul><li><strong>Over 520 supported cryptocurrencies in over 8576 active markets.</strong> YoBit has the widest selection of cryptocurrencies amongst all crypto exchanges.</li><li><strong>Low trading fees.</strong> Every trade on YoBit will cost you just <strong>0.2%</strong>, regardless if youâ€™re a maker-taker or maker. The exchange does not offer different fee tiers based on your trading volume, and withdrawal fees for some coins may be relatively high.</li><li><strong>Exchange that advocates private trading.</strong> YoBit does not require its customers to undergo a forced know your customer (KYC) checks, which makes signing up and trading on the platform easy, secure, and convenient.</li><li><strong>One of the easiest platforms to list a coin.</strong> Listing your token on YoBit requires filling in a simple form and paying a <strong>2.79 BTC fee</strong>, which is great for new crypto projects. On the other hand, there may be scam projects, too, so as a user, you should do your due diligence.</li><li><strong>YO token and YoBit IEOs.</strong> YoBit exchange has its own <strong>YO token</strong>, which brings numerous benefits for its holders. Besides, the platform organizes regular IEOs via its platform, thus allowing its clients to invest in hot new crypto projects.</li><li><strong>YoBit games and InvestBox.</strong> YoBit invites its customers to participate in regular games and events like <strong>YoPony</strong> or <strong>YoPump</strong>, which let you try your luck in trying to increase your holdings. Besides, interested users can invest in <strong>YoBitâ€™s InvestBox</strong> section for steady earnings.</li><li><strong>Free coins.</strong> YoBit also offers ways to earn free cryptocurrencies by completing simple tasks. While itâ€™s not much, it may be of help for some.</li><li><strong>Fiat-to-crypto trades.</strong> YoBit exchange also supports fiat-to-crypto markets, meaning that you can use it as a fiat gateway. This is an infrequent feature for a self-regulated exchange that advocates private trading.</li></ul><figure class="image"><img alt="YoBit review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/b96ecd9e12.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/b96ecd9e12.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/b96ecd9e12.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/b96ecd9e12.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/b96ecd9e12.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/b96ecd9e12.jpg 1688w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>YoBit.net cryptocurrency trading platform.</p><p>In brief, YoBit is a robust and fun crypto trading platform. It is best suited for more experienced retail traders, but newbies could give it a try, too, since the exchangeâ€™s interface is clean, simple, and is not crowded with confusing advanced features. Besides, you can always ask for help in the community, since YoBit is a surprisingly social exchange with its built-in messaging system.</p><h2>YoBit History and Background</h2><p>YoBit cryptocurrency exchange was founded by European developers in 2014 and announced on <a href="https://bitcointalk.org/index.php?topic=914975.0">BitcoinTalk forum on January 5, 2015</a>. Today, the company is incorporated in Panama and is available in Russian, English, and Chinese, and has a built-in dedicated chat for users who speak English, Russian, German, Chinese and Arabic languages.</p><p>The official address of the exchange is 0801-3254 Panama City, Plaza 2000 Tower, Calle 50 PanamÃ¡, and it is registered as YoBiCrypto Corp.</p><figure class="image"><img alt="YoBit review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/b9e09e33c4.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/b9e09e33c4.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/b9e09e33c4.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/b9e09e33c4.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/b9e09e33c4.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/b9e09e33c4.jpg 1855w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Announcement of YoBit exchange on BitcoinTalk.com forum.</p><p>During its five years of operation, YoBit exchange has proven to be legit exchange with a dedicated team, though it experienced plenty of rumors and attacks propelled by its competitors. For example, there is little information about YoBitâ€™s team and founders, and many people have taken it as a significant red flag.</p><p>Nevertheless, this is due to security reasons, since privacy and confidentiality are, or at least should be, a critical part of everyone's crypto operations security. As history has shown, revealing sensitive information may have severe consequences, and YoBit practices what it preaches.</p><p>As a result, YoBit respects the essential value of confidentiality in crypto, so they keep the anonymity and never share your private data and transaction history with third-parties. For this reason, the exchange is incorporated in Panama, as this closed offshore jurisdiction helps YoBit to bypass obligatory know your customer (KYC) checks for all its clients and helps to protect your data and funds.</p><p>Also, in 2018 there were rumors that the exchange is propelling pump and dump schemes on its exchange, but they turned out to be unfounded since all of it was just a part of YoBitâ€™s YoPump game. Later the same year, there were also rumors that Russian authorities arrested the exchangeâ€™s alleged CEO Pavel Krymov for suspected fraudulent activities. However, a closer inspection of the matter shows that K<a href="https://forklog.com/delo-krymova-kak-kriptovalyuty-okazalis-v-epitsentre-moshennicheskogo-skandala/">rymov has never had any connections with YoBit exchange</a>, and this <a href="https://bits.media/zaderzhannogo-v-moskve-aferista-pavla-krymova-svyazyvayut-s-neskolkimi-kriptovalyutnymi-servisami/">has been confirmed by the YoBit exchange</a>, too.</p><p>Moreover, there have been no investigation of YoBit exchange in Russia, and you can <a href="https://eais.rkn.gov.ru/en/">check it yourself</a> that YoBitâ€™s domain is completely clean and not blacklisted by Russian authorities.</p><figure class="image"><img alt="YoBit top exchange coinmarketcap" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/ba105a2463.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/ba105a2463.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/ba105a2463.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/ba105a2463.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/ba105a2463.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/ba105a2463.jpg 1313w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Top cryptocurrency exchanges as per CoinMarketCap.com rating.</p><p>As of 2021, YoBit has grown into a popular international exchange with an ever-growing community. It has nearly 80,000 community members in its <a href="https://t.me/yobichaten">official Telegram chat</a>, and for a good reason, as the platform ranks amongst top ten exchanges in terms of trading volume, traffic, and liquidity <a href="https://coinmarketcap.com/rankings/exchanges/">as per CoinMarketCap</a>. All of these factors make YoBit one of the top crypto exchanges online.</p><h2>YoBit Exchange Supported Countries</h2><p>YoBit is a worldwide exchange that does not specify any restrictions based on the userâ€™s jurisdiction. That means anyone is free to access and trade on the platform, regardless of geographic location.</p><p>However, if youâ€™re serious about your trading, or come from a jurisdiction where cryptocurrency trading is prohibited, be sure to consult a local legal expert first to avoid unforeseen consequences later.</p><h3>YoBit Registration and Verification</h3><p>The YoBit platform is simple to register and use. All it takes is your username, email, and a strong password. The whole process of registration takes less than a minute.</p><figure class="image"><img alt="Yobit Review registration" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/b9efcf2d3e.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/b9efcf2d3e.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/b9efcf2d3e.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/b9efcf2d3e.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/b9efcf2d3e.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/b9efcf2d3e.jpg 1911w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>YoBit registration.</p><p>After you provide your email, YoBit will ask you to confirm it. Once thatâ€™s done, you can start making deposits and trading. A recommended practice is to activate 2-factor authentication (2FA) to secure your account from unauthorized access.</p><p>A big plus of YoBit exchange is that it does not violate your privacy rights by forcing you to pass a mandatory KYC (know your customer) check. As such, identity verification at YoBit is 100% optional, and you can trade without revealing your identity.</p><h2>YoBit Fees</h2><p>As a crypto trading platform, YoBit charges its users trading and withdrawal fees.</p><p>YoBit trading fees are relatively straightforward. The platform charges a fixed fee for both makers and takers, taking 0.20% per trade. Unlike with other exchanges, it does not have a trading volume-based fee tier system, which makes the platform slightly more expensive for high volume traders. In contrast, low volume retail traders should not notice any difference when compared with other popular cryptocurrency trading platforms.</p><p>Here is how YoBit fees weigh against other popular cryptocurrency trading platforms:</p><figure class="table"><table><tbody><tr><th><strong>Exchange</strong></th><th><strong>Maker fee</strong></th><th><strong>Taker fee</strong></th><th><strong>Visit Exchange</strong></th></tr><tr><th><a href="/reviews/yobit/"><strong>YoBit</strong></a></th><th>0.2%</th><th>0.2%</th><th><a href="https://cryptonews.com/ext/yobit/">Visit</a></th></tr><tr><th><a href="/reviews/poloniex/"><strong>Poloniex</strong></a></th><th>0.09%</th><th>0.09%</th><th><a href="https://cryptonews.com/ext/poloniex/">Visit</a></th></tr><tr><th><a href="/reviews/hitbtc/"><strong>HitBTC</strong></a></th><th>0.1%</th><th>0.2%</th><th><a href="https://cryptonews.com/ext/hitbtc/">Visit</a></th></tr><tr><th><a href="/reviews/binance/"><strong>Binance</strong></a></th><th>0.1%</th><th>0.1%</th><th><a href="https://cryptonews.com/ext/binance/">Visit</a></th></tr><tr><th><a href="/reviews/kucoin/"><strong>KuCoin</strong></a></th><th>0.1%</th><th>0.1%</th><th><a href="https://cryptonews.com/ext/kucoin/">Visit</a></th></tr><tr><th><a href="/reviews/bitfinex/"><strong>Bitfinex</strong></a></th><th>0.1%</th><th>0.2%</th><th><a href="https://cryptonews.com/ext/bitfinex/">Visit</a></th></tr><tr><th><a href="/reviews/gate-io/"><strong>Gate.io</strong></a></th><th>0.2%</th><th>0.2%</th><th><a href="https://cryptonews.com/ext/gate-io/">Visit</a></th></tr><tr><th><a href="/reviews/bittrex/"><strong>Bittrex</strong></a></th><th>0.2%</th><th>0.2%</th><th><a href="https://cryptonews.com/ext/bittrex/">Visit</a></th></tr><tr><th><a href="/reviews/kraken/"><strong>Kraken</strong></a></th><th>0.16%</th><th>0.26%</th><th><a href="https://cryptonews.com/ext/kraken/">Visit</a></th></tr><tr><th><a href="/reviews/coinbase-pro/"><strong>Coinbase Pro</strong></a></th><th>0.5%</th><th>0.5%</th><th><a href="https://cryptonews.com/ext/coinbase-pro/">Visit</a></th></tr></tbody></table></figure><p>As you can see, YoBit charges higher fees than other self-regulated crypto trading platforms like <a href="/reviews/poloniex/"><strong>Poloniex</strong></a>, <a href="/reviews/hitbtc/"><strong>HitBTC</strong></a>, or <a href="/reviews/binance/"><strong>Binance</strong></a>. However, itâ€™s fees are lower compared with <a href="/reviews/coinbase-pro/"><strong>Coinbase Pro</strong></a> or <a href="/reviews/kraken/"><strong>Kraken</strong></a>, and are on the same level as <a href="/reviews/bittrex/"><strong>Bittrex</strong></a> or <a href="/reviews/gate-io/"><strong>Gate.io</strong></a>.</p><p>Like most crypto exchanges, YoBit does not charge you a penny for making a deposit. When it comes to cryptocurrency withdrawal fees, these vary according to cryptocurrency being withdrawn. Here is a small sample of YoBit crypto withdrawal fees for some of the top cryptocurrencies.</p><figure class="table"><table><tbody><tr><th><strong>Coin</strong></th><th><strong>Withdrawal Fee</strong></th></tr><tr><th><strong>Bitcoin (BTC)</strong></th><th>0.0012 BTC</th></tr><tr><th><strong>Dogecoin (DOGE)</strong></th><th>500 DOGE</th></tr><tr><th><strong>Ethereum (ETH)</strong></th><th>0.005 ETH</th></tr><tr><th><strong>Dash (DASH)</strong></th><th>0.01 DASH</th></tr><tr><th><strong>Litecoin (LTC)</strong></th><th>0.002 LTC</th></tr><tr><th><strong>Tether (USDT)</strong></th><th>1 USDT</th></tr><tr><th><strong>Zcash (ZEC)</strong></th><th>0.03 XMR</th></tr><tr><th><strong>Ripple (XRP)</strong></th><th>0.5 XRP</th></tr><tr><th><strong>Tron (TRX)</strong></th><th>10 TRX</th></tr></tbody></table></figure><p>As you can see, YoBit's withdrawal fees are higher for some cryptocurrencies, while they remain relatively low for others. In contrast, competing exchanges like <a href="/reviews/hitbtc/"><strong>HitBTC</strong></a> charge 0.0015 BTC when withdrawing bitcoin, while <a href="/coins/tether/">Tether (USDT)</a> withdrawal would cost you 20 USDT there, thus dwarfing YoBit's withdrawal fees. However, other altcoin platforms like <a href="/reviews/binance/"><strong>Binance</strong></a> or <a href="/reviews/kucoin/#kucoin-fees-overview"><strong>KuCoin</strong></a> 0.0005 BTC per bitcoin withdrawal, leaving YoBit fees somewhere in the middle amongst popular altcoin exchanges.</p><p>YoBit also supports fiat deposits via a variety of payment services. The fees vary based on your payment provider rates, but deposits, in most cases, are free, while withdrawals may cost you anything from <strong>1% to 8%</strong> of the transaction amount.</p><p>All in all, YoBitâ€™s fees are low but not the lowest in the industry. There are regulated exchanges that charge its users way more, thus leaving YoBit as a solid option for trading.</p><h2>YoBit Security</h2><p>YoBit exchange has managed to keep a clean track record when it comes to hacks and other security breaches. Over its five years of operation, the exchangeâ€™s team has implemented robust security measures to ensure that your funds kept on the platformâ€™s wallet remain secure.</p><figure class="image"><img alt="YoBit review security" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/ba54c2b9f9.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/ba54c2b9f9.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/ba54c2b9f9.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/ba54c2b9f9.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/ba54c2b9f9.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/ba54c2b9f9.jpg 808w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>YoBit strictly recommends the usage of 2FA to protect your account and funds.</p><p>That said, YoBit remains a custodial exchange, meaning that <a href="/guides/why-it-is-risky-to-leave-your-cryptocurrency-in-exchange.htm">you should not leave your funds on the exchange</a> for longer than you need to if you donâ€™t want your funds to be a subject of a hack.</p><p>Legal things aside, YoBit exchange employs the following security measures to keep your crypto funds secure:</p><ul><li>Most funds are kept in cold crypto wallets.</li><li>SSL encryption and DDOS attack prevention measures.</li><li>System files encryption as well as real-time encrypted data backups.</li><li>Suspicious activity detector and blocking.</li><li>Yobicodes that are provided for transactions.</li></ul><p>In addition to these security measures, YoBit allows you to protect your account using the following tools:</p><ul><li><strong>Two-factor authentication (2FA).</strong> YoBit pushes you to active 2FA to prevent unauthorized access to your account, which is a recommended industry practice.</li><li><strong>Login verification.</strong> You will receive an email notification for every login into your account, which allows you to keep track of your account activity and identify unauthorized logins.</li><li><strong>Strong password.</strong> <a href="https://blog.lastpass.com/2019/05/passwords-still-problem-according-2019-verizon-data-breach-investigations-report.html/">80% of online hacks are tied to compromised, weak, and reused passwords</a>, which is why you should take your password seriously. Keep your account secure with a strong and unique password, and remember to change it regularly.</li><li><strong>Freeze withdrawal.</strong> YoBit has a unique feature to freeze withdrawals from your account if you suspect that your account has been breached. When activated, no one will be able to withdraw funds from your account.</li></ul><p>In sum, YoBit is a secure yet self-regulated platform. Mind that it is relatively easy to list your coin on YoBit, so be wary of abandoned and suspicious low cap coins that have little development behind them and donâ€™t invest more than you can afford to lose as a rule of thumb.</p><h2>YoBit Design and Usability</h2><figure class="image"><img alt="YoBIT EXCHANGE REVIEW" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/ba5dbe71ba.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/ba5dbe71ba.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/ba5dbe71ba.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/ba5dbe71ba.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/ba5dbe71ba.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/ba5dbe71ba.jpg 1914w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>YoBit trading platform.</p><p>YoBit is best-known as a trading platform that supports a vast number of cryptocurrencies and supports crypto-to-crypto as well as fiat-to-crypto trades. The exchange is best suited for experienced crypto traders who value their privacy and want to get access to a vast number of altcoins and small-cap crypto projects.</p><p>The exchangeâ€™s design may appear cluttered and complicated at first, but itâ€™s only due to the vast amount of features and windows. Once you get used to the exchange, the navigation becomes more intuitive.</p><p>After you open a free account and log in onto the platform, you will see YoBitâ€™s dashboard, which includes your account balances (1), trading markets (2), your account summary (4) and trading history (4), as well as chat box (5) where you can communicate with other users. In the lower-right corner, you will also find YoBitâ€™s Twitter feed (6), where the exchangeâ€™s team publishes the latest news and announcements.</p><figure class="image"><img alt="YoBit review " class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/a4ee9d7245.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/a4ee9d7245.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/a4ee9d7245.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/a4ee9d7245.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/a4ee9d7245.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/a4ee9d7245.jpg 1911w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>If you go to YoBitâ€™s â€œTradeâ€ window, you will enter the exchange where all trades take place. The exchangeâ€™s layout is somewhat similar to the â€œDashboard,â€ except that the middle of the window is populated with trading tools like price chart (3), order placing tools (4), market order book (5), and trading history window for all executed trades (6).</p><figure class="image"><img alt="YoBit exchange review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/a4f0a93181.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/a4f0a93181.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/a4f0a93181.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/a4f0a93181.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/a4f0a93181.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/a4f0a93181.jpg 1913w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Just like with the dashboard, you can also see your balances (1) and navigate between different markets using the "Markets" section on the lower-left corner (2).</p><p>YoBit allows trade orders to be executed immediately and has proven to have a robust trading engine. Buying and selling cryptocurrencies on YoBit is not overcomplicated, as you simply need to enter the price and quantity of cryptocurrency to buy or sell. This is good for novice retail investors, but advanced traders might miss advanced order types that are not supported by YoBit just yet.</p><p>If you find it challenging to navigate the markets via the â€œmarketâ€ window, you can head to the â€œMarketâ€ tab, where you will find all of YoBitâ€™s markets. To avoid scrolling down for a while, use a convenient search box to find what youâ€™re seeking.</p><figure class="image"><img alt="YoBit review markets" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/a4f58653ba.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/a4f58653ba.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/a4f58653ba.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/a4f58653ba.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/a4f58653ba.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/a4f58653ba.jpg 1914w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Last but not least, you should make use of YoBitâ€™s â€œWalletsâ€ tab, which lets you deposit and withdraw cryptocurrencies and fiat currencies.</p><figure class="image"><img alt="YoBit review wallets" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/a4fc1cdca2.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/a4fc1cdca2.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/a4fc1cdca2.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/a4fc1cdca2.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/a4fc1cdca2.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/a4fc1cdca2.jpg 1893w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>To make a deposit, find a currency that you want to deposit and hit the â€œdepositâ€ (+) or â€œwithdrawâ€ (-) buttons. You can also review each walletâ€™s history by clicking the â€œHâ€ in the history line.</p><p>At the bottom of the screen, you will see your pending deposits and withdrawals, in case you want to check the status of your transactions.</p><p>Moreover, YoBitâ€™s interface includes separate sections for your <strong>Orders</strong> and <strong>History</strong>.</p><figure class="image"><img alt="YoBit review history tab" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/ba63d2d31b.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/ba63d2d31b.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/ba63d2d31b.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/ba63d2d31b.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/ba63d2d31b.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/ba63d2d31b.jpg 1027w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>In the â€œOrdersâ€ section, you can review your current open orders. In the â€œHistoryâ€ tab, you can review all your activity on YoBit, including executed trades, deposits and withdrawals, lotto/dice activities, and used Yobicodes.</p><p>Aside from these basic functions of YoBit exchange, the platform also has some special features that are not found on other cryptocurrency exchanges. These include:</p><p><strong>YoBit InvestBox</strong>, where investors can participate in investment programs made by developers who want to promote their coins. The investments vary based on their duration, and YoBit protects your investment, allowing you to make up to 10% on your assets. You can close your investment at any time.</p><figure class="image"><img alt="YoBit review investbox" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/ba75c2f7db.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/ba75c2f7db.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/ba75c2f7db.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/ba75c2f7db.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/ba75c2f7db.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/ba75c2f7db.jpg 808w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p><strong>CoinsInfo.</strong> YoBit also provides you a way to get to know everything about the platformâ€™s tradeable cryptocurrencies. At the CoinsInfo section, you can discover their supply numbers, formulas, consensus algorithms, ticker symbols, forums, and much more.</p><figure class="image"><img alt="YoBit Coinsinfo section" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/ba830ae7f7.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/ba830ae7f7.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/ba830ae7f7.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/ba830ae7f7.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/ba830ae7f7.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/ba830ae7f7.jpg 1036w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p><strong>FreeCoins.</strong> The FreeCoins section allows one to get crypto coins by performing simple tasks like sharing certain messages on social media. You wonâ€™t earn fortunes, but its a surefire way to add fractions of various cryptocurrencies to your holdings.</p><figure class="image"><img alt="YoBit freecoins 2" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/ba87ae53a0.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/ba87ae53a0.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/ba87ae53a0.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/ba87ae53a0.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/ba87ae53a0.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/ba87ae53a0.jpg 782w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><figure class="image"><img alt="YoBit review free coins" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/ba85f8f326.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/ba85f8f326.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/ba85f8f326.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/ba85f8f326.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/ba85f8f326.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/ba85f8f326.jpg 1045w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p><strong>AddToken.</strong> If youâ€™re a developer and might want to list your coin on YoBit, this section was designed for you. The listing process is straightforward and requires you to fill in a simple form. The listing fee is 2.79 BTC, and the service allows users to list Ethereumâ€™s ERC-20 tokens only. The listing may take from 1 to 7 days.</p><figure class="image"><img alt="YoBIit add token" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/ba8aad7721.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/ba8aad7721.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/ba8aad7721.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/ba8aad7721.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/ba8aad7721.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/ba8aad7721.jpg 1022w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p><strong>PM.</strong> YoBit is one of a few crypto trading platforms which allows you to exchange messages with other YoBit users. This makes it convenient to get in touch with likeminded people and makes crypto trading a social experience.</p><figure class="image"><img alt="YoBit PM" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/ba8cd24c51.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/ba8cd24c51.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/ba8cd24c51.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/ba8cd24c51.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/ba8cd24c51.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/ba8cd24c51.jpg 1042w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p><a href="http://yobit.net/en/ico/timer/"><strong>YoBit IEO platform.</strong></a> YoBit conducts regular <a href="/guides/what-is-an-initial-exchange-offering.htm">initial exchange offerings</a> (IEOs), meaning that you can become an early investor in exciting crypto projects.</p><figure class="image"><img alt="YoBit YoPump" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/ba9379aeca.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/ba9379aeca.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/ba9379aeca.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/ba9379aeca.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/ba9379aeca.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/ba9379aeca.jpg 1034w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p><a href="http://yobit.net/en/pump/timer/"><strong>YoPump</strong></a><strong>, </strong><a href="https://yobit.net/en/yopony/"><strong>YoPony</strong></a><strong>, and DICE games.</strong> YoBit offers its users several gambling games, which allow them to bet on certain coins and profit from it.</p><figure class="image"><img alt="YoBit YoPony game" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/ba951c5011.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/ba951c5011.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/ba951c5011.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/ba951c5011.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/ba951c5011.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/ba951c5011.jpg 1040w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><ul><li><strong>YoBit YO token.</strong> YO is the official token of YoBit exchange. Itâ€™s an ERC-20 token with a limited supply of only 17,000 coins. The coin currently maintains a high value above USD 1,000, which is due to its unique feature - YoBit spends every 2.79 BTC to buy back YO tokens from the market and burn them. This maintains the demand for the token, which also brings its holders a wide array of other benefits, including participation in YoBitâ€™s IEOs and <a href="/guides/what-is-an-ico.htm">ICOs</a>.</li></ul><figure class="image"><img alt="YoBit YO token" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/ba97ecebab.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/ba97ecebab.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/ba97ecebab.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/ba97ecebab.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/ba97ecebab.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/ba97ecebab.jpg 1022w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>YoBit does not yet have an official mobile app, but you can access its responsive platform via a mobile web browser.</p><p>In brief, YoBit exchange provides a solid user interface that becomes increasingly more intuitive with every use. Even though the exchange does not have its margin or futures trading feature, itâ€™s unlikely that you will get bored if you become an active member of YoBitâ€™s community.</p><h3>YoBit Customer Support</h3><p>Last but not least, there is a Customer Support window for communications with the exchangeâ€™s staff. It lets you submit a ticket and get answers when you experience issues or have questions.</p><figure class="image"><img alt="YoBit review customer support" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/a5155e9435.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/a5155e9435.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/a5155e9435.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/a5155e9435.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/a5155e9435.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/a5155e9435.jpg 1044w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Aside from the support tab on the exchange, YoBit support staff is also reachable via email, YoBitâ€™s Telegram group, and built-in chat. The fastest way to reach the support is via the <a href="https://t.me/yobichaten">Telegram group</a>, as it has ten admins that work 24/7.</p><p>If you do decide to go and file a support ticket, you can expect to receive a reply within 24 hours.</p><p>Currently, the exchange does not provide support via Twitter.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/yobit" rel="noindex nofollow" target="_blank">Trade on YoBit</a></p><h2>Deposit and Withdrawal Methods</h2><p>Depositing and withdrawing funds to and from the YoBit platform is easy and straightforward as the platform supports both fiat and crypto options.</p><p>Cryptocurrency deposits are generally free of charge, while withdrawal fee varies per cryptocurrency.</p><figure class="image"><img alt="YoBit review fiat wallets" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/a51f44bd8d.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/a51f44bd8d.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/a51f44bd8d.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/a51f44bd8d.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/a51f44bd8d.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/a51f44bd8d.jpg 1205w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>When it comes to fiat deposits and withdrawals, YoBit supports both United States Dollars (USD) as well as Russian Rubles (RUB). You can exchange the fiat currency of your choice or sell your crypto back into fiat via one of the following options:</p><ul><li>QIWI wallet</li><li>PerfectMoney (1% withdrawal fee)</li><li>Payeer (4% RUB &amp; 7% USD withdrawal fee)</li><li>AdvCash</li><li>Visa/Mastercard</li><li>Webmoney</li><li>Capitalist (1% withdrawal fee)</li><li>Yandex.Money</li><li>..and other payment options</li></ul><p>Typically, YoBit credits deposits and initiates withdrawals within an hour. Some deposits may take 24-48 hours to be credited, depending on the speed and busyness of the payment service provider.</p><figure class="image"><img alt="YoBit deposits and withdrawals" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/ba9e80476b.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/ba9e80476b.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/ba9e80476b.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/ba9e80476b.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/ba9e80476b.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/ba9e80476b.jpg 1239w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h2>What Do Others Think Of YoBit Exchange?</h2><p>Now that weâ€™ve gone through the critical elements of YoBit exchange letâ€™s have a look at what others think about it and how the exchange and its services are perceived via online reviews.</p><p>First of all, YoBit is well- rated on <a href="https://www.trustpilot.com/review/yobit.net">TrustPilot</a>, where it gets 4 stars out of 5 based on 32 reviews.</p><figure class="image"><img alt="YoBit reviews on TrustPilot" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5ec/baa687eaa3.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5ec/baa687eaa3.jpg 300w, https://cimg.co/w/rw-attachments/2/5ec/baa687eaa3.jpg 600w, https://cimg.co/w/rw-attachments/3/5ec/baa687eaa3.jpg 720w, https://cimg.co/w/rw-attachments/4/5ec/baa687eaa3.jpg 900w, https://cimg.co/w/rw-attachments/0/5ec/baa687eaa3.jpg 967w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Other popular cryptocurrency exchange review websites like <a href="https://blockonomi.com/yobit-review/">Blockonomi</a> and <a href="https://www.cryptowisser.com/exchange/yobit/">Cryptowisser</a> had also given the exchange a solid score. The former rated YoBit.net 8.2 out of a maximum of 10 points. The latter gives the exchange 4.4 out of a maximum of 5 points.</p><p>As a result, YoBit is perceived as a legit and dependable option for trading cryptocurrencies.</p><h2>YoBit Review: Conclusion</h2><p>YoBit is a legit cryptocurrency exchange that offers privacy, slick interface, over 800 altcoins, engaged community, IEOs, security, low fees, games, and stellar platform performance. Even though the exchange is regulated in an offshore jurisdiction, it grants the exchange much-needed flexibility to navigate complex international crypto waters. As a result, YoBit remains a solid option for retail investors who are looking for a simple, secure, and fun cryptocurrency exchange with unparalleled service and a vast selection of both high and low cap crypto projects. As such, we grant the exchange a solid 4.5 out of max 5 points rating.</p><p> </p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

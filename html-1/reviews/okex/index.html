@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/okex/">OKX (formerly OKEx)</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="609e994c49dce.png" class="img-fluid img-circle author__image author__image--has-bg mb-15" loading="auto" src="https://cimg.co/reviewlogo/72/609e994c49dce.png"/>
+<div>
+<a class="c-black" href="#"><b>OKX (trước đây là OKEx)</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/okex" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="okex"> OKX (trước đây là OKEx)</h1>
+<p>As one of the biggest exchanges in terms of trading volume, OKEx is known as a ‘one-stop marketplace’ for cryptocurrency. It offers more than being a stop for spot trading and derivatives exchange. With margin trading, bridges, mining pools, a cloud service, decentralized options with OKExChain, loans, broker options, and so on, OKEx is one of the most versatile exchanges out there. They also have an education platform that helps you learn about exchange and trading in general. All in all, it has all the tools you need as a beginner while having a vast array of options for those looking to become advanced traders.</p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/okex" target="_blank">OKX (trước đây là OKEx)</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://www.okx.com/support/hc/en-us" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>Seychellerne</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>22511.7 BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>Yes</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>Yes</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>Aux Cayes FinTech Co. Ltd.</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+                                                                                                                                                        Bank Transfer,
+                                                                                                                                                                                                                                        Credit Card,
+                                                                                                                                                                                                                                        Debit Card,
+                                                                                                                                                                                                                                        Crypto Transfer,
+                                                                                                                                            </b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>30 kryptovaluta</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>400</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>OKB, OKT</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>Medium (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+</ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+</ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/51779/18286/609e93da1341c.png" srcset="https://cimg.co/review/51779/18286/responsive-images/609e93da1341c___media_library_original_964_464.png 964w, https://cimg.co/review/51779/18286/responsive-images/609e93da1341c___media_library_original_900_433.png 900w, https://cimg.co/review/51779/18286/responsive-images/609e93da1341c___media_library_original_720_346.png 720w, https://cimg.co/review/51779/18286/responsive-images/609e93da1341c___media_library_original_600_288.png 600w, https://cimg.co/review/51779/18286/responsive-images/609e93da1341c___media_library_original_300_144.png 300w" width="964"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/51779/18287/609e93da8e9a6.png" data-srcset="https://cimg.co/review/51779/18287/responsive-images/609e93da8e9a6___media_library_original_1508_668.png 1508w, https://cimg.co/review/51779/18287/responsive-images/609e93da8e9a6___media_library_original_1200_531.png 1200w, https://cimg.co/review/51779/18287/responsive-images/609e93da8e9a6___media_library_original_900_398.png 900w, https://cimg.co/review/51779/18287/responsive-images/609e93da8e9a6___media_library_original_720_318.png 720w, https://cimg.co/review/51779/18287/responsive-images/609e93da8e9a6___media_library_original_600_265.png 600w, https://cimg.co/review/51779/18287/responsive-images/609e93da8e9a6___media_library_original_300_132.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1508"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/51779/18288/609e93db62b0d.png" data-srcset="https://cimg.co/review/51779/18288/responsive-images/609e93db62b0d___media_library_original_1508_713.png 1508w, https://cimg.co/review/51779/18288/responsive-images/609e93db62b0d___media_library_original_1200_567.png 1200w, https://cimg.co/review/51779/18288/responsive-images/609e93db62b0d___media_library_original_900_425.png 900w, https://cimg.co/review/51779/18288/responsive-images/609e93db62b0d___media_library_original_720_340.png 720w, https://cimg.co/review/51779/18288/responsive-images/609e93db62b0d___media_library_original_600_283.png 600w, https://cimg.co/review/51779/18288/responsive-images/609e93db62b0d___media_library_original_300_141.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1508"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/51779/18289/609e93dbf3502.png" data-srcset="https://cimg.co/review/51779/18289/responsive-images/609e93dbf3502___media_library_original_624_287.png 624w, https://cimg.co/review/51779/18289/responsive-images/609e93dbf3502___media_library_original_600_275.png 600w, https://cimg.co/review/51779/18289/responsive-images/609e93dbf3502___media_library_original_300_137.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="624"/></div>
+</div>
+</div><h2>OKX Review: Key features</h2><figure class="image"><img alt="OKEx review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/609/b9e445bd9f.png" data-srcset="https://cimg.co/w/rw-attachments/1/609/b9e445bd9f.png 300w, https://cimg.co/w/rw-attachments/2/609/b9e445bd9f.png 600w, https://cimg.co/w/rw-attachments/3/609/b9e445bd9f.png 720w, https://cimg.co/w/rw-attachments/4/609/b9e445bd9f.png 900w, https://cimg.co/w/rw-attachments/0/609/b9e445bd9f.png 1508w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Too many options could be daunting for someone just getting into crypto. Although there are such a range of finance choices with OKX, the platform is arranged in a simple and welcoming way. With a multitude of cryptocurrency pairs, fiat-to-crypto gateway, it is easy to see why OKX has become one of the biggest exchanges around. The high amount options you have at your disposal are reason alone to add OKX to your repertoire of exchanges:</p><ul><li><strong>Fiat-to-crypto on-ramp:</strong> OKX supports 400+ trading pairs and allows you to use Apple Pay, Visa, Mastercard, bank transfer, Alipay, WeChat pay, etc, to convert your fiat into crypto. They also support 30+ cryptocurrencies from Canadian dollars (CAD), Chinese yen (CNY), euros (EUR), Japanese yen (JPY), Hong Kong dollars (HKD), Chilean peso (CLP), and many more.</li><li><strong>Margin trading:</strong> Using margin trading with up to 125x leverage, with perpetual, futures and options trading as well, there are a good amount of tools users can use to trade.</li><li><strong>Finance options:</strong> A plethora of finance options with Earn, which lets you earn passive income on your crypto holdings, Loan, Jumpstart token staking feature, mining pool, OKX bridge feature, OKB utility token, OKX Cloud, OKX Blockdream Ventures, the options available are vast and some of the widest in the industry.</li><li><strong>Extra security options:</strong> With mandatory 2FA authentication, mobile verification, Google Authenticator options, anti-phishing code, OKX’s claims of making security a priority are sound.</li><li><strong>Decentralized exchange option:</strong> Along with standard DEX trading, OKX’s decentralized platform offers swap trading, liquidity pools, farm pools, decentralized wallet, OKX has tools for those who would rather exchange in a decentralized fashion.</li></ul><p>Overall, OKX will let you plunge deep into the cryptocurrency ecosystem with options you can experiment with. The platform attempts to become a ‘one-stop marketplace’. In many ways, OKX has succeeded in that regard.</p><h2>History and Founding</h2><p>Built by OKCoin, an early Chinese exchange, the Hong Kong company OKX moved to Malta in 2018. The government shared many values that correspond to developing a cryptocurrency exchange. Malta has a reputation for having sound regulations for digital assets and blockchain, making it a prime destination for OKX to further its mission to ‘strive to eliminate financial barriers, evolve the global economy, and change the world for the better.</p><p>In November 2018, OKX won the Crypto Exchange of the year at the first edition of Malta Blockchain awards, edging out other finalists like Binance.</p><p>The company released major upgrades in 2020 that keep in line with this mission, releasing 170 upgrades. These upgrades include many of the ones that have been mentioned already, like Jumpstart that supports promising projects and the OKX Chain genesis block, as well as things like trading rewards, P2P trading, CTC lending, and so on.</p><p>As of 2021, 410 employees work to provide OKX services that reach millions of users in over 100 countries. With daily BTC futures trading volume around USD 1.5 billion, users now have a wide array of tools. With their continuous upgrades to support their high trading volume, OKX continues to build what they deem as the ‘next-gen financial ecosystem.</p><h2>OKX Fees</h2><p>Order maker fees are very low, even being free for VIP users who make transactions of more than USD 5 million. For most users of the exchange, this fee is <strong>0.08%</strong>, one of the lowest in the industry. By comparison, many exchanges offer at least <strong>0.1% fees</strong>. Along with this, OKX has different fees for spot, futures, perpetual swap, and options trading. You can find their fee structure here.</p><figure class="image"><img alt="OKEx fees" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/609/b9e7156fc3.png" data-srcset="https://cimg.co/w/rw-attachments/1/609/b9e7156fc3.png 300w, https://cimg.co/w/rw-attachments/2/609/b9e7156fc3.png 600w, https://cimg.co/w/rw-attachments/3/609/b9e7156fc3.png 720w, https://cimg.co/w/rw-attachments/4/609/b9e7156fc3.png 900w, https://cimg.co/w/rw-attachments/0/609/b9e7156fc3.png 1104w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>What’s neat about the fee tier structure is that it highlights which one you’re on, so you know exactly what fees you will be paying.</p><p>The <strong>deposit and withdrawal</strong> fees are some of the lowest in the industry as well. You can see it compared to other exchanges in these graphs.</p><figure class="table"><table><tbody><tr><th>Exchange</th><th>Maker fee</th><th>Taker fee</th><th>Spread</th><th>Deposit fee</th><th>Withdrawal fee</th><th>Exchange token discount</th><th>Volume discount</th></tr><tr><th><strong>OKX</strong></th><th>0.1%</th><th>0.15%</th><th>-</th><th>-</th><th>-</th><th>-</th><th>Yes</th></tr><tr><th><strong>Bibox</strong></th><th>0.075%</th><th>0.15%</th><th>-</th><th>-</th><th>Yes</th><th>Yes</th><th>No</th></tr><tr><th><strong>Binance</strong></th><th>≥3,000</th><th>0.18%</th><th>0.16%</th><th>11.1%</th><th>20%</th><th>0.144%</th><th>10%</th></tr><tr><th><strong>Bitfinex</strong></th><th>≥5,000</th><th>0.16%</th><th>0.14%</th><th>12.5%</th><th>40%</th><th>0.096%</th><th>20%</th></tr><tr><th><strong>Bitstamp</strong></th><th>≥20,000</th><th>0.14%</th><th>0.12%</th><th>14.3%</th><th>60%</th><th>0.056%</th><th>20%</th></tr><tr><th><strong>Bittrex</strong></th><th>≥50,000</th><th>0.12%</th><th>0.10%</th><th>16.7%</th><th>80%</th><th>0.024%</th><th>20%</th></tr><tr><th><strong>Kraken</strong></th><th>≥100,000</th><th>0.1%</th><th>0.08%</th><th>20%</th><th>100%</th><th>0.0%</th><th>30%</th></tr><tr><th><strong>KuCoin</strong></th><th>≥200,000</th><th>0.09%</th><th>0.07%</th><th>22.2%</th><th>100%</th><th>0.0%</th><th>30%</th></tr><tr><th><strong>Liquid</strong></th><th>≥300,000</th><th>0.08%</th><th>0.06%</th><th>25%</th><th>100%</th><th>0.0%</th><th>30%</th></tr><tr><th><strong>Luno</strong></th><th>≥500,000</th><th>0.07%</th><th>0.05%</th><th>28.6%</th><th>100%</th><th>0.0%</th><th>30%</th></tr></tbody></table></figure><p>If you have been trading in crypto for a while, transferring your coins to a hardware wallet and having lower fees makes a noticeable difference, with no funding fees required for OKX in terms of withdrawals. Of course, be wary of the fees that the blockchain network charges you.</p><p>For a more detailed and comprehensive view of OKX’s withdrawal fees, you can <a href="https://withdrawalfees.com/exchanges/okex">visit this website.</a></p><p>OKX has shown a willingness to <a href="https://www.okex.com/support/hc/en-us/articles/360039314851-OKEx-Lowers-BTC-ETH-XRP-BCH-USDT-ERC20-Withdrawal-Fees">evolve and lower fees</a>. In January 2020, OKX lowered the fees on BTC, ETH, XRP, BCH, and USDT-ERC20. This is a good sign for anyone concerned about fees, since this event has indicated that OKX are willing to lower fees if they can, even as they handle more cryptocurrency volume.</p><h4><span>[cta review='okex']Visit OKX[/cta]</span></h4><h2>Design and Usability</h2><figure class="image"><img alt="OKEx exchange review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/609/ba97b75235.png" data-srcset="https://cimg.co/w/rw-attachments/1/609/ba97b75235.png 300w, https://cimg.co/w/rw-attachments/2/609/ba97b75235.png 600w, https://cimg.co/w/rw-attachments/3/609/ba97b75235.png 720w, https://cimg.co/w/rw-attachments/4/609/ba97b75235.png 900w, https://cimg.co/w/rw-attachments/0/609/ba97b75235.png 1508w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>OKX does not have the flashiest design. But if the platform’s mission is to ‘eliminate financial barriers’ and ‘evolve the global economy’ then its design is simple, neat, and gets the job done. The design is not the most aesthetic but it does not need to be.</p><p>If anything, this design choice might actually help. OKX has so many features that it might overwhelm new users if their design was flashier. For those who are looking to just dive right into the crypto world, the user interface eases you into the platform.</p><p>At the top left, you have the simpler trading options like buying and selling, which goes to the quick trade option. Through there, you can just quickly buy cryptocurrency with fiat by using Visa, Mastercard, Apple Pay, and Interac.</p><figure class="image"><img alt="OKEx review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/609/ba9a57838b.png" data-srcset="https://cimg.co/w/rw-attachments/1/609/ba9a57838b.png 300w, https://cimg.co/w/rw-attachments/2/609/ba9a57838b.png 600w, https://cimg.co/w/rw-attachments/3/609/ba9a57838b.png 720w, https://cimg.co/w/rw-attachments/4/609/ba9a57838b.png 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Next to that, you have the markets that are shown. Although the markets tab appears to have simplified information about each coin, if you look at the top, you will see the sections labeled spot, futures, options, perpetual swap, options, OKX index and trading data. This provides comprehensive overview of the financial instruments that are on the platform.</p><figure class="image"><img alt="okex review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/609/baa104f188.png" data-srcset="https://cimg.co/w/rw-attachments/1/609/baa104f188.png 300w, https://cimg.co/w/rw-attachments/2/609/baa104f188.png 600w, https://cimg.co/w/rw-attachments/3/609/baa104f188.png 720w, https://cimg.co/w/rw-attachments/4/609/baa104f188.png 900w, https://cimg.co/w/rw-attachments/0/609/baa104f188.png 964w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>If you go back to the main page, it gets progressively more sophisticated, with basic spot trading and margin trading.</p><p>The trading graphs are where you can see higher detail when it comes to aesthetics. Visually, OKX has one of the more pleasing trading platforms of any exchange right now. Along with having all the normal trading tools like drawing trend lines, the font and the graphs have a rounded-out design and the whole layout is just really nice to look at. If you are going to spend hours staring at a trading screen, this is definitely one of the better ones to keep your eyes on.</p><figure class="image"><img alt="OKEx platform review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/609/e896c0f815.png" data-srcset="https://cimg.co/w/rw-attachments/1/609/e896c0f815.png 300w, https://cimg.co/w/rw-attachments/2/609/e896c0f815.png 600w, https://cimg.co/w/rw-attachments/3/609/e896c0f815.png 720w, https://cimg.co/w/rw-attachments/4/609/e896c0f815.png 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Next up, you have the Finance section with an earn option for interest rates, loan options, and a Jumpstart program where you can support token sales of new projects. Here is where you begin to see that OKX is attempting to be a place for finance in general for users and not just an exchange.</p><p>The Learn section gives you tutorials of their platform, which are extensive enough and simple to go through. It does a good job of easing you into cryptocurrency trading in general. Under Learn, OKX also publishes regular industry and market analysis and research under the company's research arm, OKX Insights.</p><figure class="image"><img alt="Okex insights review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/609/e89999d42f.png" data-srcset="https://cimg.co/w/rw-attachments/1/609/e89999d42f.png 300w, https://cimg.co/w/rw-attachments/2/609/e89999d42f.png 600w, https://cimg.co/w/rw-attachments/3/609/e89999d42f.png 720w, https://cimg.co/w/rw-attachments/4/609/e89999d42f.png 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Where OKX gets intense is the ‘More’ section. Going beyond the mere functionality of an exchange, OKX hosts a varied array of tools. OKX is not kidding when they claim to be a ‘one-stop marketplace.’</p><figure class="image"><img alt="Okex review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/609/e89b7bf621.png" data-srcset="https://cimg.co/w/rw-attachments/1/609/e89b7bf621.png 300w, https://cimg.co/w/rw-attachments/2/609/e89b7bf621.png 600w, https://cimg.co/w/rw-attachments/3/609/e89b7bf621.png 720w, https://cimg.co/w/rw-attachments/4/609/e89b7bf621.png 900w, https://cimg.co/w/rw-attachments/0/609/e89b7bf621.png 390w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>These features create a sense of uniqueness about OKX. Because of the simplicity of the design, seeing these tabs do not feel overwhelming. Since the ‘More’ tab does not pressure the user, new users can go onto the site without feeling like any of these extra features are required. Experienced traders will notice they have plenty of options to utilize to their advantage.</p><p>Along with the low fees, these options are what make OKX unique as it has a whole toolbox waiting to be explored as you dive deeper into crypto.</p><ul><li><strong>Pool</strong> - This utilizes a proof-of-work mining service with hedging.</li><li><strong>OKX Bridge</strong> - Allows you to transfer assets across multiple chains.</li><li><strong>Wallet</strong> - A secure wallet for managing trades, DeFi, storage for 36 cryptocurrencies as you are in charge of your keys with a mnemonic phrase and security.</li><li><strong>OKB</strong> - OKX utility token for an entire ecosystem of possible trades, token sales, and even passive income</li><li><strong>OKX Cloud</strong> - Don’t like other exchanges? Build your own. If you have the savvy, you can use the platform’s tech stack to build it. This feature really shows OKX’s commitment to being a ‘one-stop marketplace’. You can even build your own exchange with this project.</li><li><strong>Security of Funds</strong> - They have a hot wallet solution that offers more multi-layered security options compared to their cold wallet storage option.</li><li><strong>OKX Chain</strong> - A decentralized, blockchain ecosystem.</li><li><strong>Status</strong> - You can keep up with maintenance information here.</li><li><strong>Rewards</strong> - Where you can complete tasks to earn crypto rewards and free bitcoin.</li><li><strong>Referral</strong> - Invite friends to earn more rewards.</li><li><strong>Affiliates</strong> - Earn a minimum of 30% fees from invited trades.</li><li><strong>Happy Friday</strong> - A rewards program where you can earn 20% OKX income from derivatives and possibly receive gifts like iPhones.</li><li><strong>Broker</strong> - If you’ve got the skills, you can become a broker and earn high commissions.</li><li><strong>OKX Blockdream Ventures</strong> - A place to fund projects with high potential.</li></ul><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/okex" rel="noindex nofollow" target="_blank">Sign Up For Free</a></p><h3>OKX Decentralized Trading Platform</h3><figure class="image"><img alt="OKEx Swap" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/609/e8dacbaaf2.png" data-srcset="https://cimg.co/w/rw-attachments/1/609/e8dacbaaf2.png 300w, https://cimg.co/w/rw-attachments/2/609/e8dacbaaf2.png 600w, https://cimg.co/w/rw-attachments/3/609/e8dacbaaf2.png 720w, https://cimg.co/w/rw-attachments/4/609/e8dacbaaf2.png 900w, https://cimg.co/w/rw-attachments/0/609/e8dacbaaf2.png 355w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>In case you want to take yourself out of the centralized world for a bit, OKX has an option with a decentralized exchange (DEX) that looks to be inspired by Uniswap. Although there are not too many options to trade right now, as it seems to be in its infancy, it is an interesting feature to have and build upon. Along with the classic DEX swap option, the protocol has a liquidity pool and farming options.</p><h3>Customer Support</h3><figure class="image"><img alt="Okex customer support" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/609/e8ddfc4e5a.png" data-srcset="https://cimg.co/w/rw-attachments/1/609/e8ddfc4e5a.png 300w, https://cimg.co/w/rw-attachments/2/609/e8ddfc4e5a.png 600w, https://cimg.co/w/rw-attachments/3/609/e8ddfc4e5a.png 720w, https://cimg.co/w/rw-attachments/4/609/e8ddfc4e5a.png 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>For customer support, OKX has a support center with an FAQ section as well as a page where you can submit requests. Along with this, they have a chat box you can use in case you have a question that is more specific to your needs. As many exchanges do not even contain a chat box to begin with, this is a welcome addition.</p><p>From overall general feedback, it seems that the customer support does an adequate job according to reviews from users, with most users generally giving OKX favorable experiences.</p><h2>OKX Security</h2><p>Headquartered in Malta, they have the benefit of being in one of the most reputable and favorably regulated locations when it comes to crypto. Having won an award in 2018 at the first edition of the Malta Blockchain Awards should show that they at least have a good amount of security built into their system. The company follows standard security procedures, like 2FA and many more that can be found in the section below. They have a respectable rating when it comes to security as measured by <a href="https://www.cryptocompare.com/external/research/exchange-ranking/">CryptoCompare</a>.</p><p>The only time their security has been compromised was when a private key holder was put under a public security bureau investigation. They withheld their user withdrawals for six weeks during that time, much to the consternation of their users. However, this event may have shown that OKX is a responsible platform. OKX did not want to compromise the funds of their users and was communicating with their users during this time.</p><h3>User Security Settings</h3><p>Other than email and login, OKX provides a multitude of security layers on the platform.</p><ul><li><strong>Funds password</strong> - In order to withdraw funds, the user needs to use a password for authentication.</li><li><strong>Mobile verification</strong> - This utilizes the mobile phone to withdraw funds, change passwords, and confirm changes to the account.</li><li><strong>Google authenticator</strong> - The authenticator is needed for security and funds withdrawal.</li><li><strong>Mandatory 2FA</strong> - Two-factor authentication is needed for withdrawing funds, login, or sending red packets for bonuses.</li><li><strong>Anti-Phishing Code</strong> - Higher security for emails from OKX.</li></ul><h2>Deposit and Withdrawal Methods</h2><figure class="image"><img alt="OKEx deposit" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/609/e8e502a3f2.png" data-srcset="https://cimg.co/w/rw-attachments/1/609/e8e502a3f2.png 300w, https://cimg.co/w/rw-attachments/2/609/e8e502a3f2.png 600w, https://cimg.co/w/rw-attachments/3/609/e8e502a3f2.png 720w, https://cimg.co/w/rw-attachments/4/609/e8e502a3f2.png 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>If you go to the assets tab, you’ll be able to see the deposit section where you can send from your wallet to the exchange. You can select the currency that you wish to deposit. Double-check and make sure that you are sending the correct cryptocurrency to the correct address or your funds may be lost, like any other cryptocurrency transaction.</p><figure class="image"><img alt="OKEx supported withdrawal methods" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/609/e8e6e9bf5a.png" data-srcset="https://cimg.co/w/rw-attachments/1/609/e8e6e9bf5a.png 300w, https://cimg.co/w/rw-attachments/2/609/e8e6e9bf5a.png 600w, https://cimg.co/w/rw-attachments/3/609/e8e6e9bf5a.png 720w, https://cimg.co/w/rw-attachments/4/609/e8e6e9bf5a.png 900w, https://cimg.co/w/rw-attachments/0/609/e8e6e9bf5a.png 423w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>With all the great features that OKX has, the withdrawal system may be the main drawback of using OKX. Although it has low fees, you can only withdraw crypto. You cannot exchange your crypto for fiat to withdraw it. This shows the focus the platform has on being a crypto-to-crypto exchange for ‘next-gen finance.’ There are so many cryptocurrencies that you have to exchange with on OKX, some of the most out of any exchange with more than 500 cryptocurrencies. You have a decent chance to find hidden altcoins that could be worth a lot more later along the line.</p><p>That being said, you need to send your cryptocurrency to another exchange to liquidate for fiat, which is not too much of a hassle given the low fees. However, it is easy to see why this could be a drawback for some users.</p><h2>Conclusion</h2><p>Overall, the complete set of tools that OKX provides shows promising potential, even though the exchange is already large. With the number of consistent upgrades to their platform, they are attempting to be a place where users can have a wide set of financial tools for a new generation of finance. Even with the options that they already have available, OKX has been willing to evolve with new financial instruments. If you want a large platform with unique and promising financial tools to use once you become more experienced in crypto, OKX is a great exchange to have in your cryptocurrency toolbox.</p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Kumkanot: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Kumkanot" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<main>
+<div class="container">
+<div class="pt-60 pb-60">
+<div class="row">
+<div class="col-12 col-lg-9">
+<div class="breadcrumbs mb-20">
+<a href="/">Kumkanot</a>
+<a href="/news/">News</a>
+<a href="/news/press-releases/">Press Releases</a>
+</div>
+<h1 class="h2">Press Releases</h1>
+<section class="category_contents_details">
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="/news/cosmoverse-comes-istanbul-as-interchain-innovation-continues-grow.htm">
+<div class="img-sized">
+<img alt="Cosmoverse Comes to Istanbul as Interchain Innovation Continues to Grow" class="img-fluid" loading="auto" src="https://cimg.co/news/125308/330972/photo-2023-09-20-12-00-34-1.jpeg" srcset="https://cimg.co/news/125308/330972/responsive-images/photo-2023-09-20-12-00-34-1___media_library_original_1200_720.jpeg 1200w, https://cimg.co/news/125308/330972/responsive-images/photo-2023-09-20-12-00-34-1___media_library_original_900_540.jpeg 900w, https://cimg.co/news/125308/330972/responsive-images/photo-2023-09-20-12-00-34-1___media_library_original_720_432.jpeg 720w, https://cimg.co/news/125308/330972/responsive-images/photo-2023-09-20-12-00-34-1___media_library_original_600_360.jpeg 600w, https://cimg.co/news/125308/330972/responsive-images/photo-2023-09-20-12-00-34-1___media_library_original_300_180.jpeg 300w" width="1200"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date" data-utctime="2023-09-21 05:29:00"></div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="/news/cosmoverse-comes-istanbul-as-interchain-innovation-continues-grow.htm">Cosmoverse Comes to Istanbul as Interchain Innovation Continues to Grow </a>
+<div class="mb-25 d-none d-md-block">Cosmoverse is back with its annual conference in Türkiye this year, showcasing the thriving Cosmos ecosystem and its potential to cultivate an interchain future for greater global collaboration
+            </div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="/news/cosmos-polkadots-interoperability-plans-under-scrutiny-inqubetas-unique-model-investors-curious.htm">
+<div class="img-sized">
+<img alt="Cosmos And Polkadot's Interoperability Plans Under Scrutiny, InQubeta's Unique Model Has Investors Curious" class="img-fluid" loading="auto" src="https://cimg.co/news/125267/330876/atom-logo-crypto.jpg" srcset="https://cimg.co/news/125267/330876/responsive-images/atom-logo-crypto___media_library_original_854_568.jpg 854w, https://cimg.co/news/125267/330876/responsive-images/atom-logo-crypto___media_library_original_720_479.jpg 720w, https://cimg.co/news/125267/330876/responsive-images/atom-logo-crypto___media_library_original_600_399.jpg 600w, https://cimg.co/news/125267/330876/responsive-images/atom-logo-crypto___media_library_original_300_200.jpg 300w" width="854"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date" data-utctime="2023-09-20 12:19:00"></div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="/news/cosmos-polkadots-interoperability-plans-under-scrutiny-inqubetas-unique-model-investors-curious.htm">Cosmos And Polkadot's Interoperability Plans Under Scrutiny, InQubeta's Unique Model Has Investors Curious </a>
+<div class="mb-25 d-none d-md-block">The crypto landscape is fast-evolving and contains different narratives, but one continues to gain traction: interoperability. This is the ability of blockchains to communicate and interact with one another, thereby allowing the seamless transfer of...
+            </div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="/news/ftxs-crypto-sale-gets-nod-ada-atom-roe-keep-markets-optimism.htm">
+<div class="img-sized">
+<img alt="FTX's Crypto Sale Gets Nod; $ADA, $ATOM and $ROE Keep Market's Optimism" class="img-fluid" loading="auto" src="https://cimg.co/news/125266/330873/ftx-app.jpg" srcset="https://cimg.co/news/125266/330873/responsive-images/ftx-app___media_library_original_654_434.jpg 654w, https://cimg.co/news/125266/330873/responsive-images/ftx-app___media_library_original_600_398.jpg 600w, https://cimg.co/news/125266/330873/responsive-images/ftx-app___media_library_original_300_199.jpg 300w" width="654"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date" data-utctime="2023-09-20 12:17:00"></div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="/news/ftxs-crypto-sale-gets-nod-ada-atom-roe-keep-markets-optimism.htm">FTX's Crypto Sale Gets Nod; $ADA, $ATOM and $ROE Keep Market's Optimism </a>
+<div class="mb-25 d-none d-md-block">The cryptocurrency market is a constant rollercoaster of developments, with each twist and turn presenting opportunities for investors seeking the best crypto investment, the top altcoin to buy, or simply a glimpse into the evolving...
+            </div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="/news/crypto-exchange-bullish-applies-for-license-in-hong-kong-can-this-new-bitcoin-fork-list-on-the-exchange.htm">
+<div class="img-sized">
+<img alt="Crypto Exchange Bullish Applies for License in Hong Kong - Can this new Bitcoin Fork list on the exchange?" class="img-fluid" loading="auto" src="https://cimg.co/news/125254/330841/bitcoin-spark.jpg" srcset="https://cimg.co/news/125254/330841/responsive-images/bitcoin-spark___media_library_original_681_510.jpg 681w, https://cimg.co/news/125254/330841/responsive-images/bitcoin-spark___media_library_original_600_449.jpg 600w, https://cimg.co/news/125254/330841/responsive-images/bitcoin-spark___media_library_original_300_225.jpg 300w" width="681"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date" data-utctime="2023-09-20 10:17:00"></div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="/news/crypto-exchange-bullish-applies-for-license-in-hong-kong-can-this-new-bitcoin-fork-list-on-the-exchange.htm">Crypto Exchange Bullish Applies for License in Hong Kong - Can this new Bitcoin Fork list on the exchange? </a>
+<div class="mb-25 d-none d-md-block">Crypto Exchange Bullish, in its strategic pursuit for international expansion, has taken a significant step in applying for a license in Hong Kong, a move that could potentially shape the future of cryptocurrency trading. Digital...
+            </div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div class="col-12 col-lg-3">
+<h2 class="mb-30">Recommended</h2>
+<div class="mb-40">
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/new-viral-based-meme-coin-rizz-monkey-set-for-explosive-10x-growth-with-huge-community-and-clever-tokenomics.htm">
+<div class="small-image-list img-sized"><img alt="New Viral-Based Meme Coin Rizz Monkey Set for Explosive 10x Growth With Huge Community and Clever Tokenomics" class="" loading="auto" src="https://cimg.co/news/123278/326086/image3.jpg" srcset="https://cimg.co/news/123278/326086/responsive-images/image3___media_library_original_1600_1066.jpg 1600w, https://cimg.co/news/123278/326086/responsive-images/image3___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/123278/326086/responsive-images/image3___media_library_original_900_600.jpg 900w, https://cimg.co/news/123278/326086/responsive-images/image3___media_library_original_720_480.jpg 720w, https://cimg.co/news/123278/326086/responsive-images/image3___media_library_original_600_400.jpg 600w, https://cimg.co/news/123278/326086/responsive-images/image3___media_library_original_300_200.jpg 300w" width="1600"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date" data-utctime="2023-08-24 09:38:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/new-viral-based-meme-coin-rizz-monkey-set-for-explosive-10x-growth-with-huge-community-and-clever-tokenomics.htm">
+                New Viral-Based Meme Coin Rizz Monkey Set for Explosive 10x Growth With Huge Community and Clever Tokenomics
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/hello-labs-hello-token-coming-ethereum.htm">
+<div class="small-image-list img-sized"><img alt="Hello Labs: $HELLO Token is Coming to Ethereum" class="" loading="auto" src="https://cimg.co/news/123612/326818/hello.jpg" srcset="https://cimg.co/news/123612/326818/responsive-images/hello___media_library_original_512_288.jpg 512w, https://cimg.co/news/123612/326818/responsive-images/hello___media_library_original_300_169.jpg 300w" width="512"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date" data-utctime="2023-08-29 07:59:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/hello-labs-hello-token-coming-ethereum.htm">
+                Hello Labs: $HELLO Token is Coming to Ethereum
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/chainlink-contender-raised-over-24m-could-it-just-beginning.htm">
+<div class="small-image-list img-sized"><img alt="This Chainlink Contender Raised Over $2.4M: Could it Just be the Beginning?" class="" loading="auto" src="https://cimg.co/news/123731/327062/inqubeta-3008cn.jpg" srcset="https://cimg.co/news/123731/327062/responsive-images/inqubeta-3008cn___media_library_original_601_328.jpg 601w, https://cimg.co/news/123731/327062/responsive-images/inqubeta-3008cn___media_library_original_600_327.jpg 600w, https://cimg.co/news/123731/327062/responsive-images/inqubeta-3008cn___media_library_original_300_164.jpg 300w" width="601"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date" data-utctime="2023-08-30 13:00:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/chainlink-contender-raised-over-24m-could-it-just-beginning.htm">
+                This Chainlink Contender Raised Over $2.4M: Could it Just be the Beginning?
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/ai-sparks-crypto-frenzy-with-filecoin-polkadot-borroe-finance-reaping-benefits.htm">
+<div class="small-image-list img-sized"><img alt="AI Sparks Crypto Frenzy With Filecoin, Polkadot, &amp; Borroe Finance Reaping The Benefits" class="" loading="auto" src="https://cimg.co/news/123377/326265/borroe-2508cn.jpg" srcset="https://cimg.co/news/123377/326265/responsive-images/borroe-2508cn___media_library_original_599_365.jpg 599w, https://cimg.co/news/123377/326265/responsive-images/borroe-2508cn___media_library_original_300_183.jpg 300w" width="599"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date" data-utctime="2023-08-25 08:29:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/ai-sparks-crypto-frenzy-with-filecoin-polkadot-borroe-finance-reaping-benefits.htm">
+                AI Sparks Crypto Frenzy With Filecoin, Polkadot, &amp; Borroe Finance Reaping The Benefits
+            </a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="/news/newest-meme-coin-sonik-raises-175m-get-ready-for-claim-listing-thursday-7th-at-9am-utc.htm">
+<div class="small-image-list img-sized"><img alt="Newest Meme Coin Sonik Raises $1.75m, Get Ready For Claim And Listing on Thursday 7th at 9am UTC" class="" loading="auto" src="https://cimg.co/news/124249/328017/unnamed.jpg" srcset="https://cimg.co/news/124249/328017/responsive-images/unnamed___media_library_original_512_323.jpg 512w, https://cimg.co/news/124249/328017/responsive-images/unnamed___media_library_original_300_189.jpg 300w" width="512"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date" data-utctime="2023-09-05 19:01:00"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="/news/newest-meme-coin-sonik-raises-175m-get-ready-for-claim-listing-thursday-7th-at-9am-utc.htm">
+                Newest Meme Coin Sonik Raises $1.75m, Get Ready For Claim And Listing on Thursday 7th at 9am UTC
+            </a>
+</div>
+</div>
+</div>
+</div>
+<div class="dslot" did="4" style="min-height:600px;">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/300x600.jpg" width=""/>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section class="container mb-80">
+<div class="pb-40 pb-30">
+<h2 class="mb-40">All News</h2>
+<div class="row" id="load_more_target">
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/chimpzee-paving-way-forward-for-meme-coins-more-milestones-horizon.htm">
+<div class="img-sized"><img alt="Chimpzee is Paving The Way Forward For Meme Coins, More Milestones on The Horizon" class="img-fluid" loading="auto" src="https://cimg.co/news/125236/330809/image2.jpg" srcset="https://cimg.co/news/125236/330809/responsive-images/image2___media_library_original_680_680.jpg 680w, https://cimg.co/news/125236/330809/responsive-images/image2___media_library_original_600_600.jpg 600w, https://cimg.co/news/125236/330809/responsive-images/image2___media_library_original_300_300.jpg 300w" width="680"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-20 07:19:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/chimpzee-paving-way-forward-for-meme-coins-more-milestones-horizon.htm">
+<h4>Chimpzee is Paving The Way Forward For Meme Coins, More Milestones on The Horizon</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/what-fork-why-eths-classic-fork-new-player-dominiart-are-making-waves-with-investors.htm">
+<div class="img-sized"><img alt="What the Fork? Why ETH’s Classic Fork and New Player Domini.Art Are Making Waves with Investors" class="img-fluid" loading="auto" src="https://cimg.co/news/125191/330708/eth.jpg" srcset="https://cimg.co/news/125191/330708/responsive-images/eth___media_library_original_933_464.jpg 933w, https://cimg.co/news/125191/330708/responsive-images/eth___media_library_original_900_448.jpg 900w, https://cimg.co/news/125191/330708/responsive-images/eth___media_library_original_720_358.jpg 720w, https://cimg.co/news/125191/330708/responsive-images/eth___media_library_original_600_298.jpg 600w, https://cimg.co/news/125191/330708/responsive-images/eth___media_library_original_300_149.jpg 300w" width="933"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-19 13:20:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/what-fork-why-eths-classic-fork-new-player-dominiart-are-making-waves-with-investors.htm">
+<h4>What the Fork? Why ETH’s Classic Fork and New Player Domini.Art Are Making Waves with Investors</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/100-million-ftx-crypto-liquidation-strategy-announced-investors-turn-borroefinance.htm">
+<div class="img-sized"><img alt="$100 Million FTX Crypto Liquidation Strategy Announced: Investors Turn to Borroe.Finance" class="img-fluid" loading="auto" src="https://cimg.co/news/125190/330707/ftx.jpg" srcset="https://cimg.co/news/125190/330707/responsive-images/ftx___media_library_original_820_545.jpg 820w, https://cimg.co/news/125190/330707/responsive-images/ftx___media_library_original_720_479.jpg 720w, https://cimg.co/news/125190/330707/responsive-images/ftx___media_library_original_600_399.jpg 600w, https://cimg.co/news/125190/330707/responsive-images/ftx___media_library_original_300_199.jpg 300w" width="820"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-19 13:13:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/100-million-ftx-crypto-liquidation-strategy-announced-investors-turn-borroefinance.htm">
+<h4>$100 Million FTX Crypto Liquidation Strategy Announced: Investors Turn to Borroe.Finance</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/blockchain-economy-dubai-summit-2023-just-two-weeks-away-buzzing-with-anticipation.htm">
+<div class="img-sized"><img alt="Blockchain Economy Dubai Summit 2023: Just Two Weeks Away and Buzzing with Anticipation" class="img-fluid" loading="auto" src="https://cimg.co/news/125184/330698/full-hd.jpg" srcset="https://cimg.co/news/125184/330698/responsive-images/full-hd___media_library_original_1920_1080.jpg 1920w, https://cimg.co/news/125184/330698/responsive-images/full-hd___media_library_original_1200_675.jpg 1200w, https://cimg.co/news/125184/330698/responsive-images/full-hd___media_library_original_900_506.jpg 900w, https://cimg.co/news/125184/330698/responsive-images/full-hd___media_library_original_720_405.jpg 720w, https://cimg.co/news/125184/330698/responsive-images/full-hd___media_library_original_600_338.jpg 600w, https://cimg.co/news/125184/330698/responsive-images/full-hd___media_library_original_300_169.jpg 300w" width="1920"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-19 12:28:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/blockchain-economy-dubai-summit-2023-just-two-weeks-away-buzzing-with-anticipation.htm">
+<h4>Blockchain Economy Dubai Summit 2023: Just Two Weeks Away and Buzzing with Anticipation</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/ftx-obtains-legal-nod-unload-billions-crypto-what-does-it-spell-for-dominiart-domi-solana-sol.htm">
+<div class="img-sized"><img alt="FTX Obtains Legal Nod to Unload Billions in Crypto: What Does It Spell for Domini.art ($DOMI) and Solana ($SOL)?" class="img-fluid" loading="auto" src="https://cimg.co/news/125141/330620/domini-art.jpg" srcset="https://cimg.co/news/125141/330620/responsive-images/domini-art___media_library_original_933_576.jpg 933w, https://cimg.co/news/125141/330620/responsive-images/domini-art___media_library_original_900_556.jpg 900w, https://cimg.co/news/125141/330620/responsive-images/domini-art___media_library_original_720_445.jpg 720w, https://cimg.co/news/125141/330620/responsive-images/domini-art___media_library_original_600_370.jpg 600w, https://cimg.co/news/125141/330620/responsive-images/domini-art___media_library_original_300_185.jpg 300w" width="933"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-19 01:33:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/ftx-obtains-legal-nod-unload-billions-crypto-what-does-it-spell-for-dominiart-domi-solana-sol.htm">
+<h4>FTX Obtains Legal Nod to Unload Billions in Crypto: What Does It Spell for Domini.art ($DOMI) and Solana ($SOL)?</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/as-pepe-hype-fades-interest-qube-imx-grows.htm">
+<div class="img-sized"><img alt="As PEPE Hype Fades Interest In QUBE and IMX Grows" class="img-fluid" loading="auto" src="https://cimg.co/news/125140/330618/pepe.jpg" srcset="https://cimg.co/news/125140/330618/responsive-images/pepe___media_library_original_935_493.jpg 935w, https://cimg.co/news/125140/330618/responsive-images/pepe___media_library_original_900_475.jpg 900w, https://cimg.co/news/125140/330618/responsive-images/pepe___media_library_original_720_380.jpg 720w, https://cimg.co/news/125140/330618/responsive-images/pepe___media_library_original_600_316.jpg 600w, https://cimg.co/news/125140/330618/responsive-images/pepe___media_library_original_300_158.jpg 300w" width="935"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-19 01:29:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/as-pepe-hype-fades-interest-qube-imx-grows.htm">
+<h4>As PEPE Hype Fades Interest In QUBE and IMX Grows</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/hardware-zk-revolution-vertus-metavertu-2-raises-bar-web3-phones.htm">
+<div class="img-sized"><img alt="Hardware ZK Revolution: VERTU's METAVERTU 2 Raises the Bar in Web3 Phones" class="img-fluid" loading="auto" src="https://cimg.co/news/125120/330843/photo-2023-09-20-18-16-54.jpeg" srcset="https://cimg.co/news/125120/330843/responsive-images/photo-2023-09-20-18-16-54___media_library_original_1280_722.jpeg 1280w, https://cimg.co/news/125120/330843/responsive-images/photo-2023-09-20-18-16-54___media_library_original_1200_677.jpeg 1200w, https://cimg.co/news/125120/330843/responsive-images/photo-2023-09-20-18-16-54___media_library_original_900_508.jpeg 900w, https://cimg.co/news/125120/330843/responsive-images/photo-2023-09-20-18-16-54___media_library_original_720_406.jpeg 720w, https://cimg.co/news/125120/330843/responsive-images/photo-2023-09-20-18-16-54___media_library_original_600_338.jpeg 600w, https://cimg.co/news/125120/330843/responsive-images/photo-2023-09-20-18-16-54___media_library_original_300_169.jpeg 300w" width="1280"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-18 15:30:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/hardware-zk-revolution-vertus-metavertu-2-raises-bar-web3-phones.htm">
+<h4>Hardware ZK Revolution: VERTU's METAVERTU 2 Raises the Bar in Web3 Phones</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/gofaizen-sherle-introduces-its-second-year-results-over-1000-projects-for-400-companies.htm">
+<div class="img-sized"><img alt="Gofaizen &amp; Sherle introduces its second-year results: over 1000 projects for 400+ companies" class="img-fluid" loading="auto" src="https://cimg.co/news/125113/330524/img-3130.JPG" srcset="https://cimg.co/news/125113/330524/responsive-images/img-3130___media_library_original_1280_720.JPG 1280w, https://cimg.co/news/125113/330524/responsive-images/img-3130___media_library_original_1200_675.JPG 1200w, https://cimg.co/news/125113/330524/responsive-images/img-3130___media_library_original_900_506.JPG 900w, https://cimg.co/news/125113/330524/responsive-images/img-3130___media_library_original_720_405.JPG 720w, https://cimg.co/news/125113/330524/responsive-images/img-3130___media_library_original_600_338.JPG 600w, https://cimg.co/news/125113/330524/responsive-images/img-3130___media_library_original_300_169.JPG 300w" width="1280"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-18 14:25:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/gofaizen-sherle-introduces-its-second-year-results-over-1000-projects-for-400-companies.htm">
+<h4>Gofaizen &amp; Sherle introduces its second-year results: over 1000 projects for 400+ companies</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/2-million-sight-as-investors-flock-scorp-presale.htm">
+<div class="img-sized"><img alt="$2 Million in Sight as Investors Flock to SCORP Presale" class="img-fluid" loading="auto" src="https://cimg.co/news/125192/330709/image2.jpg" srcset="https://cimg.co/news/125192/330709/responsive-images/image2___media_library_original_1200_1200.jpg 1200w, https://cimg.co/news/125192/330709/responsive-images/image2___media_library_original_900_900.jpg 900w, https://cimg.co/news/125192/330709/responsive-images/image2___media_library_original_720_720.jpg 720w, https://cimg.co/news/125192/330709/responsive-images/image2___media_library_original_600_600.jpg 600w, https://cimg.co/news/125192/330709/responsive-images/image2___media_library_original_300_300.jpg 300w" width="1200"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-18 13:47:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/2-million-sight-as-investors-flock-scorp-presale.htm">
+<h4>$2 Million in Sight as Investors Flock to SCORP Presale</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/swiss-privacy-comes-debit-card-payments-with-anonycard-ico.htm">
+<div class="img-sized"><img alt="Swiss Privacy Comes to Debit Card Payments with the AnonyCard ICO" class="img-fluid" loading="auto" src="https://cimg.co/news/125143/330624/anonycard.jpg" srcset="https://cimg.co/news/125143/330624/responsive-images/anonycard___media_library_original_512_287.jpg 512w, https://cimg.co/news/125143/330624/responsive-images/anonycard___media_library_original_300_168.jpg 300w" width="512"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-18 13:00:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/swiss-privacy-comes-debit-card-payments-with-anonycard-ico.htm">
+<h4>Swiss Privacy Comes to Debit Card Payments with the AnonyCard ICO</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/cryptocurrency-trading-investment-revolutionized-with-defibot.htm">
+<div class="img-sized"><img alt="Cryptocurrency Trading and Investment Revolutionized with Defibot" class="img-fluid" loading="auto" src="https://cimg.co/news/125087/330444/photo-2023-09-18-12-07-07.jpeg" srcset="https://cimg.co/news/125087/330444/responsive-images/photo-2023-09-18-12-07-07___media_library_original_1280_720.jpeg 1280w, https://cimg.co/news/125087/330444/responsive-images/photo-2023-09-18-12-07-07___media_library_original_1200_675.jpeg 1200w, https://cimg.co/news/125087/330444/responsive-images/photo-2023-09-18-12-07-07___media_library_original_900_506.jpeg 900w, https://cimg.co/news/125087/330444/responsive-images/photo-2023-09-18-12-07-07___media_library_original_720_405.jpeg 720w, https://cimg.co/news/125087/330444/responsive-images/photo-2023-09-18-12-07-07___media_library_original_600_338.jpeg 600w, https://cimg.co/news/125087/330444/responsive-images/photo-2023-09-18-12-07-07___media_library_original_300_169.jpeg 300w" width="1280"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-18 10:18:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/cryptocurrency-trading-investment-revolutionized-with-defibot.htm">
+<h4>Cryptocurrency Trading and Investment Revolutionized with Defibot</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/bitcoin-etf-green-light-these-cryptos-are-primed-soar-next.htm">
+<div class="img-sized"><img alt="Bitcoin ETF Green Light: These Cryptos are Primed to Soar Next" class="img-fluid" loading="auto" src="https://cimg.co/news/125052/330356/earth.jpg" srcset="https://cimg.co/news/125052/330356/responsive-images/earth___media_library_original_748_417.jpg 748w, https://cimg.co/news/125052/330356/responsive-images/earth___media_library_original_720_401.jpg 720w, https://cimg.co/news/125052/330356/responsive-images/earth___media_library_original_600_334.jpg 600w, https://cimg.co/news/125052/330356/responsive-images/earth___media_library_original_300_167.jpg 300w" width="748"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-17 22:51:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/bitcoin-etf-green-light-these-cryptos-are-primed-soar-next.htm">
+<h4>Bitcoin ETF Green Light: These Cryptos are Primed to Soar Next</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/insider-alert-near-protocol-dominiart-polkadot-tipped-outperform-all-other-tokens.htm">
+<div class="img-sized"><img alt="Insider Alert: NEAR Protocol, Domini.art, and Polkadot Tipped to Outperform All Other Tokens" class="img-fluid" loading="auto" src="https://cimg.co/news/125051/330355/domini.jpg" srcset="https://cimg.co/news/125051/330355/responsive-images/domini___media_library_original_901_595.jpg 901w, https://cimg.co/news/125051/330355/responsive-images/domini___media_library_original_900_594.jpg 900w, https://cimg.co/news/125051/330355/responsive-images/domini___media_library_original_720_475.jpg 720w, https://cimg.co/news/125051/330355/responsive-images/domini___media_library_original_600_396.jpg 600w, https://cimg.co/news/125051/330355/responsive-images/domini___media_library_original_300_198.jpg 300w" width="901"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-17 22:29:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/insider-alert-near-protocol-dominiart-polkadot-tipped-outperform-all-other-tokens.htm">
+<h4>Insider Alert: NEAR Protocol, Domini.art, and Polkadot Tipped to Outperform All Other Tokens</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/borroe-finance-presale-lighting-up-did-court-say-united-states-ready-for-bitcoin-etf.htm">
+<div class="img-sized"><img alt="Borroe Finance Presale Lighting Up, Did This Court Say the United States is Ready for a Bitcoin ETF?" class="img-fluid" loading="auto" src="https://cimg.co/news/125050/330354/borroe.jpg" srcset="https://cimg.co/news/125050/330354/responsive-images/borroe___media_library_original_773_479.jpg 773w, https://cimg.co/news/125050/330354/responsive-images/borroe___media_library_original_720_446.jpg 720w, https://cimg.co/news/125050/330354/responsive-images/borroe___media_library_original_600_372.jpg 600w, https://cimg.co/news/125050/330354/responsive-images/borroe___media_library_original_300_186.jpg 300w" width="773"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-17 22:23:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/borroe-finance-presale-lighting-up-did-court-say-united-states-ready-for-bitcoin-etf.htm">
+<h4>Borroe Finance Presale Lighting Up, Did This Court Say the United States is Ready for a Bitcoin ETF?</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/savvy-investors-buy-low-get-domi-cfx-mana-before-septembers-surge.htm">
+<div class="img-sized"><img alt="Savvy Investors Buy low: Get $DOMI, $CFX, and $MANA Before September's Surge" class="img-fluid" loading="auto" src="https://cimg.co/news/125049/330353/domini-token.jpg" srcset="https://cimg.co/news/125049/330353/responsive-images/domini-token___media_library_original_734_466.jpg 734w, https://cimg.co/news/125049/330353/responsive-images/domini-token___media_library_original_720_457.jpg 720w, https://cimg.co/news/125049/330353/responsive-images/domini-token___media_library_original_600_381.jpg 600w, https://cimg.co/news/125049/330353/responsive-images/domini-token___media_library_original_300_190.jpg 300w" width="734"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-17 17:47:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/savvy-investors-buy-low-get-domi-cfx-mana-before-septembers-surge.htm">
+<h4>Savvy Investors Buy low: Get $DOMI, $CFX, and $MANA Before September's Surge</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/pressure-bitcoin-btc-squeezing-stacks-stx-smart-investors-diversify-borroefinance-roe.htm">
+<div class="img-sized"><img alt="Pressure On Bitcoin ($BTC) Squeezing Stacks ($STX), Smart Investors Diversify To Borroe.Finance ($ROE)" class="img-fluid" loading="auto" src="https://cimg.co/news/125048/330351/bitcoin-chart.jpg" srcset="https://cimg.co/news/125048/330351/responsive-images/bitcoin-chart___media_library_original_773_430.jpg 773w, https://cimg.co/news/125048/330351/responsive-images/bitcoin-chart___media_library_original_720_401.jpg 720w, https://cimg.co/news/125048/330351/responsive-images/bitcoin-chart___media_library_original_600_334.jpg 600w, https://cimg.co/news/125048/330351/responsive-images/bitcoin-chart___media_library_original_300_167.jpg 300w" width="773"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/press-releases/"> Press Releases </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-16 20:38:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/pressure-bitcoin-btc-squeezing-stacks-stx-smart-investors-diversify-borroefinance-roe.htm">
+<h4>Pressure On Bitcoin ($BTC) Squeezing Stacks ($STX), Smart Investors Diversify To Borroe.Finance ($ROE)</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+<hr class="mb-60"/>
+<div class="text-center">
+<a class="button-more button-more--gradient" href="javascript:void(0);" id="load_more" loadmoretype="newspress-releases">Load more news...
+              <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg>
+</a>
+</div>
+</section>
+</main>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

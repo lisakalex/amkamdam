@@ -1,0 +1,1655 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title id="dynamicTitle">kumpeton</title>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+    <meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+    <script defer="" src="/assets/js/frontend.js"></script>
+    <link href="/assets/css/frontend.css" rel="stylesheet"/>
+    <link href="/assets/images/favicon.png" rel="shortcut icon"/>
+    <script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+    <script>
+        window.sid = 1;
+    </script>
+    <link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+    <a class="header__logo" href="/">
+        <img alt="Crypto News" src="/assets/images/logo.svg"/>
+    </a>
+    <div class="header-menu">
+        <div class="header-menu__trigger d-none d-lg-flex">
+            <svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+                <g fill-rule="evenodd">
+                    <path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+                </g>
+            </svg>
+        </div>
+        <div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+            <div class="container header-menu__dropdown-container">
+                <div class="row">
+                    <div class="col-12 col-lg-2">
+                        <div class="header-links__dropdown-list">
+                            <div class="header-menu__dropdown-heading">
+                                <a class="heading" href="/news/">News</a><span>+</span>
+                            </div>
+                            <ul class="header-menu__dropdown-children">
+                                <li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+                                <li><a href="/news/ethereum-news/">Ethereum News</a></li>
+                                <li><a href="/news/nft-news/">NFT News</a></li>
+                                <li><a href="/news/defi-news/">DeFi News</a></li>
+                                <li><a href="/news/altcoin-news/">Altcoin News</a></li>
+                                <li><a href="/news/blockchain-news/">Blockchain News</a></li>
+                                <li><a href="/news/press-releases/">Press Releases</a></li>
+                                <li><a href="/news/sponsored/">Sponsored</a></li>
+                                <li><a href="/news/industry-talk/">Industry Talk</a></li>
+                                <li><a href="/news/ico-news/">ICO news</a></li>
+                                <li><a href="/news/finance-news/">Finance News</a></li>
+                                <li><a href="/news/technology-news/">Technology News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-2">
+                        <div class="header-links__dropdown-list">
+                            <div class="header-menu__dropdown-heading">
+                                <a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+                            </div>
+                            <ul class="header-menu__dropdown-children">
+                                <li><a href="/exclusives/features/">Features</a></li>
+                                <li><a href="/exclusives/opinions/">Opinions</a></li>
+                                <li><a href="/exclusives/people/">People In Crypto</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-2">
+                        <div class="header-links__dropdown-list">
+                            <div class="header-menu__dropdown-heading">
+                                <a class="heading" href="/guides/">Guides</a><span>+</span>
+                            </div>
+                            <ul class="header-menu__dropdown-children">
+                                <li><a href="/guides/bitcoin/">Bitcoin</a></li>
+                                <li><a href="/guides/ethereum/">Ethereum</a></li>
+                                <li><a href="/guides/nft/">NFT</a></li>
+                                <li><a href="/guides/defi-guides/">Defi Guides</a></li>
+                                <li><a href="/guides/altcoins/">Altcoins</a></li>
+                                <li><a href="/guides/blockchain/">Blockchain</a></li>
+                                <li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+                                <li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-2">
+                        <div class="header-links__dropdown-list">
+                            <div class="header-menu__dropdown-heading">
+                                <a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+                            </div>
+                            <div class="header-menu__dropdown-heading">
+                                <a class="heading" href="/coins/">Market Cap</a><span></span>
+                            </div>
+                            <div class="header-menu__dropdown-heading">
+                                <a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+                            </div>
+                            <div class="header-menu__dropdown-heading">
+                                <a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+                            </div>
+                            <div class="header-menu__dropdown-heading">
+                                <a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-2">
+                        <div class="header-links__dropdown-list">
+                            <div class="header-menu__dropdown-heading">
+                                <a class="heading" href="#">Recommended</a><span>+</span>
+                            </div>
+                            <ul class="header-menu__dropdown-children">
+                                <li>
+                                    <a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+                                </li>
+                                <li>
+                                    <a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+                                </li>
+                                <li>
+                                    <a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+                                </li>
+                                <li>
+                                    <a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+                                </li>
+                                <li>
+                                    <a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+                                </li>
+                                <li>
+                                    <a href="/news/crypto-launches.htm"> Crypto launches</a>
+                                </li>
+                                <li>
+                                    <a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+                                </li>
+                                <li>
+                                    <a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+                                </li>
+                                <li>
+                                    <a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-links d-none d-lg-flex">
+        <ul class="menu_header">
+            <li></li>
+            <li>
+                <a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+                <ul class="sub-menu">
+                    <li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+                    <li><a href="/news/ethereum-news/">Ethereum News</a></li>
+                    <li><a href="/news/nft-news/">NFT News</a></li>
+                    <li><a href="/news/defi-news/">DeFi News</a></li>
+                    <li><a href="/news/altcoin-news/">Altcoin News</a></li>
+                    <li><a href="/news/blockchain-news/">Blockchain News</a></li>
+                    <li><a href="/news/press-releases/">Press Releases</a></li>
+                    <li><a href="/news/sponsored/">Sponsored</a></li>
+                    <li><a href="/news/industry-talk/">Industry Talk</a></li>
+                    <li><a href="/news/ico-news/">ICO news</a></li>
+                    <li><a href="/news/finance-news/">Finance News</a></li>
+                    <li><a href="/news/technology-news/">Technology News</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+                <ul class="sub-menu">
+                    <li><a href="/exclusives/features/">Features</a></li>
+                    <li><a href="/exclusives/opinions/">Opinions</a></li>
+                    <li><a href="/exclusives/people/">People In Crypto</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+                <ul class="sub-menu">
+                    <li><a href="/guides/bitcoin/">Bitcoin</a></li>
+                    <li><a href="/guides/ethereum/">Ethereum</a></li>
+                    <li><a href="/guides/nft/">NFT</a></li>
+                    <li><a href="/guides/defi-guides/">Defi Guides</a></li>
+                    <li><a href="/guides/altcoins/">Altcoins</a></li>
+                    <li><a href="/guides/blockchain/">Blockchain</a></li>
+                    <li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+                    <li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/reviews/exchanges/">Exchanges
+                </a>
+            </li>
+            <li>
+                <a href="/coins/">Market Cap</a>
+            </li>
+            <li>
+                <a href="/news/press-releases/">Press Releases</a>
+            </li>
+            <li>
+                <a href="/news/industry-talk/">Industry Talk</a>
+            </li>
+            <li>
+                <a href="/exclusives/opinions/">Opinions</a>
+            </li>
+            <li>
+                <a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+                <ul class="sub-menu">
+                    <li>
+                        <a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+                    </li>
+                    <li>
+                        <a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+                    </li>
+                    <li>
+                        <a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+                    </li>
+                    <li>
+                        <a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+                    </li>
+                    <li>
+                        <a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+                    </li>
+                    <li>
+                        <a href="/news/crypto-launches.htm"> Crypto launches</a>
+                    </li>
+                    <li>
+                        <a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+                    </li>
+                    <li>
+                        <a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+                    </li>
+                    <li>
+                        <a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="header-search">
+        <div class="header-menu__trigger d-md-none">
+            <svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+                <g fill-rule="evenodd">
+                    <path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+                </g>
+            </svg>
+        </div>
+        <div class="header-search__trigger">
+            <svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121"
+                      fill-rule="evenodd"></path>
+            </svg>
+        </div>
+        <form action="/search/" class="header-search__form">
+            <input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+            <div class="header-search__close">
+                <svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                    <g>
+                        <polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+                    </g>
+                </svg>
+            </div>
+        </form>
+    </div>
+</header>
+<div class="main">
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-9">
+                    <div class="breadcrumbs mb-20">
+                        <a href="/">Cryptonews</a>
+                        <a href="/guides/">Guides</a>
+                    </div>
+                    <div class="scrollspy">
+                        <h1>Guides</h1>
+                        <div class="dslot" did="14"></div>
+                        <section class="scrollspy" id="bitcoin">
+                            <h2 class="mb-30 scrollspy" id="bitcoin">Bitcoin</h2>
+                            <div class="row mb-30 category_contents_details">
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/phantom-wallet-guide-how-to-set-up-get-started.htm">Phantom Wallet Guide: How To Set Up &amp; Get Started</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-get-started-with-nfts-a-beginners-guide.htm">How To Get Started With NFTs: A Beginner's Guide</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/opensea-nft-marketplace-review.htm">OpenSea NFT Marketplace Review (2023)</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/entering-the-metaverse-signing-up-to-decentraland.htm">Metaverse Guide: Signing Up To Decentraland</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/best-ethereum-wallets.htm">10 Best Ethereum Wallets for Beginners in 2023</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/best-decentralized-crypto-wallets.htm">8 Best Decentralized Crypto Wallets for 2023</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/best-cardano-wallets.htm">9 Best Cardano Wallets for 2023 - Compare Secure ADA Wallets</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/best-xrp-wallets.htm">8 Best XRP Wallets for 2023 - Safest Ripple Wallets Compared</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/best-crypto-wallets-uae.htm">7 Best Crypto Wallets in UAE - The Complete 2023 List</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/best-offshore-betting-sites.htm">10 Best Offshore Betting Sites to Play at in 2023</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/best-offshore-casinos.htm">10 Best Offshore Casinos 2023</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/best-crypto-wallets-india.htm">8 Best Crypto Wallets in India - Safest BTC Wallets Reviewed</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/best-crypto-wallets-south-africa.htm">8 Best Crypto Wallets in South Africa</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/best-erc20-wallets.htm">7 Best ERC20 Wallets in 2023 - The Complete List</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/best-non-custodial-wallets.htm">7 Best Non-Custodial Wallets for 2023 - The Complete List</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/metamask-wallet-review.htm">MetaMask Wallet Review 2023 - Everything You Need to Know</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/best-trust-wallet-alternatives.htm">7 Best Trust Wallet Alternatives in 2023</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/best-hot-wallets.htm">8 Best Hot Wallets for 2023 - Top Software Wallet Reviews</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/trust-wallet-review.htm">Trust Wallet Review 2023 - Everything You Need to Know</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/best-crypto-wallets.htm">11 Best Crypto Wallets for Beginners in 2023</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/best-crypto-wallets-australia.htm">9 Best Crypto Wallets in Australia 2023</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/best-crypto-wallets-uk.htm">10 Best Crypto Wallets for UK Traders - Compare Bitcoin Wallets</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-bitcoin.htm">What Is Bitcoin?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-bitcoin-mining.htm">What Is Bitcoin Mining?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-choose-a-bitcoin-wallet.htm">How to Choose a Bitcoin Wallet?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/is-it-safe-to-use-bitcoin.htm">Is It Safe To Use Bitcoin?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/bitcoin-pros-and-cons.htm">Bitcoin Pros and Cons</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-store-bitcoins.htm">How To Store Bitcoin?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-bitcoins.htm">How to Buy Bitcoin?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-sell-bitcoins.htm">How to Sell Bitcoin?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-mine-bitcoins.htm">How to Mine Bitcoin?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/why-do-bitcoins-have-value.htm">Why Do Bitcoins Have Value</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/how-is-the-price-of-bitcoins-set.htm">How Is The Price of Bitcoins Set?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-accept-bitcoin-in-business.htm">How to Accept Bitcoin In Business?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/how-bitcoin-mining-works.htm">How Does Bitcoin Mining Work?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/how-does-bitcoin-work.htm">How does bitcoin work?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/who-controls-bitcoin.htm">Who Controls Bitcoin?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/bitcoin-history.htm">Bitcoin History</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/should-i-buy-bitcoin.htm">Should I Buy Bitcoin In 2023?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/top-10-bitcoin-security-tips.htm">Bitcoin Security Tips For Beginners</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/countries-in-which-bitcoin-is-banned-or-legal.htm">Countries Where Bitcoin Is Banned or Legal In 2023</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/10-reasons-why-your-business-should-accept-bitcoins.htm">9 Reasons Why Your Business Should Accept Bitcoin</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-bitcoin-with-cash.htm">How to Buy Bitcoin with Cash</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/what-can-i-buy-with-bitcoin.htm">What Can I Buy with Bitcoin?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-and-sell-bitcoin-in-india.htm">How to Buy and Sell Bitcoin in India?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/hardware-for-bitcoin-mining.htm">Hardware for Bitcoin mining</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/bitcoin-wallets-for-beginners.htm">Bitcoin Wallets for Beginners</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/3-ways-to-set-up-a-bitcoin-wallet.htm">3 Ways To Set Up a Bitcoin Wallet</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/difference-of-bitcoin-from-traditional-currencies.htm">The Difference Between Bitcoin and Traditional Currencies</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/who-created-bitcoin.htm">Who Created Bitcoin?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-invest-in-bitcoin.htm">How to Invest in Bitcoin?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/who-accepts-bitcoin.htm">Who Accepts Bitcoin in 2023?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/before-you-buy-bitcoin.htm">Things To Know Before You Buy Bitcoin</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/before-you-sell-bitcoin.htm">Things to Know Before You Sell Bitcoin</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/bitcoin-cold-storage.htm">What Is Bitcoin Cold Storage?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-and-sell-bitcoin-in-canada.htm">How to Buy and Sell Bitcoin in Canada?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-bitcoins-with-a-credit-card.htm">How to Buy Bitcoin with a Credit Card?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-bitcoin-with-paypal.htm">How to Buy Bitcoin with Paypal in 2023</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/5-methods-to-buy-bitcoin-with-paypal-instantly.htm">5 Alternative Methods to Buy Bitcoin With PayPal in 2023</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-accept-bitcoins-in-my-store.htm">How to Accept Bitcoin In My Store?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-get-free-bitcoins.htm">How to Get Free Bitcoin?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-bitcoin-btc-lightning-network.htm">What is Bitcoin Lightning Network?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/will-bitcoin-ever-be-stable.htm">Will Bitcoin Ever Be Stable?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/a-beginner-s-guide-to-bitcoin-etfs.htm">A Beginner's Guide to Bitcoin ETFs</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-bitcoin-in-the-united-states.htm">How To Buy Bitcoin in the United States?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/is-bitcoin-a-bubble.htm">Is Bitcoin a Bubble?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/is-bitcoin-a-pyramid-scheme.htm">Is Bitcoin a Pyramid Scheme?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Bitcoin</div>
+                                        <a class="article__title article__title--md" href="/guides/is-bitcoin-legal.htm">Is Bitcoin Legal?</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="scrollspy" id="blockchain">
+                            <h2 class="mb-30 scrollspy" id="blockchain">Blockchain</h2>
+                            <div class="row mb-30 category_contents_details">
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Blockchain</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-kyc-know-your-customer-process-explained.htm">What is KYC? Know Your Customer Process Explained</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Blockchain</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-blockchain.htm">What is Blockchain?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Blockchain</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-a-smart-contract.htm">What is a Smart Contract?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Blockchain</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-blockchain-technology.htm">What is Blockchain Technology?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Blockchain</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-a-dao.htm">What is a DAO?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Blockchain</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-proof-of-stake.htm">What is Proof-of-Stake?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Blockchain</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-proof-of-work.htm">What is Proof-of-Work?</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="scrollspy" id="cryptocurrency">
+                            <h2 class="mb-30 scrollspy" id="cryptocurrency">Cryptocurrency</h2>
+                            <div class="row mb-30 category_contents_details">
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/cryptotag-odin-review-2022-shamir-backup-kit.htm">Cryptotag Odin Review (2023) - Shamir Backup Kit</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-cryptocurrency.htm">What is Cryptocurrency?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/ledger-nano-x-review.htm">Ledger Nano X Review (2023): Is It Worth It?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/how-do-cryptocurrencies-differ.htm">How do cryptocurrencies differ?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/can-i-create-my-own-cryptocurrency.htm">Can I Create My Own Cryptocurrency?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-choose-an-exchange.htm">How to Choose a Cryptocurrency Exchange?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/top-10-decentralized-exchanges-dex-in-2021.htm">Top 10 Decentralized Exchanges (DEX) in 2023</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-defi.htm">What is DeFi? Decentralized Finance Explained</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-yield-farming.htm">What Is Yield Farming?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/bitcoin-vs-ethereum-similarities-differences-and-which-is-a-better-investment.htm">Bitcoin vs Ethereum: Similarities, Differences, and Which is a Better Investment</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/cryptotag-zeus-review.htm">Cryptotag Zeus Review (2023)</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/beginner-s-guide-to-crypto-trading-strategies.htm">Beginner's Guide to Crypto Trading Strategies</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/should-i-use-vpn-for-cryptocurrency-transactions.htm">Should I Use VPN for Cryptocurrency Transactions?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/best-vpns-for-cryptocurrency-transactions.htm">Best VPNs for Cryptocurrency Transactions in 2023</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-store-cryptocurrency-safely.htm">How To Store Cryptocurrency Safely in 2023</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-crypto-arbitrage.htm">How To Make Money With Crypto Arbitrage</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/why-it-is-risky-to-leave-your-cryptocurrency-in-exchange.htm">Why It Is Risky To Leave Your Cryptocurrency In Exchange</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/trezor-model-t-review.htm">Trezor Model T Review (2023) - Should You Buy It?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/crypto-games-review-simple-fun-crypto-casino.htm">Crypto.Games Review (2023): Simple &amp; Fun Crypto Casino</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/keycard-wallet-review-ethereum-hardware-wallet.htm">Keycard Wallet Review (2023) - Ethereum Hardware Wallet</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/22-ways-to-earn-crypto-on-binance.htm">22 Ways to Earn Crypto on Binance</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/the-most-popular-cryptocurrency-terms.htm">The Most Popular Cryptocurrency Terms</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/ledger-nano-s-review-pros-and-cons.htm">Ledger Nano S Review (2023): Pros and Cons</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-crypto-margin-trading.htm">What Is Crypto Margin Trading?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/top-crypto-margin-trading-exchanges.htm">Top Crypto Margin Trading Exchanges in 2023</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/best-crypto-social-trading-platforms-for-cryptocurrency-fans.htm">Best Crypto Social Trading Platforms (2023)</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+                                        <a class="article__title article__title--md" href="/guides/cryptotag-review-the-best-way-to-backup-your-seed.htm">CRYPTOTAG Thor Review (2023) - The Ultimate Crypto Backup Toolkit</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="scrollspy" id="icos">
+                            <h2 class="mb-30 scrollspy" id="icos / stos / ieos">ICOs / STOs / IEOs</h2>
+                            <div class="row mb-30 category_contents_details">
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">ICOs / STOs / IEOs</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-an-ico.htm">What is an ICO?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">ICOs / STOs / IEOs</div>
+                                        <a class="article__title article__title--md" href="/guides/why-invest-in-an-ico.htm">Why Invest In An ICO?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">ICOs / STOs / IEOs</div>
+                                        <a class="article__title article__title--md" href="/guides/what-are-the-risks-in-an-ico.htm">What Are The Risks Of An ICO in 2023?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">ICOs / STOs / IEOs</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-an-initial-exchange-offering.htm">What Is An Initial Exchange Offering (IEO)?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">ICOs / STOs / IEOs</div>
+                                        <a class="article__title article__title--md" href="/guides/top-ieo-platforms-review.htm">Top 6 Initial Exchange Offering (IEO) Platforms</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">ICOs / STOs / IEOs</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-a-security-token-offering-sto.htm">What Is A Security Token Offering (STO)?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">ICOs / STOs / IEOs</div>
+                                        <a class="article__title article__title--md" href="/guides/the-difference-between-ico-and-sto.htm">The Difference Between ICO and STO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="scrollspy" id="ethereum">
+                            <h2 class="mb-30 scrollspy" id="ethereum">Ethereum</h2>
+                            <div class="row mb-30 category_contents_details">
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/ethereum-gas-fees-explained.htm">Ethereum Gas Fees Explained</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-ethereum.htm">What is Ethereum?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-ether.htm">What Is Ether?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-and-sell-ethereum-in-the-uk.htm">How to buy and sell Ethereum in the UK?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-and-sell-ethereum-in-canada.htm">How to buy and sell Ethereum in Canada?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-ethereum-with-paypal.htm">How to Buy Ethereum with PayPal</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-ethereum-with-cash.htm">How to Buy Ethereum with Cash?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-and-sell-ethereum-in-india.htm">How to Buy and Sell Ethereum in India?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/hardware-for-ethereum-mining.htm">Hardware for Ethereum Mining</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/countries-in-which-ethereum-is-banned-or-legal.htm">Countries Where Ethereum is Banned or Legal</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/before-you-sell-ethereum.htm">Before You Sell Ethereum</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-ethereum-with-a-credit-card.htm">How to buy Ethereum with a Credit Card?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/3-methods-to-buy-ethereum-with-paypal-instantly.htm">3 Methods to Buy Ethereum with PayPal Instantly</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/5-reasons-why-your-business-should-accept-ethereum.htm">5 Reasons Why Your Business Should Accept Ethereum</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/3-ways-to-set-up-an-ethereum-wallet.htm">3 Ways to Set Up an Ethereum Wallet</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/who-controls-ethereum.htm">Who Controls Ethereum?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-invest-in-ethereum.htm">How to Invest in Ethereum</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/who-created-ethereum.htm">Who Created Ethereum?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-get-free-ethereum.htm">How to Get Free Ethereum</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/who-accepts-ethereum.htm">Who Accepts Ethereum as Payment? 8 Places You Can Spend ETH</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/how-does-ethereum-work.htm">How does Ethereum work?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-ethereum.htm">How to Buy Ethereum?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-ethereum-2-0.htm">What Is Ethereum 2.0?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Ethereum</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-stake-eth-for-ethereum-2-0.htm">How to Stake ETH for Ethereum 2.0?</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="scrollspy" id="altcoins">
+                            <h2 class="mb-30 scrollspy" id="altcoins">Altcoins</h2>
+                            <div class="row mb-30 category_contents_details">
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/different-categories-of-cryptocurrencies.htm">Different Categories of Cryptocurrencies</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-waltonchain.htm">What Is Waltonchain</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-mine-litecoin.htm">How To Mine Litecoin?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-cryptonex-coin-and-trading-platform.htm">What Is Cryptonex Coin and Trading Platform</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-dogecoin-doge.htm">How To Buy Dogecoin (DOGE) in 2023?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/what-are-altcoins.htm">What Are Altcoins and How Do They Differ From Bitcoin?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-solana.htm">How to Buy Solana (SOL)?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-cardano-ada.htm">How To Buy Cardano (ADA)?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-the-metaverse.htm">What is the Metaverse?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-polkadot.htm">How to Buy Polkadot?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-mine-dogecoin.htm">How to Mine Dogecoin?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-binance-coin.htm">How to Buy Binance Coin?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-litecoin.htm">How to Buy Litecoin?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-monero.htm">How to Buy Monero?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-tron.htm">How to Buy TRON (TRX)?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-chainlink.htm">How to Buy Chainlink (LINK)?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-iota.htm">How to buy IOTA?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-stellar.htm">How to Buy Stellar?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/bitcoin-forks-in-search-of-the-original-satoshi.htm">Bitcoin Forks Guide – In Search of the Original Satoshi</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-altcoins.htm">How To Buy Altcoins</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-ripple-xrp.htm">How To Buy Ripple (XRP)?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-mine-monero.htm">How to Mine Monero (XMR)?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Altcoins</div>
+                                        <a class="article__title article__title--md" href="/guides/coinpoker-review-security-and-privacy-in-online-poker.htm">CoinPoker Review (2023): Security &amp; Privacy in Online Poker</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="scrollspy" id="trading-tools">
+                            <h2 class="mb-30 scrollspy" id="trading tools">Trading Tools</h2>
+                            <div class="row mb-30 category_contents_details">
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Trading Tools</div>
+                                        <a class="article__title article__title--md" href="/guides/arbismart-review-2020-crypto-arbitrage-made-simple.htm">ArbiSmart Review (2023) - Crypto Arbitrage Made Simple</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="scrollspy" id="deals">
+                            <h2 class="mb-30 scrollspy" id="deals">Deals</h2>
+                            <div class="row mb-30 category_contents_details">
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Deals</div>
+                                        <a class="article__title article__title--md" href="/guides/changenow-promo-code-get-your-discount-with-this-code.htm">ChangeNOW Promo Code: Get Your Discount With This Code</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Deals</div>
+                                        <a class="article__title article__title--md" href="/guides/1xbit-promo-code-review.htm">1xBit Review and Promo Discount Code</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Deals</div>
+                                        <a class="article__title article__title--md" href="/guides/get-10-nextrope-lab-london-conference-2019-discount-coupon.htm">Get 10% Nextrope Lab London Conference 2019 Discount Coupon</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="scrollspy" id="nft">
+                            <h2 class="mb-30 scrollspy" id="nft">NFT</h2>
+                            <div class="row mb-30 category_contents_details">
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/linksdao-a-cryptocommunity-for-the-everyday-golfer.htm">LinksDAO - Crypto Community For The Everyday Golfer</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-bridge-ethereum-and-polygon-networks.htm">How To Bridge Ethereum and Polygon Networks</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-list-an-nft-from-your-collection-on-rarible.htm">How To List an NFT on Rarible</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-an-nft-on-rarible.htm">How To Buy an NFT On Rarible</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-use-rarible-the-easy-way-to-set-up-user-profile.htm">How To Use Rarible: The Easy Way to Set Up User Profile</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-get-fan-tokens-on-socioscom.htm">How To Get Fan Tokens on Socios.com</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/metamask-guide-how-to-set-up-get-started.htm">Metamask Guide: How To Set Up and Get Started</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-use-metamask-wallet-to-the-polygon-network.htm">How To Use MetaMask Wallet on the Polygon Network</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-send-ethereum-from-coinbase-to-metamask-wallet.htm">How To Send Ethereum from Coinbase to MetaMask Wallet</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-get-started-with-socioscom.htm">How To Get Started with Socios.com</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-purchase-chiliz-chz-through-socioscom.htm">How To Purchase Chiliz (CHZ) Through Socios.com</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-use-opensea-the-easy-way-to-set-up-your-profile.htm">How To Use OpenSea: The Easy Way to Set Up Your Profile</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-list-an-nft-on-opensea.htm">How To List an NFT on OpenSea</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-buy-an-nft-on-opensea.htm">How To Buy an NFT On OpenSea</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/rarible-nft-marketplace-review-2022.htm">Rarible NFT Marketplace Review (2023)</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-make-a-uniswap-trade.htm">How To Make A Uniswap Trade</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-find-buy-and-sell-nfts-on-opensea.htm">How to Find, Buy, and Sell NFTs on OpenSea</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-link-metamask-to-uniswap.htm">How to Link MetaMask to Uniswap</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-deposit-and-withdraw-tokens-through-metamask.htm">How to Deposit and Withdraw Tokens Through MetaMask</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-add-tokens-to-metamask.htm">How to Add Tokens to MetaMask Wallet</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/metamask-guide-how-to-set-up-metamask-wallet.htm">MetaMask Guide: How to Set Up MetaMask Wallet?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/top-10-nft-marketplaces.htm">Top 10 NFT Marketplaces</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-mint-and-create-an-nft.htm">How to Create an NFT?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-use-binance-smart-chain-bsc-with-metamask.htm">How to Use Binance Smart Chain (BSC) with MetaMask</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/sorare-review-a-beginners-guide-to-sorare-fantasy-football.htm">Sorare Review (2023) - A Beginner's Guide to Sorare Fantasy Football</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/top-10-nft-games-to-play-and-earn.htm">Top 10 NFT Games To Play (And Earn)</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">NFT</div>
+                                        <a class="article__title article__title--md" href="/guides/a-beginner-s-guide-to-nfts-what-you-should-know.htm">A Beginner's Guide to NFTs: What You Should Know</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="scrollspy" id="defi-guides">
+                            <h2 class="mb-30 scrollspy" id="defi guides">Defi Guides</h2>
+                            <div class="row mb-30 category_contents_details">
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Defi Guides</div>
+                                        <a class="article__title article__title--md" href="/guides/yield-farming-liquidity-mining-staking-and-their-risks.htm">Yield Farming, Liquidity Mining, Staking and Their Risks</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Defi Guides</div>
+                                        <a class="article__title article__title--md" href="/guides/what-is-web3.htm">What Is Web3?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Defi Guides</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-use-compound.htm">How To Use Compound?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+                                    <div class="guide-item">
+                                        <div class="article__badge article__badge--md mb-10">Defi Guides</div>
+                                        <a class="article__title article__title--md" href="/guides/how-to-use-aave.htm">How to Use Aave?</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="scrollspy" id="wallet-guides">
+                            <h2 class="mb-30 scrollspy" id="wallet guides">Wallet Guides</h2>
+                            <div class="row mb-30 category_contents_details">
+                            </div>
+                        </section>
+                    </div>
+                    <section class="scrollspy" id="bitcoin-guides">
+                    </section>
+                </div>
+                <div class="col-12 col-lg-3 d-none d-lg-block">
+                    <div class="sidebar">
+                        <div class="sidebar-wrap">
+                            <div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-top pt-60 pb-30">
+            <div class="row">
+                <div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+                    <div class="d-lg-flex mb-40">
+                        <div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+                            <a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+                            <a class="mr-20" href="/about-us.htm">About Us</a>
+                            <a class="mr-20" href="/contact/">Contact Us</a>
+                            <a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+                            <a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+                        </div>
+                    </div>
+                    <div class="footer-tags d-none d-md-block">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+                    <div class="row d-none d-md-flex" style="justify-content: flex-end">
+                        <div class="col-12 col-lg-2">
+                            <div class="header-menu__dropdown-heading">
+                                <a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+                            </div>
+                            <div class="menu-list-links header-menu__dropdown-children">
+                                <a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+                                <a href="/news/ethereum-news/">Ethereum News</a><br/>
+                                <a href="/news/nft-news/">NFT News</a><br/>
+                                <a href="/news/defi-news/">DeFi News</a><br/>
+                                <a href="/news/altcoin-news/">Altcoin News</a><br/>
+                                <a href="/news/blockchain-news/">Blockchain News</a><br/>
+                                <a href="/news/press-releases/">Press Releases</a><br/>
+                                <a href="/news/sponsored/">Sponsored</a><br/>
+                                <a href="/news/industry-talk/">Industry Talk</a><br/>
+                                <a href="/news/ico-news/">ICO news</a><br/>
+                                <a href="/news/finance-news/">Finance News</a><br/>
+                                <a href="/news/technology-news/">Technology News</a><br/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-2">
+                            <div class="header-menu__dropdown-heading">
+                                <a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+                            </div>
+                            <div class="menu-list-links header-menu__dropdown-children">
+                                <a href="/exclusives/features/">Features</a><br/>
+                                <a href="/exclusives/opinions/">Opinions</a><br/>
+                                <a href="/exclusives/people/">People In Crypto</a><br/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-2">
+                            <div class="header-menu__dropdown-heading">
+                                <a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+                            </div>
+                            <div class="menu-list-links header-menu__dropdown-children">
+                                <a href="/guides/bitcoin/">Bitcoin</a><br/>
+                                <a href="/guides/ethereum/">Ethereum</a><br/>
+                                <a href="/guides/nft/">NFT</a><br/>
+                                <a href="/guides/defi-guides/">Defi Guides</a><br/>
+                                <a href="/guides/altcoins/">Altcoins</a><br/>
+                                <a href="/guides/blockchain/">Blockchain</a><br/>
+                                <a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+                                <a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-2">
+                            <div class="header-menu__dropdown-heading">
+                                <a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+                            </div>
+                            <div class="menu-list-links header-menu__dropdown-children">
+                                <a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+                                <a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+                                <a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+                                <a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+                                <a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+                                <a href="/news/crypto-launches.htm"> Crypto launches </a>
+                                <a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+                                <a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+                                <a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="">
+                                <div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+                                <div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+                                <div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+                                <div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+                                <div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+                                <div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-block d-md-none footer_menu_mob">
+                        <div class="header-menu__dropdown-heading">
+                            <a class="mb-10 heading" href="/news/"><b>News</b></a>
+                        </div>
+                        <div class="menu-list-links header-menu__dropdown-children">
+                            <a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a
+                                href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+                        <div class="header-menu__dropdown-heading">
+                            <a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+                        </div>
+                        <div class="menu-list-links header-menu__dropdown-children">
+                            <a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+                        <div class="header-menu__dropdown-heading">
+                            <a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+                        </div>
+                        <div class="menu-list-links header-menu__dropdown-children">
+                            <a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+                        </div>
+                        <div class="header-menu__dropdown-heading">
+                            <a class="mb-10 heading" href="#"><b>Recommended</b></a>
+                        </div>
+                        <div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+                        <div class="menu-list-links header-menu__dropdown-children">
+                            <a class="mb-10 heading" href="/editors/">
+                                <b>Contributors</b>
+                            </a>
+                            <a class="mb-10 heading" href="/reviews/exchanges/">
+                                <b>Exchanges</b>
+                            </a>
+                            <a class="mb-10 heading" href="/coins/">
+                                <b>Market Cap</b>
+                            </a>
+                            <a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+                            <a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+                            <a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+                    <div class="footer-tags">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom pt-30 pb-30">
+            <div class="row">
+                <div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+                    <div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+                </div>
+                <div class="col-12 col-md-6 text-center text-md-right">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script>
+<script defer="" src="/assets/js/cookieconsent-init.js"></script>
+</body>
+</html>

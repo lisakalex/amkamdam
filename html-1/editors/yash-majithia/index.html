@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<main>
+<div class="container">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/editors/">Contributors</a>
+<a href="/editors/yash-majithia/">Yash Majithia</a>
+</div>
+<h1 class="h2">Yash Majithia</h1>
+<div class="row mb-40">
+<div class="col-12 col-md-4 author-item">
+<div>
+<img alt="Yash Majithia" class="img-fluid img-rounded" loading="auto" src="https://cimg.co/authors/890/yashm.jpg" srcset="https://cimg.co/authors/890/responsive-images/yashm___media_library_original_855_898.jpg 855w, https://cimg.co/authors/890/responsive-images/yashm___media_library_original_720_756.jpg 720w, https://cimg.co/authors/890/responsive-images/yashm___media_library_original_600_630.jpg 600w, https://cimg.co/authors/890/responsive-images/yashm___media_library_original_300_315.jpg 300w" width="855"/>
+</div>
+</div>
+<div class="col-12 col-md-8">
+<p>Yash is an experienced crypto writer and analyst. Having a strong background in financial analysis and reporting, he has published articles with various publications in the crypto space.</p><p>He has worked with portals such as <a href="https://www.business2community.com/cryptocurrency/is-it-too-late-to-buy-ethereum" rel="nofollow">Business2Community</a> and <a href="https://ambcrypto.com/evaluating-adas-turnaround-potential-in-the-wake-of-this-bear-run/" rel="nofollow">AMBCrypto</a> in addition to working with blockchain marketing companies to help create engaging content.</p><p>Before that, he spent over three years in an audit firm as a senior assurance associate. At a fairly young age, he was also chosen to be an ambassador for his country in a youth exchange program in Berlin, Germany.</p><p>Connect with Yash on <a href="http://www.linkedin.com/in/yashnm" rel="nofollow">LinkedIn</a> and <a href="https://twitter.com/majithiayash" rel="nofollow">Twitter</a>.</p><p><br/> </p>
+</div>
+</div>
+</div>
+<section class="container mb-80">
+<div class="pb-40 pb-30">
+<div class="row" id="load_more_target">
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/best-rollbit-alternatives.htm">
+<div class="img-sized"><img alt="10 Best Rollbit Alternatives Reviewed in 2023" class="img-fluid" loading="auto" src="https://cimg.co/news/124974/330114/screenshot-2023-09-15-at-.jpg" srcset="https://cimg.co/news/124974/330114/responsive-images/screenshot-2023-09-15-at-___media_library_original_900_457.jpg 900w, https://cimg.co/news/124974/330114/responsive-images/screenshot-2023-09-15-at-___media_library_original_720_366.jpg 720w, https://cimg.co/news/124974/330114/responsive-images/screenshot-2023-09-15-at-___media_library_original_600_305.jpg 600w, https://cimg.co/news/124974/330114/responsive-images/screenshot-2023-09-15-at-___media_library_original_300_152.jpg 300w" width="900"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/"> Sponsored </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-15 15:09:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/best-rollbit-alternatives.htm">
+<h4>10 Best Rollbit Alternatives Reviewed in 2023</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/best-no-account-casinos.htm">
+<div class="img-sized"><img alt="8 Best No Account Casinos 2023 (No Registration)" class="img-fluid" loading="auto" src="https://cimg.co/news/124233/327960/screenshot-2023-09-05-at-.jpg" srcset="https://cimg.co/news/124233/327960/responsive-images/screenshot-2023-09-05-at-___media_library_original_900_464.jpg 900w, https://cimg.co/news/124233/327960/responsive-images/screenshot-2023-09-05-at-___media_library_original_720_371.jpg 720w, https://cimg.co/news/124233/327960/responsive-images/screenshot-2023-09-05-at-___media_library_original_600_309.jpg 600w, https://cimg.co/news/124233/327960/responsive-images/screenshot-2023-09-05-at-___media_library_original_300_155.jpg 300w" width="900"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/"> Sponsored </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-08 11:30:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/best-no-account-casinos.htm">
+<h4>8 Best No Account Casinos 2023 (No Registration)</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/sonik-price-prediction.htm">
+<div class="img-sized"><img alt="Sonik Coin Price Prediction 2023 - 2030" class="img-fluid" loading="auto" src="https://cimg.co/news/122710/324504/screenshot-2023-08-17-at-.jpg" srcset="https://cimg.co/news/122710/324504/responsive-images/screenshot-2023-08-17-at-___media_library_original_900_475.jpg 900w, https://cimg.co/news/122710/324504/responsive-images/screenshot-2023-08-17-at-___media_library_original_720_380.jpg 720w, https://cimg.co/news/122710/324504/responsive-images/screenshot-2023-08-17-at-___media_library_original_600_317.jpg 600w, https://cimg.co/news/122710/324504/responsive-images/screenshot-2023-08-17-at-___media_library_original_300_158.jpg 300w" width="900"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/industry-talk/"> Industry Talk </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-08-17 15:24:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/sonik-price-prediction.htm">
+<h4>Sonik Coin Price Prediction 2023 - 2030</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/how-to-buy-deal-with-it-token.htm">
+<div class="img-sized"><img alt="How To Buy Deal With It ($DWIT) Token - Easy Guide" class="img-fluid" loading="auto" src="https://cimg.co/news/122081/323080/1screenshot-2023-08-10-at.jpg" srcset="https://cimg.co/news/122081/323080/responsive-images/1screenshot-2023-08-10-at___media_library_original_900_486.jpg 900w, https://cimg.co/news/122081/323080/responsive-images/1screenshot-2023-08-10-at___media_library_original_720_389.jpg 720w, https://cimg.co/news/122081/323080/responsive-images/1screenshot-2023-08-10-at___media_library_original_600_324.jpg 600w, https://cimg.co/news/122081/323080/responsive-images/1screenshot-2023-08-10-at___media_library_original_300_162.jpg 300w" width="900"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/industry-talk/"> Industry Talk </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-08-10 15:23:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/how-to-buy-deal-with-it-token.htm">
+<h4>How To Buy Deal With It ($DWIT) Token - Easy Guide</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/etuktuk-price-prediction.htm">
+<div class="img-sized"><img alt="eTukTuk Price Prediction 2023 - 2030" class="img-fluid" loading="auto" src="https://cimg.co/news/121572/321909/screenshot-2023-08-04-at-.jpg" srcset="https://cimg.co/news/121572/321909/responsive-images/screenshot-2023-08-04-at-___media_library_original_900_493.jpg 900w, https://cimg.co/news/121572/321909/responsive-images/screenshot-2023-08-04-at-___media_library_original_720_394.jpg 720w, https://cimg.co/news/121572/321909/responsive-images/screenshot-2023-08-04-at-___media_library_original_600_329.jpg 600w, https://cimg.co/news/121572/321909/responsive-images/screenshot-2023-08-04-at-___media_library_original_300_164.jpg 300w" width="900"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/industry-talk/"> Industry Talk </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-08-07 08:46:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/etuktuk-price-prediction.htm">
+<h4>eTukTuk Price Prediction 2023 - 2030</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/cowabunga-coin-price-prediction.htm">
+<div class="img-sized"><img alt="Cowabunga Coin Price Prediction for 2023 - 2030" class="img-fluid" loading="auto" src="https://cimg.co/news/121467/321599/screenshot-2023-08-03-at-.jpg" srcset="https://cimg.co/news/121467/321599/responsive-images/screenshot-2023-08-03-at-___media_library_original_900_378.jpg 900w, https://cimg.co/news/121467/321599/responsive-images/screenshot-2023-08-03-at-___media_library_original_720_302.jpg 720w, https://cimg.co/news/121467/321599/responsive-images/screenshot-2023-08-03-at-___media_library_original_600_252.jpg 600w, https://cimg.co/news/121467/321599/responsive-images/screenshot-2023-08-03-at-___media_library_original_300_126.jpg 300w" width="900"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/industry-talk/"> Industry Talk </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-08-03 12:42:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/cowabunga-coin-price-prediction.htm">
+<h4>Cowabunga Coin Price Prediction for 2023 - 2030</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/shibie-coin-price-prediction.htm">
+<div class="img-sized"><img alt="Shibie Coin Price Prediction for 2023 - 2030" class="img-fluid" loading="auto" src="https://cimg.co/news/121391/321387/screenshot-2023-08-02-at-.jpg" srcset="https://cimg.co/news/121391/321387/responsive-images/screenshot-2023-08-02-at-___media_library_original_900_559.jpg 900w, https://cimg.co/news/121391/321387/responsive-images/screenshot-2023-08-02-at-___media_library_original_720_447.jpg 720w, https://cimg.co/news/121391/321387/responsive-images/screenshot-2023-08-02-at-___media_library_original_600_373.jpg 600w, https://cimg.co/news/121391/321387/responsive-images/screenshot-2023-08-02-at-___media_library_original_300_186.jpg 300w" width="900"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/industry-talk/"> Industry Talk </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-08-02 15:54:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/shibie-coin-price-prediction.htm">
+<h4>Shibie Coin Price Prediction for 2023 - 2030</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/how-to-buy-btc20.htm">
+<div class="img-sized"><img alt="How to Buy BTC20 Token - Easy Guide" class="img-fluid" loading="auto" src="https://cimg.co/news/120052/318742/updscreenshot-2023-07-19-.jpg" srcset="https://cimg.co/news/120052/318742/responsive-images/updscreenshot-2023-07-19-___media_library_original_900_477.jpg 900w, https://cimg.co/news/120052/318742/responsive-images/updscreenshot-2023-07-19-___media_library_original_720_382.jpg 720w, https://cimg.co/news/120052/318742/responsive-images/updscreenshot-2023-07-19-___media_library_original_600_318.jpg 600w, https://cimg.co/news/120052/318742/responsive-images/updscreenshot-2023-07-19-___media_library_original_300_159.jpg 300w" width="900"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/industry-talk/"> Industry Talk </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-09-11 01:14:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/how-to-buy-btc20.htm">
+<h4>How to Buy BTC20 Token - Easy Guide</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/how-to-buy-pepe-coin.htm">
+<div class="img-sized"><img alt="How to Buy Pepe Coin in 2023 - The Complete Guide" class="img-fluid" loading="auto" src="https://cimg.co/news/119251/317188/screenshot-2023-07-11-at-.jpg" srcset="https://cimg.co/news/119251/317188/responsive-images/screenshot-2023-07-11-at-___media_library_original_900_463.jpg 900w, https://cimg.co/news/119251/317188/responsive-images/screenshot-2023-07-11-at-___media_library_original_720_370.jpg 720w, https://cimg.co/news/119251/317188/responsive-images/screenshot-2023-07-11-at-___media_library_original_600_309.jpg 600w, https://cimg.co/news/119251/317188/responsive-images/screenshot-2023-07-11-at-___media_library_original_300_154.jpg 300w" width="900"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/industry-talk/"> Industry Talk </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-07-11 09:43:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/how-to-buy-pepe-coin.htm">
+<h4>How to Buy Pepe Coin in 2023 - The Complete Guide</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/how-to-buy-doge-rush-token.htm">
+<div class="img-sized"><img alt="How to Buy Doge Rush ($DR) - Easy Guide" class="img-fluid" loading="auto" src="https://cimg.co/news/116182/311950/55555screenshot-2023-06-0.jpg" srcset="https://cimg.co/news/116182/311950/responsive-images/55555screenshot-2023-06-0___media_library_original_900_468.jpg 900w, https://cimg.co/news/116182/311950/responsive-images/55555screenshot-2023-06-0___media_library_original_720_374.jpg 720w, https://cimg.co/news/116182/311950/responsive-images/55555screenshot-2023-06-0___media_library_original_600_312.jpg 600w, https://cimg.co/news/116182/311950/responsive-images/55555screenshot-2023-06-0___media_library_original_300_156.jpg 300w" width="900"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/industry-talk/"> Industry Talk </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-06-07 15:57:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/how-to-buy-doge-rush-token.htm">
+<h4>How to Buy Doge Rush ($DR) - Easy Guide</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/scorpion-casino-token-price-prediction.htm">
+<div class="img-sized"><img alt="Scorpion Casino ($SCORP) Token Price Prediction 2023 - 2030" class="img-fluid" loading="auto" src="https://cimg.co/news/115570/278595/image.jpg" srcset="https://cimg.co/news/115570/278595/responsive-images/image___media_library_original_1600_793.jpg 1600w, https://cimg.co/news/115570/278595/responsive-images/image___media_library_original_1200_595.jpg 1200w, https://cimg.co/news/115570/278595/responsive-images/image___media_library_original_900_446.jpg 900w, https://cimg.co/news/115570/278595/responsive-images/image___media_library_original_720_357.jpg 720w, https://cimg.co/news/115570/278595/responsive-images/image___media_library_original_600_297.jpg 600w, https://cimg.co/news/115570/278595/responsive-images/image___media_library_original_300_149.jpg 300w" width="1600"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/industry-talk/"> Industry Talk </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-06-01 12:12:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/scorpion-casino-token-price-prediction.htm">
+<h4>Scorpion Casino ($SCORP) Token Price Prediction 2023 - 2030</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/how-buy-scorpion-casino-token.htm">
+<div class="img-sized"><img alt="How to Buy Scorpion Casino $SCORP Token - In 4 Easy Steps" class="img-fluid" loading="auto" src="https://cimg.co/news/115569/278584/image.jpg" srcset="https://cimg.co/news/115569/278584/responsive-images/image___media_library_original_1600_896.jpg 1600w, https://cimg.co/news/115569/278584/responsive-images/image___media_library_original_1200_672.jpg 1200w, https://cimg.co/news/115569/278584/responsive-images/image___media_library_original_900_504.jpg 900w, https://cimg.co/news/115569/278584/responsive-images/image___media_library_original_720_403.jpg 720w, https://cimg.co/news/115569/278584/responsive-images/image___media_library_original_600_336.jpg 600w, https://cimg.co/news/115569/278584/responsive-images/image___media_library_original_300_168.jpg 300w" width="1600"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/industry-talk/"> Industry Talk </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-06-01 10:50:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/how-buy-scorpion-casino-token.htm">
+<h4>How to Buy Scorpion Casino $SCORP Token - In 4 Easy Steps</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/how-to-buy-copium-token.htm">
+<div class="img-sized"><img alt="How to Buy $COPIUM Token in 5 Easy Steps" class="img-fluid" loading="auto" src="https://cimg.co/news/114287/276170/screenshot-2023-05-18-at-.jpg" srcset="https://cimg.co/news/114287/276170/responsive-images/screenshot-2023-05-18-at-___media_library_original_900_389.jpg 900w, https://cimg.co/news/114287/276170/responsive-images/screenshot-2023-05-18-at-___media_library_original_720_311.jpg 720w, https://cimg.co/news/114287/276170/responsive-images/screenshot-2023-05-18-at-___media_library_original_600_259.jpg 600w, https://cimg.co/news/114287/276170/responsive-images/screenshot-2023-05-18-at-___media_library_original_300_130.jpg 300w" width="900"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/industry-talk/"> Industry Talk </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-05-22 04:06:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/how-to-buy-copium-token.htm">
+<h4>How to Buy $COPIUM Token in 5 Easy Steps</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/mooky-rising-meme-coin-competing-with-dogecoin-shiba-inu-through-sustainability-innovation.htm">
+<div class="img-sized"><img alt="Mooky is the Rising Meme Coin Looking to Compete with Dogecoin &amp; Shiba Inu through Sustainability" class="img-fluid" loading="auto" src="https://cimg.co/news/113531/274704/image-2023-05-10t13-36-04-601z.jpg" srcset="https://cimg.co/news/113531/274704/responsive-images/image-2023-05-10t13-36-04-601z___media_library_original_900_506.jpg 900w, https://cimg.co/news/113531/274704/responsive-images/image-2023-05-10t13-36-04-601z___media_library_original_720_405.jpg 720w, https://cimg.co/news/113531/274704/responsive-images/image-2023-05-10t13-36-04-601z___media_library_original_600_337.jpg 600w, https://cimg.co/news/113531/274704/responsive-images/image-2023-05-10t13-36-04-601z___media_library_original_300_169.jpg 300w" width="900"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/industry-talk/"> Industry Talk </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-05-12 15:21:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/mooky-rising-meme-coin-competing-with-dogecoin-shiba-inu-through-sustainability-innovation.htm">
+<h4>Mooky is the Rising Meme Coin Looking to Compete with Dogecoin &amp; Shiba Inu through Sustainability</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/mooky-revolutionary-meme-coin-with-environmental-commitment-3d-nfts.htm">
+<div class="img-sized"><img alt="Mooky is A Revolutionary New Meme Coin with Environmental Commitment and 3D NFTs" class="img-fluid" loading="auto" src="https://cimg.co/news/113529/274698/image.jpg" srcset="https://cimg.co/news/113529/274698/responsive-images/image___media_library_original_1600_902.jpg 1600w, https://cimg.co/news/113529/274698/responsive-images/image___media_library_original_1200_677.jpg 1200w, https://cimg.co/news/113529/274698/responsive-images/image___media_library_original_900_507.jpg 900w, https://cimg.co/news/113529/274698/responsive-images/image___media_library_original_720_406.jpg 720w, https://cimg.co/news/113529/274698/responsive-images/image___media_library_original_600_338.jpg 600w, https://cimg.co/news/113529/274698/responsive-images/image___media_library_original_300_169.jpg 300w" width="1600"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/industry-talk/"> Industry Talk </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-05-10 17:28:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/mooky-revolutionary-meme-coin-with-environmental-commitment-3d-nfts.htm">
+<h4>Mooky is A Revolutionary New Meme Coin with Environmental Commitment and 3D NFTs</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/guides/best-crypto-wallets-australia.htm">
+<div class="img-sized"><img alt="9 Best Crypto Wallets in Australia 2023" class="img-fluid" loading="auto" src="https://cimg.co/guide/110262/267271/untitled-design-1.jpg" srcset="https://cimg.co/guide/110262/267271/responsive-images/untitled-design-1___media_library_original_854_480.jpg 854w, https://cimg.co/guide/110262/267271/responsive-images/untitled-design-1___media_library_original_720_405.jpg 720w, https://cimg.co/guide/110262/267271/responsive-images/untitled-design-1___media_library_original_600_337.jpg 600w, https://cimg.co/guide/110262/267271/responsive-images/untitled-design-1___media_library_original_300_169.jpg 300w" width="854"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/guides/cryptocurrency/"> Cryptocurrency </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-04-17 10:12:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/guides/best-crypto-wallets-australia.htm">
+<h4>9 Best Crypto Wallets in Australia 2023</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30"> <article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="/news/metropoly-price-prediction.htm">
+<div class="img-sized"><img alt="Metropoly Price Prediction 2023 - 2030" class="img-fluid" loading="auto" src="https://cimg.co/news/105278/257641/screenshot-2023-02-17-at-8-21-52.jpg" srcset="https://cimg.co/news/105278/257641/responsive-images/screenshot-2023-02-17-at-8-21-52___media_library_original_1680_770.jpg 1680w, https://cimg.co/news/105278/257641/responsive-images/screenshot-2023-02-17-at-8-21-52___media_library_original_1200_550.jpg 1200w, https://cimg.co/news/105278/257641/responsive-images/screenshot-2023-02-17-at-8-21-52___media_library_original_900_413.jpg 900w, https://cimg.co/news/105278/257641/responsive-images/screenshot-2023-02-17-at-8-21-52___media_library_original_720_330.jpg 720w, https://cimg.co/news/105278/257641/responsive-images/screenshot-2023-02-17-at-8-21-52___media_library_original_600_275.jpg 600w, https://cimg.co/news/105278/257641/responsive-images/screenshot-2023-02-17-at-8-21-52___media_library_original_300_138.jpg 300w" width="1680"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/industry-talk/"> Industry Talk </a> <div class="article__badge-date d-md-inline-block" data-utctime="2023-02-17 16:14:00">
+</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="/news/metropoly-price-prediction.htm">
+<h4>Metropoly Price Prediction 2023 - 2030</h4>
+</a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+<hr class="mb-60"/>
+<div class="text-center">
+<a class="button-more button-more--gradient" href="javascript:void(0);" id="load_more" loadmoretype="editorsyash-majithia">Load more news...
+              <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg>
+</a>
+</div>
+</section>
+</main>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

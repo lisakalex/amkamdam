@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/bithoven/">Bithoven</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="Bithoven" class="img-fluid img-circle author__image author__image--has-bg mb-15" src="https://cimg.co/reviewlogo/22/5cdaa2d687699.svg"/>
+<div>
+<a class="c-black" href="#"><b>Bithoven</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/bithoven" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+<div class="fs-12"></div>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="bithoven"> Bithoven</h1>
+<p>Born amid 2018/19 crypto winter, Bithoven is a new and exciting pure cryptocurrency platform based in the Caribbean. Its users can buy and sell more than 496 altcoins fast, securely, and with high liquidity. It ranks on the top end of crypto-to-crypto platforms in terms of trading and withdrawal fees, yet that is justified by its customer-oriented focus. It provides a superior user-experience and overall enjoyable platform for both beginners and seasoned traders. As a beginner, you don’t even need to purchase cryptocurrency to start learning how to trade since every new Bithoven signee can get 100 free DOGE coins.</p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/bithoven" target="_blank">Bithoven</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://bithoven.com/faq" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>St. Vincent and the Grenadines</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>0.0 BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>No</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>No</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>Fortis Ltd.</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+                                                                                                                                                        Crypto Transfer,
+                                                                                                                                            </b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>-</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>858</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>-</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>High (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+<li>User-friendly exchange Helpful 24/7 customer support desk More than 496 altcoins to trade High liquidity markets</li> </ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+<li>No fiat deposits and trading New unregulated exchange No advanced user account security measures</li> </ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/202/14716/5cda6a180285b.jpg" srcset="https://cimg.co/review/202/14716/responsive-images/5cda6a180285b___media_library_original_1879_874.jpg 1879w, https://cimg.co/review/202/14716/responsive-images/5cda6a180285b___media_library_original_1200_558.jpg 1200w, https://cimg.co/review/202/14716/responsive-images/5cda6a180285b___media_library_original_900_418.jpg 900w, https://cimg.co/review/202/14716/responsive-images/5cda6a180285b___media_library_original_720_334.jpg 720w, https://cimg.co/review/202/14716/responsive-images/5cda6a180285b___media_library_original_600_279.jpg 600w, https://cimg.co/review/202/14716/responsive-images/5cda6a180285b___media_library_original_300_139.jpg 300w" width="1879"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/202/14717/5cda6a3c04830.jpg" data-srcset="https://cimg.co/review/202/14717/responsive-images/5cda6a3c04830___media_library_original_1866_619.jpg 1866w, https://cimg.co/review/202/14717/responsive-images/5cda6a3c04830___media_library_original_1200_398.jpg 1200w, https://cimg.co/review/202/14717/responsive-images/5cda6a3c04830___media_library_original_900_298.jpg 900w, https://cimg.co/review/202/14717/responsive-images/5cda6a3c04830___media_library_original_720_238.jpg 720w, https://cimg.co/review/202/14717/responsive-images/5cda6a3c04830___media_library_original_600_199.jpg 600w, https://cimg.co/review/202/14717/responsive-images/5cda6a3c04830___media_library_original_300_99.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1866"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/202/14718/5cda6a499dd69.jpg" data-srcset="https://cimg.co/review/202/14718/responsive-images/5cda6a499dd69___media_library_original_1835_676.jpg 1835w, https://cimg.co/review/202/14718/responsive-images/5cda6a499dd69___media_library_original_1200_442.jpg 1200w, https://cimg.co/review/202/14718/responsive-images/5cda6a499dd69___media_library_original_900_331.jpg 900w, https://cimg.co/review/202/14718/responsive-images/5cda6a499dd69___media_library_original_720_265.jpg 720w, https://cimg.co/review/202/14718/responsive-images/5cda6a499dd69___media_library_original_600_221.jpg 600w, https://cimg.co/review/202/14718/responsive-images/5cda6a499dd69___media_library_original_300_110.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1835"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/202/14719/5cda6a514adb9.jpg" data-srcset="https://cimg.co/review/202/14719/responsive-images/5cda6a514adb9___media_library_original_1838_607.jpg 1838w, https://cimg.co/review/202/14719/responsive-images/5cda6a514adb9___media_library_original_1200_396.jpg 1200w, https://cimg.co/review/202/14719/responsive-images/5cda6a514adb9___media_library_original_900_297.jpg 900w, https://cimg.co/review/202/14719/responsive-images/5cda6a514adb9___media_library_original_720_237.jpg 720w, https://cimg.co/review/202/14719/responsive-images/5cda6a514adb9___media_library_original_600_198.jpg 600w, https://cimg.co/review/202/14719/responsive-images/5cda6a514adb9___media_library_original_300_99.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1838"/></div>
+</div>
+</div><h2>Bithoven Exchange core features</h2><ul><li><strong>Crypto-to-crypto exchange.</strong> Bithoven is a pure cryptocurrency exchange and doesn't deal with fiat currencies, which makes it easier to run and use from a regulatory standpoint.</li><li><strong>Super user-friendly.</strong> Bithoven exchange goes an extra mile to provide a superior user experience.</li><li><strong>24/7 customer support desk.</strong> It has a quickly reachable around-the-clock customer support live chat, as well as a comprehensive FAQ page.</li><li><strong>More than 496 cryptocurrencies.</strong> Bithoven keeps on listing new cryptocurrencies, thus ensuring that you can find almost anything you want there.</li><li><strong>High liquidity.</strong> Unlike other new exchanges, Bithoven's markets offer high liquidity. This is great because most of your trades execute on time and without exposure to too much volatility.</li><li><strong>Margin trading</strong>. Bithoven has a cryptocurrency margin trading terminal where you can trade with an up to 20x leverage.</li></ul><h2>Bithoven Background</h2><p>Bithoven is a cryptocurrency exchange from Saint Vincent and the Grenadines in a southern Caribbean region. Started in January 2019, Bithoven is still the new kid on the block, yet it already competes with the most popular crypto-to-crypto exchanges.</p><p>Although the exchange is yet to be regulated, it also welcomes customers from frequently excluded regions like the United States. The company is owned by Fortis Ltd.</p><h2>Bithoven fees</h2><p>Bithoven charges a standard trading fee which stands flat at 0.2% for both market makers and takers. Compared with other prominent altcoin exchanges, the fees are slightly higher than the ones offered by <a href="/reviews/kucoin/" rel="noopener" target="_blank">KuCoin</a> or <a href="/reviews/binance/" rel="noopener" target="_blank">Binance</a> but are lesser than the ones at charged by <a href="/reviews/bittrex/" rel="noopener" target="_blank">Bittrex</a>. Also, the exchange does not have its own discount fee token or trading-volume based tier fee program.</p><figure class="table"><table><tbody><tr><th>Exchange</th><th>Maker fee</th><th>Taker fee</th></tr><tr><th>Bithoven</th><th>0.2%</th><th>0.2%</th></tr><tr><th>HitBTC</th><th>0.1%</th><th>0.2%</th></tr><tr><th>Binance</th><th>0.1%</th><th>0.1%</th></tr><tr><th>Poloniex</th><th>0.08%</th><th>0.2%</th></tr><tr><th>KuCoin</th><th>0.1%</th><th>0.1%</th></tr><tr><th>Bittrex</th><th>0.25%</th><th>0.25%</th></tr></tbody></table></figure><p>Like most exchanges, Bithoven doesn’t charge any deposit fees, which are generally free. It does, however, charge withdrawal fees, which are higher compared to most crypto-to-crypto exchanges. The only exception is <a href="/reviews/hitbtc/" rel="noopener" target="_blank">HitBTC</a>.</p><figure class="table"><table><tbody><tr><th>Coin/Withdrawal Fee</th><th>Bithoven</th><th>Binance</th><th>HitBTC</th><th>Poloniex</th><th>Bittrex</th></tr><tr><th>Bitcoin (BTC)</th><th>0.0015 BTC</th><th>0.0005 BTC</th><th>0.001 BTC</th><th>0.0005 BTC</th><th>0.0005 BTC</th></tr><tr><th>Ethereum (ETH)</th><th>0.0428 ETH</th><th>0.01 ETH</th><th>0.00958 ETH</th><th>0.01 ETH</th><th>0.01ETH</th></tr><tr><th>Litecoin (LTC)</th><th>0.053 LTC</th><th>0.001 LTC</th><th>0.003 LTC</th><th>0.001 LTC</th><th>0.01 LTC</th></tr><tr><th>Ripple (XRP)</th><th>6.38 XRP</th><th>0.25 XRP</th><th>0.509 XRP</th><th>0.15 XRP</th><th>1 XRP</th></tr><tr><th>EOS (EOS)</th><th>0.01 EOS</th><th>0.1 EOS</th><th>3.7 EOS</th><th>Free</th><th>Unlisted</th></tr><tr><th>Monero (XMR)</th><th>0.09 XMR</th><th>0.0001 XMR</th><th>0.09 XMR</th><th>0.015 XMR</th><th>0.0001 XMR</th></tr><tr><th>Tron (TRX)</th><th>150.5 TRX</th><th>1 TRX</th><th>290.5 TRX</th><th>Unlisted</th><th>1 TRX</th></tr><tr><th>Tether (USDT)</th><th>20 USDT</th><th>4.7 USDT</th><th>45 USDT</th><th>10 USDT</th><th>5 USDT</th></tr></tbody></table></figure><h3>Bithoven margin trading</h3><p>If you're into margin trading, opening a position on Bithoven will cost you 0.2%, which is the average price compared with other margin trading exchanges. Bithoven margin trading accounts are funded with bitcoin and the leverage level varies from <strong>3x to 20x</strong>. The minimal order volume is 0.01 BTC and margin call level stands at 40%.</p><p>At the moment, you can open positions in the following markets:</p><ul><li><strong>BTC pairs:</strong> USD, BCH, DASH, ETH, XMR, ZEC.</li><li><strong>USD pairs:</strong> BTC, BCH, EOS, ETH, LTC, XMR, ZEC, XRP.</li></ul><p>All in all, Bithoven isn't the cheapest crypto-to-crypto exchange, as it charges standard trading fees, and somewhat higher than usual withdrawal fees.</p><h2>Bithoven exchange security</h2><p>Although Bithoven doesn’t have a long track record, it is a secure cryptocurrency exchange. It uses <strong>TLS/SSL data encryption</strong>, which ensures that user data is always protected. Also, you can strengthen your account security by setting up <strong>Google two-factor authentication (2FA)</strong> (highly recommended), and <strong>automatic inactivity logouts</strong>. Bithoven recommends changing your account password every two weeks or so for the maximum safety of your funds.</p><p>Other than that, the exchange account comes with integrated wallets but Bithoven keeps user funds in a <strong>cold storage</strong>.</p><p>Aside from the basic user account security features, experienced traders and whales may miss more advanced account protection tools like <strong>IP address or wallet whitelisting</strong> or <strong>universal second factor (U2F)</strong> authentication.</p><p>So far, there have been no alarming security incidents nor user complaints about Bithoven exchange, which signals its credibility. In case of an issue, you can always reach out to the around-the-clock working <strong>customer support desk</strong>, which can be found at the lower-right corner of the screen. Aside from that, there’s an extensive <strong>FAQ knowledge base</strong> at your disposal.</p><figure class="image"><a href="https://cryptonews.com/ext/bithoven" rel="noopener" target="_blank"><img alt="bithoven exchange review customer support" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5cd/a7866d87f1.png" data-srcset="https://cimg.co/w/rw-attachments/1/5cd/a7866d87f1.png 300w, https://cimg.co/w/rw-attachments/2/5cd/a7866d87f1.png 600w, https://cimg.co/w/rw-attachments/3/5cd/a7866d87f1.png 720w, https://cimg.co/w/rw-attachments/4/5cd/a7866d87f1.png 900w, https://cimg.co/w/rw-attachments/0/5cd/a7866d87f1.png 1895w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></a></figure><h2>Bithoven usability</h2><p>Bithoven makes it clear that one of its goals is to provide an excellent trading experience for its customers. It does so from the very moment of registration, after which you can claim <strong>100 free </strong><a href="/coins/dogecoin/" rel="noopener" target="_blank"><strong>DOGE</strong></a> coins to try the platform and kickstart your trading career.</p><p>The platform offers an enjoyable interface and a myriad of trading tools. These include Bithoven and Trading View charts, well-designed order books, easy navigation between markets, depth charts, advanced order types (market, limit and scaled) and a convenient order overview window. Everything is laid out intuitively, and it doesn’t take long before you get used to the platform. Even so, you are free to edit the trading environment yourself, as it is fully customizable.</p><figure class="image"><a href="https://cryptonews.com/ext/bithoven/" rel="noopener" target="_blank"><img alt="bithoven exchange review usability" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5cd/a791627bdd.png" data-srcset="https://cimg.co/w/rw-attachments/1/5cd/a791627bdd.png 300w, https://cimg.co/w/rw-attachments/2/5cd/a791627bdd.png 600w, https://cimg.co/w/rw-attachments/3/5cd/a791627bdd.png 720w, https://cimg.co/w/rw-attachments/4/5cd/a791627bdd.png 900w, https://cimg.co/w/rw-attachments/0/5cd/a791627bdd.png 1903w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></a></figure><p>Although the platform doesn’t have a native mobile app, that is irrelevant as its website is fully responsive and works well on any device, including all smartphones and tablets.</p><p>Bithoven provides a great experience in terms of trading, too. Apart from many digital assets and markets, the platform has high liquidity, which in turn lets you trade assets quickly and with little to none exposure to volatility. It has a powerful trade matching engine which makes it a quick, responsive, and overall pleasant marketplace to use.</p><p>There are no trading restrictions on Bithoven, and you can conduct as many deposits and withdrawals per day as you like. Aside from the lesser-known altcoins, you can find and trade all the popular coins including BTC, ETH, XRP, EOS, LTC, ADA, TRX, and many others. A complete and up-to-date list of Bithoven supported currencies can be found <a href="https://bithoven.com/status" rel="noopener" target="_blank">here</a>.</p><h2>Bithoven deposits and withdrawals</h2><p>Currently, Bithoven exchange allows only cryptocurrency deposits and withdrawals. Deposits are generally free, while deposit fees vary per cryptocurrency. However, as we reviewed in the fees section, the withdrawal fees appear higher compared with other competing altcoin exchanges.</p><p>Like all crypto-to-crypto platforms, Bithoven’s deposits and withdrawals are generally fast and are processed within several hours at worst.</p><p>You don’t even need to deposit anything into Bithoven since as a part of ongoing promotion every unique registered user can claim 100 DOGE coins to experience the platform.</p><p>Overall, Bithoven offers a high-quality service, which is truly impressive, especially considering its young age.</p><figure class="image"><a href="https://cryptonews.com/ext/bithoven/" rel="noopener" target="_blank"><img alt="bithoven exchange review doge promo" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5cd/a798471f2a.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5cd/a798471f2a.jpg 300w, https://cimg.co/w/rw-attachments/2/5cd/a798471f2a.jpg 600w, https://cimg.co/w/rw-attachments/3/5cd/a798471f2a.jpg 720w, https://cimg.co/w/rw-attachments/4/5cd/a798471f2a.jpg 900w, https://cimg.co/w/rw-attachments/0/5cd/a798471f2a.jpg 1795w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></a></figure><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/bithoven" rel="noindex nofollow" target="_blank">Visit Bithoven</a></p><h2>Getting started with Bithoven crypto exchange</h2><p>Here is a quick step-by-step guide on how to start trading on Bithoven exchange platform.</p><p>1. Head to <a href="https://cryptonews.com/ext/bithoven/" rel="noopener" target="_blank">Bithoven.com</a> and click on the “<strong>Register</strong>” button.</p><figure class="image"><img alt="bithoven exchange review homepage" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5cd/a7a1485707.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5cd/a7a1485707.jpg 300w, https://cimg.co/w/rw-attachments/2/5cd/a7a1485707.jpg 600w, https://cimg.co/w/rw-attachments/3/5cd/a7a1485707.jpg 720w, https://cimg.co/w/rw-attachments/4/5cd/a7a1485707.jpg 900w, https://cimg.co/w/rw-attachments/0/5cd/a7a1485707.jpg 1879w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>2. Create an account by filling in the email address and password you want to use.</p><figure class="image"><img alt="bithoven exchange guide" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5cd/a7a3e9dc01.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5cd/a7a3e9dc01.jpg 300w, https://cimg.co/w/rw-attachments/2/5cd/a7a3e9dc01.jpg 600w, https://cimg.co/w/rw-attachments/3/5cd/a7a3e9dc01.jpg 720w, https://cimg.co/w/rw-attachments/4/5cd/a7a3e9dc01.jpg 900w, https://cimg.co/w/rw-attachments/0/5cd/a7a3e9dc01.jpg 1876w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>3. As soon as you hit “<strong>Register</strong>,” you will have to beat captcha puzzle to log in to the platform. Once you’ve successfully logged in, you will be asked to verify your email address. Identity and physical address verification is optional.</p><figure class="image"><img alt="Bithoven exchange review verification" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5cd/a7a670e5f6.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5cd/a7a670e5f6.jpg 300w, https://cimg.co/w/rw-attachments/2/5cd/a7a670e5f6.jpg 600w, https://cimg.co/w/rw-attachments/3/5cd/a7a670e5f6.jpg 720w, https://cimg.co/w/rw-attachments/4/5cd/a7a670e5f6.jpg 900w, https://cimg.co/w/rw-attachments/0/5cd/a7a670e5f6.jpg 1681w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p><strong>How to make a deposit on Bithoven</strong></p><p>4. Once you verify your email, you can start trading. You can find the “<strong>Deposits/Withdrawals</strong>” tab in the upper-left corner of the screen.</p><figure class="image"><img alt="bithoven exchange review guide" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5cd/a7af51b0b1.png" data-srcset="https://cimg.co/w/rw-attachments/1/5cd/a7af51b0b1.png 300w, https://cimg.co/w/rw-attachments/2/5cd/a7af51b0b1.png 600w, https://cimg.co/w/rw-attachments/3/5cd/a7af51b0b1.png 720w, https://cimg.co/w/rw-attachments/4/5cd/a7af51b0b1.png 900w, https://cimg.co/w/rw-attachments/0/5cd/a7af51b0b1.png 1646w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>5. Choose which cryptocurrency you want to deposit to Bithoven. In this example, we are going to use <a href="/coins/bitcoin/" rel="noopener" target="_blank">Bitcoin (BTC)</a>. Click on the “<strong>Deposit</strong>” button next to the asset to generate a wallet address.</p><figure class="image"><img alt="bithoven exchange deposit" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5cd/a7b5cb35c1.png" data-srcset="https://cimg.co/w/rw-attachments/1/5cd/a7b5cb35c1.png 300w, https://cimg.co/w/rw-attachments/2/5cd/a7b5cb35c1.png 600w, https://cimg.co/w/rw-attachments/3/5cd/a7b5cb35c1.png 720w, https://cimg.co/w/rw-attachments/4/5cd/a7b5cb35c1.png 900w, https://cimg.co/w/rw-attachments/0/5cd/a7b5cb35c1.png 1664w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>6. Hit the “<strong>Generate wallet</strong>” button to generate a Bitcoin wallet address.</p><figure class="image"><img alt="bithoven exchange guide generate wallet" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5cd/a7bd149e67.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5cd/a7bd149e67.jpg 300w, https://cimg.co/w/rw-attachments/2/5cd/a7bd149e67.jpg 600w, https://cimg.co/w/rw-attachments/3/5cd/a7bd149e67.jpg 720w, https://cimg.co/w/rw-attachments/4/5cd/a7bd149e67.jpg 900w, https://cimg.co/w/rw-attachments/0/5cd/a7bd149e67.jpg 1677w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>7. This is the wallet address where you will deposit your BTC. Use it to transfer your funds into the Bithoven exchange.</p><figure class="image"><img alt="bithoven review guide " class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5cd/a7c137ea10.png" data-srcset="https://cimg.co/w/rw-attachments/1/5cd/a7c137ea10.png 300w, https://cimg.co/w/rw-attachments/2/5cd/a7c137ea10.png 600w, https://cimg.co/w/rw-attachments/3/5cd/a7c137ea10.png 720w, https://cimg.co/w/rw-attachments/4/5cd/a7c137ea10.png 900w, https://cimg.co/w/rw-attachments/0/5cd/a7c137ea10.png 1519w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p><strong>How to secure your account on Bithoven exchange</strong></p><p>8. It is highly recommended to secure your exchange account with the two-factor authentication. Navigate to your account security settings to enable it. Follow the on-screen instructions to active it. You will have to download the Google Authenticator app on your phone.</p><figure class="image"><img alt="bithoven crypto exchange 2fa " class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5cd/a7c5b10447.png" data-srcset="https://cimg.co/w/rw-attachments/1/5cd/a7c5b10447.png 300w, https://cimg.co/w/rw-attachments/2/5cd/a7c5b10447.png 600w, https://cimg.co/w/rw-attachments/3/5cd/a7c5b10447.png 720w, https://cimg.co/w/rw-attachments/4/5cd/a7c5b10447.png 900w, https://cimg.co/w/rw-attachments/0/5cd/a7c5b10447.png 1620w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p><strong>How to claim FREE DOGE on Bithoven exchange</strong></p><p>9. You can also claim your 100 free DOGE coins for your registration.</p><p>Click on the promo section to claim your free tokens.</p><figure class="image"><img alt="bithoven exchange review 100 doge" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5cd/a7ca476ce4.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5cd/a7ca476ce4.jpg 300w, https://cimg.co/w/rw-attachments/2/5cd/a7ca476ce4.jpg 600w, https://cimg.co/w/rw-attachments/3/5cd/a7ca476ce4.jpg 720w, https://cimg.co/w/rw-attachments/4/5cd/a7ca476ce4.jpg 900w, https://cimg.co/w/rw-attachments/0/5cd/a7ca476ce4.jpg 1823w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>10. Accept the promotion’s terms and conditions, and wait for your application to be processed. Soon you will have 100 DOGE coins credited directly to your account.</p><figure class="image"><img alt="bithoven exchange review guide doge" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5cd/a7cfed297a.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5cd/a7cfed297a.jpg 300w, https://cimg.co/w/rw-attachments/2/5cd/a7cfed297a.jpg 600w, https://cimg.co/w/rw-attachments/3/5cd/a7cfed297a.jpg 720w, https://cimg.co/w/rw-attachments/4/5cd/a7cfed297a.jpg 900w, https://cimg.co/w/rw-attachments/0/5cd/a7cfed297a.jpg 1494w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

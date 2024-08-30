@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/guides/">Guides</a>
+<a href="/guides/why-do-bitcoins-have-value.htm">Why Do Bitcoins Have Value</a>
+</div>
+</div>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<main class="col-12 col-lg-8">
+<div class="row">
+<div class="col-12 col-md-3 col-lg-2 d-none d-md-block">
+</div>
+<div class="scrollspy col-lg-9 col-md-9 col-sm-12">
+<div class="row">
+<div class="col-12">
+<div class="article-single__content category_contents_details">
+<h1 class="scrollspy" id="why-do-bitcoins-have-value"> Why Do Bitcoins Have Value</h1>
+<p>Bitcoins have value for the same reason the US dollar does – it’s a useful form of money that’s used by people to buy and sell things. While the US dollar’s value is supported by the government, which gives it a legal status and uses...</p><figure class="image"><img alt="Why does Bitcoin have value" sizes="100vw" src="https://cimg.co/w/guides-attachments/1/5c6/8168c8b950.png" srcset="https://cimg.co/w/guides-attachments/1/5c6/8168c8b950.png 300w, https://cimg.co/w/guides-attachments/2/5c6/8168c8b950.png 600w, https://cimg.co/w/guides-attachments/3/5c6/8168c8b950.png 720w, https://cimg.co/w/guides-attachments/4/5c6/8168c8b950.png 900w, https://cimg.co/w/guides-attachments/0/5c6/8168c8b950.png 1095w"/></figure><p>Every discussion about Bitcoin sooner or later leads to a wrangle over what gives Bitcoin value. Skeptics claim it has no value whatsoever, while believers see it as digital gold with nearly infinite potential. So who is right and what actually makes single Bitcoin valuable? There are several attributes to consider.</p><h2>A Brief History of Money</h2><p>A brief look at the history of money reveals that as long as people agreed that specific thing had value, then it did. Essentially, it’s faith that makes money work.</p><div class="dslot row mb-30" did="15"></div><p>At first, people used to barter until it became too inconvenient. At that point, they started to trade products for things, like shells and rocks, then gems and rare metals. In recent ages, they were replaced by a government instilled money, that now is the most widely accepted form of currency. As money evolved, it always had the following attributes - fungibility, scarcity, and uncounterfeitability. In addition to that, people have noticed that it’s more convenient to use currencies that are easily portable, stable, and divisible.</p><figure class="image"><img alt="Evolution of money bitcoin" class="lazyload" data-src="https://cimg.co/w/guides-attachments/1/5c6/818d29fb36.jpeg" data-srcset="https://cimg.co/w/guides-attachments/1/5c6/818d29fb36.jpeg 300w, https://cimg.co/w/guides-attachments/2/5c6/818d29fb36.jpeg 600w, https://cimg.co/w/guides-attachments/3/5c6/818d29fb36.jpeg 720w, https://cimg.co/w/guides-attachments/4/5c6/818d29fb36.jpeg 900w, https://cimg.co/w/guides-attachments/0/5c6/818d29fb36.jpeg 1126w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>The evolution of money. Source: [URL="<a href="https://blog.unocoin.com/bitcoin-evolution-of-money-and-beyond-3bef3552815b" rel="noopener" target="_blank">blog.unocoin.com</a>" target="_blank"]Onocoin[/URL].</p><h2>Why Is Bitcoin Valuable? (Reasons For Why Bitcoins Have Value)</h2><p>First and foremost, Bitcoin has value due to the same reason paper and digital cash do – it’s a handy form of money commonly accepted by people. It is used to transfer value and buy or sell things. Yet, unlike the US dollars, whose value and legal status are enforced by the government, Bitcoin’s value comes from its code, infrastructure, scarcity, and adoption.</p><figure class="image"><img alt="Why Bitcoin Has Value" class="lazyload" data-src="https://cimg.co/w/guides-attachments/1/5c6/81ab99debf.png" data-srcset="https://cimg.co/w/guides-attachments/1/5c6/81ab99debf.png 300w, https://cimg.co/w/guides-attachments/2/5c6/81ab99debf.png 600w, https://cimg.co/w/guides-attachments/3/5c6/81ab99debf.png 720w, https://cimg.co/w/guides-attachments/4/5c6/81ab99debf.png 900w, https://cimg.co/w/guides-attachments/0/5c6/81ab99debf.png 1021w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Although it’s not tangible, Bitcoin’s code gives it features of traditional fiat currency, including <strong>scarcity</strong>, <strong>divisibility</strong>, <strong>portability</strong>, <strong>fungibility</strong>, and <strong>recognizability</strong>. Besides, Bitcoin is <strong>decentralized</strong> and can be used without middlemen, provides <strong>some level of transparency</strong>, can be accessed and used by <strong>anyone with an internet connection</strong>, is impossible to <strong>counterfeit</strong> and <strong>confiscate</strong>, and has other features such as <strong>programmability</strong>. </p><p>Most importantly, it can be used as a <strong>store of value</strong> like gold or other commodities, yet unlike its physical counterparts, it can be transported from one end of the world to the other via communication channels in a <strong>matter of minutes</strong>.</p><h2>Bitcoin’s Valuable Properties</h2><p><strong>Bitcoin scarcity.</strong> Unlike traditional fiat currencies that can be inflated without end, Bitcoin introduces digital scarcity. There are going to be only 21 million BTC. Unlike fiat currencies which undergo annual inflation and lose part of its value, Bitcoin’s inflation is limited and controlled. </p><p>Also, if we counted Bitcoins that are lost for good (send to incorrect, unexisting addresses, or those in wallets whose keys were lost, etc.), the supply is experiencing deflation which means that there are going to be increasingly fewer Bitcoins available.</p><p><strong>Divisibility.</strong> A single Bitcoin can be divided into 100000000 Satoshis. One Satoshi equals 0.00000001 BTC, the smallest unit of Bitcoin at the moment. This level of division is embedded in Bitcoin’s original code. </p><p>If there's ever a need, the level of division can be changed into 16 or more decimal places, meaning that Bitcoin offers an infinite degree of divisibility.</p><p><strong>Portability.</strong> Bitcoins can be transferred through a communication channel like the internet, satellites or even radio waves, which makes it the most transferable currency that ever existed.</p><figure class="image"><img alt="Bitcoin Value Portability Radio Waves" class="lazyload" data-src="https://cimg.co/w/guides-attachments/1/5c6/81f48ed024.png" data-srcset="https://cimg.co/w/guides-attachments/1/5c6/81f48ed024.png 300w, https://cimg.co/w/guides-attachments/2/5c6/81f48ed024.png 600w, https://cimg.co/w/guides-attachments/3/5c6/81f48ed024.png 720w, https://cimg.co/w/guides-attachments/4/5c6/81f48ed024.png 900w, https://cimg.co/w/guides-attachments/0/5c6/81f48ed024.png 810w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Bitcoin is the most portable asset ever created.</p><p><strong>Fungibility.</strong> Every Bitcoin has the same value as its counterpart, regardless of who owns it and what history it has. Just like one ounce of pure gold is always equal to another ounce of pure gold. No matter what happens, one Bitcoin remains a symbol of value interchangeable with another Bitcoin.</p><p><strong>Durability.</strong> Any Bitcoin or Satoshi can be reused countless times without degrading.</p><p><strong>Recognizability.</strong> A growing number of merchants and users recognize and accept Bitcoins. Although it’s still far from the level of acceptance of fiat currencies, many people distinguish Bitcoin from non-currencies or other counterfeit money and are willing to accept it as a means of payment.</p><p><strong>Decentralization.</strong> No single entity oversees Bitcoin. Unlike traditional money, no one can censor, control, or change the network or its transactions, so that no one can confiscate your money.</p><p><strong>Accessibility.</strong> You don’t need to have a verified bank account to own or accept Bitcoins. All you need is some basic computer knowledge and an internet connection. Bitcoin's accessibility makes it extremely convenient for underbanked areas of the world.</p><p><strong>Uncounterfeitability.</strong> Every Bitcoin transaction is recorded on a distributed ledger and is secured by the computation work of nodes. The system was designed to prevent the double-spend problem which hindered preceding digital currencies from taking off. As a result, all transactions on the Bitcoin network are uncounterfeitable and irrevocable.</p><p><strong>Programmability.</strong> Unlike regular money, Bitcoin also introduces a dimension of programmability. It means that in the future, Bitcoin can receive updates and have even more handy features like smart contracts, multi-sig transactions, and others.</p><p><strong>Stability and store of value.</strong> The only feature which is still somewhat lacking is Bitcoin price stability. Because of volatility, Bitcoin is used more like a commodity such as gold. However, that is likely to change when Bitcoin gains more adoption, and there are fewer incentives to speculate it. Until the widespread adoption of cryptocurrencies, Bitcoin is expected to remain somewhat volatile.</p><figure class="image"><img alt="Bitcoin value compared with gold and fiat" class="lazyload" data-src="https://cimg.co/w/guides-attachments/1/5c6/828c661d05.png" data-srcset="https://cimg.co/w/guides-attachments/1/5c6/828c661d05.png 300w, https://cimg.co/w/guides-attachments/2/5c6/828c661d05.png 600w, https://cimg.co/w/guides-attachments/3/5c6/828c661d05.png 720w, https://cimg.co/w/guides-attachments/4/5c6/828c661d05.png 900w, https://cimg.co/w/guides-attachments/0/5c6/828c661d05.png 652w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Bitcoin qualities compared with other currencies.</p><p>The most important reason for the current Bitcoin value is that people want to use it to pay for goods and services, store their money, or merely speculate. The more the network of Bitcoin users and merchants grows, and the more secure and advanced the system becomes, the bigger Bitcoin’s value in USD and other currencies can get.</p><p> </p><p><i>Previous - </i><a href="/guides/how-to-mine-bitcoins.htm" rel="noopener" target="_blank"><i>How to mine bitcoins</i></a><br/><i>Next - </i><a href="/guides/how-is-the-price-of-bitcoins-set.htm" rel="noopener" target="_blank"><i>How is the price of bitcoins set?</i></a></p><p><i>Have any suggestions about this entry? </i><a href="/have-a-story.htm" rel="noopener" target="_blank"><i>Let us know</i></a><i>.</i></p><p> </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="mb-50">
+<hr class="mt-20 mb-60"/>
+<h2 class="mb-30">Other Bitcoin Guides</h2>
+<div class="row">
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">Bitcoin</div>
+<a class="article__title article__title--md" href="/guides/how-bitcoin-mining-works.htm">How Does Bitcoin Mining Work?</a>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">Bitcoin</div>
+<a class="article__title article__title--md" href="/guides/is-bitcoin-a-pyramid-scheme.htm">Is Bitcoin a Pyramid Scheme?</a>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">Bitcoin</div>
+<a class="article__title article__title--md" href="/guides/is-bitcoin-a-bubble.htm">Is Bitcoin a Bubble?</a>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">Bitcoin</div>
+<a class="article__title article__title--md" href="/guides/is-bitcoin-legal.htm">Is Bitcoin Legal?</a>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">Bitcoin</div>
+<a class="article__title article__title--md" href="/guides/who-controls-bitcoin.htm">Who Controls Bitcoin?</a>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">Bitcoin</div>
+<a class="article__title article__title--md" href="/guides/who-created-bitcoin.htm">Who Created Bitcoin?</a>
+</div>
+</div>
+</div>
+</div>
+</main>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

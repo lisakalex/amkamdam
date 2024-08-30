@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<main>
+<div class="container">
+<div class="pt-60 pb-60">
+<div class="row">
+<div class="col-12 col-lg-9">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/news/">News</a>
+<a href="/news/technology-news/">Technology News</a>
+</div>
+<h1 class="h2">Technology News</h1>
+<section class="category_contents_details">
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.etfdailynews.com/2024/08/17/head-to-head-comparison-spark-i-acquisition-nasdaqspkl-blue-owl-capital-co-iii-nyseobde/">
+<div class="img-sized">
+<img alt="Head to Head Comparison: Spark I Acquisition (NASDAQ:SPKL) &amp; Blue Owl Capital Co. III (NYSE:OBDE)" class="img-fluid" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/spark-i-acquisition-co-logo-1200x675.jpg?v=20240613142750&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="1280"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/technology-news/"> Technology News </a>
+<div class="article__badge-date" data-utctime="2024-08-17T06:44:43Z"></div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.etfdailynews.com/2024/08/17/head-to-head-comparison-spark-i-acquisition-nasdaqspkl-blue-owl-capital-co-iii-nyseobde/">Head to Head Comparison: Spark I Acquisition (NASDAQ:SPKL) &amp; Blue Owl Capital Co. III (NYSE:OBDE)</a>
+<div class="mb-25 d-none d-md-block">Blue Owl Capital Co. III (NYSE:OBDE – Get Free Report) and Spark I Acquisition (NASDAQ:SPKL – Get Free Report) are both small-cap finance companies, but which is the better investment? We will contra… [+3273 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.etfdailynews.com/2024/08/17/state-street-nysestt-price-target-cut-to-79-00/">
+<div class="img-sized">
+<img alt="State Street (NYSE:STT) Price Target Cut to $79.00" class="img-fluid" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/state-street-co-logo-1200x675.png?v=20240125144020&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="612"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/technology-news/"> Technology News </a>
+<div class="article__badge-date" data-utctime="2024-08-17T06:32:45Z"></div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.etfdailynews.com/2024/08/17/state-street-nysestt-price-target-cut-to-79-00/">State Street (NYSE:STT) Price Target Cut to $79.00</a>
+<div class="mb-25 d-none d-md-block">State Street (NYSE:STT – Get Free Report) had its target price cut by equities researchers at Deutsche Bank Aktiengesellschaft from $80.00 to $79.00 in a research report issued on Thursday, Benzinga … [+5240 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.whitecoatinvestor.com/psychiatrist-salary/">
+<div class="img-sized">
+<img alt="How Much Do Psychiatrists Make?" class="img-fluid" loading="auto" src="https://www.whitecoatinvestor.com/wp-content/uploads/2023/01/How-Much-Do-Psychiatrists-Make.png" srcset="" width="1280"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/technology-news/"> Technology News </a>
+<div class="article__badge-date" data-utctime="2024-08-17T06:30:06Z"></div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.whitecoatinvestor.com/psychiatrist-salary/">How Much Do Psychiatrists Make?</a>
+<div class="mb-25 d-none d-md-block">By Stacey Ritzen, WCI Contributor
+Psychiatry is not a medical field for the faint of heart. On average, it takes at least 12 years to become a psychiatrist, and some psychiatrists may also pursue fu… [+5193 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.etfdailynews.com/2024/08/17/critical-contrast-calibercos-nasdaqcwd-vs-angel-oak-mortgage-reit-nyseaomr/">
+<div class="img-sized">
+<img alt="Critical Contrast: CaliberCos (NASDAQ:CWD) vs. Angel Oak Mortgage REIT (NYSE:AOMR)" class="img-fluid" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/calibercos-inc-logo-1200x675.png?v=20230518125115&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="1200"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/technology-news/"> Technology News </a>
+<div class="article__badge-date" data-utctime="2024-08-17T06:28:43Z"></div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.etfdailynews.com/2024/08/17/critical-contrast-calibercos-nasdaqcwd-vs-angel-oak-mortgage-reit-nyseaomr/">Critical Contrast: CaliberCos (NASDAQ:CWD) vs. Angel Oak Mortgage REIT (NYSE:AOMR)</a>
+<div class="mb-25 d-none d-md-block">Angel Oak Mortgage REIT (NYSE:AOMR – Get Free Report) and CaliberCos (NASDAQ:CWD – Get Free Report) are both small-cap finance companies, but which is the better business? We will compare the two com… [+4549 chars]</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div class="col-12 col-lg-3">
+<h2 class="mb-30">Recommended</h2>
+<div class="mb-40">
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.etfdailynews.com/2024/08/17/head-to-head-comparison-spark-i-acquisition-nasdaqspkl-blue-owl-capital-co-iii-nyseobde/">
+<div class="small-image-list img-sized"><img alt="Head to Head Comparison: Spark I Acquisition (NASDAQ:SPKL) &amp; Blue Owl Capital Co. III (NYSE:OBDE)" class="" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/spark-i-acquisition-co-logo-1200x675.jpg?v=20240613142750&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="1200"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/bitcoin-news/"> Bitcoin News </a>
+<div class="article__badge-date" data-utctime="2024-08-17T06:44:43Z"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.etfdailynews.com/2024/08/17/head-to-head-comparison-spark-i-acquisition-nasdaqspkl-blue-owl-capital-co-iii-nyseobde/">Head to Head Comparison: Spark I Acquisition (NASDAQ:SPKL) &amp; Blue Owl Capital Co. III (NYSE:OBDE)</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.etfdailynews.com/2024/08/17/state-street-nysestt-price-target-cut-to-79-00/">
+<div class="small-image-list img-sized"><img alt="State Street (NYSE:STT) Price Target Cut to $79.00" class="" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/state-street-co-logo-1200x675.png?v=20240125144020&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="1738"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/bitcoin-news/"> Bitcoin News </a>
+<div class="article__badge-date" data-utctime="2024-08-17T06:32:45Z"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.etfdailynews.com/2024/08/17/state-street-nysestt-price-target-cut-to-79-00/">State Street (NYSE:STT) Price Target Cut to $79.00</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.whitecoatinvestor.com/psychiatrist-salary/">
+<div class="small-image-list img-sized"><img alt="How Much Do Psychiatrists Make?" class="" loading="auto" src="https://www.whitecoatinvestor.com/wp-content/uploads/2023/01/How-Much-Do-Psychiatrists-Make.png" srcset="" width="1200"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/bitcoin-news/"> Bitcoin News </a>
+<div class="article__badge-date" data-utctime="2024-08-17T06:30:06Z"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.whitecoatinvestor.com/psychiatrist-salary/">How Much Do Psychiatrists Make?</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.etfdailynews.com/2024/08/17/critical-contrast-calibercos-nasdaqcwd-vs-angel-oak-mortgage-reit-nyseaomr/">
+<div class="small-image-list img-sized"><img alt="Critical Contrast: CaliberCos (NASDAQ:CWD) vs. Angel Oak Mortgage REIT (NYSE:AOMR)" class="" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/calibercos-inc-logo-1200x675.png?v=20230518125115&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="1500"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/bitcoin-news/"> Bitcoin News </a>
+<div class="article__badge-date" data-utctime="2024-08-17T06:28:43Z"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.etfdailynews.com/2024/08/17/critical-contrast-calibercos-nasdaqcwd-vs-angel-oak-mortgage-reit-nyseaomr/">Critical Contrast: CaliberCos (NASDAQ:CWD) vs. Angel Oak Mortgage REIT (NYSE:AOMR)</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.etfdailynews.com/2024/08/17/abits-group-nasdaqabts-versus-lexinfintech-nasdaqlx-financial-analysis/">
+<div class="small-image-list img-sized"><img alt="Abits Group (NASDAQ:ABTS) versus LexinFintech (NASDAQ:LX) Financial Analysis" class="" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/abits-group-inc-logo-1200x675.jpg?v=20240613070241&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="1200"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/bitcoin-news/"> Bitcoin News </a>
+<div class="article__badge-date" data-utctime="2024-08-17T06:28:43Z"></div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.etfdailynews.com/2024/08/17/abits-group-nasdaqabts-versus-lexinfintech-nasdaqlx-financial-analysis/">Abits Group (NASDAQ:ABTS) versus LexinFintech (NASDAQ:LX) Financial Analysis</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dslot" did="4" style="min-height:600px;">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/300x600.jpg" width=""/>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section class="container mb-80">
+<div class="pb-40 pb-30">
+<h2 class="mb-40">All News</h2>
+<div class="row" id="load_more_target">
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.etfdailynews.com/2024/08/17/head-to-head-comparison-spark-i-acquisition-nasdaqspkl-blue-owl-capital-co-iii-nyseobde/">
+<div class="img-sized"><img alt="Head to Head Comparison: Spark I Acquisition (NASDAQ:SPKL) &amp; Blue Owl Capital Co. III (NYSE:OBDE)" class="img-fluid" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/spark-i-acquisition-co-logo-1200x675.jpg?v=20240613142750&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="1484"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/technology-news/"> Technology News </a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-17T06:44:43Z"></div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.etfdailynews.com/2024/08/17/head-to-head-comparison-spark-i-acquisition-nasdaqspkl-blue-owl-capital-co-iii-nyseobde/">Head to Head Comparison: Spark I Acquisition (NASDAQ:SPKL) &amp; Blue Owl Capital Co. III (NYSE:OBDE)</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.etfdailynews.com/2024/08/17/state-street-nysestt-price-target-cut-to-79-00/">
+<div class="img-sized"><img alt="State Street (NYSE:STT) Price Target Cut to $79.00" class="img-fluid" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/state-street-co-logo-1200x675.png?v=20240125144020&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="1920"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/technology-news/"> Technology News </a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-17T06:32:45Z"></div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.etfdailynews.com/2024/08/17/state-street-nysestt-price-target-cut-to-79-00/">State Street (NYSE:STT) Price Target Cut to $79.00</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.whitecoatinvestor.com/psychiatrist-salary/">
+<div class="img-sized"><img alt="How Much Do Psychiatrists Make?" class="img-fluid" loading="auto" src="https://www.whitecoatinvestor.com/wp-content/uploads/2023/01/How-Much-Do-Psychiatrists-Make.png" srcset="" width="1920"/>
+</div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/technology-news/"> Technology News </a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-17T06:30:06Z"></div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.whitecoatinvestor.com/psychiatrist-salary/">How Much Do Psychiatrists Make?</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.etfdailynews.com/2024/08/17/critical-contrast-calibercos-nasdaqcwd-vs-angel-oak-mortgage-reit-nyseaomr/">
+<div class="img-sized"><img alt="Critical Contrast: CaliberCos (NASDAQ:CWD) vs. Angel Oak Mortgage REIT (NYSE:AOMR)" class="img-fluid" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/calibercos-inc-logo-1200x675.png?v=20230518125115&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="1200"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/technology-news/"> Technology News </a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-17T06:28:43Z"></div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.etfdailynews.com/2024/08/17/critical-contrast-calibercos-nasdaqcwd-vs-angel-oak-mortgage-reit-nyseaomr/">Critical Contrast: CaliberCos (NASDAQ:CWD) vs. Angel Oak Mortgage REIT (NYSE:AOMR)</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.etfdailynews.com/2024/08/17/abits-group-nasdaqabts-versus-lexinfintech-nasdaqlx-financial-analysis/">
+<div class="img-sized"><img alt="Abits Group (NASDAQ:ABTS) versus LexinFintech (NASDAQ:LX) Financial Analysis" class="img-fluid" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/abits-group-inc-logo-1200x675.jpg?v=20240613070241&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="1920"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/technology-news/"> Technology News </a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-17T06:28:43Z"></div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.etfdailynews.com/2024/08/17/abits-group-nasdaqabts-versus-lexinfintech-nasdaqlx-financial-analysis/">Abits Group (NASDAQ:ABTS) versus LexinFintech (NASDAQ:LX) Financial Analysis</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.etfdailynews.com/2024/08/17/interrent-real-estate-investment-trust-otcmktsiipzf-vs-rlj-lodging-trust-nyserlj-financial-survey/">
+<div class="img-sized"><img alt="InterRent Real Estate Investment Trust (OTCMKTS:IIPZF) vs. RLJ Lodging Trust (NYSE:RLJ) Financial Survey" class="img-fluid" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/rlj-lodging-trust-logo-1200x675.png?v=20240507152248&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="1618"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/technology-news/"> Technology News </a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-17T06:28:42Z"></div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.etfdailynews.com/2024/08/17/interrent-real-estate-investment-trust-otcmktsiipzf-vs-rlj-lodging-trust-nyserlj-financial-survey/">InterRent Real Estate Investment Trust (OTCMKTS:IIPZF) vs. RLJ Lodging Trust (NYSE:RLJ) Financial Survey</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.thejournal.ie/gaza-ceasefire-deal-talks-6465444-Aug2024/">
+<div class="img-sized"><img alt="Biden says Gaza ceasefire deal 'closer than ever', but Hamas rejects new Israeli conditions" class="img-fluid" loading="auto" src="https://img2.thejournal.ie/article/6465444/river/?height=400&amp;version=6465447" srcset="" width="1484"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/technology-news/"> Technology News </a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-17T06:27:17Z"></div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.thejournal.ie/gaza-ceasefire-deal-talks-6465444-Aug2024/">Biden says Gaza ceasefire deal 'closer than ever', but Hamas rejects new Israeli conditions</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.etfdailynews.com/2024/08/17/critical-analysis-swvl-nasdaqswvl-priority-technology-nasdaqprth/">
+<div class="img-sized"><img alt="Critical Analysis: Swvl (NASDAQ:SWVL) &amp; Priority Technology (NASDAQ:PRTH)" class="img-fluid" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/priority-technology-holdings-inc-logo-1200x675.jpg?v=20221213120440&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="1484"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/technology-news/"> Technology News </a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-17T06:26:52Z"></div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.etfdailynews.com/2024/08/17/critical-analysis-swvl-nasdaqswvl-priority-technology-nasdaqprth/">Critical Analysis: Swvl (NASDAQ:SWVL) &amp; Priority Technology (NASDAQ:PRTH)</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.etfdailynews.com/2024/08/17/analyzing-mt-bank-nysemtb-and-kentucky-bancshares-otcmktsktyb/">
+<div class="img-sized"><img alt="Analyzing M&amp;T Bank (NYSE:MTB) and Kentucky Bancshares (OTCMKTS:KTYB)" class="img-fluid" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/kentucky-bancshares-inc-logo-1200x675.png?v=20221216132323&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="1484"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/technology-news/"> Technology News </a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-17T06:26:50Z"></div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.etfdailynews.com/2024/08/17/analyzing-mt-bank-nysemtb-and-kentucky-bancshares-otcmktsktyb/">Analyzing M&amp;T Bank (NYSE:MTB) and Kentucky Bancshares (OTCMKTS:KTYB)</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.etfdailynews.com/2024/08/17/reviewing-medalist-diversified-reit-nasdaqmdrr-and-caretrust-reit-nasdaqctre/">
+<div class="img-sized"><img alt="Reviewing Medalist Diversified REIT (NASDAQ:MDRR) and CareTrust REIT (NASDAQ:CTRE)" class="img-fluid" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/medalist-diversified-reit-inc-logo-1200x675.jpg?v=20220107090154&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="1484"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/technology-news/"> Technology News </a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-17T06:26:47Z"></div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.etfdailynews.com/2024/08/17/reviewing-medalist-diversified-reit-nasdaqmdrr-and-caretrust-reit-nasdaqctre/">Reviewing Medalist Diversified REIT (NASDAQ:MDRR) and CareTrust REIT (NASDAQ:CTRE)</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.etfdailynews.com/2024/08/17/reviewing-southpeak-interactive-otcmktssopk-blue-owl-capital-nyseobdc/">
+<div class="img-sized"><img alt="Reviewing SouthPeak Interactive (OTCMKTS:SOPK) &amp; Blue Owl Capital (NYSE:OBDC)" class="img-fluid" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/blue-owl-capital-co-logo-1200x675.png?v=20240424114247&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="1484"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/technology-news/"> Technology News </a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-17T06:26:45Z"></div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.etfdailynews.com/2024/08/17/reviewing-southpeak-interactive-otcmktssopk-blue-owl-capital-nyseobdc/">Reviewing SouthPeak Interactive (OTCMKTS:SOPK) &amp; Blue Owl Capital (NYSE:OBDC)</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.etfdailynews.com/2024/08/17/analysts-set-nuveen-churchill-direct-lending-corp-nysencdl-target-price-at-18-50/">
+<div class="img-sized"><img alt="Analysts Set Nuveen Churchill Direct Lending Corp. (NYSE:NCDL) Target Price at $18.50" class="img-fluid" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/nuveen-churchill-direct-lending-corp-logo-1200x675.jpg?v=20240412142323&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="1484"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/technology-news/"> Technology News </a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-17T06:26:45Z"></div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.etfdailynews.com/2024/08/17/analysts-set-nuveen-churchill-direct-lending-corp-nysencdl-target-price-at-18-50/">Analysts Set Nuveen Churchill Direct Lending Corp. (NYSE:NCDL) Target Price at $18.50</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.ndtv.com/education/upsc-inviting-applications-for-joint-secretary-director-and-deputy-secretary-level-officers-check-details-6356183">
+<div class="img-sized"><img alt="UPSC Inviting Applications For Various Level Officers, Check Details" class="img-fluid" loading="auto" src="https://c.ndtvimg.com/2024-08/qiu03qmo_upsc_625x300_13_August_24.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=738" srcset="" width="1484"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/technology-news/"> Technology News </a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-17T06:11:05Z"></div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.ndtv.com/education/upsc-inviting-applications-for-joint-secretary-director-and-deputy-secretary-level-officers-check-details-6356183">UPSC Inviting Applications For Various Level Officers, Check Details</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.etfdailynews.com/2024/08/17/takashimaya-otcmktstkshf-shares-to-split-on-thursday-august-29th/">
+<div class="img-sized"><img alt="Takashimaya (OTCMKTS:TKSHF) Shares to Split on Thursday, August 29th" class="img-fluid" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/generic-stocks4.jpg&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="1484"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/technology-news/"> Technology News </a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-17T06:00:43Z"></div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.etfdailynews.com/2024/08/17/takashimaya-otcmktstkshf-shares-to-split-on-thursday-august-29th/">Takashimaya (OTCMKTS:TKSHF) Shares to Split on Thursday, August 29th</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://jobs.haceonline.org/job/client-communications-manager-associate-vice-president/74819692/">
+<div class="img-sized"><img alt="Client Communications Manager (Associate/ Vice President)" class="img-fluid" loading="auto" src="https://d3ogvqw9m2inp7.cloudfront.net/assets/dynamic/headers/cc/responsive/partner_lib/1691/img/logo-1691.png" srcset="" width="1484"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/technology-news/"> Technology News </a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-17T06:00:00Z"></div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://jobs.haceonline.org/job/client-communications-manager-associate-vice-president/74819692/">Client Communications Manager (Associate/ Vice President)</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.etfdailynews.com/2024/08/17/admiral-group-lonadm-reaches-new-1-year-high-following-dividend-announcement/">
+<div class="img-sized"><img alt="Admiral Group (LON:ADM) Reaches New 1-Year High Following Dividend Announcement" class="img-fluid" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/admiral-group-plc-logo-1200x675.png?v=20221114151427&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="1484"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/technology-news/"> Technology News </a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-17T05:58:44Z"></div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.etfdailynews.com/2024/08/17/admiral-group-lonadm-reaches-new-1-year-high-following-dividend-announcement/">Admiral Group (LON:ADM) Reaches New 1-Year High Following Dividend Announcement</a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+<hr class="mb-60"/>
+<div class="text-center">
+<a class="button-more button-more--gradient" href="javascript:void(0);" id="load_more" loadmoretype="newstechnology-news">Load more news...
+                    <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg>
+</a>
+</div>
+</section>
+</main>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block"></div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags"></div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right"></div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script>
+<script defer="" src="/assets/js/cookieconsent-init.js"></script>
+</body>
+</html>

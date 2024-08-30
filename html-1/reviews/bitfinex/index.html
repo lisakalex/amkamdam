@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/bitfinex/">Bitfinex</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="Bitfinex" class="img-fluid img-circle author__image author__image--has-bg mb-15" src="https://cimg.co/reviewlogo/4/5b20d64cb9231.svg"/>
+<div>
+<a class="c-black" href="#"><b>Bitfinex</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/bitfinex" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="bitfinex"> Bitfinex</h1>
+<p>Bitfinex is a premier destination for seasoned traders all over the world and one of the top exchanges in terms of recognition and trading volume. It serves all except few countries in the world (mentioned below) and supports both fiat-to-crypto and crypto-to-crypto trades. Other notable features include margin trading, limit and stop orders, over-the-counter (OTC) trades, and others. While there are many options available, everything is laid out in an impressively intuitive fashion, with easy-to-navigate dashboards and menus. Yet despite the robust security measures, Bitfinex has been hacked twice (in 2015 and 2016). Since then it has significantly improved its security and compensated lost funds to every user.</p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/bitfinex" target="_blank">Bitfinex</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://www.bitfinex.com/support" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>British Virgin Islands</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>2374.8 BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>Yes</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>No</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>iFinex Inc</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+                                                                                                                                                        Bank Transfer,
+                                                                                                                                                                                                                                        Crypto Transfer,
+                                                                                                                                            </b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>USD, EUR, GBP, JPY</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>232</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>-</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>Medium (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+</ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+</ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/184/14634/5a6573bfd68e3.png" srcset="https://cimg.co/review/184/14634/responsive-images/5a6573bfd68e3___media_library_original_1440_900.png 1440w, https://cimg.co/review/184/14634/responsive-images/5a6573bfd68e3___media_library_original_1200_750.png 1200w, https://cimg.co/review/184/14634/responsive-images/5a6573bfd68e3___media_library_original_900_562.png 900w, https://cimg.co/review/184/14634/responsive-images/5a6573bfd68e3___media_library_original_720_450.png 720w, https://cimg.co/review/184/14634/responsive-images/5a6573bfd68e3___media_library_original_600_375.png 600w, https://cimg.co/review/184/14634/responsive-images/5a6573bfd68e3___media_library_original_300_187.png 300w" width="1440"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/184/14635/5a6573bf40ae7.png" data-srcset="https://cimg.co/review/184/14635/responsive-images/5a6573bf40ae7___media_library_original_1440_900.png 1440w, https://cimg.co/review/184/14635/responsive-images/5a6573bf40ae7___media_library_original_1200_750.png 1200w, https://cimg.co/review/184/14635/responsive-images/5a6573bf40ae7___media_library_original_900_562.png 900w, https://cimg.co/review/184/14635/responsive-images/5a6573bf40ae7___media_library_original_720_450.png 720w, https://cimg.co/review/184/14635/responsive-images/5a6573bf40ae7___media_library_original_600_375.png 600w, https://cimg.co/review/184/14635/responsive-images/5a6573bf40ae7___media_library_original_300_187.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1440"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/184/14636/5ab4bc22807d7.png" data-srcset="https://cimg.co/review/184/14636/responsive-images/5ab4bc22807d7___media_library_original_599_621.png 599w, https://cimg.co/review/184/14636/responsive-images/5ab4bc22807d7___media_library_original_300_311.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="599"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/184/14637/5ab4bc26c9d97.png" data-srcset="https://cimg.co/review/184/14637/responsive-images/5ab4bc26c9d97___media_library_original_317_172.png 317w, https://cimg.co/review/184/14637/responsive-images/5ab4bc26c9d97___media_library_original_300_162.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="317"/></div>
+</div>
+</div><h2>Why Should You Use Bitfinex</h2><p>Here are some of the Bitfinex core features:</p><ol><li><strong>Exchange Trading.</strong> Central limit order books where users can deposit, trade, and withdraw digital tokens.</li><li><strong>Margin Trading.</strong> Qualified users can trade with up to 10x leverage by receiving funding from the margin funding platform.</li><li><strong>Margin Funding.</strong> The P2P financing market which allows users to earn interest by lending funds to other users who trade with leverage.</li><li><strong>OTC Desk.</strong> Bitfinex allows traders to deal directly with each other without having to go through public order books.</li><li><strong>Ability to buy cryptocurrencies using credit or debit cards.</strong> Bitfinex allows traders to buy cryptocurrencies using third-party payment processors OWNR and Mercuryo.</li></ol><p>Besides the core features, Bitfinex is known for:</p><p><strong>High Liquidity.</strong> Bitfinex is one of the top exchanges in terms of BTC/USD daily trading volume, which guarantees price stability and confidence for every trader. <br/><strong>Trading pairs.</strong> The platform offers over 100 market pairs, including both leading coins such as <a href="/coins/bitcoin/">Bitcoin</a>, <a href="/coins/ethereum/">Ethereum</a>, <a href="/coins/ripple/">Ripple</a>, and <a href="/coins/eos/">EOS</a>, and popular altcoins like <a href="/coins/tron/">TRON</a>, <a href="/coins/stellar/">Stellar</a>, <a href="/coins/neo/">NEO</a>, <a href="/coins/0x/">0x</a>, <a href="/coins/qtum/">QTUM</a>, and many others. <br/><strong>Comprehensive trading options.</strong> Besides margin trading and funding, traders can take advantage of limit, market, stop, trailing stop, fill or kill, iceberg, OCO, hidden, and post-only limit orders. <br/><strong>Security.</strong> Due to a few hacks in the past, Bitfinex takes extra precautions to secure its platform. These include storing 99.5% of user funds in cold storage, DDoS protection, database encryption, and regular backups. User accounts can whitelist withdrawal addresses and IP’s, set up 2FA and U2F, suspicious activity analysis, session hijacking prevention, and more.<br/><strong>Customer support.</strong> Bitfinex users can reach support 24/7 via email. All queries are answered within 12 hours, except for periods of high activity. Apart from that, users can use an extensive knowledge base to answer most of their basic inquiries</p><h2>Bitfinex Fees Review</h2><p>As a trading platform for cryptocurrencies, Bitfinex charges trading fees. These vary according to the amounts being traded and whether the user is the “maker” or “taker” of trade (i.e., according to whether they trade by making a new order or by taking an existing order). The maker fees range from 0.1% to 0.0%, while the taker fees vary from 0.2% to 0.055% based on the executed trade volume in the last 30 days.</p><figure class="table"><table><tbody><tr><th>Value of trade</th><th>Maker fee</th><th>Taker fee</th></tr><tr><th>&gt;$0</th><th>0.10%</th><th>0.20%</th></tr><tr><th>&gt;$500,000</th><th>0.08%</th><th>0.20%</th></tr><tr><th>&gt;$1 million</th><th>0.06%</th><th>0.20%</th></tr><tr><th>&gt;$2.5 million</th><th>0.04%</th><th>0.20%</th></tr><tr><th>&gt;$5 million</th><th>0.02%</th><th>0.20%</th></tr><tr><th>&gt;$7.5 million</th><th>0.0%</th><th>0.20%</th></tr><tr><th>&gt;$10 million</th><th>0.0%</th><th>0.18%</th></tr><tr><th>&gt;$15 million</th><th>0.0%</th><th>0.16%</th></tr><tr><th>&gt;$20 million</th><th>0.0%</th><th>0.14%</th></tr><tr><th>&gt;$25 million</th><th>0.0%</th><th>0.12%</th></tr><tr><th>&gt;$30 million</th><th>0.0%</th><th>0.10%</th></tr><tr><th>&gt;$300 million</th><th>0.0%</th><th>0.09%</th></tr><tr><th>&gt;$1 billion</th><th>0.0%</th><th>0.085%</th></tr><tr><th>&gt;$3 billion</th><th>0.0%</th><th>0.075%</th></tr><tr><th>&gt;$10 billion</th><th>0.0%</th><th>0.06%</th></tr><tr><th>&gt;$30 billion</th><th>0.0%</th><th>0.055%</th></tr></tbody></table></figure><p>To put this in some perspective, <a href="/reviews/poloniex/">Poloniex </a>– which also charges “maker” and “taker” fees – imposes a 0.25% taker and a 0.15% maker fee for any trades less than 600 BTC. It makes Bitfinex one of the cheaper advanced trading platforms out there. Another thing to note is that Bitfinex has special rules in place for hidden orders: you will always pay the taker fee when placing hidden orders, and if you place a limit order that is executed against a hidden order, you will pay the maker fee.</p><p>And when it comes to deposits, crypto and stablecoin deposits are completely free, while bank wire transfers charge 0.1% of the amount with a flat minimum of $60.</p><p>As for withdrawals, these are always charged by Bitfinex. A bank transfer/wire in euros or US dollars is charged at 0.1% of the amount being transferred, while an express bank transfer (within 24 hours) is charged at 1%.</p><p>The fee for withdrawing cryptocurrency varies with the currency being withdrawn. The exchange has a detailed list on its website where they show every coin they have listed and their withdrawal fee; some of them are free, but the vast majority are not. On the other hand, if you’re transferring digital assets internally—ie. to another Bitfinex user’s address, these withdrawals are free of charge and come with other benefits.</p><p>And for comparison, Bitfinex’s withdrawals are generally cheaper than those of two similarly advanced exchanges, <a href="/reviews/kraken/">Kraken</a> and <a href="/reviews/hitbtc/">HitBTC</a>.</p><figure class="table"><table><tbody><tr><th> </th><th> </th><th> </th><th> </th></tr><tr><th>Currency</th><th>Bitfinex withdrawal fee</th><th>HitBTC withdrawal fee</th><th>Kraken withdrawal fee</th></tr><tr><th>Bitcoin (BTC)</th><th>0.0004 BTC</th><th>0.0009 BTC</th><th>0.00015 BTC</th></tr><tr><th>Ethereum (ETH)</th><th>0.0009 ETH</th><th>0.008 ETH</th><th>0.0017 ETH</th></tr><tr><th>Litecoin (LTC)</th><th>0.001 LTC</th><th>0.053 LTC</th><th>0.001 LTC</th></tr><tr><th>Monero (XMR)</th><th>0.0001 XMR</th><th>0.031 XMR</th><th>0.0001 XMR</th></tr><tr><th>Dash (DASH)</th><th>0.01 DASH</th><th>0.0781 DASH</th><th>0.005 DASH</th></tr><tr><th>Ripple (XRP)</th><th>0.02 XRP</th><th>12.79 XRP</th><th>0.02 XRP</th></tr></tbody></table></figure><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/bitfinex" rel="noindex nofollow" target="_blank">Visit Bitfinex</a></p><h2>Bitfinex Background</h2><p>Founded in 2012 and registered in the British Virgin Islands, Bitfinex has become the world’s largest cryptocurrency exchange by Bitcoin trading volume. It focuses more on professional traders than on the general public, offering users the ability to engage in margin lending, margin funding, paired trading, and limit and stop orders (as well as other kinds of order). Although the exchange is geared towards professional traders, its simple layout and interface make it easy to use.</p><p>While the exchange offers users a robust variety of security measures, from two-factor authentication (2FA) to IP address monitoring, Bitfinex suffered from a couple of high-profile hacks, in May 2015 and then in August 2016. In the aftermath, the lost funds were reimbursed by the exchange, as it has learned lessons from these attacks and bolstered its security.</p><h2>Bitfinex Security</h2><p>Despite its centralized nature, security is a top priority at Bitfinex, as it offers more security protections for the user and takes more security precautions than most exchanges. Not only is there the aforementioned two-factor authentication, but users can also make use of <strong>Universal 2nd Factor (U2F)</strong> authentication, which requires them to log in using an additional physical device such as a USB stick. Also, <strong>99.5%</strong> of client funds are stored in <strong>cold storage</strong> using a geographically distributed multi-signature system. Added to this, Bitfinex monitors user accounts in the following ways:</p><p>- Saves login data and analyzes it for any unusual activity<br/>- Detects IP address changes in case of sessions hijacks<br/>- Sends notifications and permits account freezes in case of suspicious activity<br/>- Can limit account access and withdrawals to selected IP addresses<br/>- Tracks behavioral patterns and trigger manual inspections on unusual withdrawals<br/>- Uses PGP email encryption for malware immune withdrawal confirmation process</p><p>As for the security measures it has in place to protect its system, Bitfinex does the following:</p><p>- Uses protection against distributed denial of service (DDoS) attacks<br/>- Automatically backs up databases daily<br/>- Automatically encrypts and duplicates backup data<br/>- Updates software and Linux systems regularly</p><p>The measures mentioned above reduce Bitfinex’s vulnerabilities. Although the exchange doesn’t insure user funds, it had taken responsibility to compensate users when assets were lost due to security breaches.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/bitfinex" rel="noindex nofollow" target="_blank">Try Bitfinex</a></p><h2>Bitfinex Ease Of Use</h2><p>For an exchange that caters almost exclusively to professional traders, Bitfinex is remarkably user-friendly. Its main dashboard is clear, intuitive, and logical, and it also has a mobile app you can use (Android &amp; iOS). There’s a graph charting a selected currency’s value at the top, a sidebar including a tidy order form and the user’s balances, and boxes at the bottom displaying Bitfinex’s order book, incoming trades, and the user’s order history. Besides, the dashboard is highly customizable and includes advanced charting tools, which also integrate TradingView charts.</p><p>With regards to carrying out trades and managing funds, things are similarly uncomplicated. Using the order form on the right-hand sidebar, users can place everything from a simple market-price exchange to stop-limit margin trade. And once orders have been set and trades have been made, keeping track of your activity is simple thanks to the “Tickers” box on the sidebar, and the “Orders” and “Order History” boxes at the bottom of the dashboard.</p><figure class="image"><img alt="Bitfinex Trading" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/60c/9d75c985dc.png" data-srcset="https://cimg.co/w/rw-attachments/1/60c/9d75c985dc.png 300w, https://cimg.co/w/rw-attachments/2/60c/9d75c985dc.png 600w, https://cimg.co/w/rw-attachments/3/60c/9d75c985dc.png 720w, https://cimg.co/w/rw-attachments/4/60c/9d75c985dc.png 900w, https://cimg.co/w/rw-attachments/0/60c/9d75c985dc.png 1865w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h2>Bitfinex Deposit And Withdrawal Methods</h2><p>Bitfinex used to have a necessary equity limit of minimum of $10,000, but it no longer exists. You can make a deposit via bank transfer/wire (in case of fiat currencies) or a cryptocurrency transfer from an external wallet. Once deposited, users can move funds between the exchange or margin trading and funding accounts. That way, you can have different accounts for different Bitfinex services (e.g., margin lending/trading, over-the-counter trades).</p><p>Making a deposit is simple, yet it takes time in case of bank transfer. It is so because deposits via bank transfers are for verified accounts only. At the time of writing, Bitfinex takes approximately six to eight weeks to verify your account.</p><p>Withdrawals work in a similar way: users can send fiat currencies back to their bank account via a wire. Alternatively, you can withdraw cryptocurrency back to your external wallet. Withdrawals of fiat currencies take up to ten business days, while withdrawals of digital currency take up to ten hours.</p><h2>How To Open An Account On Bitfinex</h2><p>If you’re on your way to becoming a serious trader or already are one, Bitfinex exchange is the right place for you. Opening a Bitfinex is as easy and straightforward as it gets, but before you create an account, be aware of the following requirements.</p><ul><li>Bitfinex is a platform tailored for professional traders.</li><li>There’s a 6 to 8 weeks KYC verification window before a user can use functions of fiat deposits and withdrawals.</li><li>The exchange charges an inactivity fee: if you haven’t traded or engaged in any funding activity for an uninterrupted period of one year, the exchange will charge you $5 per month, which is subject to change.</li></ul><p>Note that due to regulatory issues, Bitfinex restricts access for users from the following countries: <strong>the United States</strong>, <strong>Cuba</strong>, <strong>Democratic People’s Republic of Korea (North Korea)</strong>, <strong>Iran</strong>, <strong>Syria </strong>or <strong>Crimea</strong>.</p><p><strong>Getting Started on Bitfinex</strong></p><p>To get started, <a href="https://cryptonews.com/ext/bitfinex/">go to the exchange</a> and hit the “<strong>Open Account</strong>” button. Alternatively, you can get a feel of the platform by clicking “<strong>View Demo</strong>” and examine its interface.</p><p> <a class="button-more button-more--gradient" href="https://cryptonews.com/ext/bitfinex" rel="noindex nofollow" target="_blank">Go To Exchange</a></p><figure class="image"><img alt="How to Trade Bitfinex" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/60c/9d7e2c5431.png" data-srcset="https://cimg.co/w/rw-attachments/1/60c/9d7e2c5431.png 300w, https://cimg.co/w/rw-attachments/2/60c/9d7e2c5431.png 600w, https://cimg.co/w/rw-attachments/3/60c/9d7e2c5431.png 720w, https://cimg.co/w/rw-attachments/4/60c/9d7e2c5431.png 900w, https://cimg.co/w/rw-attachments/0/60c/9d7e2c5431.png 1865w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Once you press “Open Account,” you will see a sign-up table.</p><figure class="image"><img alt="Bitfinex sign up" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/60c/9d7fa66314.png" data-srcset="https://cimg.co/w/rw-attachments/1/60c/9d7fa66314.png 300w, https://cimg.co/w/rw-attachments/2/60c/9d7fa66314.png 600w, https://cimg.co/w/rw-attachments/3/60c/9d7fa66314.png 720w, https://cimg.co/w/rw-attachments/4/60c/9d7fa66314.png 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Fill in your details along with a secure password (min. eight symbols, including at least one symbol and one uppercase letter). Save it in a safe place, and click “<strong>Open Account.</strong>”</p><p>Voila, you have created your Bitfinex account! If the registration was successful, you should see the window below, which asks you to confirm your email address.</p><figure class="image"><img alt="Bitfinex Email Confirmation" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/60c/9d8201026a.png" data-srcset="https://cimg.co/w/rw-attachments/1/60c/9d8201026a.png 300w, https://cimg.co/w/rw-attachments/2/60c/9d8201026a.png 600w, https://cimg.co/w/rw-attachments/3/60c/9d8201026a.png 720w, https://cimg.co/w/rw-attachments/4/60c/9d8201026a.png 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Once you confirm your email address, you’re all set to log in. When you do so for the first time, you will also have to read and agree to Bitfinex terms of service.</p><p>Next, you also want to secure your account. Just go to the upper right corner, and next to the bell and question mark icons you will see the “Manage Account” button. If you navigate your cursor over it, you will see a menu with various account options. The third one is security. Clicking on it will lead you to the account security window, where you can set up all the desired security measures, including 2FA.</p><figure class="image"><img alt="Bitfinex Security" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/60c/9d83f49440.png" data-srcset="https://cimg.co/w/rw-attachments/1/60c/9d83f49440.png 300w, https://cimg.co/w/rw-attachments/2/60c/9d83f49440.png 600w, https://cimg.co/w/rw-attachments/3/60c/9d83f49440.png 720w, https://cimg.co/w/rw-attachments/4/60c/9d83f49440.png 900w, https://cimg.co/w/rw-attachments/0/60c/9d83f49440.png 1890w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Last but not least, you have to verify your account if you want to deposit or withdraw USD, Euro, or other fiat currencies. Simply go to the “<strong>Manage Account</strong>” and select “<strong>Verification</strong>” from the drop-down menu. You will be able to choose between registering as an individual or corporate, with the requirements being slightly different between the two.</p><figure class="image"><img alt="Bitfinex Verification" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/60c/9d85858ea3.png" data-srcset="https://cimg.co/w/rw-attachments/1/60c/9d85858ea3.png 300w, https://cimg.co/w/rw-attachments/2/60c/9d85858ea3.png 600w, https://cimg.co/w/rw-attachments/3/60c/9d85858ea3.png 720w, https://cimg.co/w/rw-attachments/4/60c/9d85858ea3.png 900w, https://cimg.co/w/rw-attachments/0/60c/9d85858ea3.png 1373w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Bitfinex takes verification process seriously, so it takes from 6 to 8 weeks to verify an account. You will have to provide documents confirming your name and contact, address, identity, bank information, KYC form, and others. The same requirements apply to corporate accounts, too.</p><p><strong>Making Bitfinex Deposit</strong></p><p>Navigate to the “Wallet” button in the upper right corner, under which you can find the "Deposit" option. Clicking it takes you to the deposit page where you can choose the preferred method of funding. Bitfinex supports a wide range of deposit options, including fiat currencies (USD, EUR, JPY, CNH &amp; GBP), and a wide selection of cryptocurrencies.</p><figure class="image"><img alt="Bitfinex Deposit" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/60c/9d8989b589.png" data-srcset="https://cimg.co/w/rw-attachments/1/60c/9d8989b589.png 300w, https://cimg.co/w/rw-attachments/2/60c/9d8989b589.png 600w, https://cimg.co/w/rw-attachments/3/60c/9d8989b589.png 720w, https://cimg.co/w/rw-attachments/4/60c/9d8989b589.png 900w, https://cimg.co/w/rw-attachments/0/60c/9d8989b589.png 1901w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p><strong>Making a Trade on Bitfinex</strong></p><p>You can start making trades by hitting the “Trading” button. The exchange used to have a minimum account equity of $10,000, but that was removed, opening the exchange to lower-level traders as well. Select the market you want to trade in, and from here, you’re free to determine the price, quantity, and type of orders you would like to execute.</p><figure class="image"><img alt="Bitfinex trading" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/60c/9d8c52b0ee.png" data-srcset="https://cimg.co/w/rw-attachments/1/60c/9d8c52b0ee.png 300w, https://cimg.co/w/rw-attachments/2/60c/9d8c52b0ee.png 600w, https://cimg.co/w/rw-attachments/3/60c/9d8c52b0ee.png 720w, https://cimg.co/w/rw-attachments/4/60c/9d8c52b0ee.png 900w, https://cimg.co/w/rw-attachments/0/60c/9d8c52b0ee.png 1865w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p><strong>Making a Bitfinex Withdrawal</strong></p><p>Withdrawing your funds from Bitfinex is as simple as making a deposit. Go to the “Withdraw” option within the “Wallet” button, select the asset you want to take out and fill all the required fields. Note that you won’t be able to withdraw currencies if you haven’t secured your account with 2FA and/or whitelisted addresses. Also, you must have your account verified first to withdraw fiat currencies.</p><p>A cryptocurrency withdrawal takes approx. <strong>12 hours to process</strong>. The speed of the procedure also depends on your enabled security measures. A rule of thumb here is the more secure your account, the faster Bitfinex processes your request. Regular fiat withdrawals take <strong>5-10 business days</strong>, while express fiat withdrawal is sent out <strong>within 24 hours</strong>.</p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

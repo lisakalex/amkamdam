@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/etfinance/">ETFinance</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="5e626d5cab0ab.png" class="img-fluid img-circle author__image author__image--has-bg mb-15" loading="auto" src="https://cimg.co/reviewlogo/40/5e626d5cab0ab.png"/>
+<div>
+<a class="c-black" href="#"><b>ETFinance</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/etfinance" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+<div class="fs-12">81% of retail investor accounts lose money when trading CFDs with this provider.</div>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="etfinance"> ETFinance</h1>
+<p>ETFinance is a European web broker that lets you trade a variety of CFDs on Forex, stocks, cryptocurrencies, ETFs, indices, and more. It offers different tier accounts for both beginners and professional traders living in the European Economic Area (EEA) and is a legit way to gain exposure in various financial markets. The platform is best suited for people interested in all sorts of financial instruments, including cryptocurrencies. Trading with ETFinance is 100% secure since you don’t actually buy the underlying assets but make money from changes in their price. Besides, you can open a free bitcoin demo account and polish your trading strategies with virtual money before risking any real funds.</p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/etfinance" target="_blank">ETFinance</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://www.etfinance.eu/en/contactus" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>Limassol, Cyprus</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>0.0 BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>Yes</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>No</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>Magnum FX Ltd.</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+                                                                                                                                                        Bank Transfer,
+                                                                                                                                                                                                                                        Credit Card,
+                                                                                                                                                                                                                                        Debit Card,
+                                                                                                                                            </b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>USD, EUR, GBP</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>750</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>-</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>High (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+<li>Commission-free trading A wide variety of assets, including cryptocurrencies 24/5 customer support via phone Trustworthy and regulated broker</li> </ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+<li>No fixed fees No two-factor authentication No cryptocurrency deposits</li> </ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/220/14784/5e652c0d44196.jpg" srcset="https://cimg.co/review/220/14784/responsive-images/5e652c0d44196___media_library_original_1682_862.jpg 1682w, https://cimg.co/review/220/14784/responsive-images/5e652c0d44196___media_library_original_1200_614.jpg 1200w, https://cimg.co/review/220/14784/responsive-images/5e652c0d44196___media_library_original_900_461.jpg 900w, https://cimg.co/review/220/14784/responsive-images/5e652c0d44196___media_library_original_720_368.jpg 720w, https://cimg.co/review/220/14784/responsive-images/5e652c0d44196___media_library_original_600_307.jpg 600w, https://cimg.co/review/220/14784/responsive-images/5e652c0d44196___media_library_original_300_153.jpg 300w" width="1682"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/220/14785/5e652c0db25e2.jpg" data-srcset="https://cimg.co/review/220/14785/responsive-images/5e652c0db25e2___media_library_original_1917_1022.jpg 1917w, https://cimg.co/review/220/14785/responsive-images/5e652c0db25e2___media_library_original_1200_639.jpg 1200w, https://cimg.co/review/220/14785/responsive-images/5e652c0db25e2___media_library_original_900_479.jpg 900w, https://cimg.co/review/220/14785/responsive-images/5e652c0db25e2___media_library_original_720_383.jpg 720w, https://cimg.co/review/220/14785/responsive-images/5e652c0db25e2___media_library_original_600_319.jpg 600w, https://cimg.co/review/220/14785/responsive-images/5e652c0db25e2___media_library_original_300_159.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1917"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/220/14786/5e652c0e0f4e6.jpg" data-srcset="https://cimg.co/review/220/14786/responsive-images/5e652c0e0f4e6___media_library_original_1327_723.jpg 1327w, https://cimg.co/review/220/14786/responsive-images/5e652c0e0f4e6___media_library_original_1200_653.jpg 1200w, https://cimg.co/review/220/14786/responsive-images/5e652c0e0f4e6___media_library_original_900_490.jpg 900w, https://cimg.co/review/220/14786/responsive-images/5e652c0e0f4e6___media_library_original_720_392.jpg 720w, https://cimg.co/review/220/14786/responsive-images/5e652c0e0f4e6___media_library_original_600_326.jpg 600w, https://cimg.co/review/220/14786/responsive-images/5e652c0e0f4e6___media_library_original_300_163.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1327"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/220/14787/5e652c0e48640.jpg" data-srcset="https://cimg.co/review/220/14787/responsive-images/5e652c0e48640___media_library_original_415_724.jpg 415w, https://cimg.co/review/220/14787/responsive-images/5e652c0e48640___media_library_original_300_523.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="415"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/220/14788/5e652c0e8d724.jpg" data-srcset="https://cimg.co/review/220/14788/responsive-images/5e652c0e8d724___media_library_original_864_462.jpg 864w, https://cimg.co/review/220/14788/responsive-images/5e652c0e8d724___media_library_original_720_385.jpg 720w, https://cimg.co/review/220/14788/responsive-images/5e652c0e8d724___media_library_original_600_320.jpg 600w, https://cimg.co/review/220/14788/responsive-images/5e652c0e8d724___media_library_original_300_160.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="864"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/220/14789/5e652c0eda5ac.jpg" data-srcset="https://cimg.co/review/220/14789/responsive-images/5e652c0eda5ac___media_library_original_1802_777.jpg 1802w, https://cimg.co/review/220/14789/responsive-images/5e652c0eda5ac___media_library_original_1200_517.jpg 1200w, https://cimg.co/review/220/14789/responsive-images/5e652c0eda5ac___media_library_original_900_388.jpg 900w, https://cimg.co/review/220/14789/responsive-images/5e652c0eda5ac___media_library_original_720_310.jpg 720w, https://cimg.co/review/220/14789/responsive-images/5e652c0eda5ac___media_library_original_600_258.jpg 600w, https://cimg.co/review/220/14789/responsive-images/5e652c0eda5ac___media_library_original_300_129.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1802"/></div>
+</div>
+</div><h2>Key features</h2><p>ETFinance is a CFDs (contract for difference) broker that lets you gain exposure to hundreds of financial assets and lets you make money by either longing or shorting them. Besides, the potential gains and losses can be amplified by opening leverage positions.</p><figure class="image"><img alt="ETFinance review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e6/53af8ebf64.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e6/53af8ebf64.jpg 300w, https://cimg.co/w/rw-attachments/2/5e6/53af8ebf64.jpg 600w, https://cimg.co/w/rw-attachments/3/5e6/53af8ebf64.jpg 720w, https://cimg.co/w/rw-attachments/4/5e6/53af8ebf64.jpg 900w, https://cimg.co/w/rw-attachments/0/5e6/53af8ebf64.jpg 1517w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: ETFinance.eu</p><p>Other key features of ETFinance include:</p><p><strong>Commission-free trading.</strong> ETFinance does not charge its users for placing trades, deposits, or withdrawals.<br/><strong>Free bitcoin demo account.</strong> If you just want to give it a shot at bitcoin trading, ETFinance is one of the most convenient options out there.<br/><strong>More than 750 CFDs.</strong> Trade cryptocurrencies, commodities, stocks, forex, and ETFs without <br/><strong>Long or short cryptocurrencies without acquiring any.</strong> Handling cryptocurrencies require technical expertise and operations security which may not be for everyone. ETFinance lets you make money by trading in the cryptocurrency market by trading crypto CFDs.<br/><strong>Reputable and trustworthy broker.</strong> ETFinance is regulated in Europe and is required to adhere to strict regulatory policies such as <strong>GDPR</strong>, <strong>AMLD5</strong>, and others. <br/><strong>Outstanding leverage.</strong> While new traders can access up to 30x leverage, gold and platinum members that are eligible professional clients can get up to 500x leverage. <br/><strong>MetaTrader 4-based platform.</strong> ETFinance uses the most popular trading platform worldwide, which can be accessed from nearly every device, including personal computers, tablets, or smartphones.<br/><strong>Islamic account.</strong> Designed according to the principles of Islam, it comes with zero interest and swap charges.</p><figure class="image"><img alt="ETFinance bitcoin trading" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e6/532ba83839.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e6/532ba83839.jpg 300w, https://cimg.co/w/rw-attachments/2/5e6/532ba83839.jpg 600w, https://cimg.co/w/rw-attachments/3/5e6/532ba83839.jpg 720w, https://cimg.co/w/rw-attachments/4/5e6/532ba83839.jpg 900w, https://cimg.co/w/rw-attachments/0/5e6/532ba83839.jpg 1907w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: ETFinance.eu</p><p>All in all, ETFinance is a reputable and trustworthy broker for your financial investments. Read on to find out more about how ETFinance works, what markets does it offer, and how you can use it to your advantage.</p><h2>Background</h2><p>ETFinance is on a mission to provide traders with cutting-edge trading tools and seeks to become a go-to platform for aspiring traders.</p><p>ETFinance started operating in 2018 as a brand of <strong>Magnum FX Ltd</strong> (incorporated in 2016) brokerage which is registered in Cyprus. The platform is regulated by Cyprus Securities and Exchange Commission (CySEC), a well-trusted regulatory institution in Europe. Its official address is 1 Agias Fylaxeos Street, 3025 Limassol, Cyprus.</p><p>Since its launch, the platform has won multiple rewards and was recognized as the best CFDs broker in Europe in both 2019 and 2020 by numerous organizations.</p><figure class="image"><img alt="ETFinance review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e6/533a272f40.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e6/533a272f40.jpg 300w, https://cimg.co/w/rw-attachments/2/5e6/533a272f40.jpg 600w, https://cimg.co/w/rw-attachments/3/5e6/533a272f40.jpg 720w, https://cimg.co/w/rw-attachments/4/5e6/533a272f40.jpg 900w, https://cimg.co/w/rw-attachments/0/5e6/533a272f40.jpg 996w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: ETFinance.eu</p><p>The platform also complies with the <strong>European General Data Protection Regulation (GDPR)</strong> standards, <strong>The European Securities and Markets Authority (ESMA)</strong>, and <strong>Markets in Financial Instruments Directive (MlilFD)</strong>.</p><p>Last but not least, ETFinance is the official partner and sponsor of one of the best European basketball clubs <strong>Real Madrid</strong>, which, in case you’re not convinced yet, serves to prove the high ambitions of ETFinance.</p><figure class="image"><img alt="ETFinance review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e6/5327c1341d.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e6/5327c1341d.jpg 300w, https://cimg.co/w/rw-attachments/2/5e6/5327c1341d.jpg 600w, https://cimg.co/w/rw-attachments/3/5e6/5327c1341d.jpg 720w, https://cimg.co/w/rw-attachments/4/5e6/5327c1341d.jpg 900w, https://cimg.co/w/rw-attachments/0/5e6/5327c1341d.jpg 1802w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: ETFinance.eu</p><p>Every ETFinance user must pass a mandatory know-your-customer (KYC) check, which involves disclosing personal information, such as:</p><ul><li>Your full name</li><li>Your permanent address</li><li>Your authorized signatures</li><li>Your legal status</li><li>Information about the owners of related bank accounts</li></ul><p>As such, the platform is great for traders seeking a legitimate and regulated platform for their investments.</p><h3>Supported countries</h3><p>At the moment, ETFinance brokerage is accessible for residents and citizens of the <strong>European Economic Area (EEA)</strong> only. It includes:</p><ul><li>Austria</li><li>Bulgaria</li><li>Croatia</li><li>The Republic of Cyprus</li><li>The Czech Republic</li><li>Denmark</li><li>Estonia</li><li>Finland</li><li>France</li><li>Germany</li><li>Greece</li><li>Hungary</li><li>Iceland</li><li>Ireland</li><li>Italy</li><li>Latvia</li><li>Lithuania</li><li>Lichtenstein</li><li>Luxembourg</li><li>Malta</li><li>Norway</li><li>The Netherlands</li><li>Poland</li><li>Portugal</li><li>Romania</li><li>Slovakia</li><li>Slovenia</li><li>Spain</li><li>Sweden</li></ul><p>At the moment, ETFinance is translated into seven languages: English, Spanish, German, Dutch, Portuguese, Italian, and Swedish.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/etfinance" rel="noindex nofollow" target="_blank">Visit ETFinance</a><br/><span class="fs-12">81% of retail investor accounts lose money when trading CFDs with this provider.</span></p><h2>ETFinance fees</h2><p>ETFinance stresses the fact that its platform is <strong>commission-free</strong>, which is true, as you don’t pay a fixed fee for every trade. Besides, you won’t have to pay any deposit or withdrawal fees, as they are <strong>free of charge</strong>, too. However, there is a clause that applies to accounts with insignificant (only one trading position) or no trading history. They have to pay <strong>up to EUR 50 fee</strong> (or an equivalent amount in other currency) when withdrawing their funds from the platform.</p><figure class="image"><img alt="ETFinance review forex" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e6/53d55edf8a.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e6/53d55edf8a.jpg 300w, https://cimg.co/w/rw-attachments/2/5e6/53d55edf8a.jpg 600w, https://cimg.co/w/rw-attachments/3/5e6/53d55edf8a.jpg 720w, https://cimg.co/w/rw-attachments/4/5e6/53d55edf8a.jpg 900w, https://cimg.co/w/rw-attachments/0/5e6/53d55edf8a.jpg 1769w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: ETFinance.eu</p><p>Like most CFDs trading sites, ETFinance charges the following fees:</p><ul><li><strong>Spreads.</strong> Spread is the difference between the buying and selling price of an asset. Every time you open or close a trade, you’re going to pay a floating minimal spread of between 0.03 - 0.07 pips, based on your account type.</li><li><strong>The term swap rate (overnight fee).</strong> Every night your position is open, you’re going to incur a swap fee for your position. The swap rates change every week and are based on key market conditions and risk management decisions of ETFinance’s partner institutions.</li><li><strong>Currency conversion.</strong> Funds denominated in other currencies than your accounts base currency will be converted to the base currency and incur a conversion fee, which is based on forex market rates.</li></ul><p>Your fees also depend on the type of account you choose to open. ETFinance offers different tier accounts for traders with varying aspirations. You can choose from <strong>Silver</strong>, <strong>Gold</strong>, and <strong>Platinum</strong> accounts.</p><figure class="table"><table><tbody><tr><th>Silver Account</th><th>Gold Account</th><th>Platinum Account</th></tr><tr><th>Newcomers</th><th>Experienced traders</th><th>Seasoned traders</th></tr><tr><th>0% deposit commission</th><th>0% deposit commission</th><th>0% deposit commission</th></tr><tr><th>Min. deposit - €215</th><th>Min. deposit - €215</th><th>Min. deposit - €215</th></tr><tr><th>750 assets</th><th>750 assets</th><th>750 assets</th></tr><tr><th>0.07 minimum spreads</th><th>0.05 minimum spreads</th><th>0.03 minimum spreads</th></tr><tr><th>30x leverage</th><th>30x leverage</th><th>30x leverage</th></tr><tr><th>7 AM - 7 PM (GMT) support</th><th>Dedicated relationship manager</th><th>Dedicated relationship manager</th></tr><tr><th>Islamic account</th><th>Islamic account</th><th>Islamic account</th></tr><tr><th>-</th><th>Webinars and videos</th><th>Webinars and videos</th></tr><tr><th>-</th><th>Hedging</th><th>50% swap discount</th></tr><tr><th>-</th><th>-</th><th>News alerts</th></tr><tr><th>-</th><th>-</th><th>Free VPS</th></tr></tbody></table></figure><p>The most experienced traders can apply for a <strong>Professional</strong> trading account, which enjoys even lower spreads, higher leverage (up to 500x), exclusive loyalty programs, and more flexibility.</p><figure class="image"><img alt="ETFinance pro account" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e6/54039ebf90.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e6/54039ebf90.jpg 300w, https://cimg.co/w/rw-attachments/2/5e6/54039ebf90.jpg 600w, https://cimg.co/w/rw-attachments/3/5e6/54039ebf90.jpg 720w, https://cimg.co/w/rw-attachments/4/5e6/54039ebf90.jpg 900w, https://cimg.co/w/rw-attachments/0/5e6/54039ebf90.jpg 1880w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: ETFinance.eu</p><h2>ETFinance usability</h2><p>ETFinance platform uses <strong>Meta Trader</strong> - the world’s most popular trading interface. It has all the charts, indicators, advanced order types, and other professional trading tools you could possibly need:</p><ul><li>Multi-device compatibility.</li><li>Market orders for buying and selling.</li><li>Limit orders.</li><li>Pending orders for advanced traders.</li><li>Technical indicators.</li><li>Supports automated trading.</li><li>Ability to customize your trading.</li></ul><figure class="image"><img alt="ETFinance review trading view" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e6/53c1e83790.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e6/53c1e83790.jpg 300w, https://cimg.co/w/rw-attachments/2/5e6/53c1e83790.jpg 600w, https://cimg.co/w/rw-attachments/3/5e6/53c1e83790.jpg 720w, https://cimg.co/w/rw-attachments/4/5e6/53c1e83790.jpg 900w, https://cimg.co/w/rw-attachments/0/5e6/53c1e83790.jpg 1917w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: ETFinance.eu</p><p>MetaTrader’s trading environment can be slightly overwhelming at first, especially if you’re just starting to trade. If you’re unfamiliar with <strong>MetaTrader 4</strong>, see the <a href="https://www.etfinance.eu/en/tutorials" rel="noopener" target="_blank">video tutorial section</a> on how to use it on a computer as well as mobile devices.</p><figure class="image"><img alt="ETFinance review mobile app" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e6/53f7a8580c.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e6/53f7a8580c.jpg 300w, https://cimg.co/w/rw-attachments/2/5e6/53f7a8580c.jpg 600w, https://cimg.co/w/rw-attachments/3/5e6/53f7a8580c.jpg 720w, https://cimg.co/w/rw-attachments/4/5e6/53f7a8580c.jpg 900w, https://cimg.co/w/rw-attachments/0/5e6/53f7a8580c.jpg 1245w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: ETFinance.eu</p><p>Experienced traders should have no issues with using the platform at all. The platform has a user-friendly interface and many advanced trading features for both amateur traders and professionals alike.</p><figure class="image"><img alt="ETFinance review order" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e6/54374d68a6.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e6/54374d68a6.jpg 300w, https://cimg.co/w/rw-attachments/2/5e6/54374d68a6.jpg 600w, https://cimg.co/w/rw-attachments/3/5e6/54374d68a6.jpg 720w, https://cimg.co/w/rw-attachments/4/5e6/54374d68a6.jpg 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: ETFinance.eu</p><p>The platform allows you to access the following CFDs:</p><ul><li><strong>19 cryptocurrencies and 33 crypto pairs</strong>, including <a href="/coins/bitcoin/" rel="noopener" target="_blank">Bitcoin (BTC)</a>, <a href="/coins/bitcoin-sv/" rel="noopener" target="_blank">Bitcoin SV (BSV)</a>, <a href="/coins/bitcoin-gold/" rel="noopener" target="_blank">Bitcoin Gold (BTG)</a>, <a href="/coins/dash/" rel="noopener" target="_blank">Dash (DASH)</a>, <a href="/coins/ethereum-classic/" rel="noopener" target="_blank">Ethereum Classic (ETC)</a>, <a href="/coins/ethereum/" rel="noopener" target="_blank">Ethereum (ETH)</a>, <a href="/coins/iota/" rel="noopener" target="_blank">IOTA (MIOTA)</a>, <a href="/coins/lisk/" rel="noopener" target="_blank">Lisk (LSK)</a>, <a href="/coins/litecoin/" rel="noopener" target="_blank">Litecoin (LTC)</a>, <a href="/coins/neo/" rel="noopener" target="_blank">NEO (NEO)</a>, Quantreum (QTM), <a href="/coins/swisscoin/" rel="noopener" target="_blank">Swisscoin (SIC)</a>, <a href="/coins/tether/" rel="noopener" target="_blank">Tether (USDT)</a>, <a href="/coins/nem/" rel="noopener" target="_blank">NEM (XEM)</a>, <a href="/coins/stellar/" rel="noopener" target="_blank">Stellar Lumens (XLM)</a>, <a href="/coins/ripple/" rel="noopener" target="_blank">Ripple (XRP)</a>, <a href="/coins/verge/" rel="noopener" target="_blank">Verge (XVG)</a>, <a href="/coins/zcash/" rel="noopener" target="_blank">Zcash (ZEC)</a>, <a href="/coins/cardano/" rel="noopener" target="_blank">Cardano (ADA)</a>, Babel (BAB), and others.</li><li><strong>More than 150 tradeable stocks</strong>, including Apple, Amazon, Facebook, Google, Netflix, Tesla, and many more.</li><li><strong>Popular indices</strong>, such as DOW 30, S&amp;P 500, NASDAQ 100, FTSE 500, and others.</li><li><strong>Commodities</strong> like Natural Gas, Crude Oil, Gold, Silver, Platinum, and many others.</li><li><strong>Hundreds of Forex</strong> pairs with all sorts of national currencies.</li><li><strong>...and more.</strong> New assets are being added regularly on the exchange.</li></ul><p>Here is the complete list of crypto pairs available at ETFinance:</p><figure class="image"><img alt="ETFinance review cryptocurrency pairs" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e6/536d7d6901.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e6/536d7d6901.jpg 300w, https://cimg.co/w/rw-attachments/2/5e6/536d7d6901.jpg 600w, https://cimg.co/w/rw-attachments/3/5e6/536d7d6901.jpg 720w, https://cimg.co/w/rw-attachments/4/5e6/536d7d6901.jpg 900w, https://cimg.co/w/rw-attachments/0/5e6/536d7d6901.jpg 1064w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: ETFinance.eu</p><p>For all other tradeable pairs, check out ETFinance’s <a href="https://www.etfinance.eu/en/assets" rel="noopener" target="_blank">asset index</a>.</p><p>If you’re new to trading, you might be excited to find ETFinance’s educational resources to prepare you for trading. They include an economic calendar, earnings calendar, ebooks, videos, articles, courses, and tutorials on everything you need to know when trading with ETFinance.</p><figure class="image"><img alt="ETFinance tutorials review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e6/5400d51a78.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e6/5400d51a78.jpg 300w, https://cimg.co/w/rw-attachments/2/5e6/5400d51a78.jpg 600w, https://cimg.co/w/rw-attachments/3/5e6/5400d51a78.jpg 720w, https://cimg.co/w/rw-attachments/4/5e6/5400d51a78.jpg 900w, https://cimg.co/w/rw-attachments/0/5e6/5400d51a78.jpg 1327w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: ETFinance.eu</p><h3>Demo account</h3><p>Once you register an account and prove yourself to be a real person, you don’t need to rush in deposit money into the platform. ETFinance provides a handy demo account topped up with USD 100,000 of virtual money.</p><figure class="image"><img alt="ETFinance review demo account" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e6/540b40e4d3.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e6/540b40e4d3.jpg 300w, https://cimg.co/w/rw-attachments/2/5e6/540b40e4d3.jpg 600w, https://cimg.co/w/rw-attachments/3/5e6/540b40e4d3.jpg 720w, https://cimg.co/w/rw-attachments/4/5e6/540b40e4d3.jpg 900w, https://cimg.co/w/rw-attachments/0/5e6/540b40e4d3.jpg 1682w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: ETFinance.eu</p><p>With a demo account, you can get a feel of the platform, improve your trading skills, polish your strategies and try out new techniques.</p><p>The demo account expires after 14 days but you can always ask your relationship manager and ask for an extension.</p><figure class="image"><img alt="ETFinance.eu review bitcoin" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e6/540e1ba2c9.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e6/540e1ba2c9.jpg 300w, https://cimg.co/w/rw-attachments/2/5e6/540e1ba2c9.jpg 600w, https://cimg.co/w/rw-attachments/3/5e6/540e1ba2c9.jpg 720w, https://cimg.co/w/rw-attachments/4/5e6/540e1ba2c9.jpg 900w, https://cimg.co/w/rw-attachments/0/5e6/540e1ba2c9.jpg 1701w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: ETFinance.eu<a class="button-more button-more--gradient" href="https://cryptonews.com/ext/etfinance" rel="noindex nofollow" target="_blank">Open Free Account</a><br/><span class="fs-12">81% of retail investor accounts lose money when trading CFDs with this provider.</span></p><h3>Registration process</h3><p>Registering an account takes just a few minutes, but also ETFinance also needs to verify your account, which can take up to two business days.</p><p>The signup procedure is rather straightforward and consists of five short steps:</p><ol><li><strong>Account.</strong> Your name, email address, and phone.</li><li><strong>Personal details.</strong> Your address, birthdate, tax jurisdiction, and other related info.</li><li><strong>Questionnaire.</strong> ETFinance asks you some questions about your experience in the financial markets, your income level, and sources.</li><li><strong>Documents.</strong> Provide your identity and address verification documents. You can also skip this step by clicking the “Do it later” button.</li><li><strong>Make a deposit.</strong> Make your first deposit and dive into the CFDs trading with ETFinance. You can also skip this step and do it later.</li></ol><figure class="image"><img alt="ETFinance review sign up" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e6/53fe04e55c.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e6/53fe04e55c.jpg 300w, https://cimg.co/w/rw-attachments/2/5e6/53fe04e55c.jpg 600w, https://cimg.co/w/rw-attachments/3/5e6/53fe04e55c.jpg 720w, https://cimg.co/w/rw-attachments/4/5e6/53fe04e55c.jpg 900w, https://cimg.co/w/rw-attachments/0/5e6/53fe04e55c.jpg 1188w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: ETFinance.eu</p><p>If you do not have it yet, you will also need to download and install the Meta Trader 4 application to your device. You can find it right here:</p><figure class="image"><img alt="ETFinance review download" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e6/537538194e.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e6/537538194e.jpg 300w, https://cimg.co/w/rw-attachments/2/5e6/537538194e.jpg 600w, https://cimg.co/w/rw-attachments/3/5e6/537538194e.jpg 720w, https://cimg.co/w/rw-attachments/4/5e6/537538194e.jpg 900w, https://cimg.co/w/rw-attachments/0/5e6/537538194e.jpg 1521w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: ETFinance.eu</p><p>Alternatively, you can use ETFinance’s Web Trader, which works as well as the application.</p><h3>Customer support</h3><p>ETFinance has several customer support channels:</p><ul><li><strong>Phone support.</strong> You can call ETFinance Monday to Friday 7 to 19 GMT using this number: ‍+8006 003 7004</li><li><strong>Live chat support. </strong>Click on the live chat box to enter a conversation with the broker's support team.</li><li><strong>Email support.</strong> Write to <i><strong><a class="__cf_email__" data-cfemail="c8bbbdb8b8a7babc88adbcaea1a6a9a6abade6adbd" href="/cdn-cgi/l/email-protection">[email protected]</a></strong></i></li></ul><figure class="image"><img alt="ETFinance support desk" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e6/541987cbd2.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e6/541987cbd2.jpg 300w, https://cimg.co/w/rw-attachments/2/5e6/541987cbd2.jpg 600w, https://cimg.co/w/rw-attachments/3/5e6/541987cbd2.jpg 720w, https://cimg.co/w/rw-attachments/4/5e6/541987cbd2.jpg 900w, https://cimg.co/w/rw-attachments/0/5e6/541987cbd2.jpg 1582w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>ETFinance.eu</p><p>Unfortunately, the site does not have an extensive FAQ knowledge just yet, so the best way to get answers to specific questions is by talking with their customer support department directly.</p><figure class="image"><img alt="ETFinance review customer support" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e6/53bead48a9.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e6/53bead48a9.jpg 300w, https://cimg.co/w/rw-attachments/2/5e6/53bead48a9.jpg 600w, https://cimg.co/w/rw-attachments/3/5e6/53bead48a9.jpg 720w, https://cimg.co/w/rw-attachments/4/5e6/53bead48a9.jpg 900w, https://cimg.co/w/rw-attachments/0/5e6/53bead48a9.jpg 1476w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: ETFinance.eu</p><h2>Security of the platform</h2><p>ETFinance is a highly secure platform. While exchange hacks and other scandals plague centralized cryptocurrency exchanges, there is no such risk with trading regulated CFDs.</p><figure class="image"><img alt="ETFinance review CFDtrading" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e6/53c8dc1b5d.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e6/53c8dc1b5d.jpg 300w, https://cimg.co/w/rw-attachments/2/5e6/53c8dc1b5d.jpg 600w, https://cimg.co/w/rw-attachments/3/5e6/53c8dc1b5d.jpg 720w, https://cimg.co/w/rw-attachments/4/5e6/53c8dc1b5d.jpg 900w, https://cimg.co/w/rw-attachments/0/5e6/53c8dc1b5d.jpg 1915w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: ETFinance.eu</p><p>ETFinance <strong>does not have a native cryptocurrency wallet</strong>, and you only buy and sell assets with fiat currency of your choice. As such, there’s little chance of losing your money to hackers, since withdrawing funds via the traditional banking system is a somewhat slower, but surefire way to keep your funds secure.</p><p>In addition to that, your account is secured by a strong password. It is recommended to use a password that you haven’t used before, and use a combination of capital letters and numbers.</p><p>Unfortunately, ETFinance does not offer an option to protect your user account with two-factor authentication (2FA), which would offer a robust extra layer of security.</p><figure class="image"><img alt="ETFinance review deposit" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e6/5447934610.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e6/5447934610.jpg 300w, https://cimg.co/w/rw-attachments/2/5e6/5447934610.jpg 600w, https://cimg.co/w/rw-attachments/3/5e6/5447934610.jpg 720w, https://cimg.co/w/rw-attachments/4/5e6/5447934610.jpg 900w, https://cimg.co/w/rw-attachments/0/5e6/5447934610.jpg 1641w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: ETFinance.eu</p><p>Fortunately, Meta Trader provides a highly secure way to trade. The application uses data encryption by default, protects your information, and keeps the exchange’s database secure and protected at all times.</p><p>All in all, ETFinane is a secure platform that follows extensive know your customer (KYC) and anti-money laundering (AML) procedures. And although some might find these processes cumbersome, it makes the platform safe and secure since there is almost zero chance that you or the platform may lose your money.</p><h2>Deposits and withdrawals</h2><figure class="image"><img alt="ETFinance review open account" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e6/5439b895df.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e6/5439b895df.jpg 300w, https://cimg.co/w/rw-attachments/2/5e6/5439b895df.jpg 600w, https://cimg.co/w/rw-attachments/3/5e6/5439b895df.jpg 720w, https://cimg.co/w/rw-attachments/4/5e6/5439b895df.jpg 900w, https://cimg.co/w/rw-attachments/0/5e6/5439b895df.jpg 1127w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: ETFinance.eu</p><p>ETFinance doesn’t charge fees for both deposits and withdrawals, so they are <strong>free</strong> for all platform users. However, the platform’s terms and conditions specify a withdrawal fee of up to 50 euros is applied for all <strong>inactive traders</strong> withdrawing funds from ETFinance.</p><p><strong>A minimal deposit is EUR 215.</strong></p><p>The platform accepts deposits in all sorts of currencies, but the base currencies of the account can be <i>USD</i>, <i>EUR</i>, or <i>GBP</i>. All other deposited currencies might incur a <strong>conversion fee</strong>.</p><p>The supported deposit and withdrawal methods include:</p><ul><li><strong>Credit and debit cards</strong> such as VISA, Maestro, and Mastercard.</li><li><strong>Popular e-wallets</strong>, including Skrill, Neteller, and</li><li><strong>Bank transfers</strong> via SEPA, SWIFT, and Trustly.</li></ul><figure class="image"><img alt="ETFinance review deposits and withdrawals" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e6/53b6182836.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e6/53b6182836.jpg 300w, https://cimg.co/w/rw-attachments/2/5e6/53b6182836.jpg 600w, https://cimg.co/w/rw-attachments/3/5e6/53b6182836.jpg 720w, https://cimg.co/w/rw-attachments/4/5e6/53b6182836.jpg 900w, https://cimg.co/w/rw-attachments/0/5e6/53b6182836.jpg 1362w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: ETFinance.eu</p><p>Unfortunately, the platform does not accept cryptocurrencies, nor PayPal deposits.</p><p>In order to initiate a withdrawal, you have to provide your full name, IBAN number or bank statement including the IBAN, full details about the method of deposit used, and full details about the method of withdrawal.</p><p>It can take up to 2 or 3 days for the deposit or withdrawal to reach our account. Withdrawal requests submitted before 11 AM GMT on working days are processed on the same day, while the requests submitted after 11 AM GMT will be processed the following business day.</p><figure class="image"><img alt="ETFinance. eu review crypto" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e6/5441e568f4.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e6/5441e568f4.jpg 300w, https://cimg.co/w/rw-attachments/2/5e6/5441e568f4.jpg 600w, https://cimg.co/w/rw-attachments/3/5e6/5441e568f4.jpg 720w, https://cimg.co/w/rw-attachments/4/5e6/5441e568f4.jpg 900w, https://cimg.co/w/rw-attachments/0/5e6/5441e568f4.jpg 1706w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: ETFinance.eu<a class="button-more button-more--gradient" href="https://cryptonews.com/ext/etfinance" rel="noindex nofollow" target="_blank">Go to Exchange</a><br/><span class="fs-12">81% of retail investor accounts lose money when trading CFDs with this provider.</span></p><h2>Conclusion</h2><p>ETFinance is a strictly regulated broker than adheres to all EU regulatory policies and requirements to be a fair and trustworthy trading platform. Thus, it might not be the best choice for a hardcore cypherpunk, but it is an excellent choice for a regular trader. It offers a wide range of CFDs to invest, as well as a robust trading engine for both newbies and professionals alike. The platform doesn’t charge commissions for placing trades but earns its revenue through spreads.</p><p>All in all, it is a great choice for experienced traders, as well as individual investors who want to try their luck bitcoin trading. You can even open a free demo account with virtual money before you go on to invest real money.</p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

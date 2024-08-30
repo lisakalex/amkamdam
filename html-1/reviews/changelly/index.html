@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/changelly/">Changelly</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="5e1dac8656067.png" class="img-fluid img-circle author__image author__image--has-bg mb-15" loading="auto" src="https://cimg.co/reviewlogo/33/5e1dac8656067.png"/>
+<div>
+<a class="c-black" href="#"><b>Changelly</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/changelly" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+<div class="fs-12"></div>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="changelly"> Changelly</h1>
+<p>In this review, we examine Changelly - a non-custodial cryptocurrency exchange that allows you to buy and sell over 150 cryptocurrencies using your bank card, transfer or other cryptocurrencies. It is simple, secure, fast, and super convenient. But is it a legit exchange? What are its fees compared with other instant exchanges? We also review Changelly’s key features, perks, how it works, where is it located, what coins does it support and other interesting facts about this cryptocurrency exchange. Read on!</p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/changelly" target="_blank">Changelly</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://support.changelly.com/support/tickets/new" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>Hong Kong, HK</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>14.7 BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>Yes</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>No</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>Fintechvision Ltd.</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+                                                                                                                                                        Credit Card,
+                                                                                                                                                                                                                                        Debit Card,
+                                                                                                                                                                                                                                        Crypto Transfer,
+                                                                                                                                            </b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>USD, EUR, GBP</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>25000</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>-</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>Medium (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+</ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+</ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/213/14747/5e30a3fa569c9.jpg" srcset="https://cimg.co/review/213/14747/responsive-images/5e30a3fa569c9___media_library_original_920_525.jpg 920w, https://cimg.co/review/213/14747/responsive-images/5e30a3fa569c9___media_library_original_900_513.jpg 900w, https://cimg.co/review/213/14747/responsive-images/5e30a3fa569c9___media_library_original_720_410.jpg 720w, https://cimg.co/review/213/14747/responsive-images/5e30a3fa569c9___media_library_original_600_342.jpg 600w, https://cimg.co/review/213/14747/responsive-images/5e30a3fa569c9___media_library_original_300_171.jpg 300w" width="920"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/213/14748/5e30a3fb171b3.jpg" data-srcset="https://cimg.co/review/213/14748/responsive-images/5e30a3fb171b3___media_library_original_920_523.jpg 920w, https://cimg.co/review/213/14748/responsive-images/5e30a3fb171b3___media_library_original_900_511.jpg 900w, https://cimg.co/review/213/14748/responsive-images/5e30a3fb171b3___media_library_original_720_409.jpg 720w, https://cimg.co/review/213/14748/responsive-images/5e30a3fb171b3___media_library_original_600_341.jpg 600w, https://cimg.co/review/213/14748/responsive-images/5e30a3fb171b3___media_library_original_300_170.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="920"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/213/14749/5e30a3fc0877e.jpg" data-srcset="https://cimg.co/review/213/14749/responsive-images/5e30a3fc0877e___media_library_original_1370_877.jpg 1370w, https://cimg.co/review/213/14749/responsive-images/5e30a3fc0877e___media_library_original_1200_768.jpg 1200w, https://cimg.co/review/213/14749/responsive-images/5e30a3fc0877e___media_library_original_900_576.jpg 900w, https://cimg.co/review/213/14749/responsive-images/5e30a3fc0877e___media_library_original_720_460.jpg 720w, https://cimg.co/review/213/14749/responsive-images/5e30a3fc0877e___media_library_original_600_384.jpg 600w, https://cimg.co/review/213/14749/responsive-images/5e30a3fc0877e___media_library_original_300_192.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1370"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/213/14750/5e30a3fcd484f.jpg" data-srcset="https://cimg.co/review/213/14750/responsive-images/5e30a3fcd484f___media_library_original_1873_855.jpg 1873w, https://cimg.co/review/213/14750/responsive-images/5e30a3fcd484f___media_library_original_1200_547.jpg 1200w, https://cimg.co/review/213/14750/responsive-images/5e30a3fcd484f___media_library_original_900_410.jpg 900w, https://cimg.co/review/213/14750/responsive-images/5e30a3fcd484f___media_library_original_720_328.jpg 720w, https://cimg.co/review/213/14750/responsive-images/5e30a3fcd484f___media_library_original_600_273.jpg 600w, https://cimg.co/review/213/14750/responsive-images/5e30a3fcd484f___media_library_original_300_136.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1873"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/213/14751/5e30a3fd9de36.jpg" data-srcset="https://cimg.co/review/213/14751/responsive-images/5e30a3fd9de36___media_library_original_1727_842.jpg 1727w, https://cimg.co/review/213/14751/responsive-images/5e30a3fd9de36___media_library_original_1200_585.jpg 1200w, https://cimg.co/review/213/14751/responsive-images/5e30a3fd9de36___media_library_original_900_439.jpg 900w, https://cimg.co/review/213/14751/responsive-images/5e30a3fd9de36___media_library_original_720_351.jpg 720w, https://cimg.co/review/213/14751/responsive-images/5e30a3fd9de36___media_library_original_600_292.jpg 600w, https://cimg.co/review/213/14751/responsive-images/5e30a3fd9de36___media_library_original_300_146.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1727"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/213/14752/5e30a3fe6a213.jpg" data-srcset="https://cimg.co/review/213/14752/responsive-images/5e30a3fe6a213___media_library_original_1718_791.jpg 1718w, https://cimg.co/review/213/14752/responsive-images/5e30a3fe6a213___media_library_original_1200_552.jpg 1200w, https://cimg.co/review/213/14752/responsive-images/5e30a3fe6a213___media_library_original_900_414.jpg 900w, https://cimg.co/review/213/14752/responsive-images/5e30a3fe6a213___media_library_original_720_331.jpg 720w, https://cimg.co/review/213/14752/responsive-images/5e30a3fe6a213___media_library_original_600_276.jpg 600w, https://cimg.co/review/213/14752/responsive-images/5e30a3fe6a213___media_library_original_300_138.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1718"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/213/14753/5e30a3ff09f89.jpg" data-srcset="https://cimg.co/review/213/14753/responsive-images/5e30a3ff09f89___media_library_original_922_578.jpg 922w, https://cimg.co/review/213/14753/responsive-images/5e30a3ff09f89___media_library_original_900_564.jpg 900w, https://cimg.co/review/213/14753/responsive-images/5e30a3ff09f89___media_library_original_720_451.jpg 720w, https://cimg.co/review/213/14753/responsive-images/5e30a3ff09f89___media_library_original_600_376.jpg 600w, https://cimg.co/review/213/14753/responsive-images/5e30a3ff09f89___media_library_original_300_188.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="922"/></div>
+</div>
+</div><h2>Key features</h2><p>Changelly is one of the most popular cryptocurrency instant-exchanges and is trusted by over 2 million customers (as per the exchange’s website). Unlike regular exchanges, it facilitates crypto-to-crypto exchanges without forcing you to open an exchange account or go through extensive KYC procedures, and does not hold your funds in a custodial wallet. Besides, it works as a fiat-to-crypto gateway and allows you to purchase cryptocurrency directly with a bank card, and has an integrated ability to sell crypto via SEPA for European customers.</p><ul><li><strong>A quick and reliable way to buy and exchange crypto instantly.</strong> Changelly does not require signing up for exchanging altcoins, which is a critical element of its frictionless experience. Fiat-to-crypto transactions do require some identity information, though.</li><li><strong>Over 150 supported cryptocurrencies with more than 25 000 pairs.</strong> Such a vast variety of coin pairs makes Changelly an extremely versatile exchange.</li><li><strong>Non-custodial service.</strong> Changelly acts as an intermediary service and does not hold your funds at any point.</li><li><strong>Convenient Changelly mobile app.</strong> It lets you buy and swap cryptocurrencies on the go and works on both Android and iOS mobile devices.</li><li><strong>Excellent customer support with over 2 million satisfied users.</strong> Changelly customer support is super-friendly and convenient. Reach out to them via the built-in chat on the website, email <a class="__cf_email__" data-cfemail="7f0c0a0f0f100d0b3f1c171e11181a131306511c1012" href="/cdn-cgi/l/email-protection">[email protected]</a> or its mobile app.</li></ul><figure class="image"><img alt="Changelly review 2021" class="content-img lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e3/7bca0c4f00.jpg" data-srcset="https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1254_836.jpg 1254w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_900_600.jpg 900w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_720_480.jpg 720w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_600_400.jpg 600w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_300_200.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1254"/></figure><p>In sum, it is an experienced player offering a polished service for thousands of users all over the globe.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/changelly" rel="noindex nofollow" target="_blank">Visit Changelly</a></p><h3>How Changelly works</h3><p>Knowing that Changelly is no-account and non-custodial exchange, it raises a question:</p><p>How does Changelly work?</p><p>Changelly works together with other cryptocurrency exchanges such as <a href="/reviews/binance"><strong>Binance</strong></a>, <a href="/reviews/bittrex"><strong>Bittrex</strong></a>, <a href="/reviews/poloniex"><strong>Poloniex</strong></a>, and others. Its trading algorithm makes bids and asks on these platforms and displays you the best possible rate.</p><figure class="image"><img alt="How Changelly works" class="content-img lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e3/7bc34818f2.jpg" data-srcset="https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1254_836.jpg 1254w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_900_600.jpg 900w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_720_480.jpg 720w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_600_400.jpg 600w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_300_200.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1254"/></figure><p>That’s why rates tend to vary until you make a transaction, or choose to fix the rate. Once they receive your funds, you get the exchanged coins in return back to your wallet.</p><h2>Background</h2><p>Changelly is a longstanding player in the cryptoverse that has been operating since 2013. It was founded a startup by MinerGate, a bitcoin ming pool, and was turned into an independent exchange in 2014. In 2016, the exchange has undergone big technological changes. Since then, it has served more than 2 million users worldwide.</p><h4>Who owns Changelly?</h4><p>Changelly is operated by Fintechvision Limited, a legal entity in Hong Kong. Currently, the exchange is led by Eric Benz - an experienced fintech professional who has been involved in the cryptosphere since 2012 as a founder, investor, and board director.</p><figure class="image"><img alt="Changelly CEO" class="content-img lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e3/0a05e4b473.jpg" data-srcset="https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1254_836.jpg 1254w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_900_600.jpg 900w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_720_480.jpg 720w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_600_400.jpg 600w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_300_200.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1254"/></figure><p>Besides Eric Benz, other key Changelly contacts include the following team members.</p><figure class="image"><img alt="Changelly team" class="content-img lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e3/0a0234afc4.jpg" data-srcset="https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1254_836.jpg 1254w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_900_600.jpg 900w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_720_480.jpg 720w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_600_400.jpg 600w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_300_200.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1254"/></figure><h4>Where is Changelly located?</h4><p>Changelly is based in Hong Kong, HK, China, and currently does not have a physical office that could be attended by its customers. Its physical address is 1801-03, 18/F., East Town No.41 Lockhart Road, Wan Chai, Hong Kong.</p><p>Nevertheless, it’s services are available in the vast majority of countries worldwide.</p><h4>Can you use Changelly in the US?</h4><p>Unfortunately, according to Changelly’s terms and conditions, all United States users are not allowed to use Changelly exchange service, along with the citizens of:</p><ul><li>Cuba</li><li>Iran</li><li>North Korea</li><li>Crimea</li><li>Sudan</li><li>Syria</li><li>Bangladesh</li><li>Bolivia</li><li>Other countries on the U.S. sanctions list.</li></ul><p>However, the regulations in the United States tend to vary from state to state, so be sure to check with Changelly’s support if these restrictions truly apply in your situation.</p><h2>Changelly Fees</h2><p>Fees are one of the top factors that either make or break a deal for the most cryptocurrency users. So what are Changelly fees and how much does Changelly charge for its services?</p><p>Well, Changelly is a convenient service that makes buying and swapping cryptocurrencies extremely easy and simple. Inevitably, it charges slightly more than centralized exchange services.</p><p>All trades at Changelly have a fixed <strong>0.25% fee</strong>. Also, there are two types of exchange rates to choose from:</p><ul><li><strong>Floating rate.</strong> The amount of crypto you’re getting may change according to the market conditions.</li><li><strong>Fixed rate.</strong> You will get precisely as much crypto as Changelly’s calculator displays.</li></ul><p>It’s worth mentioning that Changelly also charges blockchain network fees that come with every transaction and add to the total costs. Nevertheless, it does offer to cover them from time to time, particularly during the promotional and festive periods.</p><p>Here’s how Changelly matches up with its competitors:</p><figure class="table"><table><tbody><tr><th>Exchange</th><th>Fees, %</th><th>Mandatory registration/KYC verification</th></tr><tr><th>Changelly</th><th>0.25% / ~ 10% for fiat purchases</th><th>No, only for fiat purchases</th></tr><tr><th>ShapeShift</th><th>0.5%-4% / No fiat</th><th>Yes</th></tr><tr><th>ChangeNOW</th><th>2-4% / ~ 10% for fiat purchases</th><th>No</th></tr><tr><th>SwitchHere</th><th>~10% for fiat purchases</th><th>Yes, for purchases above $100)</th></tr><tr><th>Coinbase</th><th>0.5% / ~5% for fiat purchases</th><th>Yes + KYC</th></tr><tr><th>Binance</th><th>0.1% / ~ 10% for fiat purchases</th><th>Yes</th></tr></tbody></table></figure><p>As you can see, Changelly’s crypto swap fees are rather competitive but centralized exchanges like Binance can still offer better rates. However, Changelly is a way more convenient option for direct altcoin trades due to its wide range of pairs. For example, you would have to perform at least 2 or 3 trades to successfully exchange XRP to ARK on <a href="https://cryptonews.com/ext/binance">Binance</a>, while Changelly enables you to do it with a single trade.</p><p>Changelly’s fiat-to-crypto purchases incur the following fees:</p><ul><li>USD 4.99 or 3.5% MoonPay fee for purchases above USD 145</li><li>4% Changelly service fee.</li></ul><p>All of the prices and presented rates are subject to the market price fluctuations, so at times you may get better deals.</p><p>Last but not least, Changelly works with <strong>Bits of Gold</strong>, which enables Europeans and Israelians to sell cryptocurrencies for euros. The standard fee for a bitcoin sale via their platform is 6.5% and you get credited directly to your European SEPA bank account. The minimum daily amount is EUR 250 and you can sell a max. of EUR 5000 per day. The settlement time is between 1 and 72 hours.</p><figure class="image"><img alt="Changelly review 2021" class="content-img lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e3/7c341d29fb.jpg" data-srcset="https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1254_836.jpg 1254w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_900_600.jpg 900w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_720_480.jpg 720w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_600_400.jpg 600w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_300_200.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1254"/></figure><p>In brief, Changelly is a solid instant-swaps service in terms of fees. They can offer much better rates than some of their competitors, although fiat-to-crypto purchases can be more expensive compared with other exchanges at times.</p><h2>How safe is Changelly?</h2><p>Crypto traders want to deal only with credible and secure exchanges, and Changelly definately ticks all the boxes.</p><figure class="image"><img alt="Changelly 2021 secure" class="content-img lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e3/7c5ed1620d.jpg" data-srcset="https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1254_836.jpg 1254w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_900_600.jpg 900w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_720_480.jpg 720w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_600_400.jpg 600w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_300_200.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1254"/></figure><p>Changelly is a non-custodial exchange, which means that it only facilitates the swaps and does not hold your funds by design. Instead, it receives funds directly from your wallet and sends it back to your provided wallet once the swap is completed. As such, Changelly lets you live to the well-known crypto adage coined by Andreas M. Antonopoulos: “Your keys, your coins. Not your keys, not your coins.” Here, only you are in charge of your keys and your coins.</p><p>Regardless, you have the ability to open an account with Changelly. The benefits of creating an account include:</p><ul><li>Having a full transaction history (for accounting purposes, etc.).</li><li>Easier crypto purchases with fiat.</li><li>Faster exchanges since you don’t need to pass the KYC procedure multiple times.</li></ul><p>Making an account is extremely simple since all you need to do is enter and verify your email address. In terms of account security, you can protect it with <strong>Google Authenticator (2FA).</strong></p><h3>Is Changelly legit?</h3><p>Changelly appears to be a 100% legit cryptocurrency exchange service and boasts of serving over 2 million users on its website. But who’s a better judge here than the exchange’s previous customers?</p><p>Looking at online reviews, they are mostly positive. For instance, its app is rated 4.5/5 on Google Play Store and the platform itself has solid 1,350 reviews on TrustPilot with an average rating of 4.4 out of 5. Here’s what some of the reviewers say:</p><p><i>“I created an Trustpilot account only for give 5 stars to Changelly, support team and security team are really great! They solve all of your problems and try to help you the most. They really deserve recognition for being like that. Keep in that way, guys!”</i></p><p><i>“Fast and trustable. The second time I used this exchanger and counting on it in future transactions.”</i></p><p><i>“Absolutely the best Exchange online at the moment. I want to share with you my experiences with Changelly and if anything goes wrong way, you have always 24/7 support out of whom I would like to pick up one of the best called Marceline. Keep on doing the superb job!”</i></p><p>Besides, Changelly also has a section of user reviews on its website. You can read them by <a href="https://changelly.com/reviews">clicking here</a>.</p><figure class="image"><img alt="Changelly customer reviews" class="content-img lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e3/7c60fe14b0.jpg" data-srcset="https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1254_836.jpg 1254w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_900_600.jpg 900w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_720_480.jpg 720w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_600_400.jpg 600w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_300_200.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1254"/></figure><p>Regardless, there are also some worse reviews posted by people who are somewhat confused by Chagelly’s AML and KYC policy measures.</p><h4>AML and KYC Policy</h4><p>Changelly strives to protect its users from scammers and fraudulent schemes, so in order to prevent money laundering, it has to employ a standard AML/KYC procedure.</p><p>Hence, if your transaction appears to be suspicious, it may be paused and selected for a check. In such a case, you will receive an email asking you to provide the following identification documents:</p><ul><li>A high-quality picture of your ID or driving license</li><li>Proof of the origin of funds</li><li>Other relevant documentation</li></ul><p>Once you pass the procedure, your funds will be exchanged and released.</p><h2>Design and usability</h2><p>Swapping coins with Changelly is as easy as pie. Whether you’re a beginner or a seasoned trader, you’re always just a few clicks away from exchanging your money.</p><figure class="image"><img alt="Changelly review 2021" class="content-img lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e3/7bbe05e6f9.jpg" data-srcset="https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1254_836.jpg 1254w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_900_600.jpg 900w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_720_480.jpg 720w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_600_400.jpg 600w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_300_200.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1254"/></figure><p>Here’s how easy it is to use Changelly.</p><h3>How to use Changelly</h3><p>You can exchange cryptocurrencies using Changelly with three simple steps:</p><p><strong>Choose cryptocurrency that you want to trade.</strong> Examine the present exchange rate and mind that the operation is going cost you an additional 0.25% service fee. Also, you need to insert your wallet address where Changelly will send your cryptocurrency.</p><figure class="image"><img alt="Changelly exchange" class="content-img lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e3/7c7083a4a8.jpg" data-srcset="https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1254_836.jpg 1254w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_900_600.jpg 900w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_720_480.jpg 720w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_600_400.jpg 600w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_300_200.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1254"/></figure><p><strong>Confirm the transaction.</strong> Select whether you want to use a fixed or best conversion rate available and confirm the transaction. Note that you don’t have to sign up for the exchange but if you do, you can save your transaction history as well as enjoy other perks.</p><figure class="image"><img alt="Changelly transaction" class="content-img lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e3/7c76e922cb.jpg" data-srcset="https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1254_836.jpg 1254w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_900_600.jpg 900w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_720_480.jpg 720w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_600_400.jpg 600w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_300_200.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1254"/></figure><ol><li><strong>Send the transaction.</strong> Changelly works with a number of trading platforms to get the best rates. The platform provides you with their address for the dedicated transaction where you send the coins you want to exchange. You have up to 36 hours to complete the transaction. Once you do so, the funds show up in your specified wallet <strong>within 30 minutes</strong>.</li></ol><p>Here’s a short video on how this process typically goes:</p><p>As mentioned in the KYC/AML section above, sometimes your transaction can trigger the system for an additional check-up, which in turn can prolong the process.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/changelly" rel="noindex nofollow" target="_blank">Go to Changelly</a></p><h4>How to use Changelly to buy bitcoin?</h4><p>Besides exchanging altcoins for bitcoin, each other or vice versa, you can also buy bitcoin and altcoins via Changelly using its fiat-to-crypto gateway. You can use your Visa or Mastercard credit or debit card to buy bitcoin and/or any of the supported altcoins directly with U.S Dollars (USD), Euros (EUR), and Great Britain Pounds (GBP).</p><figure class="image"><img alt="buy bitcoin changelly" class="content-img lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e3/7c6ae0783f.jpg" data-srcset="https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1254_836.jpg 1254w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_900_600.jpg 900w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_720_480.jpg 720w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_600_400.jpg 600w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_300_200.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1254"/></figure><p>To do so, simply follow the instructions after clicking the “Buy crypto” button.</p><figure class="image"><img alt="Buy bitcoin with Changelly" class="content-img lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e3/0a1e7a3b57.jpg" data-srcset="https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1254_836.jpg 1254w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_900_600.jpg 900w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_720_480.jpg 720w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_600_400.jpg 600w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_300_200.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1254"/></figure><p>The service is available in the vast majority of European countries, as well as Australia, Brazil, Canada, Hong Kong, Japan, Mexico, Russia, South Africa, and South Korea.</p><p>Fiat-to-crypto swaps do require you to pass some Know Your Customer (KYC) information. Sharing some basic information lets you buy up to USD 150 worth of crypto per month while verifying your identity and residence address allows you to buy up to USD 2,000 worth of bitcoin and altcoins per day, and total up to USD 20,000 per month.</p><h3>Changelly mobile app</h3><p>You don’t have to access Changelly services through the web since it has a dedicated app for both Android and iOS devices.</p><figure class="image"><img alt="Changelly mobile app" class="content-img lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e3/7c79b568bf.jpg" data-srcset="https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1254_836.jpg 1254w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_900_600.jpg 900w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_720_480.jpg 720w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_600_400.jpg 600w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_300_200.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1254"/></figure><p>The app is designed as well as the website and includes all the features of it, too. As a result, you can buy or switch cryptocurrencies directly from your phone.</p><p>See the following video to learn more about using Changelly’s mobile app.</p><h3>Changelly customer support</h3><p>Changelly provides terrific customer support - as our conversation with one of their support agents has proved it.</p><figure class="image"><img alt="Changelly customer support" class="content-img lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e3/0a271b5549.jpg" data-srcset="https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1254_836.jpg 1254w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_900_600.jpg 900w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_720_480.jpg 720w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_600_400.jpg 600w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_300_200.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1254"/></figure><p>You can reach Changelly support via:</p><ul><li>Support chat on the website</li><li>Support chat on in the mobile app</li><li>Email for specific inquiries: support@changelly</li><li>Submit a ticket or browse their <a href="https://support.changelly.com/support/home">extensive knowledge base</a>.</li></ul><p>It may also help that the Changelly's website is available in 12 languages: English, Spanish, Korean, Arabic, German, Portuguese, Russian, French, Hindi, Turkish, Chinese, and Japanese.</p><h2>Deposit and withdrawal options</h2><p>Changelly platform does not allow for traditional deposits or withdrawals since it is a non-custodial exchange. The funds are always deposited back to your wallet, and there are no extra fees attached except for the blockchain fees.</p><p>As a result, you can swap your funds using simple cryptocurrency transactions or using a credit/debit bank card.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/changelly" rel="noindex nofollow" target="_blank">Visit Changelly</a></p><h2>Frequently asked questions (FAQ)</h2><h4>What coins does Changelly support?</h4><p>Changelly supports more than 150 cryptocurrencies. The complete list of supported coins can be <a href="https://changelly.com/supported-currencies">found here</a>.</p><h4>How long does it take to exchange coins with Changelly?</h4><p>According to Changelly, a typical switch takes between 5 to 30 minutes. The time may change if your swap is subjected to the KYC check.</p><h4>How many confirmations does Changelly accept?</h4><p>Transactions to the Changelly wallet must get at least two confirmations for them to start processing your transaction.</p><h4>How to delete a Changelly account?</h4><p>Deleting your Changelly account is as easy as signing up. All you need to do is go to your account settings and look for a “Delete Account” button at the bottom of the page.</p><figure class="image"><img alt="Changelly delete account" class="content-img lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e3/7c7f0d3995.jpg" data-srcset="https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1254_836.jpg 1254w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_1200_800.jpg 1200w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_900_600.jpg 900w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_720_480.jpg 720w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_600_400.jpg 600w, https://cimg.co/news/22795/5000/responsive-images/5b024d26b5563___media_library_original_300_200.jpg 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1254"/></figure><h2>Changelly Review: Conclusion</h2><p>Changelly is a simple and highly convenient way to exchange cryptocurrencies. Its service lives up to what one would expect from one of the oldest instant exchanges out there, providing a frictionless experience at affordable rates worldwide. Its users are happy with the service, and it has left us with a favorable impression, too. It’s a particularly great place for altcoin purchases and swaps - a must-have service in every crypto traders arsenal.</p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

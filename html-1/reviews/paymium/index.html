@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/paymium/">Paymium</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="5fbb944c47f18.jpg" class="img-fluid img-circle author__image author__image--has-bg mb-15" loading="auto" src="https://cimg.co/reviewlogo/60/5fbb944c47f18.jpg"/>
+<div>
+<a class="c-black" href="#"><b>Paymium</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/paymium" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+<div class="fs-12"></div>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="paymium"> Paymium</h1>
+<p>Paymium is one of the oldest European cryptocurrency exchanges, offering Bitcoin trading pairs since 2011. One of their biggest points of pride is that they’ve been hack-free since 2013, when the industry was still very young and inexperienced. Their interface is extremely intuitive and devoid of any potentially confusing add-ons, while users can choose between a basic and an advanced view of trading possibilities. As they only offer the BTC/EUR trading pair with basic market and limit orders and low fees, they’re aware of what they’re exactly doing, and they’re doing it well.</p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/paymium" target="_blank">Paymium</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://www.paymium.com/page/help/contact" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>Paris, France</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>0.9 BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>Yes</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>No</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>PAYMIUM</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+                                                                                                                                                        Bank Transfer,
+                                                                                                                                                                                                                                        Credit Card,
+                                                                                                                                                                                                                                        Debit Card,
+                                                                                                                                                                                                                                        Crypto Transfer,
+                                                                                                                                            </b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>EUR</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>2</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>-</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>Medium (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+<li>Negative maker fees Generous referral program Huge deposit and withdrawal limits Cold storage for 99% of all BTC Regulated to operate within Europe Detailed advanced trading site Excellent mobile support</li> </ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+<li>High deposit fees on cards Only one cryptocurrency trading pair Customer support languages are limited</li> </ul>
+</div>
+</div>
+</div><h2>Paymium Review: Key Features</h2><figure class="image"><img alt="Paymium review" sizes="100vw" src="https://cimg.co/w/rw-attachments/1/5fb/bdb6ed484f.jpg" srcset="https://cimg.co/w/rw-attachments/1/5fb/bdb6ed484f.jpg 300w, https://cimg.co/w/rw-attachments/2/5fb/bdb6ed484f.jpg 600w, https://cimg.co/w/rw-attachments/3/5fb/bdb6ed484f.jpg 720w, https://cimg.co/w/rw-attachments/4/5fb/bdb6ed484f.jpg 900w, https://cimg.co/w/rw-attachments/0/5fb/bdb6ed484f.jpg 1546w"/></figure><ul><li>The most important aspect of Paymium is that it offers a single trading pair: BTC/EUR. There are no other supported cryptocurrencies, and while the team is currently working on integrating more fiat currencies, euro is the go-to at this time.</li><li>Paymium offers cash-back for maker orders. In other words, they “charge” a negative transaction fee (-0.1%) for maker orders, to reward the fact that they provide liquidity to the platform.</li><li>The only deposit and withdrawal fee is a flat EUR 0.99 when withdrawing euros. The rest is free, while the Bitcoin network fee is covered by the exchange.</li><li>An Advanced Trading section offers a detailed overview of Bitcoin’s price movements and other relevant data, as well as current bids and asks.</li><li>The KYC procedure is fast, especially if users submit their passport or some form of ID with a MRZ (machine readable zone), and can be completed within minutes.</li><li>Security: fiat is stored in an insured bank account, while almost all BTC on the platform is in a cold storage vault.</li></ul><h2>Paymium History and Background</h2><p>Paymium was founded in 2011 in France as the first European Bitcoin exchange, with headquarters in Paris; a mere three years after Bitcoin sprung into existence. It was co-founded by Pierre Noizat, who is still the company’s CEO, under the name Bitcoin Central. The company says they stay in Europe to battle for crypto acceptance and ensure a secure environment for their customers’ interests, while keeping in line with all the required legislation.</p><figure class="image"><img alt="Paymium review location" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5fb/bdc001320a.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5fb/bdc001320a.jpg 300w, https://cimg.co/w/rw-attachments/2/5fb/bdc001320a.jpg 600w, https://cimg.co/w/rw-attachments/3/5fb/bdc001320a.jpg 720w, https://cimg.co/w/rw-attachments/4/5fb/bdc001320a.jpg 900w, https://cimg.co/w/rw-attachments/0/5fb/bdc001320a.jpg 1588w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>In 2018, the company held an ICO for Blockchain.io, their platform dedicated to altcoins. The token sale raised them USD 3.8 million in total, with USD 2.3 million contributed from Paymium directly. The new exchange boasts a hybrid model, with decentralized settlement on fair exchange protocols, while also offering a platform for the launch of third-party ICOs and market-making services.</p><p>Since 2018, Paymium has also worked on increasing their deposit and withdrawal limits considerably. This has been made possible through their banking partner TEN31, a subsidiary of Munich-based WegBank. This means that now, the deposit and withdrawal limits for fiat are a whopping EUR 100,000 daily, and EUR 500,000 on a monthly basis.</p><p>In April 2020, Paymium went ahead with a decision that would benefit all their traders: they introduced negative transaction fees on maker orders in an attempt to encourage more liquidity to flow into the exchange. Maker orders are the ones entered into the order book until the conditions are met, which means they often stay there for a certain period of time, adding liquidity to the exchange. Taker orders, on the other hand, are immediately matched against existing orders in the order book, removing liquidity, so those fees tend to be higher as a way to disincentivize this behavior. The introduction of negative maker order fees means that users who contribute to the platform’s liquidity will be rewarded with 0.1% cash-back on the order.</p><p>In May 2020, the exchange launched its referral program, which gives users 30% of the trading fee paid by any friends who join through their link, as well as the chance to win 1 ETH per month in a raffle.</p><p>During the summer of 2020, Paymium sent in their application for registration as a digital asset service provider, which is still in progress, as part of their objective to become the first registered exchange platform (excluding broker).</p><p>In August 2020, Paymium joined the Liquid Network, which is led by Blockstream. This enables their users to generate an L-BTC address on Paymium if they want the benefit of faster and even more confidential transactions.</p><figure class="image"><img alt="paymium review partners" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5fb/bdba405782.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5fb/bdba405782.jpg 300w, https://cimg.co/w/rw-attachments/2/5fb/bdba405782.jpg 600w, https://cimg.co/w/rw-attachments/3/5fb/bdba405782.jpg 720w, https://cimg.co/w/rw-attachments/4/5fb/bdba405782.jpg 900w, https://cimg.co/w/rw-attachments/0/5fb/bdba405782.jpg 1490w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Paymium partners. Source: Paymium.com</p><p>Pierre Noizat, Paymium’s co-founder and CEO, began his career in encrypted television in the US, one of the first public applications of cryptography. He has also written several books about Bitcoin in French. The exchange’s CTO is Dominique Rodrigues, a PhD graduate from the École Centrale Paris, with more than 15 years of experience with the French Atomic Energy Commission (CEA). Last but not least, Paymium’s CFO is Laetitia Zito, who also handles the customer service side of the business. Zito has a Master’s degree in Management Control and Finance from ESSEC Business School, along with over 10 years of experience in finance, risk, compliance, and related fields.</p><p>Paymium was the first European Bitcoin marketplace that complied with EU regulations on payment services. They are available in the EU and some other countries, but with a hefty list of restricted countries that includes the United States.</p><p>When registering, users will have to provide an ID and make a video (passports are preferred, but a national identity card, residence permit or driver’s license are all acceptable). Once that is completed, they also have to send in proof of residence to fulfill the platform’s KYC requirements. There are no tiers.</p><h2>Paymium Fees Overview</h2><p>Paymium’s approach to trading fees is relatively straightforward: as there are no tiers, the same rules apply to everybody. Here’s a complete overview:</p><figure class="table"><table><tbody><tr><th>Fee type</th><th>Cost</th></tr><tr><th>Maker</th><th>-0.1%</th></tr><tr><th>Taker</th><th>0.5%</th></tr><tr><th>Incoming SEPA EUR wire</th><th>Free</th></tr><tr><th>Outgoing SEPA EUR wire</th><th>EUR 0.99</th></tr><tr><th>Incoming Bitcoin transfer</th><th>Free</th></tr><tr><th>Outgoing Bitcoin transfer</th><th>Free</th></tr><tr><th>Bitcoin network commission</th><th>free (the exchange pays for it)</th></tr><tr><th>Credit card / Apple Pay BTC Purchase</th><th>8%</th></tr></tbody></table></figure><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/paymium" rel="noindex nofollow" target="_blank">Visit Paymium</a></p><h2>Paymium Design and Usability</h2><p>Navigating Paymium’s website is extremely simple and intuitive. When first signing up, there is absolutely no need to provide any information other than an email address and set a password (you can add a referral code from a friend if you have one). You have to agree to the Terms of Service and you can subscribe to their newsletter, but strictly speaking, you don’t have to. After activating your account through an emailed link, you’ll have to leave them your phone number for verification purposes, as well as other general information about your identity. The whole process takes mere minutes and you’re free to start trading.</p><p>One of the biggest advantages of Paymium is how quickly you can get the KYC process over with. This is because they ask users to provide either a passport or any other document with an MRZ (Machine Readable Zone), so the process is automatic. In the case of a passport, it only takes a few seconds. However, if the customer decides to add a document with no MRZ, it has to be reviewed manually, which takes significantly longer.</p><p>Since Paymium only offers a single trading pair, BTC/EUR, trading is relatively straightforward. Users who want to purchase Bitcoin immediately at the market price can do so through the Buy/Sell BTC section—this is called a market order. The transactions are not cancellable and are immediate, with helpful fields indicating exactly how much you’re paying and getting in return.</p><figure class="image"><img alt="Paymium exchange interface" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5fb/bdc2c401ed.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5fb/bdc2c401ed.jpg 300w, https://cimg.co/w/rw-attachments/2/5fb/bdc2c401ed.jpg 600w, https://cimg.co/w/rw-attachments/3/5fb/bdc2c401ed.jpg 720w, https://cimg.co/w/rw-attachments/4/5fb/bdc2c401ed.jpg 900w, https://cimg.co/w/rw-attachments/0/5fb/bdc2c401ed.jpg 1908w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>For users who want to take advantage of some less basic features, there is the Buy/Sell BTC (advanced) section, which allows the placing of advanced purchase orders. This requires the user set the maximum amount they are willing to pay for BTC as the limit, then wait until someone who wants to sell for that amount comes along. This allows for partial order execution as well, by combining several sellers or offers. Paymium Advanced also offers detailed insight into the EUR/BTC market, with all significant data, as well as an overview of bids and asks currently available.</p><p>Since Paymium is a Bitcoin-only exchange, the total number of trading options is severely limited. Aside from the basic options (market and limit orders), Paymium doesn’t offer any fancy trading possibilities, as all of them are covered by Blockchain.io—but this is still a separate platform.</p><p>Paymium offers a mobile app for both Android and iOS users, which is the same as the exchange in terms of possibilities and features offered. While users won’t be getting access to any exclusive features, they will be able to trade on the go, which is a big plus for those who don’t like to be tied to a PC.</p><figure class="image"><img alt="Paymium review mobile app" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5fb/bdc49c4dd8.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5fb/bdc49c4dd8.jpg 300w, https://cimg.co/w/rw-attachments/2/5fb/bdc49c4dd8.jpg 600w, https://cimg.co/w/rw-attachments/3/5fb/bdc49c4dd8.jpg 720w, https://cimg.co/w/rw-attachments/4/5fb/bdc49c4dd8.jpg 900w, https://cimg.co/w/rw-attachments/0/5fb/bdc49c4dd8.jpg 1629w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Last but certainly not least, one of the most important aspects of any exchange is their customer support. Users can contact the team through the live chat icon at the bottom right of the screen or an email, but the exchange does specify that their customer service is only available Monday through Friday during regular business hours. Existing customers also have the option of opening a support ticket through the exchange’s interface. Online reviews from users show an overwhelmingly positive experience with customer service at Paymium.</p><h2>Paymium Security</h2><p>Paymium proudly boasts that they have been “hack-free” since 2013, when the space was still relatively small. This is surely in no small part due to the fact that between 98% and 99% of their BTC holdings are located in cold storage vaults, with cryptographic proof of reserve.</p><p>The exchange is regulated to operate within Europe, now working to become the first registered exchange platform that is not a broker. Even back in 2012, they had insured the euro-denominated deposits on their platform up to EUR 100,000, along with other protections that payment services within Europe can get.</p><p>When first setting up their account, users are notified of the strength of their password and urged to choose a stronger one if necessary. They also offer two-factor authentication (2FA), with a detailed guide on how to set it up. Bitcoin depositing addresses are generated through a single click, but they expire within a week for security reasons. When it comes to withdrawing, Bitcoin transfers are actually not carried out in real time, but in scheduled time slots several times a day, bundled up with all the rest, but you will also have to click on a link within a confirmation email to let them know you want your BTC withdrawn.</p><p>CryptoCompare gives Paymium a C in their Exchange Benchmark Report from July 2020, where the grades range from AA to F, which puts them into a lower tier group of exchanges based on risk.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/paymium" rel="noindex nofollow" target="_blank">Open Free Account</a></p><h2>Paymium Deposit and Withdrawal Methods</h2><p>Paymium lets you fund your account through SEPA bank transfers first and foremost at no charge. You must make sure that the name on the bank account is the same as the name on the exchange account in order for it to go through, and you must indicate a reference number that is unique and linked to your account. You can also buy BTC with your credit card or through Apple Pay, but then you will have to pay a fee of 8%, making it a highly unattractive option compared to bank transfers. On the other hand, credit card purchases allow you to buy BTC with GBP and USD.</p><figure class="image"><img alt="Paymium review deposit and withdrawal methods" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5fb/bdd3364351.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5fb/bdd3364351.jpg 300w, https://cimg.co/w/rw-attachments/2/5fb/bdd3364351.jpg 600w, https://cimg.co/w/rw-attachments/3/5fb/bdd3364351.jpg 720w, https://cimg.co/w/rw-attachments/4/5fb/bdd3364351.jpg 900w, https://cimg.co/w/rw-attachments/0/5fb/bdd3364351.jpg 1653w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>When it comes to withdrawing, the same principle applies: you must confirm the withdrawal through an emailed link, and the platform charges a flat EUR 0.99 fee on all outgoing SEPA wires in EUR, whereas the minimum amount for withdrawal is EUR 20. If you wish to transfer your Bitcoin to another address, there is no fee, and the exchange pays the Bitcoin network commission. Besides, Paymium supports L-BTC withdrawals, thus allowing for faster and more confidential bitcoin transactions.</p><p>Both deposit and withdrawal times can be on the high side, however. When you’re funding your account with fiat, the process can take up to 72 business hours, while the withdrawal times depend on the amount you’ve selected. On the other hand, Bitcoin deposits take the usual amount of time until they’re confirmed, as this is not influenced by the exchange. Bitcoin withdrawals, however, can take longer than that as those transactions are rolled out in scheduled batches throughout the day for security reasons.</p><h2>Conclusion: Paymium Review</h2><p>For customers who have no need beyond simply converting Bitcoin to Euro and vice versa (be it in the market or through a limit order), Paymium is an extraordinary platform with all the necessary features, no frills, and almost negligible fees. As a well-established European Bitcoin exchange, what they do, they do well—but potential customers with needs beyond that will be better off looking elsewhere.</p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

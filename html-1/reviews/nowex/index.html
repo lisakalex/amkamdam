@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/nowex/">NowEx</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="5f1aacfc0058e.png" class="img-fluid img-circle author__image author__image--has-bg mb-15" loading="auto" src="https://cimg.co/reviewlogo/50/5f1aacfc0058e.png"/>
+<div>
+<a class="c-black" href="#"><b>NowEx</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/nowex" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+<div class="fs-12"></div>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="nowex"> NowEx</h1>
+<p>NowEx is a relatively new crypto derivatives exchange founded in Hong Kong and based in Singapore. Here, you can trade perpetual contracts and options of some of the top cryptocurrencies, including Bitcoin, Ethereum, Litecoin, XRP, and many more. All its perpetual contracts and options are denominated in Tether (USDT), which makes it easy to follow your account balances. Besides, the exchange offers contract trading with up to 200x leverage, making it an attractive option for high-risk traders. It also has many user-friendly features like “Onekey reverse,” but keep in mind that it accepts USDT deposits only. Last but not least, there are no forced know-your-customer (KYC) checks on traders, so you can sign up and start trading in minutes.</p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/nowex" target="_blank">NowEx</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://www.nowex.io/web/#/complaint" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>Singapore</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>0.0 BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>Yes</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>No</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>NOWEX</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+                                                                                                                                                        Crypto Transfer,
+                                                                                                                                            </b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>-</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>21</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>NOW</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>Medium (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+<li>20+ cryptocurrency derivatives Low fees USDT-denominated contracts Generous referral program and multiple bonuses No KYC Unique trading features</li> </ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+<li>Limited options for adjusting leverage Some of the web translations could be of better quality No fiat deposits Supports only USDT deposits Limited account security options</li> </ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/230/14831/5f2429f397e53.jpg" srcset="https://cimg.co/review/230/14831/responsive-images/5f2429f397e53___media_library_original_1904_902.jpg 1904w, https://cimg.co/review/230/14831/responsive-images/5f2429f397e53___media_library_original_1200_569.jpg 1200w, https://cimg.co/review/230/14831/responsive-images/5f2429f397e53___media_library_original_900_426.jpg 900w, https://cimg.co/review/230/14831/responsive-images/5f2429f397e53___media_library_original_720_341.jpg 720w, https://cimg.co/review/230/14831/responsive-images/5f2429f397e53___media_library_original_600_284.jpg 600w, https://cimg.co/review/230/14831/responsive-images/5f2429f397e53___media_library_original_300_142.jpg 300w" width="1904"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/230/14832/5f2429f6402e5.jpg" data-srcset="https://cimg.co/review/230/14832/responsive-images/5f2429f6402e5___media_library_original_1895_863.jpg 1895w, https://cimg.co/review/230/14832/responsive-images/5f2429f6402e5___media_library_original_1200_547.jpg 1200w, https://cimg.co/review/230/14832/responsive-images/5f2429f6402e5___media_library_original_900_410.jpg 900w, https://cimg.co/review/230/14832/responsive-images/5f2429f6402e5___media_library_original_720_328.jpg 720w, https://cimg.co/review/230/14832/responsive-images/5f2429f6402e5___media_library_original_600_273.jpg 600w, https://cimg.co/review/230/14832/responsive-images/5f2429f6402e5___media_library_original_300_136.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1895"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/230/14833/5f2429f94c6ce.jpg" data-srcset="https://cimg.co/review/230/14833/responsive-images/5f2429f94c6ce___media_library_original_1892_881.jpg 1892w, https://cimg.co/review/230/14833/responsive-images/5f2429f94c6ce___media_library_original_1200_558.jpg 1200w, https://cimg.co/review/230/14833/responsive-images/5f2429f94c6ce___media_library_original_900_419.jpg 900w, https://cimg.co/review/230/14833/responsive-images/5f2429f94c6ce___media_library_original_720_335.jpg 720w, https://cimg.co/review/230/14833/responsive-images/5f2429f94c6ce___media_library_original_600_279.jpg 600w, https://cimg.co/review/230/14833/responsive-images/5f2429f94c6ce___media_library_original_300_139.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1892"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/230/14834/5f242a137b9af.jpg" data-srcset="https://cimg.co/review/230/14834/responsive-images/5f242a137b9af___media_library_original_1386_826.jpg 1386w, https://cimg.co/review/230/14834/responsive-images/5f242a137b9af___media_library_original_1200_715.jpg 1200w, https://cimg.co/review/230/14834/responsive-images/5f242a137b9af___media_library_original_900_536.jpg 900w, https://cimg.co/review/230/14834/responsive-images/5f242a137b9af___media_library_original_720_429.jpg 720w, https://cimg.co/review/230/14834/responsive-images/5f242a137b9af___media_library_original_600_357.jpg 600w, https://cimg.co/review/230/14834/responsive-images/5f242a137b9af___media_library_original_300_178.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1386"/></div>
+</div>
+</div><h2>NowEx Review: Key features</h2><p>NowEx is a relatively new crypto derivatives platform based in Singapore. Although being a new kid on the block, it offers numerous unique trading features, contracts, and user-friendly tools.</p><p>The key features of the exchange include:</p><ul><li><strong>Crypto derivatives exchange.</strong> Make profit by using price swings of your favorite cryptocurrencies with NowEx. It does not allow you to purchase the underlying assets, though.</li><li><strong>A simple user interface</strong>, which is suitable for beginners, but the exchange itself is recommended for advanced crypto derivatives traders.</li><li><strong>USDT settlement.</strong> <a href="/coins/tether" rel="noopener" target="_blank">Tether (USDT)</a> is the main currency of the platform. All markets and contracts are denominated in USDT.</li><li><strong>No KYC checks.</strong> NowEx does not require you to submit any of your personal information, thus ensuring your privacy and security.</li><li><strong>Low fees.</strong> NowEx has a straightforward and transparent fee structure, as there are no funding and overnight charges. Opening a position costs you only 0.08% per trade.</li><li><strong>Unique trading features.</strong> For example, you can make use of “Onekey Reverse” or “Close All” functions, which let you close and rebuy opposite market positions with a single click or close all of your open positions, respectively.</li><li><strong>Up to 200x leverage.</strong> High-risk traders may enjoy a high amount of leverage available on the platform. You can open a position with either 20x, 50x, 100x, or 200x leverage.</li></ul><p>Although NowEx has a great user-interface, it is more suitable for experienced cryptocurrency traders who already know how to get Tether (USDT) cryptocurrency for funding their trades. Besides, the platform offers uniquely high amounts of leverage, which are only recommended for more experienced traders.</p><figure class="image"><img alt="nowex review key features" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f2/7d1039804a.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f2/7d1039804a.jpg 300w, https://cimg.co/w/rw-attachments/2/5f2/7d1039804a.jpg 600w, https://cimg.co/w/rw-attachments/3/5f2/7d1039804a.jpg 720w, https://cimg.co/w/rw-attachments/4/5f2/7d1039804a.jpg 900w, https://cimg.co/w/rw-attachments/0/5f2/7d1039804a.jpg 1204w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h2>Background information</h2><p>NowEx was founded in 2019 in Hong Kong and is based in Singapore, with remote branches in London, Los Angeles, Tokyo, and other places. The platform focuses on cryptocurrency derivatives trading and is a member of trademaster tech and is said to have an <strong>Estonian MTR financial supervision license</strong>.</p><figure class="image"><img alt="NowEx review homepage" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f2/7d143c2ede.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f2/7d143c2ede.jpg 300w, https://cimg.co/w/rw-attachments/2/5f2/7d143c2ede.jpg 600w, https://cimg.co/w/rw-attachments/3/5f2/7d143c2ede.jpg 720w, https://cimg.co/w/rw-attachments/4/5f2/7d143c2ede.jpg 900w, https://cimg.co/w/rw-attachments/0/5f2/7d143c2ede.jpg 1904w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>NowEx is a no KYC (know your customer) exchange, meaning that it accepts traders from all jurisdictions where crypto trading is legal, and it does not force you to verify your identity.</p><p>Signing up on NowEx takes just a few minutes, and you can start trading immediately by depositing Tether (USDT) onto the platform.</p><p>Even though identity verification is optional, doing so might help you to avoid potential troubles in the future or speed up the process of your account recovery in case of a lost password.</p><figure class="image"><img alt="NowEx review users" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f2/7d28161a9a.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f2/7d28161a9a.jpg 300w, https://cimg.co/w/rw-attachments/2/5f2/7d28161a9a.jpg 600w, https://cimg.co/w/rw-attachments/3/5f2/7d28161a9a.jpg 720w, https://cimg.co/w/rw-attachments/4/5f2/7d28161a9a.jpg 900w, https://cimg.co/w/rw-attachments/0/5f2/7d28161a9a.jpg 1449w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>At the moment, its website is translated into six languages: English, Chinese, Simplified Chinese, Russian, Japanese, and Korean.</p><h2>NowEx fees</h2><p>NowEx has a simple and transparent fee structure. There are no deposit, overnight, and funding fees, and the platform charges only minuscule trading and fund withdrawal fee.</p><p>Here is a brief overview of NowEx’s fees and trading conditions:</p><figure class="table"><table><tbody><tr><th>Type</th><th>Parameters</th></tr><tr><th><strong>Coin</strong></th><th>BTC, ETH, LTC, XRP and all others</th></tr><tr><th><strong>Leverage</strong></th><th>20x, 50x, 100x, 200x</th></tr><tr><th><strong>Pricing Unit</strong></th><th>USDT</th></tr><tr><th><strong>Spread</strong></th><th>Based on market depth</th></tr><tr><th><strong>Trade Fee</strong></th><th>0.08% (charged on position opening)</th></tr><tr><th><strong>Funding Fee</strong></th><th>Free</th></tr><tr><th><strong>Trading time</strong></th><th>24/7</th></tr><tr><th><strong>Compulsory trading rules</strong></th><th>Risk rate &lt;50%</th></tr><tr><th><strong>Risk rate calculation formula</strong></th><th>Account equity / margin * 100%</th></tr><tr><th><strong>Margin</strong></th><th>Trade value / Leverage</th></tr><tr><th><strong>Deposit coin</strong></th><th>USDT</th></tr></tbody></table></figure><p>As you can see, opening trade will cost you only<strong>0.08%</strong>, and closing a position is <strong>free of charge</strong>. Besides, unlike other crypto derivatives exchanges, NowEx does not charge funding and overnight fees, which make it one of the cheapest derivatives exchanges out there.</p><p>Withdrawing USDT from the NowEx platform will cost you <strong>5 USDT</strong>, though, and the platform supports both OMNI and ERC-20 based USDT withdrawals.</p><p>Compared with competing crypto derivative exchanges, NowEx provides one of the cheapest services out there. For example, even though exchanges like <a href="/reviews/bitmex/" rel="noopener" target="_blank">BitMex</a> or <a href="/reviews/bybit-review/" rel="noopener" target="_blank">ByBit</a> charge 0.075% per taking a market position and even pay market makers a rebate for offering extra liquidity, they also apply additional funding and overnight rates, which essentially constitute a more expensive trading option over time.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/nowex" rel="noindex nofollow" target="_blank">Visit NowEx</a></p><h2>Is NowEx secure?</h2><p>NowEx is a relatively new exchange and it has not been hacked yet. At the same time, it hasn’t been protecting itself online for a very long time and remains to be tested by time to become a long-standing player in the industry.</p><p>NowEx platform utilizes the following rigorous and conservative security measures:</p><ul><li>Multiple signed addresses for deposits and withdrawals.</li><li>99% of user funds are kept in multisig cold storage</li><li>At least two staff members audit all withdrawals from NowEx.</li><li>There are no keys kept online, so even if hackers gained access to all NowEx’s services and web platform, they could not steal user funds.</li><li>All deposit addresses are verified by third-party services to ensure that NowEx controls their keys.</li><li>The system is running on industry-standard Amazon Web Services (WEB).</li><li>All NowEx’s software and hardware systems require authentication, and individual systems cannot communicate with each other except for approved and monitored channels.</li><li>The trading engine is programmed in KDB+ language and utilizes a set of tools used in high-frequency trading applications run by major banks. It allows NowEx to operate with unprecedented speed and reliability, review all accounts, and suspend the system in case there’s any suspicious activity.</li></ul><p>On the user side of things, you can protect your account from unauthorized access by setting up an SMS verification (2FA). Unfortunately, NowEx does not currently support alternative two-factor authentication methods like Google Authenticator based 2FA or <a href="/exclusives/what-is-this-youbikey-device-binance-ceo-is-talking-about-3841.htm" rel="noopener" target="_blank">Yubikey</a>, which are considered to be more secure than <a href="/news/sim-swap-attacks-are-on-the-rise-how-to-protect-your-crypto-3980.htm" rel="noopener" target="_blank">SMS verification</a>.</p><p>On the regulatory side of things, NowEx is said to be a member of trademaster tech and have an Estonian MTR financial supervision. However, though their license number is not publicly known, and cannot be individually verified.</p><p>Overall, NowEx can be considered to be a secure crypto derivatives exchange, especially on the system side of things. However, there are areas where the exchange could improve, including introducing more user account security measures and increasing regulatory transparency.</p><h2>Design and usability</h2><figure class="image"><img alt="NowEx exchange review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f2/7d2f0a97f2.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f2/7d2f0a97f2.jpg 300w, https://cimg.co/w/rw-attachments/2/5f2/7d2f0a97f2.jpg 600w, https://cimg.co/w/rw-attachments/3/5f2/7d2f0a97f2.jpg 720w, https://cimg.co/w/rw-attachments/4/5f2/7d2f0a97f2.jpg 900w, https://cimg.co/w/rw-attachments/0/5f2/7d2f0a97f2.jpg 1892w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>NowEx is a convenient trading platform that makes it easy to sign up and start trading crypto derivatives. The platform does not ask you to verify your identity, but it also does not allow you to top up your account with fiat currencies, meaning that you have to deposit cryptocurrency. At the moment, NowEx accepts deposits in <a href="/coins/tether/" rel="noopener" target="_blank">Tether (USDT)</a> and exchange’s native NOW cryptocurrency.</p><p>The platform itself is easy to register and navigate. However, not all of its sections are translated from Chinese at the time of writing this review (August 1, 2020), which can create unnecessary friction when navigating the platform’s pages for non-Chinese speaking users.</p><p>The main trading activities take place in two NowEx’s trading panels: perpetual contracts and options.</p><p>The perpetual contracts trading panel is structured like this:</p><figure class="image"><img alt="NowEx review trading platform" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f2/426b9a5013.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f2/426b9a5013.jpg 300w, https://cimg.co/w/rw-attachments/2/5f2/426b9a5013.jpg 600w, https://cimg.co/w/rw-attachments/3/5f2/426b9a5013.jpg 720w, https://cimg.co/w/rw-attachments/4/5f2/426b9a5013.jpg 900w, https://cimg.co/w/rw-attachments/0/5f2/426b9a5013.jpg 1897w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><ol><li>Trading markets</li><li>Market price chart with technical analysis tools</li><li>Orderbook</li><li>Order placing panel</li><li>Your current orders and trading history</li></ol><p>The panel is relatively easy to use and includes just enough elements to make it a clean and easily understandable trading experience.</p><p>Currently, the exchange lets you trade the following perpetual contracts denominated in Tether (USDT):</p><ul><li>Bitcoin (BTC)</li><li>Ethereum (ETH)</li><li>XRP (XRP)</li><li>Litecoin (LTC)</li><li>EOS (EOS)</li><li>Bitcoin Cash (BCH)</li><li>Ethereum Classic (ETC)</li><li>Bitcoin SV (BSV)</li><li>Tron (TRX)</li><li>Dash (DASH)</li><li>Zcash (ZEC)</li><li>Cardano (ADA)</li><li>Monero (XMR)</li><li>IOTA (IOTA)</li><li>NEO (NEO)</li><li>Chainlink (LINK)</li><li>VeChain (VET)</li></ul><p>Perpetual contracts trading comes with up to 200x leverage. You can place either market or limit orders with either 20x, 50x, 100x, or 200x leverage. The exchange also makes it easy to set up ‘stop-loss’ and ‘take profit’ levels.</p><figure class="image"><img alt="NowEx review leverage" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f2/7d348278a1.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f2/7d348278a1.jpg 300w, https://cimg.co/w/rw-attachments/2/5f2/7d348278a1.jpg 600w, https://cimg.co/w/rw-attachments/3/5f2/7d348278a1.jpg 720w, https://cimg.co/w/rw-attachments/4/5f2/7d348278a1.jpg 900w, https://cimg.co/w/rw-attachments/0/5f2/7d348278a1.jpg 460w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Besides, you can trade the following USDT denominated options:</p><ul><li>Bitcoin (BTC)</li><li>Ethereum (ETH)</li><li>Litecoin (LTC)</li><li>EOS (EOS)</li><li>Bitcoin Cash (BCH)</li><li>Ethereum Classic (ETC)</li><li>Bitcoin SV (BSV)</li></ul><p>The options platform has a similar structure as the perpetual contract trading panel, though it is fundamentally different.</p><figure class="image"><img alt="NowEx review options " class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f2/42714326b3.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f2/42714326b3.jpg 300w, https://cimg.co/w/rw-attachments/2/5f2/42714326b3.jpg 600w, https://cimg.co/w/rw-attachments/3/5f2/42714326b3.jpg 720w, https://cimg.co/w/rw-attachments/4/5f2/42714326b3.jpg 900w, https://cimg.co/w/rw-attachments/0/5f2/42714326b3.jpg 1896w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><ol><li>Markets navigation</li><li>Price chart and charting tools</li><li>Order placing window</li><li>Active orders and trading history</li></ol><p>Options are slightly more complicated trading instruments, so be sure that you understand what you’re getting into before trading them. Here’s a <a href="https://www.nowex.io/web/#/helpArticle?id=140&amp;cId=18" rel="noopener" target="_blank">short guide</a> by the exchange explaining its options contracts.</p><p>Other notable features of the platform include <strong>“Onekey reverse”</strong> and <strong>“Close All”</strong> buttons.</p><p><strong>"Onekey reverse"</strong> is a unique feature that allows you to quickly close all of your positions and buy the same amount of contracts in the opposite direction (long or short). It is useful during the times of market volatility when traders foresee drastic market changes.</p><p><strong>"Close All"</strong> allows you to close all of your positions at once, which have three additional options: closing all, closing long orders, or closing short orders. This lets you quickly close your positions when necessary.</p><p>NowEx also has a mobile app for iOS and Android. You can download it from <a href="https://app.nowex.io/en/index.html" rel="noopener" target="_blank">this dedicated page</a>, though mind that these apps are not listed either on the official Apple Store or Google Play Store as you download it directly from the site.</p><figure class="image"><img alt="NowEx review mobile app" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f2/427785c6ac.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f2/427785c6ac.jpg 300w, https://cimg.co/w/rw-attachments/2/5f2/427785c6ac.jpg 600w, https://cimg.co/w/rw-attachments/3/5f2/427785c6ac.jpg 720w, https://cimg.co/w/rw-attachments/4/5f2/427785c6ac.jpg 900w, https://cimg.co/w/rw-attachments/0/5f2/427785c6ac.jpg 1873w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Overall, the platform is relatively easy to use, though it might be somewhat complicated for beginners. However, if you’re new to cryptocurrency trading or overall investing, it is not recommended to start with high leverage trading due to volatility and high risks involving these contracts. Make sure that you understand the risks prior to trading and never trade or invest more than you can afford to lose.</p><h3>Customer support</h3><p>NowEx has multiple customer support channels, including:</p><ul><li><strong>Email support:</strong> <a href="https://mailto:support@nowex.io" rel="noopener" target="_blank"><span class="__cf_email__" data-cfemail="d5a6a0a5a5baa7a195bbbaa2b0adfbbcba">[email protected]</span></a></li><li><strong>Ticketing system</strong> at the <a href="https://www.nowex.io/web/#/complaint" rel="noopener" target="_blank">customer support center</a>.</li><li><strong>Social media channels:</strong> <a href="https://twitter.com/nowex_io" rel="noopener" target="_blank">Twitter</a>, <a href="https://t.me/nowex_io" rel="noopener" target="_blank">Telegram</a>, <a href="https://weibo.com/nowex" rel="noopener" target="_blank">Weibo</a>.</li></ul><p>Besides, you can always visit NowEx’s guides and frequently asked questions (FAQ) section, where the exchange’s staff had explained the most common issues concerning the exchange, its products, and operations.</p><figure class="image"><img alt="NowEx exchange support" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f2/7e6abd57fb.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f2/7e6abd57fb.jpg 300w, https://cimg.co/w/rw-attachments/2/5f2/7e6abd57fb.jpg 600w, https://cimg.co/w/rw-attachments/3/5f2/7e6abd57fb.jpg 720w, https://cimg.co/w/rw-attachments/4/5f2/7e6abd57fb.jpg 900w, https://cimg.co/w/rw-attachments/0/5f2/7e6abd57fb.jpg 1901w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>The support team is quick to respond, and you can expect to get an answer to your inquiry within 24 hours at most.</p><h3>NOW Tokens</h3><p>NowEx have its native exchange token NOW, aka NowEx token. The total supply of NOW is 10,000,000, and 50% of the tokens were distributed via various airdrops.</p><p>NOW tokens can be used for fee discounts and other perks on the exchange.</p><h2>Deposit and withdrawal methods</h2><p>NowEx is a pure cryptocurrency derivatives exchange. Hence, it accepts only deposits and withdrawals in Tether (USDT) and exchange’s native NOW cryptocurrency. All trades on the exchange are denominated in USDT, thus making it easier to track your gains and losses.</p><p>For this reason, you must obtain Tether (USDT) cryptocurrency first before trading on the exchange. You can do that by using third-party services like <a href="/reviews/changenow/" rel="noopener" target="_blank">ChangeNOW</a>, <a href="/reviews/changelly/" rel="noopener" target="_blank">Changelly</a>, <a href="/reviews/xcoins/" rel="noopener" target="_blank">Xcoins</a>, or <a href="/reviews/switchere/" rel="noopener" target="_blank">Switchere</a>.</p><p>Tether (USDT) deposits are free of charge; however, you will pay a 5 USDT commission upon withdrawal.</p><figure class="image"><img alt="NowEx review Tether" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f2/7e6dde33bf.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f2/7e6dde33bf.jpg 300w, https://cimg.co/w/rw-attachments/2/5f2/7e6dde33bf.jpg 600w, https://cimg.co/w/rw-attachments/3/5f2/7e6dde33bf.jpg 720w, https://cimg.co/w/rw-attachments/4/5f2/7e6dde33bf.jpg 900w, https://cimg.co/w/rw-attachments/0/5f2/7e6dde33bf.jpg 1125w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>At the moment, NowEx accepts both OMNI and ERC-20 issued USDT tokens.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/nowex" rel="noindex nofollow" target="_blank">Go to Exchange</a></p><h2>NowEx bonuses and referral program</h2><figure class="image"><img alt="NowEx review bonus" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f2/7e70e32613.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f2/7e70e32613.jpg 300w, https://cimg.co/w/rw-attachments/2/5f2/7e70e32613.jpg 600w, https://cimg.co/w/rw-attachments/3/5f2/7e70e32613.jpg 720w, https://cimg.co/w/rw-attachments/4/5f2/7e70e32613.jpg 900w, https://cimg.co/w/rw-attachments/0/5f2/7e70e32613.jpg 1202w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Currently, all new NowEx users can collect up to USDT 325 bonus, which consists of completing numerous microtasks. For example, you can get:</p><ul><li><strong>200 USDT</strong> for account registration (will be frozen until you make a deposit and complete cumulative trade risk - trade at least 300,000 USDT or more).</li><li><strong>5 USDT</strong> for joining the community’s social media channels.</li><li><strong>5 - 100 USDT</strong> first deposit bonus.</li><li><strong>20 USDT</strong> for inviting at least three friends (friends must deposit at least 100 USDT to count)</li></ul><p>Aside from that, you can also make money by distributing NowEx’s referral links and earn up to 65% commission on transaction fees.</p><figure class="image"><img alt="NowEx referral" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f2/7e745564e6.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f2/7e745564e6.jpg 300w, https://cimg.co/w/rw-attachments/2/5f2/7e745564e6.jpg 600w, https://cimg.co/w/rw-attachments/3/5f2/7e745564e6.jpg 720w, https://cimg.co/w/rw-attachments/4/5f2/7e745564e6.jpg 900w, https://cimg.co/w/rw-attachments/0/5f2/7e745564e6.jpg 1234w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>More business-minded people can become NowEx’s affiliate partners and earn up to <a href="https://broker.nowex.io/en/index.html" rel="noopener" target="_blank">80% commission</a>.</p><h2>Conclusion</h2><p>NowEx is a promising trading portal. It offers uniquely low fees, handy advanced trading features, a secure and robust platform, and great bonuses. Nevertheless, the platform could improve by introducing more robust personal account security measures and improve the quality of the website’s documentation. It supports privacy-oriented traders, which means that signing up and trading on the platform is as easy as pie, and its user-interface is simple and easy to navigate. If you were to use NowEx regularly, keep in mind that non-KYC exchanges are likely to experience more regulatory scrutiny in the future, and that high, 200x leverage is recommended for seasoned traders only.</p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

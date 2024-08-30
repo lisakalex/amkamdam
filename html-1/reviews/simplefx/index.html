@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/simplefx/">SimpleFX</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="SimpleFX" class="img-fluid img-circle author__image author__image--has-bg mb-15" loading="auto" src="https://cimg.co/reviewlogo/80/unnamed.jpg" srcset="https://cimg.co/reviewlogo/80/responsive-images/unnamed___media_library_original_512_512.jpg 512w, https://cimg.co/reviewlogo/80/responsive-images/unnamed___media_library_original_300_300.jpg 300w" width="512"/>
+<div>
+<a class="c-black" href="#"><b>SimpleFX</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/simplefx" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+<div class="fs-12"></div>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="simplefx"> SimpleFX</h1>
+<p>SimpleFX is a CFD (contract for differences) trading platform that offers crypto, forex, global stocks, and commodities CFD trading. It offers low fees, elective KYC (in case you want to trade using fiat currencies), and a decent demo trading account so you can get comfortable with the platform. Additionally, they have a decent referral program, plus a MetaTrader 4 downloadable platform for advanced traders who want more options.</p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/simplefx" target="_blank">SimpleFX</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://simplefx.com/support/" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>St. Vincent en de Grenadines</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>?? BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>Yes</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>No</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b></b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+</b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>18 monnaies fiat différentes</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>60</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>-</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>Very Low (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+</ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+</ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/66742/47806/simplefx-landing-site.png" srcset="https://cimg.co/review/66742/47806/responsive-images/simplefx-landing-site___media_library_original_1865_939.png 1865w, https://cimg.co/review/66742/47806/responsive-images/simplefx-landing-site___media_library_original_1200_604.png 1200w, https://cimg.co/review/66742/47806/responsive-images/simplefx-landing-site___media_library_original_900_453.png 900w, https://cimg.co/review/66742/47806/responsive-images/simplefx-landing-site___media_library_original_720_362.png 720w, https://cimg.co/review/66742/47806/responsive-images/simplefx-landing-site___media_library_original_600_302.png 600w, https://cimg.co/review/66742/47806/responsive-images/simplefx-landing-site___media_library_original_300_151.png 300w" width="1865"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/66742/47807/app-trader.png" data-srcset="https://cimg.co/review/66742/47807/responsive-images/app-trader___media_library_original_1880_939.png 1880w, https://cimg.co/review/66742/47807/responsive-images/app-trader___media_library_original_1200_599.png 1200w, https://cimg.co/review/66742/47807/responsive-images/app-trader___media_library_original_900_449.png 900w, https://cimg.co/review/66742/47807/responsive-images/app-trader___media_library_original_720_359.png 720w, https://cimg.co/review/66742/47807/responsive-images/app-trader___media_library_original_600_299.png 600w, https://cimg.co/review/66742/47807/responsive-images/app-trader___media_library_original_300_149.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1880"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/66742/47808/create-account.png" data-srcset="https://cimg.co/review/66742/47808/responsive-images/create-account___media_library_original_722_481.png 722w, https://cimg.co/review/66742/47808/responsive-images/create-account___media_library_original_720_479.png 720w, https://cimg.co/review/66742/47808/responsive-images/create-account___media_library_original_600_399.png 600w, https://cimg.co/review/66742/47808/responsive-images/create-account___media_library_original_300_199.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="722"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/66742/47809/welcome-message.png" data-srcset="https://cimg.co/review/66742/47809/responsive-images/welcome-message___media_library_original_524_400.png 524w, https://cimg.co/review/66742/47809/responsive-images/welcome-message___media_library_original_300_229.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="524"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/66742/47810/fess-trading-conditions.png" data-srcset="https://cimg.co/review/66742/47810/responsive-images/fess-trading-conditions___media_library_original_1865_939.png 1865w, https://cimg.co/review/66742/47810/responsive-images/fess-trading-conditions___media_library_original_1200_604.png 1200w, https://cimg.co/review/66742/47810/responsive-images/fess-trading-conditions___media_library_original_900_453.png 900w, https://cimg.co/review/66742/47810/responsive-images/fess-trading-conditions___media_library_original_720_362.png 720w, https://cimg.co/review/66742/47810/responsive-images/fess-trading-conditions___media_library_original_600_302.png 600w, https://cimg.co/review/66742/47810/responsive-images/fess-trading-conditions___media_library_original_300_151.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1865"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/66742/47811/deposit-methods.png" data-srcset="https://cimg.co/review/66742/47811/responsive-images/deposit-methods___media_library_original_1026_624.png 1026w, https://cimg.co/review/66742/47811/responsive-images/deposit-methods___media_library_original_900_547.png 900w, https://cimg.co/review/66742/47811/responsive-images/deposit-methods___media_library_original_720_437.png 720w, https://cimg.co/review/66742/47811/responsive-images/deposit-methods___media_library_original_600_364.png 600w, https://cimg.co/review/66742/47811/responsive-images/deposit-methods___media_library_original_300_182.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1026"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/66742/47812/help-center.png" data-srcset="https://cimg.co/review/66742/47812/responsive-images/help-center___media_library_original_733_551.png 733w, https://cimg.co/review/66742/47812/responsive-images/help-center___media_library_original_720_541.png 720w, https://cimg.co/review/66742/47812/responsive-images/help-center___media_library_original_600_451.png 600w, https://cimg.co/review/66742/47812/responsive-images/help-center___media_library_original_300_225.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="733"/></div>
+</div>
+</div><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/66742/47806/simplefx-landing-site.png" data-srcset="https://cimg.co/review/66742/47806/responsive-images/simplefx-landing-site___media_library_original_1865_939.png 1865w, https://cimg.co/review/66742/47806/responsive-images/simplefx-landing-site___media_library_original_1200_604.png 1200w, https://cimg.co/review/66742/47806/responsive-images/simplefx-landing-site___media_library_original_900_453.png 900w, https://cimg.co/review/66742/47806/responsive-images/simplefx-landing-site___media_library_original_720_362.png 720w, https://cimg.co/review/66742/47806/responsive-images/simplefx-landing-site___media_library_original_600_302.png 600w, https://cimg.co/review/66742/47806/responsive-images/simplefx-landing-site___media_library_original_300_151.png 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1865"/></figure><h3>SimpleFX Review: Key Features </h3><p>The thing that sets SimpleFX apart from other crypto trading platforms is that it is a CFD platform, meaning you do not get to handle actual cryptocurrencies (or any other asset types) directly. Here are some other key features of the platform:</p><ul><li><strong>Several asset types.</strong> Aside from cryptocurrency pairs, SimpleFX also offers access to forex, commodities, and stocks trading, either using cryptocurrency or fiat currencies.</li><li><strong>No forced KYC.</strong> If you want to trade the available pairs using cryptocurrencies, you don’t have to go through the KYC process. It is only mandatory in case you want to start depositing fiat currencies.</li><li><strong>Low fees. </strong>There are no deposit and withdrawal fees, nor commissions on trading, meaning you keep the entirety of your profit.</li><li><strong>MetaTrader 4 Downloadable Trading Platform. </strong>If you’re a professional trader who would appreciate a more detailed trading platform from the browser version, you can download the MetaTrader 4.</li><li><strong>Referral program. </strong>If you have friends who would like to find a new CFD trading home, you can invite them through a referral link and earn part of what they make, depending on how much they’re trading.</li><li><strong>Ease of Use. </strong>The platform is very beginner-friendly without omitting any important aspects of trading. Users who are not yet comfortable with trading can use their demo account first to figure out the ins and outs of the platform.</li></ul><h3>SimpleFX History and Background </h3><p>SimpleFX has been in operation since 2014 and is based in St Vincent and the Grenadines. Little is known about its team. At the time of writing, the platform claims to reach more than 200,000 users in 190 countries. </p><p>The company is currently not regulated by a financial body. On the other hand, this enables them to leave out forced KYC procedures; these are required only if you want to trade with a fiat (hard) currency account. To go through with KYC, you will have to provide proof of your identity and address. Otherwise, to create a bitcoin (BTC) trading account, all you need is a valid email address that you need to confirm. </p><p>As we’ve already mentioned, SimpleFX is available in 190 countries worldwide. A notable exception is the United States—customers from the US, regardless of their exact state, won’t be able to use their services. These are also forbidden to all citizens of countries that outlaw anything that SimpleFX provides, which include: Algeria, Belgium, The Bahamas, Botswana, Cambodia, Cuba, Ecuador, Ethiopia, Ghana, Iran, Monaco, Myanmar, North Korea, Pakistan, Poland, Saint Vincent and the Grenadines, Panama, Sri Lanka, Syrian Arab Republic, Trinidad and Tobago, Tunisia, and Yemen. </p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/66742/47807/app-trader.png" data-srcset="https://cimg.co/review/66742/47807/responsive-images/app-trader___media_library_original_1880_939.png 1880w, https://cimg.co/review/66742/47807/responsive-images/app-trader___media_library_original_1200_599.png 1200w, https://cimg.co/review/66742/47807/responsive-images/app-trader___media_library_original_900_449.png 900w, https://cimg.co/review/66742/47807/responsive-images/app-trader___media_library_original_720_359.png 720w, https://cimg.co/review/66742/47807/responsive-images/app-trader___media_library_original_600_299.png 600w, https://cimg.co/review/66742/47807/responsive-images/app-trader___media_library_original_300_149.png 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1880"/></figure><p>The platform does not offer trading tiers as such, which means that no matter how much you trade (or don’t trade), your status as their user does not change. The only exception to this rule are inactive accounts: an account is inactive only if it has never made a single trade, in spite of opening it. If you’ve ever traded on SimpleFX, no matter how long a hiatus you may decide to take, your account will always be considered active. </p><p>On the other hand, SimpleFX offers an affiliate program that has its own tiers. To take part in it, all you need to do is invite friends to use the platform. You can earn between 10% and 50% of the revenue share generated by someone you referred to the platform, as well as 5% of the revenue share generated by those who were referred to the platform through your previous referrals—so one step removed from you.  </p><figure class="table"><table><tbody><tr><td><strong>Tier</strong></td><td><strong>Revenue</strong></td><td><strong>Turnover (in 30 days)</strong></td></tr><tr><td>Basic</td><td>10%</td><td>&gt; USD 5</td></tr><tr><td>Silver</td><td>15%</td><td>USD 5 to USD 500</td></tr><tr><td>Gold</td><td>20%</td><td>USD 500 to USD 5,000</td></tr><tr><td>Platinum</td><td>30%</td><td>USD 5,000 to USD 15,000</td></tr><tr><td>Diamond</td><td>50%</td><td>&lt; USD 15,000</td></tr></tbody></table></figure><p>Additionally, new customers at the exchange get a bonus depending on the size of their first deposit, which ranges from USD 20 up to a whopping USD 2,500. Once you make a deposit to a new LIVE account, go to the Accounts window of the SimpleFX app, where you can see the total sum available for trading, including the bonus awarded. The bonuses are applied in in the following way: </p><figure class="table"><table><tbody><tr><td>Initial Deposit</td><td>Bonus</td></tr><tr><td>&gt; USD 100</td><td>USD 20</td></tr><tr><td>&gt; USD 250</td><td>USD 50</td></tr><tr><td>&gt; USD 500</td><td>USD 100</td></tr><tr><td>&gt; USD 2,000</td><td>USD 500</td></tr><tr><td>&gt; USD 10,000</td><td>USD 2,500</td></tr></tbody></table></figure><p>You can’t withdraw the new balance immediately—you first need to reach a certain trading volume, which is shown in your Withdraw window (and how much you still need to reach).</p><h3>SimpleFX Fees </h3><p>Deposits on SimpleFX are free, regardless of the method you choose. While the vast majority of cryptocurrencies don’t have a minimum deposit amount, those that do are very low. Still, there are some currencies that have a maximum deposit amount (like BTC 0.015, for example), all of which are available <a href="https://simplefx.com/payments/" rel="noopener" target="_blank">here</a>. </p><p>Withdrawals follow a similar logic. While the fees are either very low or nonexistent, there is always a minimum withdrawal, plus the network fee that depends on the blockchain itself and not on the platform. Each withdrawal has to be made with the same payment system used for deposit. If you deposited using several payment systems and earned a profit/made a loss, you can withdraw funds with the payment system used for the largest deposit. Additionally, inactive accounts are charged an additional 3% fee at a minimum of USD 25. </p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/66742/47810/fess-trading-conditions.png" data-srcset="https://cimg.co/review/66742/47810/responsive-images/fess-trading-conditions___media_library_original_1865_939.png 1865w, https://cimg.co/review/66742/47810/responsive-images/fess-trading-conditions___media_library_original_1200_604.png 1200w, https://cimg.co/review/66742/47810/responsive-images/fess-trading-conditions___media_library_original_900_453.png 900w, https://cimg.co/review/66742/47810/responsive-images/fess-trading-conditions___media_library_original_720_362.png 720w, https://cimg.co/review/66742/47810/responsive-images/fess-trading-conditions___media_library_original_600_302.png 600w, https://cimg.co/review/66742/47810/responsive-images/fess-trading-conditions___media_library_original_300_151.png 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1865"/></figure><p>Trading at SimpleFX is commission-free, which means that you get to keep everything you make in a single trade. This holds true for both Demo and Live trading accounts: there are no different conditions, fees included, when switching between the two. For more information, SimpleFX offers a <a href="https://simplefx.com/terms-and-conditions/" rel="noopener" target="_blank">detailed list</a> of all available trading pairs on the platform with their trading hours, maximum leverage, spread, minimum/maximum contract size, and more. </p><h3>SimpleFX Design and Usability </h3><p>The SimpleFX landing site does not actually take you to trading immediately, as so many others do; first, you get an overview of everything that the exchange offers. Clicking on Start Now takes you to the in-browser trading app, from where you can also sign up for the exchange (or log in if you’re already a member). To create your account, all you need to provide is an email address and a secure password. You’ll have to confirm your email before continuing. </p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/66742/47808/create-account.png" data-srcset="https://cimg.co/review/66742/47808/responsive-images/create-account___media_library_original_722_481.png 722w, https://cimg.co/review/66742/47808/responsive-images/create-account___media_library_original_720_479.png 720w, https://cimg.co/review/66742/47808/responsive-images/create-account___media_library_original_600_399.png 600w, https://cimg.co/review/66742/47808/responsive-images/create-account___media_library_original_300_199.png 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="722"/></figure><p>Once you’re a member of the platform, you receive USD 4,000 to use on your demo account so you can figure out how everything works without risking your own funds. You can choose between funding your account with cryptocurrencies or opening a fiat account, keeping in mind that the fiat account does require some KYC.  </p><p>Funding your account with crypto is quite simple: you choose the country you’re trading from in order to see all funding options available to you, then click on the deposit method, which reveals all the information you need. This goes from the confirmation time to minimum/maximum deposits, operator status, etc. </p><p>After depositing, trading is literally just a few clicks away. You can either find the trading pair you want in the left hand side of the screen, or you can search for it through a search bar at the top. In both cases, clicking on your trading pair of choice lets you select between opening the chart, starting a new order, or simply viewing more information about the symbol. This includes data like contract size, swap information, required margin, effective leverage, etc. In the case of cryptocurrencies, the bottom part of the screen will also include information on the asset itself, like what it is, a short overview of its history, and what purpose it serves, which lets potential traders educate themselves before committing to a trade. </p><p>Clicking on New Order lets you enter all the information relevant to your trade, as well as set parameters for Take Profit or Stop Loss types of trades, if you want. You can also choose between market orders—also known as taker orders—or pending ones, aka maker trades. Once your order is made, there’s nothing else to do but wait.  </p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/66742/47809/welcome-message.png" data-srcset="https://cimg.co/review/66742/47809/responsive-images/welcome-message___media_library_original_524_400.png 524w, https://cimg.co/review/66742/47809/responsive-images/welcome-message___media_library_original_300_229.png 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="524"/></figure><p>Another useful feature is the Trade Calculator, which is a small calculator icon on the left hand side of the screen, above the list of available trading assets. You can choose your account currency, your leverage, and the trading pair you want to calculate, and set all the other parameters that are normally available when first opening a trade. This lets you see what your potential profit or loss is without committing your funds to it, which is especially useful when you’re dealing with assets you may be unfamiliar with. </p><p>Speaking of educational content, SimpleFX also offers a Help Center that you can find by clicking the three horizontal lines next to their logo in the upper left hand corner of your screen. Here, you can read all of the Frequently Asked Questions that range from how many accounts you can open to troubleshooting common issues. Below the FAQ section, you can find other, less common questions separated by category, but you can also make use of the search bar to find what you want to learn. Additionally, the platform offers video and blog tutorials, step by step guides, and live support in the form of a chat prompt. </p><p>A separate feature is the Community Forum, where users can ask for advice and/or assistance, offer feedback, and otherwise interact with each other. Users can request new listings, new features, or just general help. Still, the forum is not very active at the time. </p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/66742/47812/help-center.png" data-srcset="https://cimg.co/review/66742/47812/responsive-images/help-center___media_library_original_733_551.png 733w, https://cimg.co/review/66742/47812/responsive-images/help-center___media_library_original_720_541.png 720w, https://cimg.co/review/66742/47812/responsive-images/help-center___media_library_original_600_451.png 600w, https://cimg.co/review/66742/47812/responsive-images/help-center___media_library_original_300_225.png 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="733"/></figure><p>SimpleFX also offers a mobile app. It can be downloaded directly from their website for iOS, Android, and Huawei devices (through AppGallery). The options are not too different from what’s available in the browser-based version of the trader. Somewhat different, however, is the fact that you can also access SimpleFX through the downloadable MetaTrader 4 desktop platform for a significantly more advanced trading experience.  </p><h3>ETH2 Staking</h3><p>An important aspect of SimpleFX that sets it apart from other CFD brokers is the fact that they support ETH2 staking. The staking works so that you do not have to become a validator yourself, which requires a whopping ETH 32 for you to qualify for that position, but you can stake however much ETH you want (or have). There are no fees and no minimum deposits, and it can earn you a relatively high APR rate that has been known to go up to 8.55%. The interest is added to your account every day, and the staked funds can even be used for trading.</p><h3>SimpleFX Security </h3><p>SimpleFX is protected with SSL encrypted systems, as well as keeping personal details in secure offline servers. However, the company does not state that the funds are kept in cold storage or that they use multisig to access them.  </p><p>When it comes to security measures users can take, SimpleFX lets them add two-factor authentication (2FA) to their accounts. Users will also need to verify their withdrawal address via email before they’re able to move their funds out of the exchange. Aside from keeping their private keys safe and hidden from others, there’s little users can do to protect their funds when trading on SimpleFX. </p><p>SimpleFX has not been rated by experts in external reviews yet. </p><h3>SimpleFX Deposits and Withdrawals </h3><p>Depositing cryptocurrencies on SimpleFX is quite simple and straightforward. In the web trader, click on the type of account in the top right corner of the screen, next to your account and notifications icons, and select the live trading account first. When you’ve made the switch, click on Manage Accounts under it, and click on Deposit. You can also start by clicking on the Deposit button on the lower left hand corner of your screen. Here, you’ll choose the cryptocurrency you wish to deposit, create an account for it (which includes setting a secure password for it), then follow the steps to start funding your account. </p><p>If you want to deposit fiat currencies, you will first need to confirm your account through a KYC procedure. Here, you will need to provide proof of identity, in the form of your personal ID with a selfie, and proof of address, which can be something like a utility bill that has both your name and your home address clearly listed. Once this procedure is completed, you can start depositing fiat funds into your account through e-wallets like Neteller and Skrill. Credit cards are not accepted. Most deposit methods, crypto and fiat alike, take around an hour to deposit, and there is no minimum deposit amount.  </p><figure class="image"><img alt="" class="content-img lazyload" data-src="https://cimg.co/review/66742/47811/deposit-methods.png" data-srcset="https://cimg.co/review/66742/47811/responsive-images/deposit-methods___media_library_original_1026_624.png 1026w, https://cimg.co/review/66742/47811/responsive-images/deposit-methods___media_library_original_900_547.png 900w, https://cimg.co/review/66742/47811/responsive-images/deposit-methods___media_library_original_720_437.png 720w, https://cimg.co/review/66742/47811/responsive-images/deposit-methods___media_library_original_600_364.png 600w, https://cimg.co/review/66742/47811/responsive-images/deposit-methods___media_library_original_300_182.png 300w" sizes="100vw" src="https://cimg.co/p/no_image.svg" width="1026"/></figure><p>Withdrawals have to be made using the same payment method as in the case of deposits. If you’ve made deposits through different methods, you’ll need to use the method you made your largest deposit with. Additionally, withdrawals take a significantly longer time to process than deposits: it will take you around 24 hours before you can access your funds, as the platform checks every outgoing transaction for signs of suspicious activity. </p><p>The majority of withdrawal methods do not incur any fees, but there is one exception: Fasapay incurs a 1% withdrawal fee. The others do have minimum withdrawal amounts, but the platform does not charge withdrawal fees on them. </p><h3>SimpleFX Conclusion </h3><p>SimpleFX has a name that serves it well: it’s quite a simple CFD broker, appropriate for complete beginners as well as trading veterans, who can opt for the MetaTrader 4 version of the platform. The fees are competitively low, the choice of assets decently high and spreading far beyond cryptocurrencies alone, and the lack of KYC for crypto users ensures a decent level of privacy. Overall, for traders who are aware of the risks CFD trading includes, SimpleFX is an excellent trading platform to start with.</p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

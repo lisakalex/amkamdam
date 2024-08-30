@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/101investing/">101Investing</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="5f09d7e08068b.png" class="img-fluid img-circle author__image author__image--has-bg mb-15" loading="auto" src="https://cimg.co/reviewlogo/47/5f09d7e08068b.png"/>
+<div>
+<a class="c-black" href="#"><b>101Investing</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/101investing" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+<div class="fs-12"></div>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="101investing"> 101Investing</h1>
+<p>101Investing is a broker that gives you access to CFDs Forex pairs, cryptocurrencies, commodities, stocks, indices, and precious metals. With CFDs, you do not actually own the asset, but you speculate on the price movements of the underlying asset. 101Investing is operated by FXBFI Broker Financial Invest Ltd. The company is regulated by the Cyprus Securities Exchange Commission (CySEC) under license number 315/16. 101Investing offer access to powerful technological trading desktop-based platform.</p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/101investing" target="_blank">101Investing</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://www.101investing.com/en/contactus" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>Limassol, Cyprus</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>0.0 BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>Yes</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>No</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>FXBFI Broker Financial Invest Ltd</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+                                                                                                                                                        Bank Transfer,
+                                                                                                                                                                                                                                        Credit Card,
+                                                                                                                                                                                                                                        Debit Card,
+                                                                                                                                            </b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>EUR, USD, GBP, CAD +</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>50</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>-</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>High (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+<li>Free demo account Dedicated account manager Wide selection of CFDs 4 types of trading accounts</li> </ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+<li>Available in selected EU countries only Inactivity fees CFDs trading only</li> </ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/227/14822/5f106bcd4dc9c.jpg" srcset="https://cimg.co/review/227/14822/responsive-images/5f106bcd4dc9c___media_library_original_1119_601.jpg 1119w, https://cimg.co/review/227/14822/responsive-images/5f106bcd4dc9c___media_library_original_900_483.jpg 900w, https://cimg.co/review/227/14822/responsive-images/5f106bcd4dc9c___media_library_original_720_386.jpg 720w, https://cimg.co/review/227/14822/responsive-images/5f106bcd4dc9c___media_library_original_600_322.jpg 600w, https://cimg.co/review/227/14822/responsive-images/5f106bcd4dc9c___media_library_original_300_161.jpg 300w" width="1119"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/227/14823/5f106bcdbe07f.jpg" data-srcset="https://cimg.co/review/227/14823/responsive-images/5f106bcdbe07f___media_library_original_1868_815.jpg 1868w, https://cimg.co/review/227/14823/responsive-images/5f106bcdbe07f___media_library_original_1200_523.jpg 1200w, https://cimg.co/review/227/14823/responsive-images/5f106bcdbe07f___media_library_original_900_392.jpg 900w, https://cimg.co/review/227/14823/responsive-images/5f106bcdbe07f___media_library_original_720_314.jpg 720w, https://cimg.co/review/227/14823/responsive-images/5f106bcdbe07f___media_library_original_600_261.jpg 600w, https://cimg.co/review/227/14823/responsive-images/5f106bcdbe07f___media_library_original_300_130.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1868"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/227/14824/5f106bce39448.jpg" data-srcset="https://cimg.co/review/227/14824/responsive-images/5f106bce39448___media_library_original_961_763.jpg 961w, https://cimg.co/review/227/14824/responsive-images/5f106bce39448___media_library_original_900_714.jpg 900w, https://cimg.co/review/227/14824/responsive-images/5f106bce39448___media_library_original_720_571.jpg 720w, https://cimg.co/review/227/14824/responsive-images/5f106bce39448___media_library_original_600_476.jpg 600w, https://cimg.co/review/227/14824/responsive-images/5f106bce39448___media_library_original_300_238.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="961"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/227/14825/5f106bce96044.jpg" data-srcset="https://cimg.co/review/227/14825/responsive-images/5f106bce96044___media_library_original_1901_881.jpg 1901w, https://cimg.co/review/227/14825/responsive-images/5f106bce96044___media_library_original_1200_556.jpg 1200w, https://cimg.co/review/227/14825/responsive-images/5f106bce96044___media_library_original_900_417.jpg 900w, https://cimg.co/review/227/14825/responsive-images/5f106bce96044___media_library_original_720_334.jpg 720w, https://cimg.co/review/227/14825/responsive-images/5f106bce96044___media_library_original_600_278.jpg 600w, https://cimg.co/review/227/14825/responsive-images/5f106bce96044___media_library_original_300_139.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1901"/></div>
+</div>
+</div><h2>101Investing Review: Key Features</h2><p>101Investing is a regulated broker that offers CFDs on a variety of assets. The platform is accessible via the MetaTrader 4 trading platform, which is supported on both desktop and mobile devices.</p><figure class="image"><img alt="101Investing Review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/0bde766342.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/0bde766342.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/0bde766342.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/0bde766342.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/0bde766342.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/0bde766342.jpg 1221w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>With 101Investing, you have access to:</p><ul><li><strong>Trade of more than 250 products with CFDs.</strong> You have access to 23 cryptocurrencies,51 forex pairs, 17 commodities, 185 stocks, 21 indices, and 4 metals on CFDs.</li><li><strong>Open positions with leverage.</strong> Based on your account type, you can open leveraged positions.</li><li><strong>Regulated</strong> by the Cyprus Securities and Exchange Commission (CySEC), subject to strict regulatory requirements.</li><li><strong>Fees.</strong> 101Investing 101Investing does not charge deposit or commission fees. However, they charge high inactivity fees.</li><li><strong>MetaTrader 4 platform.</strong> MetaTrader 4 is a world-class trading software and powerful technological trading engine that provides tools and for different types of traders. Besides, it makes it flexible to trade on your computer and smartphone.</li><li><strong>Free demo account.</strong> You can open a demo account to experiment with the trading platform and its various features.</li></ul><p><i><strong>Risk warning:</strong> CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. Between 74-89 % of retail investor accounts lose money when trading CFDs. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money.</i></p><h2>Background and history</h2><p>101Investing is operated by FXBFI Broker Financial Invest Ltd, regulated by Cyprus Securities Exchange Commission (CySEC), under license number 315/16. The Company is located at 79, Spyrou Kyprianou Ave., MGO Protopapas Building, 1st Floor, 3076, Limassol, Cyprus. The company is one of a few brokers than be reached via phone (+35780092740), or via email to <a class="__cf_email__" data-cfemail="e5969095958a9791a5d4d5d48c8b938096918c8b82cb868a88" href="/cdn-cgi/l/email-protection">[email protected]</a></p><figure class="image"><img alt="101Investing review cryptocurrency CFD" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/0bf860e416.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/0bf860e416.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/0bf860e416.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/0bf860e416.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/0bf860e416.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/0bf860e416.jpg 1369w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Currently, the 101Investing website is translated into seven languages: English, Spanish, Portuguese, Italian, German, Dutch, and Swedish.</p><h3>101Investing registration and verification</h3><p>101Investing offers free demo accounts that enable a prospective customer to try the trading platform and its various features.</p><p>As a registered user, you can open one out of four account types:</p><figure class="table"><table><tbody><tr><th>Silver Account</th><th>Gold Account</th><th>Platinum Account</th><th>Pro Exclusive</th></tr><tr><th>Newcomers</th><th>Experienced traders</th><th>Professional traders</th><th>Institutional investors</th></tr><tr><th>Hedging</th><th>Hedging</th><th>Hedging</th><th>Personalized</th></tr><tr><th>Max leverage: 1:30</th><th>Max leverage: 1:400/1:500</th><th>Max leverage: 1:400/1:500</th><th>VIP</th></tr><tr><th>Fifth decimal</th><th>Fifth decimal</th><th>Fifth decimal</th><th>Account for professional traders</th></tr><tr><th>Dedicated account manager</th><th>Dedicated account manager</th><th>Dedicated account manager</th><th>-</th></tr><tr><th>Swap discount</th><th>Swap discount 25%</th><th>Swap discount 50%</th><th>-</th></tr><tr><th>Free VPS</th><th>Free VPS</th><th>Free VPS</th><th>-</th></tr><tr><th>Islamic account</th><th>Islamic account</th><th>Islamic account</th><th>-</th></tr><tr><th>Top base currencies</th><th>Top base currencies</th><th>Top base currencies</th><th>-</th></tr></tbody></table></figure><figure class="image"><img alt="101Investing Sharia" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/0c1141af10.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/0c1141af10.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/0c1141af10.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/0c1141af10.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/0c1141af10.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/0c1141af10.jpg 1282w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/101investing" rel="noindex nofollow" target="_blank">Open 101Investing Account</a></p><h2>101Investing fees</h2><p>With 101Investing there are no deposit or commissions fees charged to clients. However, there are a few other fees that you should be aware of. In total, 101Investing charges high inactivity fees, spreads, financing/rollover fees. Swap/Rollover/ Ongoing costs are а financing fee deducted from the value of the position and is only charged when а position is held open overnight/s. FXBFI Financial Broker Invest Ltd reserves the right to charge а withdrawal fee at an amount equal to 50 EUR if there is insignificant or nо trading activity in the Client's trading account prior to the submission of the withdrawal request. ln case the Client wishes to withdraw less than €100, additional fees may apply and the Client will bе informed in advance accordingly.</p><p>Here is a small sample of 101Investing spreads for different instruments:</p><figure class="image"><img alt="101Investing review crypto spreads" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/06fe4a4ac5.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/06fe4a4ac5.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/06fe4a4ac5.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/06fe4a4ac5.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/06fe4a4ac5.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/06fe4a4ac5.jpg 1767w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p> </p><figure class="image"><img alt="101Investing review forex spreads" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/07027028ff.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/07027028ff.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/07027028ff.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/07027028ff.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/07027028ff.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/07027028ff.jpg 1788w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><figure class="image"><img alt="101Investing review stock spreads" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/0703d846d5.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/0703d846d5.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/0703d846d5.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/0703d846d5.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/0703d846d5.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/0703d846d5.jpg 1753w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><figure class="image"><img alt="101Investing review indices spreads" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/070600984b.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/070600984b.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/070600984b.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/070600984b.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/070600984b.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/070600984b.jpg 1709w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><figure class="image"><img alt="101Investing review metals spreads" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/0707618bcd.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/0707618bcd.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/0707618bcd.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/0707618bcd.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/0707618bcd.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/0707618bcd.jpg 1733w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><figure class="image"><img alt="101Investing review commodities CFD" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/07089b054d.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/07089b054d.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/07089b054d.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/07089b054d.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/07089b054d.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/07089b054d.jpg 1775w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>101Investing also charges its users hefty <strong>inactivity fees</strong>, which are charged for account maintenance, administration, and compliance expenses:</p><ul><li>Over 61 days, the inactivity fee is 80 EUR, retroactive for all the dormant period ( after 61 days of inactivity, your account will incur a 160 EUR fee).</li><li>Over 91 days, the inactivity fee is 120 EUR per month.</li><li>Over 181 days the inactivity fee is 200 EUR per month</li><li>Over 271 days, the inactivity fee is 500 EUR per month.</li></ul><p>In brief, although 101Investing offers commission-free trading, there are other fees you should be aware of. While charging spreads and overnight fees are standard, leaving your account without control can be quite expensive.</p><h2>Design and Usability</h2><p>101Investing gives you access to the following products:</p><ul><li>51 forex CFDs</li><li>23 cryptocurrency CFDs</li><li>17 commodities CFDs</li><li>75 stock CFDs</li><li>15 indices CFDs</li><li>5 metal CFDs</li></ul><p>The list of cryptocurrencies includes Bitcoin (BTC), Ethereum (ETH), Cardano (ADA), Bitcoin Gold (BTG), Ethereum Classic (ETC), Litecoin (LTC), NEO (NEO), Ripple (XRP), Stellar (XLM), Monero (XMR), Zcash (ZEC), Verge (XVG), and others.</p><p>When it comes to platform design, the platform can be easy to use and navigate. The platform itself can be divided into two core parts - a client area where you can manage your account, deposits, and withdrawals, and MetaTrader 4 trader terminal, where the trading takes place.</p><figure class="image"><img alt="101Investing Review account view" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/0c26159860.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/0c26159860.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/0c26159860.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/0c26159860.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/0c26159860.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/0c26159860.jpg 1517w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>A more complicated section of the platform is the trading terminal. It can be slightly overwhelming at first. MetaTrader 4 has variety of trading tools and features there also available tutorials that can help you to navigate around the platform.</p><figure class="image"><img alt="101Investing metatrader4" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/0c3bcb15fc.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/0c3bcb15fc.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/0c3bcb15fc.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/0c3bcb15fc.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/0c3bcb15fc.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/0c3bcb15fc.jpg 955w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>In fact, 101Investing has a dedicated section on its website, which is focused on trader education. There, you can find:</p><ul><li>Articles</li><li>Webinars</li><li>Video-on-demand (VOD) (you can find MetaTrader videos there)</li><li>Ebooks</li><li>Tutorials (includes MetaTrader 4 and MT4 mobile lesions)</li><li>Courses</li><li>Economic calendar</li><li>Earnings reports calendar</li><li>Trading signals</li></ul><p>The education section was designed to help traders, so if you want to learn more about MetaTrader 4, technical analysis, trading tools, key terms, and much more, be sure to check out the education section on the 101Investing website.</p><figure class="image"><img alt="101Investing review education resources" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/0c48e410d0.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/0c48e410d0.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/0c48e410d0.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/0c48e410d0.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/0c48e410d0.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/0c48e410d0.jpg 1839w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>The trading terminal can be accessed via the following interfaces:</p><ul><li>A web platform (Webtrader - no need to download or install anything)</li><li>MetaTrader 4 (MT4 for desktop computer)</li><li>MetaTrader 4 for Android devices.</li><li>MetaTrader 4 for iOS devices</li></ul><h3>Webtrader</h3><figure class="image"><img alt="101Investing review trading terminal" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/0c33b1af3e.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/0c33b1af3e.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/0c33b1af3e.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/0c33b1af3e.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/0c33b1af3e.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/0c33b1af3e.jpg 961w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>WebTrader is a trading platform that enables traders to have access to the market without needing to install extra applications to their devices. It can be accessed from a computer with a web browsing capability.</p><h3>MetaTrader 4 desktop application</h3><p>MetaTrader 4 is a desktop trading platform for PC or a Mac and a powerful technological trading engine used by many traders. After you download and install it, you can start trading directly from your computer through the platform.</p><p>It features many advanced trading tools, a customizable interface, editable indicators, and much more. Used by many traders, it will surely help to shape your trading experience.</p><h3>Mobile app</h3><p>101Investing mobile app for instant connection to the trading platform from any place. Explore your best chances on markets whenever you have a free minute.</p><figure class="image"><img alt="101Investing review apps" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/0c4feece67.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/0c4feece67.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/0c4feece67.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/0c4feece67.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/0c4feece67.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/0c4feece67.jpg 1201w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h3>Demo account</h3><p>101Investing offers free demo accounts, which let you try out and navigate through the platform. The demo account includes all features and functionalities of a real account without needing to deposit any funds.</p><h3>Customer support</h3><p>101Investing offers good customer support, which is ready to help in multiple languages. It operates on weekdays, from Mon – Fri 09:00 – 23:00 (GMT+3) and Weekends 11:00 – 20:00 (GMT +3).</p><figure class="image"><img alt="101Investing Review help center" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/0c72c91b30.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/0c72c91b30.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/0c72c91b30.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/0c72c91b30.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/0c72c91b30.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/0c72c91b30.jpg 1167w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>You can reach the customer support team via the following channels:</p><ul><li>Live chat on the website</li><li>Phone call: + 357 80092740</li><li>Email: <a class="__cf_email__" data-cfemail="b5c6c0c5c5dac7c1f5848584dcdbc3d0c6c1dcdbd29bd6dad8" href="/cdn-cgi/l/email-protection">[email protected]</a></li></ul><p>The support team is typically quick to respond and you can expect to get an answer to your query within an hour at most (during the working hours).</p><figure class="image"><img alt="101Investing customer support" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/0c753cbb01.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/0c753cbb01.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/0c753cbb01.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/0c753cbb01.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/0c753cbb01.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/0c753cbb01.jpg 1102w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><h2>Security measures</h2><p>Trading CFDs on various assets, the expected return, profit or loss from this product depends on the price fluctuation, market direction, and the position taken by the trader (Buy or Sell).</p><figure class="image"><img alt="101Investing review security measures" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/0c787d5875.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/0c787d5875.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/0c787d5875.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/0c787d5875.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/0c787d5875.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/0c787d5875.jpg 1206w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>101Investing is operated by FXBFI Broker Financial Invest Ltd regulated by CySEC under license number 315/16. Is also a member of the Investor Compensation Fund (the “Fund”) for Clients of Cyprus Investment Firms (CIFs). The objective of the ICF is to secure any claims of the covered clients against members of the ICF. The main essence of the ICF is to compensate covered clients for any claims arising from the failure of a member of the ICF to fulfil its obligations towards its clients despite whether that obligation arises from the legislation, the client agreement or from wrongdoing on the part of the member of the ICF.</p><p>On the technical side of things, 101Investing works with state-of-the-art technology to maintain a safe and<br/>transparent trading environment. Among the things they offer are:</p><ul><li>Strict firewalls and Secure Sockets Layer (SSL) software that are used to protect all data during transmission.</li><li>Transactions are under Level 1 PCI compliance services</li><li>Trading servers that are located in SAS 70 certified data centres</li><li>Encrypted transactions and communication data servers</li></ul><p>Unfortunately, the broker does not provide extra security layers such as two-factor authentication (2FA), so be sure to keep your account login details as secure as possible, and be wary of phishing scams.</p><p>In sum, 101Investing is a well-established regulated broker. On the technical side of things, the platform uses the MetaTrader 4 platform, though it could implement more features for safeguarding individual user accounts.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/101investing" rel="noindex nofollow" target="_blank">Visit 101Investing Website</a></p><h2>Deposit and withdrawal methods</h2><p>Before you start trading on the 101Investing platform, you need to top up your account. The minimum deposit at 101Investing currently is <strong>USD 250</strong> or the relevant currency equivalent, and you can choose from multiple payment methods.</p><figure class="image"><img alt="101Investing Review deposit methods" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5f1/0c7b29ae13.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5f1/0c7b29ae13.jpg 300w, https://cimg.co/w/rw-attachments/2/5f1/0c7b29ae13.jpg 600w, https://cimg.co/w/rw-attachments/3/5f1/0c7b29ae13.jpg 720w, https://cimg.co/w/rw-attachments/4/5f1/0c7b29ae13.jpg 900w, https://cimg.co/w/rw-attachments/0/5f1/0c7b29ae13.jpg 844w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>The company maintain merchant accounts with the following Payment Service Providers:</p><ul><li>Bank/wire transfer</li><li>INPAY</li><li>eMerchantPay</li><li>Trustly</li><li>KoalaPays (UPayCard)</li><li>Safecharge</li></ul><p>All deposits are free of charge, except for payment processing fees that are charged by your payments service.</p><h2>101Investing Review: Conclusion</h2><p>101Investing is a well-established broker, suitable for different types of investors, but the use or navigation through the platform may be more difficult for some traders. However, traders are likely to enjoy its commission-free trading, good customer support, a wide range of assets on CFDs.</p><p><i><strong>Risk warning:</strong> CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. Between 74-89 % of retail investor accounts lose money when trading CFDs. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money.</i></p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

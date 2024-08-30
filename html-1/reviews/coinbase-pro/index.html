@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12 col-lg-8">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/reviews/">Reviews</a>
+<a href="/reviews/coinbase-pro/">Coinbase Pro</a>
+</div>
+<main>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-3">
+<div class="d-none d-md-block mb-30">
+<img alt="5dcab04fee043.png" class="img-fluid img-circle author__image author__image--has-bg mb-15" loading="auto" src="https://cimg.co/reviewlogo/6/5dcab04fee043.png"/>
+<div>
+<a class="c-black" href="#"><b>Coinbase Pro</b></a>
+<a class="button-more button-more--gradient mt-20" href="https://cryptonews.com/ext/coinbase-pro" target="_blank">
+                                        Open Account                                        <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg> </a>
+</div>
+</div>
+<div class="pt-60">
+</div>
+</div>
+<div class="col-12 col-lg-9 article-single__content category_contents_details mb-60 scrollspy">
+<h1 id="coinbase-pro"> Coinbase Pro</h1>
+<p>Coinbase Pro (formerly known as GDAX) is an advanced cryptocurrency trading platform owned and operated by popular cryptocurrency exchange Coinbase. Launched as a part of Coinbase exchange, it benefits from many of the same advantages as Coinbase itself, including ease of use, solid security, and great liquidity. It is designed for more experienced retail and professional traders and allows a range of advanced, high-volume trades. Its trading fees are not the lowest out there, but Coinbase Pro doesn't charge anything for cryptocurrency deposits or withdrawals. All of this makes a very good exchange for both retail and institutional traders, and the latter can open a dedicated corporate account at Coinbase Prime.</p><div class="scrollspy" id="general-information">
+<h2>General info</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Web address:</td>
+<td><b><a class="c-purple" href="https://cryptonews.com/ext/coinbase-pro" target="_blank">Coinbase Pro</a></b></td>
+</tr>
+<tr>
+<td>Support contact:</td>
+<td><b><a class="c-purple" href="https://support.pro.coinbase.com/" rel="nofollow" target="_blank">Link</a></b></td>
+</tr> <tr>
+<td>Main location:</td>
+<td><b>San Francisco, US</b></td>
+</tr>
+<tr>
+<td>Daily volume:</td>
+<td><b>85941.0 BTC</b></td>
+</tr>
+<tr>
+<td>Mobile app available:</td>
+<td><b>Yes</b></td>
+</tr>
+<tr>
+<td>Is decentralized:</td>
+<td><b>No</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-12 col-md-6">
+<table class="table table--list">
+<tbody>
+<tr>
+<td>Parent Company:</td>
+<td><b>Coinbase, Inc.</b></td>
+</tr>
+<tr>
+<td>Transfer types:</td>
+<td><b>
+                                                                                                                                                        Bank Transfer,
+                                                                                                                                                                                                                                        Crypto Transfer,
+                                                                                                                                            </b></td>
+</tr>
+<tr>
+<td>Supported fiat:</td>
+<td><b>USD, EUR, GBP</b></td>
+</tr>
+<tr>
+<td>Supported pairs:</td>
+<td><b>57</b></td>
+</tr>
+<tr>
+<td>Has token:</td>
+<td><b>USDC</b></td>
+</tr>
+<tr>
+<td>Fees:</td>
+<td><b>High (<a href="/price-tracker/">Compare rates</a>)</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+</div><div class="scrollspy" id="pros-and-cons">
+<h2>Pros &amp; Cons</h2>
+<div class="row">
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--pros">
+</ul>
+</div>
+<div class="col-12 col-md-6 mb-30">
+<ul class="list--cons">
+</ul>
+</div>
+</div>
+</div><div class="scrollspy mb-30" id="screenshots">
+<div class="d-flex align-items-center">
+<div class="col-6"> <h2>Screenshots</h2> </div>
+<div class="col-6">
+<div class="reviews-slider__arrows text-right"></div>
+</div>
+</div>
+<div class="row" id="review_slider">
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid" loading="auto" src="https://cimg.co/review/186/14646/5a74b67605901.png" srcset="https://cimg.co/review/186/14646/responsive-images/5a74b67605901___media_library_original_1440_803.png 1440w, https://cimg.co/review/186/14646/responsive-images/5a74b67605901___media_library_original_1200_669.png 1200w, https://cimg.co/review/186/14646/responsive-images/5a74b67605901___media_library_original_900_501.png 900w, https://cimg.co/review/186/14646/responsive-images/5a74b67605901___media_library_original_720_401.png 720w, https://cimg.co/review/186/14646/responsive-images/5a74b67605901___media_library_original_600_334.png 600w, https://cimg.co/review/186/14646/responsive-images/5a74b67605901___media_library_original_300_167.png 300w" width="1440"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/186/14647/5a74b6765b8cf.png" data-srcset="https://cimg.co/review/186/14647/responsive-images/5a74b6765b8cf___media_library_original_592_394.png 592w, https://cimg.co/review/186/14647/responsive-images/5a74b6765b8cf___media_library_original_300_199.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="592"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/186/14648/5a74b676dc577.png" data-srcset="https://cimg.co/review/186/14648/responsive-images/5a74b676dc577___media_library_original_1440_803.png 1440w, https://cimg.co/review/186/14648/responsive-images/5a74b676dc577___media_library_original_1200_669.png 1200w, https://cimg.co/review/186/14648/responsive-images/5a74b676dc577___media_library_original_900_501.png 900w, https://cimg.co/review/186/14648/responsive-images/5a74b676dc577___media_library_original_720_401.png 720w, https://cimg.co/review/186/14648/responsive-images/5a74b676dc577___media_library_original_600_334.png 600w, https://cimg.co/review/186/14648/responsive-images/5a74b676dc577___media_library_original_300_167.png 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1440"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/186/14649/5e8f5367a6af1.jpg" data-srcset="https://cimg.co/review/186/14649/responsive-images/5e8f5367a6af1___media_library_original_1911_860.jpg 1911w, https://cimg.co/review/186/14649/responsive-images/5e8f5367a6af1___media_library_original_1200_540.jpg 1200w, https://cimg.co/review/186/14649/responsive-images/5e8f5367a6af1___media_library_original_900_405.jpg 900w, https://cimg.co/review/186/14649/responsive-images/5e8f5367a6af1___media_library_original_720_324.jpg 720w, https://cimg.co/review/186/14649/responsive-images/5e8f5367a6af1___media_library_original_600_270.jpg 600w, https://cimg.co/review/186/14649/responsive-images/5e8f5367a6af1___media_library_original_300_135.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1911"/></div>
+<div class="pl-15 pr-15 item"><img alt="a" class="img-fluid lazyload" data-src="https://cimg.co/review/186/14650/5e8f536919fce.jpg" data-srcset="https://cimg.co/review/186/14650/responsive-images/5e8f536919fce___media_library_original_1378_747.jpg 1378w, https://cimg.co/review/186/14650/responsive-images/5e8f536919fce___media_library_original_1200_650.jpg 1200w, https://cimg.co/review/186/14650/responsive-images/5e8f536919fce___media_library_original_900_487.jpg 900w, https://cimg.co/review/186/14650/responsive-images/5e8f536919fce___media_library_original_720_390.jpg 720w, https://cimg.co/review/186/14650/responsive-images/5e8f536919fce___media_library_original_600_325.jpg 600w, https://cimg.co/review/186/14650/responsive-images/5e8f536919fce___media_library_original_300_162.jpg 300w" loading="auto" src="https://cimg.co/p/no_image.svg" width="1378"/></div>
+</div>
+</div><h2>Coinbase Pro Review Summary</h2><p>Coinbase Pro cryptocurrency exchange is one of the top platforms if you want to buy and sell bitcoin or simply trade cryptocurrencies. The platform is a branch of cryptocurrency exchange Coinbase and is designed for more experienced professional and retail traders.</p><p>The key features of the platform include:</p><ul><li><strong>Access to 29 cryptocurrencies.</strong> Cryptocurrency traders can buy and sell <a href="/news/bitcoin-news/">bitcoin</a> on Coinbase Pro. Also, you can trade altcoins like , , and , as well as other new coins listed on Coinbase Pro in a seamless and secure way.</li><li><strong>Smooth transition between Coinbase and Coinbase Pro.</strong> If you already have a <a href="/reviews/coinbase/">Coinbase account</a>, you can use the same login credentials on Coinbase Pro and transfer your funds between Coinbase and Coinbase Pro wallets <strong>instantly</strong> and <strong>for free</strong>.</li><li><strong>Coinbase Prime.</strong> Institutional cryptocurrency investors are recommended to open a Coinbase Prime account, which is much like the Coinbase Pro but tailored for corporate professionals.</li><li><strong>Secure exchange.</strong> Coinbase is well-known for its security measures. It employs highest-level security standards and has never been hacked before. The exchange also runs <strong>Coinbase Custody</strong> service for institutional clients seeking the highest level cold storage security for their crypto assets.</li><li><strong>Excellent liquidity.</strong> Coinbase Pro has one of the largest cryptocurrency trading volumes in terms of USD, which makes it a great option for selling cryptocurrencies.</li><li><strong>Margin trading.</strong> From February 2020, Coinbase Pro offers up to <strong>3x leverage</strong> for its USD-quoted books. The feature is not available in all states and countries just yet.</li><li><strong>Coinbase Earn.</strong> Coinbase lets you earn cryptocurrency for learning about it. At pixel time, you can get over <i>USD 150 worth of crypto</i> just by completing Coinbaseâ€™s courses.</li></ul><figure class="image"><img alt="Coinbase Earn" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e8/f508ee71f5.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e8/f508ee71f5.jpg 300w, https://cimg.co/w/rw-attachments/2/5e8/f508ee71f5.jpg 600w, https://cimg.co/w/rw-attachments/3/5e8/f508ee71f5.jpg 720w, https://cimg.co/w/rw-attachments/4/5e8/f508ee71f5.jpg 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: Coinbase.com</p><p>Unsurprisingly, Coinbase Proâ€™s most prominent features are its security, reliability, accessibility, and firm regulatory footing. In contrast with other exchanges, it has a limited number of crypto assets, but it is due to the fact that the projects listed on it must undergo a vigorous vetting process.</p><figure class="image"><img alt="Coinbase Pro Review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e8/f41ff01c29.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e8/f41ff01c29.jpg 300w, https://cimg.co/w/rw-attachments/2/5e8/f41ff01c29.jpg 600w, https://cimg.co/w/rw-attachments/3/5e8/f41ff01c29.jpg 720w, https://cimg.co/w/rw-attachments/4/5e8/f41ff01c29.jpg 900w, https://cimg.co/w/rw-attachments/0/5e8/f41ff01c29.jpg 1391w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: Coinbase Pro website.</p><p>All in all, Coinbase Pro is an excellent trading platform for more advanced retail and institutional investors.</p><h2>Exchange History and Background</h2><p>Launched in January 2015, Coinbase Pro is a progeny of San Francisco-based Coinbase but designed for professional retail and institutional traders. Coinbase itself was founded in July 2011 by <a href="https://twitter.com/brian_armstrong">Brian Armstrong</a> and <a href="https://twitter.com/FEhrsam">Fred Ehrsam</a>. The company launched its services in October 2012 and quickly became one of the top bitcoin trading platforms in the United States.</p><p>In its first years of existence, Coinbase Pro was known as <strong>GDAX</strong> and had a separate office in Chicago. However, in May of 2018, Coinbase announced it was eliminating the GDAX brand, office, and will transfer all of its clients to Coinbase Pro.</p><figure class="image"><img alt="Coinbase Pro review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e8/f4faf65cf8.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e8/f4faf65cf8.jpg 300w, https://cimg.co/w/rw-attachments/2/5e8/f4faf65cf8.jpg 600w, https://cimg.co/w/rw-attachments/3/5e8/f4faf65cf8.jpg 720w, https://cimg.co/w/rw-attachments/4/5e8/f4faf65cf8.jpg 900w, https://cimg.co/w/rw-attachments/0/5e8/f4faf65cf8.jpg 1889w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: Coinbase.com</p><p>Ever since Coinbase Pro has become one of the largest U.S. exchanges in terms of both popularity and trading volume. In 2010, it was even recognized as one of a few exchanges that report reliable trading volume by <a href="https://www.sec.gov/comments/sr-nysearca-2019-01/srnysearca201901-5164833-183434.pdf">Bitwise</a>.</p><p>In October 2019, Coinbase Pro announced a new fee structure, which made its services more expensive for small trading volume accounts and lowered them for large volume trades. The changes prompted <a href="/news/coinbase-pro-increases-fees-what-could-go-wrong-4797.htm">a wave of criticism</a> online, though the new fee structure remains in effect.</p><p>Earlier in 2019, Coinbase received lots of heat for acquiring the infamous â€œHacking Teamâ€ and <a href="/news/coinbase-a-series-of-unfortunate-events-3441.htm">other strategic decisions</a>.</p><p>During the crypto boom in December 2017, its Coinbase app became the number one most downloaded app on Appleâ€™s App Store and remained one of the most popular mobile trading apps to this day.</p><h3>Regulation</h3><p>Just like Coinbase, Coinbase Pro is fully licensed and regulated in the U.S. and other supported countries. Due to the nature of its business and current regulatory environment, Coinbase is required to comply with <strong>The Bank Secrecy Act</strong>, <strong>The USA Patriot Act</strong>, and other local money transmission laws. Besides, Coinbase is registered as a <strong>Money Services Business with FinCEN</strong>.</p><p>As a result, Coinbase Pro users must pass strict <strong>Know Your Customer (KYC)</strong> and <strong>Anti-Money Laundering (AML)</strong> checks. These typically require you to submit the following documents:</p><ul><li>State ID, passport or driver license.</li><li>Complete a set of verification questions.</li><li>Proof of residential address - a utility bill, bank statement, or a credit card statement (no older than three months).</li><li>Photo of your face.</li></ul><p>According to Coinbase, the verification process takes up to 3 minutes, but it is likely to take longer at busy times. Also, note that verification is not available using Coinbase Pro mobile app.</p><p>As usual, the process requires more documents and takes longer for corporate accounts.</p><h3>Coinbase Pro Supported Countries</h3><p>Today, Coinbase Pro is available in more than 70 countries worldwide. Mind that Coinbase Pro users can only trade pairs permitted by local regulators in your jurisdiction. For instance, Australian, Canadian, or Singaporean versions of the exchange may offer somewhat different features and trading pairs than their European or American counterparts.</p><p><strong>Fiat-to-crypto and crypto-to-crypto trading supported countries:</strong></p><ul><li><strong>The United States</strong> (excluding Hawaii and with some exceptions in the state of New York).</li><li><strong>Europe:</strong> The United Kingdom, Andorra, Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Guernsey, Hungary, Iceland, Ireland, Isle of Man, Italy, Jersey, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Monaco, Netherlands, Norway, Poland, Portugal, San Marino, Slovakia, Spain, Sweden, and Switzerland.</li></ul><p><strong>Crypto-to-crypto trading supported countries:</strong></p><ul><li><strong>Asia:</strong> Bahrain, Hong Kong, India, Indonesia, Jordan, Kazakhstan, Kuwait, Mongolia, Oman, Philippines, Singapore, South Korea, Taiwan, Uzbekistan.</li><li><strong>Africa:</strong> Ghana, Kenya, South Africa, Tunisia, Uganda.</li><li><strong>Europe:</strong> Serbia, Turkey.</li><li><strong>North America:</strong> Canada.</li><li><strong>South America:</strong> Argentina, Brazil, Chile, Colombia, Ecuador, Peru, Uruguay.</li><li><strong>Central America:</strong> British Virgin Islands, Cayman Islands, Costa Rica, Dominican Republic, Guatemala, Jamaica, Mexico, and Panama.</li><li><strong>Australia</strong> and <strong>New Zealand</strong>.</li></ul><p>The latest list of Coinbase Pro supported countries can be found <a href="https://help.coinbase.com/en/pro/trading-and-funding/cryptocurrency-trading-pairs/locations-and-trading-pairs.html">here</a>.</p><h2>Coinbase vs. Coinbase Pro</h2><p>Bitcoin and cryptocurrencies can be an overwhelming experience for those looking to enter the space. Coinbase was created as an exchange for those who merely want to buy or sell bitcoin. Hence, it is an excellent site to refer to when you talk to newbies interested in entering the space. The platform makes it easy to register and buy cryptocurrency within minutes after completing account verification.</p><p>You can read our <a href="/reviews/coinbase/">full review of Coinbase here.</a></p><p>Meanwhile, Coinbase Pro is designed for more experienced retail and professional investors. It offers a wider variety of cryptocurrencies, more types of trade orders, lower fees, and a more advanced interface. And while itâ€™s a great platform for trading, it may be too complicated for complete beginners in the space.</p><figure class="image"><img alt="Coinbase vs Coinbase Pro supported cryptocurrencies" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e8/f49f750cfd.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e8/f49f750cfd.jpg 300w, https://cimg.co/w/rw-attachments/2/5e8/f49f750cfd.jpg 600w, https://cimg.co/w/rw-attachments/3/5e8/f49f750cfd.jpg 720w, https://cimg.co/w/rw-attachments/4/5e8/f49f750cfd.jpg 900w, https://cimg.co/w/rw-attachments/0/5e8/f49f750cfd.jpg 1080w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: Coinbase.com</p><p>Essentially, opening an account on Coinbase also means opening an account on Coinbase Pro. Both exchanges rely on the same infrastructure, security mechanisms, and order book, which makes it easy to transition from the former to the latter and vice versa. Also, the transfers between both exchanges are free of charge. However, convenience comes at a cost, so Coinbase fees are somewhat higher.</p><p>In sum, Coinbase Pro is better suited for traders and investors looking for a place to buy and sell larger quantities of bitcoin and other 28 cryptocurrencies, while Coinbase is designed for simpler crypto operations.</p><h2>Coinbase Pro Fees</h2><p>Fees on Coinbase Pro are sort of a mixed bag. On one hand, the platform does not charge any fees for crypto asset deposits and withdrawals. On the other hand, its trading fees for low-volume traders are higher than its competitors.</p><p>With bitcoin, those who buy or sell cryptocurrency from an existing order on the book (i.e., â€œtakersâ€) pay a <strong>0.5% fee</strong>. The same goes for those who are placing a new order in the order book (aka â€œmakers). However, the fee does go lower by more than half if you exchange more than <strong>USD 100,000 per month.</strong></p><figure class="table"><table><tbody><tr><th><strong>User 30-Day Volume</strong></th><th><strong>Taker Fee</strong></th><th><strong>Maker Fee</strong></th></tr><tr><th><strong>&lt; USD 10,000</strong></th><th>0.50%</th><th>0.50%</th></tr><tr><th><strong>USD 10,000 - 50,000</strong></th><th>0.35%</th><th>0.35%</th></tr><tr><th><strong>USD 50,000 - 100,000</strong></th><th>0.25%</th><th>0.15%</th></tr><tr><th><strong>USD 100,000 - 1 million</strong></th><th>0.20%</th><th>0.10%</th></tr><tr><th><strong>USD 1 million - 10 million</strong></th><th>0.18%</th><th>0.08%</th></tr><tr><th><strong>USD 10 million - 50 million</strong></th><th>0.15%</th><th>0.05%</th></tr><tr><th><strong>USD 50 million - 100 million</strong></th><th>0.10%</th><th>0.00%</th></tr><tr><th><strong>USD 100 million - 300 million</strong></th><th>0.07%</th><th>0.00%</th></tr><tr><th><strong>USD 300 million - 500 million</strong></th><th>0.06%</th><th>0.00%</th></tr><tr><th><strong>USD 500 million - 1 billion</strong></th><th>0.05%</th><th>0.00%</th></tr><tr><th><strong>&gt; USD 1 billion</strong></th><th>0.04%</th><th>0.00%</th></tr></tbody></table></figure><p>As you can see, trading on Coinbase Pro is not the cheapest option to sell or buy bitcoin for low volume investors. By comparison, users who trade less than USD 50,00 per month pay only 0.16% for market-making orders and 0.26% for market taking transactions at <a href="/reviews/kraken/"><strong>Kraken</strong></a>. The fees are even lower at <a href="/reviews/bittrex/"><strong>Bittrex</strong></a>, where both low volume makers and takers pay a 0.2% fee per trade.</p><p>Trading fees on Coinbase Pro remain proportionally higher than at competing exchanges for higher volume traders unless you trade more than USD 100 million per month.</p><p>As for <strong>deposits and withdrawals</strong>, these are both entirely free if the user is transferring cryptocurrency or making an ACH deposit or withdrawal. Otherwise, Coinbase Pro charges its users the following flat fees:</p><figure class="table"><table><tbody><tr><th><strong>Transfer type</strong></th><th><strong>Deposit Fee</strong></th><th><strong>Withdrawal Fee</strong></th></tr><tr><th><strong>Cryptocurrencies</strong></th><th>Free</th><th>Free</th></tr><tr><th><strong>ACH</strong></th><th>Free</th><th>Free</th></tr><tr><th><strong>Wire (USD)</strong></th><th>USD 10</th><th>USD 25</th></tr><tr><th><strong>SEPA (EUR)</strong></th><th>EUR 0.15</th><th>EUR 0.15</th></tr><tr><th><strong>Swift (GBP)</strong></th><th>Free</th><th>GBP 5</th></tr><tr><th><strong>Bank card (via Coinbase)</strong></th><th>3.99%</th><th>-</th></tr></tbody></table></figure><p>Unfortunately, Coinbase Pro does not have an integrated instant buy/sell option that would allow you to deposit funds directly into your Coinbase cryptocurrency wallet using a credit or debit card.</p><p>There is a workaround, though, as you can buy bitcoin or other cryptocurrencies with a credit or debit card via <a href="https://cryptonews.com/ext/coinbase/"><strong>Coinbase</strong></a> and transfer it directly to Coinbase Pro <strong>for free</strong>. For every instant crypto purchase via bank card on Coinbase charges you <strong>3.99%</strong> per transaction.</p><p>As such, Coinbase Pro has the best fees in the industry when it comes to deposits and withdrawals.</p><p>Last but not least, Coinbase Pro recently introduced its <strong>margin trading</strong> feature. As for now, it is available in a limited number of jurisdictions and for approved accounts only. The exchange charges an <strong>annualized interest rate of 8% for both open and filled orders.</strong> It is calculated hourly and is charged daily for all hours in which you used leverage.</p><p>All in all, Coinbase Pro is pricier when it comes to trading cryptocurrency, but charges slightly cheaper fees when it comes to crypto and fiat deposits and withdrawals.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/coinbase-pro" rel="noindex nofollow" target="_blank">Trade On Coinbase Pro</a></p><h2>Coinbase Pro Security</h2><p>As stated above, security is one of Coinbase Pro strong points. Only 2% of its customers' cryptocurrency funds are held online, and these are insured in the case of loss.</p><p>Meanwhile, the exchange adopts a variety of measures to ensure that its system remains secure:</p><ul><li><strong>Two-factor authentication</strong> is used on all accounts</li><li>All website traffic is encrypted using the <strong>SSL</strong> (secure sockets layer) cryptographic protocol</li><li>All wallets and wallet keys are encrypted using <strong>AES-256 encryption</strong></li><li>98% of all crypto assets are held in secure <a href="/guides/bitcoin-cold-storage.htm">cold storage</a>.</li><li>All employees have to undergo a security check and must encrypt their hard drives</li></ul><p>Perhaps most reassuringly of all, Coinbase Pro has a registered BitLicense with the New York Department of Financial Services. This requires it to submit annual financial audits, which demonstrate that the exchange has sufficient liquidity and remains soundly managed. Besides, the platform is running Coinbase Custody, a cryptocurrency wallet and digital asset security service for corporations, which is also titled as â€œthe worldâ€™s most trusted cold storage.â€</p><p>Coinbaseâ€™s security is well-recognized by other industry players, too. For example, <a href="https://www.cryptocompare.com/external/research/exchange-ranking/">CryptoCompareâ€™s Exchange Benchmark</a> rates itâ€™s security the best possible 19.9 out of max 20 points, which is the highest rating in the entire industry.</p><figure class="image"><img alt="Coinbase PRO review" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e8/f52614807a.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e8/f52614807a.jpg 300w, https://cimg.co/w/rw-attachments/2/5e8/f52614807a.jpg 600w, https://cimg.co/w/rw-attachments/3/5e8/f52614807a.jpg 720w, https://cimg.co/w/rw-attachments/4/5e8/f52614807a.jpg 900w, https://cimg.co/w/rw-attachments/0/5e8/f52614807a.jpg 1654w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: Coinbase.com</p><p>As a result, Coinbase Pro has never suffered any kind of hack before. The exchange employs some of the best security practices in the industry, and you can get a goodnightâ€™s sleep keeping your cryptocurrency on Coinbase (<a href="/guides/how-to-store-cryptocurrency-safely.htm">even though thatâ€™s not a good crypto security practice</a>).</p><h2>Coinbase Pro Design and Usability</h2><p>Coinbase Pro may be the exchange for professional traders, yet itâ€™s one of the easiest to use and navigate.</p><figure class="image"><img alt="Coinbase Pro trading" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e8/f50200e44e.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e8/f50200e44e.jpg 300w, https://cimg.co/w/rw-attachments/2/5e8/f50200e44e.jpg 600w, https://cimg.co/w/rw-attachments/3/5e8/f50200e44e.jpg 720w, https://cimg.co/w/rw-attachments/4/5e8/f50200e44e.jpg 900w, https://cimg.co/w/rw-attachments/0/5e8/f50200e44e.jpg 1378w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: Coinbase.com</p><p>Currently, you can use Coinbase Pro to:</p><ul><li>Buy and sell 29 cryptocurrencies for USD, EUR, or GBP. Currently supported cryptocurrencies include <a href="/coins/bitcoin/">bitcoin (BTC)</a>, <a href="/coins/ethereum/">ethereum (ETH)</a>, <a href="/coins/ripple/">XRP</a>, <a href="/coins/litecoin/">litecoin</a>, <a href="/coins/bitcoin-cash/">bitcoin cash (BCH)</a>, <a href="/coins/eos/">EOS</a>, <a href="/coins/cosmos-2/">cosmos (ATOM)</a>, <a href="/coins/basic-attention-token/">basic attention token (BAT)</a>, <a href="/coins/bitcoin-sv/">bitcoin SV (BSV)</a>, <a href="/coins/civic/">civic (CVC)</a>, <a href="/coins/dai/">DAI</a>, <a href="/coins/dash/">DASH</a>, <a href="/coins/district0x/">district0x (DNT)</a>, <a href="/coins/ethereum-classic/">ethereum classic (ETC)</a>, <a href="/coins/golem-network-tokens/">golem (GNT)</a>, <a href="/coins/kyber-network/">kyber network (KNC)</a>, <a href="/coins/chainlink/">chainlink (LINK)</a>, <a href="/coins/loom-network/">loom network (LOOM)</a>, <a href="/coins/decentraland/">decentraland (MANA)</a>, <a href="/coins/maker/">maker (MKR)</a>, orchid (OXT), <a href="/coins/augur/">augur (REP)</a>, <a href="/coins/usd-coin/">USD coin (USDC)</a>, <a href="/coins/stellar/">stellar (XLM)</a>, <a href="/coins/tezos/">tezos (XTZ)</a>, <a href="/coins/zcash/">zcash (ZEC)</a>, and <a href="/coins/0x/">0x (ZRX)</a>.</li><li>Conduct crypto-to-crypto trades in more than <strong>57 markets</strong>.</li><li>Place advanced orders like market, limit, good â€˜til canceled, stop orders, and more.</li><li>Margin trade with up to <strong>3x leverage</strong> (only for certain jurisdictions).</li><li>Make use of the <strong>Coinbase API</strong>. Coinbase Pro has a WebSocket feed for fetching real-time market data, so you can use it to program all sorts of secure trading bots for trading on Coinbase.</li><li>Construct different portfolios. Coinbase Pro allows customers to segment their funds into different portfolios, which makes it easier to test multiple strategies and manage risk.</li></ul><p>In terms of design, all the trading info a user needs is laid out on its dashboard, which is cleanly designed, responsive, and easily understood. Making trades is quick and painless, with the trading sidebar on the dashboard letting users choose and execute their desired trade with the click of a couple of buttons.</p><p>Besides, you can access the platform via Coinbase Pro mobile app for iOS and Android. Coinbase app lets you use all the same features as on the web-based Coinbase platform, except for the account verification option, which must be performed via the web browser.</p><figure class="image"><img alt="Coinbase Pro Review mobile app margin trading" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e8/f4de9409f4.png" data-srcset="https://cimg.co/w/rw-attachments/1/5e8/f4de9409f4.png 300w, https://cimg.co/w/rw-attachments/2/5e8/f4de9409f4.png 600w, https://cimg.co/w/rw-attachments/3/5e8/f4de9409f4.png 720w, https://cimg.co/w/rw-attachments/4/5e8/f4de9409f4.png 900w, https://cimg.co/w/rw-attachments/0/5e8/f4de9409f4.png 1500w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Margin trading on Coinbase Pro mobile app. Source: Coinbase.com</p><p>When it comes to account limits, you can withdraw up to USD 10,000 or its equivalent daily. Corporate accounts can take out up to USD 50,000 per day. Besides, it is possible to request a higher withdrawal limit by contacting the exchanges support, though there is no guarantee that your request will be approved.</p><h2>Coinbase Prime</h2><p>Institutional investors can open a Coinbase Prime account, which was specifically made for them. It works on the same Coinbase Pro platform but includes institutional trading capabilities like <strong>margin finance</strong>, <strong>high-touch execution OTC (over the counter) trading</strong>, <strong>execution algorithms</strong>, access via <strong>professional third-party platforms</strong> such as TT, <strong>dedicated institutional coverage</strong>, and much more.</p><figure class="image"><img alt="Coinbase Prime" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e8/f520ee160b.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e8/f520ee160b.jpg 300w, https://cimg.co/w/rw-attachments/2/5e8/f520ee160b.jpg 600w, https://cimg.co/w/rw-attachments/3/5e8/f520ee160b.jpg 720w, https://cimg.co/w/rw-attachments/4/5e8/f520ee160b.jpg 900w, https://cimg.co/w/rw-attachments/0/5e8/f520ee160b.jpg 1911w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: Coinbase.com</p><h3>Customer Support</h3><p>Perhaps the only downside to Coinbase Proâ€™s usability is its customer support, which can take time to respond to your inquiry. Even so, there are multiple channels for you to reach out for help:</p><ol><li><a href="https://help.coinbase.com/en/pro.html">Extensive knowledge center</a> filled with tutorials, educational information, and other handy articles.</li><li>Coinbase Pro live support chat.</li><li><a href="https://help.coinbase.com/en/contact-us.html">Contact us form</a> at the help center.</li><li>Mobile phone support in case your account was compromised.</li></ol><figure class="image"><img alt="Coinbase Pro support mobile phone" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e8/f4e64bd207.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e8/f4e64bd207.jpg 300w, https://cimg.co/w/rw-attachments/2/5e8/f4e64bd207.jpg 600w, https://cimg.co/w/rw-attachments/3/5e8/f4e64bd207.jpg 720w, https://cimg.co/w/rw-attachments/4/5e8/f4e64bd207.jpg 900w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: Coinbase.com</p><p>The platformâ€™s support pages are informative enough, but the support team can sometimes take several days to respond to requests, especially during busy periods. That said, this is a common complaint with popular cryptocurrency exchanges, and Coinbase Pro is certainly not worse than other platforms that have a reputation for being slow and unresponsive in helping their customers, such as <a href="/reviews/hitbtc/">HitBTC</a> or <a href="/reviews/localbitcoins/">LocalBitcoins</a>.</p><h2>Deposit and Withdrawal Methods</h2><p>Depositing funds into a Coinbase Pro account is generally straightforward. Euros can be deposited directly using a SEPA bank transfer, while US dollars can be deposited using a standard bank wire or via an ACH deposit. Great Britain Pounds (GBP) are added via SWIFT transfer.</p><p>The deposit and withdrawal fees for fiat currencies are specified in the fees section above. Cryptocurrency deposits and withdrawals on the Coinbase Pro platform are <strong>free of charge</strong>.</p><p>Users looking to deposit or buy digital currency with bank cards can make use of Coinbase Proâ€™s linkage with Coinbase. It means that Coinbase users with a verified account can, in fact, deposit any fiat currencies (or cryptocurrencies) they have to Coinbase Pro without paying any fee. The same is true of withdrawals, although in this case, these are limited by Coinbase Proâ€™s daily withdrawal limit, which begins at $10,000.</p><p>As for withdrawals of fiat currencies into bank accounts, these work in the same way as deposits. Euros can once again be withdrawn using a SEPA transfer, which takes one to two days to complete. US dollars can be withdrawn using an ACH transfer or a bank wire, while withdrawals in British pounds are made via SWIFT settlement.</p><p><a class="button-more button-more--gradient" href="https://cryptonews.com/ext/coinbase-pro" rel="noindex nofollow" target="_blank">Open A Free Account</a></p><h2>Conclusion</h2><p>Coinbase Pro exchange is geared more towards professional traders than its more accessible stablemate Coinbase. It allows for a wider variety of order types, ranging from the essential limit and stop orders to advanced orders such as good â€˜til canceled. Also, it is stepping into margin trading, and compared to other advanced exchanges lets you trade a decent range of cryptocurrencies, including top coins like bitcoin btc, bitcoin cash litecoin and ethereum. Most importantly, it does give users the ability to trade their US dollars, euros, and pounds directly for cryptocurrencies.</p><figure class="image"><img alt="Coinbase Pro review markets" class="lazyload" data-src="https://cimg.co/w/rw-attachments/1/5e8/f52bb2d9f1.jpg" data-srcset="https://cimg.co/w/rw-attachments/1/5e8/f52bb2d9f1.jpg 300w, https://cimg.co/w/rw-attachments/2/5e8/f52bb2d9f1.jpg 600w, https://cimg.co/w/rw-attachments/3/5e8/f52bb2d9f1.jpg 720w, https://cimg.co/w/rw-attachments/4/5e8/f52bb2d9f1.jpg 900w, https://cimg.co/w/rw-attachments/0/5e8/f52bb2d9f1.jpg 1302w" sizes="100vw" src="https://cimg.co/p/no_image.svg"/></figure><p>Source: Coinbase.com</p><p>Perhaps unsurprisingly for an exchange thatâ€™s paired with Coinbase, its security is generally very strong, as 98% of customer digital currency funds are held offline. At the same time, 2% held online are insured, meaning that any customers who lost money as the result of a hack would receive full compensation. Added to this, the pairing with Coinbase provides an added degree of convenience and simplicity, in that users whoâ€™ve already registered and verified an account with Coinbase will not need to do the same with Coinbase Pro.</p><p>Putting all of these things into consideration, it becomes clear why Coinbase Pro is one of the leading cryptocurrency exchanges in the industry.</p><p> </p>
+</div>
+</div>
+</main>
+</div>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

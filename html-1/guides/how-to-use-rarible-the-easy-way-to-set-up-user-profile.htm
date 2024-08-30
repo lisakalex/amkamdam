@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/guides/">Guides</a>
+<a href="/guides/how-to-use-rarible-the-easy-way-to-set-up-user-profile.htm">How To Use Rarible: The Easy Way to Set Up User Profile</a>
+</div>
+</div>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<main class="col-12 col-lg-8">
+<div class="row">
+<div class="col-12 col-md-3 col-lg-2 d-none d-md-block">
+</div>
+<div class="scrollspy col-lg-9 col-md-9 col-sm-12">
+<div class="row">
+<div class="col-12">
+<div class="article-single__content category_contents_details">
+<h1 class="scrollspy" id="how-to-use-rarible-the-easy-way-to-set-up-user-profile"> How To Use Rarible: The Easy Way to Set Up User Profile</h1>
+<figure class="image"><img src="https://cimg.co/guide/78094/190074/adobestock-473596046-editorial-use-only.jpg" width="1200"/><figcaption>Source: Adobe / Davide Bonaldo</figcaption></figure><p>Rarible is one of the most popular non-fungible token (NFT) marketplaces online. With a huge catalog of fantastic art, it is a go-to website for any NFT collector.</p><p>In order to use Rarible, you need to log in to the marketplace using a crypto wallet, like MetaMask. Then, you need to set up a unique Rarible account that displays all of your offers and purchases, thus allowing you to stand out, and to further embellish your NFT journey.</p><div class="dslot row mb-30" did="15"></div><p>This short guide will break down, step by step, how to use your existing MetaMask account to create a personal Rarible account, and then how to personalize the account and profile page to make them your own.</p><p>This guide assumes you already have a MetaMask account and have begun to purchase cryptocurrencies. If you have not yet started your adventure please click here to <a href="/guides/nft/" rel="noopener" target="_blank">view our other guides.</a></p><h2>What Is Rarible?</h2><p>To make the most of – use and spend – the cryptocurrencies stored in your MetaMask wallet, you need to connect it to an NFT marketplace like Rarible.</p><p>Rarible is one of the most recognizable and reputable NFT marketplaces on the internet today and it is also a great place to begin your NFT journey. It allows you to buy, sell and store your NFTs all in one place and show them off to other collectors on your profile page.</p><p>In our previous guides, we have taught you <a href="/guides/metamask-guide-how-to-set-up-get-started.htm" rel="noopener" target="_blank"><u>how to set up a MetaMask </u></a><u>wallet</u>, as well as transfer funds to your wallet from an exchange. In this one, we will break down how to safely connect MetaMask to Rarible, as well as how to set up and personalise your Rarible profile.</p><h2>Signing In To Rarible</h2><p>To begin your NFT journey, head over to the <a href="http://www.rarible.com" rel="noopener" target="_blank"><u>official Rarible website</u></a> and you will be presented with Rarible’s homepage. Before you get comfortable, mind that it is critical to always check if you are on the correct site before allowing access to your MetaMask wallet! Beware of any imitations, as there are plenty of scammers who would like to get their hands on your funds.</p><p>In the top right-hand corner, next to the colorful “<i>Create</i>” button, you will see a white “<i>Sign In</i>” button: click this to continue.</p><figure class="image"><img class="lazyload" data-src="https://lh6.googleusercontent.com/xAzmP85wVT6NTjYLh0r_OZJ5iTS_gQYz3aALYxLRE-zaIa4nbvs_BSg8oEwf_jlZaubCs6T_2kXQY9AwoKP0SBg7yImu3_v7Sabfj4lTmnFCnd1_iXrgHoAeI7yjM3KGQH2LsC27qwLDf4-MeQ" data-srcset="" src="https://cimg.co/p/no_image.svg"/></figure><p>You will then be redirected to a sign-in page giving you a choice of currencies and wallets available. This is important as each currency has its own unique wallet and address, signing up with the wrong wallet address will limit the currencies that you can use with your account.</p><p>For this guide, we will be sticking with the default Ethereum currency and using MetaMask to create our account.</p><p>Click the blue “<i>Sign in with MetaMask</i>” button to progress.</p><figure class="image"><img class="lazyload" data-src="https://lh4.googleusercontent.com/H9SMafEajZEys13MsovHZQsKAiaDXgDzndhSlNT-GlBeqJTM4TP8E8Z_ZqbhvnnHj1rb_hnJCoSqMzyWwWDmRI9P1uUvmx5oNcUCdN-baolBpfrRKHTxMVKtNfGBJXw3BkKiviXBb_sQ3XZu-w" data-srcset="" src="https://cimg.co/p/no_image.svg"/></figure><p>You will then be met with a pop-up, again in the top right-hand corner, from MetaMask confirming the account you will be linking.</p><p>If you are happy with the selected wallet, click the blue “<i>Next</i>” button in the bottom right of the pop-up.</p><figure class="image"><img class="lazyload" data-src="https://lh4.googleusercontent.com/MiFnaOtJPXaUOfVZKxGsPoXpM6w1nMOQ_wI3HNVMkmjjxHrpTfNgiCS7pG6mVHX5i8RNGIzvkhEjdg02Y5G75n8wDphDAXnXz_dJuVIBjVzKJ0bYxXEgxSrCwWUD5GwvLa0Sj9SNAXR5hB-3Yw" data-srcset="" src="https://cimg.co/p/no_image.svg"/></figure><p>The pop-up will refresh, and you will be informed of the permissions you are granting to Rarible by connecting your MetaMask account.</p><p>If you agree to these permissions, click the blue “<i>Connect</i>” button to finalize your account creation.</p><figure class="image"><img class="lazyload" data-src="https://lh5.googleusercontent.com/Q0rUgzQ8E2z8fHS5v84MWsgK22B1LPuKqB6lRHrESH9V4jGtnYPfaQuqBn8ybfPWq1KV43YP2jb-krxCsRUNYXyxOFrJ0YekNmf-iOxZY_roFa-xJmd2xw-oYhshpBYP1izp2ApFdVrE0y8IPA" data-srcset="" src="https://cimg.co/p/no_image.svg"/></figure><p>The pop-up will again refresh, with a brief animation of the connection being made, before automatically closing and redirecting you to the Rarible homepage.</p><figure class="image"><img class="lazyload" data-src="https://lh5.googleusercontent.com/IXxvKK0UXFRW_LEne-yqI0tKELEn4-ELmxx7cMQffqRjTrR0JyvbO88TfVn9DNQ1Dfet96HFOPIRZN3Wdz51N7mWc3L77TlwLEh7gpF71hqowq1WD4nx7Mjuc_p33joI99KDLpJauV3uCKk-_A" data-srcset="" src="https://cimg.co/p/no_image.svg"/></figure><p>Once back at the homepage you will notice that, in the top-right corner, where it once said “<i>Sign In</i>” it will now have a color circle, which is your default profile picture.</p><p>Your account has now been created!</p><figure class="image"><img class="lazyload" data-src="https://lh3.googleusercontent.com/yuVhrl-PZDhe2uOmlSMCflwKX1YzpOOE1mldOlF9QAYqbiqi6AQeao3o39cGtE7ldRtIwe4RJgpM1EiuYxEHq1maQXelprC4kQFM46evfxuj2JN18nh-2In990M4jMgmmdFCCBRHeoUvzunw7w" data-srcset="" src="https://cimg.co/p/no_image.svg"/></figure><h2>How To Personalise Your Rarible Profile</h2><p>Now that you have successfully linked your MetaMask to Rarible, your account has been created and you are ready to start purchasing NFTs.</p><p>Before you dive headfirst into Rarible, let us spend some time developing your Rarible profile, making it personal to you, and making it stand out on the site!</p><p>To begin, click the coloured circle in the top right-hand corner.</p><figure class="image"><img class="lazyload" data-src="https://lh3.googleusercontent.com/yuVhrl-PZDhe2uOmlSMCflwKX1YzpOOE1mldOlF9QAYqbiqi6AQeao3o39cGtE7ldRtIwe4RJgpM1EiuYxEHq1maQXelprC4kQFM46evfxuj2JN18nh-2In990M4jMgmmdFCCBRHeoUvzunw7w" data-srcset="" src="https://cimg.co/p/no_image.svg"/></figure><p>This will open a dropdown menu showing the linked wallet address and your current balances, as well as an option to “<i>Edit Profile</i>”. Click this to continue.</p><figure class="image"><img class="lazyload" data-src="https://lh4.googleusercontent.com/DrAV0g0viRhxMd-3sevrkF8Z_IpDW0XkiIqd15q4YYm_nsdOHK50JJ9sjimAQy5lZ0uxOA6sSpPjFYLuUteOIYje8t7P1GqIV8rBW2u9-Kmpnzhfzm2eopFZZrRalNLlYwMQegdrVwiorC4zeg" data-srcset="" src="https://cimg.co/p/no_image.svg"/></figure><p>You will then be redirected to the “<i>Edit profile</i>” page.</p><p>Here you can add a username, a custom URL, and a bio, amongst other things. None of these are compulsory and you can complete as many, or a few, as you would like.</p><p>You can also add a profile picture or Gif, by clicking the blue “<i>Choose file</i>” button which will open your files, ready to upload a picture, if you are not completely comfortable doing this, it is not a problem – we will cover how to upload a photo through your PCs files further down when you update your cover photo, simply repeat these steps, and you will be all set!</p><p>Once you are happy with the details you provided, click the dark blue “<i>Update profile</i>” button to continue.</p><figure class="image"><img class="lazyload" data-src="https://lh4.googleusercontent.com/OrNES4eQ4ahWGPQo1JUhcG7CKEcG0eQzjLiXIUpoX6eu4UBSPjVVO1QYz3AziAz3ghIqUH-YG1EfrNyvEnLKcOXZQ3uIe8CMy229cV3GPE0Zc2kHuZTS6-TCJXb--dBfPXRRc2HfsMPDC3CZoA" data-srcset="" src="https://cimg.co/p/no_image.svg"/></figure><p>Before your changes are finalized, you will see another MetaMask pop-up, this time to confirm your updates.</p><p>Click “<i>Sign</i>” to agree to this, and proceed.</p><figure class="image"><img class="lazyload" data-src="https://lh3.googleusercontent.com/af1izWkpMCFmRIV7jbmIPmgZ7btu-fdovRgtwRjv8xp4lu8ypegsjSYJIvFd0whzdr5Vx2trpSnnZVgCcOoGZNt9FZkj8ypEJIdnMd3NDYdUaBciaKG6TsfIxTaBZfQLCt57V4Qm5nf3YSLxJA" data-srcset="" src="https://cimg.co/p/no_image.svg"/></figure><p>You will then see a quick loading screen pop up with a comment, in my case “<i>Racing GoKarts</i>”, which helps fill the time, before being automatically redirected.</p><figure class="image"><img class="lazyload" data-src="https://lh5.googleusercontent.com/uAhHz9qd_g51NM-id1yWRPfXIUFHC_kjj38zJ0cGJgmEc-fXMo7zCB80YEMSbNb8woGvOwhxQWvT2hoA2hPIIeMb0dev13kljM8G4hNX1ysNEt_tcBDs-nm-rsCzrrwEG_Vuz9Gv50RieNeJbA" data-srcset="" src="https://cimg.co/p/no_image.svg"/></figure><p>The loading pop-up will then be replaced with a new window confirming your successful updates to your profile.</p><p>If you have any more changes to make, click “<i>Close</i>” to return to the edit profile page. Otherwise, click the “<i>Continue</i>” button to be redirected to your profile page where you can review your changes.</p><figure class="image"><img class="lazyload" data-src="https://lh5.googleusercontent.com/-bRXEEFv2ot1uOAp9AZLSiGP4TOACoqcUJxSrLgK8vEFJeMBrnKFwOMZQ6VaZH-Z06ld7CwuGW1PGSKsnAT88EA2hfmkLtSlxVJMtTt99rKfogPgM6uq3rJLZo1IiADO4UHoW7BbBRYOin-MIA" data-srcset="" src="https://cimg.co/p/no_image.svg"/></figure><p>Once you are back on your profile page, it is time to add a cover photo to make you really stand out!</p><p>Hover over the big grey box behind your profile picture, and in the bottom-right corner a white button will appear saying “<i>Add cover</i>”. </p><p>Tap this to start the process.</p><figure class="image"><img class="lazyload" data-src="https://lh3.googleusercontent.com/mGrbyhWcxmqeJJxKwypO_DsId4LGpe6gB9GfhZFgcJxV3dGapENlxgFXLJiwHiu0zm1kyG7h5NbK4Q_m-WUod6nifsK_Kew6eUNcYsBenS3UDVRBujRY3AzMeK1kdCTi0mDmQLHipHvpI8nlEw" data-srcset="" src="https://cimg.co/p/no_image.svg"/></figure><p>You will then be greeted with a pop-up confirming your decision to update your cover photo. Click “<i>Cancel</i>” if you have changed your mind, or “<i>Select file</i>” to choose a picture.</p><figure class="image"><img class="lazyload" data-src="https://lh3.googleusercontent.com/8sIvIjpxAjYZ0dzlieA4RuqxqQvIx-YDp9tlG4AATbqquRwJIUnmCM-lfUeLQkIFL3Lsnm99kIUjPuKP1uMjHjOnVALQBeJaxu29EJDdr9IOj_b5qpuvWvKiVl_x6TKX5iJMRfw-fyodmWcywA" data-srcset="" src="https://cimg.co/p/no_image.svg"/></figure><p>Clicking “<i>Select file</i>” will open your PC’s files, where you can select the perfect image and then click “<i>Open</i>” in the bottom right-hand corner to progress.</p><figure class="image"><img class="lazyload" data-src="https://lh4.googleusercontent.com/Z8SHcDXRaBQGn3nW-dPF7IxeHvchyiismIFdABl28M9W-Ko_pQaAyZatmkOT6_shG_6UT91rzuLfG-cDAmrzqeKPDrXb4LTqHl6UK4bMYdu_MNFmted3Ti8FeA1hxIC5gVBssfNKcQFDE6S0nQ" data-srcset="" src="https://cimg.co/p/no_image.svg"/></figure><p>The box containing your files will then close, being replaced by a pop-up confirming your upload. You are still free to change your mind here by tapping the “<i>Cancel</i>” button before the update is finalized should you wish.</p><figure class="image"><img class="lazyload" data-src="https://lh6.googleusercontent.com/tJlf-okQcE_gqERsIaHVLS6PFlcO3KuGbK_BwPFnuvCgamhiMr6J56m3i7lV54NUDLYl50CHhPcC71ORMZ_FyRZTIA9mkYnIk0GB04TnCmUjxEDEon3D8ndcJJNDbf3lGBtyN2rOP9DpIW4Nwg" data-srcset="" src="https://cimg.co/p/no_image.svg"/></figure><p>After the upload is completed you will be automatically redirected back to your profile with your stunning new cover photo in full display.</p><figure class="image"><img class="lazyload" data-src="https://lh4.googleusercontent.com/swg9BVqEGdvWOZe0AYSFtQLtzJMYj6o2w1IT9mVFgcPkQxeXHLB4j3HfujO0w0gKQnHzU3osfSxFuGRucD_WaOKjkKUr3owUbLXiG7X0YgXEBf_ngOvwXtF8e_QLx7tYbP0tJitjhku_76Cm9g" data-srcset="" src="https://cimg.co/p/no_image.svg"/></figure><h2>Closing Thoughts</h2><p>By connecting your Metamask wallet to Rarible you have opened up a world of new, exciting NFTs, each with their own unique characteristics and communities just waiting for you to explore.</p><p>By setting up a personalized profile you will have a unique space to show off your artwork collection, which will grow over time as you venture through the Rarible marketplace and find amazing projects that are sure to grab your attention and warrant a purchase.</p><p>In our future articles, we will cover how to buy NFTs through the marketplace, as well as how to sell any artwork that you no longer wish to keep in your collection.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="mb-50">
+<hr class="mt-20 mb-60"/>
+<h2 class="mb-30">Other NFT Guides</h2>
+<div class="row">
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">NFT</div>
+<a class="article__title article__title--md" href="/guides/a-beginner-s-guide-to-nfts-what-you-should-know.htm">A Beginner's Guide to NFTs: What You Should Know</a>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">NFT</div>
+<a class="article__title article__title--md" href="/guides/how-to-mint-and-create-an-nft.htm">How to Create an NFT?</a>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">NFT</div>
+<a class="article__title article__title--md" href="/guides/top-10-nft-marketplaces.htm">Top 10 NFT Marketplaces</a>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">NFT</div>
+<a class="article__title article__title--md" href="/guides/how-to-add-tokens-to-metamask.htm">How to Add Tokens to MetaMask Wallet</a>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">NFT</div>
+<a class="article__title article__title--md" href="/guides/how-to-deposit-and-withdraw-tokens-through-metamask.htm">How to Deposit and Withdraw Tokens Through MetaMask</a>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">NFT</div>
+<a class="article__title article__title--md" href="/guides/how-to-link-metamask-to-uniswap.htm">How to Link MetaMask to Uniswap</a>
+</div>
+</div>
+</div>
+</div>
+</main>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>

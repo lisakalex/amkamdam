@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/">News</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">News
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/news/bitcoin-news/">Bitcoin News</a></li>
+<li><a href="/news/ethereum-news/">Ethereum News</a></li>
+<li><a href="/news/nft-news/">NFT News</a></li>
+<li><a href="/news/defi-news/">DeFi News</a></li>
+<li><a href="/news/altcoin-news/">Altcoin News</a></li>
+<li><a href="/news/blockchain-news/">Blockchain News</a></li>
+<li><a href="/news/press-releases/">Press Releases</a></li>
+<li><a href="/news/sponsored/">Sponsored</a></li>
+<li><a href="/news/industry-talk/">Industry Talk</a></li>
+<li><a href="/news/ico-news/">ICO news</a></li>
+<li><a href="/news/finance-news/">Finance News</a></li>
+<li><a href="/news/technology-news/">Technology News</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<div class="container">
+<div class="row">
+<div class="col-12">
+<div class="breadcrumbs mb-20">
+<a href="/">Cryptonews</a>
+<a href="/guides/">Guides</a>
+<a href="/guides/why-it-is-risky-to-leave-your-cryptocurrency-in-exchange.htm">Why It Is Risky To Leave Your Cryptocurrency In Exchange</a>
+</div>
+</div>
+<div class="col-12 mt-20 d-md-none d-block">
+<div class="row col-12">
+</div>
+</div>
+<main class="col-12 col-lg-8">
+<div class="row">
+<div class="col-12 col-md-3 col-lg-2 d-none d-md-block">
+</div>
+<div class="scrollspy col-lg-9 col-md-9 col-sm-12">
+<div class="row">
+<div class="col-12">
+<div class="article-single__content category_contents_details">
+<h1 class="scrollspy" id="why-it-is-risky-to-leave-your-cryptocurrency-in-exchange"> Why It Is Risky To Leave Your Cryptocurrency In Exchange</h1>
+<p>A brief look at the history of Bitcoin and cryptocurrencies reveals why is it dangerous to leave your crypto funds in an exchange. Since 2011, over $1.65 billion worth of crypto assets have been stolen, and the numbers are accelerating on a...</p><p>Keeping your digital assets in an exchange wallet is comes with added risks, so storing your cryptocurrency there for a long period of time is not a good idea. </p><div class="dslot row mb-30" did="15"></div><p>Here's why. </p><figure class="center"><img alt="Why Cryptocurrency Exchanges Are Unsafe" class="content-img" sizes="(min-width: 640px) 720px, 100vw" src="https://cimg.co/w/guides-attachments/1/5c7/517f04404f.jpg" srcset="https://cimg.co/w/guides-attachments/1/5c7/517f04404f.jpg 300w, https://cimg.co/w/guides-attachments/2/5c7/517f04404f.jpg 600w, https://cimg.co/w/guides-attachments/3/5c7/517f04404f.jpg 720w, https://cimg.co/w/guides-attachments/4/5c7/517f04404f.jpg 900w, https://cimg.co/w/guides-attachments/0/5c7/517f04404f.jpg 1080w"/><figcaption></figcaption></figure><h2 id="risks-of-leaving-cryptocurrency-in-exchange">Risks of Leaving Cryptocurrency in Exchange</h2><p>A brief look at the history of Bitcoin and cryptocurrencies reveals why it is dangerous to leave your crypto funds in an exchange. Since 2011, over $1.65 billion worth of crypto assets have been stolen, and the numbers are getting bigger every year. According to <a href="https://hackernoon.com/the-12-6-billion-black-hole-are-your-assets-protected-7ee34d9c810e" rel="noopener" target="_blank">Hackernoon</a>, that amounts to a jaw-dropping <b>$12.6 billion loss</b> when values are adjusted for inflation. </p><figure class="center"><img alt="All time stolen crypto" class="content-img lazyload" data-src="https://cimg.co/w/guides-attachments/1/5c6/9f5614da76.png" data-srcset="https://cimg.co/w/guides-attachments/1/5c6/9f5614da76.png 300w, https://cimg.co/w/guides-attachments/2/5c6/9f5614da76.png 600w, https://cimg.co/w/guides-attachments/3/5c6/9f5614da76.png 720w, https://cimg.co/w/guides-attachments/4/5c6/9f5614da76.png 900w, https://cimg.co/w/guides-attachments/0/5c6/9f5614da76.png 800w" sizes="(min-width: 640px) 720px, 100vw" src="https://cimg.co/p/no_image.svg"/><figcaption>Source: Hackernoon. </figcaption></figure><p>Aside from hacks, the trouble may arise from within the exchange. Any exchange may mismanage, lose, or even participate in fractional reserve banking. You may have heard of a recent <a href="/news/court-steps-in-as-quadrigacx-crypto-chaos-intensifies-3320.htm" rel="noopener" target="_blank">QuadrigaCX controversy</a>, whose owner had passed away with all the private keys, allegedly losing access to $190 millions of user funds. Or maybe you've heard about the notorious Mt. Gox exchange, whose founders were oblivious of ongoing hacks that lasted for more than two years while the exchange lost 650,000 BTC. </p><p>Exchanges are enticing hacker targets because they have billions of dollars worth of cryptocurrency. Quite frequently it's much more profitable to hack a crypto exchange than a bank vault. Itâ€™s like a pot of gold at the end of the rainbow, except instead of a leprechaun they must outsmart security measures of an exchange. As a result, exchanges are incredibly prone to experiencing highly sophisticated cyber attacks. </p><p>Consider these facts:</p><ul><li>Exchanges lose $2.7 million every day on average, and this figure is set to increase in the future.</li><li>The hacking attacks are becoming increasingly elaborate. It's a highly-rewarding activity; therefore it pays for ever-increasing time and effort spent on plotting hacks. </li><li>Exchanges are not cybersecurity enterprises. They run financial marketplaces first, and experience has shown they canâ€™t guarantee top-notch security. </li></ul><p>With large sums at stake, cryptocurrency hacks, schemes, and elaborate attacks are unlikely to go away. In the words of Moscow based cybersecurity firm Group-IB:</p><p><i>"In 2019, cryptocurrency exchanges will be a new target for the most aggressive hacker groups usually attacking banks. The number of targeted attacks on crypto exchanges will rise."</i></p><p>However, sometimes you canâ€™t help but use one. In that case, itâ€™s better that you use a proven, secure service, rather than an unknown, insecure, or simply irresponsible platform.</p><h2 id="how-to-recognize-a-secure-exchange">How To Recognize A Secure Exchange</h2><p>Thereâ€™s no guarantee that you wonâ€™t become a victim of another high-profile hack but choosing a reputable and highly secure exchange significantly reduces your chances. The best and most reliable platforms are open about the level of security they provide and give you a plethora of tools to secure your account. Here are the most common security practices to look for when choosing an exchange.</p><p><b>HTTPS.</b> Secure exchanges have a valid HTTPS certificate. Your browser will automatically confirm it by displaying a lock in the address bar. HTTPS is an encrypted version of the HTTP protocol. It prevents capturing and changing data youâ€™re sending to a web server. Every reputable cryptocurrency exchange should have it. </p><figure class="center" style="max-width: 406px"><img alt="Crypto Exchanges Unsafe HTTPS" class="content-img lazyload" data-src="https://cimg.co/w/guides-attachments/1/5c7/516fb69a4a.png" data-srcset="https://cimg.co/w/guides-attachments/1/5c7/516fb69a4a.png 300w, https://cimg.co/w/guides-attachments/2/5c7/516fb69a4a.png 600w, https://cimg.co/w/guides-attachments/3/5c7/516fb69a4a.png 720w, https://cimg.co/w/guides-attachments/4/5c7/516fb69a4a.png 900w, https://cimg.co/w/guides-attachments/0/5c7/516fb69a4a.png 406w" sizes="(min-width: 640px) 406px, 100vw" src="https://cimg.co/p/no_image.svg"/><figcaption>For example, you can see that your connection to Cryptonews is secured with HTTPS by looking at the address bar.</figcaption></figure><p><b>Secure password.</b> Good exchanges donâ€™t allow you to set a weak password. A secure password asks you to use a mix of regular and capital letters, symbols, and numbers, thus ensuring that no one can brute force it.</p><p><b>Two-Factor Authentication (2FA).</b> Having your accounts protected by 2FA is critical. Most exchanges offer multiple 2FA methods including software, SMS, and hardware devices. If there is no option to secure your account with 2FA, then the platform is quite insecure. Also, hackers can counterfeit your phone number, so the weakest form of 2FA is SMS authentication. Try to avoid it whenever more secure options are available. The most common practice is to set up two-factor authentication via Google Authenticator. It is a simple, yet safe and effective approach. </p><p><b>Cold Storage.</b> Check if the exchange uses cold storage to store user funds. It is much more difficult to steal funds that are locked offline than those which are held in a hot wallet.</p><p><b>Ability to Whitelist IP &amp; Withdrawal Addresses.</b> See if you can whitelist specific IP addresses for connecting to your exchange account. If enabled, it automatically blocks logins from other locations. Alternatively, some exchanges offer an option to whitelist your withdrawal addresses. If you can do so, the exchange will allow your funds to be withdrawn only to the previously approved addresses.</p><p><b>Other precautions.</b> Exchanges employ many other security tools like multi signatures, suspicious behavior alerts, email encryption, phishing protection, and others. Extra security measures certainly wonâ€™t hurt you, and as long as they are well implemented, they make exchanges quite safe temporary storages for your cryptocurrencies.</p><p><b>Funds Insurance.</b> Cryptocurrencies are still wildly unregulated, so most platforms have no obligation to follow FDIC reporting regulations or securities investor protection procedures. Yet, some exchanges take extra precautions and insure their funds from theft. Although that is a great marketing point, most of these insurance policies do not protect individual accounts and apply only to exchange as a whole. </p><p>Known platforms that insure their funds are <a href="https://cryptonews.com/ext/coinbase/" rel="nofollow noopener" target="_blank">Coinbase</a> and <a href="https://cryptonews.com/ext/coinbase-pro" rel="nofollow noopener" target="_blank">Coinbase Pro</a>, <b>Circle</b>, <b>Gemini</b>, and <b>Xapo</b>.</p><h4 data-param="3" id="the-most-secure-crypto-exchanges-of-2021">The Most Secure Crypto Exchanges of 2021</h4><p>So which exchange should you trust? According to the Icoratingâ€™s <a href="https://icorating.com/report/exchange-security-report-v-20-update/" rel="noopener" target="_blank">Exchange Security Report</a>, the top secure cryptocurrency exchanges are:</p><ol type="1"><li><a href="https://cryptonews.com/ext/kraken" rel="nofollow noopener" target="_blank">Kraken</a> (security grade - A)</li><li>Cobinhood (A)</li><li><a href="https://cryptonews.com/ext/poloniex" rel="nofollow noopener" target="_blank">Poloniex</a> (A-)</li><li><a href="https://cryptonews.com/ext/bitmex" rel="nofollow noopener" target="_blank">BitMEX</a> (A-)</li><li><a href="https://cryptonews.com/ext/bitfinex" rel="nofollow noopener" target="_blank">Bitfinex</a> (A-)</li><li>Bitlish (A-)</li><li>BitMart (A-)</li><li>BtcTurk (A-)</li><li>Coinbase Pro (A-)</li><li>GOPAX (A-)</li><li><a href="https://cryptonews.com/ext/hitbtc" rel="nofollow noopener" target="_blank">HitBTC</a> (A-)</li><li><a href="https://cryptonews.com/ext/kucoin" rel="nofollow noopener" target="_blank">KuCoin</a> (A-)</li></ol><p>You can find the full report <a href="https://icorating.com/report/exchange-security-report-v-20-update/" rel="noopener" target="_blank">Exchange Security Report 2.0 here</a>.</p><p>Regardless of all the security measures that exchanges employ, it's still foolish to trust them unconditionally. As the history of the exchanges shows, no platform is hackproof, and issues always occur when you expect them the least. Therefore, itâ€™s better to take matters into your hands and fix yourself a private digital wallet. As renown crypto analyst and security entrepreneur Andreas Antonopoulos says: </p><p><i>â€œYour keys, your Bitcoin. Not your keys, not your Bitcoin.â€</i></p><figure class="center"><img alt="Your keys your bitcoin cryptocurrecy safety andreas antonop" class="content-img lazyload" data-src="https://cimg.co/w/guides-attachments/1/5c6/a05d5d9870.png" data-srcset="https://cimg.co/w/guides-attachments/1/5c6/a05d5d9870.png 300w, https://cimg.co/w/guides-attachments/2/5c6/a05d5d9870.png 600w, https://cimg.co/w/guides-attachments/3/5c6/a05d5d9870.png 720w, https://cimg.co/w/guides-attachments/4/5c6/a05d5d9870.png 900w, https://cimg.co/w/guides-attachments/0/5c6/a05d5d9870.png 1024w" sizes="(min-width: 640px) 720px, 100vw" src="https://cimg.co/p/no_image.svg"/><figcaption></figcaption></figure><p>So where should you keep your cryptocurrency? Well, there are multiple types of private wallets to choose from. </p><p><i>Continue reading: <a href="/guides/how-to-store-cryptocurrency-safely.htm" rel="noopener" target="_blank">How To Store Cryptocurrency Safely in 2021</a></i></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="mb-50">
+<hr class="mt-20 mb-60"/>
+<h2 class="mb-30">Other Cryptocurrency Guides</h2>
+<div class="row">
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+<a class="article__title article__title--md" href="/guides/how-to-store-cryptocurrency-safely.htm">How To Store Cryptocurrency Safely in 2023</a>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+<a class="article__title article__title--md" href="/guides/how-to-crypto-arbitrage.htm">How To Make Money With Crypto Arbitrage</a>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+<a class="article__title article__title--md" href="/guides/why-it-is-risky-to-leave-your-cryptocurrency-in-exchange.htm">Why It Is Risky To Leave Your Cryptocurrency In Exchange</a>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+<a class="article__title article__title--md" href="/guides/beginner-s-guide-to-crypto-trading-strategies.htm">Beginner's Guide to Crypto Trading Strategies</a>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+<a class="article__title article__title--md" href="/guides/should-i-use-vpn-for-cryptocurrency-transactions.htm">Should I Use VPN for Cryptocurrency Transactions?</a>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 mb-30 d-flex">
+<div class="guide-item">
+<div class="article__badge article__badge--md mb-10">Cryptocurrency</div>
+<a class="article__title article__title--md" href="/guides/best-vpns-for-cryptocurrency-transactions.htm">Best VPNs for Cryptocurrency Transactions in 2023</a>
+</div>
+</div>
+</div>
+</div>
+</main>
+<div class="col-12 col-lg-4 d-none d-lg-block">
+<div class="sidebar">
+<div class="sidebar-wrap">
+<div class="sidebar-search mb-20">
+<form action="">
+<input class="remove-outline" id="filterResults" placeholder="Or search here" type="search"/>
+</form>
+</div>
+<div class="sidebar-list sidebar-list--toc pl-30 pb-20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block">
+</div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/>
+<a href="/news/ethereum-news/">Ethereum News</a><br/>
+<a href="/news/nft-news/">NFT News</a><br/>
+<a href="/news/defi-news/">DeFi News</a><br/>
+<a href="/news/altcoin-news/">Altcoin News</a><br/>
+<a href="/news/blockchain-news/">Blockchain News</a><br/>
+<a href="/news/press-releases/">Press Releases</a><br/>
+<a href="/news/sponsored/">Sponsored</a><br/>
+<a href="/news/industry-talk/">Industry Talk</a><br/>
+<a href="/news/ico-news/">ICO news</a><br/>
+<a href="/news/finance-news/">Finance News</a><br/>
+<a href="/news/technology-news/">Technology News</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>News</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags">
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right">
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script><script defer="" src="/assets/js/cookieconsent-init.js"></script></body>
+</html>
