@@ -1627,7 +1627,8 @@ p:has(.selfcentered) {
 }
 
 .header-menu__dropdown-heading a {
-    display: inline-block !important
+    display: inline-block !important;
+    margin: 10px
 }
 
 .header-menu__dropdown-heading span {
@@ -1640,7 +1641,9 @@ p:has(.selfcentered) {
 
 @media (max-width: 991.98px) {
     .header-menu__dropdown-heading span {
-        display: inline-block
+        display: inline-block;
+        color: #fff;
+        cursor: pointer;
     }
 
     .header-menu__dropdown-children {
