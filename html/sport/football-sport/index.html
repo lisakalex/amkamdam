@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/sport/">Sport</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/lifestyle/">Lifestyle</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/lifestyle/shopping/">Shopping</a></li>
+<li><a href="/lifestyle/beauty/">Beauty</a></li>
+<li><a href="/lifestyle/tech-news/">Tech</a></li>
+<li><a href="/lifestyle/money/">Money</a></li>
+<li><a href="/lifestyle/fashion/">Fashion</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/finance/">finance</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/finance/financial-markets/">Markets</a></li>
+<li><a href="/finance/property-market/">Property</a></li>
+<li><a href="/finance/stocks-and-shares/">Stocks</a></li>
+<li><a href="/finance/brexit/">Brexit</a></li>
+<li><a href="/finance/crypto/">Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/sport/">Sport</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/culture/">Culture
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</li>
+<li>
+<a href="/lifestyle/">Lifestyle
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/lifestyle/shopping/">Shopping</a></li>
+<li><a href="/lifestyle/beauty/">Beauty</a></li>
+<li><a href="/lifestyle/tech-news/">Tech</a></li>
+<li><a href="/lifestyle/money/">Money</a></li>
+<li><a href="/lifestyle/fashion/">Fashion</a></li>
+</ul>
+</li>
+<li>
+<a href="/finance/">Finance
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/finance/financial-markets/">Markets</a></li>
+<li><a href="/finance/property-market/">Property</a></li>
+<li><a href="/finance/stocks-and-shares/">Stocks</a></li>
+<li><a href="/finance/brexit/">Brexit</a></li>
+<li><a href="/finance/crypto/">Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<main>
+<div class="container">
+<div class="pt-60 pb-60">
+<div class="row">
+<div class="col-12 col-lg-9">
+<div class="breadcrumbs mb-20">
+<a href="/">Amkamdam</a>
+<a href="/sport/">sport</a>
+<a href="/sport/football-sport/">football-sport</a>
+</div>
+<h1 class="h2">Boxing</h1>
+<section class="category_contents_details">
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://photographylife.com/news/photo-news-09-08-24">
+<div class="img-sized">
+<img alt="Photography News: New Fast Zooms, Great Nikon Telephoto Deals" class="img-fluid" loading="auto" src="https://photographylife.com/wp-content/uploads/2024/09/Falconer_Czech-Republic_Nikon-35mm-f14.jpg" srcset="" width="512"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">Photographylife.com</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:15:21Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://photographylife.com/news/photo-news-09-08-24">Photography News: New Fast Zooms, Great Nikon Telephoto Deals</a>
+<div class="mb-25 d-none d-md-block">What can focus on its prey better – the American Harris’s Hawk, the European Golden Eagle, or the Japanese Nikon D6? And how does the new Nikon Z 35mm f/1.4 perform in the field? I sought answers to … [+9977 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.irishtimes.com/sport/soccer/2024/09/09/painfully-funny-defeat-shows-heimir-hallgrimsson-needs-to-start-taking-the-lead/">
+<div class="img-sized">
+<img alt="Painfully funny defeat shows Heimir Hallgrímsson needs to start taking the lead" class="img-fluid" loading="auto" src="https://www.irishtimes.com/resizer/v2/S44RCEWBDRGHJLXMAPIC5HKKXU.jpg?smart=true&amp;auth=5d4f23152bb7c0c0c32af1c5278eba49c51abba61722f634b148ae958e32a6f6&amp;width=1200&amp;height=630" srcset="" width="512"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">The Irish Times</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:15:08Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.irishtimes.com/sport/soccer/2024/09/09/painfully-funny-defeat-shows-heimir-hallgrimsson-needs-to-start-taking-the-lead/">Painfully funny defeat shows Heimir Hallgrímsson needs to start taking the lead</a>
+<div class="mb-25 d-none d-md-block">Sometimes you just have to laugh. When Declan Rice surged through Irelands tattered defence with a series of one-twos and teed up Jack Grealish to make it 2-0, it appeared that football is ultimately… [+5756 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.irishtimes.com/sport/soccer/2024/09/09/ken-early-on-ireland-v-england-after-jack-grealish-scored-it-appeared-football-was-just-a-joke-at-irelands-expense/">
+<div class="img-sized">
+<img alt="After Jack Grealish scored, it appeared that football was ultimately just a joke at Ireland’s expense" class="img-fluid" loading="auto" src="https://www.irishtimes.com/resizer/v2/S44RCEWBDRGHJLXMAPIC5HKKXU.jpg?smart=true&amp;auth=5d4f23152bb7c0c0c32af1c5278eba49c51abba61722f634b148ae958e32a6f6&amp;width=1200&amp;height=630" srcset="" width="512"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">The Irish Times</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:14:47Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.irishtimes.com/sport/soccer/2024/09/09/ken-early-on-ireland-v-england-after-jack-grealish-scored-it-appeared-football-was-just-a-joke-at-irelands-expense/">After Jack Grealish scored, it appeared that football was ultimately just a joke at Ireland’s expense</a>
+<div class="mb-25 d-none d-md-block">Sometimes you just have to laugh. When Declan Rice surged through Irelands tattered defence with a series of one-twos and teed up Jack Grealish to make it 2-0, it appeared that football is ultimately… [+5948 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://rokerreport.sbnation.com/2024/9/9/24238882/the-foundation-of-light-continues-to-provide-a-real-beacon-of-hope-on-wearside">
+<div class="img-sized">
+<img alt="The Foundation of Light continues to provide a real beacon of hope on Wearside" class="img-fluid" loading="auto" src="https://cdn.vox-cdn.com/thumbor/fJoRD14OiYGhNdNvbmCWap4Zt2M=/0x0:1100x576/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25609865/wear_one_launch_4.jpg" srcset="" width="866"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">SB Nation</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:05:34Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://rokerreport.sbnation.com/2024/9/9/24238882/the-foundation-of-light-continues-to-provide-a-real-beacon-of-hope-on-wearside">The Foundation of Light continues to provide a real beacon of hope on Wearside</a>
+<div class="mb-25 d-none d-md-block">Two local lads launch the campaign...
+
+ 
+
+
+ As the Lads continue to raise spirits on the terraces, Sunderland’s charitable foundation is having a similar impact in our communities, as Andrew Smithso… [+4666 chars]</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div class="col-12 col-lg-3">
+<h2 class="mb-30">Recommended</h2>
+<div class="mb-40">
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.irishtimes.com/sport/2024/09/09/paralympics-chief-says-athletes-should-not-be-sidelined-from-funding-and-awards/">
+<div class="small-image-list img-sized"><img alt="Paralympics chief says athletes should not be sidelined from funding and awards" class="" loading="auto" src="https://www.irishtimes.com/resizer/v2/5QEJCDE7XE3PV7JPKG6N2COWDE.jpg?smart=true&amp;auth=322a1e004a72e1c237d9f43c5c17221d7a5b4787990c1f2aac4f32ffeeaa41c6&amp;width=1200&amp;height=630" srcset="" width="1200"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">The Irish Times</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:03:54Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.irishtimes.com/sport/2024/09/09/paralympics-chief-says-athletes-should-not-be-sidelined-from-funding-and-awards/">Paralympics chief says athletes should not be sidelined from funding and awards</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://abcnews.go.com/International/wireStory/palestinian-team-chile-offers-soccer-heavy-dose-protest-113507071">
+<div class="small-image-list img-sized"><img alt="A Palestinian team in Chile offers soccer with a heavy dose of protest" class="" loading="auto" src="https://i.abcnewsfe.com/a/f267efee-6f79-4083-9ae2-52fb7c891fd8/wirestory_1bdf2593993b39bd9527b5e6987319d2_16x9.jpg?w=1600" srcset="" width="800"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">ABC News</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:02:18Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://abcnews.go.com/International/wireStory/palestinian-team-chile-offers-soccer-heavy-dose-protest-113507071">A Palestinian team in Chile offers soccer with a heavy dose of protest</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://sports.yahoo.com/palestinian-team-chile-offers-soccer-042129384.html">
+<div class="small-image-list img-sized"><img alt="A Palestinian team in Chile offers soccer with a heavy dose of protest" class="" loading="auto" src="https://s.yimg.com/ny/api/res/1.2/KfZslNxR0wuDbcHjspm4fA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/ap.org/590615fd3ee087856fe07ed0bb108b86" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">Yahoo Entertainment</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:01:37Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://sports.yahoo.com/palestinian-team-chile-offers-soccer-042129384.html">A Palestinian team in Chile offers soccer with a heavy dose of protest</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://sports.ndtv.com/football/us-soccer-great-alex-morgan-bids-farewell-in-final-match-6522419">
+<div class="small-image-list img-sized"><img alt="US Soccer Great Alex Morgan Bids Farewell In Final Match" class="" loading="auto" src="https://c.ndtvimg.com/2024-09/pkdp65b_alex-morgan-afp_625x300_09_September_24.jpg?im=FitAndFill,algorithm=dnn,width=1200,height=738" srcset="" width="860"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">NDTV News</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:01:16Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://sports.ndtv.com/football/us-soccer-great-alex-morgan-bids-farewell-in-final-match-6522419">US Soccer Great Alex Morgan Bids Farewell In Final Match</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.news.com.au/sport/afl/former-lions-player-mitch-robinsons-tragic-health-update-after-club-incident/news-story/bfb702a1ef11347a3ba351e9e6ad90d9">
+<div class="small-image-list img-sized"><img alt="Mitch Robinson’s tragic health update after Brisbane Lions public incident" class="" loading="auto" src="https://content.api.news/v3/images/bin/b1f9aed66c53311abc775230b1c7b10b" srcset="" width="960"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">News.com.au</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:00:59Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.news.com.au/sport/afl/former-lions-player-mitch-robinsons-tragic-health-update-after-club-incident/news-story/bfb702a1ef11347a3ba351e9e6ad90d9">Mitch Robinson’s tragic health update after Brisbane Lions public incident</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dslot" did="4" style="min-height:600px;">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/300x600.jpg" width=""/>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section class="container mb-80">
+<div class="pb-40 pb-30">
+<h2 class="mb-40">All News</h2>
+<div class="row" id="load_more_target">
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.ibtimes.com/us-soccer-great-morgan-bids-farewell-final-match-3742435">
+<div class="img-sized"><img alt="US Soccer Great Morgan Bids Farewell In Final Match" class="img-fluid" loading="auto" src="https://d.ibtimes.com/en/full/4546465/alex-morgan-takes-penalty-san-diego-wave-her-farewell-game.jpg" srcset="" width="960"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">International Business Times</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T16:00:21Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.ibtimes.com/us-soccer-great-morgan-bids-farewell-final-match-3742435">US Soccer Great Morgan Bids Farewell In Final Match</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.cbssports.com/soccer/news/soccer-legend-alex-morgan-retires-and-says-goodbye-to-the-nwsl-the-league-she-helped-build/">
+<div class="img-sized"><img alt="Soccer legend Alex Morgan retires and says goodbye to the NWSL, the league she helped build" class="img-fluid" loading="auto" src="https://sportshub.cbsistatic.com/i/r/2024/09/08/90b555a9-d272-495e-a152-251104eabf45/thumbnail/1200x675/7c1e435e555151065fe91af25b181c79/morgan.jpg" srcset="" width="634"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">CBS Sports</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T16:00:09Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.cbssports.com/soccer/news/soccer-legend-alex-morgan-retires-and-says-goodbye-to-the-nwsl-the-league-she-helped-build/">Soccer legend Alex Morgan retires and says goodbye to the NWSL, the league she helped build</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.cnn.com/2024/09/08/sport/wojtek-czyz-paralympics-jurgen-klopp-intl-spt/index.html">
+<div class="img-sized"><img alt="How this Paralympian became a multi-sport sensation – and befriended Jurgen Klopp | CNN" class="img-fluid" loading="auto" src="https://media.cnn.com/api/v1/images/stellar/prod/2024-08-30t093544z-1679240731-up1ek8u0qni8o-rtrmadp-3-paralympics-2024-badminton.JPG?c=16x9&amp;q=w_800,c_fill" srcset="" width="1200"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">CNN</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T16:00:00Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.cnn.com/2024/09/08/sport/wojtek-czyz-paralympics-jurgen-klopp-intl-spt/index.html">How this Paralympian became a multi-sport sensation – and befriended Jurgen Klopp | CNN</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.independent.ie/opinion/letters/letters-booing-declan-rice-and-jack-grealish-says-more-about-that-type-of-fan-than-anything-else/a1555538381.html">
+<div class="img-sized"><img alt="Letters: Booing Declan Rice and Jack Grealish says more about that type of ‘fan’ than anything else" class="img-fluid" loading="auto" src="https://focus.independent.ie/thumbor/VF-8W3Oe9L0_8Ep8vDPwoOnWPtg=/72x10:3205x2098/629x0/prod-mh-ireland/c95f33bf-7d1e-42ea-90b6-8ea4e35b2cb1/49d2e500-87c3-44d6-94af-788450da3420/2934331.jpg" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Independent.ie</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:59:50Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.independent.ie/opinion/letters/letters-booing-declan-rice-and-jack-grealish-says-more-about-that-type-of-fan-than-anything-else/a1555538381.html">Letters: Booing Declan Rice and Jack Grealish says more about that type of ‘fan’ than anything else</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://bleacherreport.com/articles/10134717-alex-morgan-saluted-by-fans-as-legend-plays-in-final-nwsl-game-before-retirement">
+<div class="img-sized"><img alt="Alex Morgan Saluted by Fans As Legend Plays in Final NWSL Game Before Retirement" class="img-fluid" loading="auto" src="https://media.bleacherreport.com/image/upload/c_fill,g_faces,w_3800,h_2000,q_95/v1725842433/ya2n5y2icmd42joy4a4y.jpg" srcset="" width="800"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Bleacher Report</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:58:09Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://bleacherreport.com/articles/10134717-alex-morgan-saluted-by-fans-as-legend-plays-in-final-nwsl-game-before-retirement">Alex Morgan Saluted by Fans As Legend Plays in Final NWSL Game Before Retirement</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.bbc.com/sport/rugby-union/articles/ce80kk1j3xpo">
+<div class="img-sized"><img alt="'My mouth is watering' - Black Ferns wing Tui on England challenge" class="img-fluid" loading="auto" src="https://ichef.bbci.co.uk/news/1024/branded_sport/9316/live/4a762b20-6c4b-11ef-944c-9fead083e8e4.jpg" srcset="" width="800"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">BBC News</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:52:02Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.bbc.com/sport/rugby-union/articles/ce80kk1j3xpo">'My mouth is watering' - Black Ferns wing Tui on England challenge</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.cbssports.com/nfl/news/2024-nfl-week-1-injury-roundup-browns-david-njoku-questionable-to-return-vs-cowboys/">
+<div class="img-sized"><img alt="2024 NFL Week 1 injury roundup: Browns' David Njoku questionable to return vs. Cowboys" class="img-fluid" loading="auto" src="https://sportshub.cbsistatic.com/i/r/2020/10/20/faaffce2-ad4d-4756-aff5-89108199dbd7/thumbnail/1200x675/9acfa82e9229501d36b448adba19c854/david-njoku-browns.jpg" srcset="" width="512"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">CBS Sports</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:50:27Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.cbssports.com/nfl/news/2024-nfl-week-1-injury-roundup-browns-david-njoku-questionable-to-return-vs-cowboys/">2024 NFL Week 1 injury roundup: Browns' David Njoku questionable to return vs. Cowboys</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.stltoday.com/sports/professional/nhl/nhl-hockey-college-johnny-matthew-columbus-new-jersey-calgary/article_ac8bd150-5ac2-5268-be54-8e7296e778ca.html">
+<div class="img-sized"><img alt="The Gaudreau brothers left a legacy at Boston College and beyond" class="img-fluid" loading="auto" src="https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/2/c0/2c0ed1c6-fea5-5a69-8c96-5d50e8366c7b/66de0ddcddf48.image.jpg?crop=853%2C448%2C0%2C16&amp;resize=853%2C448&amp;order=crop%2Cresize" srcset="" width="1142"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">STLtoday.com</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:49:21Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.stltoday.com/sports/professional/nhl/nhl-hockey-college-johnny-matthew-columbus-new-jersey-calgary/article_ac8bd150-5ac2-5268-be54-8e7296e778ca.html">The Gaudreau brothers left a legacy at Boston College and beyond</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.nbcnews.com/news/sports/los-angeles-area-high-school-student-dies-injury-football-game-rcna170028">
+<div class="img-sized"><img alt="Los Angeles area high school student dies after injury at football game" class="img-fluid" loading="auto" src="https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-09/240906-south-gate-la-south-east-high-school-google-maps-ac-1152p-cc0baf.jpg" srcset="" width="2846"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">NBC News</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:48:18Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.nbcnews.com/news/sports/los-angeles-area-high-school-student-dies-injury-football-game-rcna170028">Los Angeles area high school student dies after injury at football game</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://mgoblog.com/content/2024-mgophotos-game-week-2-texas">
+<div class="img-sized"><img alt="2024 MGoPhotos of the Game (Week 2): Texas" class="img-fluid" loading="auto" src="https://mgoblog.com/sites/default/files/2024-09/MGoPhotos%202.jpg" srcset="" width="2907"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">mgoblog.com</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:48:07Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://mgoblog.com/content/2024-mgophotos-game-week-2-texas">2024 MGoPhotos of the Game (Week 2): Texas</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://abcnews.go.com/US/wireStory/joy-mud-bowl-football-tournament-celebrates-50-years-113503433">
+<div class="img-sized"><img alt="Joy in Mud Bowl: Football tournament celebrates 50 years of messy fun" class="img-fluid" loading="auto" src="https://i.abcnewsfe.com/a/440e7f07-3248-45cc-874a-44cdf1b0a356/wirestory_31986d5b5462f4ad361d20c093a72a46_16x9.jpg?w=1600" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">ABC News</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:46:17Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://abcnews.go.com/US/wireStory/joy-mud-bowl-football-tournament-celebrates-50-years-113503433">Joy in Mud Bowl: Football tournament celebrates 50 years of messy fun</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://theconversation.com/why-the-paralympics-inclusive-messaging-is-misleading-237548">
+<div class="img-sized"><img alt="Why the Paralympics ‘inclusive’ messaging is misleading" class="img-fluid" loading="auto" src="https://images.theconversation.com/files/617377/original/file-20240904-16-sebape.jpg?ixlib=rb-4.1.0&amp;rect=0%2C566%2C5551%2C2775&amp;q=45&amp;auto=format&amp;w=1356&amp;h=668&amp;fit=crop" srcset="" width="2315"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">The Conversation Africa</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:46:07Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://theconversation.com/why-the-paralympics-inclusive-messaging-is-misleading-237548">Why the Paralympics ‘inclusive’ messaging is misleading</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://timesofindia.indiatimes.com/city/goa/after-bandodkar-trophy-success-gfa-seeks-rs-5cr-govt-grant-for-football/articleshow/113173652.cms">
+<div class="img-sized"><img alt="After Bandodkar Trophy success, GFA seeks Rs 5cr govt grant for football" class="img-fluid" loading="auto" src="https://static.toiimg.com/thumb/msid-113173647,width-1070,height-580,imgsize-531284,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg" srcset="" width="969"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">The Times of India</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:44:57Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://timesofindia.indiatimes.com/city/goa/after-bandodkar-trophy-success-gfa-seeks-rs-5cr-govt-grant-for-football/articleshow/113173652.cms">After Bandodkar Trophy success, GFA seeks Rs 5cr govt grant for football</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.bostonherald.com/2024/09/08/celebrating-a-legacy-the-gaudreau-brothers-made-an-impact-at-boston-college-and-beyond/">
+<div class="img-sized"><img alt="Celebrating a legacy: The Gaudreau brothers made an impact at Boston College and beyond" class="img-fluid" loading="auto" src="https://www.bostonherald.com/wp-content/uploads/2024/09/AP24249534597304.jpg?w=1024&amp;h=683" srcset="" width="340"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Boston Herald</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:42:21Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.bostonherald.com/2024/09/08/celebrating-a-legacy-the-gaudreau-brothers-made-an-impact-at-boston-college-and-beyond/">Celebrating a legacy: The Gaudreau brothers made an impact at Boston College and beyond</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://badgerswire.usatoday.com/2024/09/08/badgers-one-of-many-college-football-teams-searching-for-form-but-can-they-figure-it-out/">
+<div class="img-sized"><img alt="Badgers one of many college football teams searching for form, but can they figure it out?" class="img-fluid" loading="auto" src="https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">USA Today</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:41:14Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://badgerswire.usatoday.com/2024/09/08/badgers-one-of-many-college-football-teams-searching-for-form-but-can-they-figure-it-out/">Badgers one of many college football teams searching for form, but can they figure it out?</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://fightingirishwire.usatoday.com/2024/09/08/notre-dame-rankings-niu-ncaa-football/">
+<div class="img-sized"><img alt="Experts Punish Notre Dame for Stunning Failure Against NIU" class="img-fluid" loading="auto" src="https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png" srcset="" width="512"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">USA Today</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:33:12Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://fightingirishwire.usatoday.com/2024/09/08/notre-dame-rankings-niu-ncaa-football/">Experts Punish Notre Dame for Stunning Failure Against NIU</a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+<hr class="mb-60"/>
+<div class="text-center">
+<a class="button-more button-more--gradient" href="javascript:void(0);" id="load_more" loadmoretype="football-sport">Load more news...
+                    <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg>
+</a>
+</div>
+</section>
+</main>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<div style="color: #fff">
+<div style="font-weight: 600;">
+                                    Digg delivers the most interesting and talked about stories on the Internet right now.
+                                </div>
+<p>
+                                    Digg does curation: building products that make life smoother, simpler, and smarter.
+                                    Founded in 2004 Re-founded in 2012 Re-re-founded in 2019,
+                                    Digg provides the most relevant and compelling content to millions of users a month. </p>
+<p>
+                                    Using proprietary data sources and a crack editorial team, we cut through the clutter of the Internet and make sense of the noise so you don’t have to. Digg has everything you'll see later, now. </p>
+                                Visit Digg on the web, or get the best of Digg delivered to your inbox with Digg Editions.
+                                <div style="font-weight: 600;"><br/>
+                                    How You Can Contact Us
+                                </div>
+<p>
+                                    Please alert us to any issues by contacting us at support@digg.com. </p>
+</div>
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block"></div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>Sport</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children" style="color: #fff">
+<a href="/sport/boxing/">Boxing</a><br/>
+<a href="/sport/cricket/">Cricket</a><br/>
+<a href="/sport/football/">Football</a><br/>
+<a href="/sport/formula-1/">Formula 1</a><br/>
+<a href="/sport/tennis/">Tennis</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/sport/"><b>Sport</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags"></div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right"></div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script>
+<script defer="" src="/assets/js/cookieconsent-init.js"></script>
+</body>
+</html>

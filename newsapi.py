@@ -7,6 +7,8 @@ from datetime import datetime, timedelta, date
 import os
 import json
 from collections import deque
+from dateutil import parser
+import urllib.parse
 
 # https://beautiful-soup-4.readthedocs.io/en/latest/
 
@@ -17,26 +19,39 @@ todaytime = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
 def replace_text(read_file1, path_file1):
     path_file1_list = path_file1.split('/')
     keyword = path_file1_list[len(path_file1_list) - 2]
+
+    # keyword1 = keyword.replace('-', ' ')
+    # keyword1 = urllib.parse.quote_plus(keyword1)
     # y = date.today() - timedelta(days=1)
     # yesterday = y.strftime('%Y-%m-%d')
     # url = ('https://newsapi.org/v2/everything?'
-    #        'q=' + keyword +
+    #        'q=' + keyword1 +
     #        '&' + yesterday +
     #        '&sortBy=publishedAt'
     #        '&language=en'
     #        '&apiKey=41e2e097fbb4457c9b714ee6acd4185b')
     #
-    # newsapi = json.loads(requests.get(url).text)
+    # newsapi_json = requests.get(url).text
+    # newsapi = json.loads(newsapi_json)
 
-    with open('test/newsapi-2024-08-28.json', "r") as f:
-        newsapi = json.load(f)
+    with open('newsapi/' + keyword + '.json', "r") as f:
+        newsapi_json = f.read()
+        newsapi = json.loads(newsapi_json)
+
+    result = {}
+
+    for key, value in newsapi['articles'].items():
+        if value not in result.values():
+            result[key] = value
+
+    # with open('newsapi/' + keyword + '.json', 'w') as f:
+    #     f.write(newsapi_json)
 
     newsapi_articles = []
     for r in newsapi['articles']:
-        if 'https://removed.com' not in r['url']:
+        if 'https://removed.com' not in r['url'] and r['urlToImage'] is not None:
             newsapi_articles.append(r)
 
-    # newsapi_articles = newsapi['articles']
     soup = BeautifulSoup(read_file1, features='html.parser')
     section = soup.find_all('article', class_='mb-15 mb-sm-30 article-item')
     try:
@@ -50,8 +65,11 @@ def replace_text(read_file1, path_file1):
             img['srcset'] = ''
             img['alt'] = newsapi_articles[i]['title']
 
+            badge = article.find('a', class_='article__badge')
+            badge.string = newsapi_articles[i]['source']['name']
+
             badge_date = article.find('div', class_='article__badge-date')
-            badge_date['data-utctime'] = newsapi_articles[i]['publishedAt']
+            badge_date.string = parser.isoparse(newsapi_articles[i]['publishedAt']).strftime('%d %b %Y')
 
             link1 = article.find('a', class_='article__title')
             link1['href'] = newsapi_articles[i]['url']
@@ -70,8 +88,11 @@ def replace_text(read_file1, path_file1):
             img['srcset'] = ''
             img['alt'] = newsapi_articles[i]['title']
 
+            badge = article.find('a', class_='article__badge')
+            badge.string = newsapi_articles[i]['source']['name']
+
             badge_date = article.find('div', class_='article__badge-date')
-            badge_date['data-utctime'] = newsapi_articles[i]['publishedAt']
+            badge_date.string = parser.isoparse(newsapi_articles[i]['publishedAt']).strftime('%d %b %Y')
 
             link1 = article.find('a', class_='article__title')
             link1['href'] = newsapi_articles[i]['url']
@@ -89,8 +110,11 @@ def replace_text(read_file1, path_file1):
             img['srcset'] = ''
             img['alt'] = newsapi_articles[i]['title']
 
+            badge = article.find('a', class_='article__badge')
+            badge.string = newsapi_articles[i]['source']['name']
+
             badge_date = article.find('div', class_='article__badge-date')
-            badge_date['data-utctime'] = newsapi_articles[i]['publishedAt']
+            badge_date.string = parser.isoparse(newsapi_articles[i]['publishedAt']).strftime('%d %b %Y')
 
             link1 = article.find('a', class_='article__title')
             link1['href'] = newsapi_articles[i]['url']
@@ -107,9 +131,15 @@ def replace_text(read_file1, path_file1):
     with open('article.html', 'r') as file1:
         soup = BeautifulSoup(file1.read(), features="html.parser")
 
-    with open('html/paged/' + keyword + '-1.json', "r") as f:
-        paged = json.load(f)
-        paged = deque(paged)
+    paged = None
+    try:
+        with open('html/paged/' + keyword + '-1.json', "r") as f:
+            paged = json.load(f)
+            paged = deque(paged)
+
+    except Exception as e:
+        print(e)
+    pass
 
     for i in newsapi_articles:
         link = soup.find('a', class_='article__image')
@@ -120,23 +150,36 @@ def replace_text(read_file1, path_file1):
         img['srcset'] = ''
         img['alt'] = i['title']
 
+        badge = soup.find('a', class_='article__badge')
+        badge.string = i['source']['name']
+
         badge_date = soup.find('div', class_='article__badge-date')
-        badge_date['data-utctime'] = i['publishedAt']
+        badge_date.string = parser.isoparse(i['publishedAt']).strftime('%d %b %Y')
 
         link1 = soup.find('a', class_='article__title')
         link1['href'] = i['url']
         link1.string = i['title']
-        paged.appendleft(str(soup))
+        try:
+            paged.appendleft(str(soup))
 
-    with open('html/paged/' + keyword + '-1.json', 'w') as f:
-        json.dump(list(paged), f)
+        except Exception as e:
+            print(e)
+        pass
+
+    try:
+        with open('html/paged/' + keyword + '-1.json', 'w') as f:
+            json.dump(list(paged), f)
+
+    except Exception as e:
+        print(e)
+    pass
 
 
 def main():
     count_replace = 1
-    for currentpath, folders, files in os.walk('html/ku'):
+    for currentpath, folders, files in os.walk('html/'):
         for file in files:
-            if '.jpg' not in file and '.jpeg' not in file and '.png' not in file and '.svg' not in file and '.gif' not in file and '.css' not in file and '.js' not in file and '.ico' not in file and '.woff2' not in file and '.woff' not in file:
+            if '.jpg' not in file and '.jpeg' not in file and '.png' not in file and '.svg' not in file and '.gif' not in file and '.css' not in file and '.js' not in file and '.ico' not in file and '.woff2' not in file and '.woff' not in file and 'assets' not in currentpath and 'paged' not in currentpath:
                 path_file = (os.path.join(currentpath, file))
                 with open(path_file) as file1:
                     try:

@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/sport/">Sport</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/lifestyle/">Lifestyle</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/lifestyle/shopping/">Shopping</a></li>
+<li><a href="/lifestyle/beauty/">Beauty</a></li>
+<li><a href="/lifestyle/tech-news/">Tech</a></li>
+<li><a href="/lifestyle/money/">Money</a></li>
+<li><a href="/lifestyle/fashion/">Fashion</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/finance/">finance</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/finance/financial-markets/">Markets</a></li>
+<li><a href="/finance/property-market/">Property</a></li>
+<li><a href="/finance/stocks-and-shares/">Stocks</a></li>
+<li><a href="/finance/brexit/">Brexit</a></li>
+<li><a href="/finance/crypto/">Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/sport/">Sport</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/culture/">Culture
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</li>
+<li>
+<a href="/lifestyle/">Lifestyle
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/lifestyle/shopping/">Shopping</a></li>
+<li><a href="/lifestyle/beauty/">Beauty</a></li>
+<li><a href="/lifestyle/tech-news/">Tech</a></li>
+<li><a href="/lifestyle/money/">Money</a></li>
+<li><a href="/lifestyle/fashion/">Fashion</a></li>
+</ul>
+</li>
+<li>
+<a href="/finance/">Finance
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/finance/financial-markets/">Markets</a></li>
+<li><a href="/finance/property-market/">Property</a></li>
+<li><a href="/finance/stocks-and-shares/">Stocks</a></li>
+<li><a href="/finance/brexit/">Brexit</a></li>
+<li><a href="/finance/crypto/">Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<main>
+<div class="container">
+<div class="pt-60 pb-60">
+<div class="row">
+<div class="col-12 col-lg-9">
+<div class="breadcrumbs mb-20">
+<a href="/">Amkamdam</a>
+<a href="/culture/">culture</a>
+<a href="/culture/popular-films/">popular-films</a>
+</div>
+<h1 class="h2">Boxing</h1>
+<section class="category_contents_details">
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="http://wwd.com/lists/wwd-fn-beauty-inc-50-women-in-power-1236532409/">
+<div class="img-sized">
+<img alt="WWD x FN x Beauty Inc 50 Women in Power 2024" class="img-fluid" loading="auto" src="https://wwd.com/wp-content/uploads/2024/08/women-in-power-feature-csty-copyA.jpg?w=1000&amp;h=563&amp;crop=1" srcset="" width="512"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">WWD</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:15:21Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="http://wwd.com/lists/wwd-fn-beauty-inc-50-women-in-power-1236532409/">WWD x FN x Beauty Inc 50 Women in Power 2024</a>
+<div class="mb-25 d-none d-md-block">The fourth annual WWD x FN x Beauty Inc 50 Women in Power list celebrates the successes of the industry’s most powerful women globally. Compiled by the editors of WWD, Beauty Inc and Footwear News, t… [+108537 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.cbsnews.com/essentials/how-to-watch-every-christian-mccaffrey-game-in-the-2024-2025-nfl-season/">
+<div class="img-sized">
+<img alt="How to watch every Christian McCaffrey game in the 2024-2025 NFL season" class="img-fluid" loading="auto" src="https://assets2.cbsnewsstatic.com/hub/i/r/2024/08/19/e8e0c786-844a-42d1-ba08-67b61ac98fb3/thumbnail/1200x630/46babbbb9560a630487f0b77f7cc4276/gettyimages-1993627549-1.jpg?v=631cf5f2b4e8db7f9bc428589402864d" srcset="" width="512"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">CBS News</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:15:08Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.cbsnews.com/essentials/how-to-watch-every-christian-mccaffrey-game-in-the-2024-2025-nfl-season/">How to watch every Christian McCaffrey game in the 2024-2025 NFL season</a>
+<div class="mb-25 d-none d-md-block">Christian McCaffrey #23 of the San Francisco 49ers participates during San Francisco 49ers practice ahead of Super Bowl LVIII at Fertitta Football Complex on February 07, 2024 in Las Vegas, Nevada. … [+14312 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.cbsnews.com/essentials/how-to-watch-every-san-francisco-49ers-game-in-the-2024-2025-nfl-season/">
+<div class="img-sized">
+<img alt="How to watch every San Francisco 49ers game in the 2024-2025 NFL season" class="img-fluid" loading="auto" src="https://assets1.cbsnewsstatic.com/hub/i/r/2024/08/19/dd42f43a-fdd2-4c47-a52e-dfed884b191a/thumbnail/1200x630/ee5e7f389cf299887d313555fd0d990c/gettyimages-2009166762-1.jpg?v=631cf5f2b4e8db7f9bc428589402864d" srcset="" width="512"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">CBS News</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:14:47Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.cbsnews.com/essentials/how-to-watch-every-san-francisco-49ers-game-in-the-2024-2025-nfl-season/">How to watch every San Francisco 49ers game in the 2024-2025 NFL season</a>
+<div class="mb-25 d-none d-md-block">Christian McCaffrey #23 of the San Francisco 49ers looks on during pregame warmups before Super Bowl LVIII against the Kansas City Chiefs at Allegiant Stadium on February 11, 2024 in Las Vegas, Nevad… [+14738 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.forbes.com/sites/erikkain/2024/09/08/the-winter-king-should-have-been-a-massive-hit---it-was-cancelled-for-one-very-good-reason/">
+<div class="img-sized">
+<img alt="‘The Winter King’ Should Have Been A Massive Hit — It Was Cancelled For One Very Good Reason" class="img-fluid" loading="auto" src="https://imageio.forbes.com/specials-images/imageserve/66de160209fcb9d415ddbf97/0x0.jpg?format=jpg&amp;height=900&amp;width=1600&amp;fit=bounds" srcset="" width="866"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">Forbes</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:05:34Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.forbes.com/sites/erikkain/2024/09/08/the-winter-king-should-have-been-a-massive-hit---it-was-cancelled-for-one-very-good-reason/">‘The Winter King’ Should Have Been A Massive Hit — It Was Cancelled For One Very Good Reason</a>
+<div class="mb-25 d-none d-md-block">The Winter King
+Credit: MGM
+The Winter King on MGM has been cancelled. I am not at all surprised. It deserved to be. I called the show a crushing disappointment in my review, and I stand by that.
+… [+10655 chars]</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div class="col-12 col-lg-3">
+<h2 class="mb-30">Recommended</h2>
+<div class="mb-40">
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://theplaylist.net/the-wild-robot-review-a-bumpy-take-off-lands-with-a-tearjerker-tiff-20240908/">
+<div class="small-image-list img-sized"><img alt="‘The Wild Robot’ Review: A Bumpy Take Off Lands With A Tearjerker [TIFF]" class="" loading="auto" src="https://cdn.theplaylist.net/wp-content/uploads/2024/08/30014206/TheWildRobot2.jpg" srcset="" width="1200"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">Theplaylist.net</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:03:54Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://theplaylist.net/the-wild-robot-review-a-bumpy-take-off-lands-with-a-tearjerker-tiff-20240908/">‘The Wild Robot’ Review: A Bumpy Take Off Lands With A Tearjerker [TIFF]</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://screenrant.com/what-happened-to-tia-carrere/">
+<div class="small-image-list img-sized"><img alt="What Happened To Tia Carrere After Wayne's World &amp; True Lies" class="" loading="auto" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2021/10/waynes-world-poster-mike-myers-dana-carvey.jpg" srcset="" width="800"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">Screen Rant</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:02:18Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://screenrant.com/what-happened-to-tia-carrere/">What Happened To Tia Carrere After Wayne's World &amp; True Lies</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.bangkokpost.com/life/social-and-lifestyle/2861938/horror-flick-shutter-marks-two-decades-with-re-release">
+<div class="small-image-list img-sized"><img alt="Horror flick Shutter marks two decades with re-release" class="" loading="auto" src="https://static.bangkokpost.com/media/content/dcx/2024/09/09/5264673_700.jpg" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">Bangkok Post</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:01:37Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.bangkokpost.com/life/social-and-lifestyle/2861938/horror-flick-shutter-marks-two-decades-with-re-release">Horror flick Shutter marks two decades with re-release</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.bangkokpost.com/life/arts-and-entertainment/2861938/horror-flick-shutter-marks-two-decades-with-re-release">
+<div class="small-image-list img-sized"><img alt="Horror flick Shutter marks two decades with re-release" class="" loading="auto" src="https://static.bangkokpost.com/media/content/dcx/2024/09/09/5264673_700.jpg" srcset="" width="860"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">Bangkok Post</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:01:16Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.bangkokpost.com/life/arts-and-entertainment/2861938/horror-flick-shutter-marks-two-decades-with-re-release">Horror flick Shutter marks two decades with re-release</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.thedailybeast.com/obsessed/ick-tiff-review-a-horror-comedy-cult-classic-in-the-making">
+<div class="small-image-list img-sized"><img alt="‘Ick,’ the New Film Making TIFF Squirm, Is a Horror-Comedy Cult Classic in the Making" class="" loading="auto" src="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_600,w_1067,x_79,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1725829803/ICK_Still_01_hero_v2_kfukzh" srcset="" width="960"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">Daily Beast</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:00:59Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.thedailybeast.com/obsessed/ick-tiff-review-a-horror-comedy-cult-classic-in-the-making">‘Ick,’ the New Film Making TIFF Squirm, Is a Horror-Comedy Cult Classic in the Making</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dslot" did="4" style="min-height:600px;">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/300x600.jpg" width=""/>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section class="container mb-80">
+<div class="pb-40 pb-30">
+<h2 class="mb-40">All News</h2>
+<div class="row" id="load_more_target">
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://screenrant.com/angus-cloud-every-movie-tv-show/">
+<div class="img-sized"><img alt="Angus Cloud: Every Movie And TV Show, Ranked" class="img-fluid" loading="auto" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2024/09/angus-cloud-in-abigal-north-hollywood-and-euphoria.jpg" srcset="" width="960"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Screen Rant</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T16:00:21Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://screenrant.com/angus-cloud-every-movie-tv-show/">Angus Cloud: Every Movie And TV Show, Ranked</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://theweek.com/culture-life/theatre/fall-theater-united-states">
+<div class="img-sized"><img alt="8 touring theater productions to mark on your calendar this fall" class="img-fluid" loading="auto" src="https://cdn.mos.cms.futurecdn.net/v5BNhwD8prnqsYYhkNTjGn-1200-80.jpg" srcset="" width="634"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">The Week Magazine</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T16:00:09Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://theweek.com/culture-life/theatre/fall-theater-united-states">8 touring theater productions to mark on your calendar this fall</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://bleedingcool.com/movies/ian-mckellen-on-returning-for-more-lord-of-the-rings-films/">
+<div class="img-sized"><img alt="Ian McKellen on Returning for More Lord of the Rings Films" class="img-fluid" loading="auto" src="https://bleedingcool.com/wp-content/uploads/2019/02/ian-mckellen-2000x1125.jpg" srcset="" width="1200"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Bleeding Cool News</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T16:00:00Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://bleedingcool.com/movies/ian-mckellen-on-returning-for-more-lord-of-the-rings-films/">Ian McKellen on Returning for More Lord of the Rings Films</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.indiewire.com/news/general-news/detroit-redford-theatre-noir-city-festival-eddie-muller-1235044201/">
+<div class="img-sized"><img alt="Detroit’s Redford Theatre Hosts Annual Noir City Festival Featuring TCM Host Eddie Muller" class="img-fluid" loading="auto" src="https://www.indiewire.com/wp-content/uploads/2024/09/MCDBRFO_EC056.jpg?w=650" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">IndieWire</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:59:50Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.indiewire.com/news/general-news/detroit-redford-theatre-noir-city-festival-eddie-muller-1235044201/">Detroit’s Redford Theatre Hosts Annual Noir City Festival Featuring TCM Host Eddie Muller</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://bleedingcool.com/tv/zatoichi-the-blind-swordsman-tv-series-available-to-stream-on-tubi/">
+<div class="img-sized"><img alt="Zatoichi: The Blind Swordsman TV Series Available to Stream on Tubi" class="img-fluid" loading="auto" src="https://bleedingcool.com/wp-content/uploads/2024/09/Zatoichi-2000x1125.jpg" srcset="" width="800"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Bleeding Cool News</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:58:09Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://bleedingcool.com/tv/zatoichi-the-blind-swordsman-tv-series-available-to-stream-on-tubi/">Zatoichi: The Blind Swordsman TV Series Available to Stream on Tubi</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://screenrant.com/underrated-chuck-norris-movies-you-havent-seen/">
+<div class="img-sized"><img alt="10 Underrated Chuck Norris Movies You Probably Haven't Seen" class="img-fluid" loading="auto" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2024/09/10-underrated-chuck-norris-movies-you-probably-haven-t-seen.jpg" srcset="" width="800"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Screen Rant</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:52:02Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://screenrant.com/underrated-chuck-norris-movies-you-havent-seen/">10 Underrated Chuck Norris Movies You Probably Haven't Seen</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="http://www.thehollywoodgossip.com/2024/09/benson-boone-girlfriend/">
+<div class="img-sized"><img alt="Benson Boone’s Girlfriend: Everything to Know About Maggie Thurmon" class="img-fluid" loading="auto" src="https://cdn.thehollywoodgossip.com/uploads/2024/09/GettyImages-2162625267.jpg" srcset="" width="512"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">The Hollywood Gossip</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:50:27Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="http://www.thehollywoodgossip.com/2024/09/benson-boone-girlfriend/">Benson Boone’s Girlfriend: Everything to Know About Maggie Thurmon</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.cinemablend.com/movies/jaws-movies-best-and-worst-thing-about-each-sequel">
+<div class="img-sized"><img alt="After Watching All 4 Jaws Movies, Here's The Best And Worst Thing About Each Sequel" class="img-fluid" loading="auto" src="https://cdn.mos.cms.futurecdn.net/A7zTbEAiNUXrH2DjiejRsk-1200-80.jpg" srcset="" width="1142"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">CinemaBlend</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:49:21Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.cinemablend.com/movies/jaws-movies-best-and-worst-thing-about-each-sequel">After Watching All 4 Jaws Movies, Here's The Best And Worst Thing About Each Sequel</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.cbsnews.com/essentials/how-to-watch-every-pittsburgh-steelers-game-in-the-2024-2025-nfl-season/">
+<div class="img-sized"><img alt="How to watch every Pittsburgh Steelers game in the 2024-2025 NFL season" class="img-fluid" loading="auto" src="https://assets3.cbsnewsstatic.com/hub/i/r/2024/08/22/8ab1d574-f799-4eee-89da-47252c97b1b1/thumbnail/1200x630/ebdcd0223bcb76c583d29a5311895234/gettyimages-2166466092-1.jpg?v=631cf5f2b4e8db7f9bc428589402864d" srcset="" width="2846"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">CBS News</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:48:18Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.cbsnews.com/essentials/how-to-watch-every-pittsburgh-steelers-game-in-the-2024-2025-nfl-season/">How to watch every Pittsburgh Steelers game in the 2024-2025 NFL season</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://dnyuz.com/2024/09/08/the-palace-coup-at-the-magic-kingdom/">
+<div class="img-sized"><img alt="The Palace Coup at the Magic Kingdom..." class="img-fluid" loading="auto" src="https://dnyuz.com/wp-content/uploads/2024/09/The-Palace-Coup-at-the-Magic-Kingdom.jpg" srcset="" width="2907"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Dnyuz.com</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:48:07Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://dnyuz.com/2024/09/08/the-palace-coup-at-the-magic-kingdom/">The Palace Coup at the Magic Kingdom...</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.digitaltrends.com/movies/5-most-popular-netflix-movies-of-summer-2024-ranked/">
+<div class="img-sized"><img alt="5 most popular Netflix movies of summer 2024, ranked" class="img-fluid" loading="auto" src="https://www.digitaltrends.com/wp-content/uploads/2024/06/Trigger-Warning-Movie.jpg?resize=1200%2C630&amp;p=1" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Digital Trends</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:46:17Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.digitaltrends.com/movies/5-most-popular-netflix-movies-of-summer-2024-ranked/">5 most popular Netflix movies of summer 2024, ranked</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://insidethemagic.net/2024/09/wednesday-season-1-retconned-before-new-episodes-drop-in-2025-nk1/">
+<div class="img-sized"><img alt="‘Wednesday’ Season 1 Retconned Before New Episodes Drop In 2025" class="img-fluid" loading="auto" src="https://insidethemagic.net/wp-content/uploads/2024/09/Wednesday-Finale-Jenna-Ortega-.jpg" srcset="" width="2315"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Inside the Magic</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:46:07Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://insidethemagic.net/2024/09/wednesday-season-1-retconned-before-new-episodes-drop-in-2025-nk1/">‘Wednesday’ Season 1 Retconned Before New Episodes Drop In 2025</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://insidethemagic.net/2024/09/descendants-replaced-disney-kicks-off-new-fantasy-ya-franchise-nk1/">
+<div class="img-sized"><img alt="‘Descendants’ Replaced, Disney+ Kicks Off New Fantasy YA Franchise" class="img-fluid" loading="auto" src="https://insidethemagic.net/wp-content/uploads/2024/09/Descendants-disney-plus.jpg" srcset="" width="969"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Inside the Magic</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:44:57Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://insidethemagic.net/2024/09/descendants-replaced-disney-kicks-off-new-fantasy-ya-franchise-nk1/">‘Descendants’ Replaced, Disney+ Kicks Off New Fantasy YA Franchise</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://economictimes.indiatimes.com/tech/technology/they-had-thriving-lives-on-x-until-brazil-banned-it-overnight/articleshow/113168110.cms">
+<div class="img-sized"><img alt="They had thriving lives on X, until Brazil banned it overnight" class="img-fluid" loading="auto" src="https://img.etimg.com/thumb/msid-113168158,width-1200,height-630,imgsize-492142,overlay-ettech/photo.jpg" srcset="" width="340"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">The Times of India</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:42:21Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://economictimes.indiatimes.com/tech/technology/they-had-thriving-lives-on-x-until-brazil-banned-it-overnight/articleshow/113168110.cms">They had thriving lives on X, until Brazil banned it overnight</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.cbsnews.com/essentials/how-to-watch-every-dallas-cowboys-game-in-the-2024-2025-nfl-season/">
+<div class="img-sized"><img alt="How to watch every Dallas Cowboys game in the 2024-2025 NFL season" class="img-fluid" loading="auto" src="https://assets3.cbsnewsstatic.com/hub/i/r/2024/08/20/25a6ad2d-0895-494b-bfac-c22fe39df6eb/thumbnail/1200x630/8af33d972ccef88f3bd7ba9a6565fb7c/gettyimages-2167211403-1.jpg?v=631cf5f2b4e8db7f9bc428589402864d" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">CBS News</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:41:14Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.cbsnews.com/essentials/how-to-watch-every-dallas-cowboys-game-in-the-2024-2025-nfl-season/">How to watch every Dallas Cowboys game in the 2024-2025 NFL season</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.lawyersgunsmoneyblog.com/2024/09/erik-visits-an-american-grave-part-1700">
+<div class="img-sized"><img alt="Erik Visits an American Grave, Part 1,700" class="img-fluid" loading="auto" src="https://www.lawyersgunsmoneyblog.com/wp-content/uploads/2024/09/IMG_2223-1024x768.jpeg" srcset="" width="512"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Lawyersgunsmoneyblog.com</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:33:12Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.lawyersgunsmoneyblog.com/2024/09/erik-visits-an-american-grave-part-1700">Erik Visits an American Grave, Part 1,700</a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+<hr class="mb-60"/>
+<div class="text-center">
+<a class="button-more button-more--gradient" href="javascript:void(0);" id="load_more" loadmoretype="popular-films">Load more news...
+                    <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg>
+</a>
+</div>
+</section>
+</main>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<div style="color: #fff">
+<div style="font-weight: 600;">
+                                    Digg delivers the most interesting and talked about stories on the Internet right now.
+                                </div>
+<p>
+                                    Digg does curation: building products that make life smoother, simpler, and smarter.
+                                    Founded in 2004 Re-founded in 2012 Re-re-founded in 2019,
+                                    Digg provides the most relevant and compelling content to millions of users a month. </p>
+<p>
+                                    Using proprietary data sources and a crack editorial team, we cut through the clutter of the Internet and make sense of the noise so you don’t have to. Digg has everything you'll see later, now. </p>
+                                Visit Digg on the web, or get the best of Digg delivered to your inbox with Digg Editions.
+                                <div style="font-weight: 600;"><br/>
+                                    How You Can Contact Us
+                                </div>
+<p>
+                                    Please alert us to any issues by contacting us at support@digg.com. </p>
+</div>
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block"></div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>Sport</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children" style="color: #fff">
+<a href="/sport/boxing/">Boxing</a><br/>
+<a href="/sport/cricket/">Cricket</a><br/>
+<a href="/sport/football/">Football</a><br/>
+<a href="/sport/formula-1/">Formula 1</a><br/>
+<a href="/sport/tennis/">Tennis</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/sport/"><b>Sport</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags"></div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right"></div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script>
+<script defer="" src="/assets/js/cookieconsent-init.js"></script>
+</body>
+</html>

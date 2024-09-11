@@ -6,12 +6,14 @@ from pathlib import Path
 from datetime import datetime, timedelta, date
 import os
 import json
+import urllib.parse
 
 
 # https://beautiful-soup-4.readthedocs.io/en/latest/
 
 
 def paged(keyword):
+    keyword = urllib.parse.quote_plus(keyword)
     y = date.today() - timedelta(days=1)
     yesterday = y.strftime('%Y-%m-%d')
     url = ('https://newsapi.org/v2/everything?'
@@ -26,7 +28,7 @@ def paged(keyword):
 
 
 def main():
-    paged('sport')
+    paged('\"Formula 1 Racing\"')
 
 
 if __name__ == '__main__':

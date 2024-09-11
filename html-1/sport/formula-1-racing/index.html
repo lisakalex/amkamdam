@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/sport/">Sport</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/sport/boxing/">Boxing</a></li>
+<li><a href="/sport/cricket/">Cricket</a></li>
+<li><a href="/sport/footbal/">Footbal</a></li>
+<li><a href="/sport/formula-1/">Formula 1</a></li>
+<li><a href="/sport/tennis/">Tennis</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/">Exclusives</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/guides/">Guides</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/reviews/exchanges/">Exchanges</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/coins/">Market Cap</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/press-releases/">Press Releases</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/news/industry-talk/">Industry Talk</a><span></span>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/exclusives/opinions/">Opinions</a><span></span>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="#">Recommended</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/news/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing/">Boxing</a></li>
+<li><a href="/sport/cricket/">Cricket</a></li>
+<li><a href="/sport/footbal/">Footbal</a></li>
+<li><a href="/sport/formula-1/">Formula 1</a></li>
+<li><a href="/sport/tennis/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/exclusives/">Exclusives
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/exclusives/features/">Features</a></li>
+<li><a href="/exclusives/opinions/">Opinions</a></li>
+<li><a href="/exclusives/people/">People In Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/guides/">Guides
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/guides/bitcoin/">Bitcoin</a></li>
+<li><a href="/guides/ethereum/">Ethereum</a></li>
+<li><a href="/guides/nft/">NFT</a></li>
+<li><a href="/guides/defi-guides/">Defi Guides</a></li>
+<li><a href="/guides/altcoins/">Altcoins</a></li>
+<li><a href="/guides/blockchain/">Blockchain</a></li>
+<li><a href="/guides/cryptocurrency/">Cryptocurrency</a></li>
+<li><a href="/guides/icos/">ICOs / STOs / IEOs</a></li>
+</ul>
+</li>
+<li>
+<a href="/reviews/exchanges/">Exchanges
+                </a>
+</li>
+<li>
+<a href="/coins/">Market Cap</a>
+</li>
+<li>
+<a href="/news/press-releases/">Press Releases</a>
+</li>
+<li>
+<a href="/news/industry-talk/">Industry Talk</a>
+</li>
+<li>
+<a href="/exclusives/opinions/">Opinions</a>
+</li>
+<li>
+<a href="#">Recommended
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li>
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now</a>
+</li>
+<li>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in</a>
+</li>
+<li>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency</a>
+</li>
+<li>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode</a>
+</li>
+<li>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos</a>
+</li>
+<li>
+<a href="/news/crypto-launches.htm"> Crypto launches</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos</a>
+</li>
+<li>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<main>
+<div class="container">
+<div class="pt-60 pb-60">
+<div class="row">
+<div class="col-12 col-lg-9">
+<div class="breadcrumbs mb-20">
+<a href="/">Amkamdam</a>
+<a href="/sport/">Sport</a>
+<a href="/sport/boxing/">Boxing</a>
+</div>
+<h1 class="h2">Boxing</h1>
+<section class="category_contents_details">
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://ftw.usatoday.com/2024/08/steph-curry-lebron-james-contract-extension-lakers-warriors">
+<div class="img-sized">
+<img alt="Fan's dreams of LeBron James and Steph Curry playing together are officially cooked" class="img-fluid" loading="auto" src="https://ftw.usatoday.com/wp-content/uploads/sites/90/2024/08/USATSI_22668127.jpg?w=1024&amp;h=576&amp;crop=1" srcset="" width="512"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">USA Today</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:15:21Z">30 Aug 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://ftw.usatoday.com/2024/08/steph-curry-lebron-james-contract-extension-lakers-warriors">Fan's dreams of LeBron James and Steph Curry playing together are officially cooked</a>
+<div class="mb-25 d-none d-md-block">Welcome to Layup Lines, For the Win’s basketball newsletter. Subscribe here to get it delivered to your inbox every Monday, Wednesday and Friday. Have feedback for the Layup Lines Crew? Leave your qu… [+3747 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://theaviationist.com/2024/08/30/x-56a-digitally-certified/">
+<div class="img-sized">
+<img alt="Skunk Works’ X-56A Poised To Become World’s First Digitally-Certified Aircraft" class="img-fluid" loading="auto" src="https://theaviationist.com/wp-content/uploads/2024/08/X-56A.jpg" srcset="" width="512"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">Theaviationist.com</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:15:08Z">30 Aug 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://theaviationist.com/2024/08/30/x-56a-digitally-certified/">Skunk Works’ X-56A Poised To Become World’s First Digitally-Certified Aircraft</a>
+<div class="mb-25 d-none d-md-block">X-56A in flight over Edwards AFB (Image credit: Lockheed Martin)
+The Flyer Øne initiative, named in homage to the Wright Brothers, aims to develop a digital-first, fixed-wing unmanned aircraft. The … [+9466 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.thehindubusinessline.com/companies/narain-karthikeyans-drivex-plans-to-more-than-double-network-pre-owned-2w-sales/article68586555.ece">
+<div class="img-sized">
+<img alt="Narain Karthikeyan’s DriveX plans to more than double network &amp; pre-owned 2W sales" class="img-fluid" loading="auto" src="https://bl-i.thgim.com/public/incoming/lf8xxn/article68586581.ece/alternates/LANDSCAPE_1200/DriveX%20Pic%201.JPG" srcset="" width="512"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">BusinessLine</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:14:47Z">30 Aug 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.thehindubusinessline.com/companies/narain-karthikeyans-drivex-plans-to-more-than-double-network-pre-owned-2w-sales/article68586555.ece">Narain Karthikeyan’s DriveX plans to more than double network &amp; pre-owned 2W sales</a>
+<div class="mb-25 d-none d-md-block">Formula 1 racing driver Narain Karthikeyan-promoted DriveX Mobility Pvt Ltd, engaged in the procurement, refurbishment, and retailing of pre-owned multi-brand two-wheelers, is now entering its next g… [+2825 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.kicksonfire.com/puma-mercedes-f1-r-cat-machina-motorsport-gs-white">
+<div class="img-sized">
+<img alt="Puma Mercedes F1 R-cat Machina Motorsport Gs White" class="img-fluid" loading="auto" src="https://2app.kicksonfire.com/kofapp/upload/events_master_images/ipad_puma-mercedes-f1-r-cat-machina-motorsport-gs-white.png" srcset="" width="866"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">KicksOnFire.com</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:05:34Z">30 Aug 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.kicksonfire.com/puma-mercedes-f1-r-cat-machina-motorsport-gs-white">Puma Mercedes F1 R-cat Machina Motorsport Gs White</a>
+<div class="mb-25 d-none d-md-block">The Puma Mercedes F1 R-cat Machina Motorsport GS White sneakers represent the epitome of style and performance, melding Puma's rich heritage in athletic footwear with the high-octane essence of Formu… [+1255 chars]</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div class="col-12 col-lg-3">
+<h2 class="mb-30">Recommended</h2>
+<div class="mb-40">
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.kicksonfire.com/puma-mercedes-amg-petronas-formula-1-drift-cat-decima-gs-white-spectra-green">
+<div class="small-image-list img-sized"><img alt="Puma Mercedes-amg Petronas Formula 1 Drift Cat Decima Gs White / Spectra Green" class="" loading="auto" src="https://2app.kicksonfire.com/kofapp/upload/events_master_images/ipad_puma-mercedes-amg-petronas-formula-1-drift-cat-decima-gs-white-spectra-green.png" srcset="" width="1200"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">KicksOnFire.com</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:03:54Z">30 Aug 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.kicksonfire.com/puma-mercedes-amg-petronas-formula-1-drift-cat-decima-gs-white-spectra-green">Puma Mercedes-amg Petronas Formula 1 Drift Cat Decima Gs White / Spectra Green</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.kicksonfire.com/puma-f1-trinity-gs-shadow-gray-black">
+<div class="small-image-list img-sized"><img alt="Puma F1 Trinity Gs Shadow Gray / Black" class="" loading="auto" src="https://2app.kicksonfire.com/kofapp/upload/events_master_images/ipad_puma-f1-trinity-gs-shadow-gray-black.png" srcset="" width="800"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">KicksOnFire.com</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:02:18Z">30 Aug 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.kicksonfire.com/puma-f1-trinity-gs-shadow-gray-black">Puma F1 Trinity Gs Shadow Gray / Black</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.kicksonfire.com/puma-mercedes-amg-petronas-f1-speedfusion-og-white-team-silver">
+<div class="small-image-list img-sized"><img alt="Puma Mercedes-amg Petronas F1 Speedfusion Og White / Team Silver" class="" loading="auto" src="https://2app.kicksonfire.com/kofapp/upload/events_master_images/ipad_puma-mercedes-amg-petronas-f1-speedfusion-og-white-team-silver.png" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">KicksOnFire.com</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:01:37Z">29 Aug 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.kicksonfire.com/puma-mercedes-amg-petronas-f1-speedfusion-og-white-team-silver">Puma Mercedes-amg Petronas F1 Speedfusion Og White / Team Silver</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.kicksonfire.com/puma-mercedes-amg-petronas-f1-vis2k-black-flat-dark-gray">
+<div class="small-image-list img-sized"><img alt="Puma Mercedes-amg Petronas F1 Vis2k Black / Flat Dark Gray" class="" loading="auto" src="https://2app.kicksonfire.com/kofapp/upload/events_master_images/ipad_puma-mercedes-amg-petronas-f1-vis2k-black-flat-dark-gray.png" srcset="" width="860"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">KicksOnFire.com</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:01:16Z">29 Aug 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.kicksonfire.com/puma-mercedes-amg-petronas-f1-vis2k-black-flat-dark-gray">Puma Mercedes-amg Petronas F1 Vis2k Black / Flat Dark Gray</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.geeky-gadgets.com/mercedes-amg-purespeed-in-the-final-stages-of-testing/">
+<div class="small-image-list img-sized"><img alt="Mercedes-AMG PureSpeed in the final stages of testing" class="" loading="auto" src="https://www.geeky-gadgets.com/wp-content/uploads/2024/08/Mercedes-AMG-PureSpeed-4.jpg" srcset="" width="960"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">Geeky Gadgets</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:00:59Z">29 Aug 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.geeky-gadgets.com/mercedes-amg-purespeed-in-the-final-stages-of-testing/">Mercedes-AMG PureSpeed in the final stages of testing</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dslot" did="4" style="min-height:600px;">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/300x600.jpg" width=""/>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section class="container mb-80">
+<div class="pb-40 pb-30">
+<h2 class="mb-40">All News</h2>
+<div class="row" id="load_more_target">
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.ablogtowatch.com/new-release-tag-heuer-connected-calibre-e4-45mm-x-oracle-red-bull-racing-edition-smartwatch/">
+<div class="img-sized"><img alt="New Release: TAG Heuer Connected Calibre E4 45MM X Oracle Red Bull Racing Edition Smartwatch" class="img-fluid" loading="auto" src="https://www.ablogtowatch.com/wp-content/uploads/2024/08/TAG-Heuer-Connected-Calibre-E4-45MM-X-Oracle-Red-Bull-Racing-Edition-Smartwatch.jpg" srcset="" width="960"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">aBlogtoWatch</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T16:00:21Z">24 Aug 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.ablogtowatch.com/new-release-tag-heuer-connected-calibre-e4-45mm-x-oracle-red-bull-racing-edition-smartwatch/">New Release: TAG Heuer Connected Calibre E4 45MM X Oracle Red Bull Racing Edition Smartwatch</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://futurism.com/the-byte/cybertruck-review-brick">
+<div class="img-sized"><img alt="When These Journalists Tried to Review the Cybertruck, It Bricked" class="img-fluid" loading="auto" src="https://wordpress-assets.futurism.com/2024/08/cybertruck-review-brick.jpg" srcset="" width="634"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Futurism</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T16:00:09Z">23 Aug 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://futurism.com/the-byte/cybertruck-review-brick">When These Journalists Tried to Review the Cybertruck, It Bricked</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.globenewswire.com/news-release/2024/08/23/2934980/0/en/Spark-Plug-Market-Size-Expected-to-Reach-USD-23-21-Bn-by-2034.html">
+<div class="img-sized"><img alt="Spark Plug Market Size Expected to Reach USD 23.21 Bn by 2034" class="img-fluid" loading="auto" src srcset="" width="1200"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">GlobeNewswire</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T16:00:00Z">23 Aug 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.globenewswire.com/news-release/2024/08/23/2934980/0/en/Spark-Plug-Market-Size-Expected-to-Reach-USD-23-21-Bn-by-2034.html">Spark Plug Market Size Expected to Reach USD 23.21 Bn by 2034</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://researchbuzz.me/2024/08/21/st-nicholas-greek-orthodox-church-knifegeek-apple-podcasts-more-wednesday-afternoon-researchbuzz-august-21-2024/">
+<div class="img-sized"><img alt="St. Nicholas Greek Orthodox Church, KnifeGeek, Apple Podcasts, More: Wednesday Afternoon ResearchBuzz, August 21, 2024" class="img-fluid" loading="auto" src="https://s0.wp.com/i/blank.jpg" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Researchbuzz.me</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:59:50Z">21 Aug 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://researchbuzz.me/2024/08/21/st-nicholas-greek-orthodox-church-knifegeek-apple-podcasts-more-wednesday-afternoon-researchbuzz-august-21-2024/">St. Nicholas Greek Orthodox Church, KnifeGeek, Apple Podcasts, More: Wednesday Afternoon ResearchBuzz, August 21, 2024</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://techcrunch.com/2024/08/20/beyond-maths-digital-wind-tunnel-puts-a-physics-based-ai-simulation-to-work-on-f1-cars/">
+<div class="img-sized"><img alt="Beyond Math's 'digital wind tunnel' puts a physics-based AI simulation to work on F1 cars | TechCrunch" class="img-fluid" loading="auto" src="https://techcrunch.com/wp-content/uploads/2024/08/beyond-math-header.jpg?resize=1200,737" srcset="" width="800"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">TechCrunch</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:58:09Z">20 Aug 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://techcrunch.com/2024/08/20/beyond-maths-digital-wind-tunnel-puts-a-physics-based-ai-simulation-to-work-on-f1-cars/">Beyond Math's 'digital wind tunnel' puts a physics-based AI simulation to work on F1 cars | TechCrunch</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.theverge.com/2024/8/18/24223039/formula-1-f1-cease-and-desist-letters-creators-name-change">
+<div class="img-sized"><img alt="Formula 1 is reportedly forcing some F1 creators to change their names" class="img-fluid" loading="auto" src="https://cdn.vox-cdn.com/thumbor/49ZqZt4P5-k00lAC4q16o23v2ss=/0x0:5602x3735/1200x628/filters:focal(2801x1868:2802x1869)/cdn.vox-cdn.com/uploads/chorus_asset/file/25577945/2158299651.jpg" srcset="" width="800"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">The Verge</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:52:02Z">18 Aug 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.theverge.com/2024/8/18/24223039/formula-1-f1-cease-and-desist-letters-creators-name-change">Formula 1 is reportedly forcing some F1 creators to change their names</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.huffpost.com/entry/brad-pitt-acting-career-last-leg_n_66be3cf9e4b0c551a1d118e9">
+<div class="img-sized"><img alt="Brad Pitt Explain Why He Feels His Acting Career Is On Its 'Last Leg'" class="img-fluid" loading="auto" src="https://img.huffingtonpost.com/asset/66be3d0d230000320020d2d1.jpeg?cache=7ANNoqAlAh&amp;ops=1200_630" srcset="" width="512"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">HuffPost</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:50:27Z">15 Aug 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.huffpost.com/entry/brad-pitt-acting-career-last-leg_n_66be3cf9e4b0c551a1d118e9">Brad Pitt Explain Why He Feels His Acting Career Is On Its 'Last Leg'</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.psychologytoday.com/intl/blog/use-your-brain/202408/weight-loss-in-a-16-ounce-can-skip-it">
+<div class="img-sized"><img alt="Weight Loss in a 16-Ounce Can? Skip It." class="img-fluid" loading="auto" src="https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/teaser_image/blog_entry/2024-08/pexels-olly-3855207.jpg?itok=iCnDwCh3" srcset="" width="1142"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Psychology Today</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:49:21Z">13 Aug 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.psychologytoday.com/intl/blog/use-your-brain/202408/weight-loss-in-a-16-ounce-can-skip-it">Weight Loss in a 16-Ounce Can? Skip It.</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://variety.com/2024/film/news/brad-pitt-refutes-acting-retirement-rumors-1236105073/">
+<div class="img-sized"><img alt="Brad Pitt Still Feels He’s on the ‘Last Legs’ of His Career, but That Doesn’t Mean Retirement: ‘What Are These Last Years Going to Be?’" class="img-fluid" loading="auto" src="https://variety.com/wp-content/uploads/2023/10/GettyImages-1456033655.jpg?w=1000&amp;h=563&amp;crop=1" srcset="" width="2846"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Variety</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:48:18Z">13 Aug 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://variety.com/2024/film/news/brad-pitt-refutes-acting-retirement-rumors-1236105073/">Brad Pitt Still Feels He’s on the ‘Last Legs’ of His Career, but That Doesn’t Mean Retirement: ‘What Are These Last Years Going to Be?’</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://biztoc.com/x/71b4a09ebd2eb896">
+<div class="img-sized"><img alt="As F1's Circuit Of The Americas Spurs Growth, Ari Rastegar's Developments Elevate Austin's Appeal" class="img-fluid" loading="auto" src="https://biztoc.com/cdn/71b4a09ebd2eb896_s.webp" srcset="" width="2907"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Biztoc.com</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:48:07Z">13 Aug 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://biztoc.com/x/71b4a09ebd2eb896">As F1's Circuit Of The Americas Spurs Growth, Ari Rastegar's Developments Elevate Austin's Appeal</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.nzherald.co.nz/entertainment/geri-halliwell-reportedly-stepping-away-from-spice-girls-reunion-following-mel-b-feud-rumours/DRYRLYE6T5H77EEPCHXWE5Y25Q/">
+<div class="img-sized"><img alt="Geri Halliwell reportedly stepping away from Spice Girls reunion following Mel B feud rumours" class="img-fluid" loading="auto" src="https://www.nzherald.co.nz/resizer/v2/XKDUZHXTSFANNFYKG5MCFYMTQQ.jpg?auth=af4b56674f96b756b3c88bbb768b66168ad1213537a7d0b561d473e54d96488d&amp;width=1200&amp;height=675&amp;quality=70&amp;smart=true" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">New Zealand Herald</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:46:17Z">13 Aug 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.nzherald.co.nz/entertainment/geri-halliwell-reportedly-stepping-away-from-spice-girls-reunion-following-mel-b-feud-rumours/DRYRLYE6T5H77EEPCHXWE5Y25Q/">Geri Halliwell reportedly stepping away from Spice Girls reunion following Mel B feud rumours</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://roanoke.com/news/nation-world/business/subscription-service-regulation-unsubscribe/article_4b3ea242-9b9e-5596-8b2d-b31ab1db7783.html">
+<div class="img-sized"><img alt="The US government wants to make it easier for you to click the 'unsubscribe' button" class="img-fluid" loading="auto" src="https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/assets/v3/editorial/4/b3/4b3ea242-9b9e-5596-8b2d-b31ab1db7783/66ba5ed3a3c90.preview.jpg?crop=1443%2C758%2C156%2C377&amp;resize=1200%2C630&amp;order=crop%2Cresize" srcset="" width="2315"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Roanoke Times</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:46:07Z">12 Aug 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://roanoke.com/news/nation-world/business/subscription-service-regulation-unsubscribe/article_4b3ea242-9b9e-5596-8b2d-b31ab1db7783.html">The US government wants to make it easier for you to click the 'unsubscribe' button</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.popville.com/2024/08/f1-arcade-union-market-opening-date/">
+<div class="img-sized"><img alt="“F1 Arcade Announces Washington, D.C. Opening Date!” Peek Inside Plus more details" class="img-fluid" loading="auto" src="https://s26552.pcdn.co/wp-content/uploads/2024/08/F1A_Washington-DC-CGI-2-1.jpg" srcset="" width="969"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">PoPville</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:44:57Z">07 Aug 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.popville.com/2024/08/f1-arcade-union-market-opening-date/">“F1 Arcade Announces Washington, D.C. Opening Date!” Peek Inside Plus more details</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.f1technical.net/news/25215">
+<div class="img-sized"><img alt="Ferrari's new head of aerodynamics revealed in a LinkedIn post" class="img-fluid" loading="auto" src="https://f1tcdn.net/images/news/2024/diego-tondijpg.jpg" srcset="" width="340"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">F1technical.net</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:42:21Z">04 Aug 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.f1technical.net/news/25215">Ferrari's new head of aerodynamics revealed in a LinkedIn post</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://omaha.com/news/local/business/take-an-inside-look-at-the-soon-to-open-warhorse-casino-in-omaha/article_4cbd8f70-50f5-11ef-b887-f7dfa5e1a0b7.html">
+<div class="img-sized"><img alt="An inside look at Omaha's soon-to-open WarHorse Casino" class="img-fluid" loading="auto" src="https://bloximages.newyork1.vip.townnews.com/omaha.com/content/tncms/assets/v3/editorial/4/cb/4cbd8f70-50f5-11ef-b887-f7dfa5e1a0b7/66ad3f4857051.preview.png?crop=1600%2C840%2C0%2C29&amp;resize=1200%2C630&amp;order=crop%2Cresize" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Omaha World-Herald</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:41:14Z">03 Aug 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://omaha.com/news/local/business/take-an-inside-look-at-the-soon-to-open-warhorse-casino-in-omaha/article_4cbd8f70-50f5-11ef-b887-f7dfa5e1a0b7.html">An inside look at Omaha's soon-to-open WarHorse Casino</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.memeorandum.com/240802/p37">
+<div class="img-sized"><img alt="They Begged Dems for Money--Then Spent Lavishly on Hotels and Entertainment (Sam Stein/The Bulwark)" class="img-fluid" loading="auto" src="https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F571091a7-c577-4556-a02e-a1793ddc3a36_8256x5504.jpeg" srcset="" width="512"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Memeorandum.com</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:33:12Z">02 Aug 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.memeorandum.com/240802/p37">They Begged Dems for Money--Then Spent Lavishly on Hotels and Entertainment (Sam Stein/The Bulwark)</a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+<hr class="mb-60"/>
+<div class="text-center">
+<a class="button-more button-more--gradient" href="javascript:void(0);" id="load_more" loadmoretype="formula-1">Load more news...
+                    <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg>
+</a>
+</div>
+</section>
+</main>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<div style="color: #fff">
+<div style="font-weight: 600;">
+                                    Digg delivers the most interesting and talked about stories on the Internet right now.
+                                </div>
+<p>
+                                    Digg does curation: building products that make life smoother, simpler, and smarter.
+                                    Founded in 2004 Re-founded in 2012 Re-re-founded in 2019,
+                                    Digg provides the most relevant and compelling content to millions of users a month. </p>
+<p>
+                                    Using proprietary data sources and a crack editorial team, we cut through the clutter of the Internet and make sense of the noise so you don’t have to. Digg has everything you'll see later, now. </p>
+                                Visit Digg on the web, or get the best of Digg delivered to your inbox with Digg Editions.
+                                <div style="font-weight: 600;"><br/>
+                                    How You Can Contact Us
+                                </div>
+<p>
+                                    Please alert us to any issues by contacting us at support@digg.com. </p>
+</div>
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block"></div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>Sport</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children" style="color: #fff">
+<a href="/sport/boxing/">Boxing</a><br/>
+<a href="/sport/cricket/">Cricket</a><br/>
+<a href="/sport/footbal/">Footbal</a><br/>
+<a href="/sport/formula-1/">Formula 1</a><br/>
+<a href="/sport/tennis/">Tennis</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/sport/"><b>Sport</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags"></div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right"></div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script>
+<script defer="" src="/assets/js/cookieconsent-init.js"></script>
+</body>
+</html>

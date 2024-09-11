@@ -5913,8 +5913,8 @@
                         window.$("#load_more_target").append('<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30" >' + e + "</div>")
                     }))
                 }
-            })), document.querySelectorAll("div[data-utctime]").forEach((function (e) {
-                var t = e.getAttribute("data-utctime").replace(/\s/g, "T") + "Z", n = function (e) {
+            })), document.querySelectorAll("div[data-utctimee]").forEach((function (e) {
+                var t = e.getAttribute("data-utctimee").replace(/\s/g, "T") + "Z", n = function (e) {
                     var t = Math.floor((new Date - e) / 1e3), n = t / 2592e3;
                     if (n > 1) return e.toLocaleDateString("default", {year: "numeric", month: "short", day: "numeric"});
                     if ((n = t / 86400) > 1) return n < 7 ? window.trans.time_days_ago.replace("[time]", Math.floor(n)) : e.toLocaleDateString("default", {year: "numeric", month: "short", day: "numeric"});
@@ -5925,8 +5925,8 @@
                 o = o.split(",");
                 var r = n.split(" "), s = 1 === parseInt(r[0]) ? o[6] ? o[6] : "second" : o[7] ? o[7] : "seconds", a = 1 === parseInt(r[0]) ? o[0] : o[1], l = 1 === parseInt(r[0]) ? o[2] : o[3], c = 1 === parseInt(r[0]) ? o[4] : o[5];
                 i && l && c && (n = (n = (n = (n = (n = n.replace("[ago]", i)).replace("[minutes]", a)).replace("[hours]", l)).replace("[days]", c)).replace("[seconds]", s)), e.innerHTML = "• " + n
-            })), document.querySelectorAll("span[data-utctimelocale]").forEach((function (e) {
-                var t = new Date(e.getAttribute("data-utctimelocale")), n = e.getAttribute("data-utctimelocale").replace(/\s/g, "T") + "Z", i = new Date(n), o = new Date(t);
+            })), document.querySelectorAll("span[data-utctimeelocale]").forEach((function (e) {
+                var t = new Date(e.getAttribute("data-utctimeelocale")), n = e.getAttribute("data-utctimeelocale").replace(/\s/g, "T") + "Z", i = new Date(n), o = new Date(t);
                 o.setDate(o.getDate() - 1);
                 var r = new Date(t);
                 r.setDate(r.getDate() + 1);

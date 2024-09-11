@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/sport/">Sport</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/lifestyle/">Lifestyle</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/lifestyle/shopping/">Shopping</a></li>
+<li><a href="/lifestyle/beauty/">Beauty</a></li>
+<li><a href="/lifestyle/tech-news/">Tech</a></li>
+<li><a href="/lifestyle/money/">Money</a></li>
+<li><a href="/lifestyle/fashion/">Fashion</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/finance/">finance</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/finance/financial-markets/">Markets</a></li>
+<li><a href="/finance/property-market/">Property</a></li>
+<li><a href="/finance/stocks-and-shares/">Stocks</a></li>
+<li><a href="/finance/brexit/">Brexit</a></li>
+<li><a href="/finance/crypto/">Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/sport/">Sport</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/culture/">Culture
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</li>
+<li>
+<a href="/lifestyle/">Lifestyle
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/lifestyle/shopping/">Shopping</a></li>
+<li><a href="/lifestyle/beauty/">Beauty</a></li>
+<li><a href="/lifestyle/tech-news/">Tech</a></li>
+<li><a href="/lifestyle/money/">Money</a></li>
+<li><a href="/lifestyle/fashion/">Fashion</a></li>
+</ul>
+</li>
+<li>
+<a href="/finance/">Finance
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/finance/financial-markets/">Markets</a></li>
+<li><a href="/finance/property-market/">Property</a></li>
+<li><a href="/finance/stocks-and-shares/">Stocks</a></li>
+<li><a href="/finance/brexit/">Brexit</a></li>
+<li><a href="/finance/crypto/">Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<main>
+<div class="container">
+<div class="pt-60 pb-60">
+<div class="row">
+<div class="col-12 col-lg-9">
+<div class="breadcrumbs mb-20">
+<a href="/">Amkamdam</a>
+<a href="/lifestyle/">lifestyle</a>
+<a href="/lifestyle/beauty/">beauty</a>
+</div>
+<h1 class="h2">Boxing</h1>
+<section class="category_contents_details">
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://mpasho.co.ke/entertainment/2024-09-09-watch-winnie-bwires-parents-overcome-with-grief-after-body-viewing/">
+<div class="img-sized">
+<img alt="Watch: Winnie Bwire's Parents Overcome with Grief After Body Viewing" class="img-fluid" loading="auto" src="https://lh3.googleusercontent.com/B1lazhVD6cSx-MKmyuX23z6eO3hw_nFZIanWd1nnVf58QXcmrWkOrq3nefsAVIx5gg4lojqgSHQ-9uilzTuvaFXFUwJ49NkXZqDnHA=s1000" srcset="" width="512"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">Mpasho.co.ke</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:15:21Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://mpasho.co.ke/entertainment/2024-09-09-watch-winnie-bwires-parents-overcome-with-grief-after-body-viewing/">Watch: Winnie Bwire's Parents Overcome with Grief After Body Viewing</a>
+<div class="mb-25 d-none d-md-block">Bwire's family, along with fellow artists, gathered at the mortuary to pay their respects. They remembered her not only for her remarkable talent but also for her distinct sense of beauty.
+As they m… [+592 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.channelnewsasia.com/singapore/singapore-elections-ban-deepfakes-candidates-advertising-4585686">
+<div class="img-sized">
+<img alt="Singapore proposes ban on deepfakes of candidates during elections" class="img-fluid" loading="auto" src="https://onecms-res.cloudinary.com/image/upload/s--H_MjSCyG--/c_crop,h_900,w_1600,x_0,y_105/f_auto,q_auto/c_fill,g_auto,h_676,w_1200/v1/mediacorp/cna/image/2024/06/27/lee_hsien_loong_deepfake_fb.jpg?itok=PPEMrtZz" srcset="" width="512"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">CNA</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:15:08Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.channelnewsasia.com/singapore/singapore-elections-ban-deepfakes-candidates-advertising-4585686">Singapore proposes ban on deepfakes of candidates during elections</a>
+<div class="mb-25 d-none d-md-block">SINGAPORE: Singapore on Monday (Sep 9) proposed a law to ban deepfakes and other digitally manipulated content of candidates during elections. 
+Introduced by the Ministry of Digital Development and … [+4185 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.etfdailynews.com/2024/09/09/yelp-inc-expected-to-earn-q4-2025-earnings-of-0-57-per-share-nyseyelp/">
+<div class="img-sized">
+<img alt="Yelp Inc. Expected to Earn Q4 2025 Earnings of $0.57 Per Share (NYSE:YELP)" class="img-fluid" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/yelp-logo-1200x675.jpg&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="512"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">ETF Daily News</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:14:47Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.etfdailynews.com/2024/09/09/yelp-inc-expected-to-earn-q4-2025-earnings-of-0-57-per-share-nyseyelp/">Yelp Inc. Expected to Earn Q4 2025 Earnings of $0.57 Per Share (NYSE:YELP)</a>
+<div class="mb-25 d-none d-md-block">Yelp Inc. (NYSE:YELP – Free Report) – Analysts at Zacks Research dropped their Q4 2025 EPS estimates for shares of Yelp in a research report issued on Wednesday, September 4th. Zacks Research analyst… [+5423 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.etfdailynews.com/2024/09/09/q3-2025-eps-estimates-for-torrid-holdings-inc-raised-by-telsey-advisory-group-nysecurv/">
+<div class="img-sized">
+<img alt="Q3 2025 EPS Estimates for Torrid Holdings Inc. Raised by Telsey Advisory Group (NYSE:CURV)" class="img-fluid" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/torrid-holdings-inc-logo-1200x675.png?v=20221214150907&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="866"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">ETF Daily News</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:05:34Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.etfdailynews.com/2024/09/09/q3-2025-eps-estimates-for-torrid-holdings-inc-raised-by-telsey-advisory-group-nysecurv/">Q3 2025 EPS Estimates for Torrid Holdings Inc. Raised by Telsey Advisory Group (NYSE:CURV)</a>
+<div class="mb-25 d-none d-md-block">Torrid Holdings Inc. (NYSE:CURV – Free Report) – Telsey Advisory Group boosted their Q3 2025 earnings estimates for shares of Torrid in a report issued on Thursday, September 5th. Telsey Advisory Gro… [+3656 chars]</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div class="col-12 col-lg-3">
+<h2 class="mb-30">Recommended</h2>
+<div class="mb-40">
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.jeffbullas.com/tiktok-stats/">
+<div class="small-image-list img-sized"><img alt="30 TikTok Stats That Matter: A Look at What’s Driving 2024’s Biggest Trends" class="" loading="auto" src="https://www.jeffbullas.com/wp-content/uploads/2024/09/DALL·E-2024-09-09-10.59.24-A-dynamic-and-visually-engaging-landscape-image-representing-TikTok-statistics.-The-image-features-a-smartphone-with-the-TikTok-app-open-surrounded-b-e1725859927135.webp" srcset="" width="1200"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">Jeffbullas.com</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:03:54Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.jeffbullas.com/tiktok-stats/">30 TikTok Stats That Matter: A Look at What’s Driving 2024’s Biggest Trends</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.starobserver.com.au/artsentertainment/all-the-fraudulent-horse-girls-at-the-old-fitz-giddy-fun/232853">
+<div class="small-image-list img-sized"><img alt="‘All The Fraudulent Horse Girls’ at The Old Fitz – giddy fun" class="" loading="auto" src="https://www.starobserver.com.au/wp-content/uploads/2024/09/RobertCatto_5-e1725589021300.jpg" srcset="" width="800"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">Starobserver.com.au</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:02:18Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.starobserver.com.au/artsentertainment/all-the-fraudulent-horse-girls-at-the-old-fitz-giddy-fun/232853">‘All The Fraudulent Horse Girls’ at The Old Fitz – giddy fun</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.pulselive.co.ke/entertainment/celebrities/winnie-bwires-body-repatriated-to-kenya-ahead-of-her-burial-in-kakamega/2k7d1f2">
+<div class="small-image-list img-sized"><img alt="Winnie Bwire’s body repatriated to Kenya ahead of her burial in Kakamega" class="" loading="auto" src="https://ocdn.eu/pulscms-transforms/1/gpXktkpTURBXy8yYTk2YzkxZTM5MDg2NTRkY2FkMWJiZDJhODc2YjdjZi5wbmeSlQMAJ80Dc80B8JMFzQSwzQJ2" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">Pulse Live Kenya</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:01:37Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.pulselive.co.ke/entertainment/celebrities/winnie-bwires-body-repatriated-to-kenya-ahead-of-her-burial-in-kakamega/2k7d1f2">Winnie Bwire’s body repatriated to Kenya ahead of her burial in Kakamega</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="http://www.soompi.com/article/1687040wpp/jung-gun-joos-agency-denies-his-dating-rumors-with-youtuber-nam-seo-yeon">
+<div class="small-image-list img-sized"><img alt="Jung Gun Joo’s Agency Denies His Dating Rumors With YouTuber Nam Seo Yeon" class="" loading="auto" src="https://0.soompi.io/wp-content/uploads/2024/09/08215430/jung-gun-joo-nam-se-yeon-00.jpg" srcset="" width="860"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">soompi</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:01:16Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="http://www.soompi.com/article/1687040wpp/jung-gun-joos-agency-denies-his-dating-rumors-with-youtuber-nam-seo-yeon">Jung Gun Joo’s Agency Denies His Dating Rumors With YouTuber Nam Seo Yeon</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://photographylife.com/news/photo-news-09-08-24">
+<div class="small-image-list img-sized"><img alt="Photography News: New Fast Zooms, Great Nikon Telephoto Deals" class="" loading="auto" src="https://photographylife.com/wp-content/uploads/2024/09/Falconer_Czech-Republic_Nikon-35mm-f14.jpg" srcset="" width="960"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">Photographylife.com</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:00:59Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://photographylife.com/news/photo-news-09-08-24">Photography News: New Fast Zooms, Great Nikon Telephoto Deals</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dslot" did="4" style="min-height:600px;">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/300x600.jpg" width=""/>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section class="container mb-80">
+<div class="pb-40 pb-30">
+<h2 class="mb-40">All News</h2>
+<div class="row" id="load_more_target">
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://japan.cnet.com/release/31023422/">
+<div class="img-sized"><img alt="Publicity Department of the CPC Shenyang Municipal Committee2024年瀋陽チャイナドレス文化ウイークと第6回中国オーダーメードチャイナドレス芸術祭の開会式が瀋陽で開催" class="img-fluid" loading="auto" src="https://japan.cnet.com/media/c/2012/images/logo/logo_ogp_1200.png" srcset="" width="960"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">CNET</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T16:00:21Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://japan.cnet.com/release/31023422/">Publicity Department of the CPC Shenyang Municipal Committee2024年瀋陽チャイナドレス文化ウイークと第6回中国オーダーメードチャイナドレス芸術祭の開会式が瀋陽で開催</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.etfdailynews.com/2024/09/09/gap-nysegps-global-fashion-group-otcmktsglfgf-critical-comparison/">
+<div class="img-sized"><img alt="GAP (NYSE:GPS) &amp; Global Fashion Group (OTCMKTS:GLFGF) Critical Comparison" class="img-fluid" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/the-gap-inc-logo-1200x675.png?v=20240129124714&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="634"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">ETF Daily News</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T16:00:09Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.etfdailynews.com/2024/09/09/gap-nysegps-global-fashion-group-otcmktsglfgf-critical-comparison/">GAP (NYSE:GPS) &amp; Global Fashion Group (OTCMKTS:GLFGF) Critical Comparison</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.etfdailynews.com/2024/09/09/financial-survey-gn-store-nord-a-s-otcmktsgnndy-vs-recruit-otcmktsrcrrf/">
+<div class="img-sized"><img alt="Financial Survey: GN Store Nord A/S (OTCMKTS:GNNDY) vs. Recruit (OTCMKTS:RCRRF)" class="img-fluid" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/recruit-holdings-co-ltd-logo-1200x675.png?v=20240424090311&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="1200"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">ETF Daily News</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T16:00:00Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.etfdailynews.com/2024/09/09/financial-survey-gn-store-nord-a-s-otcmktsgnndy-vs-recruit-otcmktsrcrrf/">Financial Survey: GN Store Nord A/S (OTCMKTS:GNNDY) vs. Recruit (OTCMKTS:RCRRF)</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.kvraudio.com/forum/viewtopic.php?t=614020">
+<div class="img-sized"><img alt="[FR] Tracker composition view (patterns and sequence) (in: MuTools)" class="img-fluid" loading="auto" src="https://static.kvraudio.com/i/b/kvraudio-300x300-grey-eeeeee.png" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Kvraudio.com</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:59:50Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.kvraudio.com/forum/viewtopic.php?t=614020">[FR] Tracker composition view (patterns and sequence) (in: MuTools)</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="http://wwd.com/beauty-industry-news/wellness/naomi-watts-stripes-national-hot-flash-day-1236573176/">
+<div class="img-sized"><img alt="EXCLUSIVE: Naomi Watts’ Menopause Brand Stripes Beauty Inaugurates National Hot Flash Day" class="img-fluid" loading="auto" src="https://wwd.com/wp-content/uploads/2024/09/NaomiWattsNationalHotFlashDay.jpg?w=1000&amp;h=563&amp;crop=1" srcset="" width="800"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">WWD</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:58:09Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="http://wwd.com/beauty-industry-news/wellness/naomi-watts-stripes-national-hot-flash-day-1236573176/">EXCLUSIVE: Naomi Watts’ Menopause Brand Stripes Beauty Inaugurates National Hot Flash Day</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="http://wwd.com/business-news/retail/fashion-retailer-elyse-walker-secrets-to-success-1236560358/">
+<div class="img-sized"><img alt="Designers and Colleagues Share Insight Into Retailer Elyse Walker’s Secrets to Success" class="img-fluid" loading="auto" src="https://wwd.com/wp-content/uploads/2024/08/Elyse-Gary-Wassner.jpg?crop=0px%2C357px%2C1962px%2C1099px&amp;resize=1000%2C563" srcset="" width="800"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">WWD</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:52:02Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="http://wwd.com/business-news/retail/fashion-retailer-elyse-walker-secrets-to-success-1236560358/">Designers and Colleagues Share Insight Into Retailer Elyse Walker’s Secrets to Success</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="http://wwd.com/lists/wwd-fn-beauty-inc-50-women-in-power-1236532409/">
+<div class="img-sized"><img alt="WWD x FN x Beauty Inc 50 Women in Power 2024" class="img-fluid" loading="auto" src="https://wwd.com/wp-content/uploads/2024/08/women-in-power-feature-csty-copyA.jpg?w=1000&amp;h=563&amp;crop=1" srcset="" width="512"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">WWD</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:50:27Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="http://wwd.com/lists/wwd-fn-beauty-inc-50-women-in-power-1236532409/">WWD x FN x Beauty Inc 50 Women in Power 2024</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://techreport.com/news/roblox-introduces-new-monetization-methods-game-developers/">
+<div class="img-sized"><img alt="Roblox Introduces New Monetization Methods for Its Game Developers" class="img-fluid" loading="auto" src="https://techreport.com/wp-content/uploads/2024/09/oberon-copeland-veryinformed-com-TWcT7gG59js-unsplash_cr-scaled.jpg?_t=1725857738" srcset="" width="1142"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Techreport.com</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:49:21Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://techreport.com/news/roblox-introduces-new-monetization-methods-game-developers/">Roblox Introduces New Monetization Methods for Its Game Developers</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.nzherald.co.nz/lifestyle/miss-universe-chaos-as-fiji-pageant-winner-dethroned-amid-alleged-conspiracy/V6TK5FOWWJGMREUD7RZ54CESVQ/">
+<div class="img-sized"><img alt="Miss Universe chaos as Fiji pageant winner dethroned amid alleged ‘conspiracy’" class="img-fluid" loading="auto" src="https://www.nzherald.co.nz/resizer/v2/B2MPYBRS4JEPNMIT3TBDJKALFA.png?auth=e751149b88722e8e50b9817913361a04eae877e9397ac53b061b80356432b574&amp;width=1200&amp;height=675&amp;quality=70&amp;smart=true" srcset="" width="2846"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">New Zealand Herald</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:48:18Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.nzherald.co.nz/lifestyle/miss-universe-chaos-as-fiji-pageant-winner-dethroned-amid-alleged-conspiracy/V6TK5FOWWJGMREUD7RZ54CESVQ/">Miss Universe chaos as Fiji pageant winner dethroned amid alleged ‘conspiracy’</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.menstylefashion.com/how-to-make-your-beard-grow-faster/">
+<div class="img-sized"><img alt="How To Make Your Beard Grow Faster" class="img-fluid" loading="auto" src="https://www.menstylefashion.com/wp-content/uploads/2015/11/beard-03.jpg" srcset="" width="2907"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Menstylefashion.com</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:48:07Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.menstylefashion.com/how-to-make-your-beard-grow-faster/">How To Make Your Beard Grow Faster</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.insurancejournal.com/news/international/2024/09/09/791898.htm">
+<div class="img-sized"><img alt="‘Sustainable’ Logging Operations Are Clear-Cutting Canada’s Climate-Fighting Forests" class="img-fluid" loading="auto" src="https://www.insurancejournal.com/app/uploads/2022/08/Logging-2.jpeg" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Insurance Journal</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:46:17Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.insurancejournal.com/news/international/2024/09/09/791898.htm">‘Sustainable’ Logging Operations Are Clear-Cutting Canada’s Climate-Fighting Forests</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="http://wwd.com/beauty-industry-news/beauty-features/victoria-beckham-beauty-expands-wholesale-selfridges-surge-1236577304/">
+<div class="img-sized"><img alt="Victoria Beckham Beauty Expands Wholesale as Sales at Selfridges Surge" class="img-fluid" loading="auto" src="https://wwd.com/wp-content/uploads/2024/08/1278_SHOT_05_1854_v1_QC_R300-min_3d9bf0.jpg?crop=0px%2C0px%2C2000px%2C1119px&amp;resize=1000%2C563" srcset="" width="2315"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">WWD</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:46:07Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="http://wwd.com/beauty-industry-news/beauty-features/victoria-beckham-beauty-expands-wholesale-selfridges-surge-1236577304/">Victoria Beckham Beauty Expands Wholesale as Sales at Selfridges Surge</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="http://wwd.com/beauty-industry-news/beauty-features/estee-lauder-niv-tiktok-catalysts-beauty-program-finalists-include-charles-jeffrey-loverboy-lexie-hull-1236571359/">
+<div class="img-sized"><img alt="Charles Jeffrey Loverboy, Forta, Etia London, Ruka Among Finalists of Estée Lauder Cos.’ NIV and TikTok Beauty Program" class="img-fluid" loading="auto" src="https://wwd.com/wp-content/uploads/2024/09/Meet-The-Finalists_Press-Release-Graphic.jpg?crop=0px%2C12px%2C3996px%2C2238px&amp;resize=1000%2C563" srcset="" width="969"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">WWD</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:44:57Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="http://wwd.com/beauty-industry-news/beauty-features/estee-lauder-niv-tiktok-catalysts-beauty-program-finalists-include-charles-jeffrey-loverboy-lexie-hull-1236571359/">Charles Jeffrey Loverboy, Forta, Etia London, Ruka Among Finalists of Estée Lauder Cos.’ NIV and TikTok Beauty Program</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.irishtimes.com/culture/books/review/2024/09/09/the-haunted-wood-a-history-of-childhood-reading-by-sam-leith-monumental-and-invigorating/">
+<div class="img-sized"><img alt="The Haunted Wood: A History of Childhood Reading by Sam Leith - monumental and invigorating" class="img-fluid" loading="auto" src="https://www.irishtimes.com/resizer/v2/LBBBYQFXFVH5HJXYSJLTDH666E.jpg?smart=true&amp;auth=619991401d21c1d03e124e0d5e168734b70e70907556b7c50c28cf2db97f4c56&amp;width=1200&amp;height=630" srcset="" width="340"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">The Irish Times</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:42:21Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.irishtimes.com/culture/books/review/2024/09/09/the-haunted-wood-a-history-of-childhood-reading-by-sam-leith-monumental-and-invigorating/">The Haunted Wood: A History of Childhood Reading by Sam Leith - monumental and invigorating</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.theonlinecitizen.com/2024/09/09/tiktok-video-shows-woman-confronting-12-tenants-in-hdb-flat-demands-immediate-eviction/">
+<div class="img-sized"><img alt="TikTok video shows woman confronting 12 tenants in HDB flat, demands immediate eviction" class="img-fluid" loading="auto" src="https://i0.wp.com/theonlinecitizen.s3.ap-northeast-2.amazonaws.com/uploads/2024/09/09110725/sublet1.jpg?resize=784%2C500&amp;ssl=1" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">The Online Citizen</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:41:14Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.theonlinecitizen.com/2024/09/09/tiktok-video-shows-woman-confronting-12-tenants-in-hdb-flat-demands-immediate-eviction/">TikTok video shows woman confronting 12 tenants in HDB flat, demands immediate eviction</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.espn.com/nfl/story/_/id/41187336/buccaneers-lose-three-cornerbacks-injury-vs-commanders">
+<div class="img-sized"><img alt="Bucs lose three cornerbacks to injury in win" class="img-fluid" loading="auto" src="https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0909%2Fr1384004_1296x729_16%2D9.jpg" srcset="" width="512"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">ESPN</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:33:12Z">09 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.espn.com/nfl/story/_/id/41187336/buccaneers-lose-three-cornerbacks-injury-vs-commanders">Bucs lose three cornerbacks to injury in win</a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+<hr class="mb-60"/>
+<div class="text-center">
+<a class="button-more button-more--gradient" href="javascript:void(0);" id="load_more" loadmoretype="beauty">Load more news...
+                    <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg>
+</a>
+</div>
+</section>
+</main>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<div style="color: #fff">
+<div style="font-weight: 600;">
+                                    Digg delivers the most interesting and talked about stories on the Internet right now.
+                                </div>
+<p>
+                                    Digg does curation: building products that make life smoother, simpler, and smarter.
+                                    Founded in 2004 Re-founded in 2012 Re-re-founded in 2019,
+                                    Digg provides the most relevant and compelling content to millions of users a month. </p>
+<p>
+                                    Using proprietary data sources and a crack editorial team, we cut through the clutter of the Internet and make sense of the noise so you don’t have to. Digg has everything you'll see later, now. </p>
+                                Visit Digg on the web, or get the best of Digg delivered to your inbox with Digg Editions.
+                                <div style="font-weight: 600;"><br/>
+                                    How You Can Contact Us
+                                </div>
+<p>
+                                    Please alert us to any issues by contacting us at support@digg.com. </p>
+</div>
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block"></div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>Sport</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children" style="color: #fff">
+<a href="/sport/boxing/">Boxing</a><br/>
+<a href="/sport/cricket/">Cricket</a><br/>
+<a href="/sport/football/">Football</a><br/>
+<a href="/sport/formula-1/">Formula 1</a><br/>
+<a href="/sport/tennis/">Tennis</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/sport/"><b>Sport</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags"></div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right"></div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script>
+<script defer="" src="/assets/js/cookieconsent-init.js"></script>
+</body>
+</html>

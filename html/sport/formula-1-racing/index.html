@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/sport/">Sport</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/lifestyle/">Lifestyle</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/lifestyle/shopping/">Shopping</a></li>
+<li><a href="/lifestyle/beauty/">Beauty</a></li>
+<li><a href="/lifestyle/tech-news/">Tech</a></li>
+<li><a href="/lifestyle/money/">Money</a></li>
+<li><a href="/lifestyle/fashion/">Fashion</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/finance/">finance</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/finance/financial-markets/">Markets</a></li>
+<li><a href="/finance/property-market/">Property</a></li>
+<li><a href="/finance/stocks-and-shares/">Stocks</a></li>
+<li><a href="/finance/brexit/">Brexit</a></li>
+<li><a href="/finance/crypto/">Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/sport/">Sport</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/culture/">Culture
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/culture/popular-films/">Film</a></li>
+<li><a href="/culture/music/">Music</a></li>
+<li><a href="/culture/books/">Books</a></li>
+<li><a href="/culture/art/">Art</a></li>
+<li><a href="/culture/photography/">Photography</a></li>
+</ul>
+</li>
+<li>
+<a href="/lifestyle/">Lifestyle
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/lifestyle/shopping/">Shopping</a></li>
+<li><a href="/lifestyle/beauty/">Beauty</a></li>
+<li><a href="/lifestyle/tech-news/">Tech</a></li>
+<li><a href="/lifestyle/money/">Money</a></li>
+<li><a href="/lifestyle/fashion/">Fashion</a></li>
+</ul>
+</li>
+<li>
+<a href="/finance/">Finance
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/finance/financial-markets/">Markets</a></li>
+<li><a href="/finance/property-market/">Property</a></li>
+<li><a href="/finance/stocks-and-shares/">Stocks</a></li>
+<li><a href="/finance/brexit/">Brexit</a></li>
+<li><a href="/finance/crypto/">Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<main>
+<div class="container">
+<div class="pt-60 pb-60">
+<div class="row">
+<div class="col-12 col-lg-9">
+<div class="breadcrumbs mb-20">
+<a href="/">Amkamdam</a>
+<a href="/sport/">sport</a>
+<a href="/sport/formula-1-racing/">formula-1-racing</a>
+</div>
+<h1 class="h2">Boxing</h1>
+<section class="category_contents_details">
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.newsweek.com/sports/racing/fernando-alonso-reveals-huge-lifestyle-change-after-persistent-issues-1950537">
+<div class="img-sized">
+<img alt="Fernando Alonso Reveals Huge Lifestyle Change After Persistent Issues" class="img-fluid" loading="auto" src="https://d.newsweek.com/en/full/2466667/fernando-alonso.jpg" srcset="" width="512"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">Newsweek</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:15:21Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.newsweek.com/sports/racing/fernando-alonso-reveals-huge-lifestyle-change-after-persistent-issues-1950537">Fernando Alonso Reveals Huge Lifestyle Change After Persistent Issues</a>
+<div class="mb-25 d-none d-md-block">Fernando Alonso has revealed a large change to his lifestyle, made partly to boost his performance at Aston Martin, but mostly to improve the quality of his life. The illustrious Spanish driver, with… [+2790 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.f1technical.net/news/25382">
+<div class="img-sized">
+<img alt="F3: FIA Formula 3 has unveiled its brand-new car for 2025" class="img-fluid" loading="auto" src="https://f1tcdn.net/images/news/2024/dallaraf3.jpeg" srcset="" width="512"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">F1technical.net</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:15:08Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.f1technical.net/news/25382">F3: FIA Formula 3 has unveiled its brand-new car for 2025</a>
+<div class="mb-25 d-none d-md-block">By Balazs Szabo on 08 Sep 2024, 20:00
+With the F3 season having come to an end at the Autodromo Nazionale di Monza last weekend, the FIA Formula 3 has unveiled the car that the series will use from … [+5659 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.newsweek.com/sports/racing/insider-reveals-red-bulls-missed-opportunities-alonso-norris-deals-that-never-happened-1950495">
+<div class="img-sized">
+<img alt="Insider Reveals Red Bull's Missed Opportunities: Alonso and Norris Deals That Never Happened" class="img-fluid" loading="auto" src="https://d.newsweek.com/en/full/2466626/fernando-alonso.jpg" srcset="" width="512"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">Newsweek</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:14:47Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.newsweek.com/sports/racing/insider-reveals-red-bulls-missed-opportunities-alonso-norris-deals-that-never-happened-1950495">Insider Reveals Red Bull's Missed Opportunities: Alonso and Norris Deals That Never Happened</a>
+<div class="mb-25 d-none d-md-block">Red Bull Racing, Formula 1's current reigning championship team, narrowly missed out on signing two of the sport's top talents. Helmut Marko, a consultant within Red Bull's driver development program… [+3349 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.f1technical.net/news/25428">
+<div class="img-sized">
+<img alt="TYRE DEBRIEF: Leclerc reveals how he kept his tyre alive in Monza" class="img-fluid" loading="auto" src="https://f1tcdn.net/images/news/2024/italiangp-ferrari7.jpeg" srcset="" width="866"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">F1technical.net</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:05:34Z">08 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.f1technical.net/news/25428">TYRE DEBRIEF: Leclerc reveals how he kept his tyre alive in Monza</a>
+<div class="mb-25 d-none d-md-block">By Balazs Szabo on 08 Sep 2024, 08:00
+Having secured his second victory at the Italian Grand Prix, Ferrari driver Charles Leclerc has revealed that his main focus at last Sunday's 53-lap Monza race … [+4998 chars]</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div class="col-12 col-lg-3">
+<h2 class="mb-30">Recommended</h2>
+<div class="mb-40">
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.forbes.com/sites/dancancian/2024/09/07/aston-martin-to-sign-red-bull-chief-designer-adrian-newey-in-40m-deal/">
+<div class="small-image-list img-sized"><img alt="Aston Martin To Sign Red Bull Chief Designer Adrian Newey In $40m Deal" class="" loading="auto" src="https://imageio.forbes.com/specials-images/imageserve/66dc8543b1b3e71dd68d8734/0x0.jpg?format=jpg&amp;height=900&amp;width=1600&amp;fit=bounds" srcset="" width="1200"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">Forbes</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:03:54Z">07 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.forbes.com/sites/dancancian/2024/09/07/aston-martin-to-sign-red-bull-chief-designer-adrian-newey-in-40m-deal/">Aston Martin To Sign Red Bull Chief Designer Adrian Newey In $40m Deal</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.newsweek.com/sports/racing/adrian-newey-signs-jaw-dropping-30m-contract-aston-martin-all-confirmed-1950308">
+<div class="small-image-list img-sized"><img alt="Adrian Newey Signs Jaw-Dropping £30m Contract with Aston Martin - All-But Confirmed" class="" loading="auto" src="https://d.newsweek.com/en/full/2466419/adrian-newey.jpg" srcset="" width="800"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">Newsweek</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:02:18Z">07 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.newsweek.com/sports/racing/adrian-newey-signs-jaw-dropping-30m-contract-aston-martin-all-confirmed-1950308">Adrian Newey Signs Jaw-Dropping £30m Contract with Aston Martin - All-But Confirmed</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.speedhunters.com/2024/09/blown-away-at-the-2024-world-time-attack-challenge/">
+<div class="small-image-list img-sized"><img alt="Blown Away At The 2024 World Time Attack Challenge" class="" loading="auto" src="https://s3.amazonaws.com/speedhunters-wp-production/wp-content/uploads/2024/09/05153729/1-8508420.jpg" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">Speedhunters.com</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:01:37Z">07 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.speedhunters.com/2024/09/blown-away-at-the-2024-world-time-attack-challenge/">Blown Away At The 2024 World Time Attack Challenge</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="http://skift.com/2024/09/07/hotel-earnings-7-things-we-learned-from-companies-in-the-skift-travel-200/">
+<div class="small-image-list img-sized"><img alt="Hotel Earnings: 7 Things We Learned From Companies in the Skift Travel 200" class="" loading="auto" src="https://skift.com/wp-content/uploads/2024/09/AC-by-Marriott-hotel-owned-by-Apple-Hospitality.jpg" srcset="" width="860"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">Skift</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:01:16Z">07 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="http://skift.com/2024/09/07/hotel-earnings-7-things-we-learned-from-companies-in-the-skift-travel-200/">Hotel Earnings: 7 Things We Learned From Companies in the Skift Travel 200</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.forbes.com/sites/jennnelson/2024/09/06/slate-racing-how-an-all-women-team-is-shaping-the-future-of-motorsports/">
+<div class="small-image-list img-sized"><img alt="Slate Racing: How An All-Women Team Is Shaping The Future Of Motorsports" class="" loading="auto" src="https://imageio.forbes.com/specials-images/imageserve/66db82220e851dba156883d7/0x0.jpg?format=jpg&amp;crop=2586,1454,x200,y0,safe&amp;height=900&amp;width=1600&amp;fit=bounds" srcset="" width="960"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">Forbes</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:00:59Z">06 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.forbes.com/sites/jennnelson/2024/09/06/slate-racing-how-an-all-women-team-is-shaping-the-future-of-motorsports/">Slate Racing: How An All-Women Team Is Shaping The Future Of Motorsports</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dslot" did="4" style="min-height:600px;">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/300x600.jpg" width=""/>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section class="container mb-80">
+<div class="pb-40 pb-30">
+<h2 class="mb-40">All News</h2>
+<div class="row" id="load_more_target">
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.newsweek.com/sports/racing/kevin-harvick-proposes-big-nascar-changes-ahead-playoffs-1950192">
+<div class="img-sized"><img alt="Kevin Harvick Proposes Big NASCAR Changes Ahead of Playoffs" class="img-fluid" loading="auto" src="https://d.newsweek.com/en/full/2466274/nascar-cup-series-busch-light-clash.jpg" srcset="" width="960"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Newsweek</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T16:00:21Z">06 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.newsweek.com/sports/racing/kevin-harvick-proposes-big-nascar-changes-ahead-playoffs-1950192">Kevin Harvick Proposes Big NASCAR Changes Ahead of Playoffs</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.newsweek.com/sports/racing/christopher-bell-delivers-crushing-blow-nascar-identity-crisis-claims-1950055">
+<div class="img-sized"><img alt="Christopher Bell Delivers Crushing Blow In NASCAR 'Identity Crisis' Claims" class="img-fluid" loading="auto" src="https://d.newsweek.com/en/full/2466069/christopher-bell.jpg" srcset="" width="634"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Newsweek</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T16:00:09Z">06 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.newsweek.com/sports/racing/christopher-bell-delivers-crushing-blow-nascar-identity-crisis-claims-1950055">Christopher Bell Delivers Crushing Blow In NASCAR 'Identity Crisis' Claims</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.nzherald.co.nz/lifestyle/americas-cup-2024-grant-daltons-vision-for-sailings-future-in-barcelona/NXCIGKCFCBAU3C3NGKXM3TPAZA/">
+<div class="img-sized"><img alt="America’s Cup 2024: Grant Dalton’s vision for sailing’s future in Barcelona" class="img-fluid" loading="auto" src="https://www.nzherald.co.nz/resizer/v2/SUF7YVGFNRG2DIRQJVTQIH4LLI.jpg?auth=3801f099631f8b1fc1bf63d3826f53323eb09a6de446851505071e4804a976d6&amp;width=1200&amp;height=675&amp;quality=70&amp;focal=769%2C778&amp;smart=false" srcset="" width="1200"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">New Zealand Herald</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T16:00:00Z">06 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.nzherald.co.nz/lifestyle/americas-cup-2024-grant-daltons-vision-for-sailings-future-in-barcelona/NXCIGKCFCBAU3C3NGKXM3TPAZA/">America’s Cup 2024: Grant Dalton’s vision for sailing’s future in Barcelona</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.sbnation.com/formula-one/2024/9/6/24237593/f1-post-season-rookie-race-wolff-vasseur">
+<div class="img-sized"><img alt="Momentum building for post-season F1 rookie race" class="img-fluid" loading="auto" src="https://cdn.vox-cdn.com/thumbor/T9hIsp1x7igWb5CuZb35Et7vMVU=/0x0:5748x3009/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25607212/2169450389.jpg" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">SB Nation</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:59:50Z">06 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.sbnation.com/formula-one/2024/9/6/24237593/f1-post-season-rookie-race-wolff-vasseur">Momentum building for post-season F1 rookie race</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="http://9to5google.com/2024/09/06/deals-galaxy-fold-6-surface-copilot-pc-galaxy-buds/">
+<div class="img-sized"><img alt="Deals: Galaxy Flip/Fold 6 $120 off + $300 credit, Surface Laptop Copilot+ PC all-time low, Galaxy Buds FE, more" class="img-fluid" loading="auto" src="https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2024/07/samsung-galaxy-z-fold-6-4.jpg?resize=1200%2C628&amp;quality=82&amp;strip=all&amp;ssl=1" srcset="" width="800"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">9to5google.com</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:58:09Z">06 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="http://9to5google.com/2024/09/06/deals-galaxy-fold-6-surface-copilot-pc-galaxy-buds/">Deals: Galaxy Flip/Fold 6 $120 off + $300 credit, Surface Laptop Copilot+ PC all-time low, Galaxy Buds FE, more</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://9to5mac.com/2024/09/06/deals-apple-watch-ultra-ipad-pro-magic-keyboard/">
+<div class="img-sized"><img alt="Deals: Apple Watch Ultra 2 $110 off, M4 iPad Pro $200 off, Apple Magic Keyboard $129 off, MagSafe gear, and more" class="img-fluid" loading="auto" src="https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2024/09/Apple-deals-Apple-Watch-Ultra.jpg?resize=1200%2C628&amp;quality=82&amp;strip=all&amp;ssl=1" srcset="" width="800"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">9to5Mac</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:52:02Z">06 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://9to5mac.com/2024/09/06/deals-apple-watch-ultra-ipad-pro-magic-keyboard/">Deals: Apple Watch Ultra 2 $110 off, M4 iPad Pro $200 off, Apple Magic Keyboard $129 off, MagSafe gear, and more</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.autosport.com/f1/news/williams-loaded-colapinto-with-more-information-than-a-human-can-take/10651693/">
+<div class="img-sized"><img alt='Williams loaded Colapinto with "more information than a human can take"' class="img-fluid" loading="auto" src="https://cdn-9.motorsport.com/images/amp/6AE1Pgw6/s6/franco-colapinto-williams-raci.jpg" srcset="" width="512"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">autosport.com</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:50:27Z">06 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.autosport.com/f1/news/williams-loaded-colapinto-with-more-information-than-a-human-can-take/10651693/">Williams loaded Colapinto with "more information than a human can take"</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.motorauthority.com/news/1144381_watch-fernando-alonso-take-delivery-of-aston-martin-valkyrie">
+<div class="img-sized"><img alt="Watch Fernando Alonso take delivery of Aston Martin Valkyrie" class="img-fluid" loading="auto" src="https://images.hgmsites.net/hug/fernando-alonso-takes-delivery-of-aston-martin-valkyrie-sept-4-2024_100941569_h.webp" srcset="" width="1142"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Motor Authority</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:49:21Z">06 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.motorauthority.com/news/1144381_watch-fernando-alonso-take-delivery-of-aston-martin-valkyrie">Watch Fernando Alonso take delivery of Aston Martin Valkyrie</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.espn.com/racing/nascar/story/_/id/41148359/what-more-want-nascar-playoffs-all">
+<div class="img-sized"><img alt="What more could you want from NASCAR Playoffs? Nothing at all" class="img-fluid" loading="auto" src="https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0906%2Fr1382768_1296x729_16%2D9.jpg" srcset="" width="2846"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">ESPN</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:48:18Z">06 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.espn.com/racing/nascar/story/_/id/41148359/what-more-want-nascar-playoffs-all">What more could you want from NASCAR Playoffs? Nothing at all</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.autosport.com/f1/news/the-blessing-and-curse-in-bearmans-second-2024-substitute-appearance/10651718/">
+<div class="img-sized"><img alt="The blessing and curse in Bearman’s second 2024 substitute appearance" class="img-fluid" loading="auto" src="https://cdn-3.motorsport.com/images/amp/2d19RJ3Y/s6/oliver-bearman-haas-f1-team.jpg" srcset="" width="2907"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">autosport.com</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:48:07Z">06 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.autosport.com/f1/news/the-blessing-and-curse-in-bearmans-second-2024-substitute-appearance/10651718/">The blessing and curse in Bearman’s second 2024 substitute appearance</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.f1technical.net/news/25260">
+<div class="img-sized"><img alt="Ricciardo still believes in Red Bull seat for 2025" class="img-fluid" loading="auto" src="https://f1tcdn.net/images/news/2024/bahraingp-ricciardo.jpeg" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">F1technical.net</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:46:17Z">06 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.f1technical.net/news/25260">Ricciardo still believes in Red Bull seat for 2025</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.c21media.net/news/christian-darkin-named-deep-fusion-ai-head/">
+<div class="img-sized"><img alt="Christian Darkin named Deep Fusion AI head" class="img-fluid" loading="auto" src="https://cdn.c21media.net/wp-content/uploads/2024/09/christian-02.jpg" srcset="" width="2315"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">C21media.net</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:46:07Z">06 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.c21media.net/news/christian-darkin-named-deep-fusion-ai-head/">Christian Darkin named Deep Fusion AI head</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.autosport.com/f1/news/has-red-bull-found-the-smoking-gun-for-its-rb20-problems/10651680/">
+<div class="img-sized"><img alt="Has Red Bull found the smoking gun for its RB20 problems?" class="img-fluid" loading="auto" src="https://cdn-9.motorsport.com/images/amp/01WLPyeY/s6/red-bull-rb20-side-comparison.jpg" srcset="" width="969"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">autosport.com</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:44:57Z">06 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.autosport.com/f1/news/has-red-bull-found-the-smoking-gun-for-its-rb20-problems/10651680/">Has Red Bull found the smoking gun for its RB20 problems?</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.bangkokpost.com/life/social-and-lifestyle/2860646/rolex-reflects-on-racing-revelry">
+<div class="img-sized"><img alt="Rolex reflects on racing revelry" class="img-fluid" loading="auto" src="https://static.bangkokpost.com/media/content/20240906/c2_2860646_240906142237.jpg" srcset="" width="340"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Bangkok Post</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:42:21Z">06 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.bangkokpost.com/life/social-and-lifestyle/2860646/rolex-reflects-on-racing-revelry">Rolex reflects on racing revelry</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.kicksonfire.com/puma-mercedes-amg-petronas-f1-ca-pro-crush-white-team-silver">
+<div class="img-sized"><img alt="Puma Mercedes-amg Petronas F1 Ca Pro Crush White / Team Silver" class="img-fluid" loading="auto" src="https://2app.kicksonfire.com/kofapp/upload/events_master_images/ipad_puma-mercedes-amg-petronas-f1-ca-pro-crush-white-team-silver.png" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">KicksOnFire.com</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:41:14Z">06 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.kicksonfire.com/puma-mercedes-amg-petronas-f1-ca-pro-crush-white-team-silver">Puma Mercedes-amg Petronas F1 Ca Pro Crush White / Team Silver</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.kicksonfire.com/puma-mercedes-amg-petronas-f1-ca-pro-crush-black-flat-medium-gray">
+<div class="img-sized"><img alt="Puma Mercedes-amg Petronas F1 Ca Pro Crush Black / Flat Medium Gray" class="img-fluid" loading="auto" src="https://2app.kicksonfire.com/kofapp/upload/events_master_images/ipad_puma-mercedes-amg-petronas-f1-ca-pro-crush-black-flat-medium-gray.png" srcset="" width="512"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">KicksOnFire.com</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:33:12Z">06 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.kicksonfire.com/puma-mercedes-amg-petronas-f1-ca-pro-crush-black-flat-medium-gray">Puma Mercedes-amg Petronas F1 Ca Pro Crush Black / Flat Medium Gray</a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+<hr class="mb-60"/>
+<div class="text-center">
+<a class="button-more button-more--gradient" href="javascript:void(0);" id="load_more" loadmoretype="formula-1-racing">Load more news...
+                    <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg>
+</a>
+</div>
+</section>
+</main>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<div style="color: #fff">
+<div style="font-weight: 600;">
+                                    Digg delivers the most interesting and talked about stories on the Internet right now.
+                                </div>
+<p>
+                                    Digg does curation: building products that make life smoother, simpler, and smarter.
+                                    Founded in 2004 Re-founded in 2012 Re-re-founded in 2019,
+                                    Digg provides the most relevant and compelling content to millions of users a month. </p>
+<p>
+                                    Using proprietary data sources and a crack editorial team, we cut through the clutter of the Internet and make sense of the noise so you don’t have to. Digg has everything you'll see later, now. </p>
+                                Visit Digg on the web, or get the best of Digg delivered to your inbox with Digg Editions.
+                                <div style="font-weight: 600;"><br/>
+                                    How You Can Contact Us
+                                </div>
+<p>
+                                    Please alert us to any issues by contacting us at support@digg.com. </p>
+</div>
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block"></div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>Sport</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children" style="color: #fff">
+<a href="/sport/boxing/">Boxing</a><br/>
+<a href="/sport/cricket/">Cricket</a><br/>
+<a href="/sport/football/">Football</a><br/>
+<a href="/sport/formula-1/">Formula 1</a><br/>
+<a href="/sport/tennis/">Tennis</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/sport/"><b>Sport</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags"></div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right"></div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script>
+<script defer="" src="/assets/js/cookieconsent-init.js"></script>
+</body>
+</html>
