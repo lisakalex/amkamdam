@@ -20,25 +20,27 @@ def replace_text(read_file1, path_file1):
     path_file1_list = path_file1.split('/')
     keyword = path_file1_list[len(path_file1_list) - 2]
 
-    # keyword1 = keyword.replace('-', ' ')
-    # keyword1 = urllib.parse.quote_plus(keyword1)
-    # y = date.today() - timedelta(days=1)
-    # yesterday = y.strftime('%Y-%m-%d')
-    # url = ('https://newsapi.org/v2/everything?'
-    #        'q=' + keyword1 +
-    #        '&' + yesterday +
-    #        '&sortBy=publishedAt'
-    #        '&language=en'
-    #        '&apiKey=41e2e097fbb4457c9b714ee6acd4185b')
-    #
-    # newsapi_json = requests.get(url).text
-    # newsapi = json.loads(newsapi_json)
+    keyword1 = keyword.replace('-', ' ')
+    keyword1 = urllib.parse.quote_plus(keyword1)
+    y = date.today() - timedelta(days=1)
+    yesterday = y.strftime('%Y-%m-%d')
+    url = ('https://newsapi.org/v2/everything?'
+           'q=' + keyword1 +
+           '&' + yesterday +
+           '&sortBy=publishedAt'
+           '&language=en'
+           '&apiKey=41e2e097fbb4457c9b714ee6acd4185b')
 
-    # with open('newsapi/' + keyword + '.json', 'w') as f:
-    #     f.write(newsapi_json)
+    newsapi_json = requests.get(url).text
+    newsapi = json.loads(newsapi_json)
 
-    with open('newsapi/' + keyword + '.json', "r") as f:
-        newsapi = json.load(f)
+    with open('newsapi/' + keyword + '.json', 'w') as f:
+        f.write(newsapi_json)
+
+    # return newsapi
+
+    # with open('newsapi/' + keyword + '.json', "r") as f:
+    #     newsapi = json.load(f)
 
     newsapi_articles = []
     for r in newsapi['articles']:
