@@ -812,4 +812,9 @@ ku
 /sys/kernel/mm/transparent_hugepage/khugepaged
 
 ~~~
-uo
+    eedddd
+    .pyc
+
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+
