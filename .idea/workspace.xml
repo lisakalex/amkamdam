@@ -26,10 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2b6b28b-633d-488b-a11e-85b21f893e04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/a/get_newsapi_chatgpt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/a/get_newsapi_copilot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/a/newsapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/a/newsapi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +273,7 @@
       <workItem from="1726244573799" duration="698000" />
       <workItem from="1726255152293" duration="9708000" />
       <workItem from="1726327168110" duration="7283000" />
-      <workItem from="1726379303300" duration="22297000" />
+      <workItem from="1726379303300" duration="22670000" />
     </task>
     <task id="LOCAL-00001" summary="ku">
       <created>1706943512106</created>
@@ -390,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726465791928</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="def replace_text(keyword):">
+      <created>1726470257855</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1726470257855</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +439,8 @@
     <MESSAGE value="load newsapi, update html and paged, remove noll urlToImage but not 403 Forbidden" />
     <MESSAGE value="huu" />
     <MESSAGE value="news_updater.py and test" />
-    <option name="LAST_COMMIT_MESSAGE" value="news_updater.py and test" />
+    <MESSAGE value="def replace_text(keyword):" />
+    <option name="LAST_COMMIT_MESSAGE" value="def replace_text(keyword):" />
   </component>
   <component name="WindowStateProjectService">
     <state x="542" y="192" width="1536" height="1261" key="#Project_Structure" timestamp="1726373866342">
@@ -506,10 +511,10 @@
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state x="542" y="192" width="1536" height="1261" key="SettingsEditor/70.38.2490.1562@70.38.2490.1562" timestamp="1726465574750" />
-    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1726465795789">
+    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1726470259653">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2/70.38.2490.1562@70.38.2490.1562" timestamp="1726465795789" />
+    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2/70.38.2490.1562@70.38.2490.1562" timestamp="1726470259653" />
     <state width="1245" height="781" key="XDebugger.FullValuePopup" timestamp="1726396147935">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
