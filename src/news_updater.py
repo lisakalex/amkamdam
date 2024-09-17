@@ -1,11 +1,13 @@
 #!/home/al/.venv/bin/python3
-import os
-import json
 import time
-from datetime import datetime
+from datetime import datetime, date, timedelta
 from collections import deque
 from bs4 import BeautifulSoup
 from dateutil import parser
+import os
+import urllib.parse
+import requests
+import json
 
 
 class NewsUpdater:
@@ -15,9 +17,35 @@ class NewsUpdater:
         self.count_replace = 1
 
     def load_news_api(self, keyword):
-        with open(f'../test/newsapi/{keyword}.json', "r") as f:
-            # with open(f'../newsapi/kak.json', "r") as f:
+        # with open(f'../test/newsapi-1/{keyword}.json', "r") as f:
+        with open(f'../test/newsapi/kak.json', "r") as f:
             return json.load(f)
+
+    # def load_news_api(self, keyword):
+    #     keyword = urllib.parse.quote_plus(keyword)
+    #     yesterday = (date.today() - timedelta(days=1)).strftime('%Y-%m-%d')
+    #     base_url = 'https://newsapi.org/v2/everything'
+    #     params = {
+    #         'q': keyword,
+    #         'from': yesterday,
+    #         'sortBy': 'publishedAt',
+    #         'language': 'en',
+    #         'apiKey': '41e2e097fbb4457c9b714ee6acd4185b'
+    #     }
+    #
+    #     try:
+    #         response = requests.get(base_url, params=params)
+    #         response.raise_for_status()  # Raise an exception for HTTP errors
+    #         newsapi_data = response.json()
+    #
+    #         output_path = os.path.join('../test/newsapi', f'{keyword}.json')
+    #         with open(output_path, 'w') as f:
+    #             json.dump(newsapi_data, f, indent=4)
+    #
+    #         return newsapi_data
+    #     except requests.exceptions.RequestException as e:
+    #         print(f"Error fetching data from the NewsAPI: {e}")
+    #     return None
 
     def filter_articles(self, articles):
         return [article for article in articles if self._is_valid_article(article)]
@@ -53,7 +81,7 @@ class NewsUpdater:
             link1['href'] = news_item['url']
             link1.string = news_item['title']
         except Exception as e:
-            print(f"Error processing : {e}")
+            print(f"Error processing 1: {e}")
         return article
 
     def update_main_articles(self, soup, news_articles):
@@ -100,12 +128,9 @@ class NewsUpdater:
             print(f"Error saving paged articles: {e}")
 
     def replace_text(self, read_file, path_file):
-        path_file_list = path_file.split('/')
-        keyword = path_file_list[-2]
-
+        keyword = os.path.basename(os.path.dirname(path_file))
         newsapi = self.load_news_api(keyword)
         news_articles = self.filter_articles(newsapi['articles'])
-
         soup = BeautifulSoup(read_file, features='html.parser')
 
         news_articles = self.update_main_articles(soup, news_articles)
@@ -132,7 +157,7 @@ class NewsUpdater:
                         print(f"{self.count_replace} {path_file}")
                         self.count_replace += 1
                     except Exception as e:
-                        print(f"Error processing {path_file}: {e}")
+                        print(f"Error processing 2 {path_file}: {e}")
 
     def should_process_file(self, file, currentpath):
         excluded_extensions = ('.jpg', '.jpeg', '.png', '.svg', '.gif', '.css', '.js', '.ico', '.woff2', '.woff')

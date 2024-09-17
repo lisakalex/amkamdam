@@ -818,3 +818,27 @@ ku
         ErrorLog ${APACHE_LOG_DIR}/error.log
         CustomLog ${APACHE_LOG_DIR}/access.log combined
 
+art-1.json
+beauty-1.json
+books-1.json
+boxing-sport-1.json
+brexit-1.json
+cricket-sport-1.json
+crypto-1.json
+culture-1.json
+fashion-1.json
+finance-1.json
+financial-markets-1.json
+football-sport-1.json
+formula-1-racing-1.json
+lifestyle-1.json
+money-1.json
+music-1.json
+photography-1.json
+popular-films-1.json
+property-market-1.json
+shopping-1.json
+sport-1.json
+stocks-and-shares-1.json
+tech-news-1.json
+tennis-sport-1.json
