@@ -8,6 +8,7 @@ import os
 import urllib.parse
 import requests
 import json
+# https://beautiful-soup-4.readthedocs.io/en/latest/
 
 
 class NewsUpdater:

@@ -26,10 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2b6b28b-633d-488b-a11e-85b21f893e04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/makedirs_chatgpt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/devops-learning-plan-chatgpt.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/devops-learning-plan-claude.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/devops-learning-plan-deepai.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/docs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/culture/art/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/culture/books/index.html" beforeDir="false" />
@@ -79,36 +76,9 @@
       <change beforePath="$PROJECT_DIR$/html/sport/formula-1-racing/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/sport/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/sport/tennis-sport/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/note.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/makedirs.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/makedirs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/me-index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/news_updater.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/news_updater.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/news_updater_real.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/a/get_newsapi_copilot.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/a/get_newsapi_copilot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/a/newsapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/a/newsapi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/count_replace.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/count_replace.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/art.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/art.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/beauty.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/beauty.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/books.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/books.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/boxing-sport.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/boxing-sport.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/brexit.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/brexit.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/cricket-sport.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/cricket-sport.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/crypto.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/crypto.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/culture.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/culture.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/fashion.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/fashion.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/finance.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/finance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/financial-markets.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/financial-markets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/football-sport.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/football-sport.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/formula-1-racing.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/formula-1-racing.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/lifestyle.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/lifestyle.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/money.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/money.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/music.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/music.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/photography.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/photography.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/popular-films.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/popular-films.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/property-market.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/property-market.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/shopping.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/shopping.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/sport.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/sport.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/stocks-and-shares.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/stocks-and-shares.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/tech-news.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/tech-news.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/tennis-sport.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/tennis-sport.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +158,29 @@
       <recent name="$PROJECT_DIR$/html/ku/sport" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.news_updater">
+  <component name="RunManager" selected="Python.makedirs">
+    <configuration name="docs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="amkamdam.com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/docs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="makedirs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="amkamdam.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -255,28 +247,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="news_updater_real" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="amkamdam.com" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/news_updater_real.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for test_newsapi4.TestNewsUpdater" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="amkamdam.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -309,11 +279,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.news_updater" />
         <item itemvalue="Python.makedirs" />
+        <item itemvalue="Python.docs" />
+        <item itemvalue="Python.news_updater" />
         <item itemvalue="Python.makedirs_chatgpt" />
         <item itemvalue="Python tests.Unittests in test_news_updater_perplexity.py" />
-        <item itemvalue="Python.news_updater_real" />
       </list>
     </recent_temporary>
   </component>
@@ -362,7 +332,7 @@
       <workItem from="1726244573799" duration="698000" />
       <workItem from="1726255152293" duration="9708000" />
       <workItem from="1726327168110" duration="7283000" />
-      <workItem from="1726379303300" duration="31531000" />
+      <workItem from="1726379303300" duration="39700000" />
     </task>
     <task id="LOCAL-00001" summary="ku">
       <created>1706943512106</created>
@@ -490,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726546952846</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="news_updater.py">
+      <created>1726555325340</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1726555325340</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,7 +513,8 @@
     <MESSAGE value="huu" />
     <MESSAGE value="news_updater.py and test" />
     <MESSAGE value="def replace_text(keyword):" />
-    <option name="LAST_COMMIT_MESSAGE" value="def replace_text(keyword):" />
+    <MESSAGE value="news_updater.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="news_updater.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="542" y="192" width="1536" height="1261" key="#Project_Structure" timestamp="1726373866342">
@@ -555,10 +533,10 @@
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state x="954" y="445" key="#xdebugger.evaluate/70.38.2490.1562@70.38.2490.1562" timestamp="1726259944395" />
-    <state width="2486" height="741" key="DebuggerActiveHint" timestamp="1726550800790">
+    <state width="2486" height="741" key="DebuggerActiveHint" timestamp="1726635281053">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2486" height="741" key="DebuggerActiveHint/70.38.2490.1562@70.38.2490.1562" timestamp="1726550800790" />
+    <state width="2486" height="741" key="DebuggerActiveHint/70.38.2490.1562@70.38.2490.1562" timestamp="1726635281053" />
     <state x="170" y="138" width="2290" height="1362" key="DiffContextDialog" timestamp="1726553288272">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
@@ -567,38 +545,38 @@
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state x="992" y="463" width="636" height="719" key="FileChooserDialogImpl/70.38.2490.1562@70.38.2490.1562" timestamp="1725705856753" />
-    <state width="2422" height="519" key="GridCell.Tab.0.bottom" timestamp="1726555229079">
+    <state width="2422" height="297" key="GridCell.Tab.0.bottom" timestamp="1726640899736">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="519" key="GridCell.Tab.0.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1726555229079" />
-    <state width="2422" height="519" key="GridCell.Tab.0.center" timestamp="1726555229079">
+    <state width="2422" height="297" key="GridCell.Tab.0.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1726640899736" />
+    <state width="2422" height="297" key="GridCell.Tab.0.center" timestamp="1726640899735">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="519" key="GridCell.Tab.0.center/70.38.2490.1562@70.38.2490.1562" timestamp="1726555229079" />
-    <state width="2422" height="519" key="GridCell.Tab.0.left" timestamp="1726555229078">
+    <state width="2422" height="297" key="GridCell.Tab.0.center/70.38.2490.1562@70.38.2490.1562" timestamp="1726640899735" />
+    <state width="2422" height="297" key="GridCell.Tab.0.left" timestamp="1726640899735">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="519" key="GridCell.Tab.0.left/70.38.2490.1562@70.38.2490.1562" timestamp="1726555229078" />
-    <state width="2422" height="519" key="GridCell.Tab.0.right" timestamp="1726555229079">
+    <state width="2422" height="297" key="GridCell.Tab.0.left/70.38.2490.1562@70.38.2490.1562" timestamp="1726640899735" />
+    <state width="2422" height="297" key="GridCell.Tab.0.right" timestamp="1726640899736">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="519" key="GridCell.Tab.0.right/70.38.2490.1562@70.38.2490.1562" timestamp="1726555229079" />
-    <state width="2422" height="608" key="GridCell.Tab.1.bottom" timestamp="1726552496829">
+    <state width="2422" height="297" key="GridCell.Tab.0.right/70.38.2490.1562@70.38.2490.1562" timestamp="1726640899736" />
+    <state width="2422" height="305" key="GridCell.Tab.1.bottom" timestamp="1726635581266">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="608" key="GridCell.Tab.1.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1726552496829" />
-    <state width="2422" height="608" key="GridCell.Tab.1.center" timestamp="1726552496828">
+    <state width="2422" height="305" key="GridCell.Tab.1.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1726635581266" />
+    <state width="2422" height="305" key="GridCell.Tab.1.center" timestamp="1726635581265">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="608" key="GridCell.Tab.1.center/70.38.2490.1562@70.38.2490.1562" timestamp="1726552496828" />
-    <state width="2422" height="608" key="GridCell.Tab.1.left" timestamp="1726552496828">
+    <state width="2422" height="305" key="GridCell.Tab.1.center/70.38.2490.1562@70.38.2490.1562" timestamp="1726635581265" />
+    <state width="2422" height="305" key="GridCell.Tab.1.left" timestamp="1726635581265">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="608" key="GridCell.Tab.1.left/70.38.2490.1562@70.38.2490.1562" timestamp="1726552496828" />
-    <state width="2422" height="608" key="GridCell.Tab.1.right" timestamp="1726552496829">
+    <state width="2422" height="305" key="GridCell.Tab.1.left/70.38.2490.1562@70.38.2490.1562" timestamp="1726635581265" />
+    <state width="2422" height="305" key="GridCell.Tab.1.right" timestamp="1726635581266">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="608" key="GridCell.Tab.1.right/70.38.2490.1562@70.38.2490.1562" timestamp="1726552496829" />
+    <state width="2422" height="305" key="GridCell.Tab.1.right/70.38.2490.1562@70.38.2490.1562" timestamp="1726635581266" />
     <state x="1032" y="715" width="555" height="214" key="NewPhpFileDialog" timestamp="1726384622316">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
@@ -607,18 +585,18 @@
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state x="133" y="192" width="1945" height="1261" key="SettingsEditor/70.38.2490.1562@70.38.2490.1562" timestamp="1726547844458" />
-    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1726546955066">
+    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1726555327207">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2/70.38.2490.1562@70.38.2490.1562" timestamp="1726546955066" />
+    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2/70.38.2490.1562@70.38.2490.1562" timestamp="1726555327207" />
     <state width="1245" height="781" key="XDebugger.FullValuePopup" timestamp="1726396147935">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state width="1245" height="781" key="XDebugger.FullValuePopup/70.38.2490.1562@70.38.2490.1562" timestamp="1726396147935" />
-    <state x="872" y="424" width="926" height="872" key="find.popup" timestamp="1726328345688">
+    <state x="872" y="424" width="926" height="872" key="find.popup" timestamp="1726639319790">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="872" y="424" width="926" height="872" key="find.popup/70.38.2490.1562@70.38.2490.1562" timestamp="1726328345688" />
+    <state x="872" y="424" width="926" height="872" key="find.popup/70.38.2490.1562@70.38.2490.1562" timestamp="1726639319790" />
     <state x="304" y="195" width="2012" height="1254" key="new project wizard" timestamp="1726318239820">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
@@ -639,11 +617,6 @@
           <url>file://$PROJECT_DIR$/test/a/get-newsapi.py</url>
           <line>25</line>
           <option name="timeStamp" value="88" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/makedirs.py</url>
-          <line>90</line>
-          <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test/a/checkpics.py</url>
@@ -677,8 +650,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/news_updater.py</url>
-          <line>152</line>
+          <line>153</line>
           <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/makedirs.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="129" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -698,6 +676,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/amkamdam_com$get_newsapi.coverage" NAME="get-newsapi Coverage Results" MODIFIED="1725168349197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/amkamdam_com$docs.coverage" NAME="docs Coverage Results" MODIFIED="1726638689541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/amkamdam_com$Unittests_for_test_newsapi4_TestNewsUpdater_test_load_news_api.coverage" NAME="Unittests for test_newsapi4.TestNewsUpdater.test_load_news_api Coverage Results" MODIFIED="1726328131644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huy" />
     <SUITE FILE_PATH="coverage/amkamdam_com$newsapi4.coverage" NAME="news_updater Coverage Results" MODIFIED="1726386367986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/amkamdam_com$newsapi__1_.coverage" NAME="newsapi (1) Coverage Results" MODIFIED="1724501686400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -715,7 +694,7 @@
     <SUITE FILE_PATH="coverage/amkamdam_com$makedirs_chatgpt.coverage" NAME="makedirs_chatgpt Coverage Results" MODIFIED="1726553973484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/amkamdam_com$a.coverage" NAME="a Coverage Results" MODIFIED="1724478516826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/amkamdam_com$newsapi_1.coverage" NAME="newsapi-1 Coverage Results" MODIFIED="1726157428974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/amkamdam_com$makedirs.coverage" NAME="makedirs Coverage Results" MODIFIED="1726555221830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/amkamdam_com$makedirs.coverage" NAME="makedirs Coverage Results" MODIFIED="1726641225898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/amkamdam_com$makedirs__1_.coverage" NAME="makedirs (1) Coverage Results" MODIFIED="1726259317228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/amkamdam_com$editallfiles.coverage" NAME="editallfiles Coverage Results" MODIFIED="1718003104809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/amkamdam_com$get_newsapi_copilot.coverage" NAME="get_newsapi_copilot Coverage Results" MODIFIED="1726550903293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/a" />
