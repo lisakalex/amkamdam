@@ -10,6 +10,7 @@ import os
 
 dirs = ['sport',
         'sport/boxing-sport',
+        'sport/boxing-sport/huy',
         'sport/cricket-sport',
         'sport/football-sport',
         'sport/formula-1-racing',
@@ -87,17 +88,15 @@ for i in dirs:
 
     breadcrumbs = soup.find('div', class_='breadcrumbs')
     tag = soup.new_tag("a", href='/')
-    tag.string = 'kak'
+    tag.string = 'da'
     breadcrumbs.append(tag)
+    link = '/'
     for d in dir_name:
-        tag = soup.new_tag("a", href=f'/{d}/')
-        tag.string = 'kak'
+        link = f'{link}{d}/'
+        tag = soup.new_tag("a", href=link)
+        dd = d.replace('-', ' ')
+        tag.string = dd
         breadcrumbs.append(tag)
-        # link = breadcrumbs.find_all('a')
-        # link[i+1]['href'] = '/' + dir_name[0] + '/'
-        # link[i+1].string = dir_name[0]
-        # link[i+2]['href'] = '/' + i + '/'
-        # link[2].string = dir_name[1]
 
     button_more = soup.find('a', class_='button-more')
     button_more['loadmoretype'] = keyword

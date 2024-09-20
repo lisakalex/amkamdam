@@ -1,76 +1,106 @@
 #!/home/al/.venv/bin/python3
-import glob2
-from bs4 import BeautifulSoup
-from pathlib import Path
-import os
 
-# List of directories
+import os
+from pathlib import Path
+from bs4 import BeautifulSoup
+
+# Directory structure
 dirs = [
-    'sport/boxing-sport', 'sport/cricket-sport', 'sport/football-sport', 'sport/formula-1-racing', 'sport/tennis-sport',
-    'culture/popular-films', 'culture/music', 'culture/books', 'culture/art', 'culture/photography',
-    'lifestyle/shopping', 'lifestyle/beauty', 'lifestyle/tech-news', 'lifestyle/money', 'lifestyle/fashion',
-    'finance/financial-markets', 'finance/property-market', 'finance/stocks-and-shares', 'finance/brexit', 'finance/crypto'
+    'sport',
+    'sport/boxing-sport',
+    'sport/boxing-sport/huy',
+    'sport/cricket-sport',
+    'sport/football-sport',
+    'sport/formula-1-racing',
+    'sport/tennis-sport',
+    'culture',
+    'culture/popular-films',
+    'culture/music',
+    'culture/books',
+    'culture/art',
+    'culture/photography',
+    'lifestyle',
+    'lifestyle/shopping',
+    'lifestyle/beauty',
+    'lifestyle/tech-news',
+    'lifestyle/money',
+    'lifestyle/fashion',
+    'finance',
+    'finance/financial-markets',
+    'finance/property-market',
+    'finance/stocks-and-shares',
+    'finance/brexit',
+    'finance/crypto'
 ]
 
-# Base directories
-html_base = '../html'
-paged_base = '../html/paged'
-newsapi_base = '../test/newsapi'
 
-# Ensure the base directories exist
-Path(html_base).mkdir(parents=True, exist_ok=True)
-Path(paged_base).mkdir(parents=True, exist_ok=True)
-Path(newsapi_base).mkdir(parents=True, exist_ok=True)
+# Create necessary directories
+def create_directories():
+    Path('../html/paged').mkdir(parents=True, exist_ok=True)
+    Path('../test/newsapi').mkdir(parents=True, exist_ok=True)
 
-# Function to update HTML with new breadcrumb and button
-def update_html_for_directory(directory, soup, dir_name):
+    for directory in dirs:
+        Path(f'../html/{directory}').mkdir(parents=True, exist_ok=True)
+
+
+# Generate breadcrumb navigation and save HTML
+def generate_breadcrumbs(soup, dir_path):
     breadcrumbs = soup.find('div', class_='breadcrumbs')
-    links = breadcrumbs.find_all('a')
 
-    # Update breadcrumbs
-    links[1]['href'] = f'/{dir_name[0]}/'
-    links[1].string = dir_name[0]
-    links[2]['href'] = f'/{directory}/'
-    links[2].string = dir_name[1]
+    # Add root link
+    root_tag = soup.new_tag("a", href='/')
+    root_tag.string = 'da'
+    breadcrumbs.append(root_tag)
 
-    # Update button-more element
-    buttonmore = soup.find('a', class_='button-more')
-    buttonmore['loadmoretype'] = dir_name[1]
+    # Add breadcrumb links for each directory level
+    link = '/'
+    for dir_name in dir_path.split('/'):
+        link = os.path.join(link, dir_name) + '/'
+        tag = soup.new_tag("a", href=link)
+        tag.string = dir_name.replace('-', ' ')
+        breadcrumbs.append(tag)
 
-    return soup
 
-# Function to write JSON files
-def write_json_files(dir_name):
-    with open(f'{paged_base}/{dir_name[0]}-1.json', 'w') as f:
+# Modify button with keyword-specific attribute
+def modify_button(soup, keyword):
+    button_more = soup.find('a', class_='button-more')
+    button_more['loadmoretype'] = keyword
+
+
+# Save the modified HTML and JSON files
+def save_files(directory, soup, keyword):
+    # Save modified HTML
+    with open(f'../html/{directory}/index.html', 'w') as f:
+        f.write(str(soup))
+
+    # Save empty JSON placeholder
+    with open(f'../html/paged/{keyword}-1.json', 'w') as f:
         f.write('[]')
-    with open(f'{paged_base}/{dir_name[1]}-1.json', 'w') as f:
-        f.write('[]')
 
-# Loop over each directory
-for directory in dirs:
-    # Split directory into components
-    dir_name = directory.split('/')
 
-    # Ensure directory exists
-    Path(os.path.join(html_base, directory)).mkdir(parents=True, exist_ok=True)
-
-    # Load the base HTML file and parse it
+# Main function to process directories
+def process_directories():
+    # Read the template HTML file once
     with open('me-index.html', 'r') as f:
-        soup = BeautifulSoup(f.read(), 'html.parser')
+        template_html = f.read()
 
-    # Update HTML with the directory-specific information
-    soup = update_html_for_directory(directory, soup, dir_name)
+    for directory in dirs:
+        # Parse template HTML with BeautifulSoup
+        soup = BeautifulSoup(template_html, features='html.parser')
 
-    # Write the updated HTML for the specific directory
-    with open(f'{html_base}/{directory}/index.html', 'w') as f:
-        f.write(str(soup))
+        # Get the last part of the directory as the keyword
+        keyword = os.path.basename(directory)
 
-    # Update the button-more type and breadcrumbs for the parent category and save
-    soup.find('a', class_='button-more')['loadmoretype'] = dir_name[0]
-    soup.find_all('a')[2].decompose()
+        # Generate breadcrumbs based on the directory path
+        generate_breadcrumbs(soup, directory)
 
-    with open(f'{html_base}/{dir_name[0]}/index.html', 'w') as f:
-        f.write(str(soup))
+        # Modify the button-more attribute with the keyword
+        modify_button(soup, keyword)
 
-    # Write the empty JSON files for pagination
-    write_json_files(dir_name)
+        # Save the updated HTML and JSON files
+        save_files(directory, soup, keyword)
+
+
+if __name__ == "__main__":
+    create_directories()
+    process_directories()
