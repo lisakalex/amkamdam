@@ -1,123 +1,45 @@
 {
     "status": "ok",
-    "totalResults": 46,
+    "totalResults": 23,
     "articles": [
         {
             "source": {
                 "id": null,
-                "name": "ETF Daily News"
+                "name": "BBC News"
             },
-            "author": "MarketBeat News",
-            "title": "Head-To-Head Contrast: DiamondRock Hospitality (NYSE:DRH) versus AGNC Investment (NASDAQ:AGNC)",
-            "description": "AGNC Investment (NASDAQ:AGNC \u2013 Get Free Report) and DiamondRock Hospitality (NYSE:DRH \u2013 Get Free Report) are both finance companies, but which is the better business? We will compare the two companies based on the strength of their valuation, institutional ow\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/head-to-head-contrast-diamondrock-hospitality-nysedrh-versus-agnc-investment-nasdaqagnc/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/diamondrock-hospitality-logo-1200x675.png?v=20221128111657&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:46:52Z",
-            "content": "AGNC Investment (NASDAQ:AGNC \u2013 Get Free Report) and DiamondRock Hospitality (NYSE:DRH \u2013 Get Free Report) are both finance companies, but which is the better business? We will compare the two companie\u2026 [+5288 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "The Diplomat"
-            },
-            "author": "Shannon",
-            "title": "Normalizing Abnormalities: Life in Myanmar\u2019s Liberated Zone",
-            "description": "Interviews with resistance soldiers, activists, and internally displaced civilians in the KNU-controlled jungle reveal a life that blurs the line between resistance and routine.",
-            "url": "https://thediplomat.com/2024/09/normalizing-abnormalities-life-in-myanmars-liberated-zone/",
-            "urlToImage": "https://thediplomat.com/wp-content/uploads/2024/09/sizes/td-story-s-2/thediplomat_2024-09-13-170938.jpg",
-            "publishedAt": "2024-09-16T05:42:36Z",
-            "content": "Since gaining independence in 1948, Myanmar has faced persistent political crises and ethnic tensions. The most recent upheaval, the military coup of 2021, ignited widespread protests and brutal crac\u2026 [+38444 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Business Standard"
-            },
-            "author": "Kumar Gaurav",
-            "title": "Arkade Developers IPO GMP zooms 62% on opening day; should you subscribe?",
-            "description": "Arkade Developers IPO: Unlisted shares of Arkade Developers were trading at a premium of Rs 80, which translates to a GMP of 62.5 per cent  against the upper end of the IPO price of Rs 128",
-            "url": "https://www.business-standard.com/markets/news/arkade-developers-ipo-gmp-zooms-62-on-opening-day-should-you-subscribe-124091600345_1.html",
-            "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-03/29/thumb/featurecrop/400X400/1711735393-1935.jpg",
-            "publishedAt": "2024-09-16T05:37:18Z",
-            "content": "Unlisted shares of Arkade Developers were trading at a premium of Rs 80, which translates to a GMP of 62.5 per cent against the upper end of the IPO price of Rs 128\r\nKumar GauravNew Delhi\r\nArkade Dev\u2026 [+3613 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Brokers Set Expectations for Oxford Industries, Inc.\u2019s Q3 2025 Earnings (NYSE:OXM)",
-            "description": "Oxford Industries, Inc. (NYSE:OXM \u2013 Free Report) \u2013 Equities research analysts at Telsey Advisory Group reduced their Q3 2025 earnings estimates for shares of Oxford Industries in a research report issued on Thursday, September 12th. Telsey Advisory Group anal\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/brokers-set-expectations-for-oxford-industries-inc-s-q3-2025-earnings-nyseoxm/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/oxford-industries-inc-logo-1200x675.png?v=20221128143944&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:27:15Z",
-            "content": "Oxford Industries, Inc. (NYSE:OXM \u2013 Free Report) \u2013 Equities research analysts at Telsey Advisory Group reduced their Q3 2025 earnings estimates for shares of Oxford Industries in a research report is\u2026 [+4962 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "The Conversation Africa"
-            },
-            "author": "Clare Collins, Laureate Professor in Nutrition and Dietetics, University of Newcastle, Erin Clarke, Postdoctoral Researcher, Nutrition and Dietetics, University of Newcastle, Jordan Stanford, Post Doctorate Fellow, Nutrition and Dietetics, University of Newcastle, Mar\u00eda G\u00f3mez Mart\u00edn, Dietitian and early career researcher, University of Newcastle",
-            "title": "What is \u2018health at every size\u2019 lifestyle counselling? How does it compare with weight-focused treatments?",
-            "description": "Health at every size promotes mindful eating and lifestyle behaviours to pursue health and wellness, without focusing on weight loss. Here\u2019s how it compares to traditional weight-loss approaches.",
-            "url": "https://theconversation.com/what-is-health-at-every-size-lifestyle-counselling-how-does-it-compare-with-weight-focused-treatments-234376",
-            "urlToImage": "https://images.theconversation.com/files/611180/original/file-20240803-17-nev0zg.jpg?ixlib=rb-4.1.0&rect=0%2C0%2C3363%2C1681&q=45&auto=format&w=1356&h=668&fit=crop",
-            "publishedAt": "2024-09-16T05:20:57Z",
-            "content": "Health at every size (or HAES) is a lifestyle counselling approach that promotes mindful eating and lifestyle behaviours to pursue health and wellness, without focusing on weight loss. Weight loss is\u2026 [+8432 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Xcel Brands, Inc. (NASDAQ:XELB) Short Interest Update",
-            "description": "Xcel Brands, Inc. (NASDAQ:XELB \u2013 Get Free Report) was the recipient of a significant decrease in short interest in the month of August. As of August 31st, there was short interest totalling 120,800 shares, a decrease of 27.1% from the August 15th total of 165\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/xcel-brands-inc-nasdaqxelb-short-interest-update/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/xcel-brands-inc-logo-1200x675.png?v=20230117083036&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:12:56Z",
-            "content": "Xcel Brands, Inc. (NASDAQ:XELB \u2013 Get Free Report) was the recipient of a significant decrease in short interest in the month of August. As of August 31st, there was short interest totalling 120,800 s\u2026 [+3159 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "The Lovesac Company (NASDAQ:LOVE) Receives $34.50 Average PT from Brokerages",
-            "description": "Shares of The Lovesac Company (NASDAQ:LOVE \u2013 Get Free Report) have earned an average recommendation of \u201cBuy\u201d from the six brokerages that are covering the stock, MarketBeat Ratings reports. Six research analysts have rated the stock with a buy recommendation.\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/the-lovesac-company-nasdaqlove-receives-34-50-average-pt-from-brokerages/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/the-lovesac-company-logo-1200x675.png?v=20221215070142&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:06:51Z",
-            "content": "Shares of The Lovesac Company (NASDAQ:LOVE \u2013 Get Free Report) have earned an average recommendation of \u201cBuy\u201d from the six brokerages that are covering the stock, MarketBeat Ratings reports. Six resea\u2026 [+4364 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Foyht.org"
-            },
-            "author": "Amy Trione",
-            "title": "Harnessing the Healing Power of Clinical Hypnotherapy - Health & Wellbeing Magazine by Foyht",
-            "description": "A Path to Improved Health & Well-being Clinical hypnotherapy is steadily gaining recognition as a scientifically-backed complementary treatment option for a variety of medical and psychological\u2026",
-            "url": "https://mag.foyht.org/harnessing-the-healing-power-of-clinical-hypnotherapy/",
-            "urlToImage": "https://mag.foyht.org/wp-content/uploads/2024/09/mk-hamilton-ZKD9FWSdq0E-unsplash-1.jpg",
-            "publishedAt": "2024-09-16T05:01:44Z",
-            "content": "A Path to Improved Health &amp; Well-being\r\nClinical hypnotherapy is steadily gaining recognition as a scientifically-backed complementary treatment option for a variety of medical and psychological \u2026 [+5982 chars]"
+            "author": null,
+            "title": "The fake heiress who was obsessed with Scotland",
+            "description": "A new BBC Sounds podcast examines the exploits of fraudster Violet Charlesworth.",
+            "url": "https://www.bbc.com/news/articles/c4grj1gpe2ro",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/4aa4/live/3c6baa80-7751-11ef-b02d-c5f3b724a1ea.jpg",
+            "publishedAt": "2024-09-23T05:22:26Z",
+            "content": "Violet Charlesworth in Highland dress \r\nA new BBC Sounds series, Lady Swindlers with Lucy Worsley, examines the story of an English-born fraudster who was obsessed with Scotland.\r\nA car crashes at a \u2026 [+3665 chars]"
         },
         {
             "source": {
                 "id": "the-irish-times",
                 "name": "The Irish Times"
             },
-            "author": "Milena Minta Barnes",
-            "title": "\u2018I decided to move to Tunisia alone, fresh out of university, with no connections and no plan\u2019",
-            "description": "Her experiences in the north African country have made a piano player and from Wexford feel accepted",
-            "url": "https://www.irishtimes.com/abroad/2024/09/16/i-decided-to-move-to-tunisia-alone-fresh-out-of-university-with-no-connections-and-no-plan/",
-            "urlToImage": "https://www.irishtimes.com/resizer/v2/FN6UY7Q5PVGXFDIHBLISLFYS34.jpg?smart=true&auth=996754331737b4b9f26769e812d138abd741b841eefc2d73672ad85118302265&width=1200&height=630",
-            "publishedAt": "2024-09-16T05:01:00Z",
-            "content": "People always ask me why, as a 22-year-old from Wexford, I decided to move to Tunisia alone, fresh out of university, with no connections and no plan?\r\nOne answer is that I studied Arabic as part of \u2026 [+4958 chars]"
+            "author": "Maeve Murphy",
+            "title": "A Belfast film-maker in Hollywood: \u2018I felt Irish American warmth in New York but nothing prepared me for LA\u2019",
+            "description": "When film director Maeve Murphy went to Hollywood - finally - she found a deep Irish connection and inspiration from US independent cinema",
+            "url": "https://www.irishtimes.com/abroad/2024/09/23/a-belfast-film-maker-in-hollywood-i-felt-irish-american-warmth-in-new-york-but-nothing-prepared-me-for-la/",
+            "urlToImage": "https://www.irishtimes.com/resizer/v2/XXA2IJJASBC57HJDH6Z6N7I6DQ.jpg?smart=true&auth=f65075de2267e1071627959a5e782d2f7af959cb5f0924bc1bf689aebd02ee3a&width=1200&height=630",
+            "publishedAt": "2024-09-23T05:01:00Z",
+            "content": "I felt very excited as the plane landed in Los Angeles Airport. It was my first time in LA so it felt fresh.\r\nHow was it, as a film-maker, I had never gone? Maybe I now had a reason as my new short f\u2026 [+5443 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "WWD"
+            },
+            "author": "Rhonda Richford",
+            "title": "EXCLUSIVE: Belgian Brand Bernadette Opens Pop-up Caf\u00e9 for Paris Fashion\u00a0Week",
+            "description": "Belgian brand Bernadette will take over the Petibon caf\u00e9s showcasing their colorful homewares and special baked goods during Paris Fashion Week.",
+            "url": "http://wwd.com/fashion-news/fashion-scoops/belgian-brand-bernadette-petibon-cafe-paris-fashion-week-pop-up-1236631536/",
+            "urlToImage": "https://wwd.com/wp-content/uploads/2024/09/FACADE-RUE-4-SEPTEMBRE-01-1.jpg?w=1000&h=563&crop=1",
+            "publishedAt": "2024-09-23T05:00:00Z",
+            "content": "PARIS \u2014 Belgian brand Bernadette is celebrating its fifth birthday by taking over the Petibon caf\u00e9s in Paris during fashion week.\r\nThe Antwerp-based brand from mother-daughter design duo Bernadette a\u2026 [+2487 chars]"
         },
         {
             "source": {
@@ -129,60 +51,8 @@
             "description": "[Removed]",
             "url": "https://removed.com",
             "urlToImage": null,
-            "publishedAt": "2024-09-16T05:00:15Z",
+            "publishedAt": "2024-09-23T04:50:08Z",
             "content": "[Removed]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "New Zealand Herald"
-            },
-            "author": "Kim Knight",
-            "title": "Cost of living crisis: 21 ways even the rich are feeling it - Kim Knight",
-            "description": "OPINION: Nobody is immune to rising prices. A humorous look at a humourless situation.",
-            "url": "https://www.nzherald.co.nz/lifestyle/cost-of-living-crisis-21-ways-even-the-rich-are-feeling-it-kim-knight/TEJ2XJ4PKFFVXC6FXHXQEWG3F4/",
-            "urlToImage": "https://www.nzherald.co.nz/resizer/v2/GU3KNQOFPVD4LC6J2RACCP6PX4.jpg?auth=3335dcbeee55eda61a4d8f704e4926c4534a23cbd2084d1cf9bb43cc267042a2&width=1200&height=675&quality=70&smart=true",
-            "publishedAt": "2024-09-16T05:00:00Z",
-            "content": "She was outraged. Serve it on a smaller plate at least?\r\nSmart thinking. This is the kind of cost of living crisis hack rich people appreciate. Because absolutely nobody is immune to the rising price\u2026 [+1718 chars]"
-        },
-        {
-            "source": {
-                "id": "the-irish-times",
-                "name": "The Irish Times"
-            },
-            "author": "Tony Clayton-Lea",
-            "title": "\u2018I\u2019m not comfortable with debt. I won\u2019t buy anything unless I have the money for it\u2019",
-            "description": "Me & My Money: Anne Abberton, founder and chief executive of Coffee Fixx",
-            "url": "https://www.irishtimes.com/your-money/2024/09/16/im-not-comfortable-with-debt-i-wont-buy-anything-unless-i-have-the-money-for-it/",
-            "urlToImage": "https://www.irishtimes.com/resizer/v2/GXKCB75X3VCI5IWS53AILWNE5I.jpeg?smart=true&auth=3597f33985adc8316c67479de672ca17cc57dd6c75e6d4d8ff04027b54741e2e&width=1200&height=630",
-            "publishedAt": "2024-09-16T05:00:00Z",
-            "content": "Anne Abberton set up Coffee Fixx in 2004, establishing it as Irelands first woman-owned coffee business.\r\nAre you a saver or a spender?\r\nA bit of both. I enjoy treating myself and others. When theres\u2026 [+4104 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "New Zealand Herald"
-            },
-            "author": "Jenni Mortimer, Bethany Reitsma",
-            "title": "Suzanne Paul on \u2018rough\u2019 childhood, stepping outside her comfort zone and return to Celebrity Treasure Island",
-            "description": "We know her as the infomercial queen, but life wasn't always luminous for Suzanne Paul.",
-            "url": "https://www.nzherald.co.nz/entertainment/suzanne-paul-on-rough-childhood-stepping-outside-her-comfort-zone-and-return-to-celebrity-treasure-island/ZNP2E45QU5C5TAPM2VIS36TPXM/",
-            "urlToImage": "https://www.nzherald.co.nz/resizer/v2/2FBQCQ4W2REKPJXVCRYZ2K6G3Y.JPG?auth=369e737546deaac3c9367fe27f9ab542b620f9aad3063221d31cbf7fdc70514c&width=1200&height=675&quality=70&focal=1522%2C1586&smart=false",
-            "publishedAt": "2024-09-16T05:00:00Z",
-            "content": "Its not really a rhetorical question. As Paul watched recent seasons of the reality show, she was thinking to herself, I could do that. So Ive really been thinking about it for about three years.\r\nIt\u2026 [+5731 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "etimes.in",
-            "title": "\"50% of Men in India will have an enlarged prostate by the age of 60\"",
-            "description": "Frequent urination in elderly men may signal an enlarged prostate or benign prostatic hyperplasia (BPH). Factors such as obesity, anxiety, and a sedentary lifestyle increase the risk. Preventive measures include a balanced diet and regular exercise. Treatment\u2026",
-            "url": "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/50-of-men-in-india-will-have-an-enlarged-prostate-by-the-age-of-60/articleshow/113381586.cms",
-            "urlToImage": "https://static.toiimg.com/thumb/msid-113381912,width-1070,height-580,imgsize-902775,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-            "publishedAt": "2024-09-16T04:54:29Z",
-            "content": "Cancer-causing gene regulates genetic variation in prostate cancer: Research"
         },
         {
             "source": {
@@ -190,233 +60,116 @@
                 "name": "Wordpress.org"
             },
             "author": "adorethemes",
-            "title": "Crystal Blog",
-            "description": "Crystal Blog is a minimalist and lightweight WordPress theme designed for creating professional blogging websites. The theme has a clean design and is ideal for various blog types, such as fashion, lifestyle, travel, food, and photography. Crystal Blog is mob\u2026",
-            "url": "https://wordpress.org/themes/crystal-blog/",
-            "urlToImage": "https://i0.wp.com/themes.svn.wordpress.org/crystal-blog/1.0.2/screenshot.png",
-            "publishedAt": "2024-09-16T04:41:55Z",
-            "content": "Crystal Blog is a minimalist and lightweight WordPress theme designed for creating professional blogging websites. The theme has a clean design and is ideal for various blog types, such as fashion, l\u2026 [+720 chars]"
+            "title": "Flawless Blog",
+            "description": "Flawless Blog theme is a minimal, lightweight and customizer based WordPress theme for creating beautiful fast loading and accessible websites and also a new generation clean design blog theme. This theme is perfect for a fashion blog, lifestyle blog, travel \u2026",
+            "url": "https://wordpress.org/themes/flawless-blog/",
+            "urlToImage": "https://i0.wp.com/themes.svn.wordpress.org/flawless-blog/1.0.0/screenshot.png",
+            "publishedAt": "2024-09-23T04:41:51Z",
+            "content": "Flawless Blog theme is a minimal, lightweight and customizer based WordPress theme for creating beautiful fast loading and accessible websites and also a new generation clean design blog theme. This \u2026 [+1057 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Techpowerup.com"
+                "name": "The Japan Times"
             },
-            "author": "btarunr",
-            "title": "(PR) ASUS Zenbook DUO (2024) and ASUS ProArt PZ13 Laptops Win Silver at IDEA 2024",
-            "description": "ASUS today announced that the Zenbook DUO (2024) (UX8406) and ProArt PZ13 (HT5306) laptops won Silver Awards in the Consumer Technology category at the International Design Excellence Awards (IDEA) 2024. Additionally, eight more ASUS products were named as fi\u2026",
-            "url": "https://www.techpowerup.com/326666/asus-zenbook-duo-2024-and-asus-proart-pz13-laptops-win-silver-at-idea-2024",
-            "urlToImage": "https://www.techpowerup.com/img/SaVF266ONtTxkShK.jpg",
-            "publishedAt": "2024-09-16T04:37:04Z",
-            "content": "ASUS today announced that the Zenbook DUO (2024) (UX8406) and ProArt PZ13 (HT5306) laptops won Silver Awards in the Consumer Technology category at the International Design Excellence Awards (IDEA) 2\u2026 [+3330 chars]"
+            "author": "Tomoko Otake",
+            "title": "Shanshan study spotlights science linking warming to extreme weather",
+            "description": "Scientists are now able to assess the influence of climate change on particular weather events within weeks or even days.",
+            "url": "https://www.japantimes.co.jp/environment/2024/09/23/climate-change/climate-change-weather-attribution/",
+            "urlToImage": "https://www.japantimes.co.jp/japantimes/uploads/images/2024/09/23/422753.jpg?v=3.1",
+            "publishedAt": "2024-09-23T04:31:00Z",
+            "content": "On Aug. 29, when a typhoon feared to morph into the biggest storm ever made landfall and battered wide areas of Japan with wind gusts, torrential rain and high waves, a burning question was on the mi\u2026 [+10280 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Freerepublic.com"
+                "name": "WWD"
             },
-            "author": "American Thinker",
-            "title": "The Taylor Swift effect is the opposite of what the Democrats had hoped",
-            "description": "Taylor Swift is a phenomenon I\u2019m too old to understand. She went from being a country singer who wrote songs about her bad choices in men to being a pop singer who wrote songs about her bad choices in men. Her fans, however, are fanatic in a way that says les\u2026",
-            "url": "https://freerepublic.com/focus/f-news/4265071/posts",
-            "urlToImage": null,
-            "publishedAt": "2024-09-16T04:22:49Z",
-            "content": "Skip to comments.\r\nThe Taylor Swift effect is the opposite of what the Democrats had hopedAmerican Thinker ^\r\n | 09/15/24\r\n | Andrea Widburg\r\nPosted on 09/15/2024 9:22:49 PM PDT by SeekAndFind\r\nTaylo\u2026 [+8410 chars]"
+            "author": "Hikmat Mohammed",
+            "title": "Harry Styles\u2019 Pleasing Collaborates With Disney\u2019s \u2018Fantasia\u2019 on a Joyous\u00a0Collection",
+            "description": "The pop star's brand has partnered with Disney to bring \u201840s classic \u201cFantasia\u201d to apparel, accessories, nail polish and skin care.",
+            "url": "http://wwd.com/fashion-news/fashion-scoops/harry-styles-pleasing-disney-collaboration-1236633837/",
+            "urlToImage": "https://wwd.com/wp-content/uploads/2024/09/Dance-of-The-Hours.jpg?crop=0px%2C258px%2C1080px%2C605px&resize=1000%2C563",
+            "publishedAt": "2024-09-23T04:12:00Z",
+            "content": "LONDON \u2014 The Disney classic \u201cFantasia\u201d from the \u201840s is getting a Harry Styles makeover with his lifestyle brand, Pleasing.\r\nThe pop star has collaborated with Disney on a capsule collection of appar\u2026 [+2196 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Starobserver.com.au"
+                "name": "Digiday"
             },
-            "author": "Chloe Sargeant",
-            "title": "ACON Receives $1.3 Million Grant for LGBTQIA+ Women\u2019s Health",
-            "description": "The Albanese Labor Government has confirmed that they\u2019re investing $3.6 million in three women\u2019s health initiatives. And one of these is longstanding NSW LGBTQIA+ health organisation ACON, for their initiative ...\nThe post ACON Receives $1.3 Million Grant for\u2026",
-            "url": "https://www.starobserver.com.au/news/national-news/new-south-wales-news/acon-receives-1-3-million-grant-for-lgbtqia-womens-health/232942",
-            "urlToImage": "https://www.starobserver.com.au/wp-content/uploads/2018/07/acon-mardi-gras-e1726459999906.jpg",
-            "publishedAt": "2024-09-16T04:21:00Z",
-            "content": "The Albanese Labor Government has confirmed that they\u2019re investing $3.6 million in three women\u2019s health initiatives. And one of these is longstanding NSW LGBTQIA+ health organisation ACON, for their \u2026 [+3381 chars]"
+            "author": "Kimeko McCoy",
+            "title": "Brands push for apolitical influencers to avoid \u2018backlash\u2019 as U.S. presidential election looms",
+            "description": "As the U.S. election season looms, brands seem more adamant than ever about working with politically neutral influencers to ensure brand safety.",
+            "url": "http://digiday.com/marketing/brands-push-for-apolitical-influencers-to-avoid-backlash-as-u-s-presidential-election-looms/",
+            "urlToImage": "https://digiday.com/wp-content/uploads/sites/3/2024/09/creators-politics-digiday.jpg",
+            "publishedAt": "2024-09-23T04:01:00Z",
+            "content": "For nearly the past decade, Brittany Bright has been reviewing influencer and content creator contracts, ushering them through the negotiation process with brands. For the most part, clauses around c\u2026 [+9163 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Coolchicstylefashion.com"
+                "name": "Robb Report"
             },
-            "author": "Cool Chic Style Fashion",
-            "title": "FRASI, POESIE e AFORISMI sulla PIOGGIA and ELEGANT IN BLACK {Life and Quotes}",
-            "description": "A Daily Style and Design Site. Interiors, Fashion, Lifestyle, Design Travel, Leisure. Cool Chic Style Fashion the daily search for beautiful things.",
-            "url": "https://www.coolchicstylefashion.com/2024/09/frasi-poesie-e-aforismi-sulla-pioggia.html",
-            "urlToImage": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMdRQvNkR74nV5KxqW3_bqkqvDAoHbyR7acdyth9IBJXp74vRxBko6jVMiZAchLZoowGV7Tz0NW71hvbJ4IxFM5n_folAhH7m2lXjNo_HRye4flCTlaaLnVzdZp00d9r-n6tTsUlzDfRiF2y-FKvYU4eD3vksDJxsHTQU0ql8wUVP445PlF1ezHwKlNAHk/w1200-h630-p-k-no-nu/Elegant-in-Black-Style-Fashion-@coolchicstyle.jpeg",
-            "publishedAt": "2024-09-16T04:00:00Z",
-            "content": "Frasi sulla pioggia.\u00a0Romantiche e nostalgiche: gli aforismi pi\u00f9 belli.\u00a0La pioggia pu\u00f2 essere malinconica, ma anche molto romantica.\u00a0C\u2019\u00e8 chi rimpiange il sole tipico dell\u2019estate e chi, al contrario, t\u2026 [+8824 chars]"
+            "author": "Jlugorobbreportcom",
+            "title": "An Under-the-Radar Community for Outdoor Enthusiasts Claims the Spotlight",
+            "description": "In Teton Valley, Tributary combines luxury amenities with authentic Western style.",
+            "url": "http://robbreport.com/partners/tributary-idaho-under-radar-community-outdoor-enthusiasts-claims-spotlight-1235841514/",
+            "urlToImage": "https://robbreport.com/wp-content/uploads/2024/09/NewThought-TributaryCabin-Tributary-Real-Estate-Photography-7493-2.jpg?w=681&h=383&crop=1",
+            "publishedAt": "2024-09-23T04:01:00Z",
+            "content": "Demographics, work trends, a pandemic, and lifestyle changes\u2014these trends have unquestionably affected the real estate market in the past few years. While a growing population of retirement-age emplo\u2026 [+3761 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Forbes"
+                "name": "New Zealand Herald"
             },
-            "author": "Kevin Rozario, Contributor, \n Kevin Rozario, Contributor\n https://www.forbes.com/sites/kevinrozario/",
-            "title": "Avolta\u2019s Hudson And Dufry Amp Up Airport Retail Presence With JFK T6 And Pittsburgh Deals",
-            "description": "The agreements will help the Switzerland-based parent duty-free retailer to strengthen its North American footprint.",
-            "url": "https://www.forbes.com/sites/kevinrozario/2024/09/15/avoltas-hudson-and-dufry-amp-up-airport-retail-presence-with-jfk-t6-and-pittsburgh-deals/",
-            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/66e7a45d92ed056244d836f0/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-            "publishedAt": "2024-09-16T03:58:15Z",
-            "content": "Rendering of departure duty-free shops at JFK T6.\r\nPort Authority of New York &amp; New Jersey\r\nAvolta, the worlds biggest airport retailer, will significantly increase its estate in the United State\u2026 [+5801 chars]"
+            "author": "Jenni Mortimer",
+            "title": "SOHO Hotel Mount Roskill, Auckland: Review",
+            "description": "What's all the fuss about ...?",
+            "url": "https://www.nzherald.co.nz/travel/soho-hotel-mount-roskill-auckland-review/6TUC4PFPVNGE3HHXNC6F2Q56SY/",
+            "urlToImage": "https://www.nzherald.co.nz/resizer/v2/DBP4GTWSANFITOIFGOSPTHDVT4.jpg?auth=81ed7fb527c507838a58127f5b3c599c2394f7b779e6cfc2e609b7bc814201ca&width=1200&height=675&quality=70&smart=true",
+            "publishedAt": "2024-09-23T04:00:00Z",
+            "content": "First Impressions: On arrival, it was instantly clear that the developers had an eye for detail - the entrance was striking, with string lighting and a water feature sign, and ultra-luxe finishes thr\u2026 [+3051 chars]"
+        },
+        {
+            "source": {
+                "id": "the-irish-times",
+                "name": "The Irish Times"
+            },
+            "author": "Deirdre McQuillan",
+            "title": "Designer Helen McAlinden makes a move. And the best news? Everything has pockets",
+            "description": "Helen McAlinden broadens her reach with relaxed fashion pieces and innovative collaborations",
+            "url": "https://www.irishtimes.com/life-style/fashion/2024/09/23/designer-helen-mcalinden-makes-a-move-and-the-best-news-everything-has-pockets/",
+            "urlToImage": "https://www.irishtimes.com/resizer/v2/MFLHNMEC2NB7JNV4TPV77TITKY.jpg?smart=true&auth=62a98400c11189fd658beea031e7be9a85c299d5cd79027c77cdaabf262efae7&width=1200&height=630",
+            "publishedAt": "2024-09-23T04:00:00Z",
+            "content": "Its given me a new lease of life. The vibe of this street means casual but quality, says designer Helen McAlinden of her move to 19 Drury Street, where the mix of small Irish shops contrasts notably \u2026 [+3086 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Paddle Your Own Kanoo"
-            },
-            "author": "Paddle Your Own Kanoo",
-            "title": "American Airlines Flight Attendants in Los Angeles Were Least Likely to Vote For New Contract",
-            "description": "American Airlines flight attendants based at its Los Angeles crew base were least likely to vote in favor of a new five-year contract according to figures released by the Association of Professional Flight Attendants (APFA) which represents crew members at th\u2026",
-            "url": "https://www.paddleyourownkanoo.com/2024/09/16/american-airlines-flight-attendants-in-los-angeles-were-least-likely-to-vote-for-new-contract/",
-            "urlToImage": "https://www.paddleyourownkanoo.com/wp-content/uploads/2024/09/shutterstock_2238187451-scaled.jpg",
-            "publishedAt": "2024-09-16T03:52:07Z",
-            "content": "American Airlines flight attendants based at its Los Angeles crew base were least likely to vote in favor of a new five-year contract according to figures released by the Association of Professional \u2026 [+2519 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Erickimphotography.com"
-            },
-            "author": "ERIC KIM",
-            "title": "Eric Kim Blog",
-            "description": "Eric Kim\u2019s blog is one of the most popular resources on street photography, offering a mix of practical tips, personal insights, and philosophical musings. Kim has built a reputation not only as a street photographer but also as an educator who helps others a\u2026",
-            "url": "https://erickimphotography.com/blog/2024/09/15/eric-kim-blog-2/",
-            "urlToImage": null,
-            "publishedAt": "2024-09-16T03:41:38Z",
-            "content": "Eric Kim\u2019s blog is an extensive resource for street photographers and photography enthusiasts. His website, Eric Kim Photography, features a wide array of content, ranging from beginner guides to adv\u2026 [+2936 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "Akash Podishetti",
-            "title": "Arkade Developers IPO opens for subscription. Should you bid or skip?",
-            "description": "The issue involves a fresh equity sale totaling Rs 410 crore. The public offering allocates approximately 50% to qualified institutional buyers, 35% to retail investors, and 15% to non-institutional investors. In the unlisted market, the company's shares are \u2026",
-            "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/arkade-developers-ipo-opens-for-subscription-should-you-bid-or-skip/articleshow/113379744.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-113379722,width-1200,height-630,imgsize-4024,overlay-etmarkets/photo.jpg",
-            "publishedAt": "2024-09-16T03:34:21Z",
-            "content": "The initial public offering (IPO) of Arkade Developers opens for subscription today and will be available until September 19. Ahead of the issue opening, the company raised Rs 122 crore from anchor i\u2026 [+2452 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Commonsensewithmoney.com"
-            },
-            "author": "F2D",
-            "title": "Takeya Actives 40 Oz Vacuum Insulated Stainless Steel Water Bottle \u2013 Only $19.99!",
-            "description": "Stay hydrated in every season! Head over to Amazon where you can get this Takeya Actives 40 Oz Vacuum Insulated Stainless Steel Water Bottle for only $19.99! (Reg. $44.99) Additional details include:\n\n24-Hour Cold Retention: The Takeya Actives Stainle...",
-            "url": "https://www.commonsensewithmoney.com/takeya-actives-40-oz-vacuum-insulated-stainless-steel-water-bottle-19-99/",
-            "urlToImage": "https://www.commonsensewithmoney.com/wp-content/uploads/2024/09/61v6niXNuOL._AC_SL1000_.jpg",
-            "publishedAt": "2024-09-16T03:30:18Z",
-            "content": "Stay hydrated in every season! Head over to Amazon where you can get this Takeya Actives 40 Oz Vacuum Insulated Stainless Steel Water Bottle for only $19.99!(Reg. $44.99) Additional details include:\r\u2026 [+1605 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "The Hollywood Gossip"
-            },
-            "author": "Dina Sartore-Bodo",
-            "title": "How \u2018Sister Wives\u2019 Season Premiere Handles Garrison Brown\u2019s Death",
-            "description": "The explosive return has fans shook over the handling of Garrison's passing. \nHow \u2018Sister Wives\u2019 Season Premiere Handles Garrison Brown\u2019s Death was originally published on The Hollywood Gossip.",
-            "url": "http://www.thehollywoodgossip.com/2024/09/sister-wives-season-19-premiere-recap-a-house-divided-cannot-stand/",
-            "urlToImage": "https://cdn.thehollywoodgossip.com/uploads/2024/07/SisterWives_S12_Press_KeyArt_TT-TLC.jpg",
-            "publishedAt": "2024-09-16T03:01:00Z",
-            "content": "Sister Wives season premiere episode of the 19th season has been anxiously anticipated by fans for nearly a year.\u00a0\r\nA lot has happened since we last saw the Brown family graced our TVs. Relationships\u2026 [+7501 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Menstylefashion.com"
-            },
-            "author": "Gracie Opulanza",
-            "title": "Skin Care for Men -Tips On Anti Aging Cream",
-            "description": "This original article was first published here: Skin Care for Men -Tips On Anti Aging Cream\nMen, let\u2019s talk about something that\u2019s often overlooked but never out of sight: your hair and skin. As a woman who adores all things opulent, I\u2019ve always believed that\u2026",
-            "url": "https://www.menstylefashion.com/skin-care-for-men-tips-on-anti-aging-cream/",
-            "urlToImage": "https://www.menstylefashion.com/wp-content/uploads/2013/03/skin-care-for-men-renouve-switzerland.-helping-hands.f.jpg",
-            "publishedAt": "2024-09-16T02:52:11Z",
-            "content": "Men, lets talk about something thats often overlooked but never out of sight: your hair and skin. As a woman who adores all things opulent, Ive always believed that men, like fine wine, only get bett\u2026 [+6665 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "CNA"
+                "name": "[Removed]"
             },
             "author": null,
-            "title": "American music icon Richard Marx: 'I just enjoy the act of making music and making people happy'",
-            "description": "<![CDATA[ Grammy Award-winning singer-songwriter Richard Marx returned to Singapore last week to stage a fundraising concert for those with dementia. CNA Lifestyle spoke with the Right Here Waiting crooner on turning 61 and life as a singer who has accomplish\u2026",
-            "url": "https://cnalifestyle.channelnewsasia.com/entertainment/richard-marx-singapore-dementia-fundraising-concert-achievements-407591",
-            "urlToImage": "https://onecms-res.cloudinary.com/image/upload/s--FXprDONv--/c_crop,h_900,w_1600,x_0,y_129/c_fill,g_auto,h_676,w_1200/f_auto,q_auto/v1/mediacorp/cna/image/2024/09/16/richard-marx_pic.jpg?itok=h2cwbOqT",
-            "publishedAt": "2024-09-16T02:35:51Z",
-            "content": "TILL TODAY, YOU'RE CONSISTENTLY GOING ON TOURS, BE IT WITHIN THE US OR GLOBALLY. WHAT DRIVES YOU TO REMAIN ACTIVE DESPITE YOUR MANY ACCOMPLISHMENTS?\r\nI dont know how to do anything else. Im not proud\u2026 [+1322 chars]"
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "2024-09-23T03:44:43Z",
+            "content": "[Removed]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Motley Fool Australia"
+                "name": "Screen Rant"
             },
-            "author": "Zach Bristow",
-            "title": "Why this under-the-radar ASX All Ords stock is 'an attractive investment'",
-            "description": "This ASX All Ords stock is currently in the favour of top brokers. \nThe post Why this under-the-radar ASX All Ords stock is 'an attractive investment' appeared first on The Motley Fool Australia.",
-            "url": "https://www.fool.com.au/2024/09/16/why-this-under-the-radar-asx-all-ords-stock-is-an-attractive-investment/",
-            "urlToImage": "https://www.fool.com.au/wp-content/uploads/2021/02/asx-share-price-on-watch-1-1200x675.jpg",
-            "publishedAt": "2024-09-16T02:30:05Z",
-            "content": "S&amp;P/ASX All Ordinaries Index (ASX: XAO) stock Accent Group Ltd (ASX: AX1) might not be on every investor's radar, but it is catching the eye of analysts for all the right reasons. \r\nShares in the\u2026 [+2628 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Daily Beast"
-            },
-            "author": "Eboni Boykin-Patterson",
-            "title": "Candice Bergen Expertly Mocks JD Vance at Emmy Awards",
-            "description": "Kevin Winter\r\nCandice Bergen, star of the long-running sitcom Murphy Brown, had some words for the Republican nominee JD Vance at Sunday\u2019s Emmys.\u201cMy character was attacked by Vice President Dan Quayle when Murphy became pregnant and decided to raise the baby \u2026",
-            "url": "https://www.thedailybeast.com/obsessed/candice-bergen-expertly-mocks-jd-vance-at-emmy-awards",
-            "urlToImage": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1418,w_2520,x_0,y_11/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1726451794/GettyImages-2172256924_mjsjsq",
-            "publishedAt": "2024-09-16T02:09:02Z",
-            "content": "Candice Bergen, star of the long-running sitcom Murphy Brown, had some words for the Republican nominee JD Vance at Sundays Emmys.\r\nMy character was attacked by Vice President Dan Quayle when Murphy \u2026 [+936 chars]"
-        },
-        {
-            "source": {
-                "id": "abc-news-au",
-                "name": "ABC News (AU)"
-            },
-            "author": "Kellie Scott",
-            "title": "'At least you get to sleep-in': The comments that can unintentionally minimise childlessness",
-            "description": "Missing out on parenthood can cause a \"deep existential crisis\", and understanding that we hold different reproductive identities can help us be more sensitive about childlessness.",
-            "url": "https://www.abc.net.au/news/2024-09-16/the-comments-that-minimise-childlessness/104308322",
-            "urlToImage": "https://live-production.wcms.abc-cdn.net.au/3985c785c21f3369d5cd594c3a161550?impolicy=wcms_watermark_news&cropH=2250&cropW=4000&xPos=0&yPos=416&width=862&height=485&imformat=generic",
-            "publishedAt": "2024-09-16T02:06:35Z",
-            "content": "Why don't you just adopt? You can have one of mine! At least you get to sleep-in\r\nWhen someone discloses they are childless not by choice, it can be tempting to reach for problem-solving suggestions \u2026 [+5576 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Setopati.com"
-            },
-            "author": "Vanita Singh & M. Sivakami :: Setopati",
-            "title": "Why menopause is sometimes seen as 'liberation'",
-            "description": "Menopause and its symptoms are also perceived differently by different cultures. These differences can be explained by variations in women's attitudes towards menopause and aging.",
-            "url": " https://en.setopati.com/International/163675 ",
-            "urlToImage": "https://en.setopati.com/uploads/posts/menopause-1726452270.jpg",
-            "publishedAt": "2024-09-16T02:05:30Z",
-            "content": "Pushpa*, 52, had been told that menopause was a challenging phase. \"But I attained menopause without any distress; the only change I experienced was the cessation of monthly menstruation,\" she said.\r\u2026 [+6965 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "CinemaBlend"
-            },
-            "author": "mick.joest@CinemaBlend.com (Mick Joest)",
-            "title": "As 90 Day Fianc\u00e9 Shows Tigerlily And Adnan's Issues, I Really Wish TLC Would Stop Highlighting This Specific Type Of Couple",
-            "description": "How many times must we see this?",
-            "url": "https://www.cinemablend.com/television/90-day-fiance-tigerlily-adnan-issues-tlc-stop-highlighting-this-couple-type",
-            "urlToImage": "https://cdn.mos.cms.futurecdn.net/tXSuHkNidFghrcrzkELVne-1200-80.jpg",
-            "publishedAt": "2024-09-16T02:02:00Z",
-            "content": "Warning! The following contains spoilers for the 90 Day Fianc\u00e9: Before The 90 Days episode \"Sound and the Fury.\" Stream it with a Max subscription, or watch it on TLC.\r\nTigerlily Taylor and Adnan Abd\u2026 [+4244 chars]"
+            "author": "Saylee Padwal",
+            "title": "90 Day Fianc: Loren Allen Will Ruin Faith's Life (He's Hiding A Jaw-Dropping Secret)",
+            "description": "90 Day Fianc star Loren Allen is not to be trusted. He has kept several dirty secrets from Faith among which is one that could ruin her life forever.",
+            "url": "https://screenrant.com/90-day-fiance-loren-allen-ruin-faith-life-hiding-jaw-dropping-secret/",
+            "urlToImage": "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/09/faith-and-loren-from-90-day-fiance-looking-serious-with-pink-background.jpg",
+            "publishedAt": "2024-09-23T02:54:14Z",
+            "content": "90 Day Fianc\u00e9: Before the 90 Days star Loren Allen is about to ruin his girlfriend Faiths life forever on season 8. Loren is from Las Vegas and works as a drag assistant. He used to be married and re\u2026 [+4071 chars]"
         },
         {
             "source": {
@@ -424,181 +177,129 @@
                 "name": "Statetimes.in"
             },
             "author": "statetimes_editor",
-            "title": "Current importance and projected worsening of heart failure-need to revisit primary prevention: Dr Sushil",
-            "description": "STATE TIMES NEWS JAMMU: In view of the ever increasing incidence of cardiac ailments and lifestyle diseases Head Department of Cardiology GMCH Jammu Dr Sushil Sharma held a day long cardiac awareness cum health Check up camp at Shri Ram Mandir modern Village \u2026",
-            "url": "https://statetimes.in/current-importance-and-projected-worsening-of-heart-failure-need-to-revisit-primary-prevention-dr-sushil/",
-            "urlToImage": "https://statetimes.in/wp-content/uploads/2024/09/Dr-sushil-1.jpg",
-            "publishedAt": "2024-09-16T01:54:21Z",
-            "content": "STATE TIMES NEWS\r\nJAMMU: In view of the ever increasing incidence of cardiac ailments and lifestyle diseases Head Department of Cardiology GMCH Jammu Dr Sushil Sharma held a day long cardiac awarenes\u2026 [+3373 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "ETtech",
-            "title": "Govt to track q-comm sales; Blinkit, Zepto take up fashion order returns",
-            "description": "The government is exploring using transaction data from quick commerce platforms to gauge shifts in consumer spending habits. This and more in today\u2019s ETtech Morning Dispatch.",
-            "url": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/govt-to-track-q-comm-sales-blinkit-zepto-take-up-fashion-order-returns/articleshow/113377792.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-113377792,width-1070,height-580,imgsize-2761778,overlay-ettech/photo.jpg",
-            "publishedAt": "2024-09-16T01:33:55Z",
-            "content": "Happy Monday! The government is exploring using transaction data from quick commerce platforms to gauge shifts in consumer spending habits. This and more in todays ETtech Morning Dispatch.Also in the\u2026 [+7206 chars]"
+            "title": "India to play crucial role to accelerate global peace process: Modi",
+            "description": "STATE TIMES NEWS Washington: India does not seek its dominance but wants to play a role in the prosperity of the world, Prime Minister Narendra Modi said on Sunday, asserting that India\u2019s role will be crucial in accelerating the global peace process.Addressin\u2026",
+            "url": "https://statetimes.in/india-to-play-crucial-role-to-accelerate-global-peace-process-modi/",
+            "urlToImage": "https://statetimes.in/wp-content/uploads/2024/09/MODIIIIIIIIII.jpg",
+            "publishedAt": "2024-09-23T02:53:09Z",
+            "content": "STATE TIMES NEWS\r\nWashington: India does not seek its dominance but wants to play a role in the prosperity of the world, Prime Minister Narendra Modi said on Sunday, asserting that India\u2019s role will \u2026 [+1300 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Rlsbb.cc"
+                "name": "New Zealand Herald"
             },
-            "author": "saamaan1@yahoo.com (Master)",
-            "title": "THEWILL DOWNTOWN - September 15, 2024",
-            "description": "TheWillDowntown, which has studios in Beverly Hills, California and Ikeja GRA, Lagos, features interviews of prominent personalities who are making a difference in our societies, Feature articles, Fashion & Lifestyle, Beauty & Wellness, as well as weekly Colu\u2026",
-            "url": "https://rlsbb.cc/thewill-downtown-september-15-2024/",
+            "author": null,
+            "title": "Listen to The Country online with Jamie Mackay: Act MP Mark Cameron on rural mental health",
+            "description": "Mark Cameron, Levi Lanauze, Emma Higgins, Mary van Andel, Phil Duncan.",
+            "url": "https://www.nzherald.co.nz/the-country/news/listen-to-the-country-online-with-jamie-mackay-act-mp-mark-cameron-on-rural-mental-health/ZEJX4DQ7Z5G57B23WRKUIYRM24/",
+            "urlToImage": "https://www.nzherald.co.nz/resizer/v2/TK3KSWY2QVAWBHUIRODJAYUSBQ.jpg?auth=f1903b4a8e8987458e4a86270e8b2453c91b50f0c6cfc65b2ee66f47ed94b48c&width=1200&height=675&quality=70&smart=true",
+            "publishedAt": "2024-09-23T02:45:00Z",
+            "content": "Levi Lanauze:\r\nIts an isolated yet wonderful lifestyle but how do you make a dollar farming on the Chatham Islands?\r\nWe ask the Islands biggest farmer (in terms of stock units farmed).\r\nEmma Higgins:\u2026 [+578 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Freerepublic.com"
+            },
+            "author": "Nypost",
+            "title": "Top 10 affordable small towns where you\u2019d actually love to live",
+            "description": "The cost of living is up, prompting a growing number of Americans to flee big cities and opt for small-town life instead. A tiny, tight-knit community might seem like heaven to those who want a slower pace of life, but that doesn\u2019t mean that smaller towns are\u2026",
+            "url": "https://freerepublic.com/focus/f-chat/4266528/posts",
             "urlToImage": null,
-            "publishedAt": "2024-09-16T01:33:45Z",
-            "content": "TheWillDowntown, which has studios in Beverly Hills, California and Ikeja GRA, Lagos, features interviews of prominent personalities who are making a difference in our societies, Feature articles, Fa\u2026 [+214 chars]"
+            "publishedAt": "2024-09-23T01:50:17Z",
+            "content": "Skip to comments.\r\nTop 10 affordable small towns where youd actually love to live Nypost ^\r\n | 09/20/2024\r\n | Julie Gerstein\r\nPosted on 09/22/2024 6:50:17 PM PDT by ChicagoConservative27\r\nThe cost of\u2026 [+5245 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Rlsbb.cc"
+                "name": "New York Post"
             },
-            "author": "saamaan1@yahoo.com (Master)",
-            "title": "Robb Report Singapore - September 2024",
-            "description": "Robb Report is the unquestioned authority on the luxury lifestyle. Every issue features the best automobiles, resorts, watches, yachts, planes and much more. Your subscription includes special issues like Best of the Best, Car of the Year and the Ultimate Gif\u2026",
-            "url": "https://rlsbb.cc/robb-report-singapore-september-2024/",
-            "urlToImage": null,
-            "publishedAt": "2024-09-16T01:33:38Z",
-            "content": "Robb Report is the unquestioned authority on the luxury lifestyle. Every issue features the best automobiles, resorts, watches, yachts, planes and much more. Your subscription includes special issues\u2026 [+182 chars]"
+            "author": "Mollie Walker",
+            "title": "New addition Reilly Smith not intimidated by critical task of meshing with Rangers stars",
+            "description": "Rangers training camp is well underway, with the first exhibition game scheduled for Sunday night and a new face on the right wing of Chris Kreider and Mika Zibanejad.",
+            "url": "https://nypost.com/2024/09/22/sports/reilly-smith-not-intimidated-by-critical-task-of-meshing-with-rangers-stars/",
+            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/09/20240919RangersCamp02624RS-e1727049637246.jpg?quality=75&strip=all&w=1024",
+            "publishedAt": "2024-09-23T01:16:55Z",
+            "content": "Rangers training camp is well underway, with the first exhibition game scheduled for Sunday night and a new face on the right wing of Chris Kreider and Mika Zibanejad.\r\nLike clockwork, Reilly Smith w\u2026 [+4212 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Rlsbb.cc"
+                "name": "Livemint"
             },
-            "author": "saamaan1@yahoo.com (Master)",
-            "title": "Daily Mirror Notebook - 15 September 2024",
-            "description": "Notebook is packed with celeb interviews, fashion, beauty and lifestyle content. Published in the Sunday Mirror every week.Daily Mirror Notebook - 15 September 2024English | 56 pages | True PDF | 10.8 MBDownload: FiKPER \u2013 NiTROFLARE \u2013 RAPiDGATOR",
-            "url": "https://rlsbb.cc/daily-mirror-notebook-15-september-2024/",
-            "urlToImage": null,
-            "publishedAt": "2024-09-16T01:32:09Z",
-            "content": "Notebook is packed with celeb interviews, fashion, beauty and lifestyle content. Published in the Sunday Mirror every week.\r\nDaily Mirror Notebook - 15 September 2024English | 56 pages | True PDF | 1\u2026 [+40 chars]"
+            "author": "Pratishtha Bagai",
+            "title": "Influencer marketing presents brands with its challenges, ROI biggest concern",
+            "description": "Plum has trimmed the share of spending on influencers to 15%, while Libas is tracking affiliate links and coupon codes. Meanwhile, Frido has side-stepped agencies to find influencers on its own. However, Perfora feels some collaborations not doing well is par\u2026",
+            "url": "https://www.livemint.com/companies/influencer-marketing-presents-brands-with-its-challenges-roi-biggest-concern-11726650524067.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2024/09/20/1600x900/g0e2380b4a4518e713fbf2ff70947942e24e6fd3d3b3436736_1721044187213_1726832904481.jpg",
+            "publishedAt": "2024-09-23T00:30:21Z",
+            "content": "Brands that embraced influencers for their reach, authenticity and affordability are recalibrating strategies, as they target maximum bang for their marketing buck. For several consumer brands that s\u2026 [+4357 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "The Punch"
+                "name": "BBC News"
             },
-            "author": "Arinze Nwafor",
-            "title": "Tropace unveils teas to Nigerians abroad",
-            "description": "Beverage brand Tropace Health and Wellness Teas has launched a range of teas for Nigerians living abroad. According to a statement, Tropace\u2019s newest releases are the company\u2019s step in promoting health for healthy foods to Nigerians in the diaspora and an oppo\u2026",
-            "url": "https://punchng.com/tropace-unveils-teas-to-nigerians-abroad/",
-            "urlToImage": "https://cdn.punchng.com/wp-content/uploads/2024/09/16015534/Tropace-Tea.jpg",
-            "publishedAt": "2024-09-16T01:20:08Z",
-            "content": "Beverage brand Tropace Health and Wellness Teas has launched a range of teas for Nigerians living abroad.\r\nAccording to a statement, Tropaces newest releases are the companys step in promoting health\u2026 [+1461 chars]"
+            "author": null,
+            "title": "Private school VAT hike 'unfair' for SEND pupils, parents say",
+            "description": "Parents of dyslexic children say there aren't the places or support at state schools.",
+            "url": "https://www.bbc.com/news/articles/c0kjj40zrexo",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/df61/live/4c61f710-7737-11ef-8fc1-d5cebdd30c6b.jpg",
+            "publishedAt": "2024-09-23T00:19:48Z",
+            "content": "Rebecca is worried VAT will make private school unaffordable for Maisie (left), Max (centre) &amp; Ellia (right), who all have special educational needs\r\nPupils with special educational needs and dis\u2026 [+3881 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Deadline"
+                "name": "Forbes"
             },
-            "author": "Ted Johnson",
-            "title": "Emmy Presenter Candice Bergen Compares JD Vance\u2019s \u201cChildless Cat Ladies\u201d Swipe To Dan Quayle\u2019s Attack On \u2018Murphy Brown\u2019",
-            "description": "Candice Bergen opened her appearance at the Emmys, to present the comedy actress category, with a comparison of JD Vance\u2019s attack on \u201cchildless cat ladies\u201d to then-Vice President Dan Quayle\u2019s election year fight with Murphy Brown. Bergen opened, \u201cFor 11 years\u2026",
-            "url": "http://deadline.com/2024/09/emmy-2024-politics-candice-bergen-jd-vance-1236089053/",
-            "urlToImage": "https://deadline.com/wp-content/uploads/2024/09/GettyImages-2171587008.jpg?w=1024",
-            "publishedAt": "2024-09-16T01:02:18Z",
-            "content": "Candice Bergen opened her appearance at the Emmys, to present the comedy actress category, with a comparison of JD Vance\u2019s attack on \u201cchildless cat ladies\u201d to then-Vice President Dan Quayle\u2019s electio\u2026 [+1469 chars]"
+            "author": "Ewan Spence, Senior Contributor, \n Ewan Spence, Senior Contributor\n https://www.forbes.com/sites/ewanspence/",
+            "title": "New Galaxy S25 Ultra Exclusive Teases Samsung\u2019s Ambitious Plans",
+            "description": "Is Samsung planning a paradigm shift with the Galaxy S25 Ultra?",
+            "url": "https://www.forbes.com/sites/ewanspence/2024/09/22/samsung-galaxy-s25-ultra-leak-design-specs-new-galaxy/",
+            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/65661a897fea81c5f3048678/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+            "publishedAt": "2024-09-23T00:04:08Z",
+            "content": "Update September 22 with details on the new camera design.\r\nAttendees walk past the logo of Samsung Galaxy (Photo by JUNG YEON-JE/AFP via Getty Images)\r\nAFP via Getty Images\r\nWith an expected launch \u2026 [+2963 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "PEOPLE"
+                "name": "Crimethinc.com"
             },
-            "author": "Stephanie Wenger",
-            "title": "Jeremy Allen White Wins Best Actor in a Comedy Series at Emmys 2024",
-            "description": "D\u2019Pharaoh Woon-a-Tai, Jeremy Allen White, Larry David, Matt Berry, Martin Short, and Steve Martin were up for the Outstanding Actor in a Comedy Series prize at the 76th annual Emmy Awards",
-            "url": "https://people.com/jeremy-allen-white-wins-outstanding-actor-in-a-comedy-series-emmys-2024-8706950",
-            "urlToImage": "https://people.com/thmb/QSVyJZFocF_e94PwovyeCo-2Mx8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(758x220:760x222)/jeremy-allen-white-emmys-2024-tout-091524-aab96b87134646fbb79f53439e7f6071.jpg",
-            "publishedAt": "2024-09-16T00:32:30Z",
-            "content": "Jeremy Allen White is a winner again!\r\nFor the second year in a row, The Bear star was named the outstanding actor in a comedy series at the 2024 Emmy Awards on Sunday, Sept. 15.\r\n\"Thank you, thank y\u2026 [+6264 chars]"
+            "author": "CrimethInc. Ex-Workers Collective",
+            "title": "Anarchists on the Wave of Protest in Indonesia",
+            "description": "In August 2024, a wave of protests rocked Indonesia in response to political machinations aimed at anointing a successor to President Joko Widodo.",
+            "url": "https://crimethinc.com/2024/09/23/anarchists-on-the-wave-of-protest-in-indonesia",
+            "urlToImage": "https://cdn.crimethinc.com/assets/articles/2024/09/22/header.jpg",
+            "publishedAt": "2024-09-23T00:03:59Z",
+            "content": "In August 2024, a wave of protests rocked Indonesia, ostensibly in response to political machinations aimed at anointing a successor to President Joko Widodo, popularly known as Jokowi. Very little i\u2026 [+45466 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Erickimphotography.com"
+                "name": "Wikihow.com"
             },
-            "author": "ERIC KIM",
-            "title": "ART IS THE ANSWER!",
-            "description": "All art everything: Some thoughts this morning: \ufffcspecifically, about art. \ufffc This past weekend, just did a quick trip down to San Diego, La Jolla, and had the insane privilege of staying by a beachfront hotel, La Jolla Shores highly recommended, and the first \u2026",
-            "url": "https://erickimphotography.com/blog/2024/09/15/art-is-the-answer-7/",
-            "urlToImage": null,
-            "publishedAt": "2024-09-16T00:30:42Z",
-            "content": "All art everything:\r\nSome thoughts this morning: specifically, about art. \r\nThis past weekend, just did a quick trip down to San Diego, La Jolla, and had the insane privilege of staying by a beachfro\u2026 [+10218 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "Pranav Mukul",
-            "title": "Quick commerce is solving 'returns' question to ace fashion ecommerce",
-            "description": "Quick commerce is spreading its wings to include consumer electronics, lifestyle, and fashion in its scope. The main players in the space are looking to address one of the biggest pain points of online fashion shopping\u2014returns and exchanges.",
-            "url": "https://economictimes.indiatimes.com/tech/technology/quick-commerce-is-solving-returns-question-to-ace-fashion-ecommerce/articleshow/113373688.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-113373713,width-1200,height-630,imgsize-2761778,overlay-ettech/photo.jpg",
-            "publishedAt": "2024-09-16T00:30:00Z",
-            "content": "As quick commerce firms expand further into delivering apparel and lifestyle products in 10 minutes, they are looking to address one of the biggest pain points of online fashion shopping - returns an\u2026 [+2826 chars]"
-        },
-        {
-            "source": {
-                "id": "abc-news-au",
-                "name": "ABC News (AU)"
-            },
-            "author": "Hamish Cole",
-            "title": "Sister desperate to bring brother's cold case killer to justice",
-            "description": "Reginald Mullaly was living under a Bathurst bridge when he was stabbed to death almost a decade ago.",
-            "url": "https://www.abc.net.au/news/2024-09-16/reginald-mullaly-family-search-justice-bathurst-murder/104333546",
-            "urlToImage": "https://live-production.wcms.abc-cdn.net.au/47921543502dcd9468d79e293b366b05?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=24&width=862&height=485&imformat=generic",
-            "publishedAt": "2024-09-16T00:16:25Z",
-            "content": "Pam Hotham was devastated when she was told her brother Reginald Mullaly had been stabbed to death.\r\nThe 68-year-old had been living under the Denison Bridge in Bathurst in the New South Wales Centra\u2026 [+3750 chars]"
+            "author": "John Keegan",
+            "title": "How to Cute Names to Call Your Crush",
+            "description": "The best pet names for your crush or special someoneIf you need a good nickname for your crush, you\u2019ve come to the right place! Crushes can be complicated, but coming up with a pet name for that special someone doesn\u2019t have to be. Whether you\u2019re looking for a\u2026",
+            "url": "https://www.wikihow.com/Cute-Names-to-Call-Your-Crush",
+            "urlToImage": "https://www.wikihow.com/images/f/f9/Cute-Names-to-Call-Your-Crush-Step-7.jpg",
+            "publishedAt": "2024-09-23T00:00:00Z",
+            "content": "This article was reviewed by John Keegan and by wikiHow staff writer, Aly Rusciano. John Keegan is a Dating Coach and motivational speaker based in New York City. With over 10 years of professional e\u2026 [+510 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Just Jared"
+                "name": "Mercola.com"
             },
-            "author": "Just Jared",
-            "title": "Nominee Robert Downey Jr & Wife Susan Arrive for Emmy Awards 2024",
-            "description": "Robert Downey Jr is joined by wife Susan on the red carpet at the 2024 Emmy Awards on Sunday (September 15) at the Peacock Theater in Los Angeles. The 59-year-old Oscar winning-actor is nominated for his first Emmy as an actor, for Outstanding Supporting Acto\u2026",
-            "url": "https://www.justjared.com/2024/09/15/nominee-robert-downey-jr-wife-susan-arrive-for-emmy-awards-2024/",
-            "urlToImage": "https://cdn01.justjared.com/wp-content/uploads/headlines/2024/09/rdj-emmys.jpg",
-            "publishedAt": "2024-09-16T00:14:46Z",
-            "content": "Robert Downey Jr is joined by wife Susan on the red carpet at the 2024 Emmy Awards on Sunday (September 15) at the Peacock Theater in Los Angeles.\r\nThe 59-year-old Oscar winning-actor is nominated fo\u2026 [+921 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "The Punch"
-            },
-            "author": "Opinion",
-            "title": "Modelling the Yor\u00f9b\u00e1 intellectual and cultural iconic exemplar in perspective",
-            "description": "The Yor\u00f9b\u00e1 culture has always been blessed with the attention of intellectuals, scholars, and academics who considered it a worthwhile subject of discourse. Without any doubt, the Yor\u00f9b\u00e1 culture is one of the most studied cultural forms of life in the world. \u2026",
-            "url": "https://punchng.com/modelling-the-yoruba-intellectual-and-cultural-iconic-exemplar-in-perspective/",
-            "urlToImage": "https://cdn.punchng.com/wp-content/uploads/2024/09/16012246/aba_FFEATURED-305x400-1-e1726446166423.jpg",
-            "publishedAt": "2024-09-16T00:02:25Z",
-            "content": "The Yor\u00f9b\u00e1 culture has always been blessed with the attention of intellectuals, scholars, and academics who considered it a worthwhile subject of discourse. Without any doubt, the Yor\u00f9b\u00e1 culture is o\u2026 [+9856 chars]"
-        },
-        {
-            "source": {
-                "id": "national-geographic",
-                "name": "National Geographic"
-            },
-            "author": "Travel",
-            "title": "The best hotels in Spain 2024",
-            "description": "Plan an unforgettable visit to Spain at one of these exceptional hotels, from vineyard walks to dolphin-watching excursions.",
-            "url": "https://www.nationalgeographic.com/travel/article/best-hotels-in-spain",
-            "urlToImage": "https://i.natgeofe.com/n/9665c6b6-42e0-4971-8732-1177e4634e9f/El-Palace-Barcelona-Exterior-Facade-Image-6_16x9.jpg?w=1200",
-            "publishedAt": "2024-09-16T00:00:00Z",
-            "content": "Spain offers an array of unforgettable stays across its diverse regions, ranging from Barcelona's vibrant streets to the historic charm of Seville. Whether you're exploring the cultural hubs of Madri\u2026 [+9931 chars]"
+            "author": "communities@mercola.com (Dr. Joseph Mercola)",
+            "title": "Why Is Low Blood Cholesterol Associated with Increased Late Life Mortality?",
+            "description": "You've likely heard that high cholesterol is bad for your health, however cholesterol is found in nearly every cell of your body and is vital for optimal functioning. If you have too little, your risk of health problems increases, including all-cause mortalit\u2026",
+            "url": "https://articles.mercola.com/sites/articles/archive/2024/09/23/low-blood-cholesterol-mortality-risk.aspx",
+            "urlToImage": "https://media.mercola.com/ImageServer/Public/2024/September/FB/low-blood-cholesterol-mortality-risk-fb.jpg",
+            "publishedAt": "2024-09-23T00:00:00Z",
+            "content": "Mercola proudly supports these charities and organizations. View All \r\nDisclaimer: The entire contents of this website are based upon the opinions of Dr. Mercola, unless otherwise noted. Individual a\u2026 [+1007 chars]"
         }
     ]
 }

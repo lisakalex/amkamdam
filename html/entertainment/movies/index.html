@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/sport/">Sport</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/arts/">Arts</a></li>
+<li><a href="/culture/history/">History</a></li>
+<li><a href="/culture/philosophy/">Philosophy</a></li>
+<li><a href="/culture/religion/">Religion</a></li>
+<li><a href="/culture/anthropology/">Anthropology</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/lifestyle/">Lifestyle</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/lifestyle/shopping/">Shopping</a></li>
+<li><a href="/lifestyle/beauty/">Beauty</a></li>
+<li><a href="/lifestyle/photography/">Photography</a></li>
+<li><a href="/lifestyle/money/">Money</a></li>
+<li><a href="/lifestyle/fashion/">Fashion</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/finance/">finance</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/finance/financial-markets/">Markets</a></li>
+<li><a href="/finance/property-market/">Property</a></li>
+<li><a href="/finance/stocks-and-shares/">Stocks</a></li>
+<li><a href="/finance/brexit/">Brexit</a></li>
+<li><a href="/finance/crypto/">Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/entertainment/">Entertainment</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/entertainment/movies/">Movies</a></li>
+<li><a href="/entertainment/television/">Television</a></li>
+<li><a href="/entertainment/music/">Music</a></li>
+<li><a href="/entertainment/gaming/">Gaming</a></li>
+<li><a href="/entertainment/books/">Books</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/technology/">Technology</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/technology/computer-hardware/">Hardware</a></li>
+<li><a href="/technology/computer-software/">Software</a></li>
+<li><a href="/technology/internet-and-web/">Internet and Web</a></li>
+<li><a href="/technology/gadgets-and-consumer-electronicsg/">Gadgets and Consumer Electronics</a></li>
+<li><a href="/technology/technology-industry/">Technology Industry</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Business</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/business/banking/">Banking</a></li>
+<li><a href="/business/insurance/">Insurance</a></li>
+<li><a href="/business/global-economy/">Global Economy</a></li>
+<li><a href="/business/small-business-trends/">Small Business Trends</a></li>
+<li><a href="/business/venture-capital/">Venture Capital</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/politics/">Politics</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/politics/government/">Government</a></li>
+<li><a href="/politics/elections/">Elections</a></li>
+<li><a href="/politics/law-legislation/">Legislation</a></li>
+<li><a href="/politics/government-policy/">Policy</a></li>
+<li><a href="/politics/public-opinion-surveys/">Public Opinion</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/science/">Science</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/science/biology/">Biology</a></li>
+<li><a href="/science/chemistry/">Chemistry</a></li>
+<li><a href="/science/physics/">Physics</a></li>
+<li><a href="/science/astronomy/">Astronomy</a></li>
+<li><a href="/science/sociology/">Sociology</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/health/">Health</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/health/nutrition/">Nutrition</a></li>
+<li><a href="/health/fitness-and-exercise/">Fitness and Exercise</a></li>
+<li><a href="/health/alternative-medicine/">Alternative Medicine</a></li>
+<li><a href="/health/health-apps/">Health Apps</a></li>
+<li><a href="/health/global-health/">Global Health</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/culture/">Culture
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/culture/arts/">Arts</a></li>
+<li><a href="/culture/history/">History</a></li>
+<li><a href="/culture/philosophy/">Philosophy</a></li>
+<li><a href="/culture/religion/">Religion</a></li>
+<li><a href="/culture/anthropology/">Anthropology</a></li>
+</ul>
+</li>
+<li>
+<a href="/lifestyle/">Lifestyle
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/lifestyle/shopping/">Shopping</a></li>
+<li><a href="/lifestyle/beauty/">Beauty</a></li>
+<li><a href="/lifestyle/photography/">Photography</a></li>
+<li><a href="/lifestyle/money/">Money</a></li>
+<li><a href="/lifestyle/fashion/">Fashion</a></li>
+</ul>
+</li>
+<li>
+<a href="/finance/">Finance
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/finance/financial-markets/">Markets</a></li>
+<li><a href="/finance/property-market/">Property</a></li>
+<li><a href="/finance/stocks-and-shares/">Stocks</a></li>
+<li><a href="/finance/brexit/">Brexit</a></li>
+<li><a href="/finance/crypto/">Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/entertainment/">Entertainment
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/entertainment/movies/">Movies</a></li>
+<li><a href="/entertainment/television/">Television</a></li>
+<li><a href="/entertainment/music/">Music</a></li>
+<li><a href="/entertainment/gaming/">Gaming</a></li>
+<li><a href="/entertainment/books/">Books</a></li>
+</ul>
+</li>
+<li>
+<a href="/technology/">Technology
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/technology/computer-hardware/">Hardware</a></li>
+<li><a href="/technology/computer-software/">Software</a></li>
+<li><a href="/technology/internet-and-web/">Internet and Web</a></li>
+<li><a href="/technology/gadgets-and-consumer-electronicsg/">Gadgets and Consumer Electronics</a></li>
+<li><a href="/technology/technology-industry/">Technology Industry</a></li>
+</ul>
+</li>
+<li>
+<a href="/business/">Business
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/business/banking/">Banking</a></li>
+<li><a href="/business/insurance/">Insurance</a></li>
+<li><a href="/business/global-economy/">Global Economy</a></li>
+<li><a href="/business/small-business-trends/">Small Business Trends</a></li>
+<li><a href="/business/venture-capital/">Venture Capital</a></li>
+</ul>
+</li>
+<li>
+<a href="/politics/">Politics
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/politics/government/">Government</a></li>
+<li><a href="/politics/elections/">Elections</a></li>
+<li><a href="/politics/law-legislation/">Legislation</a></li>
+<li><a href="/politics/government-policy/">Policy</a></li>
+<li><a href="/politics/public-opinion-surveys/">Public Opinion</a></li>
+</ul>
+</li>
+<li>
+<a href="/science/">Science
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/science/biology/">Biology</a></li>
+<li><a href="/science/chemistry/">Chemistry</a></li>
+<li><a href="/science/physics/">Physics</a></li>
+<li><a href="/science/astronomy/">Astronomy</a></li>
+<li><a href="/science/sociology/">Sociology</a></li>
+</ul>
+</li>
+<li>
+<a href="/health/">Health
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/health/nutrition/">Nutrition</a></li>
+<li><a href="/health/fitness-and-exercise/">Fitness and Exercise</a></li>
+<li><a href="/health/alternative-medicine/">Alternative Medicine</a></li>
+<li><a href="/health/health-apps/">Health Apps</a></li>
+<li><a href="/health/global-health/">Global Health</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<main>
+<div class="container">
+<div class="pt-60 pb-60">
+<div class="row">
+<div class="col-12 col-lg-9">
+<div class="breadcrumbs mb-20">
+<a href="/">da</a><a href="/entertainment/">entertainment</a><a href="/entertainment/movies/">movies</a></div>
+<h1 class="h2">Boxing</h1>
+<section class="category_contents_details">
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.livemint.com/industry/media/streaming-youtube-tv-premieres-producers-unsold-films-theatres-films-ott-movies-11727061232241.html">
+<div class="img-sized">
+<img alt="From free streaming on YouTube to TV premieres, producers explore alternative platforms for unsold films" class="img-fluid" loading="auto" src="https://www.livemint.com/lm-img/img/2024/09/23/1600x900/ADBHUT_POSTER_1727061259710_1727061277283.jpg" srcset="" width="512"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">Livemint</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:15:21Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.livemint.com/industry/media/streaming-youtube-tv-premieres-producers-unsold-films-theatres-films-ott-movies-11727061232241.html">From free streaming on YouTube to TV premieres, producers explore alternative platforms for unsold films</a>
+<div class="mb-25 d-none d-md-block">Film producers unable to find buyers for their movies are exploring alternative routes to reach audiences. From streaming the films for free on YouTube to premiering them directly on television, bypa… [+3823 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.ndtv.com/entertainment/will-be-out-of-icu-soon-parvin-dabas-wife-shares-his-health-update-post-accident-6628318">
+<div class="img-sized">
+<img alt="Preeti Jhangiani On Husband Parvin Dabas' Health Condition" class="img-fluid" loading="auto" src="https://c.ndtvimg.com/2024-09/4alpnv7o_pravin-_625x300_23_September_24.jpeg" srcset="" width="512"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">NDTV News</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:15:08Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.ndtv.com/entertainment/will-be-out-of-icu-soon-parvin-dabas-wife-shares-his-health-update-post-accident-6628318">Preeti Jhangiani On Husband Parvin Dabas' Health Condition</a>
+<div class="mb-25 d-none d-md-block">New Delhi: Actor Parvin Dabas was admitted to the ICU at Bandra Hospital in Mumbai after a road accident on Saturday morning. His wife, actress Preeti Jhangiani has provided an update on his health. … [+1766 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.etfdailynews.com/2024/09/23/roku-inc-to-post-q3-2024-earnings-of-0-32-per-share-seaport-res-ptn-forecasts-nasdaqroku/">
+<div class="img-sized">
+<img alt="Roku, Inc. to Post Q3 2024 Earnings of ($0.32) Per Share, Seaport Res Ptn Forecasts (NASDAQ:ROKU)" class="img-fluid" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/roku-inc-logo-1200x675.png?v=20221110140549&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="512"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">ETF Daily News</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:14:47Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.etfdailynews.com/2024/09/23/roku-inc-to-post-q3-2024-earnings-of-0-32-per-share-seaport-res-ptn-forecasts-nasdaqroku/">Roku, Inc. to Post Q3 2024 Earnings of ($0.32) Per Share, Seaport Res Ptn Forecasts (NASDAQ:ROKU)</a>
+<div class="mb-25 d-none d-md-block">Roku, Inc. (NASDAQ:ROKU – Free Report) – Stock analysts at Seaport Res Ptn lifted their Q3 2024 earnings per share estimates for shares of Roku in a research report issued to clients and investors on… [+6252 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://economictimes.indiatimes.com/industry/media/entertainment/now-playing-second-show-of-movies-at-theatres-near-you/articleshow/113585916.cms">
+<div class="img-sized">
+<img alt="Now playing! Second show of movies at theatres near you" class="img-fluid" loading="auto" src="https://img.etimg.com/thumb/msid-113585977,width-1200,height-630,imgsize-50446,overlay-economictimes/photo.jpg" srcset="" width="866"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">The Times of India</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:05:34Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://economictimes.indiatimes.com/industry/media/entertainment/now-playing-second-show-of-movies-at-theatres-near-you/articleshow/113585916.cms">Now playing! Second show of movies at theatres near you</a>
+<div class="mb-25 d-none d-md-block">In the absence of fresh blockbusters, re-releasing old films has breathed new life into theaters, surprising the industry by not only helping exhibitors cover fixed costs but also proving that what d… [+3707 chars]</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div class="col-12 col-lg-3">
+<h2 class="mb-30">Recommended</h2>
+<div class="mb-40">
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.openculture.com/2024/09/coursera-offers-120-off-of-coursera-plus.html">
+<div class="small-image-list img-sized"><img alt="Coursera Offers $120 Off of Coursera Plus (Until September 30), Giving You Unlimited Access to Courses &amp; Certificates" class="" loading="auto" src="https://cdn8.openculture.com/2024/09/02123635/coursera-30.png" srcset="" width="1200"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">Openculture.com</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:03:54Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.openculture.com/2024/09/coursera-offers-120-off-of-coursera-plus.html">Coursera Offers $120 Off of Coursera Plus (Until September 30), Giving You Unlimited Access to Courses &amp; Certificates</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.thegospelcoalition.org/article/edifying-fall-movies-2024/">
+<div class="small-image-list img-sized"><img alt="9 Edifying Films to Watch This Fall" class="" loading="auto" src="https://media.thegospelcoalition.org/wp-content/uploads/2024/09/17142024/edifying-fall-movies-2024.jpg" srcset="" width="800"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">Thegospelcoalition.org</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:02:18Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.thegospelcoalition.org/article/edifying-fall-movies-2024/">9 Edifying Films to Watch This Fall</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.overthinkingit.com/2024/09/23/otip846/">
+<div class="small-image-list img-sized"><img alt="Episode 846: My Neighbor Kokoro" class="" loading="auto" src="https://www.overthinkingit.com/wp-content/uploads/2024/09/IMG_0388.webp" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">Overthinkingit.com</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:01:37Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.overthinkingit.com/2024/09/23/otip846/">Episode 846: My Neighbor Kokoro</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="http://wwd.com/menswear-news/mens-fashion/libero-mens-fashion-brand-streetwear-suits-1236626279/">
+<div class="small-image-list img-sized"><img alt="How Libero Brings a Streetwear Vibe to Classic Menswear" class="" loading="auto" src="https://wwd.com/wp-content/uploads/2024/09/Copy_of_liberopinarello-62_1000x.jpg?crop=0px%2C317px%2C1000px%2C561px&amp;resize=1000%2C563" srcset="" width="860"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">WWD</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:01:16Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="http://wwd.com/menswear-news/mens-fashion/libero-mens-fashion-brand-streetwear-suits-1236626279/">How Libero Brings a Streetwear Vibe to Classic Menswear</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.lewrockwell.com/2024/09/no_author/laugh-dammit/">
+<div class="small-image-list img-sized"><img alt="Laugh, Dammit!" class="" loading="auto" src="https://lrc-cdn.s3.amazonaws.com/assets/2021/02/LRC-share.jpg" srcset="" width="960"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">Lewrockwell.com</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:00:59Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.lewrockwell.com/2024/09/no_author/laugh-dammit/">Laugh, Dammit!</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dslot" did="4" style="min-height:600px;">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/300x600.jpg" width=""/>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section class="container mb-80">
+<div class="pb-40 pb-30">
+<h2 class="mb-40">All News</h2>
+<div class="row" id="load_more_target">
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.boredpanda.com/only-in-usa-pics/">
+<div class="img-sized"><img alt="102 Everyday Things In The USA That Leave Foreigners Scratching Their Heads" class="img-fluid" loading="auto" src="https://www.boredpanda.com/blog/wp-content/uploads/2024/09/only-in-usa-pics-fb.png" srcset="" width="960"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Boredpanda.com</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T16:00:21Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.boredpanda.com/only-in-usa-pics/">102 Everyday Things In The USA That Leave Foreigners Scratching Their Heads</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.irishtimes.com/culture/film/2024/09/23/irish-hellboy-star-leah-mcnamara-at-horror-films-im-always-the-person-watching-between-my-fingers/">
+<div class="img-sized"><img alt="Irish Hellboy star Leah McNamara: ‘At horror films I’m always the person watching between my fingers’" class="img-fluid" loading="auto" src="https://www.irishtimes.com/resizer/v2/46ZYHRJY3FE4LJMXUIS5LTVXCU.jpeg?smart=true&amp;auth=56d6807723181047a39b779b81dd8cfdee9bdce47ba8a4284bf868efa39183eb&amp;width=1200&amp;height=630" srcset="" width="634"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">The Irish Times</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T16:00:09Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.irishtimes.com/culture/film/2024/09/23/irish-hellboy-star-leah-mcnamara-at-horror-films-im-always-the-person-watching-between-my-fingers/">Irish Hellboy star Leah McNamara: ‘At horror films I’m always the person watching between my fingers’</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://screenrant.com/mad-max-5-movie-tom-hardy-perfect-after-venom/">
+<div class="img-sized"><img alt="Mad Max 5 Would Be Perfect For Tom Hardy As His $1.36 Billion Franchise Comes To An End" class="img-fluid" loading="auto" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2024/09/tom-hardy-in-mad-max-fury-road.jpg" srcset="" width="1200"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Screen Rant</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T16:00:00Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://screenrant.com/mad-max-5-movie-tom-hardy-perfect-after-venom/">Mad Max 5 Would Be Perfect For Tom Hardy As His $1.36 Billion Franchise Comes To An End</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://screenrant.com/transformers-one-optimus-prime-megatron-age-how-old/">
+<div class="img-sized"><img alt="How Old Optimus Prime &amp; Megatron Are In Transformers One" class="img-fluid" loading="auto" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2024/09/how-old-optimus-prime-megatron-are-in-transformers-one.jpg" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Screen Rant</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:59:50Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://screenrant.com/transformers-one-optimus-prime-megatron-age-how-old/">How Old Optimus Prime &amp; Megatron Are In Transformers One</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://variety.com/2024/film/awards/saoirse-ronan-blitz-oscars-supporting-actress-1236152999/">
+<div class="img-sized"><img alt="Saoirse Ronan Will Submit ‘Blitz’ for Supporting Actress, Will She Make Oscar History as Youngest Double Acting Nominee?" class="img-fluid" loading="auto" src="https://variety.com/wp-content/uploads/2024/09/Saoirse-Ronan-The-Outrun-Blitz.jpg?w=1000&amp;h=563&amp;crop=1" srcset="" width="800"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Variety</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:58:09Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://variety.com/2024/film/awards/saoirse-ronan-blitz-oscars-supporting-actress-1236152999/">Saoirse Ronan Will Submit ‘Blitz’ for Supporting Actress, Will She Make Oscar History as Youngest Double Acting Nominee?</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.justjared.com/2024/09/22/margot-robbie-shows-off-baby-bump-during-weekend-outings-after-the-sims-movie-news/">
+<div class="img-sized"><img alt="Margot Robbie Shows Off Baby Bump During Weekend Outings After 'The Sims' Movie News" class="img-fluid" loading="auto" src="https://cdn01.justjared.com/wp-content/uploads/headlines/2024/09/margot-weekend.jpg" srcset="" width="800"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Just Jared</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:52:02Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.justjared.com/2024/09/22/margot-robbie-shows-off-baby-bump-during-weekend-outings-after-the-sims-movie-news/">Margot Robbie Shows Off Baby Bump During Weekend Outings After 'The Sims' Movie News</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.slashfilm.com/1667865/steven-spielberg-favorite-movie-all-time-lawrence-of-arabia/">
+<div class="img-sized"><img alt="Steven Spielberg's Favorite Movie Of All Time Is A 1960s Classic" class="img-fluid" loading="auto" src="https://www.slashfilm.com/img/gallery/steven-spielbergs-favorite-movie-of-all-time-is-a-1960s-classic/l-intro-1726680793.jpg" srcset="" width="512"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">/FILM</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:50:27Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.slashfilm.com/1667865/steven-spielberg-favorite-movie-all-time-lawrence-of-arabia/">Steven Spielberg's Favorite Movie Of All Time Is A 1960s Classic</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://screenrant.com/rebel-ridge-2-movie-jeremy-saulnier-new-movie-exciting/">
+<div class="img-sized"><img alt="Rebel Ridge Director's New Movie Sounds A Lot More Exciting Than Making Rebel Ridge 2" class="img-fluid" loading="auto" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2024/09/rebel-ridge-director-s-new-movie-sounds-a-lot-more-exciting-than-making-rebel-ridge-2.jpg" srcset="" width="1142"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Screen Rant</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:49:21Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://screenrant.com/rebel-ridge-2-movie-jeremy-saulnier-new-movie-exciting/">Rebel Ridge Director's New Movie Sounds A Lot More Exciting Than Making Rebel Ridge 2</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://comicbookmovie.com/tv/dc/lanterns/lanterns-chris-pine-suits-up-as-hal-jordan-in-impressive-fan-art-a213328">
+<div class="img-sized"><img alt="LANTERNS: Chris Pine Suits-Up As Hal Jordan In Impressive Fan-Art" class="img-fluid" loading="auto" src="https://comicbookmovie.com/images/articles/banners/213328.jpg" srcset="" width="2846"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">CBM (Comic Book Movie)</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:48:18Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://comicbookmovie.com/tv/dc/lanterns/lanterns-chris-pine-suits-up-as-hal-jordan-in-impressive-fan-art-a213328">LANTERNS: Chris Pine Suits-Up As Hal Jordan In Impressive Fan-Art</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://bleedingcool.com/movies/new-gladiator-ii-trailer-to-drop-tomorrow-teaser-released/">
+<div class="img-sized"><img alt="New Gladiator II Trailer To Drop Tomorrow, Teaser Released" class="img-fluid" loading="auto" src="https://bleedingcool.com/wp-content/uploads/2024/09/GL2_12129R-2000x1125.jpg" srcset="" width="2907"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Bleeding Cool News</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:48:07Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://bleedingcool.com/movies/new-gladiator-ii-trailer-to-drop-tomorrow-teaser-released/">New Gladiator II Trailer To Drop Tomorrow, Teaser Released</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://bleedingcool.com/movies/the-new-red-one-trailer-and-poster-are-certainly-something-that-exists/">
+<div class="img-sized"><img alt="The New Red One Trailer And Poster Are Certainly Something That Exists" class="img-fluid" loading="auto" src="https://bleedingcool.com/wp-content/uploads/2024/09/MEA1_2024_KeyArtPayoff_Press_Pre_2765x4096_Final_BLT_en-US_FIN01a_rgb-2000x1125.jpg" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Bleeding Cool News</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:46:17Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://bleedingcool.com/movies/the-new-red-one-trailer-and-poster-are-certainly-something-that-exists/">The New Red One Trailer And Poster Are Certainly Something That Exists</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://screenrant.com/deadpool-movies-ryan-reynolds-improvised-lines/">
+<div class="img-sized"><img alt="Ryan Reynolds' 10 Best Improvised Deadpool Lines That Weren't In The Script" class="img-fluid" loading="auto" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2024/09/deadpool-vs-wolverine-ryan-reynolds-hugh-jackman.jpg" srcset="" width="2315"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Screen Rant</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:46:07Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://screenrant.com/deadpool-movies-ryan-reynolds-improvised-lines/">Ryan Reynolds' 10 Best Improvised Deadpool Lines That Weren't In The Script</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.slashfilm.com/1663875/daniel-day-lewis-worst-movie-rotten-tomatoes/">
+<div class="img-sized"><img alt="The Worst Daniel Day-Lewis Movie According To Rotten Tomatoes" class="img-fluid" loading="auto" src="https://www.slashfilm.com/img/gallery/the-worst-daniel-day-lewis-movie-according-to-rotten-tomatoes/l-intro-1726187295.jpg" srcset="" width="969"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">/FILM</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:44:57Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.slashfilm.com/1663875/daniel-day-lewis-worst-movie-rotten-tomatoes/">The Worst Daniel Day-Lewis Movie According To Rotten Tomatoes</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.spoilertv.com/2024/09/the-daily-spoilertv-community-open_23.html">
+<div class="img-sized"><img alt="The Daily SpoilerTV Community Open Discussion Thread - 6th October 2024" class="img-fluid" loading="auto" src="https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_v_hBiIGR0CHh9PV4ue2DAHet0ExVkWeb4P4GShhv2_lc-EZ5Rx1hLEXDcFrtJYUrghxURVbmE4ig8rztdP1rSCLPvZ_oNGa6HoLeoE-dBLfO2SK2U8oGc_2xLQnuCqLuSio3AX-Q=w1200-h630-p-k-no-nu" srcset="" width="340"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Spoilertv.com</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:42:21Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.spoilertv.com/2024/09/the-daily-spoilertv-community-open_23.html">The Daily SpoilerTV Community Open Discussion Thread - 6th October 2024</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://theplaylist.net/red-one-trailer-chris-evans-dwayne-johnson-team-up-to-save-santa-claus-20240922/">
+<div class="img-sized"><img alt="‘Red One’ Trailer:  Chris Evans &amp; Dwayne Johnson Team Up To Save Santa Claus" class="img-fluid" loading="auto" src="https://cdn.theplaylist.net/wp-content/uploads/2024/09/22202940/Red-One-Trailer.jpg" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Theplaylist.net</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:41:14Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://theplaylist.net/red-one-trailer-chris-evans-dwayne-johnson-team-up-to-save-santa-claus-20240922/">‘Red One’ Trailer:  Chris Evans &amp; Dwayne Johnson Team Up To Save Santa Claus</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://screenrant.com/star-wars-skeleton-crew-character-cameo-predictions/">
+<div class="img-sized"><img alt="Every Star Wars Character Who Could Cameo In Its Next TV Show" class="img-fluid" loading="auto" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2024/09/every-star-wars-character-who-could-cameo-in-its-next-tv-show.jpg" srcset="" width="512"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Screen Rant</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:33:12Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://screenrant.com/star-wars-skeleton-crew-character-cameo-predictions/">Every Star Wars Character Who Could Cameo In Its Next TV Show</a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+<hr class="mb-60"/>
+<div class="text-center">
+<a class="button-more button-more--gradient" href="javascript:void(0);" id="load_more" loadmoretype="movies">Load more news...
+                    <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg>
+</a>
+</div>
+</section>
+</main>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<div style="color: #fff">
+<div style="font-weight: 600;">
+                                    Digg delivers the most interesting and talked about stories on the Internet right now.
+                                </div>
+<p>
+                                    Digg does curation: building products that make life smoother, simpler, and smarter.
+                                    Founded in 2004 Re-founded in 2012 Re-re-founded in 2019,
+                                    Digg provides the most relevant and compelling content to millions of users a month. </p>
+<p>
+                                    Using proprietary data sources and a crack editorial team, we cut through the clutter of the Internet and make sense of the noise so you don’t have to. Digg has everything you'll see later, now. </p>
+                                Visit Digg on the web, or get the best of Digg delivered to your inbox with Digg Editions.
+                                <div style="font-weight: 600;"><br/>
+                                    How You Can Contact Us
+                                </div>
+<p>
+                                    Please alert us to any issues by contacting us at support@digg.com. </p>
+</div>
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block"></div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>Sport</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children" style="color: #fff">
+<a href="/sport/boxing/">Boxing</a><br/>
+<a href="/sport/cricket/">Cricket</a><br/>
+<a href="/sport/football/">Football</a><br/>
+<a href="/sport/formula-1/">Formula 1</a><br/>
+<a href="/sport/tennis/">Tennis</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/sport/"><b>Sport</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags"></div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right"></div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script>
+<script defer="" src="/assets/js/cookieconsent-init.js"></script>
+</body>
+</html>

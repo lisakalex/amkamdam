@@ -1,305 +1,448 @@
 {
     "status": "ok",
-    "totalResults": 23,
+    "totalResults": 34,
     "articles": [
         {
             "source": {
-                "id": null,
-                "name": "The Owensboro Times"
+                "id": "the-irish-times",
+                "name": "The Irish Times"
             },
-            "author": "John Kirkpatrick",
-            "title": "Club One aiming to transform local fitness, entertainment scene; targeting 2025 opening date",
-            "description": "Owensboro will soon be home to a cutting-edge fitness facility, with Club One set to open next summer. Spearheaded by local entrepreneur Dustin Edge, Club One will offer 90,000+ square feet of state-of-the-art fitness amenities as the first phase of a larger,\u2026",
-            "url": "https://www.owensborotimes.com/features/2024/09/club-one-aiming-to-transform-local-fitness-entertainment-scene-targeting-2025-opening-date/",
-            "urlToImage": "https://cdn.owensborotimes.com/wp-content/uploads/2024/08/OT-Club-one-1024x536.png",
-            "publishedAt": "2024-09-16T05:48:36Z",
-            "content": "Owensboro will soon be home to a cutting-edge fitness facility, with Club One set to open next summer. Spearheaded by local entrepreneur Dustin Edge, Club One will offer 90,000+ square feet of state-\u2026 [+3090 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Business Standard"
-            },
-            "author": "ANI",
-            "title": "Russian bombing in Kharkiv kills 94-year-old woman, leaving 42 injured",
-            "description": "The strike, hit a shopping mall and a major sports center in the Saltivskyi and Nemyshlianskyi districts",
-            "url": "https://www.business-standard.com/world-news/russian-bombing-in-kharkiv-kills-94-year-old-woman-leaving-42-injured-124091600317_1.html",
-            "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-05/14/thumb/fitandfill/400X400/1715650624-8655.jpg",
-            "publishedAt": "2024-09-16T05:20:38Z",
-            "content": "The strike, hit a shopping mall and a major sports center in the Saltivskyi and Nemyshlianskyi districts\r\nKharkiv Mayor Ihor Terekhov reported that the bomb struck the 10th floor, injuring 42 people,\u2026 [+2558 chars]"
+            "author": "Tony Clayton-Lea",
+            "title": "\u2018One of my long-term goals would be to invest in art, which is something you can take pleasure in while you have it\u2019",
+            "description": "Me & My Money: Fallon Moore is head of events at Blas na h\u00c9ireann",
+            "url": "https://www.irishtimes.com/your-money/2024/09/23/one-of-my-long-term-goals-would-be-to-invest-in-art-which-is-something-you-can-take-pleasure-in-while-you-have-it/",
+            "urlToImage": "https://www.irishtimes.com/resizer/v2/ZL7AILLYLNBFBEM64WVECWCQWQ.jpg?smart=true&auth=5f68fff7529f965ded9e37946a95348837930ca0783fac53a91642b462f5c0af&width=1200&height=630",
+            "publishedAt": "2024-09-23T05:00:00Z",
+            "content": "Fallon Moore is a tourism-related event manager and project coordinator based in the Dingle Peninsula. fallonmoore.ie\r\nA little of both, neither in the extreme.\r\nDo you shop around for better value?\r\u2026 [+4023 chars]"
         },
         {
             "source": {
                 "id": "the-irish-times",
                 "name": "The Irish Times"
             },
-            "author": "Conor Pope",
-            "title": "Retail group calls for share of Apple funds",
-            "description": "Shop owners say rising costs, increased crime and antisocial behaviour threaten livelihoods",
-            "url": "https://www.irishtimes.com/business/2024/09/16/retail-group-calls-for-share-of-apple-funds/",
-            "urlToImage": "https://www.irishtimes.com/resizer/v2/FIHHOVSVTNGLVEIIW6H6LZIGCA.jpg?smart=true&auth=b257cf35347d83842905c7217ec7abe41cb55a41a7da02f7090ae792d7fc30d9&width=1200&height=630",
-            "publishedAt": "2024-09-16T05:00:00Z",
-            "content": "Some of the Apple windfall coming Irish taxpayers way should be used to support Irish retailers who have been hit by spiralling costs and forced to confront higher levels of crime and antisocial beha\u2026 [+3029 chars]"
+            "author": "Joanne Hunt",
+            "title": "Polyester Halloween costumes are scarily bad for the environment. Try a swap shop",
+            "description": "If you start planning for this year\u2019s dressing up now you can make Halloween less of a frightener by not buying new stuff and using items you already have",
+            "url": "https://www.irishtimes.com/life-style/people/2024/09/21/polyester-halloween-costumes-are-scarily-bad-for-the-environment-try-a-swap-shop/",
+            "urlToImage": "https://www.irishtimes.com/resizer/v2/U33A532MMRDTRGWMCVFKZMP5A4.jpg?smart=true&auth=5c4f0c7afd45f900b9465570c984ef9aceb9e25c082a1ff61312dba20e23cb52&width=1200&height=630",
+            "publishedAt": "2024-09-23T05:00:00Z",
+            "content": "You probably know that Ireland invented Halloween. It all began as Samhain, a festival celebrated over 2,000 years ago. Marking the end of the harvest and the beginning of winter, Samhain was when th\u2026 [+3279 chars]"
+        },
+        {
+            "source": {
+                "id": "the-irish-times",
+                "name": "The Irish Times"
+            },
+            "author": "Una Mullally",
+            "title": "Watching Dublin\u2019s anti-immigrant and counter protests: The grimmest moment came near the end",
+            "description": "\u2018What do we want?\u2019 one man roared. There was no response, an almost comedic vacuum of clarity",
+            "url": "https://www.irishtimes.com/opinion/2024/09/23/watching-dublins-anti-immigrant-and-counter-protests-the-grimmest-moment-came-near-the-end/",
+            "urlToImage": "https://www.irishtimes.com/resizer/v2/PU7HDSFGINAFLJRNPU33BXMNAA.jpg?smart=true&auth=5920fdbc5c78a3db00c9f0c00f0547342803b8f5779c9eb90060b9829708299e&width=1200&height=630",
+            "publishedAt": "2024-09-23T05:00:00Z",
+            "content": "By two oclock last Thursday afternoon outside the GPO on OConnell Street in Dublin, the latest anti-immigrant protest had gathered, coinciding with the return of the D\u00e1il, the scene awash with tricol\u2026 [+4909 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New Zealand Herald"
+            },
+            "author": "Grant Bradley",
+            "title": "M\u0101nawa Bay: Auckland Airport mall chaos delays flights as crew caught in traffic - airlines",
+            "description": "Traffic jams anger shoppers and frustrate airlines.",
+            "url": "https://www.nzherald.co.nz/business/manawa-bay-auckland-airport-mall-chaos-delays-flights-as-crew-caught-in-traffic-airlines/7QL5XOX54ZBRBA4YOI4KH4ENNE/",
+            "urlToImage": "https://www.nzherald.co.nz/resizer/v2/DLWH7CT74FFQPOCTVJJMEKQQOM.JPG?auth=198bc62329af366eeff64f9636628beba7f8dd2be7cad07017eef2edf43e3b80&width=1200&height=675&quality=70&smart=true",
+            "publishedAt": "2024-09-23T04:55:30Z",
+            "content": "In some cases this meant checking customers or bags in past usual deadlines, rushing passengers and bags to aircraft. In other cases customers were moved to later flights without penalty, she said.\r\n\u2026 [+1782 chars]"
         },
         {
             "source": {
                 "id": null,
                 "name": "Biztoc.com"
             },
-            "author": "news.google.com",
-            "title": "Missing 8-year-old girl drove mom\u2019s car to Target and went shopping, Ohio cops say",
-            "description": "Missing 8-year-old girl drove mom\u2019s car to Target and went shopping, Ohio cops say Kansas City Star\nBedford police: 8-year-old girl found safe after driving herself to Bainbridge Target WKYC.com\n8-year-old drives herself to Target, hits mailbox, Bedford Polic\u2026",
-            "url": "https://biztoc.com/x/fc4d885093ef5f75",
-            "urlToImage": "https://biztoc.com/cdn/800/og.png",
-            "publishedAt": "2024-09-16T04:53:08Z",
-            "content": "Missing 8-year-old girl drove moms car to Target and went shopping, Ohio cops say Kansas City StarBedford police: 8-year-old girl found safe after driving herself to Bainbridge Target WKYC.com8-year-\u2026 [+127 chars]"
+            "author": "axios.com",
+            "title": "California to ban all plastic shopping bags at grocery stores after Newsom signs bill",
+            "description": "California is banning all plastic shopping bags at grocery store checkouts under legislation that Gov. Gavin Newsom signed on Sunday.\nWhy it matters: The law that takes effect on Jan. 1, 2026, honors the intent of a ban on single-use bags \"enacted 10 years ag\u2026",
+            "url": "https://biztoc.com/x/b2cf36f1565e3e39",
+            "urlToImage": "https://biztoc.com/cdn/b2cf36f1565e3e39_s.webp",
+            "publishedAt": "2024-09-23T04:28:08Z",
+            "content": "California is banning all plastic shopping bags at grocery store checkouts under legislation that Gov. Gavin Newsom signed on Sunday.Why it matters: The law that takes effect on Jan. 1, 2026, honors \u2026 [+134 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Livemint"
+                "name": "Slashdot.org"
             },
-            "author": "Pratishtha Bagai, Gaurav Laghate",
-            "title": "Snapchat bets on creators in smaller cities to tap into Indian market",
-            "description": "With over 200 million monthly active users in India, the platform is offering incentives to attract regional creators to monetise content by sharing relatable experiences",
-            "url": "https://www.livemint.com/industry/snapchat-creator-economy-boom-tier-ii-tier-iii-cities-11726388690791.html",
-            "urlToImage": "https://www.livemint.com/lm-img/img/2024/09/15/1600x900/snapchat-kg7E--_1726409586477_1726409586643.JPG",
-            "publishedAt": "2024-09-16T04:31:21Z",
-            "content": "Snapchat, the American multimedia instant messaging app, is looking to capitalise on India's booming creator economy, especially in smaller cities and towns, by offering multiple monetization options\u2026 [+5327 chars]"
+            "author": "feedfeeder",
+            "title": "California Gov. Gavin Newsom signs plastic grocery bag ban - KTLA Los Angeles",
+            "description": "California Gov. Gavin Newsom signs plastic grocery bag banKTLA Los Angeles Governor signs California plastic bag bill into lawLos Angeles Times California Gov. Gavin Newsom signs grocery plastic bag banKRON4 California governor signs law banning all plastic s\u2026",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=175109075",
+            "urlToImage": null,
+            "publishedAt": "2024-09-23T04:13:02Z",
+            "content": "Check out the new Slashdot job board to browse remote jobs or jobs in your areaDo you develop on GitHub? You can keep using GitHub but automatically sync your GitHub releases to SourceForge quickly a\u2026 [+228 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Naftemporiki.gr"
+                "name": "AdExchanger"
             },
-            "author": "newsroom",
-            "title": "The goals of Ellinikon can be met despite the difficulties",
-            "description": "Lamda Development remains committed to the goal of completing the first phase of the project in Ellinikon in 2026 to 2027.\nAccording to Haris Goritsas (Chief Financial Officer) and Apostolos\u2026\nThe goals of Ellinikon can be met despite the difficulties - \u0397 \u039d\u0391\u03a5\u03a4\u2026",
-            "url": "https://www.naftemporiki.gr/english/1767324/the-goals-of-ellinikon-can-be-met-despite-the-difficulties/",
-            "urlToImage": "https://www.naftemporiki.gr/wp-content/uploads/2024/05/Lamda_Development_The-Ellinikon.jpg",
-            "publishedAt": "2024-09-16T04:28:33Z",
-            "content": "Lamda Development remains committed to the goal of completing the first phase of the project in Ellinikon in 2026 to 2027.\r\nAccording to Haris Goritsas (Chief Financial Officer) and Apostolos Zafolia\u2026 [+1921 chars]"
+            "author": "AdExchanger",
+            "title": "Google vs. Global Watchdogs; Is Meta Buggier Than Ever?",
+            "description": "The EU is preparing charges against Alphabet for breaching the Digital Markets Act. Plus: Meta's ad platform has been quite buggy lately.\nThe post Google vs. Global Watchdogs; Is Meta Buggier Than Ever? appeared first on AdExchanger.",
+            "url": "http://www.adexchanger.com/daily-news-roundup/monday-23092024/",
+            "urlToImage": "https://www.adexchanger.com/wp-content/uploads/2024/09/metaverse_EmptyVerse-comic_700.jpg",
+            "publishedAt": "2024-09-23T04:03:12Z",
+            "content": "Heres todays AdExchanger.com news round-up Want it by email? Sign up\u00a0here.\r\nBaa Ram EU\r\nForget about the US antitrust trial for a second; its time to see what Googles getting in trouble for across th\u2026 [+3582 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Lewrockwell.com"
+                "name": "WWD"
             },
-            "author": "No Author",
-            "title": "Towards an \u2018Oppressive Digital New World Order\u2019",
-            "description": "In less than two weeks, the United Nations will present during a special session \u2013 22 and 23 September \u2014 of their 2024 UN annual meeting in New York, the\u00a0World of The Future. It is a fully digitized world. For the UN AG meeting, a \u201cpackage\u201d of global digitiza\u2026",
-            "url": "https://www.lewrockwell.com/2024/09/no_author/towards-an-oppressive-digital-new-world-order/",
-            "urlToImage": "https://lrc-cdn.s3.amazonaws.com/assets/2021/02/LRC-share.jpg",
-            "publishedAt": "2024-09-16T04:01:00Z",
-            "content": "In less than two weeks, the United Nations will present during a special session 22 and 23 September of their 2024 UN annual meeting in New York, the\u00a0World of The Future. It is a fully digitized worl\u2026 [+6762 chars]"
+            "author": "Ryma Chikhoune",
+            "title": "Dior Opens Boutique in Canc\u00fan: A First\u00a0Look",
+            "description": "Dior has unveiled a boutique in Canc\u00fan, marking its sixth location in Mexico.",
+            "url": "http://wwd.com/business-news/real-estate/dior-opens-boutique-cancun-mexico-1236637164/",
+            "urlToImage": "https://wwd.com/wp-content/uploads/2024/09/DSC01681.jpg?w=1000&h=563&crop=1",
+            "publishedAt": "2024-09-23T04:01:00Z",
+            "content": "Dior has landed on the coast of Mexico.\r\nThe French luxury house unveils a new boutique in Canc\u00fan, the tropical holiday destination on the Yucat\u00e1n Peninsula bordering the Caribbean Sea.\r\nLocated at t\u2026 [+1583 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Digiday"
+            },
+            "author": "Marty Swant",
+            "title": "AI Briefing: This startup is using Salesforce for its AI-powered semantic search for e-commerce",
+            "description": "Vantage Discovery, co-founded by former Pinterest execs, has built a new app built atop Salesforce\u2019s Commerce Cloud to provide semantic search on retailers\u2019 websites.",
+            "url": "http://digiday.com/media/ai-briefing-this-startup-is-using-salesforce-for-its-ai-powered-semantic-search-for-e-commerce/",
+            "urlToImage": "https://digiday.com/wp-content/uploads/sites/3/2022/05/Screen-Shot-2022-05-24-at-7.02.10-PM.png",
+            "publishedAt": "2024-09-23T04:01:00Z",
+            "content": "As tech companies integrate large language models into various search platforms, a pair of Pinterest veterans hope their startups new integration with Salesforce will improve AI-powered search for\u00a0e-\u2026 [+10258 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Digiday"
+            },
+            "author": "Michael B\u00fcrgi",
+            "title": "Media Buying Briefing: Who controls the balance of power between retail media and media agencies?",
+            "description": "It may not be the only one in the marketing landscape, but there\u2019s a power struggle happening in the world of commerce media. It\u2019s a tale as old as Amazon itself \u2014 and for the record, Amazon is 30 years old.",
+            "url": "http://digiday.com/media-buying/media-buying-briefing-who-controls-the-balance-of-power-between-retail-media-and-media-agencies/",
+            "urlToImage": "https://digiday.com/wp-content/uploads/sites/3/2022/05/balance.jpg",
+            "publishedAt": "2024-09-23T04:01:00Z",
+            "content": "This Media Buying Briefing covers the latest in agency news and media buying for Digiday+ members and is distributed over email every Monday at 10 a.m. ET. More from the series \u2192It may not be the onl\u2026 [+8296 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "HYPEBEAST"
+            },
+            "author": "info@hypebeast.com (Hypebeast)",
+            "title": "Lanc\u00f4me Revolutionizes the Travel Retail Experience with the G\u00e9nifique Ultimate Traveler\u2019s Repair Clinic",
+            "description": "Lanc\u00f4me is elevating the travel experience at Singapore Changi Airport with the unveiling of the G\u00e9nifique Ultimate Traveler\u2019s Repair Clinic \u2014 the largest activation ever in the Terminal 1 Central Piazza. In partnership with the best-in-class Shilla Duty-Free\u2026",
+            "url": "https://hypebeast.com/2024/9/lancome-revolutionizes-travel-retail-experience-genifique-ultimate-travelers-repair-clinic-singapore",
+            "urlToImage": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2024%2F09%2F20%2FLancome-TW.jpg?w=1080&cbr=1&q=90&fit=max",
+            "publishedAt": "2024-09-23T03:52:13Z",
+            "content": "Lanc\u00f4me is elevating the travel experience at Singapore Changi Airport with the unveiling of the G\u00e9nifique Ultimate Travelers Repair Clinic the largest activation ever in the Terminal 1 Central Piazz\u2026 [+2546 chars]"
         },
         {
             "source": {
                 "id": null,
                 "name": "Forbes"
             },
-            "author": "Kevin Rozario, Contributor, \n Kevin Rozario, Contributor\n https://www.forbes.com/sites/kevinrozario/",
-            "title": "Avolta\u2019s Hudson And Dufry Amp Up Airport Retail Presence With JFK T6 And Pittsburgh Deals",
-            "description": "The agreements will help the Switzerland-based parent duty-free retailer to strengthen its North American footprint.",
-            "url": "https://www.forbes.com/sites/kevinrozario/2024/09/15/avoltas-hudson-and-dufry-amp-up-airport-retail-presence-with-jfk-t6-and-pittsburgh-deals/",
-            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/66e7a45d92ed056244d836f0/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-            "publishedAt": "2024-09-16T03:58:15Z",
-            "content": "Rendering of departure duty-free shops at JFK T6.\r\nPort Authority of New York &amp; New Jersey\r\nAvolta, the worlds biggest airport retailer, will significantly increase its estate in the United State\u2026 [+5801 chars]"
+            "author": "Michael Sheldrick, Contributor, \n Michael Sheldrick, Contributor\n https://www.forbes.com/sites/globalcitizen/people/michaelsheldrick/",
+            "title": "A Step Forward? UN Adopts Pact For The Future As Climate Week Begins",
+            "description": "The Pact's impact is uncertain, but real hope may lie beyond the UN, where thousands are gathering for Climate Week NYC. I spoke with three entrepreneurs coming to NYC.",
+            "url": "https://www.forbes.com/sites/globalcitizen/2024/09/22/a-step-forward-un-adopts-pact-for-the-future-as-climate-week-begins/",
+            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/66f0e47378c0d83a5c73124b/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+            "publishedAt": "2024-09-23T03:49:43Z",
+            "content": "The real hope may lie beyond the UNs hallsin the streets of New York, where thousands of nonprofit ... [+] leaders, advocates, business executives, and artists have gathered for Climate Week NYC.\r\nge\u2026 [+8117 chars]"
+        },
+        {
+            "source": {
+                "id": "buzzfeed",
+                "name": "Buzzfeed"
+            },
+            "author": "Rachelle Yang",
+            "title": "33 Personal Care Products Reviewers Call \"Life Changing\"",
+            "description": "Not to be dramatic, but the Squatty Potty and O'Keefe's lip repair mask might just change your life.View Entire Post \u203a",
+            "url": "https://www.buzzfeed.com/rachelleyang1/life-changing-personal-care-products-an",
+            "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2024-08/16/16/campaign_images/97154670308a/33-personal-care-products-reviewers-called-life-c-3-619-1723825283-17_dblbig.jpg",
+            "publishedAt": "2024-09-23T03:31:02Z",
+            "content": "Pour a capful, then swish and gargle for 30 seconds after you've finished brushing your teeth in the morning and at night.\r\nBuzzFeed Shopping writer Amber Usher swears by this brand (especially the m\u2026 [+1281 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Yahoo Entertainment"
+                "name": "Retireby40.org"
             },
-            "author": "Susan Tompor, Detroit Free Press",
-            "title": "How one mom avoided financial reality as credit card debt piled up",
-            "description": "Some consumers might not see any reduction in rates on credit cards because they're dealing with penalty rates that won't fall with Fed cuts rates.",
-            "url": "https://finance.yahoo.com/news/one-mom-avoided-financial-reality-033427336.html/",
-            "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
-            "publishedAt": "2024-09-16T03:34:27Z",
-            "content": "Jenny Bauman never ran the numbers to try to calculate just how much her credit card debt would end up costing her at frighteningly high interest rates of nearly 30% a year.And she had absolutely no \u2026 [+13669 chars]"
+            "author": "retirebyforty",
+            "title": "My Idea for Long Term Care",
+            "description": "Long term care is a very uncomfortable topic to talk about. The reality is most of us will need long term care at some point. And it will come sooner ... Read more\nThe post My Idea for Long Term Care appeared first on Retire by 40.",
+            "url": "https://retireby40.org/my-idea-for-long-term-care/",
+            "urlToImage": "https://retireby40.org/wp-content/uploads/2024/09/LTC.jpg",
+            "publishedAt": "2024-09-23T03:01:26Z",
+            "content": "Long term care is a very uncomfortable topic to talk about. The reality is most of us will need long term care at some point. And it will come sooner than you think. About 70% of people over 65 need \u2026 [+4069 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "[Removed]"
+                "name": "Forbes"
             },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
+            "author": "Brooke Crothers, Contributor, \n Brooke Crothers, Contributor\n https://www.forbes.com/sites/brookecrothers/",
+            "title": "Finally, Used Tesla Cybertruck Price Drops Below New Price",
+            "description": "It took a while. But used Tesla Cybertruck prices are finally starting to trend below new CT prices.",
+            "url": "https://www.forbes.com/sites/brookecrothers/2024/09/22/finally-used-tesla-cybertruck-price-drops-below-new-price/",
+            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/66f08417cac415e254a115b6/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+            "publishedAt": "2024-09-23T02:26:12Z",
+            "content": "NEW YORK, NEW YORK - JULY 05: A Tesla Cybertruck is seen on display in a Tesla showroom on July 05, ... [+] 2024 in New York City. Tesla's stock rose to 1.1 percent, reaching its longest winning stre\u2026 [+2476 chars]"
+        },
+        {
+            "source": {
+                "id": "buzzfeed",
+                "name": "Buzzfeed"
+            },
+            "author": "Chelsea Stuart",
+            "title": "Just 17 Hair Products To Try Out If Your Routine = Air Dry Only",
+            "description": " heat tools \u2705 let it do its thangView Entire Post \u203a",
+            "url": "https://www.buzzfeed.com/chelseastuart/hair-products-for-air-dry-routine",
+            "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2024-09/16/15/enhanced/fa176f7bd892/original-475-1726499702-2.jpg?crop=3001:1575;0,0%26downsize=1250:*",
+            "publishedAt": "2024-09-23T02:01:03Z",
+            "content": "And here's more from my BF Shopping colleague Melanie Aman:\r\n\"I bleach my dark brown-black Asian hair blonde every six to eight weeks, so I was immediately intrigued when I first heard some stylists \u2026 [+1272 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": "Tiffanie Turnbull - BBC News, Sydney",
+            "title": "Australia supermarkets sued over fake discount claims",
+            "description": "The cost of living crisis has put the grocery chains under increasing scrutiny in the past year.",
+            "url": "https://www.bbc.com/news/articles/cd982y85wg1o?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D",
+            "urlToImage": "https://media.zenfs.com/en/bbc_us_articles_995/9e8439cd4026a165c584009e07be3517",
+            "publishedAt": "2024-09-23T01:45:05Z",
+            "content": "Australia's consumer watchdog is suing the country's two biggest supermarket chains, alleging they falsely claimed to have permanently dropped the prices of hundreds of items.\r\nThe Australian Competi\u2026 [+2622 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BusinessLine"
+            },
+            "author": "K  NITYA KALYANI",
+            "title": "A \u2018standard\u2019 parameter that helps decide the right cover",
+            "description": "The Arogya Sanjeevani policy serves as a reference point for hospitalisation policies. The only effort you have to make is to decide which company you want to buy the policy from",
+            "url": "https://www.thehindubusinessline.com/portfolio/personal-finance/a-standard-parameter-that-helps-decide-the-right-cover/article68671567.ece",
+            "urlToImage": "https://bl-i.thgim.com/public/incoming/zeukc4/article68631459.ece/alternates/LANDSCAPE_1200/PO15_Health_insurance.jpg",
+            "publishedAt": "2024-09-23T01:45:00Z",
+            "content": "The standardised policy mandated by the insurance regulator can serve as a sample, or reference point, using which you can make sense of other policies that are available on the market.\r\nAs we saw in\u2026 [+2721 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "STLtoday.com"
+            },
+            "author": "By Lynn Worthy St. Louis Post-Dispatch",
+            "title": "Cardinals veteran cornerstones look to the future after 2-1 victory in home finale",
+            "description": "Cardinals Willson Contreras, Nolan Arenado and Paul Goldschmidt discussed the offensive struggles this season and the uncertainty ahead.",
+            "url": "https://www.stltoday.com/sports/professional/mlb/cardinals/cardinals-veteran-cornerstones-look-to-the-future-after-2-1-victory-in-home-finale/article_7d71e99a-7922-11ef-bcde-d7e210fc45cb.html",
+            "urlToImage": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/7/d7/7d71e99a-7922-11ef-bcde-d7e210fc45cb/66f0c87968236.preview.jpg?crop=1763%2C926%2C0%2C124&resize=1200%2C630&order=crop%2Cresize",
+            "publishedAt": "2024-09-23T01:45:00Z",
+            "content": "Cardinals first baseman Paul Goldschmidt makes a throw in a game against Cleveland on Sunday, Sept. 22, 2024, at Busch Stadium, possibly his final home contest with the club.\r\nJeff Roberson, Associat\u2026 [+10435 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Languagehat.com"
+            },
+            "author": "languagehat",
+            "title": "More Old Bones.",
+            "description": "At the request of Yamnaya fans, herewith a new catchall everything-paleogenetic thread! Have at it, DNA lovers\u2026",
+            "url": "https://languagehat.com/more-old-bones/",
             "urlToImage": null,
-            "publishedAt": "2024-09-16T03:34:20Z",
-            "content": "[Removed]"
+            "publishedAt": "2024-09-23T01:43:00Z",
+            "content": "Commented-On Language Hat Posts (courtesy of J.C.; contains useful Random Link feature)\r\nMy Languages\r\nMy Hats\r\nE-mail:languagehat AT gmail DOT com\r\nMy name is Steve Dodson; I\u2019m a retired copyeditor \u2026 [+1674 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "FOX 9"
-            },
-            "author": "Leah Beno",
-            "title": "How grocery prices in Minnesota have increased since 2020",
-            "description": "Grocery prices have increased a steady amount since 2020. FOX 9 compared the prices at three different local grocery stores to see how much prices have changed.",
-            "url": "https://www.fox9.com/news/grocery-prices-minnesota-increase",
-            "urlToImage": "https://images.foxtv.com/static.fox9.com/www.fox9.com/content/uploads/2024/09/1280/720/snh-grocery-prices-pkg-leah-beno-091524_KMSP7aab_1_00.00.43.32.jpg?ve=1&tl=1",
-            "publishedAt": "2024-09-16T03:28:33Z",
-            "content": "The Brief\r\n<ul><li><ul><li>Of 60 items compared from 2022 to 2024 across Cub Foods, Hy-Vee, and Target, 10 items decreased in price, 11 stayed the same, and 39 increased.</li><li>Price changes vary b\u2026 [+5878 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "SoraNews24"
-            },
-            "author": "Oona McGee",
-            "title": "How long does it take to order at all SEVEN Starbucks stores at this huge shopping mall in Japan?",
-            "description": "One drink per location, for an epic adventure. When it comes to shopping malls in Japan, it\u2019s hard to beat Aeon Lake Town in terms of size, as it contains more than 700 shops and restaurants in three large complexes that cover an expanse of 224,000 square met\u2026",
-            "url": "https://soranews24.com/2024/09/16/how-long-does-it-take-to-order-at-all-seven-starbucks-stores-at-this-huge-shopping-mall-in-japan/",
-            "urlToImage": "https://soranews24.com/wp-content/uploads/sites/3/2024/09/Starbucks-Japan-coffee-drinks-menu-locations-Koshigaya-Lake-Town-Tokyo-Saitama-Aeon-shopping-mall-22-1.jpg?w=1200&h=630&crop=1",
-            "publishedAt": "2024-09-16T03:00:49Z",
-            "content": "One drink per location, for an epic adventure.\r\nWhen it comes to shopping malls in Japan, it\u2019s hard to beat Aeon Lake Town in terms of size, as it contains more than 700 shops and restaurants in thre\u2026 [+4607 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Investing.com"
-            },
-            "author": "Reuters",
-            "title": "India accuses Samsung, Xiaomi of colluding with Amazon, Flipkart",
-            "description": "India accuses Samsung, Xiaomi of colluding with Amazon, Flipkart",
-            "url": "https://www.investing.com/news/economy-news/india-accuses-samsung-xiaomi-of-colluding-with-amazon-flipkart-3616593",
-            "urlToImage": "https://i-invdn-com.investing.com/news/STOCK-EXCHANGE-RUSSIAN-TRADING-SYSTEMS_800x533_L_1414427815.jpg",
-            "publishedAt": "2024-09-16T02:31:37Z",
-            "content": "By Aditya Kalra\r\nNEW DELHI (Reuters) -Samsung, Xiaomi (OTC:XIACF) and other smartphone companies colluded with Amazon (NASDAQ:AMZN) and Walmart (NYSE:WMT)'s Flipkart to exclusively launch products on\u2026 [+4015 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Motley Fool Australia"
-            },
-            "author": "Tristan Harrison",
-            "title": "These 3 ASX index-beaters are setting new records today (I'd still buy)",
-            "description": "I think these stocks still have plenty of growth potential. \nThe post These 3 ASX index-beaters are setting new records today (I'd still buy) appeared first on The Motley Fool Australia.",
-            "url": "https://www.fool.com.au/2024/09/16/these-3-asx-index-beaters-are-setting-new-records-today-id-still-buy/",
-            "urlToImage": "https://www.fool.com.au/wp-content/uploads/2024/09/strong-kids-16.9-1200x675.jpg",
-            "publishedAt": "2024-09-16T02:19:49Z",
-            "content": "It's a great time to be an ASX share market investor because the S&amp;P/ASX 200 Index (ASX: XJO) just hit a new 52-week high of 8,144 points. That also suggests a number of the underlying businesses\u2026 [+2739 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Twistedsifter.com"
-            },
-            "author": "Matthew Gilligan",
-            "title": "Lowe\u2019s Shopper Warned People About Getting The Store\u2019s Credit Card. \u2013 \u2018They changed their interest rate on the card, but failed to notify me.\u2019",
-            "description": "He is not a happy camper...",
-            "url": "http://twistedsifter.com/2024/09/lowes-shopper-warned-people-about-getting-the-stores-credit-card-they-changed-their-interest-rate-on-the-card-but-failed-to-notify-me/",
-            "urlToImage": "https://twistedsifter.com/wp-content/uploads/2024/09/tiktoklowescc.png",
-            "publishedAt": "2024-09-16T01:46:21Z",
-            "content": "Beware of credit cards from Lowe\u2019s!\r\nThat\u2019s according to a man named Shawn who took to TikTok to voice his displeasure with the hardware mega-chain.\r\nShawn told viewers, I just canceled my Lowes rewa\u2026 [+1915 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Inside the Magic"
-            },
-            "author": "Krysten Swensen",
-            "title": "\u2018Harry Potter\u2019 Fans Rejoice! There Are Now MORE Places to Buy Butterbeer!",
-            "description": "When\u00a0Harry Potter and the Philosopher\u2019s Stone\u00a0(or\u00a0Sorcerer\u2019s Stone in the US) was published in 1997, fans were brought into a new world, one full of magic, mystery, murder, and treats that would make their mouths water. The treats and dishes that Harry and hi\u2026",
-            "url": "https://insidethemagic.net/2024/09/new-butterbeer-locations-universal-orlando-ks1/",
-            "urlToImage": "https://insidethemagic.net/wp-content/uploads/2024/09/Butterbeer-Sold-Outside-Universal-Parks.jpg",
-            "publishedAt": "2024-09-16T01:15:14Z",
-            "content": "When\u00a0Harry Potter and the Philosopher\u2019s Stone\u00a0(or\u00a0Sorcerer\u2019s Stone in the US) was published in 1997, fans were brought into a new world, one full of magic, mystery, murder, and treats that would make\u2026 [+2690 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "mindbodygreen.com"
-            },
-            "author": "https://www.facebook.com/QiAlchemyWellness",
-            "title": "Eat Fruit Is A++ For Supporting Healthy Metabolism & Blood Pressure",
-            "description": "Here's how to turn it into a delicious warming tea.",
-            "url": "https://www.mindbodygreen.com/articles/best-way-to-pick-and-prepare-persimmons-from-herbalist",
-            "urlToImage": "https://mindbodygreen-res.cloudinary.com/image/upload/c_fill,w_2000,h_1200,g_auto,fl_lossy,f_jpg/org/sibue41f1jqzcyjzp.jpg",
-            "publishedAt": "2024-09-16T01:15:00Z",
-            "content": "In Korea, folktales reflect the enduring culture of our people, thoughts and dreams about nature, and the relationship between humans and nature.\r\nOne of my favorite folktales is the \"Tiger and Persi\u2026 [+5536 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "PEOPLE"
-            },
-            "author": "Stephanie Wenger",
-            "title": "Jean Smart Jokes I 'Don't Get Enough Attention' as She Wins at Emmys 2024",
-            "description": "Jean Smart won outstanding actress in a comedy series at the Emmy Awards 2024 over Ayo Edebiri, Kristen Wiig, Maya Rudolph, Quinta Brunson and Selena Gomez",
-            "url": "https://people.com/jean-smart-wins-outstanding-actress-in-a-comedy-series-emmys-2024-8706292",
-            "urlToImage": "https://people.com/thmb/tKM0e1m85Yy4KJ37EyNbaMWwkMA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/Jean-Smart-2024-Emmys-091524-4a8a8bd254a64332a3b53b990abf7200.jpg",
-            "publishedAt": "2024-09-16T01:04:32Z",
-            "content": "It was a night to remember for Jean Smart!\r\nThe Hacks star clinched the honor of outstanding actress in a comedy series at the Emmy Awards 2024 on Sunday, Sept. 15, beginning her speech, \"Thank you. \u2026 [+5921 chars]"
-        },
-        {
-            "source": {
-                "id": "breitbart-news",
-                "name": "Breitbart News"
-            },
-            "author": "Warner Todd Huston, Warner Todd Huston",
-            "title": "Small Town in Crisis: Charleroi, PA, Is a Case Study in Biden-Harris Border Policy Failures",
-            "description": "The small Pennsylvania town of Charleroi has been stunned by the federal government's deliberate one-two punch of economic devastation and out-of-control migration.\nThe post Small Town in Crisis: Charleroi, PA, Is a Case Study in Biden-Harris Border Policy Fa\u2026",
-            "url": "https://www.breitbart.com/immigration/2024/09/15/charleroi-pennsylvania-case-study-biden-harris-border-policy-failures/",
-            "urlToImage": "https://media.breitbart.com/media/2024/09/Pyrex-factory-Charleroi-Pennsylvania-File-Feb2016-getty-640x335.jpg",
-            "publishedAt": "2024-09-16T00:47:11Z",
-            "content": "The small Pennsylvania town of Charleroi has been stunned by the federal government\u2019s deliberate one-two punch of economic devastation and out-of-control migration.\r\nFree trade has allowed major inve\u2026 [+13075 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "Pranav Mukul",
-            "title": "Quick commerce is solving 'returns' question to ace fashion ecommerce",
-            "description": "Quick commerce is spreading its wings to include consumer electronics, lifestyle, and fashion in its scope. The main players in the space are looking to address one of the biggest pain points of online fashion shopping\u2014returns and exchanges.",
-            "url": "https://economictimes.indiatimes.com/tech/technology/quick-commerce-is-solving-returns-question-to-ace-fashion-ecommerce/articleshow/113373688.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-113373713,width-1200,height-630,imgsize-2761778,overlay-ettech/photo.jpg",
-            "publishedAt": "2024-09-16T00:30:00Z",
-            "content": "As quick commerce firms expand further into delivering apparel and lifestyle products in 10 minutes, they are looking to address one of the biggest pain points of online fashion shopping - returns an\u2026 [+2826 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Eonline.com"
+                "name": "BBC News"
             },
             "author": null,
-            "title": "Ian Somerhalder Shares an Important Lesson He's Teaching His Kids",
-            "description": "The\u00a0Lost alum's latest interview took place two days before he hosted a farmer's market for dogs at Los Angeles' The Grove shopping center as part of his partnership with Nutro, which had in\u00a02022...",
-            "url": "https://www.eonline.com/news/1407357/ian-somerhalder-shares-an-important-lesson-hes-teaching-his-kids",
-            "urlToImage": "https://akns-images.eonline.com/eol_images/Entire_Site/2024815/rs_1200x1200-240915155719-1200-ian-somerhalder-nutro-event-cjh-091424.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
-            "publishedAt": "2024-09-16T00:29:00Z",
-            "content": "Ian continued, \"People have some corn, and I've got beans. And it's just very cool. It's like the way it used to be done, and it feels far and I'm not trying to sound like sort of incendiary or anyth\u2026 [+900 chars]"
+            "title": "Australia supermarkets sued over fake discounts claims",
+            "description": "The cost of living crisis has put the grocery chains under increasing scrutiny in the past year.",
+            "url": "https://www.bbc.com/news/articles/cd982y85wg1o",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/5754/live/68af9850-7944-11ef-b02d-c5f3b724a1ea.jpg",
+            "publishedAt": "2024-09-23T01:27:25Z",
+            "content": "Australia's consumer watchdog is suing the country's two biggest supermarket chains, alleging they falsely claimed to have permanently dropped the prices of hundreds of items.\r\nThe Australian Competi\u2026 [+2625 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Carlyriordan.com"
+                "name": "Metafilter.com"
             },
-            "author": "carly",
-            "title": "STYLE INSPIRATION FOR FALL 2024",
-            "description": "I\u2019m constantly reevaluating my style\u2013 especially in my mid 30s. A lot has changed in my life in the last five years and my style reflects that, for sure. I moved to the suburbs. survived a pandemic, got married, was pregnant multiple times, had two children. \u2026",
-            "url": "https://carlyriordan.com/style-inspiration-for-fall-2024.html",
-            "urlToImage": null,
-            "publishedAt": "2024-09-16T00:00:46Z",
-            "content": "I\u2019m constantly reevaluating my style especially in my mid 30s. A lot has changed in my life in the last five years and my style reflects that, for sure. I moved to the suburbs. survived a pandemic, g\u2026 [+1010 chars]"
+            "author": "vunder",
+            "title": "What's nice in Colonia Santa Fe, CDMX?",
+            "description": "I'm going to Mexico City for work. Because it's for work, I'm staying in Santa Fe, which I understand is pretty far from places in CDMX that people like to visit and maybe not that interesting in itself.I'm expecting to have a free day and/or half day, maybe \u2026",
+            "url": "https://ask.metafilter.com/382221/Whats-nice-in-Colonia-Santa-Fe-CDMX",
+            "urlToImage": "http://cdn.mefi.us/images/askmefi/apple-touch-icon.png",
+            "publishedAt": "2024-09-23T01:21:03Z",
+            "content": "Im expecting to have a free day and/or half day, maybe a free evening. I speak Spanish quite well and am comfortable solo in Latin American cities, but am also a solo (middle aged) woman and want to \u2026 [+570 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Mckinsey.com"
+                "name": "Philippine Star"
             },
-            "author": null,
-            "title": "Understanding what neurodivergent employees need to succeed",
-            "description": "Neurodivergent people make up a substantial percentage of the global population. How can companies best put their distinctive capabilities to work?",
-            "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/understanding-what-neurodivergent-employees-need-to-succeed",
-            "urlToImage": "https://www.mckinsey.com/~/media/mckinsey/business%20functions/people%20and%20organizational%20performance/our%20insights/understanding%20what%20neurodivergent%20employees%20need%20to%20succeed/understanding-what-neurodivergent-employees-need-to-succeed-1497220733-thumb-1536x1536.jpg",
-            "publishedAt": "2024-09-16T00:00:00Z",
-            "content": "Workers with neurodivergent diagnoses such as autism, dyslexia, and attention deficit hyperactivity disorder could radically improve organizations ability to innovate if employers better understand t\u2026 [+14284 chars]"
+            "author": "Pat-p Daza",
+            "title": "Why India is now on my travel bucket list",
+            "description": "I had lunch last week at an Indian restaurant with Victor \u201cBinky\u201d Dizon, one of the founders of A2A Safaris, a company he co-founded 22 years ago with his partner, Jose Cortez. At that time, in 2002, A2A was the only company in Asia that specialized in arrang\u2026",
+            "url": "https://www.philstar.com/entertainment/2024/09/23/2387195/why-india-now-my-travel-bucket-list",
+            "urlToImage": "https://media.philstar.com/photos/2024/09/22/2-1_2024-09-22_19-27-30.jpg",
+            "publishedAt": "2024-09-23T01:20:29Z",
+            "content": "I had lunch last week at an Indian restaurant with Victor \u201cBinky\u201d Dizon, one of the founders of A2A Safaris, a company he co-founded 22 years ago with his partner, Jose Cortez. At that time, in 2002,\u2026 [+4256 chars]"
+        },
+        {
+            "source": {
+                "id": "buzzfeed",
+                "name": "Buzzfeed"
+            },
+            "author": "Rachelle Yang",
+            "title": "28 Unique Home Decor Pieces To Add A Little Spice To Your Living Space",
+            "description": "\"Words cannot express how magical and gorgeous it is.\" \u2014a reviewer absolutely raving about this flower-shaped candle warmerView Entire Post \u203a",
+            "url": "https://www.buzzfeed.com/rachelleyang1/unique-home-decor-pieces-spice-up-living-space",
+            "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2024-09/12/16/enhanced/c2ea20aa1792/original-674-1726159258-3.jpg?crop=3009:1575;0,0%26downsize=1250:*",
+            "publishedAt": "2024-09-23T01:01:02Z",
+            "content": "Here's why BuzzFeed Shopping editor\u00a0Elizabeth Lilly\u00a0loves this:\r\n\"I, an adult woman, cannot remember the last time I bought a box of tissues for my home. (Though I have several purse packs?!) It may \u2026 [+947 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Star Online"
+            },
+            "author": "The Star Online",
+            "title": "Here\u2019s one reason why young people are still using Facebook",
+            "description": "Facebook may have a reputation as an ageing site, but the social network consistently tops the list of most-used platforms. This success is largely due to its Marketplace. Read full story",
+            "url": "https://www.thestar.com.my/tech/tech-news/2024/09/23/heres-one-reason-why-young-people-are-still-using-facebook",
+            "urlToImage": "https://apicms.thestar.com.my/uploads/images/2024/09/23/2925972.jpg",
+            "publishedAt": "2024-09-23T01:00:00Z",
+            "content": "Facebook may have a reputation as an ageing site, but the social network consistently tops the list of most-used platforms. This success is largely due to its Marketplace. Reminiscent of local yard s\u2026 [+2604 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Rappler"
+            },
+            "author": "Kaycee Valmonte",
+            "title": "Inside the new store in town: Spatio gives curated designers, Filipino brands a home",
+            "description": "\"Our priority is to perfect this concept and fully meet our customers' expectations before considering any expansion opportunities for the brand,\" says Spatio Deputy General Manager Martin de Leon",
+            "url": "https://www.rappler.com/business/things-to-know-spatio-concept-store-opus-mall-quezon-city/",
+            "urlToImage": "https://www.rappler.com/tachyon/2024/09/IMG_8865-scaled.jpeg",
+            "publishedAt": "2024-09-23T00:57:23Z",
+            "content": "MANILA, Philippines \u00a0A new concept store just launched at the newly-opened Opus Mall in Bridgetowne, Quezon City. \r\n\u201cSpatio\u201d is Robinsons Land Corporation\u2019s new three-level concept store that starts \u2026 [+4056 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Thegospelcoalition.org"
+            },
+            "author": "Sarah Smith",
+            "title": "Secondhand Wisdom",
+            "description": "One day, the op shop shelves tell me, my children will be sifting through my things and there\u2019ll be a skip bin and some charity drop-offs involved. It\u2019s a great reminder how: \u201cSurely the people are grass.\u00a0The grass withers and the flowers fall, but the word o\u2026",
+            "url": "https://au.thegospelcoalition.org/article/secondhand-wisdom/",
+            "urlToImage": "https://media.thegospelcoalition.org/wp-content/uploads/sites/3/2024/09/19191004/Image-Op-Shop-By-Prudence-Earl-on-Unsplash.jpg",
+            "publishedAt": "2024-09-23T00:51:57Z",
+            "content": "The op shop is unique in that you can walk into a roomsometimes a small oneand find something for every life stage, from baby cots to tennis racquets to walking frames. Having op shopped since I was \u2026 [+4481 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "PC Gamer"
+            },
+            "author": "shaun.prescott@futurenet.com (Shaun Prescott)",
+            "title": "Five new Steam games you probably missed (September 23, 2024)",
+            "description": "Sorting through every new game on Steam so you don't have to.",
+            "url": "https://www.pcgamer.com/software/platforms/five-new-steam-games-you-probably-missed-september-23-2024/",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/6sMnnQHCLsxLwFVQ9hyKyb-1200-80.jpg",
+            "publishedAt": "2024-09-23T00:30:08Z",
+            "content": "On an average day about a dozen new games are released on Steam. And while we think that's a good thing, it can be understandably hard to keep up with. Potentially exciting gems are sure to be lost i\u2026 [+3600 chars]"
+        },
+        {
+            "source": {
+                "id": "al-jazeera-english",
+                "name": "Al Jazeera English"
+            },
+            "author": "John Power",
+            "title": "After vowing to halt Japan\u2019s economic decline, Kishida leaves mixed legacy",
+            "description": "Japanese leader's 'new capitalism' produced some positive results but economy still faces major obstacles, analysts say.",
+            "url": "https://www.aljazeera.com/economy/2024/9/23/after-vowing-to-halt-japans-economic-decline-kishida-leaves-mixed-legacy",
+            "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2024/09/AFP__20240712__2161629729__v3__HighRes__WorldLeadersAttendNatoSummitInWashingtonDC-1725848430_13dab5-1725848473.jpg?resize=1200%2C630&quality=80",
+            "publishedAt": "2024-09-23T00:23:53Z",
+            "content": "In his first policy address after taking office in October 2021, Japanese Prime Minister Fumio Kishida pledged to faithfully rebuild the economy after three decades of stagnation.\r\nIn a speech to par\u2026 [+7961 chars]"
+        },
+        {
+            "source": {
+                "id": "news-com-au",
+                "name": "News.com.au"
+            },
+            "author": "Blair Jackson",
+            "title": "ACCC takes Coles, Woolies to court over alleged dodgy sale prices",
+            "description": "The consumer watchdog is taking Coles and Woolworths to court for allegedly jacking up prices and then only marginally dropping them under their respective \u2018Prices Dropped\u2019 and \u2018Down Down\u2019 campaigns.",
+            "url": "https://www.news.com.au/finance/business/accc-takes-coles-and-woolies-to-court-over-alleged-dodgy-sale-prices/news-story/0565df6a9f293711a0a4ad951a8801a3",
+            "urlToImage": "https://content.api.news/v3/images/bin/c4c6912f71fac39d90475fb33af6eac7",
+            "publishedAt": "2024-09-23T00:19:50Z",
+            "content": "The consumer watchdog is taking Coles and Woolworths to court for allegedly jacking up prices and then only marginally dropping them under their respective \u2018Prices Dropped\u2019 and \u2018Down Down\u2019 campaigns.\u2026 [+5938 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ETF Daily News"
+            },
+            "author": "MarketBeat News",
+            "title": "Head to Head Comparison: Marcus (NYSE:MCS) & Cineplex (OTCMKTS:CPXGF)",
+            "description": "Cineplex (OTCMKTS:CPXGF \u2013 Get Free Report) and Marcus (NYSE:MCS \u2013 Get Free Report) are both communication services companies, but which is the superior investment? We will contrast the two companies based on the strength of their analyst recommendations, inst\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/22/head-to-head-comparison-marcus-nysemcs-cineplex-otcmktscpxgf/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/marcus-corp-logo-1200x675.png?v=20191105143509&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-23T00:18:53Z",
+            "content": "Cineplex (OTCMKTS:CPXGF \u2013 Get Free Report) and Marcus (NYSE:MCS \u2013 Get Free Report) are both communication services companies, but which is the superior investment? We will contrast the two companies \u2026 [+5956 chars]"
+        },
+        {
+            "source": {
+                "id": "financial-post",
+                "name": "Financial Post"
+            },
+            "author": "Bloomberg News",
+            "title": "Coles, Woolworths Sued by Regulator for Misleading Discounts",
+            "description": "Coles Group Ltd. and Woolworths Group Ltd., Australia\u2019s two biggest supermarket chains, have been sued by the country\u2019s competition regulator over claims they misled shoppers over discounting claims on hundreds of common products.",
+            "url": "https://financialpost.com/pmn/business-pmn/coles-woolworths-sued-by-regulator-for-misleading-discounts",
+            "urlToImage": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2024/09/776021341.jpg",
+            "publishedAt": "2024-09-23T00:09:27Z",
+            "content": "Coles Group Ltd. and Woolworths Group Ltd., Australias two biggest supermarket chains, have been sued by the countrys competition regulator over claims they misled shoppers over discounting claims on\u2026 [+5140 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Gizchina.com"
+            },
+            "author": "Marco Lancaster",
+            "title": "Lenovo Legion Y700 (2024) Gaming Tablet Has Its Design Revealed",
+            "description": "Lenovo has officially revealed the design of its upcoming Legion Y700 (2024) gaming tablet. The device features a stylish matte black finish and a straight-edge ...\nThe post Lenovo Legion Y700 (2024) Gaming Tablet Has Its Design Revealed appeared first on Giz\u2026",
+            "url": "https://www.gizchina.com/2024/09/22/lenovo-legion-y700-2024-gaming-tablet/",
+            "urlToImage": "https://www.gizchina.com/wp-content/uploads/images/2024/09/imagem_2024-09-22_210817650.png",
+            "publishedAt": "2024-09-23T00:08:49Z",
+            "content": "Lenovo has officially revealed the design of its upcoming Legion Y700 (2024) gaming tablet. The device features a stylish matte black finish and a straight-edge design, giving it a modern and sophist\u2026 [+2103 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "STLtoday.com"
+            },
+            "author": "From staff, wire reports",
+            "title": "Mizzou falls to No. 11 in this week's college football polls",
+            "description": "Tigers drop from No. 7 after needing double overtime to beat Vanderbilt.",
+            "url": "https://www.stltoday.com/sports/college/mizzou/mizzou-falls-to-no-11-in-this-weeks-college-football-polls/article_66c41242-792f-11ef-a57f-bffc1cdc7f98.html",
+            "urlToImage": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/6/6c/66c41242-792f-11ef-a57f-bffc1cdc7f98/66f0b186b15e6.preview.jpg?crop=1726%2C906%2C0%2C147&resize=1200%2C630&order=crop%2Cresize",
+            "publishedAt": "2024-09-23T00:00:00Z",
+            "content": "Missouri kicker Blake Craig holds his hands up in disbelief after missing on a field-goal attempt in the second half of a game against Vanderbilt on Saturday, Sept. 21, 2024, in Columbia, Mo.\r\nZachar\u2026 [+6143 chars]"
         }
     ]
 }

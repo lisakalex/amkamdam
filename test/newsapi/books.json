@@ -1,19 +1,58 @@
 {
     "status": "ok",
-    "totalResults": 61,
+    "totalResults": 53,
     "articles": [
         {
             "source": {
                 "id": null,
-                "name": "Curbed"
+                "name": "Ipspace.net"
             },
-            "author": "craniac",
-            "title": "https://www.curbed.com/article/robert-caro-power-broker-lyndon-johnson-book-interview.html",
-            "description": "Robert Caro\u2019s \u2018The Power Broker\u2019 is turning 50. The final Lyndon B. Johnson book is almost \u2014 well, he won\u2019t say exactly, but he\u2019s trying for 900 words a day.",
-            "url": "http://www.curbed.com/article/robert-caro-power-broker-lyndon-johnson-book-interview.html",
-            "urlToImage": "https://pyxis.nymag.com/v1/imgs/bca/884/dc219ace7085e055191745707ccfa58d27-Robert-Caro-lede.1x.rsocial.w1200.jpg",
-            "publishedAt": "2024-09-16T05:47:02Z",
-            "content": "This article was featured in One Great Story, New Yorks reading recommendation newsletter. Sign up here to get it nightly.\r\nAs I arrive at Robert Caros house, down a rutted, unpaved road in East Hamp\u2026 [+22960 chars]"
+            "author": null,
+            "title": "IBGP Load Balancing with BGP Link Bandwidth",
+            "description": "In the previous BGP load balancing lab exercise, I described the BGP Link Bandwidth attribute and how you can use it on EBGP sessions. This lab moves the unequal-cost load balancing into your network; we\u2019ll use the BGP Link Bandwidth attribute on IBGP session\u2026",
+            "url": "https://blog.ipspace.net/2024/09/bgp-labs-ibgp-link-bandwidth/",
+            "urlToImage": "https://bgplabs.net/lb/topology-lb-ibgp-dmz-bw.png",
+            "publishedAt": "2024-09-23T05:13:00Z",
+            "content": "The author\r\nIvan Pepelnjak (CCIE#1354 Emeritus), Independent Network Architect at ipSpace.net,\r\n has been designing and implementing large-scale data communications networks as well as teaching and w\u2026 [+69 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "HuffPost"
+            },
+            "author": "Ed Mazza",
+            "title": "Blue Wave? Ex-RNC Chair Names 2 Crucial Trump States Harris Will Flip",
+            "description": "The longtime GOP insider delivered a bold prediction that would change the electoral landscape.",
+            "url": "https://www.huffpost.com/entry/michael-steele-harris-flip-states_n_66f0e056e4b0af9094c4ae06",
+            "urlToImage": "https://img.huffingtonpost.com/asset/66f0f6e52300009e00c343ec.jpeg?cache=4Bpx3aTuTO&ops=1200_630",
+            "publishedAt": "2024-09-23T05:12:01Z",
+            "content": "Former Republican National Committee Chair Michael Steele on Sunday predicted that Vice President Kamala Harris will flip two states that Donald Trump has previously won twice.\r\nFlorida and North Car\u2026 [+2984 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Wordpress.org"
+            },
+            "author": "Creta Themes",
+            "title": "FSE Book Store",
+            "description": "FSE Book Store is a versatile and stylish WordPress theme designed specifically for a variety of book-related businesses. Whether you run an independent bookstore, a used bookstore, a rare books store, or a comic book shop, this theme caters to all your needs\u2026",
+            "url": "https://wordpress.org/themes/fse-book-store/",
+            "urlToImage": "https://i0.wp.com/themes.svn.wordpress.org/fse-book-store/1.0.1/screenshot.png",
+            "publishedAt": "2024-09-23T05:11:50Z",
+            "content": "FSE Book Store is a versatile and stylish WordPress theme designed specifically for a variety of book-related businesses. Whether you run an independent bookstore, a used bookstore, a rare books stor\u2026 [+1565 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Anime News Network"
+            },
+            "author": null,
+            "title": "A Series That Has Sold Over 9 Million Copies* TV Anime 'My Happy Marriage' the Long-Awaited Second Season to Air from January 2025",
+            "description": "Including the release of the teaser visual and teaser trailer! With comments from the new cast: Yuya Uchida, Ryotaro Okiayu and Kikuko Inoue! The second...",
+            "url": "https://www.animenewsnetwork.com/press-release/2024-09-23/a-series-that-has-sold-over-9-million-copies-tv-anime-my-happy-marriage-the-long-awaited-second-/.215889",
+            "urlToImage": "",
+            "publishedAt": "2024-09-23T05:02:45Z",
+            "content": "Including the release of the teaser visual and teaser trailer!With comments from the new cast:\r\nYya Uchida, Rytar Okiayu and Kikuko Inoue!\r\nThe second season of TV anime My Happy Marriage has been co\u2026 [+13012 chars]"
         },
         {
             "source": {
@@ -25,47 +64,21 @@
             "description": "[Removed]",
             "url": "https://removed.com",
             "urlToImage": null,
-            "publishedAt": "2024-09-16T05:45:35Z",
+            "publishedAt": "2024-09-23T05:01:41Z",
             "content": "[Removed]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Yahoo Entertainment"
+                "name": "Livemint"
             },
-            "author": "Yahoo Sports",
-            "title": "Week 2 recap: The games, players and moments we care about most | Yahoo Fantasy Forecast",
-            "description": "The second NFL Sunday of the season is in the books and boy there's a lot of new information to digest. Andy Behrens joins Matt Harmon on the newly revamped recap show to breakdown every fantasy angle from all the action on Sunday. Harmon and Behrens reveal t\u2026",
-            "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_ca5d0077-1289-4fa7-bf0b-25ab2f37fa02",
-            "urlToImage": null,
-            "publishedAt": "2024-09-16T05:37:50Z",
-            "content": "If you click 'Accept all', we and our partners, including 239 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use \u2026 [+678 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Mcnews.com.au"
-            },
-            "author": "Motorcycle News",
-            "title": "Tom Drane tops Lake Ozark Short Track season final",
-            "description": "2024 American Flat Track \u2013 Lake Ozark Short Track Images by Kristen Lasser, Lim Lester Parts Unlimited AFT Singles Main Event Kody Kopp closed out the Parts Unlimited AFT Singles season securing the 450 cc championship, needing to merely avoid catastrophe, wi\u2026",
-            "url": "https://www.mcnews.com.au/tom-drane-tops-lake-ozark-short-track-season-final/",
-            "urlToImage": "https://www.mcnews.com.au/wp-content/uploads/2024/09/2024-AFT-American-Flat-Track-Lake-Ozark-ST-Singles-Podium.jpg",
-            "publishedAt": "2024-09-16T05:25:18Z",
-            "content": "2024 American Flat Track \u2013 Lake Ozark Short Track\r\nImages by Kristen Lasser, Lim Lester\r\nParts Unlimited AFT Singles Main Event\r\nKody Kopp closed out the Parts Unlimited AFT Singles season securing t\u2026 [+15337 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Shutterstock (NYSE:SSTK) Stock Rating Upgraded by StockNews.com",
-            "description": "Shutterstock (NYSE:SSTK \u2013 Get Free Report) was upgraded by research analysts at StockNews.com from a \u201chold\u201d rating to a \u201cbuy\u201d rating in a note issued to investors on Saturday. Other analysts have also recently issued reports about the stock. Needham & Company\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/shutterstock-nysesstk-stock-rating-upgraded-by-stocknews-com/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/shutterstock-inc-logo-1200x675.jpg&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:06:49Z",
-            "content": "Shutterstock (NYSE:SSTK \u2013 Get Free Report) was upgraded by research analysts at StockNews.com from a \u201chold\u201d rating to a \u201cbuy\u201d rating in a note issued to investors on Saturday.\r\nOther analysts have al\u2026 [+3755 chars]"
+            "author": "mint",
+            "title": "There are no shortcuts to leadership in the field of semiconductors",
+            "description": "Chip fabrication plants are where silicon wafers transform into the semiconductors that power numerous devices. While much of the world focuses on research papers for innovation, advancements in the production process make them a reality. We have to learn by \u2026",
+            "url": "https://www.livemint.com/opinion/online-views/semiconductors-fabrication-units-chip-manufacturing-technology-innovation-engineering-talent-tsmc-samsung-11727056604354.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2024/09/23/1600x900/g819e456559377224a7483a82e0417e81680d7e046ca90316e_1727056821689_1727056821963.jpg",
+            "publishedAt": "2024-09-23T05:00:10Z",
+            "content": "The semiconductor industry, the bedrock of modern electronics, operates on a scale both microscopic and colossal. Fabs, or semiconductor fabrication plants, are where silicon wafers undergo a complex\u2026 [+4953 chars]"
         },
         {
             "source": {
@@ -73,64 +86,77 @@
                 "name": "Fox Sports"
             },
             "author": null,
-            "title": "2024 NFL odds Week 3: Lines, spreads for all 16 games",
-            "description": "Week 3 is nearly here. Check out the odds for all 16 matchups, beginning with Thursday's AFC East showdown between the Patriots and Jets.",
-            "url": "https://www.foxsports.com/stories/nfl/2024-nfl-week-3-odds-lines-spreads-all-16-games",
-            "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2024/09/1408/814/09-13-nfl_weeklylines_16x9.jpg?ve=1&tl=1",
-            "publishedAt": "2024-09-16T05:02:04Z",
-            "content": "Week 2 of the NFL season is nearly in the books we've still got a Monday night showdown between the Falcons and Eagles.\r\nAfter that, we're on to Week 3.\u00a0\r\nLet's check out the lines for each NFL\r\n gam\u2026 [+6007 chars]"
+            "title": "2024 NFL Week 4 odds, lines, spreads for all 16 games",
+            "description": "NFL Week 4 is nearly upon us. Check out the odds for all 16 matchups!",
+            "url": "https://www.foxsports.com/stories/nfl/2024-nfl-week-4-odds-lines-spreads-all-16-games",
+            "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2024/09/1408/814/09-17-nfl_weeklylines_16x9.jpg?ve=1&tl=1",
+            "publishedAt": "2024-09-23T04:55:16Z",
+            "content": "With Week 3 of the NFL season nearly in the books, we're looking ahead to Week 4.\u00a0\r\nLet's check out the lines for each NFL\r\n game at DraftKings Sportsbook as of Sept. 23.\r\n(All times ET)\r\nTHURSDAY, S\u2026 [+5592 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "[Removed]"
+                "name": "Rlsbb.cc"
             },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
+            "author": "saamaan1@yahoo.com (Master), Master",
+            "title": "Futurama S12E09 1080p WEB H264-SuccessfulCrab",
+            "description": "Season 12, Episode 09 \u2013 \u201cThe Futurama Mystery Liberry\u201dFuturama is reimagined in the form of classic children\u2019s mystery books.Links: HOMEPAGE\u00a0\u2013\u00a0TVMFuturama.S12E09.WEB.x264-TGXMKV | AAC | 153MBNFO - Subtitles \u2013 Screenshot \u2013 Torrent \u2013 FiKPER \u2013 NiTROFLARE \u2013 RAPiD\u2026",
+            "url": "https://rlsbb.cc/futurama-s12e09-1080p-web-h264-successfulcrab/",
             "urlToImage": null,
-            "publishedAt": "2024-09-16T05:00:00Z",
-            "content": "[Removed]"
+            "publishedAt": "2024-09-23T04:42:22Z",
+            "content": "Season 12, Episode 09 \u201cThe Futurama Mystery Liberry\u201dFuturama is reimagined in the form of classic children\u2019s mystery books.\r\nLinks:HOMEPAGE\u00a0\u00a0TVM\r\nFuturama.S12E09.WEB.x264-TGXMKV | AAC | 153MBNFO \u2013 Su\u2026 [+665 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "The Daily Caller"
+                "name": "Nation.africa"
             },
-            "author": "Andrew Powell",
-            "title": "Caitlin Clark Continues Historic Season As She Breaks WNBA Rookie Scoring Record",
-            "description": "It doesn't matter if it's on the court or in business, Caitlin Clark has been changing up the WNBA history books, and doing it by herself. And here we go again.",
-            "url": "https://dailycaller.com/2024/09/16/caitlin-clark-wnba-rookie-scoring-record/",
-            "urlToImage": "https://cdn01.dailycaller.com/wp-content/uploads/2024/09/GettyImages-2171833235-scaled-e1726460621541.jpg",
-            "publishedAt": "2024-09-16T04:30:31Z",
-            "content": "Readers,\r\nInstead of sucking up to the political and corporate powers that dominate America, The Daily Caller is fighting for you our readers. We humbly ask you to consider joining us in this fight.\r\u2026 [+3541 chars]"
+            "author": "Hilary Kimuyu",
+            "title": "JSS to receive new textbooks from next month",
+            "description": "<p>Unlike primary school, where pupils learn by subject, junior school has nine learning areas.</p>",
+            "url": "https://nation.africa/kenya/news/education/jss-to-receive-new-textbooks-from-next-month-4772002",
+            "urlToImage": "https://nation.africa/resource/image/4772012/landscape_ratio3x2/1200/800/9120dfc09b63f8008d001036e3dc53b4/zj/kamau-kiarie.jpg",
+            "publishedAt": "2024-09-23T04:31:07Z",
+            "content": "Learners in pre-primary and primary school will have new textbooks in January 2025, according to the Kenya Publishers Association (KPA).\r\nAt the same time, KPA chairman Kamau Kiarie said the main sup\u2026 [+4146 chars]"
         },
         {
             "source": {
-                "id": "abc-news",
-                "name": "ABC News"
+                "id": null,
+                "name": "TheJournal.ie"
             },
-            "author": "JOCELYN NOVECK AP national writer",
-            "title": "Hillary Clinton takes stock of life's wins and losses in a memoir inspired by a Joni Mitchell lyric",
-            "description": "At 76, Hillary Clinton is taking stock of her life \u2013 its wins and its losses \u2013 in a new memoir",
-            "url": "https://abcnews.go.com/Entertainment/wireStory/hillary-clinton-takes-stock-lifes-wins-losses-memoir-113717831",
-            "urlToImage": "https://i.abcnewsfe.com/a/c809f81b-6c65-4bcd-b689-54c5cd10be36/wirestory_d733fb16a20029df83da04043d3d681f_16x9.jpg?w=1600",
-            "publishedAt": "2024-09-16T04:22:32Z",
-            "content": "NEW YORK -- At the end of her new memoir, Hillary Clinton offers up what sounds like a far-off wish: I hope Im alive to see the United States elect a female president.\r\nTurns out her book went to the\u2026 [+6570 chars]"
+            "author": "Jane Matthews",
+            "title": "Hate speech laws do need to be updated despite being dropped from hate crime bill, Taoiseach says",
+            "description": "Harris said some in the D\u00e1il played \u201cabsolute, blatant flip flop politics\u201d with the issue.",
+            "url": "https://www.thejournal.ie/simon-harris-hate-speech-6494794-Sep2024/",
+            "urlToImage": "https://img2.thejournal.ie/article/6494794/river/?height=400&version=6494797",
+            "publishedAt": "2024-09-23T04:20:58Z",
+            "content": "THE TAOISEACH HAS said he still wants to see hate speech laws updated, despite plans being scrapped from proposed legislation last week.\r\nAt the weekend it emerged that Justice Minister Helen McEntee\u2026 [+2662 chars]"
         },
         {
             "source": {
-                "id": "abc-news",
-                "name": "ABC News"
+                "id": null,
+                "name": "Pypi.org"
             },
-            "author": "JOCELYN NOVECK AP national writer",
-            "title": "Hillary Clinton takes stock of life's wins and losses in a memoir inspired by a Joni Mitchell lyric",
-            "description": "At 76, Hillary Clinton is taking stock of her life \u2013 its wins and its losses \u2013 in a new memoir",
-            "url": "https://abcnews.go.com/Politics/wireStory/hillary-clinton-takes-stock-lifes-wins-losses-memoir-113717828",
-            "urlToImage": "https://i.abcnewsfe.com/a/c809f81b-6c65-4bcd-b689-54c5cd10be36/wirestory_d733fb16a20029df83da04043d3d681f_16x9.jpg?w=1600",
-            "publishedAt": "2024-09-16T04:22:31Z",
-            "content": "NEW YORK -- At the end of her new memoir, Hillary Clinton offers up what sounds like a far-off wish: I hope Im alive to see the United States elect a female president.\r\nTurns out her book went to the\u2026 [+6570 chars]"
+            "author": "jinjiajie@ruc.edu.cn",
+            "title": "flashrag-dev added to PyPI",
+            "description": "A library for efficient Retrieval-Augmented Generation research",
+            "url": "https://pypi.org/project/flashrag-dev/",
+            "urlToImage": "https://pypi.org/static/images/twitter.abaf4b19.webp",
+            "publishedAt": "2024-09-23T04:17:28Z",
+            "content": "FlashRAG is a Python toolkit for the reproduction and development of Retrieval Augmented Generation (RAG) research. Our toolkit includes 32 pre-processed benchmark RAG datasets and 15 state-of-the-ar\u2026 [+21267 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "editorial-team@simplywallst.com (Simply Wall St)",
+            "title": "A Note On Genting Malaysia Berhad's (KLSE:GENM) ROE and Debt To Equity",
+            "description": "Many investors are still learning about the various metrics that can be useful when analysing a stock. This article is...",
+            "url": "https://finance.yahoo.com/news/note-genting-malaysia-berhads-klse-040957707.html/",
+            "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
+            "publishedAt": "2024-09-23T04:09:57Z",
+            "content": "Many investors are still learning about the various metrics that can be useful when analysing a stock. This article is for those who would like to learn about Return On Equity (ROE). By way of learni\u2026 [+4159 chars]"
         },
         {
             "source": {
@@ -138,311 +164,181 @@
                 "name": "Thefreedictionary.com"
             },
             "author": null,
-            "title": "Orcas",
-            "description": "Found in oceans worldwide, orcas display sophisticated hunting techniques and social behaviors that have been described by experts as manifestations of a shared culture. Like other dolphins, orcas produce a variety of vocalizations used for communication and \u2026",
-            "url": "https://encyclopedia.thefreedictionary.com/orcas",
+            "title": "The Huaorani",
+            "description": "Known pejoratively as \"Aucas,\" meaning \"naked ones\" or \"savages,\" the Huaorani are an indigenous people of the Ecuadorian Oriente in the Amazon basin. With a population of approximately 2,000, the Huaorani speak Huao Terero, a language unrelated to any other \u2026",
+            "url": "https://encyclopedia.thefreedictionary.com/Huaorani",
             "urlToImage": "http://img.tfd.com/TFDlogo1200x1200.png",
-            "publishedAt": "2024-09-16T04:09:47Z",
-            "content": "The killer whale (Orcinus orca), also referred to as the orca whale or orca, and less commonly as the blackfish, is a toothed whale belonging to the oceanic dolphin family. Killer whales are found in\u2026 [+78858 chars]"
+            "publishedAt": "2024-09-23T04:06:37Z",
+            "content": "The Huaorani, Waorani or Waodani, also known as the Waos, are native Amerindians from the Amazonian Region of Ecuador (Napo, Orellana and Pastaza Provinces) who have marked differences from other eth\u2026 [+10915 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "[Removed]"
+                "name": "Juancole.com"
             },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "2024-09-16T04:03:29Z",
-            "content": "[Removed]"
+            "author": "Andrea Mazzarino",
+            "title": "War Forever, Everywhere: Unexploded Ordnance and the Weaponry We Leave Behind",
+            "description": "( Tomdispatch.com ) - Count on one thing: armed conflict lasts for decades after battles end and its effects ripple thousands of miles beyond actual battlefields. This has been true of America\u2019s post-9/11 forever wars that, in some minimalist fashion, continu\u2026",
+            "url": "https://www.juancole.com/2024/09/everywhere-unexploded-ordnance.html",
+            "urlToImage": "https://media.juancole.com/images/2021/05/Screen-Shot-2021-01-19-at-12.38.38-PM.png",
+            "publishedAt": "2024-09-23T04:02:10Z",
+            "content": "( Tomdispatch.com ) \u2013 Count on one thing: armed conflict lasts for decades after battles end and its effects ripple thousands of miles beyond actual battlefields. This has been true of America\u2019s post\u2026 [+13790 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Lewrockwell.com"
+                "name": "Publishingperspectives.com"
             },
-            "author": "Llewellyn H. Rockwell, Jr.",
-            "title": "We Need Medical Freedom",
-            "description": "In a free society, people have the right to decide what to do with their own bodies. If you want to take something that \u201corthodox\u201d medicine says you shouldn\u2019t, this decision should be up to you. If the government can ban \u201cdangerous drugs,\u201d why not dangerous i\u2026",
-            "url": "https://www.lewrockwell.com/2024/09/lew-rockwell/we-need-medical-freedom/",
-            "urlToImage": "https://www.lewrockwell.com/wp-content/uploads/2024/09/Lew-Rockwell-Copy-1-300x300.png",
-            "publishedAt": "2024-09-16T04:01:00Z",
-            "content": "In a free society, people have the right to decide what to do with their own bodies. If you want to take something that orthodox medicine says you shouldnt, this decision should be up to you. If the \u2026 [+8981 chars]"
+            "author": "Porter Anderson",
+            "title": "The UK\u2019s \u00a350,000 Wolfson Prize Names a 2024 Shortlist",
+            "description": "The 52-year-old Wolfson History Prize is scheduled to name its \u00a350,000 winner from this shortlist of six books on December 2.\nThe post The UK\u2019s \u00a350,000 Wolfson Prize Names a 2024 Shortlist appeared first on Publishing Perspectives.",
+            "url": "https://publishingperspectives.com/2024/09/the-uks-50000-wolfson-prize-names-a-2024-shortlist/",
+            "urlToImage": "https://publishingperspectives.com/wp-content/uploads/2024/09/710-TEASE-Wolfson-History-Prize-2024-stack-ftw.jpg",
+            "publishedAt": "2024-09-23T04:01:50Z",
+            "content": "The 52-year-old Wolfson History Prize is scheduled to name its \u00a350,000 winner from this shortlist of six books on December 2.\r\n Image: Wolfson History Prize\r\nBy Porter Anderson, Editor-in-Chief | @Po\u2026 [+3751 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Challies.com"
+                "name": "Digiday"
             },
-            "author": "Tim Challies",
-            "title": "A La Carte (September 16)",
-            "description": "A La Carte: Why Christians won't stop singing / Exercising an idle mind / The scars of hope / David's sin in ordering a census / Is this actually accomplishing anything? / Kindle deals / and more.See Also\r\n<ul><li>A La Carte (September 10)</li><li>A La Carte \u2026",
-            "url": "https://www.challies.com/a-la-carte/a-la-carte-september-16-2024/",
-            "urlToImage": "https://www.challies.com/media/2023/11/cover-a-la-carte-mon-b.jpg",
-            "publishedAt": "2024-09-16T04:01:00Z",
-            "content": "It has been a blessing to hear from people who have begun using the prayers in Pilgrim Prayers and are telling me, \u201cNow I get it!\u201d If you have benefited from the book, would you consider dropping a q\u2026 [+2053 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Antiwar.com"
-            },
-            "author": "Michael Klare",
-            "title": "Kamala Harris, Donald Trump, and the Armageddon Agenda",
-            "description": "Originally appeared at TomDispatch. The next president of the United States, whether Kamala Harris or Donald Trump, will face many contentious domestic issues that have long divided this country, including abortion rights, immigration, racial discord, and eco\u2026",
-            "url": "https://original.antiwar.com/?p=2012353636",
-            "urlToImage": "https://original.antiwar.com/wp-content/uploads/2019/10/awc_logo_for-circle-profile_600sq-01.png",
-            "publishedAt": "2024-09-16T04:00:09Z",
-            "content": "The next president of the United States, whether Kamala Harris or Donald Trump, will face many contentious domestic issues that have long divided this country, including abortion rights, immigration,\u2026 [+15922 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Slj.com"
-            },
-            "author": "Betsy Bird",
-            "title": "Fuse 8 n\u2019 Kate: Fireman Small by Wong Herbert Yee",
-            "description": "We search for a classic picture book and come up with this little Wong Herbert Yee number. Does it fit the bill? And will Fireman Small EVER get enough sleep?",
-            "url": "https://afuse8production.slj.com/2024/09/16/fuse-8-n-kate-fireman-small-by-wong-herbert-yee/",
-            "urlToImage": "https://afuse8production.slj.com/wp-content/uploads/2024/09/FiremanSmall.jpg",
-            "publishedAt": "2024-09-16T04:00:00Z",
-            "content": "Kate asked me to bring in a fireman/firefighter/firetruck book for us to discuss today as a possible classic. Now if you had to name a 20+ year old picture book featuring that kind of subject matter,\u2026 [+1697 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Americanthinker.com"
-            },
-            "author": null,
-            "title": "If you ask Kamala the right questions, you\u2019ll get the real answers",
-            "description": "Famous for word salads that say nothing but certainly give \u201cjoy\u201d to some supporters, it\u2019s easy to expose Kamala Harris as totally incompetent with just two words: \u201cHow\u201d and \u201cWhy.\u201d \u00a0By totally incompetent...",
-            "url": "https://www.americanthinker.com/blog/2024/09/if_you_ask_kamala_the_right_questions_you_ll_get_the_real_answers.html",
-            "urlToImage": "https://images.americanthinker.com/ru/ru7l9avapgwrafze6dsa_800.jpg",
-            "publishedAt": "2024-09-16T04:00:00Z",
-            "content": "Famous for word salads that say nothing but certainly give \u201cjoy\u201d to some supporters, it\u2019s easy to expose Kamala Harris as totally incompetent with just two words: \u201cHow\u201d and \u201cWhy.\u201d \u00a0By totally incompe\u2026 [+3815 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Americanthinker.com"
-            },
-            "author": null,
-            "title": "The Democrat party\u2019s unique historical opportunity",
-            "description": "This presidential election offers a remarkable and unique historical opportunity for the Democrat party. In fact, this may be that party\u2019s most opportune time ever to make history.\r\n\r\nThe Democrat presidential candidate identifies as black, hav...",
-            "url": "https://www.americanthinker.com/blog/2024/09/the_democrat_party_s_unique_historical_opportunity.html",
-            "urlToImage": "https://images.americanthinker.com/nr/nre5krxfrc2g89qzx6j4_800.jpg",
-            "publishedAt": "2024-09-16T04:00:00Z",
-            "content": "This presidential election offers a remarkable and unique historical opportunity for the Democrat party. In fact, this may be that party\u2019s most opportune time ever to make history.\r\nThe Democrat pres\u2026 [+4006 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Americanthinker.com"
-            },
-            "author": null,
-            "title": "\u2018Known to the State of California,\u2019 and other idiocy",
-            "description": "No question about it: I have a lot of tools. In fact, I am a tool-aholic; I even wrote about it here. When a visitor remarks, \u201cGee, you have every tool in creation,\u201d I respond, \u201cWell, not quite, but if you see something I don\u2019...",
-            "url": "https://www.americanthinker.com/blog/2024/09/known_to_the_state_of_california_and_other_idiocy.html",
-            "urlToImage": "https://images.americanthinker.com/sa/sahltxplo0qss3jn4fhw_800.jpg",
-            "publishedAt": "2024-09-16T04:00:00Z",
-            "content": "No question about it: I have a lot of tools. In fact, I am a tool-aholic; I even wrote about it here. When a visitor remarks, \u201cGee, you have every tool in creation,\u201d I respond, \u201cWell, not quite, but \u2026 [+4545 chars]"
+            "author": "Ronan Shields",
+            "title": "What are the likely Google defense tactics in its existential battle with the DOJ?",
+            "description": "Google mounts its defense, claiming the DOJ just doesn\u2019t get the online ad market.",
+            "url": "http://digiday.com/media/what-are-the-likely-google-defense-tactics-in-its-existential-battle-with-the-doj/",
+            "urlToImage": "https://digiday.com/wp-content/uploads/sites/3/2023/10/gavel-google-digiday.jpeg",
+            "publishedAt": "2024-09-23T04:01:00Z",
+            "content": "The U.S. Department of Justice has rested its antitrust case against Google\u2019s display advertising business, alleging that it monopolized key digital advertising technologies through a series of antic\u2026 [+6365 chars]"
         },
         {
             "source": {
                 "id": "the-irish-times",
                 "name": "The Irish Times"
             },
-            "author": "Neil Jordan",
-            "title": "Neil Jordan: De Valera is a fascinating figure. We lived in a country that emanated from the brain of one paranoid individual",
-            "description": "The Ireland of film-maker and author Neil Jordan\u2019s youth was like \u2018living in a fantastical universe that didn\u2019t make any logical sense\u2019",
-            "url": "https://www.irishtimes.com/culture/books/2024/09/15/neil-jordan-de-valera-is-a-fascinating-figure-we-lived-in-a-country-that-emanated-from-the-brain-of-one-paranoid-individual/",
-            "urlToImage": "https://www.irishtimes.com/resizer/v2/LCLJWZ2JNBDQ5PHTYJ7JWQQFE4.JPG?smart=true&auth=da08ecaf7df0a9ea2765f8621dc056f7ffe12c060c41411e3597f280ed73489d&width=1200&height=630",
-            "publishedAt": "2024-09-16T04:00:00Z",
-            "content": "Im never entirely satisfied with telling a realistic story. I have to force it into areas of fantasy. I would justify that by saying that most of us dont fully understand ourselves and the world is n\u2026 [+4647 chars]"
+            "author": "Tara Brady",
+            "title": "Irish Hellboy star Leah McNamara: \u2018At horror films I\u2019m always the person watching between my fingers\u2019",
+            "description": "The actor knew nothing about the series before she was cast in Hellboy: The Crooked Man. It triggered a deep dive into witchcraft",
+            "url": "https://www.irishtimes.com/culture/film/2024/09/23/irish-hellboy-star-leah-mcnamara-at-horror-films-im-always-the-person-watching-between-my-fingers/",
+            "urlToImage": "https://www.irishtimes.com/resizer/v2/46ZYHRJY3FE4LJMXUIS5LTVXCU.jpeg?smart=true&auth=56d6807723181047a39b779b81dd8cfdee9bdce47ba8a4284bf868efa39183eb&width=1200&height=630",
+            "publishedAt": "2024-09-23T04:00:00Z",
+            "content": "Hellboy, the most beloved of demonic comic-book manifestations, made his big-screen debut in 2004 with Guillermo del Toro at the helm and Ron Perlman under the horned costume. Over three movies the D\u2026 [+7544 chars]"
+        },
+        {
+            "source": {
+                "id": "the-irish-times",
+                "name": "The Irish Times"
+            },
+            "author": "Cauvery Madhavan",
+            "title": "Moving to Sligo, 1987: \u2018I soon realised I\u2019d left a conservative country for an ultraconservative one\u2019",
+            "description": "Me, myself and Ireland: Writer Cauvery Madhavan arrived in Ireland with a \u2018suitcase full of sin\u2019 \u2013 a stockpile of condoms",
+            "url": "https://www.irishtimes.com/life-style/people/2024/09/23/moving-from-india-to-sligo-1987-i-soon-realised-id-left-a-conservative-country-for-an-ultraconservative-one/",
+            "urlToImage": "https://www.irishtimes.com/resizer/v2/BFCBKT72CNBGLC63CQ67SGPVDU.jpg?smart=true&auth=e35a4f1257ca8ff2abaa27e582fd32fb59d91f4525ab947625de574704d7ca68&width=1200&height=630",
+            "publishedAt": "2024-09-23T04:00:00Z",
+            "content": "Most of what I knew about Ireland growing up as a child in India came from songs such as Galway Bay and Molly Malone, taught to me at school. I went to several different schools because my father ser\u2026 [+5277 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Christianity.com"
+                "name": "Americanthinker.com"
             },
-            "author": "John Stange",
-            "title": "What Did Jesus Really Say about the Future in Mark 13?",
-            "description": "Explores Jesus' prophetic teachings in Mark 13 about the destruction of the temple, the end times, and the need for believers to remain faithful amidst trials and false prophets while trusting in God's sovereign plan.",
-            "url": "https://www.christianity.com/wiki/jesus-christ/what-did-jesus-really-say-about-the-future-in-mark-13.html",
-            "urlToImage": "https://media.swncdn.com/via/images/2022/08/08/26846-woman-looking-up-gettyimages-marjan-apostolov_source_file.jpg",
-            "publishedAt": "2024-09-16T04:00:00Z",
-            "content": "I teach a theology class that every student at the university where I serve is required to take before they graduate. \u00a0Its a class that covers all the primary areas of doctrine that are addressed in \u2026 [+11935 chars]"
+            "author": null,
+            "title": "In 1962, being the worst in baseball was no bad thing",
+            "description": "So, the Chicago White Sox looks like not just the worst team to date in the 21st century but in baseball history, too. As the seasons end, summer fades, and autumn leaves begin to drop, the White Sox are on their way to recording the most losses in t...",
+            "url": "https://www.americanthinker.com/blog/2024/09/in_1962_being_the_worst_in_baseball_was_no_bad_thing.html",
+            "urlToImage": "https://images.americanthinker.com/g2/g2ztwnkp9rsfn7mfe4kz_800.jpg",
+            "publishedAt": "2024-09-23T04:00:00Z",
+            "content": "So, the Chicago White Sox looks like not just the worst team to date in the 21st century but in baseball history, too. As the seasons end, summer fades, and autumn leaves begin to drop, the White Sox\u2026 [+4172 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Forbes"
+                "name": "Thegospelcoalition.org"
             },
-            "author": "Kevin Rozario, Contributor, \n Kevin Rozario, Contributor\n https://www.forbes.com/sites/kevinrozario/",
-            "title": "Avolta\u2019s Hudson And Dufry Amp Up Airport Retail Presence With JFK T6 And Pittsburgh Deals",
-            "description": "The agreements will help the Switzerland-based parent duty-free retailer to strengthen its North American footprint.",
-            "url": "https://www.forbes.com/sites/kevinrozario/2024/09/15/avoltas-hudson-and-dufry-amp-up-airport-retail-presence-with-jfk-t6-and-pittsburgh-deals/",
-            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/66e7a45d92ed056244d836f0/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-            "publishedAt": "2024-09-16T03:58:15Z",
-            "content": "Rendering of departure duty-free shops at JFK T6.\r\nPort Authority of New York &amp; New Jersey\r\nAvolta, the worlds biggest airport retailer, will significantly increase its estate in the United State\u2026 [+5801 chars]"
+            "author": "Nan\u00e1 M\u00e1rcia Mendes Castillo",
+            "title": "How to Start a Book Club in a Community That Doesn\u2019t Read",
+            "description": "During COVID-19, Ana Castillo started an online book club with a Jen Wilkin title. Today, hundreds of women report deeper learning and closer communities.",
+            "url": "https://www.thegospelcoalition.org/article/book-club/",
+            "urlToImage": "https://media.thegospelcoalition.org/wp-content/uploads/2024/09/20230310/book-club.jpg",
+            "publishedAt": "2024-09-23T04:00:00Z",
+            "content": "In my country of Brazil, most people don\u2019t read. One survey found Brazilians read only 2.5 books a year, compared with 12 books read annually by Americans (though even thats down from 18 a year in 19\u2026 [+6223 chars]"
+        },
+        {
+            "source": {
+                "id": "the-irish-times",
+                "name": "The Irish Times"
+            },
+            "author": "Paul Howard",
+            "title": "Paul Howard on the Falkland Islands: \u2018Coming here confirms the stupid wastefulness of it all\u2019",
+            "description": "This was number one on the writer\u2019s bucket list, but a lifelong fascination culminates in a tour that leaves him \u2018dark and depressed\u2019",
+            "url": "https://www.irishtimes.com/life-style/travel/2024/09/21/paul-howard-on-the-falkland-islands-coming-here-confirms-the-stupid-wastefulness-of-it-all/",
+            "urlToImage": "https://www.irishtimes.com/resizer/v2/RHYXWRR7DBFBJHUQOWTZEW7B2M.jpg?smart=true&auth=00910792d0f08ffcd75b0d75b8a0d8bd2181cb25b83025405b6b84cb4bae7dc5&width=1200&height=630",
+            "publishedAt": "2024-09-23T04:00:00Z",
+            "content": "The first impression as you drive away from Mount Pleasant Airport is the sheer barrenness of the place like the English moors, beautiful in a bleak kind of way that gets old very quickly and a smell\u2026 [+12178 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Consequence.net"
+                "name": "The Conversation Africa"
             },
-            "author": "Scoop Harrison",
-            "title": "Bruce Springsteen Delivers Instant Classic Set at Asbury Park\u2019s Sea.Hear.Now Fest",
-            "description": "The E Street Band returned home and delivered a 30-song performance full of unexpected surprises and tour debuts\nBruce Springsteen Delivers Instant Classic Set at Asbury Park\u2019s Sea.Hear.Now Fest\nScoop Harrison",
-            "url": "https://consequence.net/2024/09/bruce-springsteen-sea-hear-now-classic-set/",
-            "urlToImage": "https://consequence.net/wp-content/uploads/2024/09/Springsteen.jpeg",
-            "publishedAt": "2024-09-16T03:54:36Z",
-            "content": "Bruce Springsteen and the E Street Band gave Asbury Park, New Jersey a show to remember with an epic headlining set at Sea.Hear.Now festival on Sunday night.\r\nThe show was a homecoming for Springstee\u2026 [+2567 chars]"
+            "author": "Per Henningsgaard, Senior Lecturer, Professional Writing and Publishing, Curtin University",
+            "title": "Greek gods, Victoria\u2019s war memorial and an otherworldly love story: Australia\u2019s graphic novel love affair",
+            "description": "Australian readers are hungry for graphic novels, but, due to a skills shortage, few are published locally. Three very different new books feed our growing appetite for the form.",
+            "url": "https://theconversation.com/greek-gods-victorias-war-memorial-and-an-otherworldly-love-story-australias-graphic-novel-love-affair-234363",
+            "urlToImage": "https://images.theconversation.com/files/620325/original/file-20240919-16-6xqgh8.jpg?ixlib=rb-4.1.0&rect=0%2C0%2C4925%2C2462&q=45&auto=format&w=1356&h=668&fit=crop",
+            "publishedAt": "2024-09-23T03:59:41Z",
+            "content": "Image from Making the Shrine: Stories from Victoria's War Memorial Laura J. Carroll\r\nIn Australia, sales of graphic novels grew by 34% in 2022, according to Books+Publishing. Their commercial success\u2026 [+7730 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Erickimphotography.com"
+                "name": "Tistory.com"
             },
-            "author": "ERIC KIM",
-            "title": "Open Source",
-            "description": "Why his open source idea so important",
-            "url": "https://erickimphotography.com/blog/2024/09/15/open-source/",
-            "urlToImage": null,
-            "publishedAt": "2024-09-16T03:52:10Z",
-            "content": "Why Is Eric Kim\u2019s Open-Source Idea So Important?\r\nEric Kim\u2019s adoption of the open-source philosophy in photography is significant for several reasons, impacting not only individual photographers but \u2026 [+8134 chars]"
+            "author": "T.B",
+            "title": "\uae40\uac74\ud76c \uac8c\uc774\ud2b8(Rolex Gate) 138 (Big Take. \ud2b8\ud575\uad00)",
+            "description": "The exchange of fire between Israel and Hezbollah intensified on Sunday as the Lebanon-based group launched about 115 rockets, missiles and drones toward vast areas of Israel\u2019s north https://t.co/g47agMGHu2\u2014 Bloomberg Middle East (@middleeast) September 22, 2\u2026",
+            "url": "https://ryueyes11.tistory.com/511005",
+            "urlToImage": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FrnEaM%2FbtsJG5c10qK%2F0c5L0m4KkUJVko1teTkCkk%2Fimg.jpg",
+            "publishedAt": "2024-09-23T03:46:48Z",
+            "content": "The exchange of fire between Israel and Hezbollah intensified on Sunday as the Lebanon-based group launched about 115 rockets, missiles and drones toward vast areas of Israel\u2019s north https://t.co/g47\u2026 [+23812 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Erickimphotography.com"
+                "name": "Linuxlinks.com"
             },
-            "author": "ERIC KIM",
-            "title": "Eric Kim",
-            "description": "Why he #1 Eric kim out of all the Eric Kim\u2019s Top posts Eric Kim, the Street Photographer Eric Kim is a prominent street photographer, educator, and blogger based in the United States. He is widely recognized for his contributions to the field of street photog\u2026",
-            "url": "https://erickimphotography.com/blog/2024/09/15/eric-kim-3/",
-            "urlToImage": null,
-            "publishedAt": "2024-09-16T03:46:41Z",
-            "content": "Why Is Eric Kim Considered Prolific?\r\nEric Kim is regarded as prolific due to his extensive and continuous contributions to the field of street photography and photography education. His output spans\u2026 [+22821 chars]"
+            "author": "Steve Emms",
+            "title": "4 Best Free and Open Source Frontends for GnuPG",
+            "description": "GnuPG is a superb tool though it\u2019s a command line affair. If you\u2019re looking for a GUI frontend, check out these tools.",
+            "url": "https://www.linuxlinks.com/best-free-open-source-frontends-gnupg/",
+            "urlToImage": "https://www.linuxlinks.com/wp-content/uploads/2018/09/Encryption.jpg",
+            "publishedAt": "2024-09-23T03:25:52Z",
+            "content": "GnuPG stands for GNU Privacy Guard and is a tool for secure communication and data storage. The software has two main uses. The first is to encrypt data to ensure its privacy. The second is to sign d\u2026 [+1545 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Erickimphotography.com"
+                "name": "Investing.com"
             },
-            "author": "ERIC KIM",
-            "title": "Eric Kim Blog",
-            "description": "Eric Kim\u2019s blog is one of the most popular resources on street photography, offering a mix of practical tips, personal insights, and philosophical musings. Kim has built a reputation not only as a street photographer but also as an educator who helps others a\u2026",
-            "url": "https://erickimphotography.com/blog/2024/09/15/eric-kim-blog-2/",
-            "urlToImage": null,
-            "publishedAt": "2024-09-16T03:41:38Z",
-            "content": "Eric Kim\u2019s blog is an extensive resource for street photographers and photography enthusiasts. His website, Eric Kim Photography, features a wide array of content, ranging from beginner guides to adv\u2026 [+2936 chars]"
+            "author": "Investing.com",
+            "title": "Kaplan Takes Legal Action Against Counterfeiters",
+            "description": "Kaplan Takes Legal Action Against Counterfeiters",
+            "url": "https://www.investing.com/news/press-releases/kaplan-takes-legal-action-against-counterfeiters-93CH-3626870",
+            "urlToImage": "https://i-invdn-com.investing.com/redesign/images/seo/investing_300X300.png",
+            "publishedAt": "2024-09-23T03:12:06Z",
+            "content": "DELHI, India--(BUSINESS WIRE)--Kaplan has filed a lawsuit in the Delhi High Court against several entities involved in the distribution of counterfeit Kaplan Schweser books and study materials, takin\u2026 [+2462 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "NDTV News"
+                "name": "Dramabeans.com"
             },
-            "author": "Agence France-Presse",
-            "title": "Judgement Day For Man City's Golden Era As Long-Awaited Hearing Begins",
-            "description": "Manchester City have been an unstoppable force in English football of late, but now face the challenge of clearing the club's name against accusations their dominance is built on foundations of financial impropriety",
-            "url": "https://sports.ndtv.com/football/judgement-day-for-manchester-citys-golden-era-as-long-awaited-hearing-begins-6575077",
-            "urlToImage": "https://c.ndtvimg.com/2024-09/979ndouo_manchester-city-afp_625x300_16_September_24.jpg?im=FitAndFill,algorithm=dnn,width=1200,height=738",
-            "publishedAt": "2024-09-16T03:37:54Z",
-            "content": "Manchester City have been an unstoppable force in English football of late, but now face the challenge of clearing the club's name against accusations their dominance is built on foundations of finan\u2026 [+3594 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Yahoo Entertainment"
-            },
-            "author": "Susan Tompor, Detroit Free Press",
-            "title": "How one mom avoided financial reality as credit card debt piled up",
-            "description": "Some consumers might not see any reduction in rates on credit cards because they're dealing with penalty rates that won't fall with Fed cuts rates.",
-            "url": "https://finance.yahoo.com/news/one-mom-avoided-financial-reality-033427336.html/",
-            "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
-            "publishedAt": "2024-09-16T03:34:27Z",
-            "content": "Jenny Bauman never ran the numbers to try to calculate just how much her credit card debt would end up costing her at frighteningly high interest rates of nearly 30% a year.And she had absolutely no \u2026 [+13669 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "New York Post"
-            },
-            "author": "Sean Mandell",
-            "title": "\u2018West Wing\u2019 cast reunites at Emmys 2024, pushes for voter registration",
-            "description": "\"West Wing\" fans got a very special treat at the 2024 Emmys.",
-            "url": "https://nypost.com/2024/09/15/entertainment/west-wing-cast-reunion-at-emmys-2024-encourages-voter-registration/",
-            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/09/west-wing-emmys-2024.jpg?quality=75&strip=all&w=1024",
-            "publishedAt": "2024-09-16T03:31:05Z",
-            "content": "Sundays Emmys 2024 ceremony had us screaming, Bartlet for America!\u00a0\r\nThe West Wing stars Martin Sheen, Allison Janney, Dul\u00e9 Hill, Richard Schiff, Janel Moloney took the Emmys stage to present the awa\u2026 [+4422 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Deadline"
-            },
-            "author": "Nellie Andreeva",
-            "title": "\u2018Sh\u014dgun\u2019 Caps Record Emmy Run With Win No. 18 For Outstanding Drama Series As Star Hiroyuki Sanada Pays Homage To Samurai Period Dramas",
-            "description": "Its place in the Emmy record books already secured after the Creative Arts, Disney/FX\u2019s Sh\u014dgun went for a historic sweep, adding four more wins tonight for a staggering total of 18 Emmys in one season, a bench mark that may never be reached again. That includ\u2026",
-            "url": "http://deadline.com/2024/09/shogun-emmy-record-drama-series-acceptance-speech-1236086909/",
-            "urlToImage": "https://deadline.com/wp-content/uploads/2024/09/GettyImages-2172274988.jpg?w=1024",
-            "publishedAt": "2024-09-16T03:26:13Z",
-            "content": "Its place in the Emmy record books already secured after the Creative Arts, Disney/FX\u2019s Sh\u014dgun went for a historic sweep, adding four more wins tonight for a staggering total of 18 Emmys in one seaso\u2026 [+3143 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Forbes"
-            },
-            "author": "Trefis Team, Contributor, \n Trefis Team, Contributor\n https://www.forbes.com/sites/greatspeculations/people/trefis/",
-            "title": "Profit From The Fed\u2019s Next Move?",
-            "description": "Reduce rates by 50 bps Option 1 is a less likely scenario right now.",
-            "url": "https://www.forbes.com/sites/greatspeculations/2024/09/15/profit-from-the-feds-next-move/",
-            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/66e7a28a25ac33c1f1851d18/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-            "publishedAt": "2024-09-16T03:18:09Z",
-            "content": "US Federal Reserve Chairman Jerome Powell speaks during a news conference after a Federal Open ... [+] Market Committee meeting at the Federal Reserve in Washington, DC, on July 31, 2024. (Photo by R\u2026 [+5996 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Rolling Stone"
-            },
-            "author": "Althea Legaspi",
-            "title": "Bruce Springsteen Joins Trey Anastasio, the Gaslight Anthem at Sea.Hear.Now Fest",
-            "description": "Bruce Springsteen surprised fans Sunday at Sea.Hear.Now Festival, performing with Trey Anastasio and the Gaslight Anthem prior to his headlining set.",
-            "url": "http://www.rollingstone.com/music/music-news/bruce-springsteen-trey-anastasio-the-gaslight-anthem-performance-sea-hear-now-fest-1235102899/",
-            "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2024/09/SpringsteenAnastasio.jpg?w=1600&h=900&crop=1",
-            "publishedAt": "2024-09-16T03:17:30Z",
-            "content": "Hours before Bruce Springsteen and the E Street Band headlined Sea.Hear.Now festival in Asbury Park, New Jersey on Sunday, the frontman surprised fans with appearances at Trey Anastasio Band and the \u2026 [+2197 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Screen Rant"
-            },
-            "author": "Angel Shaw",
-            "title": "A Surprising Rings Of Power Character Is Taking Galadriel's Role From The Books",
-            "description": "Rings of Power's version of Galadriel hasn't played the same role in Eregion as her book counterpart, but another character has taken her place.",
-            "url": "https://screenrant.com/rings-of-power-durin-iv-galadriel-book-role/",
-            "urlToImage": "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/09/galadriel-from-the-rings-of-power-and-book-cover-of-the-fellowship-of-the-ring.jpg",
-            "publishedAt": "2024-09-16T03:10:13Z",
-            "content": "Galadriel's role in The Lord of the Rings: The Rings of Power is somewhat different than in Tolkien's books, with another surprising character coming in to fill the shoes these changes have left vaca\u2026 [+5122 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Screen Rant"
-            },
-            "author": "Nathaniel Roark",
-            "title": "Genius Star Wars Theory Rewrites The Purpose Of The Clone Wars & The Origin Of The Inquisitors",
-            "description": "Emperor Palpatine and Darth Vader had many Inquisitors to help hunt down Jedi, and a theory claims that this was the primary goal of the Clone Wars.",
-            "url": "https://screenrant.com/star-wars-clone-wars-purpose-inquisitors-origin-theory/",
-            "urlToImage": "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/09/genius-star-wars-theory-rewrites-the-purpose-of-the-clone-wars-the-origin-of-the-inquisitors.jpg",
-            "publishedAt": "2024-09-16T03:00:13Z",
-            "content": "However, while all of these outcomes benefited from the Clone Wars, they may not have been the primary reason for Palpatine starting the conflict. One of Palpatine's other pressing goals was to find \u2026 [+6072 chars]"
+            "author": "missvictrix",
+            "title": "Premiere Watch: Dear Hyeri",
+            "description": "Time slot: Monday-Tuesday Broadcaster: ENA Genre: Romance, melodrama, office Episode count: 12 Global streamer: Viki Reasons to watch: Shin Hye-sun is always a reason to watch, and her performance here playing a woman with two different identities is sure to \u2026",
+            "url": "https://www.dramabeans.com/2024/09/premiere-watch-dear-hyeri/",
+            "urlToImage": "https://d263ao8qih4miy.cloudfront.net/wp-content/uploads/2024/09/dear-hyeri-7.jpg",
+            "publishedAt": "2024-09-23T03:00:14Z",
+            "content": "Premiere Watch: Dear Hyeri\r\nTime slot: Monday-TuesdayBroadcaster: ENAGenre: Romance, melodrama, officeEpisode count: 12Global streamer: VikiReasons to watch: Shin Hye-sun is always a reason to watch,\u2026 [+642 chars]"
         },
         {
             "source": {
@@ -450,207 +346,181 @@
                 "name": "PC Gamer"
             },
             "author": "Kerry Brunskill",
-            "title": "Today's Wordle answer for Monday, September 16",
+            "title": "Today's Wordle answer for Monday, September 23",
             "description": "Help with solving Monday's puzzle.",
-            "url": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-september-16-2024/",
+            "url": "https://www.pcgamer.com/games/puzzle/wordle-answer-today-september-23-2024/",
             "urlToImage": "https://cdn.mos.cms.futurecdn.net/pVMPobdrC6ic3vHHbpo4H6-1200-80.jpg",
-            "publishedAt": "2024-09-16T03:00:10Z",
-            "content": "Make sure you use our tips to give your Monday Wordle the best possible start. Keep things quick and simple with our general tips, spend some time with our clue for the September 16 (1185) puzzle, or\u2026 [+4482 chars]"
+            "publishedAt": "2024-09-23T03:00:10Z",
+            "content": "All the help you need to make sure Monday's Wordle goes just the way you want it to is right here. We've got a brand new clue written just for the September 23 (1192) game if you'd like to get off to\u2026 [+4516 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Nikonrumors.com"
+                "name": "Mobileread.com"
             },
-            "author": "[NR] admin",
-            "title": "Weekly Nikon news flash #798",
-            "description": "\u2192 Several new Nikon Zf books were recently published. \u2192 Godox announced a new AD200 Pro II pocket flash (order at: Amazon\u00a0|\u00a0B&H Photo). \u2192 Photo news roundup: week of September 8, 2024. \u2192 The latest Kickstarter/Indiegogo updates: New: Peak Design Outdoor Line \u2026",
-            "url": "https://nikonrumors.com/2024/09/15/weekly-nikon-news-flash-798.aspx/",
-            "urlToImage": "https://nikonrumors.com/wp-content/uploads/2024/09/Nikon-Zf-books.jpg",
-            "publishedAt": "2024-09-16T02:58:09Z",
-            "content": "FCC disclosure statement: this post may contain affiliate links or promotions that do not cost readers anything but help keep this website alive. As an Amazon Associate, I earn from qualifying purcha\u2026 [+253 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "CBS Sports"
-            },
-            "author": "Jack Maloney",
-            "title": "WNBA standings, playoff picture, schedule: Mystics, Sky, Dream have identical records with two games to play",
-            "description": "The Mystics, who started the season 0-12, currently occupy the eighth and final playoff spot",
-            "url": "https://www.cbssports.com/wnba/news/wnba-standings-playoff-picture-schedule-mystics-sky-dream-have-identical-records-with-two-games-to-play/",
-            "urlToImage": "https://sportshub.cbsistatic.com/i/r/2024/09/16/676b91d1-2849-4f52-9a84-63d1109da2b9/thumbnail/1200x675/01fa3e2a428e08315f563603831f9c08/gettyimages-2168181411-1-1.jpg",
-            "publishedAt": "2024-09-16T02:54:00Z",
-            "content": "After an extremely busy Sunday that saw all 12 teams in action, the final weekend of the 2024 WNBA regular season is in the books. As we approach the final few days before the playoffs, the eighth an\u2026 [+7324 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "PEOPLE"
-            },
-            "author": "Jp Mangalindan",
-            "title": "Emmys 2024 In Memoriam: Shannen Doherty, Richard Simmons, More Honored",
-            "description": "The 2024 Emmy Awards paid tribute to many TV stars who died this year, including Shannen Doherty, Richard Simmons, Phil Donahue and Richard Lewis",
-            "url": "https://people.com/in-memoriam-shannen-doherty-richard-simmons-phil-donahue-emmys-2024-8709747",
-            "urlToImage": "https://people.com/thmb/p2ogU_-9eQvz10nQ1-beFclQPPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(755x288:757x290)/doherty-simmons-donohue-emmy-memoriam-091024-4a6c35ab56ce440f827f6092e24dfc29.jpg",
-            "publishedAt": "2024-09-16T02:40:56Z",
-            "content": "While the 2024 Emmy Awards celebrated the accomplishments of beloved TV shows and talent, the event also paused to pay tribute to the friends, colleagues and icons the community lost this year.\r\nShan\u2026 [+5267 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Decider"
-            },
-            "author": "mliss1578",
-            "title": "\u2018Slow Horses\u2019 Writer Will Smith Wins Emmy, Doesn\u2019t Slap Anyone: \u201cDespite My Name, I Come In Peace\u201d",
-            "description": "Yes, this is a different Will Smith.",
-            "url": "https://decider.com/2024/09/15/slow-horses-writer-will-smith-wins-emmy-doesnt-slap-anyone/",
-            "urlToImage": "https://decider.com/wp-content/uploads/2024/09/WS-WS-pic.jpg?quality=75&strip=all&w=1200",
-            "publishedAt": "2024-09-16T02:39:21Z",
-            "content": "Did Will Smith just win an Emmy? Well, yes, but maybe not the Will Smith you are likely thinking of.\r\nThe Best Writing for a Drama Series category at the 76th Emmy Awards featured writers from The Cr\u2026 [+1278 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "MLB Trade Rumors"
-            },
-            "author": "Leo Morgenstern",
-            "title": "White Sox Plan To Cut Payroll In 2025",
-            "description": "Whether or not the 2024 White Sox ultimately set a new record for the most losses in a single season, there is no denying their performance this year has been a massive disappointment. The South Siders finished with a dismal 61-101 in 2023, yet somehow, they\u2019\u2026",
-            "url": "https://www.mlbtraderumors.com/2024/09/white-sox-plan-to-cut-payroll-in-2025.html",
-            "urlToImage": "https://cdn.mlbtraderumors.com/files/2024/09/USATSI_24243864-1024x683.jpg",
-            "publishedAt": "2024-09-16T02:35:25Z",
-            "content": "Whether or not the 2024 White Sox ultimately set a new record for the most losses in a single season, there is no denying their performance this year has been a massive disappointment. The South Side\u2026 [+3251 chars]"
+            "author": "rsrupert",
+            "title": "Weird metadata",
+            "description": "I have saved my Calibre folder on my computer then sync it through my OneDrive to my Android phone. I have all my authors, series, etc all set up like I like it in Calibre. I have 'edited' my books. I have opened the files on my android and my laptop both. Ev\u2026",
+            "url": "https://www.mobileread.com/forums/showthread.php?p=4454937#post4454937",
+            "urlToImage": null,
+            "publishedAt": "2024-09-23T02:30:16Z",
+            "content": "<table><tr><td>\r\nToday, 10:30 PM\r\n</td><td>\r\n\u00a0\r\n#1</td></tr><tr><td>\r\n\u00a0\r\n</td><td>\r\nI have saved my Calibre folder on my computer then sync it through my OneDrive to my Android phone. I have all my a\u2026 [+723 chars]"
         },
         {
             "source": {
                 "id": "espn",
                 "name": "ESPN"
             },
-            "author": "Josh Weinfuss",
-            "title": "'He lit it up': Harrison stars in Cardinals' win",
-            "description": "In the Arizona Cardinals' 41-10 blowout victory over the Los Angeles Rams on Sunday, rookie wide receiver Marvin Harrison Jr., 22, posted four catches, 130 yards and two touchdowns, the first two of his pro career, as his club evened its record at 1-1.",
-            "url": "https://www.espn.com/nfl/story/_/id/41280514/marvin-harrison-jr-grabs-1st-nfl-touchdown-cardinals-win",
-            "urlToImage": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0916%2Fr1386880_1296x729_16%2D9.jpg",
-            "publishedAt": "2024-09-16T02:23:00Z",
-            "content": "GLENDALE, Ariz. -- By the time the first quarter of the Arizona Cardinals' 41-10 blowout win over the Los Angeles Rams was over, rookie wide receiver Marvin Harrison Jr. had entered the record books \u2026 [+6422 chars]"
+            "author": "ESPN",
+            "title": "Weekend Review: Pulisic lights up Milan derby, Haaland reaches 100 goals",
+            "description": "Christian Pulisic scored again for Milan, this time in a Derby della Madonnina win, while Erling Haaland broke new ground. That and more in our Weekend Review.",
+            "url": "https://www.espn.com/soccer/story/_/id/41386621/european-soccer-weekend-review-premier-league-laliga-bundesliga-highlights-analysis",
+            "urlToImage": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0923%2Fr1390515_1296x729_16%2D9.jpg",
+            "publishedAt": "2024-09-23T02:25:11Z",
+            "content": "Sep 22, 2024, 10:16 PM ET\r\nAnother topsy-turvy weekend of European football action is in the books, with Christian Pulisic instrumental as AC Milan pipped Internazionale2-1 in the Derby della Madonni\u2026 [+12804 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Deadline"
+                "name": "POLITICO.eu"
             },
-            "author": "Nellie Andreeva",
-            "title": "\u2018Slow Horses\u2019 Writer Will Smith Pokes Fun At Namesake\u2019s Oscar Slap In Emmy Speech",
-            "description": "A surprised Will Smith, the veteran British comedy writer-producer who created and executive produces/showruns Apple TV+\u2019s Slow Horses, started off his speech accepting the Emmy for Writing For a Drama Series by addressing what was on the minds of many TV vie\u2026",
-            "url": "http://deadline.com/2024/09/will-smith-slow-horses-emmy-winner-speech-oscar-slap-1236089321/",
-            "urlToImage": "https://deadline.com/wp-content/uploads/2024/09/GettyImages-2171588954.jpg?w=1024",
-            "publishedAt": "2024-09-16T02:09:16Z",
-            "content": "A surprised Will Smith, the veteran British comedy writer-producer who created and executive produces/showruns Apple TV+\u2019s Slow Horses, started off his speech accepting the Emmy for Writing For a Dra\u2026 [+895 chars]"
+            "author": "Hannah Brenton",
+            "title": "\u2018He\u2019s a very, very handsome man\u2019: Meet the ex-pop star turning heads in the UK Treasury",
+            "description": "Former Clean Bandit member Neil Amin-Smith is one of Chancellor Rachel Reeves\u2019 most trusted advisers.",
+            "url": "https://www.politico.eu/article/neil-amin-smith-popstar-clean-bandit-uk-treasury-labour-party-economic-council/",
+            "urlToImage": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2024/09/17/GettyImages-487346153-scaled.jpg",
+            "publishedAt": "2024-09-23T02:20:00Z",
+            "content": "Hes unusually gorgeous, and quite stylish, said one Treasury official, granted anonymity to speak freely.\r\nThe award-winning musician has taken on a powerful role as the Labour Party's main political\u2026 [+1070 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Fark.com"
+            },
+            "author": null,
+            "title": "Somebody just finished the Appalachian Trail. Fark: in 40 days. Ultrafark: and she beat the mens record [Cool]",
+            "description": "Somebody just finished the Appalachian Trail. Fark: in 40 days. Ultrafark: and she beat the mens record",
+            "url": "https://www.fark.com/comments/13402692/Somebody-just-finished-Appalachian-Trail-Fark-in-40-days-Ultrafark-she-beat-mens-record",
+            "urlToImage": "https://usrimg-full.fark.net/o/oZ/fark_oZFEwIZTEE3m8YByLiUpiXWmBFY.jpg?AWSAccessKeyId=JO3ELGV4BGLFW7Y3EZXN&Expires=1727668800&Signature=sTW69GsXYrXS9C8oEo1CFXvFWQo%3D",
+            "publishedAt": "2024-09-23T02:05:30Z",
+            "content": "Ker_Thwap:That's outstanding.\r\nI only made it 600 miles in 60ish days.\u00a0 I blew my knee out at 500 miles and did a whole lot of limping before finally deciding it wasn't going to heal on the trail.\r\nI\u2026 [+841 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Luxuo.com"
+            },
+            "author": "Sanjeeva Suresh",
+            "title": "Rolex Unveils First Authorised Book on the Oyster Perpetual Submariner Watch",
+            "description": "In partnership with Wallpaper*, the book is a comprehensive overview of the Submariner, the first divers' watch certified waterproof to a depth of 100 meters (330 feet). \nThe post Rolex Unveils First Authorised Book on the Oyster Perpetual Submariner Watch ap\u2026",
+            "url": "https://www.luxuo.com/style/watches/rolex-unveils-first-authorised-book-on-the-oyster-perpetual-submariner-watch.html",
+            "urlToImage": "https://cdn.luxuo.com/2024/09/Oyster-Perpetual-Submariner-Book-01-Featured-Image-01.jpg",
+            "publishedAt": "2024-09-23T02:00:45Z",
+            "content": "In partnership with Wallpaper*, the book is a comprehensive overview of the Submariner, the first divers\u2019 watch certified waterproof to a depth of 100 meters (330 feet). Oyster Perpetual Submariner \u2013\u2026 [+2264 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Luxuo.com"
+            },
+            "author": "Sanjeeva Suresh",
+            "title": "Rolex Unveils First Authorised Book on the Oyster Perpetual Submariner Watch",
+            "description": "In partnership with Wallpaper*, the book is a comprehensive overview of the Submariner, the first divers' watch certified waterproof to a depth of 100 meters (330 feet). \nThe post Rolex Unveils First Authorised Book on the Oyster Perpetual Submariner Watch ap\u2026",
+            "url": "https://www.luxuo.com/culture/rolex-unveils-first-authorised-book-on-the-oyster-perpetual-submariner-watch.html",
+            "urlToImage": "https://cdn.luxuo.com/2024/09/Oyster-Perpetual-Submariner-Book-01-Featured-Image-01.jpg",
+            "publishedAt": "2024-09-23T02:00:45Z",
+            "content": "In partnership with Wallpaper*, the book is a comprehensive overview of the Submariner, the first divers\u2019 watch certified waterproof to a depth of 100 meters (330 feet). Oyster Perpetual Submariner \u2013\u2026 [+2264 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Themarginalian.org"
+            },
+            "author": "Maria Popova",
+            "title": "Curiosity as an Instrument of Love: Thoreau and the Little Owl",
+            "description": "\"If you would learn the secrets of Nature, you must practice more humanity than others.\"",
+            "url": "https://www.themarginalian.org/2024/09/22/thoreau-screech-owl/",
+            "urlToImage": "https://www.themarginalian.org/wp-content/uploads/2024/09/Thoreau_owl_Marginalian.jpg?fit=1200%2C630&ssl=1",
+            "publishedAt": "2024-09-23T02:00:33Z",
+            "content": "Among the things I most cherish about science is the way it anneals curiosity. True curiosity is an open wonderment at what something is and how it works without emotional attachment to the outcome o\u2026 [+6524 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Business Standard"
+            },
+            "author": "ANI",
+            "title": "Kaziranga leads rhino conservation with training for 700 safari drivers",
+            "description": "These initiatives were designed to engage the community and highlight the importance of protecting the one-horned rhino",
+            "url": "https://www.business-standard.com/india-news/kaziranga-leads-rhino-conservation-with-training-for-700-safari-drivers-124092200763_1.html",
+            "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-06/17/thumb/fitandfill/400X400/1718603086-0552.jpg",
+            "publishedAt": "2024-09-23T01:52:39Z",
+            "content": "These initiatives were designed to engage the community and highlight the importance of protecting the one-horned rhino\r\nCM Sarma highlighted the various initiatives taken by his government since ass\u2026 [+6506 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Week Magazine"
+            },
+            "author": "theweekonlineeditorsuk@futurenet.com (Harriet Marsden, The Week UK)",
+            "title": "Putin's fixation with shamans",
+            "description": "Secretive Russian leader, said to be fascinated with occult and pagan rituals, allegedly asked for blessing over nuclear weapons",
+            "url": "https://theweek.com/world-news/putins-fixation-with-shamans",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/jsHBBTdbu4Ps2qMUzDNDnk-1200-80.jpg",
+            "publishedAt": "2024-09-23T01:47:07Z",
+            "content": "Vladimir Putin allegedly met shamans during his recent trips to Siberia and Mongolia to seek their blessing for the use of nuclear weapons, according to Russian opposition figures.\r\nThe Russian presi\u2026 [+4321 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Languagehat.com"
+            },
+            "author": "languagehat",
+            "title": "More Old Bones.",
+            "description": "At the request of Yamnaya fans, herewith a new catchall everything-paleogenetic thread! Have at it, DNA lovers\u2026",
+            "url": "https://languagehat.com/more-old-bones/",
+            "urlToImage": null,
+            "publishedAt": "2024-09-23T01:43:00Z",
+            "content": "Commented-On Language Hat Posts (courtesy of J.C.; contains useful Random Link feature)\r\nMy Languages\r\nMy Hats\r\nE-mail:languagehat AT gmail DOT com\r\nMy name is Steve Dodson; I\u2019m a retired copyeditor \u2026 [+1674 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Independent.ie"
+            },
+            "author": "Claudia Savage",
+            "title": "Sinn F\u00e9in leader Mary Lou McDonald urges Keir Starmer to \u2018make intention clear\u2019 on Irish unity referendum",
+            "description": "Sinn F\u00e9in president Mary Lou McDonald has called on the British government to \u201cmake clear its intention to trigger a referendum\u201d on Irish unity.",
+            "url": "https://www.independent.ie/irish-news/politics/sinn-fein-leader-mary-lou-mcdonald-urges-keir-starmer-to-make-intention-clear-on-irish-unity-referendum/a1449247668.html",
+            "urlToImage": "https://focus.independent.ie/thumbor/HzDe-eVuSOCwsUpAZnsld2rmjCI=/629x460/smart/prod-mh-ireland/583ce83e-86b9-44ed-9a5a-c8d074cc927a/402e5626-9141-4438-b76f-023899919a87/SINN%20FEIN%203%20%282%29.jpg",
+            "publishedAt": "2024-09-23T01:30:00Z",
+            "content": "Sinn F\u00e9in president Mary Lou McDonald has called on the British government to make clear its intention to trigger a referendum on Irish unity.Speaking at a fringe event at the \u00adLabour Party conferenc\u2026 [+2822 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Independent.ie"
+            },
+            "author": "Claudia Savage",
+            "title": "Sinn F\u00e9in leader Mary Lou McDonald urges Keir Starmer to \u2018make intention clear\u2019 on Irish unity referendum",
+            "description": "Sinn F\u00e9in president Mary Lou McDonald has called on the British government to \u201cmake clear its intention to trigger a referendum\u201d on Irish unity.",
+            "url": "https://www.independent.ie/irish-news/sinn-fein-leader-mary-lou-mcdonald-urges-keir-starmer-to-make-intention-clear-on-irish-unity-referendum/a1449247668.html",
+            "urlToImage": "https://focus.independent.ie/thumbor/HzDe-eVuSOCwsUpAZnsld2rmjCI=/629x460/smart/prod-mh-ireland/583ce83e-86b9-44ed-9a5a-c8d074cc927a/402e5626-9141-4438-b76f-023899919a87/SINN%20FEIN%203%20%282%29.jpg",
+            "publishedAt": "2024-09-23T01:30:00Z",
+            "content": "Sinn F\u00e9in president Mary Lou McDonald has called on the British government to make clear its intention to trigger a referendum on Irish unity.Speaking at a fringe event at the \u00adLabour Party conferenc\u2026 [+2822 chars]"
         },
         {
             "source": {
                 "id": "the-jerusalem-post",
                 "name": "The Jerusalem Post"
             },
-            "author": "BY HANNAH BROWN",
-            "title": "Soundtrack Tel Aviv festival to celebrate great music, film, and much more",
-            "description": "Below are just some of the festival\u2019s highlights, and all music lovers will find something to interest them in this carefully curated festival.",
-            "url": "https://www.jpost.com/israel-news/culture/article-820252",
-            "urlToImage": "https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_407,w_690/622084",
-            "publishedAt": "2024-09-16T02:03:15Z",
-            "content": "People use the word \u201cspecial\u201d to describe many things, but the Soundtrack Tel Aviv Festival, which will take place at the Tel Aviv Cinematheque from September 17 to 21 is truly special, an incredibly\u2026 [+6696 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Eyrie.org"
-            },
-            "author": null,
-            "title": "Russ Allbery: Review: The Wings Upon Her Back",
-            "description": "Review: The Wings Upon Her Back, by Samantha Mills\n\n<table>\n <tr>\n <td>Publisher:</td>\n <td>Tachyon</td>\n </tr>\n <tr>\n <td>Copyright:</td>\n <td>2024</td>\n </tr>\n <tr>\n <td>ISBN:</td>\n <td>1-61696-415-4</td>\n </tr>\n <tr>\n <td>Format:</td>\n <td>Kindle</td>\n </t\u2026",
-            "url": "https://www.eyrie.org/~eagle/reviews/books/1-61696-415-4.html",
-            "urlToImage": null,
-            "publishedAt": "2024-09-16T02:03:00Z",
-            "content": "The Wings Upon Her Back is a political steampunk science fantasy\r\nnovel. If the author's name sounds familiar, it may be because Samantha\r\nMills's short story \"Rabbit Test\" won Nebula, Locus, Hugo, a\u2026 [+8249 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Dansdeals.com"
-            },
-            "author": "Mimi",
-            "title": "Pre-Yom Tov Sale! Stock Up On Mitzvah Kinder!",
-            "description": "Please note: This is a\u00a0stickied sponsored post,\u00a0please scroll down for new posts. Pre Yom Tov Sale! Stock up on Mitzvah Kinder / One time deals! 22 mentchees in a bag $39.99 (reg $60) Mitzvah Kinder Books $19.99 (reg $.30.99) Free shipping on orders of $100+ \u2026",
-            "url": "https://www.dansdeals.com/advertisement/pre-yom-tov-sale-stock-mitzvah-kinder/",
-            "urlToImage": "https://i.dansdeals.com/wp-content/uploads/2024/09/15143205/image-2.png",
-            "publishedAt": "2024-09-16T02:00:45Z",
-            "content": "Advertiser Disclosure: Many of the links that appear on this site are from companies from which DansDeals.com receives compensation. Dan\u2019s Deals LLC is a participant in the Amazon Services LLC Associ\u2026 [+1486 chars]"
-        },
-        {
-            "source": {
-                "id": "cnn",
-                "name": "CNN"
-            },
-            "author": "Curt Devine",
-            "title": "Man detained in apparent assassination attempt on Trump criticized former president on social media | CNN Politics",
-            "description": "A man detained Sunday in connection with an apparent assassination attempt on former President Donald Trump in Florida went on social media to weigh in on politics.",
-            "url": "https://www.cnn.com/2024/09/15/politics/trump-attempted-assassination-man-detained/index.html",
-            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2172232522.jpg?c=16x9&q=w_800,c_fill",
-            "publishedAt": "2024-09-16T02:00:41Z",
-            "content": "A 58-year-old man detained Sunday in connection with an apparent assassination attempt on Donald Trump in Florida is a self-employed affordable housing builder in Hawaii who went on social media to w\u2026 [+5134 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Screen Rant"
-            },
-            "author": "Angel Shaw",
-            "title": "The Rings Of Power Is Finally Honoring Amazon's Game Of Thrones Replacement Wish",
-            "description": "Any fantasy TV show would hope to emulate Game of Thrones' success, and Prime Video's Rings of Power has taken a step in the right direction.",
-            "url": "https://screenrant.com/rings-of-power-numenor-amazon-game-of-thrones-replacement/",
-            "urlToImage": "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/09/galadriel-in-the-rings-of-power-with-got-imagery.jpg",
-            "publishedAt": "2024-09-16T02:00:13Z",
-            "content": "Warning! Spoilers for Rings of Power season 2, episode 5 ahead!\r\nHopes were high that Amazon's The Lord of the Rings: The Rings of Power would be an adequate Game of Thrones replacement series, and s\u2026 [+5191 chars]"
-        },
-        {
-            "source": {
-                "id": "bleacher-report",
-                "name": "Bleacher Report"
-            },
-            "author": "Doric Sam",
-            "title": "Caitlin Clark Says Fever Feel Like They Can 'Compete with Every Single Team'",
-            "description": "The Indiana Fever made the playoffs for the first time since 2016, and star rookie Caitlin Clark said the team is confident in its chances to make some noise\u2026",
-            "url": "https://bleacherreport.com/articles/10135527-caitlin-clark-says-fever-feel-like-they-can-compete-with-every-single-team",
-            "urlToImage": "https://media.bleacherreport.com/image/upload/c_fill,g_faces,w_3800,h_2000,q_95/v1726450228/xagkdzx8hsk14p742okk.jpg",
-            "publishedAt": "2024-09-16T01:44:13Z",
-            "content": "Michael Hickey/NBAE via Getty Images\r\nThe Indiana Fever made the playoffs for the first time since 2016, and star rookie Caitlin Clark said the team is confident in its chances to make some noise reg\u2026 [+1314 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "BusinessLine"
-            },
-            "author": "Team BL",
-            "title": "Share Market Highlights September 16, 2024: Sensex rebounds nearly 100 pts to hit lifetime high; Nifty scales record intra-day level",
-            "description": "Sensex, Nifty updates on 16 September 2024: Equity benchmark index Sensex rebounded nearly 100 points to hit a lifetime closing high on Monday and Nifty scaled an intra-day record level, propelled by bargain hunting in energy, utility and banking stocks amid \u2026",
-            "url": "https://www.thehindubusinessline.com/markets/stock-market-highlights-16-september-2024/article68645226.ece",
-            "urlToImage": "https://bl-i.thgim.com/public/incoming/z3q94v/article68572431.ece/alternates/LANDSCAPE_1200/IMG_Digitally_enhanced_s_2_1_GQD08VKF.jpg",
-            "publishedAt": "2024-09-16T01:24:22Z",
-            "content": "<li></li>\r\nSeptember 16, 2024 16:09Currency Market Live Today: Rupee rises 4 paise to close at 83.88 against US dollar\r\nThe rupee witnessed range-bound trade and settled for the day higher by 4 paise\u2026 [+36140 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "International Business Times"
-            },
-            "author": "Kieran CANNING",
-            "title": "Judgement Day For Man City's Golden Era As Long-awaited Hearing Begins",
-            "description": "Manchester City have been an unstoppable force in English football of late, but now face the challenge of clearing the club's name against accusations their dominance is built on foundations of financial impropriety.",
-            "url": "https://www.ibtimes.com/judgement-day-man-citys-golden-era-long-awaited-hearing-begins-3743355",
-            "urlToImage": "https://d.ibtimes.com/en/full/4548138/hearing-115-charges-against-manchester-city-has-huge-ramifications-pep-guardiolas-legacy-club.jpg",
-            "publishedAt": "2024-09-16T01:15:19Z",
-            "content": "Manchester City have been an unstoppable force in English football of late, but now face the challenge of clearing the club's name against accusations their dominance is built on foundations of finan\u2026 [+3446 chars]"
+            "author": "BY BARRY SHAW",
+            "title": "Jews are the indigenous people of the Land of Israel",
+            "description": "The story of the Jews as an indigenous people is one of the oldest but best-kept secrets of mankind.",
+            "url": "https://www.jpost.com/opinion/article-820835",
+            "urlToImage": "https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_407,w_690/622873",
+            "publishedAt": "2024-09-23T01:28:46Z",
+            "content": "What are the two prime commodities of an indigenous people? Peoplehood and land. A specific land.\r\nThe story of the Jews as an indigenous people is one of the oldest but best-kept secrets of mankind.\u2026 [+10423 chars]"
         },
         {
             "source": {
@@ -658,90 +528,129 @@
                 "name": "Pajiba.com"
             },
             "author": "Mike Redmond",
-            "title": "Ben Affleck & Jennifer Lopez Had a PDA Brunch? Are You Kidding Me?",
-            "description": "Just when it seemed like the Ben Affleck and Jennifer Lopez Reunion Tour had come to its inevitable whale juice conclusion, the two were spotted having a \"PDA-filled brunch\" with all of their kids. Reportedly, this means nothing and the...\nRead more...",
-            "url": "https://www.pajiba.com/pajiba_love/ben-affleck-jennifer-lopez-had-a-pda-brunch-are-you-kidding-me.php",
-            "urlToImage": "https://www.pajiba.com/assets_c/2024/09/ben-affleck-jennifer-lopez-back-together-thumb-700x467-265166.jpg",
-            "publishedAt": "2024-09-16T01:11:11Z",
-            "content": "Just when it seemed like the Ben Affleck and Jennifer Lopez Reunion Tour had come to its inevitable whale juice conclusion, the two were spotted having a \u201cPDA-filled brunch\u201d with all of their kids. R\u2026 [+1655 chars]"
+            "title": "Janet Jackson Did Not Apologize for Saying Kamala Isn't Black",
+            "description": "So, let me walk you through this whirlwind of events. On Friday, The Guardian dropped an interview with Janet Jackson where -- despite the best efforts of the reporter -- Janet was adamant that Kamala Harris isn't Black because \"I...\nRead more...",
+            "url": "https://www.pajiba.com/pajiba_love/janet-jackson-did-not-apologize-for-saying-kamala-isnt-black.php",
+            "urlToImage": "https://www.pajiba.com/assets_c/2024/09/janet-jackson-kamala-harris-thumb-700x467-265298.jpg",
+            "publishedAt": "2024-09-23T01:09:30Z",
+            "content": "So, let me walk you through this whirlwind of events. On Friday, The Guardian dropped an interview with Janet Jackson where \u2014 despite the best efforts of the reporter \u2014 Janet was adamant that Kamala \u2026 [+2834 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Crooksandliars.com"
+                "name": "Deadline"
             },
-            "author": "Chris capper Liebenthal",
-            "title": "Bigotry Sure Is Expensive",
-            "description": "The Escambia County School Board in Florida is learning the hard way that bigotry - and stupidity - is very costly.\n\nThe Escambia County School Board has paid a law firm at least $107,000 to defend its removal of \"And Tango Makes Three\" after a federal lawsui\u2026",
-            "url": "https://crooksandliars.com/2024/09/bigotry-sure-expensive",
-            "urlToImage": "https://crooksandliars.com/files/primary_image/24/09/screenshot_2024-09-15_022120.png",
-            "publishedAt": "2024-09-16T01:00:01Z",
-            "content": "The Escambia County School Board in Florida is learning the hard way that bigotry - and stupidity - is very costly.\r\nThe Escambia County School Board has paid a law firm at least $107,000 to defend i\u2026 [+1710 chars]"
+            "author": "Lynette Rice",
+            "title": "\u2018Matlock\u2019 Showrunner Jennie\u00a0Snyder\u00a0Urman Addresses That Hardcore Twist In Premiere On CBS",
+            "description": "SPOILER ALERT! This story contains details about the premiere episode of Matlock on CBS. Viewers expecting a simple gender-swapped version of the classic TV show starring Andy Griffith were treated with an unexpected twist at the end of the episode. Instead o\u2026",
+            "url": "http://deadline.com/2024/09/matlock-premiere-cbs-twist-interview-creator-jennie-snyder-urman-1236095737/",
+            "urlToImage": "https://deadline.com/wp-content/uploads/2024/09/1792576_00469bc.jpg?w=1024",
+            "publishedAt": "2024-09-23T01:00:00Z",
+            "content": "SPOILER ALERT! This story contains details about the premiere episode of Matlock on CBS.\r\nViewers expecting a simple gender-swapped version of the classic TV show starring Andy Griffith were treated \u2026 [+7007 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Book Riot"
+                "name": "Thegospelcoalition.org"
             },
-            "author": "Book Riot",
-            "title": "The 2024 National Book Award Longlist, GOOD OMENS Season Three 'Paused,' Rachel Kushner's CREATION LAKE, and More",
-            "description": "This week, Jeff and Rebecca discuss the 10 selections for The National Book Awards Fiction Longlist along with their mostly wrong guesses, Good Omens production pauses amid the accusations against Neil Gaiman, Rachel Kushner's Creation Lake, and an author int\u2026",
-            "url": "https://bookriot.com/listen/the-2024-national-book-award-longlist-good-omens-season-three-paused-rachel-kushners-creation-lake-and-more/",
-            "urlToImage": "https://s2982.pcdn.co/wp-content/uploads/2024/05/Book-Riot-The-Podcast-logo.jpg.webp",
-            "publishedAt": "2024-09-16T01:00:00Z",
-            "content": "This week, Jeff and Rebecca discuss the 10 selections for The National Book Awards Fiction Longlist along with their mostly wrong guesses, Good Omens production pauses amid the accusations against Ne\u2026 [+565 chars]"
+            "author": "Sarah Smith",
+            "title": "Secondhand Wisdom",
+            "description": "One day, the op shop shelves tell me, my children will be sifting through my things and there\u2019ll be a skip bin and some charity drop-offs involved. It\u2019s a great reminder how: \u201cSurely the people are grass.\u00a0The grass withers and the flowers fall, but the word o\u2026",
+            "url": "https://au.thegospelcoalition.org/article/secondhand-wisdom/",
+            "urlToImage": "https://media.thegospelcoalition.org/wp-content/uploads/sites/3/2024/09/19191004/Image-Op-Shop-By-Prudence-Earl-on-Unsplash.jpg",
+            "publishedAt": "2024-09-23T00:51:57Z",
+            "content": "The op shop is unique in that you can walk into a roomsometimes a small oneand find something for every life stage, from baby cots to tennis racquets to walking frames. Having op shopped since I was \u2026 [+4481 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "ksltv.com"
+                "name": "Dark Horizons"
             },
-            "author": "Cnn",
-            "title": "Making arts, crafts improves mental health as much as having a job, scientists find",
-            "description": "A new study by Keyes and fellow researchers has found that engaging in creative activities can significantly boost well-being by providing meaningful spaces for expression and achievement.",
-            "url": "https://ksltv.com/681911/making-arts-crafts-improves-mental-health-as-much-as-having-a-job-scientists-find/",
-            "urlToImage": "https://ksltv.com/wp-content/uploads/2024/09/cnn-L19jb21wb25lbnRzL2ltYWdlL2luc3RhbmNlcy9jbHp4YTA3OXIwMDBvM2I2a3A2MnppY2xo-L19jb21wb25lbnRzL2FydGljbGUvaW5zdGFuY2VzL2Nseng4dXJwbTAwMHduZHFwOGF4cGVmYWk-scaled-e1726447799672.jpg",
-            "publishedAt": "2024-09-16T00:58:55Z",
-            "content": "(CNN) Walking into my grandmothers house, I watch her hands move in a fast-weaving motion as stitches extend from her knitting needles. Beside her are layered stacks of knit blankets, scarves and pon\u2026 [+5475 chars]"
+            "author": "Garth Franklin",
+            "title": "Poster: \u201cLord of the Rings: War of the Rohirrim\u201d",
+            "description": "Tied to Hobbit Day celebrations, Warner Bros. Pictures and New Line Cinema have released a poster for the anime feature \u201cThe Lord of the Rings: The War of the Rohirrim\u201d which hits cinemas this Christmas. Helmed by award-winning filmmaker Kenji Kamiyama (\u201cBlad\u2026",
+            "url": "https://www.darkhorizons.com/poster-lord-of-the-rings-war-of-the-rohirrim/",
+            "urlToImage": "https://cdndark.darkhorizons.com/wp-content/uploads/2024/09/poster-lord-of-the-rings-war-of-the-rohirrim.jpg",
+            "publishedAt": "2024-09-23T00:37:52Z",
+            "content": "Tied to Hobbit Day celebrations, Warner Bros. Pictures and New Line Cinema have released a poster for the anime feature \u201cThe Lord of the Rings: The War of the Rohirrim\u201d which hits cinemas this Christ\u2026 [+1681 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "CBS Sports"
+                "name": "Koreaboo.com"
             },
-            "author": "Jack Maloney",
-            "title": "WNBA scores, takeaways: A'ja Wilson hits 1,000 points, Caitlin Clark goes off, race for eighth continues",
-            "description": "All 12 teams played Sunday, and the action did not disappoint",
-            "url": "https://www.cbssports.com/wnba/news/wnba-scores-takeaways-aja-wilson-hits-1000-points-caitlin-clark-goes-off-race-for-eighth-continues/",
-            "urlToImage": "https://sportshub.cbsistatic.com/i/r/2024/09/16/2b1b6c2b-5c61-48e9-add8-e5c2289135bd/thumbnail/1200x675/073caf62341f5bee56351dcd3f2e5c40/gettyimages-2158350030-1-1.jpg",
-            "publishedAt": "2024-09-16T00:54:01Z",
-            "content": "The final weekend of the WNBA regular season concluded on Sunday with a wild afternoon that saw all 12 teams in action in the space of a few hours. There were historic performances, nail-biting finis\u2026 [+5497 chars]"
+            "author": "Koreaboo",
+            "title": "ILLIT\u2019s Public Support For FIFTY FIFTY Sparks Heated Debate",
+            "description": "Many fans were left baffled when multiple ILLIT members went out of their ways to congratulate the group on their new comeback.",
+            "url": "https://www.koreaboo.com/news/illit-public-support-fifty-fifty-sparks-heated-debate/",
+            "urlToImage": "https://img.koreaboo.com/2024/09/ILLIT-FIFI.jpg",
+            "publishedAt": "2024-09-23T00:30:31Z",
+            "content": "ILLIT members recently showed public support for FIFTY FIFTYs new comeback, taking aback many fans.\r\nILLIT | @illit_official/Instagram\r\nFIFTY FIFTY | @we_fiftyfifty/Instagram\r\nNowadays, two idol grou\u2026 [+4582 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "IndieWire"
+                "name": "Yahoo Entertainment"
             },
-            "author": "Proma Khosla",
-            "title": "Jessica Gunning Wins First Emmy for \u2018Baby Reindeer\u2019",
-            "description": "This is the first Emmy nomination and win for Gunning, who played Martha in Richard Gadd's limited series, 'Baby Reindeer.'",
-            "url": "https://www.indiewire.com/awards/results/jessica-gunning-wins-emmy-baby-reindeer-1235047001/",
-            "urlToImage": "https://www.indiewire.com/wp-content/uploads/2024/09/BR_104_Unit_00170_RT.jpg?w=650",
-            "publishedAt": "2024-09-16T00:52:33Z",
-            "content": "Jessica Gunning has just won her first Emmy Award for her portrayal of Martha in Netflix\u2018s \u201cBaby Reindeer.\u201d Gunning was nominated for Outstanding Supporting Actress in a Limited Series for her work, \u2026 [+2338 chars]"
+            "author": "NBC Sports BayArea",
+            "title": "How 49ers' Purdy tied HOF QB Warner in NFL record book vs. Rams",
+            "description": "49ers QB Brock Purdy matched Hall of Fame inductee Kurt Warner in the NFL record books in San Francisco's 27-24 loss to the Los Angeles Rams in Week 3 of the 2024 season.",
+            "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_c3934fe1-2cd4-4cb1-ade7-f076a7032eb1",
+            "urlToImage": null,
+            "publishedAt": "2024-09-23T00:30:24Z",
+            "content": "If you click 'Accept all', we and our partners, including 239 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use \u2026 [+678 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "TheWrap"
+                "name": "The Punch"
             },
-            "author": "Stephanie Kaloi",
-            "title": "Royal Family Acknowledges Prince Harry\u2019s Birthday for 1st Time in 3 Years",
-            "description": "The British crown's official account writes, \"Wishing The Duke of Sussex a very happy 40th birthday today!\"\nThe post Royal Family Acknowledges Prince Harry\u2019s Birthday for 1st Time in 3 Years appeared first on TheWrap.",
-            "url": "https://www.thewrap.com/prince-harry-birthday-royal-family-40-2021/",
-            "urlToImage": "https://www.thewrap.com/wp-content/uploads/2024/09/prince-harry-speaking.jpg",
-            "publishedAt": "2024-09-16T00:36:57Z",
-            "content": "The most senior members of the British royal family acknowledged Prince Harrys birthday on social media for the first time in three years on Sunday. In two separate posts shared online, the account f\u2026 [+2885 chars]"
+            "author": "Abiodun Adewale",
+            "title": "Ajibade bags brace, assists in Atletico big win",
+            "description": "\u2022Boniface nets winner in Leverkusen thriller, Moses renders assist The goals and assists keep coming for Nigerian players abroad as they continued their incredible run for their various clubs, ABIODUN ADEWALE recaps their performances SUNDAY SPAIN RASHEEDAT A\u2026",
+            "url": "https://punchng.com/ajibade-bags-brace-assists-in-atletico-big-win/",
+            "urlToImage": "https://cdn.punchng.com/wp-content/uploads/2024/09/23001600/AJIBADE-AND-OTHERS.jpg",
+            "publishedAt": "2024-09-23T00:21:18Z",
+            "content": "Boniface nets winner in Leverkusen thriller, Moses renders assist\r\nThe goals and assists keep coming for Nigerian players abroad as they continued their incredible run for their various clubs, ABIODU\u2026 [+10801 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Straits Times"
+            },
+            "author": "",
+            "title": "With AI, dead celebrities are working again - and making millions",
+            "description": "From voiceover work to 'digital human' acting jobs and immersive stage shows, AI is firing up the dead celebrity industry. Read more at straitstimes.com.",
+            "url": "https://www.straitstimes.com/business/with-ai-dead-celebrities-are-working-again-and-making-millions",
+            "urlToImage": "https://static1.straitstimes.com.sg/s3fs-public/styles/large30x20/public/articles/2024/09/23/wgt-jamesdeani-230924.jpg?VersionId=tOKLMm442OMTjNPx4KqW0apdpmDXWV9T",
+            "publishedAt": "2024-09-23T00:10:59Z",
+            "content": "NEW YORK Can you think of a better way to get into the spirit of Halloween than listening to Washington Irvings short story The Legend Of Sleepy Hollow read by the ghost of James Dean?\r\nThe actors ca\u2026 [+5625 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New Zealand Herald"
+            },
+            "author": "Anne Gibson",
+            "title": "Fletcher Building\u2019s giant $700m capital raise to repay debt, stave off asset sales",
+            "description": "'Capital raise keeps the wolves from the door' - analyst Andrew Scott of Morgan Stanley.",
+            "url": "https://www.nzherald.co.nz/business/fletcher-buildings-giant-700m-capital-raise-to-repay-debt-stave-off-asset-sales/IGLESU7YMBCG5BCNI6VDSOKLRY/",
+            "urlToImage": "https://www.nzherald.co.nz/resizer/v2/J5TCY7ADHRGDTK4J6WELP65A5Q.PNG?auth=b889dcb58f3aead8e721a8cbb97d7cf1b0b0f8798eb83a9d019f3cd2d469a797&width=1200&height=675&quality=70&smart=true",
+            "publishedAt": "2024-09-23T00:08:51Z",
+            "content": "Market conditions were challenging and this gives headroom to focus on operational performance, Reding said.\r\nWe are dealing with very challenging markets with regards to Australia and New Zealand, p\u2026 [+4950 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Israelnationalnews.com"
+            },
+            "author": "Yoni Kempinski, Washington",
+            "title": "'You're an example to our people'",
+            "description": "Native American couple Chief Joseph and Amb. Dr. Laralyn RiverWind speak to Arutz Sheva-Israel National News at IAC about the connection between the rights that the Jews have to their land and the rights that Native Americans claim to their lands.",
+            "url": "https://www.israelnationalnews.com/en/news/396577",
+            "urlToImage": "https://a7.org/files/pictures/1200x930/1166434.jpg?autocrop=1",
+            "publishedAt": "2024-09-23T00:08:06Z",
+            "content": "Native American couple Chief Joseph and Amb. Dr. Laralyn RiverWind spoke to Arutz Sheva-Israel National News during the Israeli-American Council (IAC) Summit which took place in Washington, DC.\r\nWe a\u2026 [+2978 chars]"
         },
         {
             "source": {
@@ -749,51 +658,38 @@
                 "name": "Erickimphotography.com"
             },
             "author": "ERIC KIM",
-            "title": "Search Eric Kim most influential blog posts of all time",
-            "description": "Eric Kim\u2019s most influential blog post is often considered to be his \u201cBuy Books, Not Gear\u201d post, which struck a chord with photographers and creatives who felt overwhelmed by the constant pressure to upgrade their equipment. In this post, he advocated for prio\u2026",
-            "url": "https://erickimphotography.com/blog/2024/09/15/search-eric-kim-most-influential-blog-posts-of-all-time/",
+            "title": "Nikola Tesla quotes",
+            "description": "Certainly! Let\u2019s delve into the first quote attributed to Nikola Tesla: \u201cIf you want to find the secrets of the universe, think in terms of energy, frequency, and vibration.\u201d Breakdown and Explanation: Interpreting the Quote: Practical Implications: Conclusio\u2026",
+            "url": "https://erickimphotography.com/blog/2024/09/22/nikola-tesla-quotes/",
             "urlToImage": null,
-            "publishedAt": "2024-09-16T00:11:58Z",
-            "content": "Some of Eric Kim\u2019s most influential blog posts revolve around his key philosophies and approaches to photography, particularly street photography. A few of his top posts that have significantly shape\u2026 [+3079 chars]"
+            "publishedAt": "2024-09-23T00:05:43Z",
+            "content": "Certainly! Let\u2019s delve into the first quote attributed to Nikola Tesla:\r\n<ol><li>Energy:</li></ol><ul><li>Fundamental Building Block: Energy is a fundamental concept in physics, representing the capa\u2026 [+6374 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Erickimphotography.com"
+                "name": "Crimethinc.com"
             },
-            "author": "ERIC KIM",
-            "title": "Search Buy Books Not Gear",
-            "description": "How did he come up with the idea, and what are his quotes on it? Why was this such a big revolutionary idea at the time when Eric Kim first mentioned it or published on it? \u201cBuy books, not gear\u201d is a concept primarily promoted by street photographer Eric Kim,\u2026",
-            "url": "https://erickimphotography.com/blog/2024/09/15/search-buy-books-not-gear/",
-            "urlToImage": null,
-            "publishedAt": "2024-09-16T00:07:49Z",
-            "content": "How did he come up with the idea, and what are his quotes on it?\r\nEric Kim came up with the idea of \u201cbuy books, not gear\u201d as a result of his personal journey in photography, where he realized that co\u2026 [+8744 chars]"
+            "author": "CrimethInc. Ex-Workers Collective",
+            "title": "Anarchists on the Wave of Protest in Indonesia",
+            "description": "In August 2024, a wave of protests rocked Indonesia in response to political machinations aimed at anointing a successor to President Joko Widodo.",
+            "url": "https://crimethinc.com/2024/09/23/anarchists-on-the-wave-of-protest-in-indonesia",
+            "urlToImage": "https://cdn.crimethinc.com/assets/articles/2024/09/22/header.jpg",
+            "publishedAt": "2024-09-23T00:03:59Z",
+            "content": "In August 2024, a wave of protests rocked Indonesia, ostensibly in response to political machinations aimed at anointing a successor to President Joko Widodo, popularly known as Jokowi. Very little i\u2026 [+45466 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Erickimphotography.com"
+                "name": "Yahoo Entertainment"
             },
-            "author": "ERIC KIM",
-            "title": "ARE PHOTO BOOKS A SCAM?",
-            "description": "I\u2019m all for photo books, and for the most part, buy books not gear is a good motto.",
-            "url": "https://erickimphotography.com/blog/2024/09/15/are-photo-books-a-scam/",
-            "urlToImage": null,
-            "publishedAt": "2024-09-16T00:06:11Z",
-            "content": "Im all for photo books, and for the most part, buy books not gear is a good motto."
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Mckinsey.com"
-            },
-            "author": null,
-            "title": "Direct from Michael Dell: Leadership lessons and the future of AI",
-            "description": "The CEO of Dell Technologies weighs in on what\u2019s next for AI, how companies can successfully transform in the face of constant disruption, and how his leadership style has changed over 40 years.",
-            "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/direct-from-michael-dell-leadership-lessons-and-the-future-of-ai",
-            "urlToImage": "https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/direct%20from%20michael%20dell%20leadership%20lessons%20and%20the%20future%20of%20ai/michael-dell-5050.jpg",
-            "publishedAt": "2024-09-16T00:00:00Z",
-            "content": "There are only a handful of people who have taken a start-up from zero to $88 billion in revenue and continue to lead it today. Michael Dell is one of them. The founder, CEO, and chairman of Dell Tec\u2026 [+18702 chars]"
+            "author": "editorial-team@simplywallst.com (Simply Wall St)",
+            "title": "Is It Smart To Buy Thong Guan Industries Berhad (KLSE:TGUAN) Before It Goes Ex-Dividend?",
+            "description": "Readers hoping to buy Thong Guan Industries Berhad ( KLSE:TGUAN ) for its dividend will need to make their move...",
+            "url": "https://finance.yahoo.com/news/smart-buy-thong-guan-industries-000229432.html/",
+            "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
+            "publishedAt": "2024-09-23T00:02:29Z",
+            "content": "Readers hoping to buy Thong Guan Industries Berhad (KLSE:TGUAN) for its dividend will need to make their move shortly, as the stock is about to trade ex-dividend. Typically, the ex-dividend date is o\u2026 [+4870 chars]"
         }
     ]
 }

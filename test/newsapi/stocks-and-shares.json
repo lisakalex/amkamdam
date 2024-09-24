@@ -1,929 +1,19 @@
 {
     "status": "ok",
-    "totalResults": 76,
+    "totalResults": 41,
     "articles": [
         {
             "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "ETMarkets.com",
-            "title": "Stock market update: Nifty Pharma index advances 0.25% in an upbeat market",
-            "description": "The Nifty Pharma index was trading 0.25 per cent  up  at 23515.7.",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/stock-watch/stock-market-update-nifty-pharma-index-advances-0-25-in-an-upbeat-market/articleshow/113383474.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-83549420,width-1200,height-630,imgsize-22674,overlay-etmarkets/photo.jpg",
-            "publishedAt": "2024-09-16T05:50:26Z",
-            "content": "NEW DELHI: The Nifty Pharma index traded positive around 11:20AM(IST)on Monday in an upbeat market. Biocon Ltd.(up 3.48 per cent), Sanofi India Ltd.(up 1.07 per cent), Torrent Pharmaceuticals Ltd.(up\u2026 [+1145 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Critical Analysis: Golden Ocean Group (NASDAQ:GOGL) versus Pacific Basin Shipping (OTCMKTS:PCFBF)",
-            "description": "Pacific Basin Shipping (OTCMKTS:PCFBF \u2013 Get Free Report) and Golden Ocean Group (NASDAQ:GOGL \u2013 Get Free Report) are both industrials companies, but which is the superior business? We will contrast the two businesses based on the strength of their risk, valuat\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/critical-analysis-golden-ocean-group-nasdaqgogl-versus-pacific-basin-shipping-otcmktspcfbf/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/golden-ocean-group-limited-logo-1200x675.png?v=20240515135932&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:47:14Z",
-            "content": "Pacific Basin Shipping (OTCMKTS:PCFBF \u2013 Get Free Report) and Golden Ocean Group (NASDAQ:GOGL \u2013 Get Free Report) are both industrials companies, but which is the superior business? We will contrast th\u2026 [+4680 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Art\u2019s-Way Manufacturing (NASDAQ:ARTW) vs. Nature\u2019s Miracle (NASDAQ:NMHI) Head-To-Head Review",
-            "description": "Nature\u2019s Miracle (NASDAQ:NMHI \u2013 Get Free Report) and Art\u2019s-Way Manufacturing (NASDAQ:ARTW \u2013 Get Free Report) are both small-cap business services companies, but which is the better business? We will contrast the two companies based on the strength of their va\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/arts-way-manufacturing-nasdaqartw-vs-natures-miracle-nasdaqnmhi-head-to-head-review/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/arts-way-manufacturing-co-inc-logo-1200x675.png?v=20230119100052&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:47:07Z",
-            "content": "Nature\u2019s Miracle (NASDAQ:NMHI \u2013 Get Free Report) and Art\u2019s-Way Manufacturing (NASDAQ:ARTW \u2013 Get Free Report) are both small-cap business services companies, but which is the better business? We will \u2026 [+4647 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Head to Head Analysis: StoneCo (NASDAQ:STNE) and Cheer (NASDAQ:CHR)",
-            "description": "Cheer (NASDAQ:CHR \u2013 Get Free Report) and StoneCo (NASDAQ:STNE \u2013 Get Free Report) are both computer and technology companies, but which is the superior stock? We will compare the two businesses based on the strength of their institutional ownership, profitabil\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/head-to-head-analysis-stoneco-nasdaqstne-and-cheer-nasdaqchr/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/stoneco-ltd-logo-1200x675.png?v=20221118104443&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:47:07Z",
-            "content": "Cheer (NASDAQ:CHR \u2013 Get Free Report) and StoneCo (NASDAQ:STNE \u2013 Get Free Report) are both computer and technology companies, but which is the superior stock? We will compare the two businesses based \u2026 [+4774 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Head to Head Analysis: GUD (OTCMKTS:GUDHF) & Douglas Dynamics (NYSE:PLOW)",
-            "description": "Douglas Dynamics (NYSE:PLOW \u2013 Get Free Report) and GUD (OTCMKTS:GUDHF \u2013 Get Free Report) are both auto/tires/trucks companies, but which is the better business? We will contrast the two companies based on the strength of their analyst recommendations, risk, d\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/head-to-head-analysis-gud-otcmktsgudhf-douglas-dynamics-nyseplow/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/gud-holdings-limited-logo-1200x675.jpg?v=20230315141842&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:46:52Z",
-            "content": "Douglas Dynamics (NYSE:PLOW \u2013 Get Free Report) and GUD (OTCMKTS:GUDHF \u2013 Get Free Report) are both auto/tires/trucks companies, but which is the better business? We will contrast the two companies bas\u2026 [+5724 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Head-To-Head Contrast: DiamondRock Hospitality (NYSE:DRH) versus AGNC Investment (NASDAQ:AGNC)",
-            "description": "AGNC Investment (NASDAQ:AGNC \u2013 Get Free Report) and DiamondRock Hospitality (NYSE:DRH \u2013 Get Free Report) are both finance companies, but which is the better business? We will compare the two companies based on the strength of their valuation, institutional ow\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/head-to-head-contrast-diamondrock-hospitality-nysedrh-versus-agnc-investment-nasdaqagnc/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/diamondrock-hospitality-logo-1200x675.png?v=20221128111657&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:46:52Z",
-            "content": "AGNC Investment (NASDAQ:AGNC \u2013 Get Free Report) and DiamondRock Hospitality (NYSE:DRH \u2013 Get Free Report) are both finance companies, but which is the better business? We will compare the two companie\u2026 [+5288 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Legend Oil and Gas (OTCMKTS:LOGL) & Genesis Energy (NYSE:GEL) Head-To-Head Contrast",
-            "description": "Genesis Energy (NYSE:GEL \u2013 Get Free Report) and Legend Oil and Gas (OTCMKTS:LOGL \u2013 Get Free Report) are both oils/energy companies, but which is the better business? We will contrast the two companies based on the strength of their profitability, institutiona\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/legend-oil-and-gas-otcmktslogl-genesis-energy-nysegel-head-to-head-contrast/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/legend-oil-and-gas-ltd-logo-1200x675.png?v=20211206094657&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:46:51Z",
-            "content": "Genesis Energy (NYSE:GEL \u2013 Get Free Report) and Legend Oil and Gas (OTCMKTS:LOGL \u2013 Get Free Report) are both oils/energy companies, but which is the better business? We will contrast the two companie\u2026 [+5196 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "TRACON Pharmaceuticals (NASDAQ:TCON) & Fresh Tracks Therapeutics (NASDAQ:FRTX) Head to Head Review",
-            "description": "Fresh Tracks Therapeutics (NASDAQ:FRTX \u2013 Get Free Report) and TRACON Pharmaceuticals (NASDAQ:TCON \u2013 Get Free Report) are both small-cap medical companies, but which is the better stock? We will compare the two businesses based on the strength of their analyst\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/tracon-pharmaceuticals-nasdaqtcon-fresh-tracks-therapeutics-nasdaqfrtx-head-to-head-review/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/tracon-pharmaceuticals-inc-logo-1200x675.jpg&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:46:51Z",
-            "content": "Fresh Tracks Therapeutics (NASDAQ:FRTX \u2013 Get Free Report) and TRACON Pharmaceuticals (NASDAQ:TCON \u2013 Get Free Report) are both small-cap medical companies, but which is the better stock? We will compa\u2026 [+5330 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Head to Head Analysis: United States Basketball League (OTCMKTS:USBL) vs. Matthews International (NASDAQ:MATW)",
-            "description": "United States Basketball League (OTCMKTS:USBL \u2013 Get Free Report) and Matthews International (NASDAQ:MATW \u2013 Get Free Report) are both conglomerates companies, but which is the better stock? We will compare the two companies based on the strength of their valua\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/head-to-head-analysis-united-states-basketball-league-otcmktsusbl-vs-matthews-international-nasdaqmatw/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/matthews-international-co-logo-1200x675.png?v=20240515140111&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:46:51Z",
-            "content": "United States Basketball League (OTCMKTS:USBL \u2013 Get Free Report) and Matthews International (NASDAQ:MATW \u2013 Get Free Report) are both conglomerates companies, but which is the better stock? We will co\u2026 [+4880 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "ETMarkets.com",
-            "title": "Siemens rises 0.33% as Sensex climbs",
-            "description": "The stock traded at a P/E multiple of 97.66, while the price-to-book value ratio stood at 9.99.",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/stock-watch/siemens-rises-0-33-as-sensex-climbs/articleshow/113383325.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-83725308,width-1200,height-630,imgsize-48184,overlay-etmarkets/photo.jpg",
-            "publishedAt": "2024-09-16T05:46:41Z",
-            "content": "Shares of Siemens Ltd. traded at Rs 6730.2 on BSE at 11:16AM (IST) on Monday, up 0.33 per cent from previous close. The stock quoted a 52-week low price of Rs 3248.0 and a high of Rs 7974.25. \r\nEarli\u2026 [+1239 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Benchmark Energy (OTCMKTS:BMRK) versus Ooma (NYSE:OOMA) Head-To-Head Survey",
-            "description": "Benchmark Energy (OTCMKTS:BMRK \u2013 Get Free Report) and Ooma (NYSE:OOMA \u2013 Get Free Report) are both computer and technology companies, but which is the better stock? We will contrast the two businesses based on the strength of their risk, dividends, profitabili\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/benchmark-energy-otcmktsbmrk-versus-ooma-nyseooma-head-to-head-survey/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/ooma-inc-logo-1200x675.jpg?v=20221214135643&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:43:03Z",
-            "content": "Benchmark Energy (OTCMKTS:BMRK \u2013 Get Free Report) and Ooma (NYSE:OOMA \u2013 Get Free Report) are both computer and technology companies, but which is the better stock? We will contrast the two businesses\u2026 [+4822 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Financial Contrast: China Petroleum & Chemical (OTCMKTS:SNPMF) and YPF Sociedad An\u00f3nima (NYSE:YPF)",
-            "description": "YPF Sociedad An\u00f3nima (NYSE:YPF \u2013 Get Free Report) and China Petroleum & Chemical (OTCMKTS:SNPMF \u2013 Get Free Report) are both oils/energy companies, but which is the superior business? We will compare the two companies based on the strength of their profitabili\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/financial-contrast-china-petroleum-chemical-otcmktssnpmf-and-ypf-sociedad-anonima-nyseypf/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/china-petroleum--chemical-co-logo-1200x675.png&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:43:03Z",
-            "content": "YPF Sociedad An\u00f3nima (NYSE:YPF \u2013 Get Free Report) and China Petroleum &amp; Chemical (OTCMKTS:SNPMF \u2013 Get Free Report) are both oils/energy companies, but which is the superior business? We will comp\u2026 [+6273 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Financial Survey: IBEX (NASDAQ:IBEX) and Paranovus Entertainment Technology (NASDAQ:PAVS)",
-            "description": "Paranovus Entertainment Technology (NASDAQ:PAVS \u2013 Get Free Report) and IBEX (NASDAQ:IBEX \u2013 Get Free Report) are both small-cap multi-sector conglomerates companies, but which is the better investment? We will compare the two businesses based on the strength o\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/financial-survey-ibex-nasdaqibex-and-paranovus-entertainment-technology-nasdaqpavs/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/ibex-limited-logo-1200x675.png?v=20240522094720&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:43:03Z",
-            "content": "Paranovus Entertainment Technology (NASDAQ:PAVS \u2013 Get Free Report) and IBEX (NASDAQ:IBEX \u2013 Get Free Report) are both small-cap multi-sector conglomerates companies, but which is the better investment\u2026 [+5733 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Critical Survey: MFA Financial (NYSE:MFA) versus Clipper Realty (NYSE:CLPR)",
-            "description": "MFA Financial (NYSE:MFA \u2013 Get Free Report) and Clipper Realty (NYSE:CLPR \u2013 Get Free Report) are both small-cap finance companies, but which is the superior business? We will contrast the two companies based on the strength of their dividends, analyst recommen\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/critical-survey-mfa-financial-nysemfa-versus-clipper-realty-nyseclpr/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/clipper-realty-inc-logo-1200x675.png&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:43:00Z",
-            "content": "MFA Financial (NYSE:MFA \u2013 Get Free Report) and Clipper Realty (NYSE:CLPR \u2013 Get Free Report) are both small-cap finance companies, but which is the superior business? We will contrast the two companie\u2026 [+4580 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Japan Display (OTCMKTS:JPDYY) and CTS (NYSE:CTS) Critical Analysis",
-            "description": "CTS (NYSE:CTS \u2013 Get Free Report) and Japan Display (OTCMKTS:JPDYY \u2013 Get Free Report) are both computer and technology companies, but which is the superior business? We will compare the two companies based on the strength of their risk, analyst recommendations\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/japan-display-otcmktsjpdyy-and-cts-nysects-critical-analysis/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/japan-display-inc-logo-1200x675.png&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:43:00Z",
-            "content": "CTS (NYSE:CTS \u2013 Get Free Report) and Japan Display (OTCMKTS:JPDYY \u2013 Get Free Report) are both computer and technology companies, but which is the superior business? We will compare the two companies \u2026 [+4815 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Head-To-Head Comparison: MGE Energy (NASDAQ:MGEE) and EuroSite Power (OTCMKTS:EUSP)",
-            "description": "EuroSite Power (OTCMKTS:EUSP \u2013 Get Free Report) and MGE Energy (NASDAQ:MGEE \u2013 Get Free Report) are both utilities companies, but which is the superior investment? We will compare the two businesses based on the strength of their profitability, dividends, valu\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/head-to-head-comparison-mge-energy-nasdaqmgee-and-eurosite-power-otcmktseusp/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/mge-energy-inc-logo-1200x675.png&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:40:43Z",
-            "content": "EuroSite Power (OTCMKTS:EUSP \u2013 Get Free Report) and MGE Energy (NASDAQ:MGEE \u2013 Get Free Report) are both utilities companies, but which is the superior investment? We will compare the two businesses b\u2026 [+4363 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Motley Fool Australia"
-            },
-            "author": "Zach Bristow",
-            "title": "Up 260% in 7 weeks, what's going on with Appen shares?",
-            "description": "Shares have shot to new heights.\nThe post Up 260% in 7 weeks, what's going on with Appen shares? appeared first on The Motley Fool Australia.",
-            "url": "https://www.fool.com.au/2024/09/16/up-260-in-7-weeks-whats-going-on-with-appen-shares/",
-            "urlToImage": "https://www.fool.com.au/wp-content/uploads/2022/02/rocket-5-16.9-1200x675.jpg",
-            "publishedAt": "2024-09-16T05:35:50Z",
-            "content": "Appen Ltd (ASX: APX) shares have been on a meteoric rise, surging 260% higher in just seven weeks. \r\nShares in the language technology data company were swapping hands at 43 cents per share on July 2\u2026 [+2230 chars]"
-        },
-        {
-            "source": {
                 "id": null,
                 "name": "Yahoo Entertainment"
             },
             "author": "editorial-team@simplywallst.com (Simply Wall St)",
-            "title": "KRX Growth Companies With High Insider Ownership For September 2024",
-            "description": "Over the last 7 days, the South Korean market has risen 1.4%, although it has experienced a decline of 3.9% over the past 12 months. In this fluctuating...",
-            "url": "https://finance.yahoo.com/news/krx-growth-companies-high-insider-053451861.html/",
+            "title": "Investing in BM GreenTech Berhad (KLSE:BMGREEN) five years ago would have delivered you a 258% gain",
+            "description": "When you buy shares in a company, it's worth keeping in mind the possibility that it could fail, and you could lose...",
+            "url": "https://finance.yahoo.com/news/investing-bm-greentech-berhad-klse-044054639.html/",
             "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
-            "publishedAt": "2024-09-16T05:34:51Z",
-            "content": "Over the last 7 days, the South Korean market has risen 1.4%, although it has experienced a decline of 3.9% over the past 12 months. In this fluctuating environment, identifying growth companies with\u2026 [+5192 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Business Standard"
-            },
-            "author": "Capital Market",
-            "title": "Volumes soar at India Cements Ltd counter",
-            "description": "India Cements Ltd clocked volume of 1.63 lakh shares by 10:35 IST on BSE, a 5.39 times surge over two-week average daily volume of 30176 shares",
-            "url": "https://www.business-standard.com/markets/capital-market-news/volumes-soar-at-india-cements-ltd-counter-124091600344_1.html",
-            "urlToImage": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_685x385.jpg",
-            "publishedAt": "2024-09-16T05:30:00Z",
-            "content": "India Cements Ltd clocked volume of 1.63 lakh shares by 10:35 IST on BSE, a 5.39 times surge over two-week average daily volume of 30176 shares\r\nMaharashtra Scooters Ltd, KRBL Ltd, Macrotech Develope\u2026 [+1524 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Analyzing Chatham Lodging Trust (NYSE:CLDT) & Brandywine Realty Trust (NYSE:BDN)",
-            "description": "Brandywine Realty Trust (NYSE:BDN \u2013 Get Free Report) and Chatham Lodging Trust (NYSE:CLDT \u2013 Get Free Report) are both small-cap finance companies, but which is the superior stock? We will contrast the two companies based on the strength of their profitability\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/analyzing-chatham-lodging-trust-nysecldt-brandywine-realty-trust-nysebdn/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/chatham-lodging-trust-logo-1200x675.jpg?v=20221208143847&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:28:43Z",
-            "content": "Brandywine Realty Trust (NYSE:BDN \u2013 Get Free Report) and Chatham Lodging Trust (NYSE:CLDT \u2013 Get Free Report) are both small-cap finance companies, but which is the superior stock? We will contrast th\u2026 [+5061 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "West Coast Community Bancorp (OTCMKTS:SCZC) versus HarborOne Bancorp (NASDAQ:HONE) Head-To-Head Review",
-            "description": "West Coast Community Bancorp (OTCMKTS:SCZC \u2013 Get Free Report) and HarborOne Bancorp (NASDAQ:HONE \u2013 Get Free Report) are both small-cap finance companies, but which is the superior investment? We will contrast the two businesses based on the strength of their \u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/west-coast-community-bancorp-otcmktssczc-versus-harborone-bancorp-nasdaqhone-head-to-head-review/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/harborone-bancorp-inc-logo-1200x675.jpg&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:28:43Z",
-            "content": "West Coast Community Bancorp (OTCMKTS:SCZC \u2013 Get Free Report) and HarborOne Bancorp (NASDAQ:HONE \u2013 Get Free Report) are both small-cap finance companies, but which is the superior investment? We will\u2026 [+5942 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Financial Contrast: ReWalk Robotics (NASDAQ:LFWD) vs. LogicMark (NASDAQ:LGMK)",
-            "description": "LogicMark (NASDAQ:LGMK \u2013 Get Free Report) and ReWalk Robotics (NASDAQ:LFWD \u2013 Get Free Report) are both small-cap industrial products companies, but which is the better business? We will contrast the two businesses based on the strength of their institutional \u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/financial-contrast-rewalk-robotics-nasdaqlfwd-vs-logicmark-nasdaqlgmk/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/rewalk-robotics-ltd-logo-1200x675.png?v=20240306130125&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:28:43Z",
-            "content": "LogicMark (NASDAQ:LGMK \u2013 Get Free Report) and ReWalk Robotics (NASDAQ:LFWD \u2013 Get Free Report) are both small-cap industrial products companies, but which is the better business? We will contrast the \u2026 [+5048 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Contrasting Permianville Royalty Trust (NYSE:PVL) & Extraction Oil & Gas (OTCMKTS:XOGAQ)",
-            "description": "Permianville Royalty Trust (NYSE:PVL \u2013 Get Free Report) and Extraction Oil & Gas (OTCMKTS:XOGAQ \u2013 Get Free Report) are both small-cap oils/energy companies, but which is the superior business? We will contrast the two companies based on the strength of their \u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/contrasting-permianville-royalty-trust-nysepvl-extraction-oil-gas-otcmktsxogaq/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/extraction-oil--gas-inc-logo-1200x675.jpg?v=20220628142426&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:28:43Z",
-            "content": "Permianville Royalty Trust (NYSE:PVL \u2013 Get Free Report) and Extraction Oil &amp; Gas (OTCMKTS:XOGAQ \u2013 Get Free Report) are both small-cap oils/energy companies, but which is the superior business? We\u2026 [+4703 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Exela Technologies (NASDAQ:XELA) and Repay (NASDAQ:RPAY) Critical Contrast",
-            "description": "Exela Technologies (NASDAQ:XELA \u2013 Get Free Report) and Repay (NASDAQ:RPAY \u2013 Get Free Report) are both small-cap business services companies, but which is the better stock? We will contrast the two companies based on the strength of their institutional ownersh\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/exela-technologies-nasdaqxela-and-repay-nasdaqrpay-critical-contrast/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/repay-holdings-co-logo-1200x675.jpg?v=20240503131431&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:27:24Z",
-            "content": "Exela Technologies (NASDAQ:XELA \u2013 Get Free Report) and Repay (NASDAQ:RPAY \u2013 Get Free Report) are both small-cap business services companies, but which is the better stock? We will contrast the two co\u2026 [+5274 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Anterix (NASDAQ:ATEX) and Chorus (OTCMKTS:CHRYY) Head to Head Review",
-            "description": "Chorus (OTCMKTS:CHRYY \u2013 Get Free Report) and Anterix (NASDAQ:ATEX \u2013 Get Free Report) are both computer and technology companies, but which is the better stock? We will contrast the two companies based on the strength of their analyst recommendations, institut\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/anterix-nasdaqatex-and-chorus-otcmktschryy-head-to-head-review/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/anterix-inc-logo-1200x675.png?v=20240515130839&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:24:57Z",
-            "content": "Chorus (OTCMKTS:CHRYY \u2013 Get Free Report) and Anterix (NASDAQ:ATEX \u2013 Get Free Report) are both computer and technology companies, but which is the better stock? We will contrast the two companies base\u2026 [+3845 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Reviewing Spine Injury Solutions (OTCMKTS:SPIN) & Centrais El\u00e9tricas Brasileiras S.A. \u2013 Eletrobr\u00e1s (NYSE:EBR)",
-            "description": "Centrais El\u00e9tricas Brasileiras S.A. \u2013 Eletrobr\u00e1s (NYSE:EBR \u2013 Get Free Report) and Spine Injury Solutions (OTCMKTS:SPIN \u2013 Get Free Report) are both large-cap utilities companies, but which is the better stock? We will compare the two businesses based on the st\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/reviewing-spine-injury-solutions-otcmktsspin-centrais-eletricas-brasileiras-s-a-eletrobras-nyseebr/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/spine-injury-solutions-inc-logo-1200x675.png?v=20230112160621&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:24:55Z",
-            "content": "Centrais El\u00e9tricas Brasileiras S.A. \u2013 Eletrobr\u00e1s (NYSE:EBR \u2013 Get Free Report) and Spine Injury Solutions (OTCMKTS:SPIN \u2013 Get Free Report) are both large-cap utilities companies, but which is the bett\u2026 [+4241 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Victory Capital (NASDAQ:VCTR) and AlTi Global (NASDAQ:ALTI) Head to Head Contrast",
-            "description": "AlTi Global (NASDAQ:ALTI \u2013 Get Free Report) and Victory Capital (NASDAQ:VCTR \u2013 Get Free Report) are both finance companies, but which is the superior investment? We will contrast the two businesses based on the strength of their institutional ownership, risk,\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/victory-capital-nasdaqvctr-and-alti-global-nasdaqalti-head-to-head-contrast/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/victory-capital-holdings-inc-logo-1200x675.jpg&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:24:55Z",
-            "content": "AlTi Global (NASDAQ:ALTI \u2013 Get Free Report) and Victory Capital (NASDAQ:VCTR \u2013 Get Free Report) are both finance companies, but which is the superior investment? We will contrast the two businesses b\u2026 [+6383 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Reviewing Larimar Therapeutics (NASDAQ:LRMR) and GT Biopharma (NASDAQ:GTBP)",
-            "description": "GT Biopharma (NASDAQ:GTBP \u2013 Get Free Report) and Larimar Therapeutics (NASDAQ:LRMR \u2013 Get Free Report) are both small-cap medical companies, but which is the better business? We will compare the two businesses based on the strength of their institutional owner\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/reviewing-larimar-therapeutics-nasdaqlrmr-and-gt-biopharma-nasdaqgtbp/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/larimar-therapeutics-inc-logo-1200x675.png?v=20221223110342&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:24:55Z",
-            "content": "GT Biopharma (NASDAQ:GTBP \u2013 Get Free Report) and Larimar Therapeutics (NASDAQ:LRMR \u2013 Get Free Report) are both small-cap medical companies, but which is the better business? We will compare the two b\u2026 [+4676 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Contrasting VNET Group (NASDAQ:VNET) and Rumble (NASDAQ:RUM)",
-            "description": "Rumble (NASDAQ:RUM \u2013 Get Free Report) and VNET Group (NASDAQ:VNET \u2013 Get Free Report) are both computer and technology companies, but which is the superior business? We will compare the two businesses based on the strength of their profitability, institutional\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/contrasting-vnet-group-nasdaqvnet-and-rumble-nasdaqrum/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/vnet-group-inc-logo-1200x675.png?v=20221208090842&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:09:23Z",
-            "content": "Rumble (NASDAQ:RUM \u2013 Get Free Report) and VNET Group (NASDAQ:VNET \u2013 Get Free Report) are both computer and technology companies, but which is the superior business? We will compare the two businesses\u2026 [+5486 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Comparing Evotec (OTCMKTS:EVTCY) & MannKind (NASDAQ:MNKD)",
-            "description": "MannKind (NASDAQ:MNKD \u2013 Get Free Report) and Evotec (OTCMKTS:EVTCY \u2013 Get Free Report) are both medical companies, but which is the superior business? We will contrast the two businesses based on the strength of their risk, dividends, profitability, earnings, \u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/comparing-evotec-otcmktsevtcy-mannkind-nasdaqmnkd/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/evotec-se-logo-1200x675.png?v=20221122110856&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:08:50Z",
-            "content": "MannKind (NASDAQ:MNKD \u2013 Get Free Report) and Evotec (OTCMKTS:EVTCY \u2013 Get Free Report) are both medical companies, but which is the superior business? We will contrast the two businesses based on the \u2026 [+5104 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Bicycle Therapeutics (NASDAQ:BCYC) & AbCellera Biologics (NASDAQ:ABCL) Financial Comparison",
-            "description": "Bicycle Therapeutics (NASDAQ:BCYC \u2013 Get Free Report) and AbCellera Biologics (NASDAQ:ABCL \u2013 Get Free Report) are both small-cap medical companies, but which is the superior business? We will compare the two companies based on the strength of their risk, analy\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/bicycle-therapeutics-nasdaqbcyc-abcellera-biologics-nasdaqabcl-financial-comparison/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/abcellera-biologics-inc-logo-1200x675.jpg?v=20210325130109&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:08:49Z",
-            "content": "Bicycle Therapeutics (NASDAQ:BCYC \u2013 Get Free Report) and AbCellera Biologics (NASDAQ:ABCL \u2013 Get Free Report) are both small-cap medical companies, but which is the superior business? We will compare \u2026 [+5928 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Nature\u2019s Miracle (NASDAQ:NMHI) vs. Art\u2019s-Way Manufacturing (NASDAQ:ARTW) Financial Survey",
-            "description": "Art\u2019s-Way Manufacturing (NASDAQ:ARTW \u2013 Get Free Report) and Nature\u2019s Miracle (NASDAQ:NMHI \u2013 Get Free Report) are both small-cap industrial products companies, but which is the better business? We will contrast the two businesses based on the strength of their\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/natures-miracle-nasdaqnmhi-vs-arts-way-manufacturing-nasdaqartw-financial-survey/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/natures-miracle-holding-inc-logo-1200x675.jpg?v=20240613123649&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:08:49Z",
-            "content": "Art\u2019s-Way Manufacturing (NASDAQ:ARTW \u2013 Get Free Report) and Nature\u2019s Miracle (NASDAQ:NMHI \u2013 Get Free Report) are both small-cap industrial products companies, but which is the better business? We wil\u2026 [+4661 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Critical Analysis: Antelope Enterprise (NASDAQ:AEHL) vs. Spire Global (NYSE:SPIR)",
-            "description": "Spire Global (NYSE:SPIR \u2013 Get Free Report) and Antelope Enterprise (NASDAQ:AEHL \u2013 Get Free Report) are both small-cap aerospace companies, but which is the better investment? We will contrast the two businesses based on the strength of their valuation, risk, \u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/critical-analysis-antelope-enterprise-nasdaqaehl-vs-spire-global-nysespir/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/antelope-enterprise-holdings-limited-logo-1200x675.png?v=20211102122923&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:08:48Z",
-            "content": "Spire Global (NYSE:SPIR \u2013 Get Free Report) and Antelope Enterprise (NASDAQ:AEHL \u2013 Get Free Report) are both small-cap aerospace companies, but which is the better investment? We will contrast the two\u2026 [+4728 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Art\u2019s-Way Manufacturing (NASDAQ:ARTW) & Nature\u2019s Miracle (NASDAQ:NMHI) Critical Survey",
-            "description": "Nature\u2019s Miracle (NASDAQ:NMHI \u2013 Get Free Report) and Art\u2019s-Way Manufacturing (NASDAQ:ARTW \u2013 Get Free Report) are both small-cap business services companies, but which is the better stock? We will compare the two businesses based on the strength of their valua\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/arts-way-manufacturing-nasdaqartw-natures-miracle-nasdaqnmhi-critical-survey/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/arts-way-manufacturing-co-inc-logo-1200x675.png?v=20230119100052&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:08:48Z",
-            "content": "Nature\u2019s Miracle (NASDAQ:NMHI \u2013 Get Free Report) and Art\u2019s-Way Manufacturing (NASDAQ:ARTW \u2013 Get Free Report) are both small-cap business services companies, but which is the better stock? We will com\u2026 [+4655 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Contrasting FMC (NYSE:FMC) and BioLargo (NASDAQ:BLGO)",
-            "description": "FMC (NYSE:FMC \u2013 Get Free Report) and BioLargo (NASDAQ:BLGO \u2013 Get Free Report) are both basic materials companies, but which is the better investment? We will contrast the two companies based on the strength of their valuation, earnings, risk, profitability, a\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/contrasting-fmc-nysefmc-and-biolargo-nasdaqblgo/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/biolargo-inc-logo-1200x675.png?v=20240830140819&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:08:47Z",
-            "content": "FMC (NYSE:FMC \u2013 Get Free Report) and BioLargo (NASDAQ:BLGO \u2013 Get Free Report) are both basic materials companies, but which is the better investment? We will contrast the two companies based on the s\u2026 [+4262 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "AES (NYSE:AES) & EuroSite Power (OTCMKTS:EUSP) Head to Head Review",
-            "description": "EuroSite Power (OTCMKTS:EUSP \u2013 Get Free Report) and AES (NYSE:AES \u2013 Get Free Report) are both utilities companies, but which is the superior business? We will compare the two companies based on the strength of their dividends, earnings, institutional ownershi\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/16/aes-nyseaes-eurosite-power-otcmktseusp-head-to-head-review/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/the-aes-co-logo-1200x675.jpg?v=20221103162932&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-16T05:06:52Z",
-            "content": "EuroSite Power (OTCMKTS:EUSP \u2013 Get Free Report) and AES (NYSE:AES \u2013 Get Free Report) are both utilities companies, but which is the superior business? We will compare the two companies based on the s\u2026 [+4224 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "Nishtha Awasthi",
-            "title": "Rice stocks rally up to 15% after Government removes minimum export price",
-            "description": "Shares of rice companies like KRBL, LT Foods, and Kohinoor Foods surged up to 15% on BSE after the government removed the $950/tonne minimum export price for basmati rice, boosting global demand.",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/rice-stocks-rally-up-to-15-after-government-removes-minimum-export-price/articleshow/113382027.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-113382016,width-1200,height-630,imgsize-52010,overlay-etmarkets/photo.jpg",
-            "publishedAt": "2024-09-16T04:57:31Z",
-            "content": "Shares of rice stocks like KRBL, LT Foods, Kohinoor Foods, and others rallied up to 15% on BSE today after the government removed the minimum export price (MEP) of $950 per tonne for basmati rice on \u2026 [+2148 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "ETMarkets.com",
-            "title": "Stock market update: Nifty Bank index advances 1.45% in an upbeat market",
-            "description": "The Nifty Bank index was trading 1.45 per cent  up  at 5213.0.",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/stock-watch/stock-market-update-nifty-bank-index-advances-1-45-in-an-upbeat-market/articleshow/113381601.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-83745691,width-1200,height-630,imgsize-156851,overlay-etmarkets/photo.jpg",
-            "publishedAt": "2024-09-16T04:44:22Z",
-            "content": "NEW DELHI: The Nifty Bank index traded positive around 10:13AM(IST)on Monday in an upbeat market. Kotak Mahindra Bank Ltd.(up 1.15 per cent), IDFC First Bank Ltd.(up 0.63 per cent), Axis Bank Ltd.(up\u2026 [+1019 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Motley Fool Australia"
-            },
-            "author": "Mitchell Lawler",
-            "title": "Is this the REAL reason for the rebound in ASX lithium shares?",
-            "description": "A big bet against lithium might be supercharging the recent rally.\nThe post Is this the REAL reason for the rebound in ASX lithium shares? appeared first on The Motley Fool Australia.",
-            "url": "https://www.fool.com.au/2024/09/16/is-this-the-real-reason-for-the-rebound-in-asx-lithium-shares/",
-            "urlToImage": "https://www.fool.com.au/wp-content/uploads/2021/08/men-bouncing-16_9-1200x675.jpg",
-            "publishedAt": "2024-09-16T04:41:00Z",
-            "content": "If you look at the worst-performing companies in the S&amp;P/ASX All Ordinaries Index (ASX: XAO) over the past year, you'll see lithium shares scattered throughout. But a sudden electrifying comeback\u2026 [+2793 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Business Standard"
-            },
-            "author": "Capital Market",
-            "title": "Power shares gain",
-            "description": "Power stocks were trading in the positive zone, with the BSE Power index rising 129.76 points or 1.58% at 8341.95 at 09:41 IST.",
-            "url": "https://www.business-standard.com/markets/capital-market-news/power-shares-gain-124091600185_1.html",
-            "urlToImage": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_685x385.jpg",
-            "publishedAt": "2024-09-16T04:30:00Z",
-            "content": "Power stocks were trading in the positive zone, with the BSE Power index rising 129.76 points or 1.58% at 8341.95 at 09:41 IST.\r\n Among the components of the BSE Power index, Adani Power Ltd (up 6.12\u2026 [+1012 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Business Standard"
-            },
-            "author": "Capital Market",
-            "title": "Utilties stocks rise",
-            "description": "Utilties stocks were trading with gains, with the BSE Utilities index increasing 94.69 points or 1.49% at 6461.55 at 09:41 IST.",
-            "url": "https://www.business-standard.com/markets/capital-market-news/utilties-stocks-rise-124091600186_1.html",
-            "urlToImage": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_685x385.jpg",
-            "publishedAt": "2024-09-16T04:30:00Z",
-            "content": "Utilties stocks were trading with gains, with the BSE Utilities index increasing 94.69 points or 1.49% at 6461.55 at 09:41 IST.\r\n Among the components of the BSE Utilities index, Adani Power Ltd (up \u2026 [+1151 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Business Standard"
-            },
-            "author": "Capital Market",
-            "title": "Real Estate shares gain",
-            "description": "Real Estate stocks were trading in the positive zone, with the BSE Realty index rising 99.13 points or 1.2% at 8331.2 at 09:41 IST.",
-            "url": "https://www.business-standard.com/markets/capital-market-news/real-estate-shares-gain-124091600187_1.html",
-            "urlToImage": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_685x385.jpg",
-            "publishedAt": "2024-09-16T04:30:00Z",
-            "content": "Real Estate stocks were trading in the positive zone, with the BSE Realty index rising 99.13 points or 1.2% at 8331.2 at 09:41 IST.\r\n Among the components of the BSE Realty index, Macrotech Developer\u2026 [+1021 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "BusinessLine"
-            },
-            "author": "Team BL",
-            "title": "Bajaj Housing Finance Share Price & IPO Listing Live Today: Bajaj Housing Finance shares hit \u20b9180 mark",
-            "description": "Bajaj Housing Finance IPO Listing, Bajaj Housing Finance Share Price Today & IPO Listing Live Updates 17 Sep 2024: Bajaj Housing Finance shares surge on day 2 after a stellar market debut at a 114% premium. Shares of Bajaj Housing Finance were listed on the N\u2026",
-            "url": "https://www.thehindubusinessline.com/markets/stock-markets/bajaj-housing-finance-share-price-today-bajaj-housing-finance-ipo-listing-live-17-sep-2024/article68647302.ece",
-            "urlToImage": "https://bl-i.thgim.com/public/incoming/veiyk6/article68647301.ece/alternates/LANDSCAPE_1200/IMG_FILE_PHOTO__People_s_2_1_8KD5I66D.jpg",
-            "publishedAt": "2024-09-16T04:24:43Z",
-            "content": "<li></li>\r\nSeptember 16, 2024 15:38Bajaj Housing Finance closing figure updates\r\nBajaj Housing Finance stock closed 10% on the NSE at 165, and 9.99% on t he BSE at 164.99.\r\n<li></li>\r\nSeptember 16, 2\u2026 [+9558 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "BusinessLine"
-            },
-            "author": "Team BL",
-            "title": "Bajaj Housing Finance Share Price & IPO Listing Highlights September 16, 2024: Bajaj Housing Finance shares surge 10% after market debut at a 114% premium",
-            "description": "Bajaj Housing Finance IPO Listing, Bajaj Housing Finance Share Price & IPO Listing 16 Sep 2024: Shares of Bajaj Housing Finance were listed on the NSE and BSE at \u20b9150, a premium of 114.2% against the issue price of \u20b970. The stock ended 10% higher on Monday.",
-            "url": "https://www.thehindubusinessline.com/markets/stock-markets/bajaj-housing-finance-share-price-bajaj-housing-finance-ipo-listing-16-sep-2024/article68647302.ece",
-            "urlToImage": "https://bl-i.thgim.com/public/incoming/veiyk6/article68647301.ece/alternates/LANDSCAPE_1200/IMG_FILE_PHOTO__People_s_2_1_8KD5I66D.jpg",
-            "publishedAt": "2024-09-16T04:24:43Z",
-            "content": "<li></li>\r\nSeptember 16, 2024 15:38Bajaj Housing Finance closing figure updates\r\nBajaj Housing Finance stock closed 10% on the NSE at 165, and 9.99% on t he BSE at 164.99.\r\n<li></li>\r\nSeptember 16, 2\u2026 [+9558 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Motley Fool Australia"
-            },
-            "author": "Zach Bristow",
-            "title": "5 reasons this booming ASX 200 tech stock is still a buy",
-            "description": "Fundies and brokers alike are bullish on this stock.\nThe post 5 reasons this booming ASX 200 tech stock is still a buy appeared first on The Motley Fool Australia.",
-            "url": "https://www.fool.com.au/2024/09/16/5-reasons-this-booming-asx-200-tech-stock-is-still-a-buy/",
-            "urlToImage": "https://www.fool.com.au/wp-content/uploads/2023/09/GettyImages-1341398877-1-1200x675.jpg",
-            "publishedAt": "2024-09-16T04:21:07Z",
-            "content": "Life360 Inc (ASX: 360) is one ASX 200 tech stock that's been turning heads in 2024. It is up more than 125% this year, outpacing the broader market by a wide margin.\r\nShares are currently swapping ha\u2026 [+3873 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "ETMarkets.com",
-            "title": "Nifty hits fresh record high; Sensex surges 250 points",
-            "description": "Within sectoral indices, FMCG was the only loser, down around 0.76%, while Nifty Metal was up over 1%. Buying momentum was also seen in PSU bank stocks.",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-rises-over-100-points-nifty-tops-24400-mark/articleshow/113380516.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-113380570,width-1200,height-630,imgsize-1570291,overlay-etmarkets/photo.jpg",
-            "publishedAt": "2024-09-16T04:10:00Z",
-            "content": "Ahead of the US Federal Reserve's expected interest rate cut later in the week, the domestic stock market opened on a positive note with Sensex and Nifty crossing the 24,400 level, to scale fresh rec\u2026 [+1417 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Thefreedictionary.com"
-            },
-            "author": null,
-            "title": "Orcas",
-            "description": "Found in oceans worldwide, orcas display sophisticated hunting techniques and social behaviors that have been described by experts as manifestations of a shared culture. Like other dolphins, orcas produce a variety of vocalizations used for communication and \u2026",
-            "url": "https://encyclopedia.thefreedictionary.com/orcas",
-            "urlToImage": "http://img.tfd.com/TFDlogo1200x1200.png",
-            "publishedAt": "2024-09-16T04:09:47Z",
-            "content": "The killer whale (Orcinus orca), also referred to as the orca whale or orca, and less commonly as the blackfish, is a toothed whale belonging to the oceanic dolphin family. Killer whales are found in\u2026 [+78858 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Business Standard"
-            },
-            "author": "Capital Market",
-            "title": "Indices edge higher in early trade; breadth strong",
-            "description": "At 09:30 IST, the barometer index, the S&P BSE Sensex, added 112 points or 0.14% to 83,002.94. The Nifty 50 index rose 42.75 points or 0.17% to 25,399.25.",
-            "url": "https://www.business-standard.com/markets/capital-market-news/indices-edge-higher-in-early-trade-breadth-strong-124091600146_1.html",
-            "urlToImage": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_685x385.jpg",
-            "publishedAt": "2024-09-16T04:03:00Z",
-            "content": "The key equity indices traded with minor gains in early trade. The Nifty traded above the 25,350 mark. Metal, realty and PSU bank shares advanced while FMCG and IT shares declined.\r\nAt 09:30 IST, the\u2026 [+3548 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Motley Fool Australia"
-            },
-            "author": "James Mickleboro",
-            "title": "2 ASX 200 growth shares to buy for 10% to 25% returns",
-            "description": "Brokers have good things to say about these stocks.\nThe post 2 ASX 200 growth shares to buy for 10% to 25% returns appeared first on The Motley Fool Australia.",
-            "url": "https://www.fool.com.au/2024/09/16/2-asx-200-growth-shares-to-buy-for-10-to-25-returns/",
-            "urlToImage": "https://www.fool.com.au/wp-content/uploads/2021/01/awesome-1200x675.jpg",
-            "publishedAt": "2024-09-16T04:00:04Z",
-            "content": "Looking for ASX 200 growth shares to buy? If you are, then check out the two listed below that analysts are bullish on and expect to deliver strong returns.\r\nHere's what analysts are saying about the\u2026 [+2257 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Motley Fool Australia"
-            },
-            "author": "Bernd Struben",
-            "title": "Why Macquarie likes these 5 ASX 200 mining shares, but not Fortescue!",
-            "description": "Macquarie thinks Fortescue shares could face further headwinds.\nThe post Why Macquarie likes these 5 ASX 200 mining shares, but not Fortescue! appeared first on The Motley Fool Australia.",
-            "url": "https://www.fool.com.au/2024/09/16/why-macquarie-likes-these-5-asx-200-mining-shares-but-not-fortescue/",
-            "urlToImage": "https://www.fool.com.au/wp-content/uploads/2021/05/GettyImages-551349457-1-1200x675.jpg",
-            "publishedAt": "2024-09-16T03:39:08Z",
-            "content": "Fortescue Ltd\u00a0(ASX: FMG) shares did not make the list of five S&amp;P/ASX 200 Index\u00a0(ASX: XJO) mining stocks receiving an outperform rating by Macquarie on Friday.\r\nThe ASX 200 miners that the broker\u2026 [+2769 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Yahoo Entertainment"
-            },
-            "author": "Vardah Gill",
-            "title": "Moody\u2019s Corporation (MCO): Among the Best Warren Buffett Dividend Stocks to Buy",
-            "description": "We recently compiled a list of the 7 Best Warren Buffett Dividend Stocks According to Short Sellers. In this article, we are going to take a look at where...",
-            "url": "https://finance.yahoo.com/news/moody-corporation-mco-among-best-032605749.html/",
-            "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
-            "publishedAt": "2024-09-16T03:26:05Z",
-            "content": "We recently compiled a list of the 7 Best Warren Buffett Dividend Stocks According to Short Sellers.\u00a0In this article, we are going to take a look at where Moody's Corporation (NYSE:MCO) stands agains\u2026 [+7264 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Yahoo Entertainment"
-            },
-            "author": "editorial-team@simplywallst.com (Simply Wall St)",
-            "title": "At AU$31.37, Is It Time To Put Lovisa Holdings Limited (ASX:LOV) On Your Watch List?",
-            "description": "Lovisa Holdings Limited ( ASX:LOV ), might not be a large cap stock, but it received a lot of attention from a...",
-            "url": "https://finance.yahoo.com/news/au-31-37-time-put-030127602.html/",
-            "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
-            "publishedAt": "2024-09-16T03:01:27Z",
-            "content": "Lovisa Holdings Limited (ASX:LOV), might not be a large cap stock, but it received a lot of attention from a substantial price movement on the ASX over the last few months, increasing to AU$37.48 at \u2026 [+3858 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "Reuters",
-            "title": "Australian shares rise towards fresh high as gold stocks shine; Fed in focus",
-            "description": "Australian shares neared a record high on Monday, driven by a surge in gold stocks amid rising bullion prices. Investors are anticipating a rate cut by the U.S. Federal Reserve later this week. The S&P/ASX 200 index rose 0.5%, with financials and miners also \u2026",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/australian-shares-rise-towards-fresh-high-as-gold-stocks-shine-fed-in-focus/articleshow/113378926.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-113378973,width-1200,height-630,imgsize-418624,overlay-etmarkets/photo.jpg",
-            "publishedAt": "2024-09-16T03:01:05Z",
-            "content": "Australian shares rose towards a record high on Monday, as gold stocks jumped on soaring bullion prices, while investors waited for an almost-certain rate cut by the U.S. Federal Reserve later this w\u2026 [+1503 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "Akash Podishetti",
-            "title": "Big movers on D-Street: What should investors do with Bharti Hexacom, Jubilant Pharmova and Westlife?",
-            "description": "Equity indices Sensex and Nifty ended marginally lower on Friday after a record rally, with profit-taking emerging. Stocks in focus included Bharti Hexacom, Jubilant Pharmova, and Westlife. Analysts recommend monitoring key support and resistance levels for t\u2026",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/big-movers-on-d-street-what-should-investors-do-with-bharti-hexacom-jubilant-pharmova-and-westlife/articleshow/113378770.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-113378762,width-1200,height-630,imgsize-665726,overlay-etmarkets/photo.jpg",
-            "publishedAt": "2024-09-16T02:52:56Z",
-            "content": "Equity indices Sensex and Nifty took a breather on Friday after a record rally in the previous session and ended marginally lower on the emergence of profit-taking.Stocks that were in focus include n\u2026 [+2627 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Business Standard"
-            },
-            "author": "Capital Market",
-            "title": "GIFT Nifty indicates a positive opening",
-            "description": "GIFT Nifty:",
-            "url": "https://www.business-standard.com/markets/capital-market-news/gift-nifty-indicates-a-positive-opening-124091600106_1.html",
-            "urlToImage": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_685x385.jpg",
-            "publishedAt": "2024-09-16T02:49:00Z",
-            "content": "The GIFT Nifty September futures contract is up 25.50 points, suggesting a positive start for the Nifty 50.\r\nForeign portfolio investors (FPIs) bought shares worth Rs 2,364.82 crore, while domestic i\u2026 [+2490 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Motley Fool Australia"
-            },
-            "author": "Tristan Harrison",
-            "title": "These 3 ASX index-beaters are setting new records today (I'd still buy)",
-            "description": "I think these stocks still have plenty of growth potential. \nThe post These 3 ASX index-beaters are setting new records today (I'd still buy) appeared first on The Motley Fool Australia.",
-            "url": "https://www.fool.com.au/2024/09/16/these-3-asx-index-beaters-are-setting-new-records-today-id-still-buy/",
-            "urlToImage": "https://www.fool.com.au/wp-content/uploads/2024/09/strong-kids-16.9-1200x675.jpg",
-            "publishedAt": "2024-09-16T02:19:49Z",
-            "content": "It's a great time to be an ASX share market investor because the S&amp;P/ASX 200 Index (ASX: XJO) just hit a new 52-week high of 8,144 points. That also suggests a number of the underlying businesses\u2026 [+2739 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "Kairavi Lukka",
-            "title": "Got lucky in Bajaj Housing IPO? Analysts suggest to hold it for long-term",
-            "description": "Bajaj Housing Finance's IPO, which saw massive investor interest, is expected to list at a significant premium. Analysts recommend holding the stock for long-term gains despite high valuations. The IPO's success may also lead to a re-rating of other private N\u2026",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/got-lucky-in-bajaj-housing-ipo-analysts-suggest-to-hold-it-for-long-term/articleshow/113378288.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-113378300,width-1200,height-630,imgsize-33868,overlay-etmarkets/photo.jpg",
-            "publishedAt": "2024-09-16T02:14:05Z",
-            "content": "Investors who received shares in Bajaj Housing Finance's heavily-subscribed initial public offering (IPO) are probably in for a bonanza when the company lists on Monday. The stock may double over its\u2026 [+2876 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Investopedia"
-            },
-            "author": "Timothy Smith",
-            "title": "Watch These Nvidia Price Levels After Stock's Recent Price Swings",
-            "description": "Nvidia shares will likely remain on watchlists Monday after the AI investor darling surged last week as investors snapped up a recent dip in the stock. Monitor these important chart levels.",
-            "url": "https://www.investopedia.com/watch-these-nvidia-price-levels-after-stocks-recent-price-swings-8712949",
-            "urlToImage": "https://www.investopedia.com/thmb/-4qjX6pO8qKuOkJSoaXayrpES4M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/NVDAChart-9c56b9866dc941ba96d72daba5d0274d.GIF",
-            "publishedAt": "2024-09-16T02:11:34Z",
-            "content": "<ul><li>Nvidia shares will likely remain on watchlists Monday after the AI investor darling surged last week as investors snapped up a recent dip in the stock.</li><li>The stock has rallied towards t\u2026 [+3453 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Yahoo Entertainment"
-            },
-            "author": "Timothy Smith",
-            "title": "Watch These Nvidia Price Levels After Stock's Recent Price Swings",
-            "description": "Shares Gained Nearly 16% Last Week",
-            "url": "https://finance.yahoo.com/news/watch-nvidia-price-levels-stocks-021134690.html/",
-            "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
-            "publishedAt": "2024-09-16T02:11:34Z",
-            "content": "Shares Gained Nearly 16% Last Week\r\nSource: TradingView.com\r\nKey Takeaways\r\n<ul><li>Nvidia shares will likely remain on watchlists Monday after the AI investor darling surged last week as investors s\u2026 [+3680 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Business Standard"
-            },
-            "author": "Reuters",
-            "title": "Asia stocks on tenterhooks as Fed faces crunch time ahead of rate cut",
-            "description": "Geopolitics loomed large as ever with Republican presidential candidate Donald Trump the subject of a second assassination attempt on Sunday according to the FB",
-            "url": "https://www.business-standard.com/world-news/asia-stocks-on-tenterhooks-as-fed-faces-crunch-time-ahead-of-rate-cut-124091600038_1.html",
-            "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-06/13/thumb/featurecrop/400X400/1718295812-1531.jpg",
-            "publishedAt": "2024-09-16T02:06:31Z",
-            "content": "Geopolitics loomed large as ever with Republican presidential candidate Donald Trump the subject of a second assassination attempt on Sunday according to the FB\r\n\"We agree it is likely to be a close \u2026 [+4418 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Business Standard"
-            },
-            "author": "SI Reporter",
-            "title": "Stock Market LIVE Updates: GIFT Nifty signals higher open for India markets; Asia markets mixed",
-            "description": "Stock Market LIVE Updates: Markets in India were likely to start marginally higher, even as investors around the world digested weak economic data released over the weekend, in China.",
-            "url": "https://www.business-standard.com/markets/news/stock-market-live-updates-today-september-16-sensex-nifty-nse-bse-patanjali-bajaj-housing-ipo-124091600072_1.html",
-            "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-06/12/thumb/fitandfill/400X400/1718182782-6224.jpg",
-            "publishedAt": "2024-09-16T02:05:14Z",
-            "content": "Stock Market LIVE Updates: Markets in India were likely to start marginally higher, even as investors around the world digested weak economic data released over the weekend, in China.\r\nStock Market L\u2026 [+2916 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Vulture"
-            },
-            "author": "Nina Li Coomes",
-            "title": "Industry Recap: You Got Daddy\u2019s Attention Now",
-            "description": "We finally know what happened with Charles Hanani, and it\u2019s not good! Plus, Yasmin is an easy target for Harper and Petra\u2019s schemes, not to mention Eric\u2019s gross behavior.",
-            "url": "http://www.vulture.com/article/industry-recap-season-3-episode-6-nikki-beach.html",
-            "urlToImage": "https://pyxis.nymag.com/v1/imgs/8ec/751/7a398a48dc0a1cd36364e84d81c9d47d07-industry-s3-ep6.1x.rsocial.w1200.jpg",
-            "publishedAt": "2024-09-16T02:00:13Z",
-            "content": "In Western culture, the most recognizable structure for a plot is Freytags pyramid. A story starts with exposition, the action rises, a climax occurs, the action falls, and concludes with a resolutio\u2026 [+12094 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Yahoo Entertainment"
-            },
-            "author": "editorial-team@simplywallst.com (Simply Wall St)",
-            "title": "An Intrinsic Calculation For Imdex Limited (ASX:IMD) Suggests It's 38% Undervalued",
-            "description": "Key Insights The projected fair value for Imdex is AU$3.51 based on 2 Stage Free Cash Flow to Equity Imdex's AU$2.19...",
-            "url": "https://finance.yahoo.com/news/intrinsic-calculation-imdex-limited-asx-015422803.html/",
-            "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
-            "publishedAt": "2024-09-16T01:54:22Z",
-            "content": "Key Insights\r\n<ul><li>The projected fair value for Imdex is AU$3.51 based on 2 Stage Free Cash Flow to Equity\r\n</li><li>Imdex's AU$2.19 share price signals that it might be 38% undervalued\r\n</li><li>\u2026 [+7745 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "Reuters",
-            "title": "Asia stocks on tenterhooks as Fed faces crunch time",
-            "description": "Asian stocks began the week cautiously with the U.S. expected to start an easing cycle. Central banks in Japan and the UK are likely to maintain current rates. Economic data from China showed slowing growth, while U.S. retail sales and industrial production a\u2026",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/asia-stocks-on-tenterhooks-as-fed-faces-crunch-time/articleshow/113378055.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-113378071,width-1200,height-630,imgsize-2118430,overlay-etmarkets/photo.jpg",
-            "publishedAt": "2024-09-16T01:52:16Z",
-            "content": "Asian stocks made a cautious start on Monday in a week that is almost certain to see the start of an easing cycle in the United States with the only question mark being the size of the cut, with mark\u2026 [+3792 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "ETMarkets.com",
-            "title": "GIFT Nifty signals a positive start for D-Street. Here's the trading setup for today's session",
-            "description": "Domestic markets reached record highs last week amid a global rally. The upcoming US Fed meeting on September 18 is in focus. Analysts are optimistic about Nifty's potential to reach 26,000, supported by private banking majors. Key stocks in the F&O ban inclu\u2026",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/gift-nifty-signals-a-positive-start-for-d-street-heres-the-trading-setup-for-todays-session/articleshow/113377902.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-113377930,width-1200,height-630,imgsize-48640,overlay-etmarkets/photo.jpg",
-            "publishedAt": "2024-09-16T01:42:33Z",
-            "content": "Domestic markets touched record highs in the last week amid a rally in the global markets. In the coming week, all eyes are on the US Fed meet outcome, scheduled for September 18.\"The prevailing mark\u2026 [+2724 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Yahoo Entertainment"
-            },
-            "author": "editorial-team@simplywallst.com (Simply Wall St)",
-            "title": "Several Insiders Invested In Avenira Flagging Positive News",
-            "description": "When a single insider purchases stock, it is typically not a major deal. However, when multiple insiders purchase...",
-            "url": "https://finance.yahoo.com/news/several-insiders-invested-avenira-flagging-013927199.html/",
-            "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
-            "publishedAt": "2024-09-16T01:39:27Z",
-            "content": "When a single insider purchases stock, it is typically not a major deal. However, when multiple insiders purchase stock, like in Avenira Limited's (ASX:AEV) instance, it's good news for shareholders.\u2026 [+3727 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Motley Fool Australia"
-            },
-            "author": "Bernd Struben",
-            "title": "The ASX 200 is on track for a new all-time closing high!",
-            "description": "Investors are sending the ASX 200 soaring to within reach of a new record high. But why?\nThe post The ASX 200 is on track for a new all-time closing high! appeared first on The Motley Fool Australia.",
-            "url": "https://www.fool.com.au/2024/09/16/the-asx-200-is-on-track-for-a-new-all-time-closing-high/",
-            "urlToImage": "https://www.fool.com.au/wp-content/uploads/2021/09/GettyImages-586373468-1-1200x675.jpg",
-            "publishedAt": "2024-09-16T01:34:49Z",
-            "content": "It's quite a day for the S&amp;P/ASX 200 Index\u00a0(ASX: XJO).\r\nThe benchmark Aussie index finished up 2.0% last week, closing on Friday at\u00a08,099.9 points.\r\nThat left the ASX 200 just shy of its record c\u2026 [+2527 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Motley Fool Australia"
-            },
-            "author": "Bernd Struben",
-            "title": "The ASX 200 just leapt into new all-time highs!",
-            "description": "Investors just sent the ASX 200 soaring to new record highs. But why?\nThe post The ASX 200 just leapt into new all-time highs! appeared first on The Motley Fool Australia.",
-            "url": "https://www.fool.com.au/2024/09/16/the-asx-200-just-leapt-into-new-all-time-highs/",
-            "urlToImage": "https://www.fool.com.au/wp-content/uploads/2021/09/GettyImages-586373468-1-1200x675.jpg",
-            "publishedAt": "2024-09-16T01:34:49Z",
-            "content": "It's a historic day for the S&amp;P/ASX 200 Index\u00a0(ASX: XJO) today.\r\nThe benchmark Aussie index finished up 2.0% last week, closing on Friday at\u00a08,099.9 points.\r\nThat left the ASX 200 just shy of its\u2026 [+2404 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Business Standard"
-            },
-            "author": "Pranay Prakash",
-            "title": "Stocks To Watch: Patanjali Foods, Zydus Life, Max Health, Tata Power, MTNL",
-            "description": "Stocks to watch: The US FDA has issued a warning letter to Zydus Lifesciences citing significant manufacturing lapses at its Gujarat-based plant",
-            "url": "https://www.business-standard.com/markets/news/stocks-to-watch-patanjali-foods-zydus-life-max-health-tata-power-mtnl-124091600065_1.html",
-            "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-07/03/thumb/featurecrop/400X400/1720028846-3391.jpg",
-            "publishedAt": "2024-09-16T01:34:22Z",
-            "content": "The US FDA has issued a warning letter to Zydus Lifesciences citing significant manufacturing lapses at its Gujarat-based plant.\r\nPranay PrakashNew Delhi\r\nMarkets in India were likley to start on a s\u2026 [+4185 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "BusinessLine"
-            },
-            "author": "Team BL",
-            "title": "Share Market Highlights September 16, 2024: Sensex rebounds nearly 100 pts to hit lifetime high; Nifty scales record intra-day level",
-            "description": "Sensex, Nifty updates on 16 September 2024: Equity benchmark index Sensex rebounded nearly 100 points to hit a lifetime closing high on Monday and Nifty scaled an intra-day record level, propelled by bargain hunting in energy, utility and banking stocks amid \u2026",
-            "url": "https://www.thehindubusinessline.com/markets/stock-market-highlights-16-september-2024/article68645226.ece",
-            "urlToImage": "https://bl-i.thgim.com/public/incoming/z3q94v/article68572431.ece/alternates/LANDSCAPE_1200/IMG_Digitally_enhanced_s_2_1_GQD08VKF.jpg",
-            "publishedAt": "2024-09-16T01:24:22Z",
-            "content": "<li></li>\r\nSeptember 16, 2024 16:09Currency Market Live Today: Rupee rises 4 paise to close at 83.88 against US dollar\r\nThe rupee witnessed range-bound trade and settled for the day higher by 4 paise\u2026 [+36140 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Yahoo Entertainment"
-            },
-            "author": "editorial-team@simplywallst.com (Simply Wall St)",
-            "title": "Those who invested in Oceanus Group (SGX:579) five years ago are up 100%",
-            "description": "It hasn't been the best quarter for Oceanus Group Limited ( SGX:579 ) shareholders, since the share price has fallen...",
-            "url": "https://finance.yahoo.com/news/those-invested-oceanus-group-sgx-003954620.html/",
-            "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
-            "publishedAt": "2024-09-16T00:39:54Z",
-            "content": "It hasn't been the best quarter for Oceanus Group Limited (SGX:579) shareholders, since the share price has fallen 27% in that time. But that doesn't change the fact that the returns over the last fi\u2026 [+3538 chars]"
+            "publishedAt": "2024-09-23T04:40:54Z",
+            "content": "When you buy shares in a company, it's worth keeping in mind the possibility that it could fail, and you could lose your money. But when you pick a company that is really flourishing, you can make mo\u2026 [+3798 chars]"
         },
         {
             "source": {
@@ -931,25 +21,441 @@
                 "name": "Investing.com"
             },
             "author": "Reuters",
-            "title": "Asia stocks on tenterhooks as Fed faces crunch time",
-            "description": "Asia stocks on tenterhooks as Fed faces crunch time",
-            "url": "https://www.investing.com/news/stock-market-news/asia-stocks-on-tenterhooks-as-fed-faces-crunch-time-3616580",
-            "urlToImage": "https://i-invdn-com.investing.com/news/LYNXNPEC0Q0MJ_L.jpg",
-            "publishedAt": "2024-09-16T00:29:22Z",
-            "content": "By Wayne Cole\r\nSYDNEY (Reuters) - Asian stocks made a cautious start on Monday in a week that is almost certain to see the start of an easing cycle in the United States with the only question mark be\u2026 [+3793 chars]"
+            "title": "Morning Bid: Counting on more rate cuts",
+            "description": "Morning Bid: Counting on more rate cuts",
+            "url": "https://www.investing.com/news/economy-news/morning-bid-counting-on-more-rate-cuts-3626876",
+            "urlToImage": "https://i-invdn-com.investing.com/news/Brazil-Stock-Market_3_800x533_L_1414427437.jpg",
+            "publishedAt": "2024-09-23T04:35:45Z",
+            "content": "A look at the day ahead in European and global markets from Wayne Cole.\r\nIt's been a quietly positive start to the week for markets with China's central bank lowering its 14-day repo rate by 10 bps, \u2026 [+2829 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Biztoc.com"
+                "name": "Yahoo Entertainment"
             },
-            "author": "finance.yahoo.com",
-            "title": "Asia Eyes Cautious Open After Worrying China Data: Markets Wrap",
-            "description": "Asian stocks are set for a cautious open Monday after a slew of worse than expected Chinese economic activity data landed over the weekend.\nMost Read from Bloomberg\nFutures point to a decline in Hong Kong shares, and a small gain for Australia\u2019s benchmark. US\u2026",
-            "url": "https://biztoc.com/x/613545447917621d",
-            "urlToImage": "https://biztoc.com/cdn/800/og.png",
-            "publishedAt": "2024-09-16T00:28:04Z",
-            "content": "Asian stocks are set for a cautious open Monday after a slew of worse than expected Chinese economic activity data landed over the weekend.Most Read from BloombergFutures point to a decline in Hong K\u2026 [+138 chars]"
+            "author": "Reuters",
+            "title": "Morning Bid: Counting on more rate cuts",
+            "description": "It's been a quietly positive start to the week for markets with China's central bank lowering its 14-day repo rate by 10 bps, a couple of days after...",
+            "url": "https://finance.yahoo.com/news/morning-bid-counting-more-rate-043155038.html/",
+            "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
+            "publishedAt": "2024-09-23T04:31:55Z",
+            "content": "A look at the day ahead in European and global markets from Wayne Cole.\r\nIt's been a quietly positive start to the week for markets with China's central bank lowering its 14-day repo rate by 10 bps, \u2026 [+2825 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Business Standard"
+            },
+            "author": "Capital Market",
+            "title": "Energy stocks rise",
+            "description": "Energy  stocks were trading with gains, with the BSE Energy index increasing 117.21 points or 0.9% at 13100.88 at 09:47 IST.",
+            "url": "https://www.business-standard.com/markets/capital-market-news/energy-stocks-rise-124092300182_1.html",
+            "urlToImage": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_685x385.jpg",
+            "publishedAt": "2024-09-23T04:30:00Z",
+            "content": "Energy stocks were trading with gains, with the BSE Energy index increasing 117.21 points or 0.9% at 13100.88 at 09:47 IST.\r\n Among the components of the BSE Energy index, Adani Total Gas Ltd (up 7.4\u2026 [+1216 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Business Standard"
+            },
+            "author": "Capital Market",
+            "title": "Oil and Gas stocks edge higher",
+            "description": "Oil and Gas  stocks were trading in green, with the BSE Oil & Gas index increasing 318.86 points or 1.06% at 30449.65 at 09:47 IST.",
+            "url": "https://www.business-standard.com/markets/capital-market-news/oil-and-gas-stocks-edge-higher-124092300181_1.html",
+            "urlToImage": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_685x385.jpg",
+            "publishedAt": "2024-09-23T04:30:00Z",
+            "content": "Oil and Gas stocks were trading in green, with the BSE Oil &amp; Gas index increasing 318.86 points or 1.06% at 30449.65 at 09:47 IST.\r\n Among the components of the BSE Oil &amp; Gas index, Adani Tot\u2026 [+1024 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Business Standard"
+            },
+            "author": "Capital Market",
+            "title": "Telecom shares rise",
+            "description": "Telecom stocks were trading with gains, with the BSE Telecommunication index rising 80.34 points or 2.55% at 3234.88 at 09:47 IST.",
+            "url": "https://www.business-standard.com/markets/capital-market-news/telecom-shares-rise-124092300180_1.html",
+            "urlToImage": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_685x385.jpg",
+            "publishedAt": "2024-09-23T04:30:00Z",
+            "content": "Telecom stocks were trading with gains, with the BSE Telecommunication index rising 80.34 points or 2.55% at 3234.88 at 09:47 IST.\r\n Among the components of the BSE Telecommunication index, Indus Tow\u2026 [+1110 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ETF Daily News"
+            },
+            "author": "MarketBeat News",
+            "title": "Contrasting Swedish Match AB (publ) (OTCMKTS:SWMAF) & Ispire Technology (NASDAQ:ISPR)",
+            "description": "Swedish Match AB (publ) (OTCMKTS:SWMAF \u2013 Get Free Report) and Ispire Technology (NASDAQ:ISPR \u2013 Get Free Report) are both consumer non-durables companies, but which is the superior business? We will compare the two businesses based on the strength of their div\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/23/contrasting-swedish-match-ab-publ-otcmktsswmaf-ispire-technology-nasdaqispr/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/ispire-technology-inc-logo-1200x675.jpg?v=20230428140130&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-23T04:14:43Z",
+            "content": "Swedish Match AB (publ) (OTCMKTS:SWMAF \u2013 Get Free Report) and Ispire Technology (NASDAQ:ISPR \u2013 Get Free Report) are both consumer non-durables companies, but which is the superior business? We will c\u2026 [+4548 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ETF Daily News"
+            },
+            "author": "MarketBeat News",
+            "title": "Critical Survey: Inhibikase Therapeutics (NYSE:IKT) and Fennec Pharmaceuticals (NASDAQ:FENC)",
+            "description": "Inhibikase Therapeutics (NYSE:IKT \u2013 Get Free Report) and Fennec Pharmaceuticals (NASDAQ:FENC \u2013 Get Free Report) are both small-cap medical companies, but which is the better business? We will compare the two businesses based on the strength of their instituti\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/23/critical-survey-inhibikase-therapeutics-nyseikt-and-fennec-pharmaceuticals-nasdaqfenc/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/fennec-pharmaceuticals-inc-logo-1200x675.png&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-23T04:14:43Z",
+            "content": "Inhibikase Therapeutics (NYSE:IKT \u2013 Get Free Report) and Fennec Pharmaceuticals (NASDAQ:FENC \u2013 Get Free Report) are both small-cap medical companies, but which is the better business? We will compare\u2026 [+4966 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ETF Daily News"
+            },
+            "author": "MarketBeat News",
+            "title": "Head to Head Review: Cerebain Biotech (OTCMKTS:CBBT) and AbCellera Biologics (NASDAQ:ABCL)",
+            "description": "Cerebain Biotech (OTCMKTS:CBBT \u2013 Get Free Report) and AbCellera Biologics (NASDAQ:ABCL \u2013 Get Free Report) are both medical companies, but which is the better business? We will compare the two companies based on the strength of their profitability, analyst rec\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/23/head-to-head-review-cerebain-biotech-otcmktscbbt-and-abcellera-biologics-nasdaqabcl/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/abcellera-biologics-inc-logo-1200x675.jpg?v=20210325130109&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-23T04:14:43Z",
+            "content": "Cerebain Biotech (OTCMKTS:CBBT \u2013 Get Free Report) and AbCellera Biologics (NASDAQ:ABCL \u2013 Get Free Report) are both medical companies, but which is the better business? We will compare the two compani\u2026 [+3808 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ETF Daily News"
+            },
+            "author": "MarketBeat News",
+            "title": "Head to Head Contrast: OPENLANE (NYSE:KAR) vs. Lazydays (NASDAQ:GORV)",
+            "description": "OPENLANE (NYSE:KAR \u2013 Get Free Report) and Lazydays (NASDAQ:GORV \u2013 Get Free Report) are both small-cap auto/tires/trucks companies, but which is the better investment? We will compare the two businesses based on the strength of their analyst recommendations, v\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/23/head-to-head-contrast-openlane-nysekar-vs-lazydays-nasdaqgorv/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/lazydays-holdings-inc-logo-1200x675.jpg?v=20240613122500&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-23T04:14:43Z",
+            "content": "OPENLANE (NYSE:KAR \u2013 Get Free Report) and Lazydays (NASDAQ:GORV \u2013 Get Free Report) are both small-cap auto/tires/trucks companies, but which is the better investment? We will compare the two business\u2026 [+4753 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "editorial-team@simplywallst.com (Simply Wall St)",
+            "title": "A Note On Genting Malaysia Berhad's (KLSE:GENM) ROE and Debt To Equity",
+            "description": "Many investors are still learning about the various metrics that can be useful when analysing a stock. This article is...",
+            "url": "https://finance.yahoo.com/news/note-genting-malaysia-berhads-klse-040957707.html/",
+            "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
+            "publishedAt": "2024-09-23T04:09:57Z",
+            "content": "Many investors are still learning about the various metrics that can be useful when analysing a stock. This article is for those who would like to learn about Return On Equity (ROE). By way of learni\u2026 [+4159 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Yoolim Lee and Sangmi Cha",
+            "title": "Morgan Stanley\u2019s SK Hynix Sell Order Reviewed by Korea Watchdog",
+            "description": "(Bloomberg) -- South Korea\u2019s financial watchdog is looking into Morgan Stanley\u2019s order to sell SK Hynix Inc. shares before research analysts at the bank cut ...",
+            "url": "https://finance.yahoo.com/news/morgan-stanley-hynix-sell-order-042248817.html/",
+            "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
+            "publishedAt": "2024-09-23T03:34:31Z",
+            "content": "(Bloomberg) -- South Koreas financial watchdog is looking into Morgan Stanleys order to sell SK Hynix Inc. shares before research analysts at the bank cut their recommendation on the stock, another s\u2026 [+2365 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Nikhil Agarwal",
+            "title": "Brace for large moves in Nifty, Nifty Bank; 2 stock ideas: Anand James",
+            "description": "Another aspect we will be closely watching would be how Nifty futures would play in the next week as they had gone into discount, unable to keep up with sustained buying in some Nifty heavyweights. Ideally, this is a sign of large demand on the spot, willing \u2026",
+            "url": "https://economictimes.indiatimes.com/markets/expert-view/brace-for-large-moves-in-nifty-nifty-bank-2-stock-ideas-anand-james/articleshow/113575345.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-113575338,width-1200,height-630,imgsize-44410,overlay-etmarkets/photo.jpg",
+            "publishedAt": "2024-09-23T03:31:00Z",
+            "content": "Following Friday's sharp rally amid FTSE rebalancing, traders must brace for large moves in both Nifty and Nifty Bank in the monthly expiry week, says Anand James, Chief Market Strategist, Geojit Fin\u2026 [+5150 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Motley Fool Australia"
+            },
+            "author": "James Mickleboro",
+            "title": "Why Appen, Lotus, Opthea, and Paladin Energy shares are surging today",
+            "description": "These shares are starting the week with a bang. But why?\nThe post Why Appen, Lotus, Opthea, and Paladin Energy shares are surging today appeared first on The Motley Fool Australia.",
+            "url": "https://www.fool.com.au/2024/09/23/why-appen-lotus-opthea-and-paladin-energy-shares-are-surging-today/",
+            "urlToImage": "https://www.fool.com.au/wp-content/uploads/2024/08/top-news-16.9-1200x675.jpg",
+            "publishedAt": "2024-09-23T03:20:02Z",
+            "content": "The\u00a0S&amp;P/ASX 200 Index (ASX: XJO) is having a subdued start to the week. In afternoon trade, the benchmark index is down 0.4% to 8,174.1 points.\r\nFour ASX shares that are not letting that hold the\u2026 [+2233 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Business Standard"
+            },
+            "author": "Reuters",
+            "title": "Asian stocks, Wall Street futures edge up, China lowers repo rate",
+            "description": "China's central bank surprised many by lowering its 14-day repo rate by 10 basis points",
+            "url": "https://www.business-standard.com/world-news/asian-stocks-wall-street-futures-edge-up-china-lowers-repo-rate-124092300100_1.html",
+            "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-05/03/thumb/featurecrop/400X400/1714707570-3254.jpg",
+            "publishedAt": "2024-09-23T03:19:55Z",
+            "content": "China's central bank surprised many by lowering its 14-day repo rate by 10 basis points\r\nMarkets were still basking in the afterglow of the Federal Reserve's half-point rate cut.\r\nReuters\r\nAsian stoc\u2026 [+4642 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Akash Podishetti",
+            "title": "Big movers on D-Street: What should investors do with ICICI Bank, JSW Steel and Reliance Infra?",
+            "description": "Benchmark Sensex closed above the historic 84,000-mark for the first time, while Nifty also reached a new record high. ICICI Bank, JSW Steel, and Reliance Infra were among the top gainers. Analysts provide insights on future trends and support levels for thes\u2026",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/big-movers-on-d-street-what-should-investors-do-with-icici-bank-jsw-steel-and-reliance-infra/articleshow/113582695.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-113582689,width-1200,height-630,imgsize-54790,overlay-etmarkets/photo.jpg",
+            "publishedAt": "2024-09-23T02:44:38Z",
+            "content": "Benchmark Sensex closed above the historic 84,000-mark for the first time while Nifty settled at a new record high on Friday amid upbeat trends in the US and Asian markets.Stocks that were in focus i\u2026 [+2036 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Motley Fool Australia"
+            },
+            "author": "Zach Bristow",
+            "title": "IAG share price sees red amid court's response to class action",
+            "description": "The Federal Court has made a decision.\nThe post IAG share price sees red amid court's response to class action appeared first on The Motley Fool Australia.",
+            "url": "https://www.fool.com.au/2024/09/23/iag-share-price-sees-red-amid-courts-response-to-class-action/",
+            "urlToImage": "https://www.fool.com.au/wp-content/uploads/2022/03/gavel-16_9-1200x675.jpg",
+            "publishedAt": "2024-09-23T02:25:50Z",
+            "content": "The Insurance Australia Group Ltd (ASX: IAG) share price is trading in the red on Monday, down 1.6% at $7.555 apiece at the time of writing.\r\nThe company posted an update today regarding a policyhold\u2026 [+2781 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "editorial-team@simplywallst.com (Simply Wall St)",
+            "title": "While individual investors own 27% of Panasonic Manufacturing Malaysia Berhad (KLSE:PANAMY), public companies are its largest shareholders with 47% ownership",
+            "description": "Key Insights Significant control over Panasonic Manufacturing Malaysia Berhad by public companies implies that the...",
+            "url": "https://finance.yahoo.com/news/while-individual-investors-own-27-022130274.html",
+            "urlToImage": "https://media.zenfs.com/en/simply_wall_st__316/41eb0015d5d1fe2aa09593627ea81fcb",
+            "publishedAt": "2024-09-23T02:21:30Z",
+            "content": "Key Insights\r\nIf you want to know who really controls Panasonic Manufacturing Malaysia Berhad (KLSE:PANAMY), then you'll have to look at the makeup of its share registry. With 47% stake, public compa\u2026 [+5345 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Khabarhub.com"
+            },
+            "author": "Khabarhub",
+            "title": "Economic Digest: Nepal\u2019s Business News in a Snap",
+            "description": "KATHMANDU: Economic Digest offers a concise yet comprehensive overview of significant business happenings in Nepal, presented in easily digestible summaries. On Sunday, the NEPSE Index rose by 11.58 points (0.44%) to close at 2,588.35, rebounding from a sligh\u2026",
+            "url": "https://english.khabarhub.com/2024/23/400179/",
+            "urlToImage": "https://english.khabarhub.com/wp-content/uploads/2024/05/Economic-Digest.jpg",
+            "publishedAt": "2024-09-23T02:15:13Z",
+            "content": "KATHMANDU: Economic Digest offers a concise yet comprehensive overview of significant business happenings in Nepal, presented in easily digestible summaries.\r\nOn Sunday, the NEPSE Index rose by 11.58\u2026 [+3705 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ETF Daily News"
+            },
+            "author": "MarketBeat News",
+            "title": "Sterling Infrastructure (NASDAQ:STRL) versus Eiffage (OTCMKTS:EFGSY) Financial Contrast",
+            "description": "Sterling Infrastructure (NASDAQ:STRL \u2013 Get Free Report) and Eiffage (OTCMKTS:EFGSY \u2013 Get Free Report) are both industrials companies, but which is the superior investment? We will contrast the two companies based on the strength of their profitability, divide\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/22/sterling-infrastructure-nasdaqstrl-versus-eiffage-otcmktsefgsy-financial-contrast/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/eiffage-sa-logo-1200x675.png?v=20210329131927&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-23T02:04:53Z",
+            "content": "Sterling Infrastructure (NASDAQ:STRL \u2013 Get Free Report) and Eiffage (OTCMKTS:EFGSY \u2013 Get Free Report) are both industrials companies, but which is the superior investment? We will contrast the two co\u2026 [+5139 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ETF Daily News"
+            },
+            "author": "MarketBeat News",
+            "title": "Contrasting Gauzy (NASDAQ:GAUZ) & Expion360 (NASDAQ:XPON)",
+            "description": "Gauzy (NASDAQ:GAUZ \u2013 Get Free Report) and Expion360 (NASDAQ:XPON \u2013 Get Free Report) are both small-cap computer and technology companies, but which is the better investment? We will compare the two businesses based on the strength of their analyst recommendat\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/22/contrasting-gauzy-nasdaqgauz-expion360-nasdaqxpon/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/expion360-inc-logo-1200x675.jpg?v=20220504081607&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-23T02:04:53Z",
+            "content": "Gauzy (NASDAQ:GAUZ \u2013 Get Free Report) and Expion360 (NASDAQ:XPON \u2013 Get Free Report) are both small-cap computer and technology companies, but which is the better investment? We will compare the two b\u2026 [+3617 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ETF Daily News"
+            },
+            "author": "MarketBeat News",
+            "title": "Head-To-Head Survey: Caravelle International Group (NASDAQ:CACO) and Capital Product Partners (NASDAQ:CPLP)",
+            "description": "Caravelle International Group (NASDAQ:CACO \u2013 Get Free Report) and Capital Product Partners (NASDAQ:CPLP \u2013 Get Free Report) are both small-cap business services companies, but which is the better stock? We will compare the two companies based on the strength o\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/22/head-to-head-survey-caravelle-international-group-nasdaqcaco-and-capital-product-partners-nasdaqcplp/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/capital-product-partners-lp-logo-1200x675.jpg&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-23T02:04:53Z",
+            "content": "Caravelle International Group (NASDAQ:CACO \u2013 Get Free Report) and Capital Product Partners (NASDAQ:CPLP \u2013 Get Free Report) are both small-cap business services companies, but which is the better stoc\u2026 [+4448 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ETF Daily News"
+            },
+            "author": "MarketBeat News",
+            "title": "Head-To-Head Contrast: Burke & Herbert Financial Services (NASDAQ:BHRB) vs. Harleysville Financial (OTCMKTS:HARL)",
+            "description": "Burke & Herbert Financial Services (NASDAQ:BHRB \u2013 Get Free Report) and Harleysville Financial (OTCMKTS:HARL \u2013 Get Free Report) are both small-cap finance companies, but which is the superior investment? We will compare the two companies based on the strength \u2026",
+            "url": "https://www.etfdailynews.com/2024/09/22/head-to-head-contrast-burke-herbert-financial-services-nasdaqbhrb-vs-harleysville-financial-otcmktsharl/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/harleysville-financial-co-logo-1200x675.jpg?v=20221223070936&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-23T02:04:53Z",
+            "content": "Burke &amp; Herbert Financial Services (NASDAQ:BHRB \u2013 Get Free Report) and Harleysville Financial (OTCMKTS:HARL \u2013 Get Free Report) are both small-cap finance companies, but which is the superior inve\u2026 [+6495 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ETF Daily News"
+            },
+            "author": "MarketBeat News",
+            "title": "Balincan USA (OTCMKTS:BCNN) & Thryv (NASDAQ:THRY) Head-To-Head Contrast",
+            "description": "Balincan USA (OTCMKTS:BCNN \u2013 Get Free Report) and Thryv (NASDAQ:THRY \u2013 Get Free Report) are both small-cap retail/wholesale companies, but which is the superior investment? We will contrast the two companies based on the strength of their risk, analyst recomm\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/22/balincan-usa-otcmktsbcnn-thryv-nasdaqthry-head-to-head-contrast/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/thryv-holdings-inc-logo-1200x675.jpg?v=20210603085200&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-23T02:04:53Z",
+            "content": "Balincan USA (OTCMKTS:BCNN \u2013 Get Free Report) and Thryv (NASDAQ:THRY \u2013 Get Free Report) are both small-cap retail/wholesale companies, but which is the superior investment? We will contrast the two c\u2026 [+4356 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Kairavi Lukka",
+            "title": "Looking to make a quick buck? Strong IPO listing offers no guarantee of sustained gains",
+            "description": "Investors eyeing quick profits from IPOs might benefit from selling newly-acquired shares soon after listing. Data shows that out of over 100 IPOs in 2023, many stocks failed to maintain their initial gains. Analysts suggest selling on the first day if shares\u2026",
+            "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/looking-to-make-a-quick-buck-strong-ipo-listing-offers-no-guarantee-of-sustained-gains/articleshow/113581980.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-113582056,width-1200,height-630,imgsize-34624,overlay-etmarkets/photo.jpg",
+            "publishedAt": "2024-09-23T01:53:04Z",
+            "content": "Mumbai: Investors looking to wager on Initial Public Offerings (IPOs) to make a quick buck may be better off selling the newly- acquired shares in the issue soon after the listing. This is because th\u2026 [+2691 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "ET Bureau",
+            "title": "Technical Views: Nifty in overbought zone, but 26,250 possible",
+            "description": "Nifty shows a sharp positive trend with a potential target of 26,250 and immediate support at 25,600. Analysts advise caution due to high FPI long-short ratios and overbought conditions. Stocks like HDFC Bank, Kotak Bank, Maruti, and L&T are forming bullish t\u2026",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/technical-views-nifty-in-overbought-zone-but-26250-possible/articleshow/113581922.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-113581928,width-1200,height-630,imgsize-31320,overlay-etmarkets/photo.jpg",
+            "publishedAt": "2024-09-23T01:49:52Z",
+            "content": "Both daily and weekly charts indicate a sharp positive trend for Nifty, with a potential target of 26,250 and immediate support at 25,600. However, caution is advised due to indicators like the FPIs \u2026 [+3774 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Tistory.com"
+            },
+            "author": "T.B",
+            "title": "\uae40\uac74\ud76c \uac8c\uc774\ud2b8(Rolex Gate) 137 (. \ud2b8\ud575\uad00)",
+            "description": "Italy\u2019s finance minister tells Meloni coalition that the budget must match EU pledges https://t.co/LEJAF6BH2N via @Alemrome pic.twitter.com/1dwDBgHwwN\u2014 Zoe Schneeweiss (@ZSchneeweiss) August 30, 2024\u00a0Italy is looking to build nuclear reactors by creating a ne\u2026",
+            "url": "https://ryueyes11.tistory.com/511004",
+            "urlToImage": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FMO96W%2FbtsJGXMP9Tk%2FnanzbPIShV9k2AZd2hQueK%2Fimg.jpg",
+            "publishedAt": "2024-09-23T01:46:22Z",
+            "content": "Italy\u2019s finance minister tells Meloni coalition that the budget must match EU pledges https://t.co/LEJAF6BH2N via @Alemromepic.twitter.com/1dwDBgHwwN\r\n\u2014 Zoe Schneeweiss (@ZSchneeweiss) August 30, 202\u2026 [+35964 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Business Standard"
+            },
+            "author": "Pranay Prakash",
+            "title": "Stocks To Watch: HDFC Bank, Adani Total, Max Health, IIFL Finance, APSEZ",
+            "description": "Stocks to Watch Today: Indian markets were likely to start on a positive note on Monday, as indicated by GIFT Nifty futures that were at 25,900, around 150 points ahead of Nifty futures' last close.",
+            "url": "https://www.business-standard.com/markets/news/stocks-to-watch-hdfc-bank-adani-total-max-health-iifl-finance-apsez-124092300078_1.html",
+            "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-09/13/thumb/featurecrop/400X400/1726217752-3879.jpg",
+            "publishedAt": "2024-09-23T01:45:54Z",
+            "content": "Stocks to Watch: Indian markets were likely to start on a positive note on Monday, as indicated by GIFT Nifty futures that were at 25,900, around 150 points ahead of Nifty futures' last close.\r\nStock\u2026 [+6126 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Akash Podishetti",
+            "title": "GIFT Nifty signals a positive start for D-Street. Here's the trading setup for today's session",
+            "description": "Domestic markets have continued their upward momentum for the second week, with benchmark indices gaining nearly 2%, supported by the US Fed's rate cut. The Nifty is approaching a significant milestone at 26,000, with potential to extend its rally further. Ke\u2026",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/gift-nifty-signals-a-positive-start-for-d-street-heres-the-trading-setup-for-todays-session/articleshow/113581811.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-113581836,width-1200,height-630,imgsize-73640,overlay-etmarkets/photo.jpg",
+            "publishedAt": "2024-09-23T01:39:26Z",
+            "content": "Domestic markets continued their upward momentum for the second consecutive week, with benchmark indices gaining nearly 2%, largely supported by the US Fed's rate cut\"Looking ahead, the Nifty is appr\u2026 [+2720 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BusinessLine"
+            },
+            "author": "Team BL",
+            "title": "Share Market Highlights September 23, 2024: Sensex gains 384 pts, Nifty settles above 25,900; PSU Bank index lead gains",
+            "description": "Sensex, Nifty updates on September 23, 2024: Domestic equity indices Sensex and Nifty scaled their new record closing high levels on Monday, helped by strong foreign fund inflows and a largely firm trend in Asian markets. Rallying for the third day running, t\u2026",
+            "url": "https://www.thehindubusinessline.com/markets/share-market-highlights-23-september-2024/article68670478.ece",
+            "urlToImage": "https://bl-i.thgim.com/public/incoming/1xwvfs/article68670522.ece/alternates/LANDSCAPE_1200/IMG_Businessman_using_la_2_1_L6DBU8AR.jpg",
+            "publishedAt": "2024-09-23T01:23:24Z",
+            "content": "<li></li>\r\nSeptember 23, 2024 16:14Stock market today: Sensex, Nifty hit new all-time closing high levels on strong foreign fund inflows\r\nDomestic equity indices Sensex and Nifty scaled their new rec\u2026 [+59193 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "editorial-team@simplywallst.com (Simply Wall St)",
+            "title": "Andrew Burnes Spends AU$186k On Helloworld Travel Stock",
+            "description": "Potential Helloworld Travel Limited ( ASX:HLO ) shareholders may wish to note that the CEO, MD & Director, Andrew...",
+            "url": "https://finance.yahoo.com/news/andrew-burnes-spends-au-186k-011735466.html/",
+            "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
+            "publishedAt": "2024-09-23T01:17:35Z",
+            "content": "Potential Helloworld Travel Limited (ASX:HLO) shareholders may wish to note that the CEO, MD &amp; Director, Andrew Burnes, recently bought AU$186k worth of stock, paying AU$1.86 for each share. Alth\u2026 [+3589 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Reuters",
+            "title": "Asia stocks hold steady as more rate cuts loom",
+            "description": "Asian stocks remained steady on Monday as investors awaited central bank meetings expected to result in two more rate cuts and key U.S. inflation data. Thin trading was observed due to a holiday in Japan. The S&P 500 futures and Nasdaq futures showed slight g\u2026",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/asia-stocks-hold-steady-as-more-rate-cuts-loom/articleshow/113581626.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-113581636,width-1200,height-630,imgsize-107306,overlay-etmarkets/photo.jpg",
+            "publishedAt": "2024-09-23T01:12:28Z",
+            "content": "Asian stocks were steady on Monday ahead of central bank meetings that are widely expected to deliver two more rate cuts and key U.S. inflation figures that should flash a green light for more easing\u2026 [+3797 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": null,
+            "title": "CNBC Daily Open: Recession concerns still linger",
+            "description": "Last week\u2019s burst of euphoria was mostly driven by anticipation and celebration of the Fed\u2019s rate cut. Markets this week will look at the hard data coming out.",
+            "url": "https://www.cnbc.com/2024/09/23/cnbc-daily-open-recession-concerns-still-linger.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/108036822-17267845342024-09-19t203245z_1744792884_rc2w3aaibsho_rtrmadp_0_usa-stocks.jpeg?v=1726784681&w=1920&h=1080",
+            "publishedAt": "2024-09-23T00:50:01Z",
+            "content": "This report is from today's CNBC Daily Open, our international markets newsletter. CNBC Daily Open brings investors up to speed on everything they need to know, no matter where they are. Like what yo\u2026 [+3885 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Investing.com"
+            },
+            "author": "Reuters",
+            "title": "Asia stocks hold steady as more rate cuts loom",
+            "description": "Asia stocks hold steady as more rate cuts loom",
+            "url": "https://www.investing.com/news/economy-news/asia-stocks-hold-steady-as-more-rate-cuts-loom-3626858",
+            "urlToImage": "https://i-invdn-com.investing.com/news/indicatornews_3_800x533_L_1412601605.jpg",
+            "publishedAt": "2024-09-23T00:40:40Z",
+            "content": "By Wayne Cole\r\nSYDNEY (Reuters) - Asian stocks were steady on Monday ahead of central bank meetings that are widely expected to deliver two more rate cuts and key U.S. inflation figures that should f\u2026 [+3785 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNA"
+            },
+            "author": null,
+            "title": "Asia stocks hold steady as more rate cuts loom",
+            "description": "SYDNEY : Asian stocks were steady on Monday ahead of central bank meetings that are widely expected to deliver two more rate cuts and key U.S. inflation figures that should flash a green light for more easing there.A holiday in Japan made for thin trading and\u2026",
+            "url": "https://www.channelnewsasia.com/business/asia-stocks-hold-steady-more-rate-cuts-loom-4624691",
+            "urlToImage": "https://onecms-res.cloudinary.com/image/upload/s--CL772MZj--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_676,w_1200/v1/one-cms/core/2024-09-23t003529z_1_lynxmpek8m002_rtroptp_3_japan-stocks.jpg?itok=GOA6H2gf",
+            "publishedAt": "2024-09-23T00:35:29Z",
+            "content": "SYDNEY : Asian stocks were steady on Monday ahead of central bank meetings that are widely expected to deliver two more rate cuts and key U.S. inflation figures that should flash a green light for mo\u2026 [+3873 chars]"
         },
         {
             "source": {
@@ -957,38 +463,77 @@
                 "name": "Yahoo Entertainment"
             },
             "author": "Wayne Cole",
-            "title": "Asia stocks on tenterhooks as Fed faces crunch time",
-            "description": "Central banks in Japan and the UK also meet this week, with both expected to stand pat for now, while a packed data schedule includes U.S. retail sales and...",
-            "url": "https://finance.yahoo.com/news/asia-stocks-tenterhooks-fed-faces-002015255.html/",
+            "title": "Asia stocks hold steady as more rate cuts loom",
+            "description": "A holiday in Japan made for thin trading and MSCI's broadest index of Asia-Pacific shares outside Japan was little changed, after bouncing 2.7% last week...",
+            "url": "https://finance.yahoo.com/news/asia-stocks-hold-steady-more-003529364.html/",
             "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
-            "publishedAt": "2024-09-16T00:20:15Z",
-            "content": "By Wayne Cole\r\nSYDNEY (Reuters) - Asian stocks made a cautious start on Monday in a week that is almost certain to see the start of an easing cycle in the United States with the only question mark be\u2026 [+3818 chars]"
+            "publishedAt": "2024-09-23T00:35:29Z",
+            "content": "By Wayne Cole\r\nSYDNEY (Reuters) - Asian stocks were steady on Monday ahead of central bank meetings that are widely expected to deliver two more rate cuts and key U.S. inflation figures that should f\u2026 [+3838 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "The Punch"
+                "name": "ETF Daily News"
             },
-            "author": "Temitope Aina",
-            "title": "Access Corp, MTNN drive equity market to N607bn gain",
-            "description": "The Nigerian equity market gained N607bn in market capitalisation in the past week, on the back of buying interest in large-cap stocks like Access Corporation and MTN Nigeria. The All-Share Index appreciated by 1.06 per cent to close at 97,456.62, while the m\u2026",
-            "url": "https://punchng.com/access-corp-mtnn-drive-equity-market-to-n607bn-gain/",
-            "urlToImage": "https://cdn.punchng.com/wp-content/uploads/2023/07/17011949/NGX-equity-market.jpg",
-            "publishedAt": "2024-09-16T00:06:34Z",
-            "content": "The Nigerian equity market gained N607bn in market capitalisation in the past week, on the back of buying interest in large-cap stocks like Access Corporation and MTN Nigeria.\r\nThe All-Share Index ap\u2026 [+2072 chars]"
+            "author": "MarketBeat News",
+            "title": "Ameris Bancorp (NASDAQ:ABCB) and Glen Burnie Bancorp (NASDAQ:GLBZ) Financial Review",
+            "description": "Glen Burnie Bancorp (NASDAQ:GLBZ \u2013 Get Free Report) and Ameris Bancorp (NASDAQ:ABCB \u2013 Get Free Report) are both finance companies, but which is the better investment? We will compare the two businesses based on the strength of their analyst recommendations, v\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/22/ameris-bancorp-nasdaqabcb-and-glen-burnie-bancorp-nasdaqglbz-financial-review/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/ameris-bancorp-logo-1200x675.png?v=20221117154336&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-23T00:18:55Z",
+            "content": "Glen Burnie Bancorp (NASDAQ:GLBZ \u2013 Get Free Report) and Ameris Bancorp (NASDAQ:ABCB \u2013 Get Free Report) are both finance companies, but which is the better investment? We will compare the two business\u2026 [+6439 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "The Punch"
+                "name": "ETF Daily News"
             },
-            "author": "Dare Olawin",
-            "title": "Saving for your retirement as self-employed person",
-            "description": "The lack of retirement plans is one of the major challenges people in the informal sector face on the days they are no longer active to work. DARE OLAWIN highlights why self-employed persons should plan for their post-work life The energy to work keeps draini\u2026",
-            "url": "https://punchng.com/saving-for-your-retirement-as-self-employed-person/",
-            "urlToImage": "https://cdn.punchng.com/wp-content/uploads/2023/12/15210513/retirement-age.jpg",
-            "publishedAt": "2024-09-16T00:05:31Z",
-            "content": "The lack of retirement plans is one of the major challenges people in the informal sector face on the days they are no longer active to work. DARE OLAWIN highlights why self-employed persons should p\u2026 [+12437 chars]"
+            "author": "MarketBeat News",
+            "title": "Analyzing Daktronics (NASDAQ:DAKT) and Ingen Technologies (OTCMKTS:IGNT)",
+            "description": "Ingen Technologies (OTCMKTS:IGNT \u2013 Get Free Report) and Daktronics (NASDAQ:DAKT \u2013 Get Free Report) are both medical companies, but which is the superior stock? We will contrast the two businesses based on the strength of their earnings, dividends, institution\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/22/analyzing-daktronics-nasdaqdakt-and-ingen-technologies-otcmktsignt/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/daktronics-logo-1200x675.jpg&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-23T00:18:55Z",
+            "content": "Ingen Technologies (OTCMKTS:IGNT \u2013 Get Free Report) and Daktronics (NASDAQ:DAKT \u2013 Get Free Report) are both medical companies, but which is the superior stock? We will contrast the two businesses bas\u2026 [+3979 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ETF Daily News"
+            },
+            "author": "MarketBeat News",
+            "title": "Head to Head Comparison: Marcus (NYSE:MCS) & Cineplex (OTCMKTS:CPXGF)",
+            "description": "Cineplex (OTCMKTS:CPXGF \u2013 Get Free Report) and Marcus (NYSE:MCS \u2013 Get Free Report) are both communication services companies, but which is the superior investment? We will contrast the two companies based on the strength of their analyst recommendations, inst\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/22/head-to-head-comparison-marcus-nysemcs-cineplex-otcmktscpxgf/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/marcus-corp-logo-1200x675.png?v=20191105143509&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-23T00:18:53Z",
+            "content": "Cineplex (OTCMKTS:CPXGF \u2013 Get Free Report) and Marcus (NYSE:MCS \u2013 Get Free Report) are both communication services companies, but which is the superior investment? We will contrast the two companies \u2026 [+5956 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Motley Fool Australia"
+            },
+            "author": "Tristan Harrison",
+            "title": "2 ASX dividend stocks to set yourself up for life",
+            "description": "These dividend stocks offer lots of long-term growth potential.\nThe post 2 ASX dividend stocks to set yourself up for life appeared first on The Motley Fool Australia.",
+            "url": "https://www.fool.com.au/2024/09/23/2-asx-dividend-stocks-to-set-yourself-up-for-life/",
+            "urlToImage": "https://www.fool.com.au/wp-content/uploads/2022/02/champagne-on-the-beach-1200x675.jpg",
+            "publishedAt": "2024-09-23T00:13:02Z",
+            "content": "I love looking at ASX dividend stocks that can provide capital and dividend growth, and a good dividend yield.\r\nCompanies with long-term growth potential can set investors up for life because of how \u2026 [+2614 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "editorial-team@simplywallst.com (Simply Wall St)",
+            "title": "Is It Smart To Buy Thong Guan Industries Berhad (KLSE:TGUAN) Before It Goes Ex-Dividend?",
+            "description": "Readers hoping to buy Thong Guan Industries Berhad ( KLSE:TGUAN ) for its dividend will need to make their move...",
+            "url": "https://finance.yahoo.com/news/smart-buy-thong-guan-industries-000229432.html/",
+            "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
+            "publishedAt": "2024-09-23T00:02:29Z",
+            "content": "Readers hoping to buy Thong Guan Industries Berhad (KLSE:TGUAN) for its dividend will need to make their move shortly, as the stock is about to trade ex-dividend. Typically, the ex-dividend date is o\u2026 [+4870 chars]"
         }
     ]
 }

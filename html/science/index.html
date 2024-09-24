@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title id="dynamicTitle">kumpeton</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Crypto News: Latest Cryptocurrency News, Bitcoin News, Ethereum News and Price Data" property="og:title"/>
+<meta content="We deliver up-to-date, breaking crypto news about the latest Bitcoin, Ethereum, Blockchain, NFTs, and Altcoin trends and happenings." name="og:description"/>
+<script defer="" src="/assets/js/frontend.js"></script>
+<link href="/assets/css/frontend.css" rel="stylesheet"/>
+<link href="/assets/images/favicon.png" rel="shortcut icon"/>
+<script>
+        window.trans = {
+            ago: "ago",
+            ago_long: "minute, minutes, hour, hours, day, days",
+            time_seconds_ago: "[time] [seconds] [ago]",
+            time_minutes_ago: "[time] [minutes] [ago]",
+            time_hours_ago: "[time] [hours] [ago]",
+            time_days_ago: "[time] [days] [ago]",
+        }
+
+    </script>
+<script>
+        window.sid = 1;
+    </script>
+<link href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<a class="header__logo" href="/">
+<img alt="Crypto News" src="/assets/images/logo.svg"/>
+</a>
+<div class="header-menu">
+<div class="header-menu__trigger d-none d-lg-flex">
+<svg height="15" viewbox="0 0 12 7" width="20" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-menu__dropdown" hidden="" id="dropdown-menu">
+<div class="container header-menu__dropdown-container">
+<div class="row">
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/sport/">Sport</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Culture</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/culture/arts/">Arts</a></li>
+<li><a href="/culture/history/">History</a></li>
+<li><a href="/culture/philosophy/">Philosophy</a></li>
+<li><a href="/culture/religion/">Religion</a></li>
+<li><a href="/culture/anthropology/">Anthropology</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/lifestyle/">Lifestyle</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/lifestyle/shopping/">Shopping</a></li>
+<li><a href="/lifestyle/beauty/">Beauty</a></li>
+<li><a href="/lifestyle/photography/">Photography</a></li>
+<li><a href="/lifestyle/money/">Money</a></li>
+<li><a href="/lifestyle/fashion/">Fashion</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/finance/">finance</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/finance/financial-markets/">Markets</a></li>
+<li><a href="/finance/property-market/">Property</a></li>
+<li><a href="/finance/stocks-and-shares/">Stocks</a></li>
+<li><a href="/finance/brexit/">Brexit</a></li>
+<li><a href="/finance/crypto/">Crypto</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/entertainment/">Entertainment</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/entertainment/movies/">Movies</a></li>
+<li><a href="/entertainment/television/">Television</a></li>
+<li><a href="/entertainment/music/">Music</a></li>
+<li><a href="/entertainment/gaming/">Gaming</a></li>
+<li><a href="/entertainment/books/">Books</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/technology/">Technology</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/technology/computer-hardware/">Hardware</a></li>
+<li><a href="/technology/computer-software/">Software</a></li>
+<li><a href="/technology/internet-and-web/">Internet and Web</a></li>
+<li><a href="/technology/gadgets-and-consumer-electronicsg/">Gadgets and Consumer Electronics</a></li>
+<li><a href="/technology/technology-industry/">Technology Industry</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/culture/">Business</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/business/banking/">Banking</a></li>
+<li><a href="/business/insurance/">Insurance</a></li>
+<li><a href="/business/global-economy/">Global Economy</a></li>
+<li><a href="/business/small-business-trends/">Small Business Trends</a></li>
+<li><a href="/business/venture-capital/">Venture Capital</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/politics/">Politics</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/politics/government/">Government</a></li>
+<li><a href="/politics/elections/">Elections</a></li>
+<li><a href="/politics/law-legislation/">Legislation</a></li>
+<li><a href="/politics/government-policy/">Policy</a></li>
+<li><a href="/politics/public-opinion-surveys/">Public Opinion</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/science/">Science</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/science/biology/">Biology</a></li>
+<li><a href="/science/chemistry/">Chemistry</a></li>
+<li><a href="/science/physics/">Physics</a></li>
+<li><a href="/science/astronomy/">Astronomy</a></li>
+<li><a href="/science/sociology/">Sociology</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-links__dropdown-list">
+<div class="header-menu__dropdown-heading">
+<a class="heading" href="/health/">Health</a><span>+</span>
+</div>
+<ul class="header-menu__dropdown-children">
+<li><a href="/health/nutrition/">Nutrition</a></li>
+<li><a href="/health/fitness-and-exercise/">Fitness and Exercise</a></li>
+<li><a href="/health/alternative-medicine/">Alternative Medicine</a></li>
+<li><a href="/health/health-apps/">Health Apps</a></li>
+<li><a href="/health/global-health/">Global Health</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-links d-none d-lg-flex">
+<ul class="menu_header">
+<li></li>
+<li>
+<a href="/sport/">Sport
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/sport/boxing-sport/">Boxing</a></li>
+<li><a href="/sport/cricket-sport/">Cricket</a></li>
+<li><a href="/sport/football-sport/">Football</a></li>
+<li><a href="/sport/formula-1-racing/">Formula 1</a></li>
+<li><a href="/sport/tennis-sport/">Tennis</a></li>
+</ul>
+</li>
+<li>
+<a href="/culture/">Culture
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/culture/arts/">Arts</a></li>
+<li><a href="/culture/history/">History</a></li>
+<li><a href="/culture/philosophy/">Philosophy</a></li>
+<li><a href="/culture/religion/">Religion</a></li>
+<li><a href="/culture/anthropology/">Anthropology</a></li>
+</ul>
+</li>
+<li>
+<a href="/lifestyle/">Lifestyle
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/lifestyle/shopping/">Shopping</a></li>
+<li><a href="/lifestyle/beauty/">Beauty</a></li>
+<li><a href="/lifestyle/photography/">Photography</a></li>
+<li><a href="/lifestyle/money/">Money</a></li>
+<li><a href="/lifestyle/fashion/">Fashion</a></li>
+</ul>
+</li>
+<li>
+<a href="/finance/">Finance
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/finance/financial-markets/">Markets</a></li>
+<li><a href="/finance/property-market/">Property</a></li>
+<li><a href="/finance/stocks-and-shares/">Stocks</a></li>
+<li><a href="/finance/brexit/">Brexit</a></li>
+<li><a href="/finance/crypto/">Crypto</a></li>
+</ul>
+</li>
+<li>
+<a href="/entertainment/">Entertainment
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/entertainment/movies/">Movies</a></li>
+<li><a href="/entertainment/television/">Television</a></li>
+<li><a href="/entertainment/music/">Music</a></li>
+<li><a href="/entertainment/gaming/">Gaming</a></li>
+<li><a href="/entertainment/books/">Books</a></li>
+</ul>
+</li>
+<li>
+<a href="/technology/">Technology
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/technology/computer-hardware/">Hardware</a></li>
+<li><a href="/technology/computer-software/">Software</a></li>
+<li><a href="/technology/internet-and-web/">Internet and Web</a></li>
+<li><a href="/technology/gadgets-and-consumer-electronicsg/">Gadgets and Consumer Electronics</a></li>
+<li><a href="/technology/technology-industry/">Technology Industry</a></li>
+</ul>
+</li>
+<li>
+<a href="/business/">Business
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/business/banking/">Banking</a></li>
+<li><a href="/business/insurance/">Insurance</a></li>
+<li><a href="/business/global-economy/">Global Economy</a></li>
+<li><a href="/business/small-business-trends/">Small Business Trends</a></li>
+<li><a href="/business/venture-capital/">Venture Capital</a></li>
+</ul>
+</li>
+<li>
+<a href="/politics/">Politics
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/politics/government/">Government</a></li>
+<li><a href="/politics/elections/">Elections</a></li>
+<li><a href="/politics/law-legislation/">Legislation</a></li>
+<li><a href="/politics/government-policy/">Policy</a></li>
+<li><a href="/politics/public-opinion-surveys/">Public Opinion</a></li>
+</ul>
+</li>
+<li>
+<a href="/science/">Science
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/science/biology/">Biology</a></li>
+<li><a href="/science/chemistry/">Chemistry</a></li>
+<li><a href="/science/physics/">Physics</a></li>
+<li><a href="/science/astronomy/">Astronomy</a></li>
+<li><a href="/science/sociology/">Sociology</a></li>
+</ul>
+</li>
+<li>
+<a href="/health/">Health
+                    <span class="menu_icon"></span></a><span class="menu_icon mob"></span>
+<ul class="sub-menu">
+<li><a href="/health/nutrition/">Nutrition</a></li>
+<li><a href="/health/fitness-and-exercise/">Fitness and Exercise</a></li>
+<li><a href="/health/alternative-medicine/">Alternative Medicine</a></li>
+<li><a href="/health/health-apps/">Health Apps</a></li>
+<li><a href="/health/global-health/">Global Health</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="header-search">
+<div class="header-menu__trigger d-md-none">
+<svg height="7" viewbox="0 0 12 7" width="12" xmlns="http://www.w3.org/2000/svg">
+<g fill-rule="evenodd">
+<path d="M0 3.999L12 3.999 12 2.999 0 2.999zM0 7L12 7 12 6 0 6zM0 1L12 1 12 0 0 0z" fill="#ffffff"></path>
+</g>
+</svg>
+</div>
+<div class="header-search__trigger">
+<svg height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 11c-2.757 0-5-2.243-5-5 0-1.198.441-2.284 1.146-3.146.212-.26.448-.495.708-.708C3.716 1.441 4.802 1 6 1c2.757 0 5 2.243 5 5 0 1.198-.441 2.284-1.146 3.146-.212.26-.448.496-.708.708C8.284 10.559 7.198 11 6 11zm4.579-1.128C11.464 8.827 12 7.477 12 6c0-3.313-2.687-6-6-6-1.477 0-2.827.536-3.872 1.421-.255.216-.491.452-.707.707C.536 3.173 0 4.523 0 6c0 3.313 2.687 6 6 6 1.477 0 2.827-.536 3.872-1.421L13.293 14l.707-.707-3.421-3.421z" fill="#212121" fill-rule="evenodd"></path>
+</svg>
+</div>
+<form action="/search/" class="header-search__form">
+<input aria-label="search" class="remove-outline" name="q" placeholder="What are you searching for?" type="search"/>
+<div class="header-search__close">
+<svg id="Capa_1" version="1.1" viewbox="0 0 512 512" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<g>
+<polygon points="512,28.308 483.692,0 256,227.692 28.308,0 0,28.308 227.692,256 0,483.692 28.308,512 256,284.308 483.692,512
+    512,483.692 284.308,256"></polygon>
+</g>
+</svg>
+</div>
+</form>
+</div>
+</header>
+<div class="main">
+<main>
+<div class="container">
+<div class="pt-60 pb-60">
+<div class="row">
+<div class="col-12 col-lg-9">
+<div class="breadcrumbs mb-20">
+<a href="/">da</a><a href="/science/">science</a></div>
+<h1 class="h2">Boxing</h1>
+<section class="category_contents_details">
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.etfdailynews.com/2024/09/23/ingersoll-rand-inc-nyseir-expected-to-earn-q3-2024-earnings-of-0-79-per-share/">
+<div class="img-sized">
+<img alt="Ingersoll Rand Inc. (NYSE:IR) Expected to Earn Q3 2024 Earnings of $0.79 Per Share" class="img-fluid" loading="auto" src="https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/IngersollRand_logo-1200x675.jpg&amp;w=240&amp;h=240&amp;zc=2" srcset="" width="512"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">ETF Daily News</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:15:21Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.etfdailynews.com/2024/09/23/ingersoll-rand-inc-nyseir-expected-to-earn-q3-2024-earnings-of-0-79-per-share/">Ingersoll Rand Inc. (NYSE:IR) Expected to Earn Q3 2024 Earnings of $0.79 Per Share</a>
+<div class="mb-25 d-none d-md-block">Ingersoll Rand Inc. (NYSE:IR – Free Report) – Analysts at Zacks Research upped their Q3 2024 earnings estimates for shares of Ingersoll Rand in a research note issued to investors on Wednesday, Septe… [+6991 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://newatlas.com/biology/bubble-blowing-lizard-scuba-dive/">
+<div class="img-sized">
+<img alt="Bubble-blowing lizard scuba dives to avoid predators" class="img-fluid" loading="auto" src="https://assets.newatlas.com/dims4/default/ed8f12d/2147483647/strip/true/crop/1342x705+0+0/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2F0e%2Faf%2Fa66acdc14431a17cc25b8192255e%2Fwater-lizard.jpg&amp;na.image_optimisation=0" srcset="" width="512"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">New Atlas</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:15:08Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://newatlas.com/biology/bubble-blowing-lizard-scuba-dive/">Bubble-blowing lizard scuba dives to avoid predators</a>
+<div class="mb-25 d-none d-md-block">A humble little lizard has developed a clever escape route from predators it blows a bubble over its nostrils and scuba dives to safety for 20 minutes or more. Now, a biologist has explored exactly h… [+2253 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.ndtv.com/world-news/us-man-spits-outside-his-home-dna-match-later-leads-to-his-arrest-in-36-year-old-murder-case-6628436">
+<div class="img-sized">
+<img alt="Man Spits Outside His Home, DNA Match Leads To Arrest In Murder Case" class="img-fluid" loading="auto" src="https://c.ndtvimg.com/2024-07/aek4ib5o_us-police-generic_625x300_07_July_24.jpeg?im=FeatureCrop,algorithm=dnn,width=1200,height=738" srcset="" width="512"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">NDTV News</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:14:47Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.ndtv.com/world-news/us-man-spits-outside-his-home-dna-match-later-leads-to-his-arrest-in-36-year-old-murder-case-6628436">Man Spits Outside His Home, DNA Match Leads To Arrest In Murder Case</a>
+<div class="mb-25 d-none d-md-block">His attorney has expressed scepticism about the DNA evidence
+A decades-old cold case has been solved with the arrest of a man accused of murdering a young mother in Boston. James Holloman has been c… [+1903 chars]</div>
+</div>
+</div>
+</article>
+<article class="mb-15 mb-sm-30 article-item">
+<div class="row">
+<div class="col-12 d-none col-md-5 d-md-block column-45__left">
+<a class="article__image" href="https://www.insurancejournal.com/news/southeast/2024/09/23/793947.htm">
+<div class="img-sized">
+<img alt="Hotter Summers Making High School Football a Fatal Game for Some Players" class="img-fluid" loading="auto" src="https://www.insurancejournal.com/app/uploads/2024/09/football-signed.jpg" srcset="" width="866"/>
+</div>
+</a>
+</div>
+<div class="col-12 col-md-7 column-45__right d-flex flex-column justify-content-center">
+<div class="article__badge article__badge--md mb-10 pt-10">
+<a class="article__badge article__badge--md" href="/news/sponsored/">Insurance Journal</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:05:34Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--lg article__title--featured mb-20" href="https://www.insurancejournal.com/news/southeast/2024/09/23/793947.htm">Hotter Summers Making High School Football a Fatal Game for Some Players</a>
+<div class="mb-25 d-none d-md-block">BRANDON, Mississippi (AP) Soon after Ashanta Laster reached the hospital, she was ushered into the emergency room where she saw doctors performing CPR on her teenage son.
+Laster had gotten a call th… [+12323 chars]</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div class="col-12 col-lg-3">
+<h2 class="mb-30">Recommended</h2>
+<div class="mb-40">
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.globenewswire.com/news-release/2024/09/23/2951023/0/en/WHO-endorses-dual-stain-cytology-CINtec-PLUS-testing-in-its-cervical-cancer-prevention-guidelines-advancing-patient-care-and-underlining-Roche-s-role-in-pioneering-cervical-cancer-.html">
+<div class="small-image-list img-sized"><img alt="WHO endorses dual-stain cytology (CINtec PLUS) testing in its cervical cancer prevention guidelines, advancing patient care and underlining Roche’s role in pioneering cervical cancer solutions" class="" loading="auto" src="https://ml-eu.globenewswire.com/Resource/Download/696b7c85-2d23-4f5e-a77b-8c6b2fa45d47" srcset="" width="1200"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">GlobeNewswire</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:03:54Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.globenewswire.com/news-release/2024/09/23/2951023/0/en/WHO-endorses-dual-stain-cytology-CINtec-PLUS-testing-in-its-cervical-cancer-prevention-guidelines-advancing-patient-care-and-underlining-Roche-s-role-in-pioneering-cervical-cancer-.html">WHO endorses dual-stain cytology (CINtec PLUS) testing in its cervical cancer prevention guidelines, advancing patient care and underlining Roche’s role in pioneering cervical cancer solutions</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.thestar.com.my/tech/tech-news/2024/09/23/co-founder-of-titan-to-testify-before-coast-guard-about-submersible-that-imploded">
+<div class="small-image-list img-sized"><img alt="Co-founder of Titan to testify before Coast Guard about submersible that imploded" class="" loading="auto" src="https://apicms.thestar.com.my/uploads/images/2024/09/23/2926537.jpg" srcset="" width="800"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">The Star Online</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:02:18Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.thestar.com.my/tech/tech-news/2024/09/23/co-founder-of-titan-to-testify-before-coast-guard-about-submersible-that-imploded">Co-founder of Titan to testify before Coast Guard about submersible that imploded</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.irishtimes.com/business/2024/09/23/most-tasks-in-nearly-a-third-of-professions-could-be-automated-by-ai/">
+<div class="small-image-list img-sized"><img alt="Most tasks in nearly a third of professions could be automated by AI" class="" loading="auto" src="https://www.irishtimes.com/resizer/v2/MNYQ4JNVMJZFAOMI2JMSYSLQZQ.jpg?smart=true&amp;auth=539abc78d5c305c3eadacabb9cf43a35b36ec25938938c7a21da07af3d60b402&amp;width=1200&amp;height=630" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">The Irish Times</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:01:37Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.irishtimes.com/business/2024/09/23/most-tasks-in-nearly-a-third-of-professions-could-be-automated-by-ai/">Most tasks in nearly a third of professions could be automated by AI</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://www.strategy-business.com/article/Decarbonizing-heavy-industries-with-carbon-capture?gko=31d48">
+<div class="small-image-list img-sized"><img alt="Decarbonizing heavy industries with carbon capture" class="" loading="auto" src="https://www.strategy-business.com/media/image/44967870_thumb5_690x400.jpg" srcset="" width="860"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">Strategy-business.com</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:01:16Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://www.strategy-business.com/article/Decarbonizing-heavy-industries-with-carbon-capture?gko=31d48">Decarbonizing heavy industries with carbon capture</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-12 mb-20">
+<div class="row">
+<div class="col-4 px-0">
+<a class="article__image article__image--sm-wider" href="https://economictimes.indiatimes.com/news/elections/assembly-elections/haryana/haryana-assembly-polls-only-87-women-elected-in-almost-60-years-of-the-states-history/articleshow/113585676.cms">
+<div class="small-image-list img-sized"><img alt="Haryana Assembly Polls: Only 87 women elected in almost 60 years of the state's history" class="" loading="auto" src="https://img.etimg.com/thumb/msid-113585774,width-1200,height-630,imgsize-64674,overlay-economictimes/photo.jpg" srcset="" width="960"/></div>
+</a>
+</div>
+<div class="col-8">
+<div class="article__badge article__badge--xs">
+<a class="article__badge article__badge--xs" href="/news/sponsored/">The Times of India</a>
+<div class="article__badge-date" data-utctime="2024-08-28T16:00:59Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--recommended mb-0" href="https://economictimes.indiatimes.com/news/elections/assembly-elections/haryana/haryana-assembly-polls-only-87-women-elected-in-almost-60-years-of-the-states-history/articleshow/113585676.cms">Haryana Assembly Polls: Only 87 women elected in almost 60 years of the state's history</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dslot" did="4" style="min-height:600px;">
+<img alt="" class="img-fluid" loading="auto" src="/assets/images/me_banner/300x600.jpg" width=""/>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section class="container mb-80">
+<div class="pb-40 pb-30">
+<h2 class="mb-40">All News</h2>
+<div class="row" id="load_more_target">
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.business-standard.com/elections/haryana-elections/only-87-women-elected-to-haryana-assembly-since-1966-no-woman-cm-yet-124092300143_1.html">
+<div class="img-sized"><img alt="Only 87 women elected to Haryana Assembly since 1966, no woman CM yet" class="img-fluid" loading="auto" src="https://bsmedia.business-standard.com/_media/bs/img/article/2024-09/23/thumb/featurecrop/400X400/1727066064-338.jpg" srcset="" width="960"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Business Standard</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T16:00:21Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.business-standard.com/elections/haryana-elections/only-87-women-elected-to-haryana-assembly-since-1966-no-woman-cm-yet-124092300143_1.html">Only 87 women elected to Haryana Assembly since 1966, no woman CM yet</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://nation.africa/kenya/news/education/jss-to-receive-new-textbooks-from-next-month-4772002">
+<div class="img-sized"><img alt="JSS to receive new textbooks from next month" class="img-fluid" loading="auto" src="https://nation.africa/resource/image/4772012/landscape_ratio3x2/1200/800/9120dfc09b63f8008d001036e3dc53b4/zj/kamau-kiarie.jpg" srcset="" width="634"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Nation.africa</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T16:00:09Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://nation.africa/kenya/news/education/jss-to-receive-new-textbooks-from-next-month-4772002">JSS to receive new textbooks from next month</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.japantimes.co.jp/environment/2024/09/23/climate-change/climate-change-weather-attribution/">
+<div class="img-sized"><img alt="Shanshan study spotlights science linking warming to extreme weather" class="img-fluid" loading="auto" src="https://www.japantimes.co.jp/japantimes/uploads/images/2024/09/23/422753.jpg?v=3.1" srcset="" width="1200"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">The Japan Times</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T16:00:00Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.japantimes.co.jp/environment/2024/09/23/climate-change/climate-change-weather-attribution/">Shanshan study spotlights science linking warming to extreme weather</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://abcnews.go.com/Business/wireStory/founder-titan-testify-coast-guard-submersible-imploded-113919083">
+<div class="img-sized"><img alt="Co-founder of Titan to testify before Coast Guard about submersible that imploded" class="img-fluid" loading="auto" src="https://i.abcnewsfe.com/a/ca567104-838a-4566-be92-b50ec6f9d27d/wirestory_e8b5ef4b797b86b43e8b65e721216b26_16x9.jpg?w=1600" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">ABC News</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:59:50Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://abcnews.go.com/Business/wireStory/founder-titan-testify-coast-guard-submersible-imploded-113919083">Co-founder of Titan to testify before Coast Guard about submersible that imploded</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.juancole.com/2024/09/connecting-destruction-financial.html">
+<div class="img-sized"><img alt="Connecting the Dots between Climate Destruction and its Financial Backers" class="img-fluid" loading="auto" src="https://media.juancole.com/images/2024/09/IMG_4097.jpg" srcset="" width="800"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Juancole.com</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:58:09Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.juancole.com/2024/09/connecting-destruction-financial.html">Connecting the Dots between Climate Destruction and its Financial Backers</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://abcnews.go.com/Technology/wireStory/founder-titan-testify-coast-guard-submersible-imploded-113919085">
+<div class="img-sized"><img alt="Co-founder of Titan to testify before Coast Guard about submersible that imploded" class="img-fluid" loading="auto" src="https://i.abcnewsfe.com/a/ca567104-838a-4566-be92-b50ec6f9d27d/wirestory_e8b5ef4b797b86b43e8b65e721216b26_16x9.jpg?w=1600" srcset="" width="800"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">ABC News</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:52:02Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://abcnews.go.com/Technology/wireStory/founder-titan-testify-coast-guard-submersible-imploded-113919085">Co-founder of Titan to testify before Coast Guard about submersible that imploded</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://abcnews.go.com/US/wireStory/founder-titan-testify-coast-guard-submersible-imploded-113919081">
+<div class="img-sized"><img alt="Co-founder of Titan to testify before Coast Guard about submersible that imploded" class="img-fluid" loading="auto" src="https://i.abcnewsfe.com/a/ca567104-838a-4566-be92-b50ec6f9d27d/wirestory_e8b5ef4b797b86b43e8b65e721216b26_16x9.jpg?w=1600" srcset="" width="512"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">ABC News</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:50:27Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://abcnews.go.com/US/wireStory/founder-titan-testify-coast-guard-submersible-imploded-113919081">Co-founder of Titan to testify before Coast Guard about submersible that imploded</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.facultyfocus.com/articles/teaching-with-technology-articles/oer-is-full-of-errors-im-okay-with-it/">
+<div class="img-sized"><img alt="OER is Full of Errors: I’m Okay With It" class="img-fluid" loading="auto" src="https://s39613.pcdn.co/wp-content/uploads/2024/09/Untitled-design-18.png" srcset="" width="1142"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Facultyfocus.com</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:49:21Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.facultyfocus.com/articles/teaching-with-technology-articles/oer-is-full-of-errors-im-okay-with-it/">OER is Full of Errors: I’m Okay With It</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.computerweekly.com/opinion/Driving-the-development-of-transformative-technologies-through-digital-skills">
+<div class="img-sized"><img alt="Driving the development of transformative technologies through digital skills" class="img-fluid" loading="auto" src="https://cdn.ttgtmedia.com/visuals/ComputerWeekly/HeroImages/cogs-training-learning-education-career-EtiAmmos-adobe.jpg" srcset="" width="2846"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">ComputerWeekly.com</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:48:18Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.computerweekly.com/opinion/Driving-the-development-of-transformative-technologies-through-digital-skills">Driving the development of transformative technologies through digital skills</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.sciencealert.com/this-stunning-crystal-could-preserve-the-human-genome-for-billions-of-years">
+<div class="img-sized"><img alt="This Stunning Crystal Could Preserve The Human Genome For Billions of Years" class="img-fluid" loading="auto" src="https://www.sciencealert.com/images/2024/09/memory_crystal_DNA.jpg" srcset="" width="2907"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">ScienceAlert</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:48:07Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.sciencealert.com/this-stunning-crystal-could-preserve-the-human-genome-for-billions-of-years">This Stunning Crystal Could Preserve The Human Genome For Billions of Years</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://hypebeast.com/2024/9/lancome-revolutionizes-travel-retail-experience-genifique-ultimate-travelers-repair-clinic-singapore">
+<div class="img-sized"><img alt="Lancôme Revolutionizes the Travel Retail Experience with the Génifique Ultimate Traveler’s Repair Clinic" class="img-fluid" loading="auto" src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2024%2F09%2F20%2FLancome-TW.jpg?w=1080&amp;cbr=1&amp;q=90&amp;fit=max" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">HYPEBEAST</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:46:17Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://hypebeast.com/2024/9/lancome-revolutionizes-travel-retail-experience-genifique-ultimate-travelers-repair-clinic-singapore">Lancôme Revolutionizes the Travel Retail Experience with the Génifique Ultimate Traveler’s Repair Clinic</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://blogs.fangraphs.com/instagraphs/job-posting-texas-rangers-player-development-data-apprentice-5/">
+<div class="img-sized"><img alt="Job Posting: Texas Rangers – Player Development, Data Apprentice" class="img-fluid" loading="auto" src="https://blogs.fangraphs.com/wp-content/uploads/2022/02/Job-Posting-Board-.png" srcset="" width="2315"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Fangraphs.com</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:46:07Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://blogs.fangraphs.com/instagraphs/job-posting-texas-rangers-player-development-data-apprentice-5/">Job Posting: Texas Rangers – Player Development, Data Apprentice</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://www.nbcnews.com/news/us-news/alaska-island-trying-find-rat-might-not-exist-rcna172176">
+<div class="img-sized"><img alt="Why an Alaska island is using peanut butter and black lights to find a rat that might not exist" class="img-fluid" loading="auto" src="https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-09/240922-alaska-eradicating-rats-wm-555p-6abc32.jpg" srcset="" width="969"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">NBC News</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:44:57Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://www.nbcnews.com/news/us-news/alaska-island-trying-find-rat-might-not-exist-rcna172176">Why an Alaska island is using peanut butter and black lights to find a rat that might not exist</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="http://twistedsifter.com/2024/09/study-links-cancer-and-microplastics-as-younger-people-are-receiving-cancer-diagnoses/">
+<div class="img-sized"><img alt="Study Links Cancer And Microplastics As People Born in 1990 Are 2 to 3 Times More Likely To Get Cancer Diagnoses Than Those Born In 1955" class="img-fluid" loading="auto" src="https://twistedsifter.com/wp-content/uploads/2024/09/Microplastics-Cancer-SCI.jpg" srcset="" width="340"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Twistedsifter.com</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:42:21Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="http://twistedsifter.com/2024/09/study-links-cancer-and-microplastics-as-younger-people-are-receiving-cancer-diagnoses/">Study Links Cancer And Microplastics As People Born in 1990 Are 2 to 3 Times More Likely To Get Cancer Diagnoses Than Those Born In 1955</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://economictimes.indiatimes.com/news/international/world-news/who-is-leftist-leader-anura-kumara-dissanayake-sri-lankas-newly-elected-president/articleshow/113582109.cms">
+<div class="img-sized"><img alt="Who is leftist leader Anura Kumara Dissanayake, Sri Lanka's newly elected president" class="img-fluid" loading="auto" src="https://img.etimg.com/thumb/msid-113582197,width-1200,height-630,imgsize-8966,overlay-economictimes/photo.jpg" srcset="" width="854"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">The Times of India</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:41:14Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://economictimes.indiatimes.com/news/international/world-news/who-is-leftist-leader-anura-kumara-dissanayake-sri-lankas-newly-elected-president/articleshow/113582109.cms">Who is leftist leader Anura Kumara Dissanayake, Sri Lanka's newly elected president</a>
+</div>
+</div>
+</article>
+</div>
+<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-30">
+<article class="mb-30">
+<div class="row">
+<div class="col-4 col-md-12">
+<a class="article__image article__image--sm-wider mb-15" href="https://pypi.org/project/metaflow-suanpan/">
+<div class="img-sized"><img alt="metaflow-suanpan added to PyPI" class="img-fluid" loading="auto" src="https://pypi.org/static/images/twitter.abaf4b19.webp" srcset="" width="512"/></div>
+</a>
+</div>
+<div class="col-8 col-md-12">
+<div class="article__badge article__badge--sm">
+<a class="article__badge article__badge--sm" href="/news/sponsored/">Pypi.org</a>
+<div class="article__badge-date d-md-inline-block" data-utctime="2024-08-28T15:33:12Z">23 Sep 2024</div>
+</div>
+<a class="article__title article__title--md article__title--featured" href="https://pypi.org/project/metaflow-suanpan/">metaflow-suanpan added to PyPI</a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+<hr class="mb-60"/>
+<div class="text-center">
+<a class="button-more button-more--gradient" href="javascript:void(0);" id="load_more" loadmoretype="science">Load more news...
+                    <svg height="6" viewbox="0 0 20 6" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 0L1 5 0 6 1.414 6 19.999 6 19.999 5 2.413 5 6 1.415z" fill="#6C7473" fill-rule="evenodd" transform="matrix(-1 0 0 1 19.999 0)"></path>
+</svg>
+</a>
+</div>
+</section>
+</main>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="footer-top pt-60 pb-30">
+<div class="row">
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center text-md-left">
+<div class="d-lg-flex mb-40">
+<div class="footer-links d-md-inline-block text-center text-md-left align-self-center">
+<div style="color: #fff">
+<div style="font-weight: 600;">
+                                    Digg delivers the most interesting and talked about stories on the Internet right now.
+                                </div>
+<p>
+                                    Digg does curation: building products that make life smoother, simpler, and smarter.
+                                    Founded in 2004 Re-founded in 2012 Re-re-founded in 2019,
+                                    Digg provides the most relevant and compelling content to millions of users a month. </p>
+<p>
+                                    Using proprietary data sources and a crack editorial team, we cut through the clutter of the Internet and make sense of the noise so you don’t have to. Digg has everything you'll see later, now. </p>
+                                Visit Digg on the web, or get the best of Digg delivered to your inbox with Digg Editions.
+                                <div style="font-weight: 600;"><br/>
+                                    How You Can Contact Us
+                                </div>
+<p>
+                                    Please alert us to any issues by contacting us at support@digg.com. </p>
+</div>
+<a class="mr-20" href="/terms-and-conditions.htm">Terms &amp; Conditions</a>
+<a class="mr-20" href="/about-us.htm">About Us</a>
+<a class="mr-20" href="/contact/">Contact Us</a>
+<a class="mr-20" href="/privacy-policy.htm">Privacy Policy</a>
+<a class="mr-20" href="/disclaimer.htm">Disclaimer</a>
+</div>
+</div>
+<div class="footer-tags d-none d-md-block"></div>
+</div>
+<div class="col-12 col-lg-7 col-xl-8 footer-links text-md-left">
+<div class="row d-none d-md-flex" style="justify-content: flex-end">
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/news/"><b>Sport</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children" style="color: #fff">
+<a href="/sport/boxing/">Boxing</a><br/>
+<a href="/sport/cricket/">Cricket</a><br/>
+<a href="/sport/football/">Football</a><br/>
+<a href="/sport/formula-1/">Formula 1</a><br/>
+<a href="/sport/tennis/">Tennis</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/>
+<a href="/exclusives/opinions/">Opinions</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+<a href="/exclusives/people/">People In Crypto</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/>
+<a href="/guides/ethereum/">Ethereum</a><br/>
+<a href="/guides/nft/">NFT</a><br/>
+<a href="/guides/defi-guides/">Defi Guides</a><br/>
+<a href="/guides/altcoins/">Altcoins</a><br/>
+<a href="/guides/blockchain/">Blockchain</a><br/>
+<a href="/guides/cryptocurrency/">Cryptocurrency</a><br/>
+<a href="/guides/icos/">ICOs / STOs / IEOs</a><br/>
+</div>
+</div>
+<div class="col-12 col-lg-2">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a><span>+</span>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/best-crypto-to-buy.htm"> Best crypto to buy now </a>
+<a href="/news/best-crypto-presales.htm"> Best crypto presales to invest in </a>
+<a href="/news/new-cryptocurrency.htm"> New cryptocurrency </a>
+<a href="/news/next-cryptocurrency-to-explode.htm"> Next cryptocurrency to explode </a>
+<a href="/news/best-crypto-icos.htm"> Best crypto icos </a>
+<a href="/news/crypto-launches.htm"> Crypto launches </a>
+<a href="/news/best-bitcoin-betting-sites.htm"> Crypto betting </a>
+<a href="/news/best-bitcoin-casinos.htm"> Bitcoin casinos </a>
+<a href="/news/best-bitcoin-gambling-sites.htm"> Bitcoin gambling sites </a>
+</div>
+</div>
+<div class="col-lg-2">
+<div class="">
+<div class="header-menu__dropdown-heading"><a class="heading" href="/editors/">Contributors</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/reviews/exchanges/">Exchanges</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/coins/">Market Cap</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/press-releases/">Press Releases</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/news/industry-talk/">Industry Talk</a></div>
+<div class="header-menu__dropdown-heading"><a class="heading" href="/exclusives/opinions/">Opinions</a></div>
+</div>
+</div>
+</div>
+<div class="row d-block d-md-none footer_menu_mob">
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/sport/"><b>Sport</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/news/bitcoin-news/">Bitcoin News</a><br/><a href="/news/ethereum-news/">Ethereum News</a><br/><a href="/news/nft-news/">NFT News</a><br/><a href="/news/defi-news/">DeFi News</a><br/><a href="/news/altcoin-news/">Altcoin News</a><br/><a href="/news/blockchain-news/">Blockchain News</a><br/><a href="/news/press-releases/">Press Releases</a><br/><a href="/news/sponsored/">Sponsored</a><br/><a href="/news/industry-talk/">Industry Talk</a><br/><a href="/news/ico-news/">ICO news</a><br/><a href="/news/finance-news/">Finance News</a><br/><a href="/news/technology-news/">Technology News</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/exclusives/"><b>Exclusives</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/exclusives/features/">Features</a><br/><a href="/exclusives/opinions/">Opinions</a><br/><a href="/exclusives/people/">People In Crypto</a><br/></div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="/guides/"><b>Guides</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a href="/guides/bitcoin/">Bitcoin</a><br/><a href="/guides/ethereum/">Ethereum</a><br/><a href="/guides/nft/">NFT</a><br/><a href="/guides/defi-guides/">Defi Guides</a><br/><a href="/guides/altcoins/">Altcoins</a><br/><a href="/guides/blockchain/">Blockchain</a><br/><a href="/guides/cryptocurrency/">Cryptocurrency</a><br/><br/><a href="/guides/icos/">ICOs / STOs / IEOs</a><br/><br/>
+</div>
+<div class="header-menu__dropdown-heading">
+<a class="mb-10 heading" href="#"><b>Recommended</b></a>
+</div>
+<div class="menu-list-links header-menu__dropdown-children">
+                            [{"url":"https:\/\/kumkanot.com\/news\/best-crypto-to-buy.htm","name":"Best crypto to buy now","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-presales.htm","name":"Best crypto presales to invest in","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/new-cryptocurrency.htm","name":"New cryptocurrency","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/next-cryptocurrency-to-explode.htm","name":"Next cryptocurrency to
+                            explode","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-crypto-icos.htm","name":"Best crypto icos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/crypto-launches.htm","name":"Crypto launches","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-betting-sites.htm","name":"Crypto betting","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-casinos.htm","name":"Bitcoin
+                            casinos","children":[]}]<br/>[{"url":"https:\/\/kumkanot.com\/news\/best-bitcoin-gambling-sites.htm","name":"Bitcoin gambling sites","children":[]}]<br/></div>
+<div class="menu-list-links header-menu__dropdown-children">
+<a class="mb-10 heading" href="/editors/">
+<b>Contributors</b>
+</a>
+<a class="mb-10 heading" href="/reviews/exchanges/">
+<b>Exchanges</b>
+</a>
+<a class="mb-10 heading" href="/coins/">
+<b>Market Cap</b>
+</a>
+<a class="mb-10 heading" href="/news/press-releases/"><b>Press Releases</b></a>
+<a class="mb-10 heading" href="/news/industry-talk/"><b>Industry Talk</b></a>
+<a class="mb-10 heading" href="/exclusives/opinions/"><b>Opinions</b></a>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-5 col-xl-4 mb-lg-0 text-center d-md-none d-block mt-20">
+<div class="footer-tags"></div>
+</div>
+</div>
+</div>
+<div class="footer-bottom pt-30 pb-30">
+<div class="row">
+<div class="col-12 col-md-6 text-center text-md-left mb-20 mb-md-0">
+<div class="fs-12 c-light-grey">© 2023 kumkanot. All rights reserved</div>
+</div>
+<div class="col-12 col-md-6 text-center text-md-right"></div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.9.2/dist/cookieconsent.js"></script>
+<script defer="" src="/assets/js/cookieconsent-init.js"></script>
+</body>
+</html>

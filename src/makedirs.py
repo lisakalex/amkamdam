@@ -1,11 +1,6 @@
 #!/home/al/.venv/bin/python3
-import glob2
 from bs4 import BeautifulSoup
-import requests
-import time
 from pathlib import Path
-import shutil
-from datetime import datetime
 import os
 
 dirs = ['sport',

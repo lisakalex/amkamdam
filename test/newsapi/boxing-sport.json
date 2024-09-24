@@ -1,19 +1,45 @@
 {
     "status": "ok",
-    "totalResults": 1,
+    "totalResults": 3,
     "articles": [
         {
             "source": {
                 "id": null,
-                "name": "Forbes"
+                "name": "[Removed]"
             },
-            "author": "Brian Mazique, Contributor, \n Brian Mazique, Contributor\n https://www.forbes.com/sites/brianmazique/",
-            "title": "Dana White Receives Special Gift From WWE Hall-Of-Famer At Noche UFC",
-            "description": "Noche UFC brought out celebrities from multiple lanes of entertainment. One WWE icon had a memorable backstage meeting with Dana White at The Sphere for Noche UFC.",
-            "url": "https://www.forbes.com/sites/brianmazique/2024/09/16/dana-white-receives-special-gift-from-wwe-hall-of-famer-at-noche-ufc/",
-            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/66e79a120af3ad53e842549f/0x0.jpg?format=jpg&crop=2600,1462,x0,y0,safe&height=900&width=1600&fit=bounds",
-            "publishedAt": "2024-09-16T04:27:34Z",
-            "content": "LAS VEGAS, NEVADA - SEPTEMBER 13: UFC CEO Dana White is seen on stage during the UFC 306 at Riyadh ... [+] Season Noche UFC Ceremonial Weigh-in at Sphere on September 13, 2024 in Las Vegas, Nevada. (\u2026 [+3117 chars]"
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "2024-09-23T05:00:40Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": "abc-news-au",
+                "name": "ABC News (AU)"
+            },
+            "author": "Simon Smale",
+            "title": "'That's cost me 150 million': The cascading impacts of a boxing shock",
+            "description": "Tyson Fury and boxing fans everywhere lamented another close call in the ongoing and fruitless quest for an all-British mega-fight between himself and Anthony Joshua, but there's still plenty to look forward to.",
+            "url": "https://www.abc.net.au/news/2024-09-23/tyson-fury-loses-anthony-joshua-boilover-defeat-daniel-dubois/104384246",
+            "urlToImage": "https://live-production.wcms.abc-cdn.net.au/7793e5971e5b571d308a94e9bb14a8f4?impolicy=wcms_watermark_news&cropH=345&cropW=614&xPos=0&yPos=67&width=862&height=485&imformat=generic",
+            "publishedAt": "2024-09-23T03:48:45Z",
+            "content": "Most of the boxing world was left shocked by the brutal knockdown of former world heavyweight champion Anthony Joshua by Daniel Dubois.\r\nBut one ringside observer in particular appeared to take it ha\u2026 [+4800 chars]"
+        },
+        {
+            "source": {
+                "id": "national-geographic",
+                "name": "National Geographic"
+            },
+            "author": "Rachel Fairbank",
+            "title": "What are the early warning signs of CTE? New clues emerge",
+            "description": "Researchers observed 130 boxers and MMA fighters over several years. What did they learn? Changes in brain volume and cognitive skills may predict the onset of chronic traumatic encephalopathy, or CTE.",
+            "url": "https://www.nationalgeographic.com/science/article/warning-signs-cte-brain",
+            "urlToImage": "https://i.natgeofe.com/n/730711c9-5139-46c2-8747-8475415fa7cd/GettyImages-973521998_16x9.jpg?w=1200",
+            "publishedAt": "2024-09-23T00:00:00Z",
+            "content": "Now researchers are starting to uncover some of the early signs and symptoms that are likely associated with CTE. In a recent study, published in the journal Neurology, researchers looked at a cohort\u2026 [+3461 chars]"
         }
     ]
 }
