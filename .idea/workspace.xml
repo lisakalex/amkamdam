@@ -26,91 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2b6b28b-633d-488b-a11e-85b21f893e04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me-index-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/menu-header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_makedirs_chatgpt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/culture/art/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/culture/books/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/culture/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/culture/music/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/culture/photography/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/culture/popular-films/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/finance/brexit/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/finance/crypto/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/finance/financial-markets/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/finance/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/finance/property-market/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/finance/stocks-and-shares/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lifestyle/beauty/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lifestyle/fashion/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lifestyle/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lifestyle/money/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lifestyle/shopping/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lifestyle/tech-news/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/art-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/beauty-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/books-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/boxing-sport-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/brexit-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/cricket-sport-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/crypto-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/culture-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/fashion-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/finance-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/financial-markets-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/football-sport-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/formula-1-racing-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/huy-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/lifestyle-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/money-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/music-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/photography-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/popular-films-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/property-market-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/shopping-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/sport-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/stocks-and-shares-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/tech-news-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/tennis-sport-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sport/boxing-sport/huy/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sport/boxing-sport/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sport/cricket-sport/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sport/football-sport/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sport/formula-1-racing/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sport/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sport/tennis-sport/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/makedirs.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/makedirs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/makedirs_chatgpt.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/makedirs_chatgpt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/me-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/news_updater.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/news_updater.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/count_replace.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/count_replace.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/art.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/beauty.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/books.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/boxing-sport.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/brexit.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/cricket-sport.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/crypto.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/culture.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/fashion.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/finance.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/financial-markets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/football-sport.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/formula-1-racing.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/kak.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/lifestyle.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/money.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/music.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/photography.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/popular-films.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/property-market.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/shopping.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/sport.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/stocks-and-shares.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/tech-news.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/tennis-sport.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -358,7 +274,7 @@
       <workItem from="1726327168110" duration="7283000" />
       <workItem from="1726379303300" duration="41069000" />
       <workItem from="1726743660722" duration="2565000" />
-      <workItem from="1726746475168" duration="28188000" />
+      <workItem from="1726746475168" duration="29309000" />
     </task>
     <task id="LOCAL-00001" summary="ku">
       <created>1706943512106</created>
@@ -507,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726850794671</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="done all ten categories">
+      <created>1727156139449</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1727156139449</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,7 +479,8 @@
     <MESSAGE value="news_updater.py" />
     <MESSAGE value="kak" />
     <MESSAGE value="makedirs_chatgpt.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="makedirs_chatgpt.py" />
+    <MESSAGE value="done all ten categories" />
+    <option name="LAST_COMMIT_MESSAGE" value="done all ten categories" />
   </component>
   <component name="WindowStateProjectService">
     <state x="542" y="192" width="1536" height="1261" key="#Project_Structure" timestamp="1726373866342">
@@ -627,10 +551,10 @@
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state x="133" y="192" width="1945" height="1261" key="SettingsEditor/70.38.2490.1562@70.38.2490.1562" timestamp="1726547844458" />
-    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1726850797348">
+    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1727156141604">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2/70.38.2490.1562@70.38.2490.1562" timestamp="1726850797348" />
+    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2/70.38.2490.1562@70.38.2490.1562" timestamp="1727156141604" />
     <state width="1245" height="781" key="XDebugger.FullValuePopup" timestamp="1727066083605">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
