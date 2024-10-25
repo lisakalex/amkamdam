@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 
 # Directory structure
 dirs = [
+    '',
     'sport',
     'sport/boxing-sport',
     'sport/cricket-sport',

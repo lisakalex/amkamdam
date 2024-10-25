@@ -1,5 +1,58 @@
 {
     "status": "ok",
-    "totalResults": 0,
-    "articles": []
+    "totalResults": 4,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Investing.com"
+            },
+            "author": "Investing.com",
+            "title": "Japan's Ministry of Health, Labour and Welfare Approves PADCEV\u2122 (enfortumab vedotin) with KEYTRUDA \u00ae (pembrolizumab) for First-Line Treatment of Radically Unresectable Urothelial Carcinoma",
+            "description": "Japan's Ministry of Health, Labour and Welfare Approves PADCEV\u2122 (enfortumab vedotin) with KEYTRUDA \u00ae (pembrolizumab) for First-Line Treatment of Radically Unresectable Urothelial Carcinoma",
+            "url": "https://www.investing.com/news/press-releases/japans-ministry-of-health-labour-and-welfare-approves-padcev-enfortumab-vedotin-with-keytruda--pembrolizumab-for-firstline-treatment-of-radically-unresectable-urothelial-carcinoma-93CH-3629047",
+            "urlToImage": "https://i-invdn-com.investing.com/redesign/images/seo/investing_300X300.png",
+            "publishedAt": "2024-09-24T06:16:04Z",
+            "content": "- Approval based on the EV-302 trial where the treatment combination nearly doubled median overall survival and significantly extended progression free survival compared to platinum-containing chemot\u2026 [+14005 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Naturalnews.com"
+            },
+            "author": "Olivia Cook",
+            "title": "12 Essential oils and their biblical references",
+            "description": "\u201cAnd they went out\u2026 and they anointed with oil many that were sick and healed them.\u201d Mark 6:12-13 Throughout the Bible, oils held a place of reverence \u2013 serving both practical and sacred purposes. In the ancient scriptures, oils were more than fragrant substa\u2026",
+            "url": "https://www.naturalnews.com/2024-09-24-12-essential-oils-and-their-biblical-references.html",
+            "urlToImage": "https://www.naturalnews.com/wp-content/uploads/sites/91/2024/09/Essential-Oils.jpg",
+            "publishedAt": "2024-09-24T06:00:00Z",
+            "content": "\"And they went out... and they anointed with oil many that were sick and healed them.\" Mark 6:12-13\r\nThroughout the Bible, oils held a place of reverence serving both practical and sacred purposes. I\u2026 [+13014 chars]"
+        },
+        {
+            "source": {
+                "id": "the-irish-times",
+                "name": "The Irish Times"
+            },
+            "author": "Sheila Wayman",
+            "title": "Addiction and healing: \u2018All of the things that you chase for happiness don\u2019t actually make you happy\u2019",
+            "description": "S\u00edolta, co-founded by Hannah Bowler and Wayne Dignam, is a co-operative of wellbeing practitioners aimed at enabling growth and connection",
+            "url": "https://www.irishtimes.com/health/your-family/2024/09/24/sowing-the-seeds-of-healing-everybody-has-something-they-need-to-work-through/",
+            "urlToImage": "https://www.irishtimes.com/resizer/v2/JU2Z7A27BBCMTH2QABNJ7ZW37E.jpg?smart=true&auth=9810bc3144bde9a689fc32327915c8445271728813536b1feed9615116bd8cb2&width=1200&height=630",
+            "publishedAt": "2024-09-24T04:31:00Z",
+            "content": "When Hannah Bowler moved to London at the age of 21 to work in the fashion magazine Harpers Bazaar, before going into the music industry and touring with Florence and the Machine, it was the life of \u2026 [+9003 chars]"
+        },
+        {
+            "source": {
+                "id": "the-irish-times",
+                "name": "The Irish Times"
+            },
+            "author": "Peter McGuire",
+            "title": "What can you do when there\u2019s never been so much choice?",
+            "description": "There have never been so many courses, so many options for college and life",
+            "url": "https://www.irishtimes.com/ireland/education/2024/09/24/what-can-you-do-when-theres-never-been-so-much-choice/",
+            "urlToImage": "https://www.irishtimes.com/resizer/v2/PEME5AZA4NCI7BYQMAUSGX5BDU.jpg?smart=true&auth=ed7ba101f5008e31f39abe231cf03a32c7a69fe0513f03aeb9e378734b1b86d1&width=1200&height=630",
+            "publishedAt": "2024-09-24T00:00:00Z",
+            "content": "The past decade, in particular, has been marked by a revolution in education. Not only have the numbers in higher education grown hugely, but the further education sector has expanded to include a wi\u2026 [+7466 chars]"
+        }
+    ]
 }

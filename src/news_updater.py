@@ -18,11 +18,13 @@ class NewsUpdater:
         self.count_replace = 1
 
     # def load_news_api(self, keyword):
+    #     time.sleep(2)
     #     # with open(f'../test/newsapi-1/{keyword}.json', "r") as f:
-    #     with open(f'../test/newsapi/kak.json', "r") as f:
+    #     with open(f'../test/kak.json', "r") as f:
     #         return json.load(f)
 
     def load_news_api(self, keyword):
+        time.sleep(3)
         keyword = urllib.parse.quote_plus(keyword)
         yesterday = (date.today() - timedelta(days=1)).strftime('%Y-%m-%d')
         base_url = 'https://newsapi.org/v2/everything'

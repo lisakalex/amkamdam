@@ -1,5 +1,19 @@
 {
     "status": "ok",
-    "totalResults": 0,
-    "articles": []
+    "totalResults": 1,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Wordpress.org"
+            },
+            "author": "themeignite",
+            "title": "Prime Electronic Store",
+            "description": "Prime Electronic Store is a dynamic and versatile WordPress theme designed specifically for electronics stores and retailers. Whether you are an online electronics shop or a tech retailer store, this theme is crafted to help you showcase and sell electronic p\u2026",
+            "url": "https://wordpress.org/themes/prime-electronic-store/",
+            "urlToImage": "https://i0.wp.com/themes.svn.wordpress.org/prime-electronic-store/1.0/screenshot.png",
+            "publishedAt": "2024-09-24T05:11:50Z",
+            "content": "Prime Electronic Store is a dynamic and versatile WordPress theme designed specifically for electronics stores and retailers. Whether you are an online electronics shop or a tech retailer store, this\u2026 [+1591 chars]"
+        }
+    ]
 }

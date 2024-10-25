@@ -1,305 +1,84 @@
 {
     "status": "ok",
-    "totalResults": 42,
+    "totalResults": 57,
     "articles": [
         {
             "source": {
-                "id": "abc-news",
-                "name": "ABC News"
+                "id": null,
+                "name": "Daily Post Nigeria"
             },
-            "author": "NASSER KARIMI Associated Press, JON GAMBRELL Associated Press",
-            "title": "In Iran, the old-time US radio detective 'Johnny Dollar' returns to the airwaves",
-            "description": "\u201cYours Truly, Johnny Dollar,\u201d a radio program created by CBS in 1949 that found a devoted listenership in Farsi, has returned to Iranian radio",
-            "url": "https://abcnews.go.com/International/wireStory/iran-time-us-radio-detective-johnny-dollar-returns-113919740",
-            "urlToImage": "https://i.abcnewsfe.com/a/312255c0-6b5b-463f-abe7-c1ddeec7d75f/wirestory_b17b5b1b01fb34874fbbe0f0417f5b46_16x9.jpg?w=1600",
-            "publishedAt": "2024-09-23T05:21:55Z",
-            "content": "TEHRAN, Iran -- While tensions remain high between the U.S. and Iran, there's at least one American that state radio in Tehran invites on the air each week for its millions of listeners. It's just th\u2026 [+5562 chars]"
+            "author": "Ogaga Ariemu",
+            "title": "Aliko Dangote: Our petrol price is 15% cheaper than NNPCL's imported fuel",
+            "description": "President of Dangote Group and Africa's richest man has said that the price of Dangote Refinery's petrol is 15 percent cheaper than the ones imported by the Nigerian National Petroleum Company Limited. The billionaire disclosed this in an interview with Bloom\u2026",
+            "url": "https://dailypost.ng/2024/09/24/aliko-dangote-our-petrol-price-is-15-cheaper-than-nnpcls-imported-fuel/",
+            "urlToImage": "https://dailypost.ng/wp-content/uploads/2019/09/Aliko-Dangote.jpg",
+            "publishedAt": "2024-09-24T06:22:33Z",
+            "content": "President of Dangote Group and Africa\u2019s richest man has said that the price of Dangote Refinery\u2019s petrol is 15 percent cheaper than the ones imported by the Nigerian National Petroleum Company Limite\u2026 [+2294 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "BBC News"
+                "name": "ETF Daily News"
             },
-            "author": null,
-            "title": "Training has to be tough, says Strictly's Craig",
-            "description": "The show made headlines this year after celebrity contestants made bullying allegations.",
-            "url": "https://www.bbc.com/news/articles/c4glddze5zgo",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/70b5/live/45ef2940-7979-11ef-9e70-d9d35203592e.jpg",
-            "publishedAt": "2024-09-23T05:21:09Z",
-            "content": "Craig Revel Horwood said contestants who could not prepare for the level of commitment \"shouldnt be there\"\r\nStrictly Come Dancing training \"has to be tough\", judge Craig Revel Horwood has said. \r\nThe\u2026 [+2843 chars]"
+            "author": "MarketBeat News",
+            "title": "Netflix (NASDAQ:NFLX) Upgraded to \u201cBuy\u201d at StockNews.com",
+            "description": "Netflix (NASDAQ:NFLX \u2013 Get Free Report) was upgraded by equities researchers at StockNews.com from a \u201chold\u201d rating to a \u201cbuy\u201d rating in a report issued on Tuesday. NFLX has been the subject of a number of other research reports. JPMorgan Chase & Co. increased\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/24/netflix-nasdaqnflx-upgraded-to-buy-at-stocknews-com/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/netflix-inc-logo-1200x675.png?v=20231213130542&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-24T06:17:36Z",
+            "content": "Netflix (NASDAQ:NFLX \u2013 Get Free Report) was upgraded by equities researchers at StockNews.com from a \u201chold\u201d rating to a \u201cbuy\u201d rating in a report issued on Tuesday.\r\nNFLX has been the subject of a num\u2026 [+5424 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Livemint"
+                "name": "ETF Daily News"
             },
-            "author": "Lata Jha",
-            "title": "From free streaming on YouTube to TV premieres, producers explore alternative platforms for unsold films",
-            "description": "Producers are turning to YouTube and direct-to-TV releases for unsold films as box office and OTT opportunities dwindle. This approach aims to recover costs amid changing audience preferences, although it may not suit high-budget projects.",
-            "url": "https://www.livemint.com/industry/media/streaming-youtube-tv-premieres-producers-unsold-films-theatres-films-ott-movies-11727061232241.html",
-            "urlToImage": "https://www.livemint.com/lm-img/img/2024/09/23/1600x900/ADBHUT_POSTER_1727061259710_1727061277283.jpg",
-            "publishedAt": "2024-09-23T05:21:03Z",
-            "content": "Film producers unable to find buyers for their movies are exploring alternative routes to reach audiences. From streaming the films for free on YouTube to premiering them directly on television, bypa\u2026 [+3823 chars]"
+            "author": "MarketBeat News",
+            "title": "StockNews.com Downgrades Comcast (NASDAQ:CMCSA) to Buy",
+            "description": "Comcast (NASDAQ:CMCSA \u2013 Get Free Report) was downgraded by StockNews.com from a \u201cstrong-buy\u201d rating to a \u201cbuy\u201d rating in a report released on Tuesday. A number of other equities research analysts have also recently commented on CMCSA. BNP Paribas cut Comcast \u2026",
+            "url": "https://www.etfdailynews.com/2024/09/24/stocknews-com-downgrades-comcast-nasdaqcmcsa-to-buy/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/comcast-co-logo-1200x675.jpg?v=20231213132334&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-24T06:17:35Z",
+            "content": "Comcast (NASDAQ:CMCSA \u2013 Get Free Report) was downgraded by StockNews.com from a \u201cstrong-buy\u201d rating to a \u201cbuy\u201d rating in a report released on Tuesday.\r\nA number of other equities research analysts ha\u2026 [+4276 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Investing.com"
+                "name": "ETF Daily News"
             },
-            "author": "Reuters",
-            "title": "Israeli military says it is striking Hezbollah targets in Lebanon",
-            "description": "Israeli military says it is striking Hezbollah targets in Lebanon",
-            "url": "https://www.investing.com/news/world-news/israeli-military-says-it-is-striking-hezbollah-targets-in-lebanon-3626911",
-            "urlToImage": "https://i-invdn-com.investing.com/news/world_news_3_69x52._800x533_L_1419494235.jpg",
-            "publishedAt": "2024-09-23T05:15:54Z",
-            "content": "JERUSALEM (Reuters) - The Israeli military said on Monday it was conducting extensive strikes against targets of the Iranian-backed Hezbollah movement in Lebanon, which come amid some of the heaviest\u2026 [+1970 chars]"
+            "author": "MarketBeat News",
+            "title": "InCapta (OTCMKTS:INCT) Trading 0.4% Higher",
+            "description": "InCapta, Inc. (OTCMKTS:INCT \u2013 Get Free Report)\u2019s stock price rose 0.4% during mid-day trading on Monday . The stock traded as high as 3.10 and last traded at 2.81. Approximately 4,002 shares changed hands during trading, a decline of 100% from the average dai\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/24/incapta-otcmktsinct-trading-0-4-higher/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/incapta-inc-logo-1200x675.png?v=20230308135253&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-24T06:00:27Z",
+            "content": "InCapta, Inc. (OTCMKTS:INCT \u2013 Get Free Report)\u2019s stock price rose 0.4% during mid-day trading on Monday . The stock traded as high as 3.10 and last traded at 2.81. Approximately 4,002 shares changed \u2026 [+834 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "[Removed]"
+                "name": "ETF Daily News"
             },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "2024-09-23T05:10:20Z",
-            "content": "[Removed]"
+            "author": "MarketBeat News",
+            "title": "Cellcom Israel (OTCMKTS:CELJF) Trading 2.3% Higher",
+            "description": "Cellcom Israel Ltd. (OTCMKTS:CELJF \u2013 Get Free Report)\u2019s stock price shot up 2.3% during trading on Monday . The company traded as high as $4.25 and last traded at $4.25. 152 shares were traded during trading, a decline of 91% from the average session volume o\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/24/cellcom-israel-otcmktsceljf-trading-2-3-higher/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/cellcom-israel-ltd-logo-1200x675.jpg?v=20210827105235&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-24T06:00:23Z",
+            "content": "Cellcom Israel Ltd. (OTCMKTS:CELJF \u2013 Get Free Report)\u2019s stock price shot up 2.3% during trading on Monday . The company traded as high as $4.25 and last traded at $4.25. 152 shares were traded during\u2026 [+1112 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Naftemporiki.gr"
+                "name": "Sputnikglobe.com"
             },
-            "author": "\u0391\u03bb\u03b5\u03be\u03af\u03b1 \u03a3\u03c9\u03c4\u03b7\u03c1\u03af\u03bf\u03c5",
-            "title": "Greece sees a spike in technological investments",
-            "description": "A\u00a0spike\u00a0in\u00a0technological\u00a0investments\u00a0has\u00a0been\u00a0recorded\u00a0lately\u00a0with\u00a0telecom\u00a0providers\u00a0leading the trend.\u00a0More specifically, OTE has announced one of the largest investment programs, followed by Nova and\u2026\nGreece sees a spike in technological investments - \u0397 \u039d\u0391\u03a5\u2026",
-            "url": "https://www.naftemporiki.gr/english/1773340/greece-sees-a-spike-in-technological-investments/",
-            "urlToImage": "https://www.naftemporiki.gr/wp-content/uploads/2024/09/technologia.jpg",
-            "publishedAt": "2024-09-23T05:08:40Z",
-            "content": "A\u00a0spike\u00a0in\u00a0technological\u00a0investments\u00a0has\u00a0been\u00a0recorded\u00a0lately\u00a0with\u00a0telecom\u00a0providers\u00a0leading the trend.\u00a0More specifically, OTE has announced one of the largest investment programs, followed by Nova a\u2026 [+2487 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "NDTV News"
-            },
-            "author": "NDTV Sports Desk",
-            "title": "Gautam Adani Extends Greetings As India Win Double Gold At Chess Olympiad",
-            "description": "India displayed a stupendous performance at the ongoing International Chess Federation (FIDE) Chess Olympiad in Budapest to claim two gold medals in both men's and women's events on Sunday.",
-            "url": "https://sports.ndtv.com/chess/gautam-adani-extends-greetings-as-india-clinch-rare-double-gold-at-chess-olympiad-2024-6625145",
-            "urlToImage": "https://c.ndtvimg.com/2024-09/rb991a6_gautam-adani-and-indian-chess-team_625x300_23_September_24.jpg?im=FitAndFill,algorithm=dnn,width=1200,height=738",
-            "publishedAt": "2024-09-23T05:07:10Z",
-            "content": "Adani Group chairman, Gautam Adani on Monday extended good wishes to the Indian chess team for their triumph at the 45th Chess Olympiad in Budapest. India displayed a stupendous performance to claim \u2026 [+3165 chars]"
-        },
-        {
-            "source": {
-                "id": "the-irish-times",
-                "name": "The Irish Times"
-            },
-            "author": "Denis Walsh",
-            "title": "Hurling Development Committee must aim for small, meaningful wins to end sport\u2019s inertia",
-            "description": "A 2015 report stated the GAA has been \u201cdoing the game of hurling an injustice for a long time\u201d",
-            "url": "https://www.irishtimes.com/sport/gaelic-games/2024/09/23/hurling-development-committee-must-aim-for-small-meaningful-wins-to-end-sports-inertia/",
-            "urlToImage": "https://www.irishtimes.com/resizer/v2/UBTZNDRZFBJ3XVDPNNWJPT7GDA.jpg?smart=true&auth=f3f6a9ca751a2a894f70f46ad6c1f947648328a46a6eaf9300fbdaa78e128cae&width=1200&height=630",
-            "publishedAt": "2024-09-23T05:00:00Z",
-            "content": "The report of a long dead committee is like a message in a bottle. At their press conference last Wednesday, the latest Hurling Development Committee said they had read the work of ancestral committe\u2026 [+6027 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "MediaNama.com"
-            },
-            "author": "Simone Lobo",
-            "title": "California passes law regulating the use of AI in election ads",
-            "description": "California Governor Gavin Newsom signed three bills on September 17 to mitigate the threat of using Artificial intelligence in election\u2026\nThe post California passes law regulating the use of AI in election ads appeared first on MEDIANAMA.",
-            "url": "https://www.medianama.com/2024/09/223-california-passes-law-ai-use-election-advertisements/",
-            "urlToImage": "https://www.medianama.com/wp-content/uploads/2024/08/AI-platforms.jpg",
-            "publishedAt": "2024-09-23T05:00:00Z",
-            "content": "California Governor Gavin Newsom signed three bills on September 17 to mitigate the threat of using Artificial intelligence in election advertisements and communications to spread misinformation.\u00a0The\u2026 [+6122 chars]"
-        },
-        {
-            "source": {
-                "id": "the-irish-times",
-                "name": "The Irish Times"
-            },
-            "author": "Mary Hannigan",
-            "title": "Cristiano Ronaldo settles a score with Gary Something and Alan Who?",
-            "description": "Wellness tips from Ange Postecoglu; and dictionary corner with Mikel Arteta",
-            "url": "https://www.irishtimes.com/sport/soccer/2024/09/23/cristiano-ronaldo-settles-a-score-with-gary-something-and-alan-who/",
-            "urlToImage": "https://www.irishtimes.com/resizer/v2/2NA2ANYAFGKCDSJJLEVIPAONRU.jpg?smart=true&auth=3d8b10375e0d422235a43a6f888be3dde5d02d2dfab6f3cb6ac8b8c04c23fac9&width=1200&height=630",
-            "publishedAt": "2024-09-23T05:00:00Z",
-            "content": "Its nearly three months since Cristiano Ronaldo broke down in tears after he had a penalty saved in Portugals last 16 tie against Slovenia at Euro 2024, although he made up for it in the shoot-out th\u2026 [+3699 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Foreign Policy"
-            },
-            "author": "Julian E. Zelizer",
-            "title": "Why Senators Don\u2019t Often Become President",
-            "description": "California\u2019s Kamala Harris is attempting to join a select cohort.",
-            "url": "https://foreignpolicy.com/2024/09/23/senators-become-president-harris-obama/",
-            "urlToImage": "https://foreignpolicy.com/wp-content/uploads/2024/09/u-s-congress-flag-GettyImages-1996074179.jpg?w=1000",
-            "publishedAt": "2024-09-23T04:27:36Z",
-            "content": "U.S. Vice President Kamala Harris is attempting to join a select cohort of Americans who served as senators before going on to become president of the United States. Beginning with James Monroe of Vi\u2026 [+11132 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Protothema.gr"
-            },
-            "author": "admin",
-            "title": "Elections \u2013 Germany: Marginal victory for the Social Democrats in Brandenburg over the far-right AfD",
-            "description": "The SPD won 30.9% of the vote, while the AfD came second with 29.2% - The Bundesrat (BSW) and the Christian Democrats are the other two parties entering parliament\nThe post Elections \u2013 Germany: Marginal victory for the Social Democrats in Brandenburg over the\u2026",
-            "url": "https://en.protothema.gr/2024/09/23/elections-germany-marginal-victory-for-the-social-democrats-in-brandenburg-over-the-far-right-afd/",
-            "urlToImage": "https://en.protothema.gr/wp-content/uploads/2024/09/spd_election_germany-1.jpg-1.jpg",
-            "publishedAt": "2024-09-23T04:25:13Z",
-            "content": "The Social Democrats (SPD) party of Germany\u2019s Chancellor Olaf Scholz narrowly won the election in the eastern state of Brandenburg on Sunday.\r\nThree weeks after the far-right party Alternative for Ge\u2026 [+7511 chars]"
-        },
-        {
-            "source": {
-                "id": "abc-news",
-                "name": "ABC News"
-            },
-            "author": "STEVE PEOPLES AP national political writer",
-            "title": "Harris owns a gun? Trump wants to cap credit card rates? Party lines blur in campaign's last stretch",
-            "description": "One presidential candidate is talking up gun ownership and promising tough new border security measures",
-            "url": "https://abcnews.go.com/Politics/wireStory/harris-owns-gun-trump-cap-credit-card-rates-113919086",
-            "urlToImage": "https://i.abcnewsfe.com/a/0fc0da94-e1c2-4f42-96ad-183f27dba658/wirestory_87cd75cfa0d82b0e2b026c69278ff912_16x9.jpg?w=1600",
-            "publishedAt": "2024-09-23T04:06:41Z",
-            "content": "NEW YORK -- One presidential candidate is talking up gun ownership and promising tough border security measures. The other vows to cap credit card interest rates and force insurance companies to cove\u2026 [+7349 chars]"
-        },
-        {
-            "source": {
-                "id": "abc-news",
-                "name": "ABC News"
-            },
-            "author": "The Associated Press",
-            "title": "What to Stream: Clooney & Pitt, Will & Harper, a Legend of Zelda game and two Ryan Murphy TV series",
-            "description": "What Ellen DeGeneres says is her last comedy special hitting Netflix and George Clooney and Brad Pitt in a sleek, New York City caper are some of this week\u2019s new streaming entertainment releases",
-            "url": "https://abcnews.go.com/Technology/wireStory/stream-clooney-pitt-harper-legend-zelda-game-ryan-113919084",
-            "urlToImage": "https://i.abcnewsfe.com/a/883f9295-1cf7-4c79-be46-bf13e6846e3e/wirestory_ceab3796ab88b231f4995da12c1f4075_16x9.jpg?w=1600",
-            "publishedAt": "2024-09-23T04:06:34Z",
-            "content": "What Ellen DeGeneres says is her last comedy special landing on Netflix and George Clooney and Brad Pitt starring in a sleek, New York City caper are some of the new television, films, music and game\u2026 [+6991 chars]"
-        },
-        {
-            "source": {
-                "id": "abc-news",
-                "name": "ABC News"
-            },
-            "author": "The Associated Press",
-            "title": "What to Stream: Clooney & Pitt, Will & Harper, a Legend of Zelda game and two Ryan Murphy TV series",
-            "description": "What Ellen DeGeneres says is her last comedy special hitting Netflix and George Clooney and Brad Pitt in a sleek, New York City caper are some of this week\u2019s new streaming entertainment releases",
-            "url": "https://abcnews.go.com/Entertainment/wireStory/stream-clooney-pitt-harper-legend-zelda-game-ryan-113919080",
-            "urlToImage": "https://i.abcnewsfe.com/a/883f9295-1cf7-4c79-be46-bf13e6846e3e/wirestory_ceab3796ab88b231f4995da12c1f4075_16x9.jpg?w=1600",
-            "publishedAt": "2024-09-23T04:06:29Z",
-            "content": "What Ellen DeGeneres says is her last comedy special landing on Netflix and George Clooney and Brad Pitt starring in a sleek, New York City caper are some of the new television, films, music and game\u2026 [+6991 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "AP",
-            "title": "Kamala Harris owns a gun? Donald Trump wants to cap credit card rates? Party lines blur in campaign's last stretch",
-            "description": "US Presidential Election 2024: In a competitive election, Kamala Harris and Donald Trump are adopting unconventional stances to attract broader support. Harris is appealing to Republicans with tough border security and gun ownership, while Trump is courting D\u2026",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/kamala-harris-owns-a-gun-donald-trump-wants-to-cap-credit-card-rates-party-lines-blur-in-campaigns-last-stretch/articleshow/113584698.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-113584793,width-1200,height-630,imgsize-30612,overlay-economictimes/photo.jpg",
-            "publishedAt": "2024-09-23T04:05:25Z",
-            "content": "One presidential candidate is talking up gun ownership and promising tough border security measures. The other vows to cap credit card interest rates and force insurance companies to cover in vitro f\u2026 [+7590 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "[Removed]"
-            },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "2024-09-23T04:01:00Z",
-            "content": "[Removed]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Americanthinker.com"
-            },
-            "author": null,
-            "title": "Kamala Harris skips the Al Smith dinner with all those godawful Catholics",
-            "description": "She's out calling Trump a 'chicken' for declining to debate her in a rigged setting, but she's the real chicken-heart here, scared to face down all those Catholics she persecuted.",
-            "url": "https://www.americanthinker.com/blog/2024/09/kamala_harris_skips_the_al_smith_dinner_with_all_those_godawful_catholics.html",
-            "urlToImage": "https://images.americanthinker.com/bk/bkzxsmwwyau8btzoybrj_800.JPG",
-            "publishedAt": "2024-09-23T04:00:00Z",
-            "content": "Democrats are running around like chickens with their heads cut off, plastering swing states with mobile billboards calling Trump \"a chicken\" for declining to participate in another three-against-one\u2026 [+7087 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Americanthinker.com"
-            },
-            "author": null,
-            "title": "Dick Cheney Loves KamaLOL!!!",
-            "description": "Mainstream news propagandists are busy touting Dick Cheney\u2019s endorsement of KamaLOL Harris and Tim the Walrus as proof that their brand of communism appeals to Americans across party lines.\u00a0\u00a0I don\u2019t know what\u2019s funnier &md...",
-            "url": "https://www.americanthinker.com/articles/2024/09/dick_cheney_loves_kamalol.html",
-            "urlToImage": "https://images.americanthinker.com/jv/jva7fhn2b4zvvctjwoi8_800.jpg",
-            "publishedAt": "2024-09-23T04:00:00Z",
-            "content": "Mainstream news propagandists are busy touting Dick Cheney\u2019s endorsement of KamaLOL Harris and Tim the Walrus as proof that their brand of communism appeals to Americans across party lines.\u00a0\u00a0I don\u2019t \u2026 [+7840 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "[Removed]"
-            },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "2024-09-23T03:44:43Z",
-            "content": "[Removed]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Screen Rant"
-            },
-            "author": "Chris Miller",
-            "title": "10 Most Underrated Avenger Members in Marvel Comics History",
-            "description": "The Avengers have featured over 100 heroes, but not all are as popular as Captain America or Iron Man. Even the most obscure heroes can be amazing.",
-            "url": "https://screenrant.com/best-avengers-underrated-marvel-comics/",
-            "urlToImage": "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/06/avengers-jackets.jpg",
-            "publishedAt": "2024-09-23T03:29:35Z",
-            "content": "While the world easily knows the likes of Captain America, Iron Man, or the Hulk, the Avengers have featured over 120 official members across several different named teams. Across the teams 81 years \u2026 [+12014 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Nation.africa"
-            },
-            "author": "Simon Ciuri",
-            "title": "Stop ouster plan against me or face the music, DP warns Ruto",
-            "description": "<p>Tread carefully, the people of Mt Kenya hate betrayers, Gachagua tells President Ruto.</p>",
-            "url": "https://nation.africa/kenya/news/politics/stop-ouster-plan-against-me-or-face-the-music-dp-warns-ruto--4771996",
-            "urlToImage": "https://nation.africa/resource/image/4771998/landscape_ratio3x2/1200/800/d8e74c36b59f6b4602c846e97c45552f/Rt/gachagua.jpg",
-            "publishedAt": "2024-09-23T03:20:42Z",
-            "content": "The political rift between President William Ruto and Deputy President Rigathi\u00a0Gachagua took a fresh twist with the DP warning his boss to stop any impeachment plans against him or face the consequen\u2026 [+5157 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Spoilertv.com"
-            },
-            "author": "Val LaRoche",
-            "title": "Rescue: HI Surf - Pilot - Review: Welcome to the North Shore",
-            "description": "",
-            "url": "https://www.spoilertv.com/2024/09/rescue-hi-surf-pilot-review-welcome-to.html",
-            "urlToImage": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_vZlfS6dTIG5yjBRy-1kHpUft7lImLoKWQHmsIlfP0W8aFw3w2wz3eizWYXXGApcrwgAwzbCebmxYsi_8ar5tItPJ288DR9nLFegV3bX3HIAZ-PqsZxPbYX=w1200-h630-p-k-no-nu",
-            "publishedAt": "2024-09-23T03:07:00Z",
-            "content": "I\u2019m going to be honest here, I went into this show with very low expectations. I\u2019ve been disappointed by the hype of new shows lately only to be let down. Thankfully, this show isn\u2019t that.\u00a0\r\nRight fr\u2026 [+4153 chars]"
+            "author": "Ted  Rall",
+            "title": "Refusing to Censor Speech Isn\u2019t the Same as Agreeing With It",
+            "description": "If someone said something I found annoying or offensive, my mother taught me, the appropriate response was to allow them to finish speaking and reply with a calm, considered counterargument. Now you\u2019re supposed to talk over them until they shut up.",
+            "url": "https://sputnikglobe.com/20240924/refusing-to-censor-speech-isnt-the-same-as-agreeing-with-it-1120267743.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120267743.jpg?11171548721727157273",
+            "publishedAt": "2024-09-24T05:54:17Z",
+            "content": "Enjoy in-depth, acute analysis of the most pressing local, regional and global trends at Sputnik!\r\nhttps://sputnikglobe.com/20240924/refusing-to-censor-speech-isnt-the-same-as-agreeing-with-it-112026\u2026 [+14237 chars]"
         },
         {
             "source": {
@@ -307,25 +86,272 @@
                 "name": "Globalsecurity.org"
             },
             "author": "John Pike",
-            "title": "China's ball-shaped recon drone debuts in joint drill with Nepal",
-            "description": "On Sunday, China and Nepal kicked off an anti-terrorism joint army exercise, with a type of ball-shaped reconnaissance drone making its debut.",
-            "url": "https://www.globalsecurity.org/wmd/library/news/china/2024/09/china-240922-globaltimes02.htm",
+            "title": "Israel regime launches massive attack on Lebanon",
+            "description": "The Israeli regime has launched massive attacks on various regions of Lebanon.",
+            "url": "https://www.globalsecurity.org/military/library/news/2024/09/mil-240923-irna04.htm",
             "urlToImage": null,
-            "publishedAt": "2024-09-23T02:52:22Z",
-            "content": "Global Times\r\nBy Liu Xuanzun Published: Sep 22, 2024 10:54 PM\r\nOn Sunday, China and Nepal kicked off an anti-terrorism joint army exercise, with a type of ball-shaped reconnaissance drone making its \u2026 [+2278 chars]"
+            "publishedAt": "2024-09-24T05:32:06Z",
+            "content": "IRNA - Islamic Republic News Agency\r\nSep 23, 2024\r\nTehran, IRNA -- The Israeli regime has launched massive attacks on various regions of Lebanon.\r\nCiting Al Mayadeen news television, IRNA reported on\u2026 [+1026 chars]"
         },
         {
             "source": {
-                "id": "abc-news-au",
-                "name": "ABC News (AU)"
+                "id": null,
+                "name": "ArchDaily"
             },
-            "author": "Alexandra Koster",
-            "title": "Bisexual representation has dominated TV and film in 2024. But is it as progressive as it seems?",
-            "description": "This Bisexual Visibility Day, we take a look at how the \"disaster bi\" stereotype is still ubiquitous in TV and film. But some projects are working to change that.",
-            "url": "https://www.abc.net.au/news/2024-09-23/bisexual-representation-challengers-bridgerton-heartbreak-high/104375684",
-            "urlToImage": "https://live-production.wcms.abc-cdn.net.au/704409228755d9a3b525291a322218e9?impolicy=wcms_watermark_news&cropH=2070&cropW=3680&xPos=80&yPos=0&width=862&height=485&imformat=generic",
-            "publishedAt": "2024-09-23T02:45:27Z",
-            "content": "The world of entertainment feels vehemently bisexual in 2024, with some of the biggest TV shows and films focusing on bi+ characters think sexy tennis romp Challengers, or that kiss in House of the D\u2026 [+7027 chars]"
+            "author": "Nour Fakharany",
+            "title": "BIG Reimagines Former Supermarket into Denmark\u2019s Museum for Paper Art",
+            "description": "Bjarke Ingels Group (BIG) is leading the transformation of a former supermarket into the new Museum for Paper Art in Denmark's North Jutland region. With paper art deeply ingrained in Danish cultural heritage, symbolized by Le Klint's folded lampshades and H.\u2026",
+            "url": "https://www.archdaily.com/1021509/big-reimagines-former-supermarket-into-denmarks-museum-for-paper-art",
+            "urlToImage": "https://images.adsttc.com/media/images/66f1/6ff2/2684/7b29/c1c8/e35c/large_jpg/big-reimagines-former-supermarket-into-denmarks-museum-for-paper-art_11.jpg?1727098901",
+            "publishedAt": "2024-09-24T05:30:00Z",
+            "content": "Courtesy of BIG\r\nBjarke Ingels Group (BIG) is leading the transformation of a former supermarket into the new Museum for Paper Art in Denmark's North Jutland region. With paper art deeply ingrained i\u2026 [+2746 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Globalsecurity.org"
+            },
+            "author": "John Pike",
+            "title": "Three Chinese aircraft carriers hold intensive activities: reports",
+            "description": "Ahead of the 12th anniversary of the commissioning of China's first aircraft carrier, which falls on Wednesday, all three Chinese aircraft carriers reportedly carried out exercises or tests over the past week.",
+            "url": "https://www.globalsecurity.org/wmd/library/news/china/2024/09/china-240923-globaltimes01.htm",
+            "urlToImage": null,
+            "publishedAt": "2024-09-24T05:23:02Z",
+            "content": "Global Times\r\nSteady but fast progress observed ahead of Liaoning's 12th anniversary\r\nBy Liu Xuanzun Published: Sep 23, 2024 09:25 PM\r\nAhead of the 12th anniversary of the commissioning of China's fi\u2026 [+2711 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Trendhunter.com"
+            },
+            "author": "Amy Duong",
+            "title": "Colorful Paneling Collaborative Sneakers - NIGO and Nike Join Forces on a Pair of Air Force IIIs (TrendHunter.com)",
+            "description": "(TrendHunter.com) NIGO has kicked off his work with Nike and the first product is a pair of the Air Force III sneaker model. This model is joined by a capsule of clothing as well. The shoes are defined by their...",
+            "url": "https://www.trendhunter.com/trends/air-force-iii-1",
+            "urlToImage": "https://cdn.trendhunterstatic.com/thumbs/546/air-force-iii-1.jpeg?auto=webp",
+            "publishedAt": "2024-09-24T05:15:03Z",
+            "content": "NIGO has kicked off his work with Nike and the first product is a pair of the Air Force III sneaker model. This model is joined by a capsule of clothing as well. The shoes are defined by their colorf\u2026 [+484 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Protothema.gr"
+            },
+            "author": "admin",
+            "title": "SYRIZA Poster War: Polakis, Spirtzis, and Famellos React to Kasselakis\u2019 \u2018I Am Here\u2019 Campaign",
+            "description": "I prefer the message \"We are here\", Famelos says - \"Kasselakis is supported by \"neo-holigans\" and \"neo-rightists\", Kotzias says - \"We are here for the cooperation of the progressive space, Spirtzis said\r\n\nThe post SYRIZA Poster War: Polakis, Spirtzis, and Fam\u2026",
+            "url": "https://en.protothema.gr/2024/09/24/syriza-poster-war-polakis-spirtzis-and-famellos-react-to-kasselakis-i-am-here-campaign/",
+            "urlToImage": "https://en.protothema.gr/wp-content/uploads/2024/09/maketa-polakis-kasselakis_2.png.png",
+            "publishedAt": "2024-09-24T05:04:08Z",
+            "content": "In a version of pop aesthetics, with a black and white poster and under the central slogan \u201cour SYRIZA,\u201d Stefanos Kasselakis, made his reappearance in the public sphere yesterday, bringing closer the\u2026 [+6566 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Bmwgroup.com"
+            },
+            "author": null,
+            "title": "Looking ahead: Year-end highlights at BMW Welt",
+            "description": "Award ceremony, benefit concert and digital innovations planned ahead of refurbishment work at BMW Welt",
+            "url": "https://www.press.bmwgroup.com/global/article/detail/T0445176EN/looking-ahead:-year-end-highlights-at-bmw-welt?language=en",
+            "urlToImage": "https://mediapool.bmwgroup.com/cache/P9/202409/P90570147/P90570147-highlights-at-the-end-of-the-year-at-bmw-welt-c-bmw-group-09-2024-2250px.jpg",
+            "publishedAt": "2024-09-24T05:00:00Z",
+            "content": "Munich. As summer slowly draws to an end, BMW Welt\r\n has lined up a diverse program of highlights for the coming months\r\n before it temporarily closes in January 2025 for refurbishment. From\r\n glamor\u2026 [+4883 chars]"
+        },
+        {
+            "source": {
+                "id": "the-irish-times",
+                "name": "The Irish Times"
+            },
+            "author": "Philip Reid",
+            "title": "Shane Lowry has been Mr Consistency but seeks long-awaited individual win in Spain",
+            "description": "Mark O\u2019Meara bids farewell to competitive golf; several Irish players in action on Challenge Tour",
+            "url": "https://www.irishtimes.com/sport/golf/2024/09/24/shane-lowry-has-been-mr-consistency-but-seeks-long-awaited-individual-win-in-spain/",
+            "urlToImage": "https://www.irishtimes.com/resizer/v2/GACAJYW2U7Q2BFIZ3OM4FZU35A.jpg?smart=true&auth=2e7240de3d72993bf77caf639ea16c0cb76b9605ce3173463369f15edf8ca0ad&width=1200&height=630",
+            "publishedAt": "2024-09-24T05:00:00Z",
+            "content": "Shane Lowry has become his own version of Mr Consistency this season and, at most, has four tournaments left to find a route into the winners circle.\r\nHopefully I can come out on the right side of on\u2026 [+6653 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "NYT News Service",
+            "title": "In Lebanon's capital, Israel's strikes stoke fears of a full-on war",
+            "description": "Israel warned Beirut residents of imminent military action against Hezbollah, causing panic and mass evacuations. Schools closed, grocery stores emptied, and fuel stations saw long lines. The strikes resulted in hundreds of casualties, raising fears of a full\u2026",
+            "url": "https://economictimes.indiatimes.com/news/defence/in-lebanons-capital-israels-strikes-stoke-fears-of-a-full-on-war/articleshow/113618403.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-113618490,width-1200,height-630,imgsize-369718,overlay-etdefence/photo.jpg",
+            "publishedAt": "2024-09-24T04:33:18Z",
+            "content": "It began with messages sent by Israel to radio stations and some cellphones in Beirut on Monday morning, warning of imminent military action.\"The IDF will be moving against military bases,\" an automa\u2026 [+6666 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BusinessLine"
+            },
+            "author": "AP- PTI",
+            "title": "Small tsunami waves wash ashore on remote Japanese islands",
+            "description": "Japan sits on the Pacific \u201cRing of Fire\u201d, a line of seismic faults encircling the Pacific Ocean, and is one of world's most earthquake and tsunami-prone countries",
+            "url": "https://www.thehindubusinessline.com/news/world/small-tsunami-waves-wash-ashore-on-remote-japanese-islands/article68676370.ece",
+            "urlToImage": "https://bl-i.thgim.com/public/incoming/wl4zbr/article68676385.ece/alternates/LANDSCAPE_1200/US_Japan_Earthquake_Tsunami_Oregon.JPEG-0d15b.jpg",
+            "publishedAt": "2024-09-24T04:21:34Z",
+            "content": "Small tsunami waves washed ashore on remote Japanese islands on Tuesday morning after an earthquake that may have been triggered by volcanic activity.\r\nThe offshore quake was not felt, and the tsunam\u2026 [+1342 chars]"
+        },
+        {
+            "source": {
+                "id": "the-irish-times",
+                "name": "The Irish Times"
+            },
+            "author": "Ed Power",
+            "title": "\u2018Rene\u00e9 Rapp, Billie Eilish, Chappell Roan \u2013 it feels like there\u2019s a wave of queer artists now. It\u2019s so good\u2019",
+            "description": "Pale Waves singer Heather Baron-Gracie on learning to deal with online attacks, her enduring love of The Cranberries, and the \u2018very nice\u2019 Matty Healy",
+            "url": "https://www.irishtimes.com/culture/music/2024/09/24/renee-rapp-billie-eilish-chappell-roan-it-feels-like-theres-a-wave-of-queer-artists-now-its-so-good/",
+            "urlToImage": "https://www.irishtimes.com/resizer/v2/TFAAPNBHVZHDJKXNT4WEL2XW7A.jpg?smart=true&auth=8f5ef9e89f8ba4e209c7860e7f8c75cd39ac82b39145e5242af3d269d7ebbeac&width=1200&height=630",
+            "publishedAt": "2024-09-24T04:15:00Z",
+            "content": "Early in her music career, Heather Baron-Gracie discovered the internet was a cruel and unforgiving place. I do feel people are the meanest and the rudest at the very start, says the Pale Waves lead \u2026 [+7291 chars]"
+        },
+        {
+            "source": {
+                "id": "the-irish-times",
+                "name": "The Irish Times"
+            },
+            "author": "Laura Slattery",
+            "title": "Budget 2025 could be both big and disappointing news for Irish media",
+            "description": "Government\u2019s deal with RT\u00c9 has reinvigorated calls for public funding from its rivals, while tax credits talk is rarely too far away",
+            "url": "https://www.irishtimes.com/business/2024/09/24/budget-could-be-both-big-and-disappointing-news-for-irish-media/",
+            "urlToImage": "https://www.irishtimes.com/resizer/v2/O2MKDSCLZFHENPHEES3AWKZHHI.JPG?smart=true&auth=8425f45b5ee21cf99334533458a7b5ddb81536bd36bee938fd73fb2756cac01c&width=1200&height=630",
+            "publishedAt": "2024-09-24T04:10:00Z",
+            "content": "On Sunday, I found myself walking past an image of Green Party leader Roderic OGorman beaming out from an advertising panel in his Dublin West constituency. The message I took from this is we have mo\u2026 [+6260 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Business Standard"
+            },
+            "author": "AP",
+            "title": "Small tsunami waves wash ashore on remote Japanese islands post earthquake",
+            "description": "Small tsunami waves washed ashore on remote Japanese islands on Tuesday morning after an earthquake that may have been triggered by volcanic activity.\nThe offshore quake was not felt, and the tsunami advisory was lifted about three hours later. No damage or i\u2026",
+            "url": "https://www.business-standard.com/world-news/small-tsunami-waves-wash-ashore-on-remote-japanese-islands-post-earthquake-124092400105_1.html",
+            "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2022-01/16/thumb/fitandfill/400X400/1642300019-2283.jpg",
+            "publishedAt": "2024-09-24T04:07:00Z",
+            "content": "About 21,500 people live on the islands in the Izu group and about 2,500 on the Ogasawara Islands\r\nThe offshore quake occurred about 180 kilometers (111 miles) south of Hachijo island, which is about\u2026 [+1923 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Bleeding Cool News"
+            },
+            "author": "Kaitlyn Booth",
+            "title": "Sinners: Warner Bros. Releases The First Posters Ahead Of Trailer Drop",
+            "description": "Warner Bros. continues teasing us ahead of the first teaser trailer release for Sinners. This is the next film by director Ryan Coogler, and that alone should get you excited. The cast, which includes Michael B. Jordan, Delroy Lindo, Jack O'Connell, Hailee St\u2026",
+            "url": "https://bleedingcool.com/movies/sinners-warner-bros-releases-the-first-posters-ahead-of-trailer-drop/",
+            "urlToImage": "https://bleedingcool.com/wp-content/uploads/2024/09/GYNFBJIakAMeIuH-2000x1125.jpg",
+            "publishedAt": "2024-09-24T04:00:07Z",
+            "content": "Posted in: Movies | Tagged: sinners\r\nWarner Bros. has released three posters before the trailer debut for Ryan Coogler's new film, Sinners. The movie will be released on March 7, 2025.\r\nArticle Summa\u2026 [+2917 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Rediff.com"
+            },
+            "author": "MOHNISH SINGH",
+            "title": "'I Am A Heavy, Luxury Car'",
+            "description": "'There are very few chances that I can give good mileage.'\n'A smaller, lighter car will give more mileage and this was a big reason to be nervous.'",
+            "url": "https://www.rediff.com/movies/report/i-am-a-heavy-luxury-car/20240924.htm",
+            "urlToImage": "https://im.rediff.com/movies/2024/sep/23bebika-dhurve5.jpg",
+            "publishedAt": "2024-09-24T03:59:01Z",
+            "content": "'There are very few chances that I can give good mileage.''A smaller, lighter car will give more mileage and this was a big reason to be nervous.'\r\nPhotograph: Kind courtesy Bebika Dhruve/Instagram\r\n\u2026 [+5397 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Starobserver.com.au"
+            },
+            "author": "Josh Kerwick",
+            "title": "Modern Family Star \u2018Hurt\u2019 That The Cam & Mitch Spin-Off Was Rejected",
+            "description": "Modern Family star Eric Stonestreet recently spoke in an extensive interview about the hurt he felt when a spin-off show about husbands Cam Tucker and Mitch Pritchett was rejected by ...\nThe post Modern Family Star \u2018Hurt\u2019 That The Cam & Mitch Spin-Off Was Rej\u2026",
+            "url": "https://www.starobserver.com.au/artsentertainment/modern-family-star-hurt-that-the-cam-mitch-spin-off-was-rejected/233060",
+            "urlToImage": "https://www.starobserver.com.au/wp-content/uploads/2024/09/modern-family-cam-and-mitch.png",
+            "publishedAt": "2024-09-24T03:39:31Z",
+            "content": "Modern Family star Eric Stonestreet recently spoke in an extensive interview about the hurt he felt when a spin-off show about husbands Cam Tucker and Mitch Pritchett was rejected by executives.\u00a0\r\nAf\u2026 [+1825 chars]"
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "Doug Myers",
+            "title": "A mental health call to Fort Worth police turned deadly; investigation underway",
+            "description": "A police spokesman said two officers fired their weapons, but it was not immediately clear if the man was fatally shot by officers or if he fatally shot himself.",
+            "url": "https://www.cbsnews.com/texas/news/officer-involved-shooting-being-investigated-in-fort-worth/",
+            "urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2024/09/24/628cfe42-c1fd-46ea-9e3f-ded482606272/thumbnail/1200x630/119136507d8285f83c5d287d5a70b946/image-3.png?v=d735195a810d7336123786e9bed29d16",
+            "publishedAt": "2024-09-24T03:34:17Z",
+            "content": "FORT WORTH \u2013\u00a0Fort Worth police responded to a mental health call Monday night, where gunshots were heard, the victim was found dead and the department said two officers fired their weapons. \r\nFew det\u2026 [+1265 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "UPROXX"
+            },
+            "author": "Robby Kalland",
+            "title": "Jayden Daniels Threw A Dime To Terry McLaurin To Cap Off A Near-Perfect Game Against The Bengals",
+            "description": "Getty Image\r\n\nThe rookie QB had his coming out party on Monday Night Football, carving up the Bengals in a shootout win.",
+            "url": "https://uproxx.com/sports/jayden-daniels-terry-mclaurin-touchdown-pass-bengals-commanders-video/",
+            "urlToImage": "https://uproxx.com/wp-content/uploads/2024/09/jd2.jpg?w=710",
+            "publishedAt": "2024-09-24T03:12:19Z",
+            "content": "One of the major storylines of the early NFL season has been the fairly lackluster quarterback play around the league, including from this year\u2019s much-talked about rookie class. Caleb Williams has st\u2026 [+2326 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CinemaBlend"
+            },
+            "author": "Laura Hurley",
+            "title": "'I Had One Shot': Brilliant Minds Star Reflects On Her Chemistry Read With Zachary Quinto And Joining NBC's New Medical Drama",
+            "description": "A lot went into finding the perfect pair.",
+            "url": "https://www.cinemablend.com/interviews/brilliant-minds-star-tamberla-perry-reflects-chemistry-read-zachary-quinto-nbc-new-medical-drama",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/XL5jJRsTj94LmiPvDPcGNB-1200-80.jpg",
+            "publishedAt": "2024-09-24T03:01:56Z",
+            "content": "Spoilers ahead for the series premiere of Brilliant Minds on NBC.\r\nBrilliant Minds has officially debuted in the 2024 TV schedule as primetime's newest medical drama, starring Zachary Quinto in his f\u2026 [+4664 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New Zealand Herald"
+            },
+            "author": "By Bruce Holloway and Adam Julian",
+            "title": "First XV rugby wrap: Schoolboy rugby\u2019s media landscape in 2024",
+            "description": "One school stands out from the rest when it comes to dealing with the media.",
+            "url": "https://www.nzherald.co.nz/sport/rugby/school-rugby/first-xv-rugby-wrap-schoolboy-rugbys-media-landscape-in-2024/742OWH32MVCCXOFDR6J7CHBGBM/",
+            "urlToImage": "https://www.nzherald.co.nz/resizer/v2/MD2HSG44ZRFCNL3E2P6A4VE2VQ.jpg?auth=44e4fb29069a5e5b7c55d64053ebac59739c0174e507c9b391091efd1002d191&width=1200&height=675&quality=70&smart=true",
+            "publishedAt": "2024-09-24T03:00:00Z",
+            "content": "Just as teams have the likes of trainers, physiotherapists, managers, analysts and psychologists, the media manager has become a thing at Feilding.\r\nRogers goes the extra mile to liaise with mainstre\u2026 [+15042 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "2024-09-24T02:56:40Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": "abc-news",
+                "name": "ABC News"
+            },
+            "author": "MARI YAMAGUCHI Associated Press",
+            "title": "Small tsunami waves wash ashore on remote Japanese islands",
+            "description": "Small tsunami waves washed ashore on some Japanese islands after an earthquake that may have been triggered by volcanic activity",
+            "url": "https://abcnews.go.com/Technology/wireStory/small-tsunami-waves-wash-ashore-remote-japanese-islands-113947919",
+            "urlToImage": "https://i.abcnewsfe.com/a/c7e2fb6c-2da3-4813-898c-93a74e27d899/wirestory_06ac99784b8e7e4f63f6facc6a40d2a4_16x9.jpg?w=1600",
+            "publishedAt": "2024-09-24T02:53:54Z",
+            "content": "TOKYO -- Small tsunami waves washed ashore on remote Japanese islands Tuesday morning after an earthquake that may have been triggered by volcanic activity.\r\nThe offshore quake was not felt, and the \u2026 [+1371 chars]"
         },
         {
             "source": {
@@ -333,90 +359,116 @@
                 "name": "The Times of India"
             },
             "author": "etimes.in",
-            "title": "Anita Hassanandani opens up about life after motherhood and maintaining a strong marriage; says, \u201cIf you love the person..\u201d",
-            "description": "Anita Hassanandani opened up about the changes in her relationship with husband Rohit Reddy after becoming a mother. She stressed the importance of communication and intimacy in maintaining a strong marriage. The couple met at a gym and welcomed their son Aar\u2026",
-            "url": "https://timesofindia.indiatimes.com/tv/news/hindi/anita-hassanandani-opens-up-about-life-after-motherhood-and-maintaining-a-strong-marriage-says-if-you-love-the-person-/articleshow/113582449.cms",
-            "urlToImage": "https://static.toiimg.com/thumb/msid-113582456,width-1070,height-580,imgsize-34708,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-            "publishedAt": "2024-09-23T02:28:19Z",
-            "content": "Mentally strong people often use THESE phrases, as per psychology"
+            "title": "No extension for Laughter Chefs; Arjun Bijlani drops a hint of wrapping the show",
+            "description": "The cooking-themed television show 'Laughter Chefs-Unlimited Entertainment', starring Ankita Lokhande and Aly Goni, will air its final episode in October. Hosted by Bharti Singh and judged by chef Harpal Singh Sokhi, the show concludes to make way for 'Bigg B\u2026",
+            "url": "https://timesofindia.indiatimes.com/tv/news/hindi/no-extension-for-laughter-chefs-arjun-bijlani-drops-a-hint-of-wrapping-the-show/articleshow/113615178.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-113615170,width-1070,height-580,imgsize-1488650,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2024-09-24T02:42:12Z",
+            "content": "Bigg Boss 18: Salman Khan Set To Return With New Electrifying Season Themed 'Time Ka Tandav'"
         },
         {
             "source": {
                 "id": null,
-                "name": "POLITICO.eu"
+                "name": "Crikey"
             },
-            "author": "Hannah Brenton",
-            "title": "\u2018He\u2019s a very, very handsome man\u2019: Meet the ex-pop star turning heads in the UK Treasury",
-            "description": "Former Clean Bandit member Neil Amin-Smith is one of Chancellor Rachel Reeves\u2019 most trusted advisers.",
-            "url": "https://www.politico.eu/article/neil-amin-smith-popstar-clean-bandit-uk-treasury-labour-party-economic-council/",
-            "urlToImage": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2024/09/17/GettyImages-487346153-scaled.jpg",
-            "publishedAt": "2024-09-23T02:20:00Z",
-            "content": "Hes unusually gorgeous, and quite stylish, said one Treasury official, granted anonymity to speak freely.\r\nThe award-winning musician has taken on a powerful role as the Labour Party's main political\u2026 [+1070 chars]"
+            "author": "Daanyal Saeed",
+            "title": "\u2018It\u2019s fucked \u2026 most people know that\u2019: Sports podcasters speak out over gambling ad influence",
+            "description": "Crikey talks to content creators who don't take gambling money about the challenges they face.\nThe post \u2018It\u2019s fucked \u2026 most people know that\u2019: Sports podcasters speak out over gambling ad influence appeared first on Crikey.",
+            "url": "https://www.crikey.com.au/2024/09/24/sports-podcasters-refuse-gambling-advertising-money/",
+            "urlToImage": "https://www.crikey.com.au/wp-content/uploads/2024/09/Broden-Kelly.jpg?quality=70",
+            "publishedAt": "2024-09-24T02:18:40Z",
+            "content": "As Crikey previously addressed via our Punted series, gambling advertising in sport is almost inescapable. Last week, we published a list of just how many people in AFL media were publicly involved i\u2026 [+5872 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Crooksandliars.com"
+                "name": "Sky News Australia"
             },
-            "author": "David Edwards",
-            "title": "Trump Plans To Use Immigrant 'Serial Numbers' For Mass Deportation",
-            "description": "Former President Donald Trump suggested he could efficiently conduct mass deportations if reelected because immigrants have \"serial numbers.\"\n\n\nIn a Sunday interview on Full Measure, host Sharyl Attkisson challenged Trump on his promise of mass deportations.\n\u2026",
-            "url": "https://crooksandliars.com/2024/09/trump-plans-use-immigrant-serial-numbers",
-            "urlToImage": "https://crooksandliars.com/files/primary_image/24/09/kutv_09-22-2024_11.12.24-0001-enhanced-sr.jpg",
-            "publishedAt": "2024-09-23T02:00:01Z",
-            "content": "Former President Donald Trump suggested he could efficiently conduct mass deportations if reelected because immigrants have \"serial numbers.\"\r\nIn a Sunday interview on Full Measure, host Sharyl Attki\u2026 [+1089 chars]"
+            "author": "Patrick Hannaford",
+            "title": "\u2018Opposite of entertainment\u2019: Seven Network accused of spoiling Brownlow Medal result and filling coverage with \u2018extraneous stuff\u2019",
+            "description": "The Seven Network has come under fire for its coverage of the Brownlow Medal, with Melbourne\u2019s top breakfast radio program accusing the broadcaster of ruining AFL\u2019s night of nights.",
+            "url": "https://www.skynews.com.au/australia-news/sport/opposite-of-entertainment-seven-network-accused-of-spoiling-brownlow-medal-result-and-filling-coverage-with-extraneous-stuff/news-story/91a49eb473c396ad55e352621fa5102a",
+            "urlToImage": "https://content.api.news/v3/images/bin/c4c1e876eb897898a65a4240a0368683",
+            "publishedAt": "2024-09-24T02:06:37Z",
+            "content": "The Seven Network has come under fire for its coverage of the Brownlow Medal, with Melbourne\u2019s top breakfast radio program accusing the broadcaster of ruining AFL\u2019s night of nights.\r\nCarlton Captain \u2026 [+2686 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Snopes.com"
+                "name": "Vulture"
             },
-            "author": "Nur Ibrahim",
-            "title": "Pics Showing Young Kamala Harris 'Working as Escort' Aren't Real",
-            "description": "Photos shared online in August and September 2024 authentically showed a young Kamala Harris in revealing clothes, working as an escort.",
-            "url": "https://www.snopes.com//fact-check/kamala-harris-dress-false-escort/",
-            "urlToImage": "https://mediaproxy.snopes.com/width/1200/https://media.snopes.com/2024/09/harris_photo.jpg",
-            "publishedAt": "2024-09-23T02:00:00Z",
-            "content": "Claim:\r\nPhotos shared online in August and September 2024 authentically showed a young Kamala Harris in revealing clothes, working as an escort.\r\nIn August 2024, social media users spread a rumor tha\u2026 [+4916 chars]"
+            "author": "Rafaela Bassili",
+            "title": "My Brilliant Friend Recap: All About My Mother",
+            "description": "Lila returns to Len\u00f9\u2019s life just as she enters a new, challenging time as a mother and daughter. And Nino continues to be the worst.",
+            "url": "http://www.vulture.com/article/my-brilliant-friend-recap-season-4-episode-3-compromises.html",
+            "urlToImage": "https://pyxis.nymag.com/v1/imgs/196/afd/e8573412db37f02c9e4ef20594d2f20958-anna-rita-vitolo-fatima-credendino-alba-.1x.rsocial.w1200.jpg",
+            "publishedAt": "2024-09-24T02:00:48Z",
+            "content": "Motherhood is a central theme in the Neapolitan Quartet Id even venture that its one of its main problems. For Ferrantes women, motherhood is never totally straightforward, loving, or hostile; as a p\u2026 [+13597 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Slate Magazine"
+                "name": "TheWrap"
             },
-            "author": "Alex Kirshner",
-            "title": "What HBO\u2019s Sleeper Hit Does Better Than Anything Else on TV Right Now",
-            "description": "ESGs, meme stocks, financial institution collapse\u2014this is Industry\u2019s bread and butter.",
-            "url": "https://slate.com/culture/2024/09/industry-hbo-season-3-episode-7-harper-yasmin-pierpoint-bank-buyout-esg-finance.html",
-            "urlToImage": "https://compote.slate.com/images/2c3edfe5-5963-4149-9bb7-499f00f7b01f.jpeg?crop=1560%2C1040%2Cx0%2Cy0&width=1560",
-            "publishedAt": "2024-09-23T02:00:00Z",
-            "content": "The biggest stories in the financial markets in the 2020s have resolved around silliness. The bizarre nature of modern markets has taken different forms, but youve never needed a finance degree to un\u2026 [+8639 chars]"
+            "author": "Haleigh Foutch",
+            "title": "How the True Story of Dr. Oliver Sacks Inspired NBC\u2019s \u2018Brilliant Minds\u2019",
+            "description": "Zachary Quinto stars as Dr. Oliver Wolf in the new medical drama -- meet the real neurologist who inspired the character\nThe post How the True Story of Dr. Oliver Sacks Inspired NBC\u2019s \u2018Brilliant Minds\u2019 appeared first on TheWrap.",
+            "url": "https://www.thewrap.com/brilliant-minds-true-story-dr-oliver-sacks/",
+            "urlToImage": "https://i0.wp.com/www.thewrap.com/wp-content/uploads/2024/09/brilliant-minds-dr.jpg?fit=1200%2C675&ssl=1",
+            "publishedAt": "2024-09-24T02:00:00Z",
+            "content": "Nearly 20 years after his breakout role in Heroes, Zachary Quinto returns to NBC as a world-class, eccentric doctor in Brilliant Minds. The Star Trek and American Horror Story star plays Dr. Oliver W\u2026 [+4578 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "The Week Magazine"
+                "name": "The Punch"
             },
-            "author": "theweekonlineeditorsuk@futurenet.com (Harriet Marsden, The Week UK)",
-            "title": "Putin's fixation with shamans",
-            "description": "Secretive Russian leader, said to be fascinated with occult and pagan rituals, allegedly asked for blessing over nuclear weapons",
-            "url": "https://theweek.com/world-news/putins-fixation-with-shamans",
-            "urlToImage": "https://cdn.mos.cms.futurecdn.net/jsHBBTdbu4Ps2qMUzDNDnk-1200-80.jpg",
-            "publishedAt": "2024-09-23T01:47:07Z",
-            "content": "Vladimir Putin allegedly met shamans during his recent trips to Siberia and Mongolia to seek their blessing for the use of nuclear weapons, according to Russian opposition figures.\r\nThe Russian presi\u2026 [+4321 chars]"
+            "author": "Our Reporters",
+            "title": "Why FG must end petrol subsidy now \u2014 Dangote",
+            "description": "The President and Chief Executive of Dangote Group, Alhaji Aliko Dangote, has called on the Federal Government to end fuel subsidies completely. He said the removal would help determine the actual petrol consumption in the country, as he confirmed ownership o\u2026",
+            "url": "https://punchng.com/why-fg-must-end-petrol-subsidy-now-dangote/",
+            "urlToImage": "https://cdn.punchng.com/wp-content/uploads/2022/04/10121639/Dangote.jpg",
+            "publishedAt": "2024-09-24T01:50:22Z",
+            "content": "The President and Chief Executive of Dangote Group, Alhaji Aliko Dangote, has called on the Federal Government to end fuel subsidies completely.\r\nHe said the removal would help determine the actual p\u2026 [+9964 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Theplaylist.net"
+                "name": "Mediaite"
             },
-            "author": "Edward Davis",
-            "title": "\u2018Teacup\u2019 Trailer: Yvonne Strahovski Leads James Wan\u2019s New Thriller Peacock Series",
-            "description": "Peacock\u2019s upcoming original horror thriller series \u201cTeacup\u201d held its world premiere in Austin, TX, today at the largest genre film and television festival in the U.S., Fantastic Fest. To kick off the event, attendees at the Alamo Drafthouse South Lamar were t\u2026",
-            "url": "https://theplaylist.net/teacup-trailer-yvonne-strahovski-leads-james-wans-new-thriller-peacock-series-20240922/",
-            "urlToImage": "https://cdn.theplaylist.net/wp-content/uploads/2024/09/22211214/teacup-trailer-james-wan.jpg",
-            "publishedAt": "2024-09-23T01:39:08Z",
-            "content": "Peacocks upcoming original horror thriller series Teacup held its world premiere in Austin, TX, today at the largest genre film and television festival in the U.S., Fantastic Fest. To kick off the ev\u2026 [+1736 chars]"
+            "author": "Michael Luciano",
+            "title": "MAGA Crowd Chants \u2018Send Them Back!\u2019 When Trump Says Some LEGAL Immigrants Should Be Deported: \u2018Get \u2019em the Hell Out\u2019",
+            "description": "Former President Donald Trump riled up rally-goers on Monday night by saying that some immigrants who are in the U.S. legally should be deported.\nThe post MAGA Crowd Chants \u2018Send Them Back!\u2019 When Trump Says Some LEGAL Immigrants Should Be Deported: \u2018Get \u2019em t\u2026",
+            "url": "https://www.mediaite.com/trump/maga-crowd-chants-send-them-back-when-trump-says-some-legal-immigrants-should-be-deported-get-em-the-hell-out/",
+            "urlToImage": "https://www.mediaite.com/wp-content/uploads/2024/09/Screen-Shot-2024-09-23-at-6.39.40-PM.jpg",
+            "publishedAt": "2024-09-24T01:44:11Z",
+            "content": "Former President Donald Trump riled up rally-goers on Monday night by saying that some immigrants who are in the U.S. legally should be deported.\r\nSpeaking in Indiana, Pennsylvania, Trump once again \u2026 [+1780 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Vijaya Tiwari",
+            "title": "Exclusive - Rishabh Jaiswal skips Bigg Boss 18; prioritizes his role in Yeh Rishta Kya Kehlata Hai",
+            "description": "Actor Rishabh Jaiswal, known for Yeh Rishta Kya Kehlata Hai, will not join Bigg Boss Season 18 due to work commitments. Despite a lucrative offer, he chose to focus on his ongoing television role. Fans were eager to see him on the reality show and hope for fu\u2026",
+            "url": "https://timesofindia.indiatimes.com/tv/news/hindi/exclusive-rishabh-jaiswal-skips-bigg-boss-18-prioritizes-his-role-in-yeh-rishta-kya-kehlata-hai/articleshow/113614446.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-113614443,width-1070,height-580,imgsize-14776,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2024-09-24T01:35:01Z",
+            "content": "Bigg Boss 18: Dheeraj Dhoopar, Shoaib Ibrahim &amp; Other Expected Stars In The House"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "2024-09-24T01:34:09Z",
+            "content": "[Removed]"
         },
         {
             "source": {
@@ -424,129 +476,272 @@
                 "name": "Independent.ie"
             },
             "author": "Chris Wasser",
-            "title": "\u2018Frasier\u2019 season two review: Reboot returns, but it\u2019s a pale imitation of iconic original",
-            "description": "Frasier Crane and I go way back. Some mornings, before school \u2013 while everyone else in the house was still sleeping \u2013 I\u2019d head downstairs, grab a bowl of cereal, switch on the telly and park myself in front of Frasier. The generous folks at Channel 4 used to \u2026",
-            "url": "https://www.independent.ie/entertainment/television/tv-reviews/frasier-season-two-review-reboot-returns-but-its-a-pale-imitation-of-iconic-original/a1939103191.html",
-            "urlToImage": "https://focus.independent.ie/thumbor/If4Qwf5w712nKjgaoFdmfNH7oH8=/0x67:3043x2095/629x0/prod-mh-ireland/23c97bfa-ce8b-4422-8db5-4bbefa2c156e/783ba80e-29f4-4014-966b-c7907cebe122/23c97bfa-ce8b-4422-8db5-4bbefa2c156e.jpg",
-            "publishedAt": "2024-09-23T01:30:00Z",
-            "content": "Frasier Crane and I go way back. Some mornings, before school while everyone else in the house was still sleeping Id head downstairs, grab a bowl of cereal, switch on the telly and park myself in fro\u2026 [+4247 chars]"
+            "title": "Friends turns 30: Even after all this time, the iconic sitcom continues to entertain and inspire",
+            "description": "Another week, another major pop culture anniversary. There are, perhaps, too many of them at this stage, but this one is a little different. This one will probably make you feel ancient.",
+            "url": "https://www.independent.ie/entertainment/television/friends-turns-30-even-after-all-this-time-the-iconic-sitcom-continues-to-entertain-and-inspire/a1813136939.html",
+            "urlToImage": "https://focus.independent.ie/thumbor/uKgDE0xSiA3jvnZAbEfUuaVv1DA=/0x379:2447x2012/629x0/prod-mh-ireland/4fdd19d2-96f6-4b70-b0e5-69754f8c31f8/931083c3-3855-4307-ad95-9f061135cd7a/4fdd19d2-96f6-4b70-b0e5-69754f8c31f8.jpg",
+            "publishedAt": "2024-09-24T01:30:00Z",
+            "content": "Easy to dismiss, impossible to hate, Friends didnt just change the way that audiences think about sitcoms. It changed the way people talk, and its never been off the air, never been out of fashion\r\nA\u2026 [+333 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "AP",
+            "title": "Japan advises remote Japanese islands of potential tsunami after undersea earthquake",
+            "description": "Japan's meteorological agency issued a tsunami advisory for remote islands south of Tokyo following a magnitude 5.9 earthquake off the Izu Islands. Tsunami waves up to 1 meter could occur on the coasts of the Izu and Ogasawara island chains. No damage or inju\u2026",
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/japan-advises-remote-japanese-islands-of-potential-tsunami-after-undersea-earthquake/articleshow/113614361.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-113614368,width-1200,height-630,imgsize-91412,overlay-economictimes/photo.jpg",
+            "publishedAt": "2024-09-24T01:23:10Z",
+            "content": "Japan's meteorological agency issued a tsunami advisory Tuesday morning to remote islands south of Tokyo after an earthquake that may have been triggered by volcanic activity.The offshore quake was n\u2026 [+1615 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Independent.ie"
+                "name": "Variety"
             },
-            "author": "John Daly",
-            "title": "John Daly: We have taken solace in the western again \u2013 and looking at today\u2019s world, it\u2019s easy to see why",
-            "description": "I watched television with my father the other night, even though he\u2019s been dead for 30 years. On a weekend with the house to myself, I binged on 1883, the prequel to Yellowstone, clocking up the hours immersed in a world of tough men, clever women and breatht\u2026",
-            "url": "https://www.independent.ie/opinion/comment/john-daly-we-have-taken-solace-in-the-western-again-and-looking-at-todays-world-its-easy-to-see-why/a1652667469.html",
-            "urlToImage": "https://focus.independent.ie/thumbor/RXhTVt66L6HfkggrK3XoMlg6Ygk=/507x0:5104x3065/629x0/prod-mh-ireland/179feb34-f44f-481b-9ebe-1b34002fa9b2/c9a4b2e5-937c-4384-8447-829003294e64/179feb34-f44f-481b-9ebe-1b34002fa9b2.jpg",
-            "publishedAt": "2024-09-23T01:30:00Z",
-            "content": "I watched television with my father the other night, even though hes been dead for 30 years. On a weekend with the house to myself, I binged on 1883, the prequel to Yellowstone, clocking up the hours\u2026 [+318 chars]"
+            "author": "Jennifer Maas",
+            "title": "\u20189-1-1: Lone Star\u2019 Chief on Married Tarlos, Writing Grace Off and Plans for Series Finale Emergency: \u2018We\u2019re Going \u201cLast of Us\u201d With a Little \u201cChernobyl\u201d\u2018",
+            "description": "SPOILER ALERT:\u00a0This story contains spoilers from the Season 1 premiere of Fox\u2019s \u201c9-1-1: Lone Star.\u201d As we go on, we remember all the good times we\u2019ve had with the 126 \u2014 and they aren\u2019t over just yet. While Fox has confirmed that \u201c9-1-1: Lone Star\u201d will be con\u2026",
+            "url": "https://variety.com/2024/tv/news/911-lone-star-season-5-premiere-tarlos-married-carlos-tk-grace-sierra-mcclain-1236153520/",
+            "urlToImage": "https://variety.com/wp-content/uploads/2024/09/911-Lone-Star-.jpg?w=1000&h=563&crop=1",
+            "publishedAt": "2024-09-24T01:02:00Z",
+            "content": "SPOILER ALERT:\u00a0This story contains spoilers from the Season 1 premiere of Fox\u2019s \u201c9-1-1: Lone Star.\u201d\r\nAs we go on, we remember all the good times we\u2019ve had with the 126 \u2014 and they aren\u2019t over just yet\u2026 [+10096 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "CinemaBlend"
+                "name": "Vulture"
             },
-            "author": "Laura Hurley",
-            "title": "Kathy Bates' Matlock Premiere Felt Like A Standard Legal Drama, But The Last Five Minutes Won Me Over",
-            "description": "Well played, Matlock.",
-            "url": "https://www.cinemablend.com/television/kathy-bates-matlock-premiere-felt-standard-legal-drama-last-five-minutes-won-me",
-            "urlToImage": "https://cdn.mos.cms.futurecdn.net/yZTvihAvh6wXJ5HakmG3LL-1200-80.jpg",
-            "publishedAt": "2024-09-23T01:17:12Z",
-            "content": "Spoilers are ahead for the series premiere of CBS\u2019 Matlock reboot, starring Kathy Bates.\r\nThe very long-awaited reboot of \r\nMatlock\r\n has finally debuted in the 2024 TV schedule\r\n, with CBS even givi\u2026 [+4856 chars]"
+            "author": "Alejandra Gularte",
+            "title": "Grotesquerie\u2019s Ryan Murphy Gave Some \u2018Fatherly Advice\u2019 to Travis Kelce",
+            "description": "Ryan Murphy: showrunner, creator, career advisor, father. He\u2019s a true multi-hyphenate. Murphy gave Grotesquerie star Travis Kelce some \u2018fatherly advice\u2019 on what he should do outside of football, which led to his role on the show.",
+            "url": "http://www.vulture.com/article/grotesquerie-ryan-murphy-travis-kelce-casting.html",
+            "urlToImage": "https://pyxis.nymag.com/v1/imgs/287/cbb/2674448644a80200d3cf7314c07d39638f-travis-kelce-grotesque.1x.rsocial.w1200.png",
+            "publishedAt": "2024-09-24T00:56:38Z",
+            "content": "Papa Murphy\r\n Ryan Murphys road to making Travis Kelce into a television star with Grotesquerie seems like a short walk, especially with some mentorship from the creator. Murphy explains how he took \u2026 [+769 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "VOA News"
+                "name": "Anime News Network"
             },
-            "author": "webdesk@voanews.com (Reuters)",
-            "title": "Micro dramas shake up China's film industry, aim for Hollywood",
-            "description": "ZHENGZHOU, China \u2014\u00a0On a film set that resembles the medieval castle of a Chinese lord, Zhu Jian is busy disrupting the world's second-largest movie industry.\n\n\nThe 69-year-old actor is playing the patriarch of a wealthy family celebrating his birthday with a \u2026",
-            "url": "https://www.voanews.com/a/micro-dramas-shake-up-china-s-film-industry-aim-for-hollywood/7794473.html",
-            "urlToImage": "https://gdb.voanews.com/2BECD9BF-4837-456C-9F3E-4E83E32305A9.jpg",
-            "publishedAt": "2024-09-23T01:16:06Z",
-            "content": "ZHENGZHOU, China \u00a0On a film set that resembles the medieval castle of a Chinese lord, Zhu Jian is busy disrupting the world's second-largest movie industry.\r\nThe 69-year-old actor is playing the patr\u2026 [+8427 chars]"
+            "author": null,
+            "title": "Live-Action Under Ninja Film Casts Sh\u014dtar\u014d Mamiya, Mai Shiraishi",
+            "description": "Mamiya, Shiraishi play skilled NIN operatives in January 24 film",
+            "url": "https://www.animenewsnetwork.com/news/2024-09-23/live-action-under-ninja-film-casts-shotaro-mamiya-mai-shiraishi/.215914",
+            "urlToImage": "https://www.animenewsnetwork.com/thumbnails/crop600x315gJ7/cms/news.7/215914/gx6i8oyauaizdpl.jfif.jpeg",
+            "publishedAt": "2024-09-24T00:55:36Z",
+            "content": "The staff for the live-action film of Kengo Hanazawa's Under Ninjamanga announced two more cast members on Tuesday.\r\nImage via live-action Under Ninja's X/Twitter\r\nShtar Mamiya (Blue Giant, Tokyo Rev\u2026 [+2178 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "CinemaBlend"
+                "name": "New York Post"
             },
-            "author": "Laura Hurley",
-            "title": "After NCIS: Hawai'i And Magnum P.I.'s Cancellations, Fox's Rescue: HI-Surf Premiere Brings A Different Kind Of Action To The Aloha State",
-            "description": "This definitely isn't Baywatch either.",
-            "url": "https://www.cinemablend.com/television/after-ncis-hawai-i-and-magnum-p-cancellations-fox--rescue-hi-surf-different-kind-action-aloha-state",
-            "urlToImage": "https://cdn.mos.cms.futurecdn.net/4e5ZxqFv26symSesfqGcPX-1200-80.jpg",
-            "publishedAt": "2024-09-23T01:03:19Z",
-            "content": "Spoilers ahead for the series premiere of Rescue: HI-Surf on Fox.\r\nOnce upon a time, not too long ago, multiple network TV shows were set in Hawaii. Even after the end of Hawaii Five-0 in 2020, NCIS:\u2026 [+4419 chars]"
+            "author": "Paul Schwartz",
+            "title": "Malik Nabers\u2019 next Giants challenge is signature Cowboys moment like Odell Beckham Jr.",
+            "description": "Malik Nabers already looks special. Coming up with something otherworldly when facing the Cowboys, well, that leads to all sorts of different perks.",
+            "url": "https://nypost.com/2024/09/23/sports/giants-malik-nabers-having-moment-vs-cowboys-is-next-challenge/",
+            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/09/newspress-collage-l783myq5d-1727136685678.jpg?quality=75&strip=all&1727122422&w=1024",
+            "publishedAt": "2024-09-24T00:53:15Z",
+            "content": "Every one of his 23 catches is preserved in his stat log. The same with his 271 receiving yards and his three touchdowns. His 37 targets reflect that he is not one of the focal points he is the focal\u2026 [+5025 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Decider"
+                "name": "Deadline"
             },
-            "author": "mliss1578",
-            "title": "Is \u2018Industry\u2019 Season 3 Episode 7 on HBO Tonight?",
-            "description": "Why is Colin Farrell's Penguin taking the spot usually reserved for Miss Yasmin Kara-Hanani???",
-            "url": "https://decider.com/2024/09/22/is-industry-season-3-episode-7-on-hbo-tonight/",
-            "urlToImage": "https://decider.com/wp-content/uploads/2024/09/industry-307-yasmin.jpg?quality=75&strip=all&w=1200",
-            "publishedAt": "2024-09-23T01:00:00Z",
-            "content": "Industry is in the home stretch of what is one of the best seasons of television in quite some time, combining thrillingly sharp writing with combustable performances from series leads Myha\u2019la, Maris\u2026 [+2991 chars]"
+            "author": "Natalie Oganesyan",
+            "title": "Original Dumbledore Actor\u2019s Son Doesn\u2019t See Need For \u2018Harry Potter\u2019 TV Reboot: \u201cI Don\u2019t Understand\u201d",
+            "description": "Jared Harris, son of Richard Harris, who originated the role of Dumbledore in the Warner Bros. Harry Potter franchise, doesn\u2019t see the need for HBO\u2019s television reboot. In a recent interview with The Independent, Harris \u2014 who followed in his late father\u2019s foo\u2026",
+            "url": "http://deadline.com/2024/09/harry-potter-dumbledore-jared-harris-tv-reboot-1236097643/",
+            "urlToImage": "https://deadline.com/wp-content/uploads/2024/09/Harry-Potter-and-the-Sorcerers-Stone-Daniel-Radcliffe-Ruprint-Grint-Emma-Watson.jpg?w=1024",
+            "publishedAt": "2024-09-24T00:51:40Z",
+            "content": "Jared Harris, son of Richard Harris, who originated the role of Dumbledore in the Warner Bros.Harry Potterfranchise, doesn\u2019t see the need for HBO\u2018s television reboot.\r\nIn a recent interview with The \u2026 [+1804 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "McCovey Chronicles"
+                "name": "NPR"
             },
-            "author": "Steven Kennedy",
-            "title": "*Spoiler alert*",
-            "description": "San Francisco\u2019s two runs on three hits\u2014all in the 2nd inning\u2014were more than enough for Blake Snell as the lefty cruised through Kansas City\u2019s struggling lineup.",
-            "url": "https://www.mccoveychronicles.com/2024/9/22/24251702/mlb-final-giants-royals-9-22-2024-recap-blake-snell-seth-lugo-spoiler-alert",
-            "urlToImage": "https://cdn.vox-cdn.com/thumbor/Net8c4pUGt48LrrXVf2zqQvwNIs=/0x0:5109x2675/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25635013/usa_today_24300974.jpg",
-            "publishedAt": "2024-09-23T00:31:31Z",
-            "content": "Jay Biggerstaff-Imagn Images\r\n\n \n\n The Giants are finding ways to win when it matters the least to them and the most to their opponents The Giants managed only three hits in the series finale against\u2026 [+5200 chars]"
+            "author": "Juliana Kim",
+            "title": "Erik Menendez says Netflix show is full of 'blatant lies' about him and his brother",
+            "description": "In the 1990s, the Menendez brothers were put on trial for their parents' murder, becoming a media sensation that sharply divided public opinion on the brothers' motives.",
+            "url": "https://www.npr.org/2024/09/23/nx-s1-5123898/menendez-brothers-comment-netflix-monsters",
+            "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2724x1532+438+0/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa9%2F71%2F07a5e679451b86dde51422d8aa9b%2Fmonsters-n-s1-e8-00-01-01-20r.jpg",
+            "publishedAt": "2024-09-24T00:49:56Z",
+            "content": "Erik Menendez spoke out against the new Netflix series, Monsters: The Lyle and Erik Menendez Story, which revisits the trials that convicted him and his brother, Lyle, of murdering their parents. \r\nI\u2026 [+2513 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Legalinsurrection.com"
+                "name": "Bleeding Cool News"
             },
-            "author": "Mary Chastain",
-            "title": "TikTok Creator Blasts Oprah for Including Her in Harris Ad",
-            "description": "LOL: \u201cTo my Americans, let me make something perfectly clear. M\u2019kay? I do not support Harris for president. M\u2019kay? I want to be unburdened by who has been in the White House the last three-and-a-half years. M\u2019kay.\"\nThe post TikTok Creator Blasts Oprah for Inc\u2026",
-            "url": "https://legalinsurrection.com/2024/09/tiktok-creator-blasts-oprah-for-including-her-in-harris-ad/",
-            "urlToImage": "https://legalinsurrection.com/wp-content/uploads/2024/09/Oprah-Uses-TikTok-Harris-Ad.jpg",
-            "publishedAt": "2024-09-23T00:00:42Z",
-            "content": "You know, maybe these arrogant celebrities should check a person\u2019s background before they include the person in anything.\r\nOprah Winfrey included a TikTok video from Blaire Allison, who said, \u201cI don\u2019\u2026 [+2854 chars]"
+            "author": "Jeremy Konrad",
+            "title": "The Institute: Stephen King Series Adds A Whole Mess Of Names To Cast",
+            "description": "The Institute is an upcoming Stephen King adaptation series coming to MGM+ that we told you about earlier this summer. It will star\u00a0Ben Barnes\u00a0(Shadow and Bone, The Punisher, Westworld) as Tim Jamieson and\u00a0Mary-Louise Parker\u00a0(Weeds, Angels in America) as Ms. \u2026",
+            "url": "https://bleedingcool.com/tv/the-institute-stephen-king-series-adds-a-whole-mess-of-names-to-cast/",
+            "urlToImage": "https://bleedingcool.com/wp-content/uploads/2024/06/thumbnail_TheInstituteCover-2000x1125.jpeg",
+            "publishedAt": "2024-09-24T00:47:08Z",
+            "content": "Posted in: MGM Television, TV | Tagged: mgm, stephen king, the institute\r\nMGM+ has added eleven new cast members to its new Stephen King series, The Institute, with filming set to get underway very s\u2026 [+2489 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Mercola.com"
+                "name": "Japan Today"
             },
-            "author": "communities@mercola.com (Dr. Joseph Mercola)",
-            "title": "Addiction and Overdose Cases Linked to Illegal Party Pill Are on the Rise",
-            "description": "Gamma-hydroxybutyrate (GHB) is a naturally occurring compound in the brain, involved in key physiological processes such as sleep regulation and muscle tone. As a physiologic neurotransmitter, GHB has been explored for its therapeutic potential on the central\u2026",
-            "url": "https://articles.mercola.com/sites/articles/archive/2024/09/23/addiction-overdose-illegal-party-pill.aspx",
-            "urlToImage": "https://media.mercola.com/ImageServer/Public/2024/September/FB/addiction-overdose-illegal-party-pill-fb.jpg",
-            "publishedAt": "2024-09-23T00:00:00Z",
-            "content": "Mercola proudly supports these charities and organizations. View All \r\nDisclaimer: The entire contents of this website are based upon the opinions of Dr. Mercola, unless otherwise noted. Individual a\u2026 [+1007 chars]"
+            "author": null,
+            "title": "Japan issues tsunami advisory for remote islands after quake",
+            "description": "Japan\u2019s meteorological agency on Tuesday issued a tsunami advisory to a group of remote islands south of Tokyo after a strong earthquake. The remote offshore quake, which struck at 8:14 a.m., was not felt and so far no damage or injuries were reported. Japan \u2026",
+            "url": "https://japantoday.com/category/national/Japan-issues-tsunami-advisory-for-remote-islands-after-quake",
+            "urlToImage": null,
+            "publishedAt": "2024-09-24T00:38:19Z",
+            "content": "Japans meteorological agency on Tuesday issued a tsunami advisory to a group of remote islands south of Tokyo after a strong earthquake.\r\nThe remote offshore quake, which struck at 8:14 a.m., was not\u2026 [+1042 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Linkedin.com"
+                "name": "ETF Daily News"
             },
-            "author": "Laura Hilgers",
-            "title": "Jennifer Hudson to Join Us on the Main Stage at Talent Connect 2024",
-            "description": "We\u2019re thrilled to announce that Jennifer Hudson \u2014 award-winning singer, actor, and daytime television show host \u2014 will be joining us as a keynote speaker at Talent Connect this fall. Talent Connect, LinkedIn\u2019s premier event for global talent leaders and pract\u2026",
-            "url": "https://www.linkedin.com/business/talent/blog/talent-connect/jennifer-hudson-talent-connect",
-            "urlToImage": "https://media.licdn.com/dms/image/v2/D4D08AQFYKuENjGmocQ/croft-frontend-shrinkToFit1024/croft-frontend-shrinkToFit1024/0/1726860888416?e=2147483647&v=beta&t=saPgzWNCgu6R6hBQYqtj5WzK7T7Ec7qtGJ90Kb3WzW4",
-            "publishedAt": "2024-09-23T00:00:00Z",
-            "content": "Were thrilled to announce that Jennifer Hudson award-winning singer, actor, and daytime television show host will be joining us as a keynote speaker at Talent Connect this fall. Talent Connect, Linke\u2026 [+3501 chars]"
+            "author": "MarketBeat News",
+            "title": "Financial Contrast: Inseego (NASDAQ:INSG) versus Evertz Technologies (OTCMKTS:EVTZF)",
+            "description": "Inseego (NASDAQ:INSG \u2013 Get Free Report) and Evertz Technologies (OTCMKTS:EVTZF \u2013 Get Free Report) are both computer and technology companies, but which is the better investment? We will compare the two companies based on the strength of their profitability, e\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/23/financial-contrast-inseego-nasdaqinsg-versus-evertz-technologies-otcmktsevtzf/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/evertz-technologies-limited-logo-1200x675.png&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-24T00:38:02Z",
+            "content": "Inseego (NASDAQ:INSG \u2013 Get Free Report) and Evertz Technologies (OTCMKTS:EVTZF \u2013 Get Free Report) are both computer and technology companies, but which is the better investment? We will compare the t\u2026 [+5616 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ETF Daily News"
+            },
+            "author": "MarketBeat News",
+            "title": "Comparing ACCO Brands (NYSE:ACCO) and Koala (OTCMKTS:KARE)",
+            "description": "ACCO Brands (NYSE:ACCO \u2013 Get Free Report) and Koala (OTCMKTS:KARE \u2013 Get Free Report) are both industrials companies, but which is the better business? We will compare the two companies based on the strength of their institutional ownership, risk, earnings, pr\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/23/comparing-acco-brands-nyseacco-and-koala-otcmktskare/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/koala-co-logo-1200x675.png?v=20221017121806&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-24T00:37:15Z",
+            "content": "ACCO Brands (NYSE:ACCO \u2013 Get Free Report) and Koala (OTCMKTS:KARE \u2013 Get Free Report) are both industrials companies, but which is the better business? We will compare the two companies based on the s\u2026 [+5506 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Japan Today"
+            },
+            "author": null,
+            "title": "Japan issues tsunami advisory for remote Japanese islands after quake",
+            "description": "Japan\u2019s meteorological agency on Tuesday issued a tsunami advisory to a group of remote islands south of Tokyo after a strong earthquake. The remote offshore quake, which struck at 8:14 a.m., was not felt and so far no damage or injuries were reported. Japan \u2026",
+            "url": "https://japantoday.com/category/national/japan-issues-tsunami-advisory-to-remote-japanese-islands-south-of-tokyo-after-a-powerful-quake",
+            "urlToImage": null,
+            "publishedAt": "2024-09-24T00:37:12Z",
+            "content": "Japans meteorological agency on Tuesday issued a tsunami advisory to a group of remote islands south of Tokyo after a strong earthquake.\r\nThe remote offshore quake, which struck at 8:14 a.m., was not\u2026 [+1042 chars]"
+        },
+        {
+            "source": {
+                "id": "espn",
+                "name": "ESPN"
+            },
+            "author": "Pete Thamel and Kyle Bonagura",
+            "title": "Sources: UNLV exploring options after USU defects",
+            "description": "UNLV is expected to re-engage in conversations with the Pac-12 after their commitment to the Mountain West earlier in the day was not formalized, sources told ESPN",
+            "url": "https://www.espn.com/college-sports/story/_/id/41406047/unlv-exploring-options-utah-state-joins-pac-12",
+            "urlToImage": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2019%2F0718%2Fr571958_1296x1296_1%2D1.jpg",
+            "publishedAt": "2024-09-24T00:35:48Z",
+            "content": "Sep 23, 2024, 07:28 PM ET\r\nUNLV is expected to re-engage in conversations with the Pac-12 after their commitment to the Mountain West earlier in the day was not formalized, sources told ESPN on Monda\u2026 [+2592 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Matthew Loh",
+            "title": "Meet the Hong Kong billionaires behind some of the world's glitziest hotels \u2014 and the generation who could inherit the empire",
+            "description": "Cheng Yu-Teng turned his profits from selling jewelry into a multibillion real estate empire now run by his grandchildren.",
+            "url": "https://www.businessinsider.com/meet-chengs-adrian-sonia-new-world-development-richest-hong-kong-2024-9",
+            "urlToImage": "https://i.insider.com/66e3faa0cfb7f307e5714753?width=1200&format=jpeg",
+            "publishedAt": "2024-09-24T00:32:02Z",
+            "content": "Adrian Cheng makes a toast during dinner after the opening ceremony of the Festival de Cannes Film Week in Asia in 2019.Chung Sung-Jun/Getty Images for Festival de Cannes Film Week in Asia\r\n<ul><li>C\u2026 [+10666 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "USA TODAY Sports",
+            "title": "Pac-12 might be resurrected, but former power conference is no longer as relevant",
+            "description": "The zombie Pac-12 was resurrected, then it ran into an opposing force that we haven\u2019t seen too often in college sports: Common sense.",
+            "url": "https://www.usatoday.com/story/sports/columnist/dan-wolken/2024/09/23/pac-12-conference-realignment-aac/75354941007/",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/ToZPhoJgAGfZaVq0bKd1yg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD00MzE-/https://media.zenfs.com/en/usa_today_sports_articles_558/295dbf413e903e75b56fa53c160071c5",
+            "publishedAt": "2024-09-24T00:26:41Z",
+            "content": "The zombie Pac-12 was resurrected on a consultants spreadsheet. Then, in a little more than a week, it ran into an opposing force that we havent seen too often in college sports, and particularly in \u2026 [+5204 chars]"
+        },
+        {
+            "source": {
+                "id": "abc-news",
+                "name": "ABC News"
+            },
+            "author": "The Associated Press",
+            "title": "Japan issues tsunami advisory to remote Japanese islands south of Tokyo after a powerful quake",
+            "description": "Japan\u2019s meteorological agency issued a tsunami advisory to a group of remote islands south of Tokyo after a strong earthquake",
+            "url": "https://abcnews.go.com/International/wireStory/japan-issues-tsunami-advisory-remote-japanese-islands-south-113946359",
+            "urlToImage": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg",
+            "publishedAt": "2024-09-24T00:21:58Z",
+            "content": "TOKYO -- Japans meteorological agency on Tuesday issued a tsunami advisory to a group of remote islands south of Tokyo after a strong earthquake.\r\nThe remote offshore quake was not felt and so far no\u2026 [+919 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Roleplayerschronicle.com"
+            },
+            "author": "Aaron T. Huss",
+            "title": "Star Trek\u2122: Lower Decks Card Game Available for Preorder",
+            "description": "London, ENGLAND: 23rd September 2024 The recently announced\u00a0Star Trek\u2122: Lower Decks Card Game\u00a0is\u00a0now available to pre-order for \u00a316 / $20 from Modiphius Entertainment. In this [\u2026]",
+            "url": "http://roleplayerschronicle.com/?p=57941",
+            "urlToImage": null,
+            "publishedAt": "2024-09-24T00:17:20Z",
+            "content": "London, ENGLAND: 23rd September 2024\r\nThe recently announced\u00a0Star Trek: Lower Decks Card Game\u00a0is\u00a0now available to pre-order for \u00a316 / $20 from Modiphius Entertainment.\r\nIn this push-your-luck, low-st\u2026 [+3288 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Igramplus.com"
+            },
+            "author": "Admin",
+            "title": "Mindful Eating for Women Over 30: A Path to Health and Balance | igramplus.com",
+            "description": "As women enter their 30s, the demands of life often increase, making it easy to overlook healthy eating habits. Mindful eating offers a way to reconnect with food, promoting both physical and emotional well-being. What Is Mindful Eating? Mindful eating is abo\u2026",
+            "url": "https://igramplus.com/mindful-eating-for-women-over-30-a-path-to-health-and-balance/",
+            "urlToImage": "https://igramplus.com/wp-content/uploads/2024/09/3-1.jpg",
+            "publishedAt": "2024-09-24T00:06:24Z",
+            "content": "As women enter their 30s, the demands of life often increase, making it easy to overlook healthy eating habits. Mindful eating offers a way to reconnect with food, promoting both physical and emotion\u2026 [+2458 chars]"
+        },
+        {
+            "source": {
+                "id": "espn",
+                "name": "ESPN"
+            },
+            "author": "Pete Thamel and Kyle Bonagura",
+            "title": "Sources: UNLV sticks with MWC despite Pac-12 bid",
+            "description": "UNLV is joining Air Force in committing to remain in the Mountain West despite an offer to join the Pac-12, sources told ESPN.",
+            "url": "https://www.espn.com/college-sports/story/_/id/41406047/sources-unlv-remain-mountain-west-pac-12-bid",
+            "urlToImage": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2019%2F0718%2Fr571958_1296x1296_1%2D1.jpg",
+            "publishedAt": "2024-09-24T00:06:19Z",
+            "content": "Sep 23, 2024, 07:28 PM ET\r\nUNLV plans to remain in the Mountain West despite an offer to join the Pac-12, sources told ESPN on Monday night.\r\nThe decision represents a significant win for the Mountai\u2026 [+2532 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Screen Rant"
+            },
+            "author": "Taelor Payne",
+            "title": "Kaitlin Olson\u2019s Acclaimed New Police Show Sounds Like The Perfect Psych Replacement, 10 Years Later",
+            "description": "Surprisingly, Kaitlin Olson's hit new police show works as a great replacement for Pysch ten years after it ended its eight-season run on USA.",
+            "url": "https://screenrant.com/high-potential-new-psych-replacement-show/",
+            "urlToImage": "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/09/167628_0990.jpg",
+            "publishedAt": "2024-09-24T00:02:56Z",
+            "content": "For decades, numerous crime drama shows have reached success and recognition from its well-written scripts to notable characters to unforgettable episodes. ABCs newest crime series, High Potential, f\u2026 [+3291 chars]"
         }
     ]
 }

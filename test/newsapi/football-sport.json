@@ -1,84 +1,123 @@
 {
     "status": "ok",
-    "totalResults": 6,
+    "totalResults": 9,
     "articles": [
         {
             "source": {
-                "id": "abc-news-au",
-                "name": "ABC News (AU)"
+                "id": null,
+                "name": "Business Standard"
             },
-            "author": "ABC News",
-            "title": "Popovic named as new Socceroos coach ahead of crucial World Cup qualifers",
-            "description": "Tony Popovic has been named the new head coach of the Socceroos, taking over after the sudden resignation of Graham Arnold.",
-            "url": "https://www.abc.net.au/news/2024-09-23/tony-popovic-named-head-coach-of-australia-socceroos/104382354",
-            "urlToImage": "https://live-production.wcms.abc-cdn.net.au/9dd067ab6193a8c1348c323d7e157f1c?impolicy=wcms_watermark_news&cropH=1515&cropW=2693&xPos=538&yPos=0&width=862&height=485&imformat=generic",
-            "publishedAt": "2024-09-23T03:48:22Z",
-            "content": "Tony Popovic has been named the new head coach of the Socceroos, taking over after the sudden resignation of Graham Arnold.\r\nThe 51-year-old was announced as the new coach by Football Australia on Mo\u2026 [+3033 chars]"
+            "author": "AP",
+            "title": "Record turnout of disabled fans expected at Champions League match in Spain",
+            "description": "A Champions League match next month between Atletico Madrid and Lille could see a record number of fans with disabilities in the stands.\nThe Spanish club has teamed up with AccessibAll, a group promoting better access to sport for disabled fans, with the aim \u2026",
+            "url": "https://www.business-standard.com/sports/football-news/record-turnout-of-disabled-fans-expected-at-champions-league-match-in-spain-124092301144_1.html",
+            "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-07/18/thumb/featurecrop/400X400/1721294270-7242.JPG",
+            "publishedAt": "2024-09-24T04:38:19Z",
+            "content": "The Spanish club has teamed up with AccessibAll, a group promoting better access to sport for disabled fans.\r\nFootball, soccer(Photo: Reuters)\r\nAPMadrid\r\nA Champions League match next month between A\u2026 [+1351 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "UPROXX"
+                "name": "The Spokesman-Review"
             },
-            "author": "Bill DiFilippo",
-            "title": "Morgan Wallen Got Peyton Manning To Wear His Full Tennessee Uniform At His Knoxville Show",
-            "description": "Getty Image\r\n\nWallen played Neyland Stadium on Sunday night, and Manning helped escort him out to the stage in his old uniform.",
-            "url": "https://uproxx.com/sports/morgan-wallen-peyton-manning-full-tennessee-uniform-video/",
-            "urlToImage": "https://uproxx.com/wp-content/uploads/2024/09/pm2.jpg?w=710",
-            "publishedAt": "2024-09-23T02:43:14Z",
-            "content": "It\u2019s a pretty good time to be a fan of the Tennessee Volunteers football team. The Vols are 4-0 to start the year, have risen up to No. 5 in the country in the most recent AP Poll, and are fresh off \u2026 [+932 chars]"
+            "author": "The Spokesman-Review, Spokane, Wash.",
+            "title": "Pac-12 expansion: Wrapping up a wild day of conference realignment",
+            "description": "Sep. 23\u2014PULLMAN \u2014 For at least one day, the dust around the Pac-12's expansion seems to have settled. About a week after Washington State and Oregon State poached Mountain West Conference schools Boise State, Fresno State, San Diego State and Colorado State t\u2026",
+            "url": "http://www.spokesman.com/stories/2024/sep/23/pac-12-expansion-wrapping-up-a-wild-day-of-confere/",
+            "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
+            "publishedAt": "2024-09-24T03:59:00Z",
+            "content": "Sep. 23PULLMAN For at least one day, the dust around the Pac-12's expansion seems to have settled.\r\nAbout a week after Washington State and Oregon State poached Mountain West Conference schools Boise\u2026 [+3052 chars]"
+        },
+        {
+            "source": {
+                "id": "breitbart-news",
+                "name": "Breitbart News"
+            },
+            "author": "Dylan Gwinn, Dylan Gwinn",
+            "title": "Mike Francesa Questions Travis Kelce's Dedication to Football Amid Taylor Swift Romance: 'Prancing Around the Globe'",
+            "description": "The NFL's stats (ratings) have greatly benefited from Travis Kelce's romance with Taylor Swift. Travis Kelce's numbers? Not so much.\nThe post Mike Francesa Questions Travis Kelce\u2019s Dedication to Football Amid Taylor Swift Romance: \u2018Prancing Around the Globe\u2019 \u2026",
+            "url": "https://www.breitbart.com/sports/2024/09/23/mike-francesa-questions-travis-kelces-dedication-to-football-amid-taylor-swift-romance-prancing-around-the-globe/",
+            "urlToImage": "https://media.breitbart.com/media/2024/09/TIMOTHY-A.-CLARY_AFP-via-Getty-Images-640x335.jpg",
+            "publishedAt": "2024-09-24T03:44:52Z",
+            "content": "The NFL\u2019s stats (ratings) have greatly benefited from Travis Kelce\u2019s romance with Taylor Swift. Travis Kelce\u2019s numbers? Not so much.\r\nTravis Kelce has only eight receptions for 69 yards and no touchd\u2026 [+2048 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Independent.ie"
+                "name": "Forbes"
             },
-            "author": "Letters to the editor",
-            "title": "Letters: Girls soccer league fiasco raises serious question about FAI\u2019s commitment to women\u2019s game",
-            "description": "Serious questions must be raised about the FAI\u2019s and the Dublin District Schoolboys/Schoolgirls League\u2019s (DDSL) commitment to girls\u2019 soccer in Ireland, with over 400 girls locked out of a league for the 2024/25 season.",
-            "url": "https://www.independent.ie/opinion/letters/letters-girls-soccer-league-fiasco-raises-serious-question-about-fais-commitment-to-womens-game/a1984013381.html",
-            "urlToImage": "https://focus.independent.ie/thumbor/t8jc1zagQdERbW-ovC6YqLpIVHk=/629x460/smart/prod-mh-ireland/a1910432-6e9c-4d29-9911-c14c017eb635/144f300a-89cd-40aa-ba93-0f0c923d8507/a1910432-6e9c-4d29-9911-c14c017eb635.jpg",
-            "publishedAt": "2024-09-23T01:30:00Z",
-            "content": "Serious questions must be raised about the FAIs and the Dublin District Schoolboys/Schoolgirls Leagues (DDSL) commitment to girls soccer in Ireland, with over 400 girls locked out of a league for the\u2026 [+5463 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Independent.ie"
-            },
-            "author": "David Kelly",
-            "title": "England\u2019s WSL is now the benchmark for Irish players \u2013 but few are among the league\u2019s elite",
-            "description": "Passion without poison. At once a calling card for women\u2019s football but a stick with which to submit it.",
-            "url": "https://www.independent.ie/sport/soccer/englands-wsl-is-now-the-benchmark-for-irish-players-but-few-are-among-the-leagues-elite/a1336819389.html",
-            "urlToImage": "https://focus.independent.ie/thumbor/THkV_lHYYOA0WasjJwEsaJASyLo=/186x105:3189x2106/629x0/prod-mh-ireland/27d1f522-6a8c-4857-bd3f-f85f2d050be7/eb0c9452-6679-4135-9047-b98320c9e474/27d1f522-6a8c-4857-bd3f-f85f2d050be7.jpg",
-            "publishedAt": "2024-09-23T01:30:00Z",
-            "content": "Moving across the water remains the primary ambition of our professional footballers, but getting there is only half the journey\r\nPassion without poison. At once a calling card for womens football bu\u2026 [+235 chars]"
-        },
-        {
-            "source": {
-                "id": "usa-today",
-                "name": "USA Today"
-            },
-            "author": "Robert Zeglinski",
-            "title": "NFL Week 3 Awards: The Bears must fire Matt Eberflus sooner rather than later to protect Caleb Williams\u2019 future",
-            "description": "The Bears will also ruin Caleb Williams if they don't fire Matt Eberflus.",
-            "url": "https://ftw.usatoday.com/lists/nfl-week-3-awards-bears-fire-matt-eberflus-caleb-williams",
-            "urlToImage": "https://ftw.usatoday.com/wp-content/uploads/sites/90/2024/09/GTY-2173783666-1-e1727050908767.jpg?w=1024&h=576&crop=1",
-            "publishedAt": "2024-09-23T00:36:06Z",
-            "content": "We haven\u2019t left September of this young NFL season, but I feel comfortable expressing these two connected feelings. After watching precocious rookie Caleb Williams do everything he can to stay above \u2026 [+12927 chars]"
+            "author": "Manuel Veth, Contributor, \n Manuel Veth, Contributor\n https://www.forbes.com/sites/manuelveth/",
+            "title": "How Will Germany Replace Barcelona Goalkeeper Marc-Andre Ter Stegen?",
+            "description": "Marc-Andre Ter Stegen suffered a severe injury on the weekend. With the Barcelona star out long-term, how will Germany replace their no.1 goalkeeper?",
+            "url": "https://www.forbes.com/sites/manuelveth/2024/09/23/how-will-germany-replace-barcelona-goalkeeper-marc-andre-ter-stegen/",
+            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/66f228f0aba80a96d60a32fd/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+            "publishedAt": "2024-09-24T02:54:06Z",
+            "content": "German national team coach Julian Nagelsmann will have to find a way to replace Barcelona goalkeeper ... [+] Marc-Andre ter Stegen. (Photo by Joris Verwijst/BSR Agency/Getty Images)\r\nGetty Images\r\nTh\u2026 [+4096 chars]"
         },
         {
             "source": {
                 "id": null,
                 "name": "New York Post"
             },
-            "author": "Steve Serby",
-            "title": "Malik Nabers\u2019 breathtaking greatness saved Giants\u2019 first win \u2014 and maybe their season",
-            "description": "The Giants never looked back, improving to 1-2. Because Malik Nabers would not let the Giants look back.",
-            "url": "https://nypost.com/2024/09/22/sports/malik-nabers-breathtaking-greatness-saves-giants-season/",
-            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/09/newspress-collage-hx48kkd72-1727048727270.jpg?quality=75&strip=all&1727034553&w=1024",
-            "publishedAt": "2024-09-23T00:12:00Z",
-            "content": "CLEVELAND Within 11 seconds, Eric Gray had fumbled away the opening kickoff, and Deshaun Watson had thrown a 24-yard TD pass to Amari Cooper against Deonte Banks.\r\nAnd the beleaguered Giants fan bega\u2026 [+4427 chars]"
+            "author": "Jonathan Lehman",
+            "title": "Brooklyn FC taking \u2018baby steps\u2019 in entry to New York\u2019s soccer scene before home opener",
+            "description": "Brooklyn Football Club has launched this fall, an ambitious start-up betting that the local soccer landscape has room for one more entry at a boom time for the sport.",
+            "url": "https://nypost.com/2024/09/23/sports/brooklyn-fc-taking-baby-steps-in-entry-to-new-yorks-soccer-scene/",
+            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/09/newspress-collage-wxi6r59m6-1727140804309.jpg?quality=75&strip=all&1727126494&w=1024",
+            "publishedAt": "2024-09-24T02:39:00Z",
+            "content": "Professional soccer is kicking off in Brooklyn.\u00a0\r\nIn name and in spirit, if not in geographic reality yet.\u00a0\r\nBrooklyn Football Club has launched this fall, an ambitious start-up betting that the loca\u2026 [+6182 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Crikey"
+            },
+            "author": "Daanyal Saeed",
+            "title": "\u2018It\u2019s fucked \u2026 most people know that\u2019: Sports podcasters speak out over gambling ad influence",
+            "description": "Crikey talks to content creators who don't take gambling money about the challenges they face.\nThe post \u2018It\u2019s fucked \u2026 most people know that\u2019: Sports podcasters speak out over gambling ad influence appeared first on Crikey.",
+            "url": "https://www.crikey.com.au/2024/09/24/sports-podcasters-refuse-gambling-advertising-money/",
+            "urlToImage": "https://www.crikey.com.au/wp-content/uploads/2024/09/Broden-Kelly.jpg?quality=70",
+            "publishedAt": "2024-09-24T02:18:40Z",
+            "content": "As Crikey previously addressed via our Punted series, gambling advertising in sport is almost inescapable. Last week, we published a list of just how many people in AFL media were publicly involved i\u2026 [+5872 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Queerty.com"
+            },
+            "author": "Alex Reimer",
+            "title": "Harrison Butker misses a kick & perfectly tees up announcers to talk about inclusion in football",
+            "description": "The Kansas City Chiefs kicker was a little too far right.",
+            "url": "https://www.queerty.com/harrison-butker-misses-a-kick-perfectly-tees-up-announcers-to-talk-about-inclusion-in-football-20240923",
+            "urlToImage": "https://adabgmwwup.cloudimg.io/v7/_queerty-prodweb_/2024/09/usatsi-23975279-scaled.jpg?auto=format&auto=compress&fit=crop&gravity=smart&w=1200&h=630&force_format=jpeg&wat=1&wat_gravity=southeast&wat_pad=70",
+            "publishedAt": "2024-09-24T02:00:00Z",
+            "content": "Harrison Butker almost never misses. But last night, he was too far to the right!\r\nThe Kansas City Chiefs kicker shanked an extra-point attempt, pushing the ball juuust past the right goalpost. While\u2026 [+6346 chars]"
+        },
+        {
+            "source": {
+                "id": "abc-news-au",
+                "name": "ABC News (AU)"
+            },
+            "author": "ABC News",
+            "title": "Matildas return to Brisbane to take on Brazil",
+            "description": "The Matildas will welcome Olympic silver medallists Brazil to South-East Queensland for two international friendlies later in the year.",
+            "url": "https://www.abc.net.au/news/2024-09-24/matildas-to-play-brazil-in-two-internationals-queensland/104387880",
+            "urlToImage": "https://live-production.wcms.abc-cdn.net.au/ddc99356f7587848da65b948f2901c4c?impolicy=wcms_watermark_news&cropH=1739&cropW=3092&xPos=282&yPos=64&width=862&height=485&imformat=generic",
+            "publishedAt": "2024-09-24T01:21:58Z",
+            "content": "The Matildas are set to play 2024 Olympic silver medallists Brazil in two international friendlies in Queensland.\r\nCurrently coached by interim boss Tom Sermanni, the Matildas will likely hope to hav\u2026 [+2571 chars]"
+        },
+        {
+            "source": {
+                "id": "espn",
+                "name": "ESPN"
+            },
+            "author": "Rajan Hothi",
+            "title": "Transfer Talk: Former Madrid star Navas to join Barcelona?",
+            "description": "Will Keylor Navas become one of the few players to ever cross the Real Madrid-Barcelona divide? Transfer Talk has the latest.",
+            "url": "https://www.espn.com/soccer/story/_/id/41406175/transfer-talk-former-madrid-star-navas-join-barcelona",
+            "urlToImage": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0924%2Fr1390914_1296x729_16%2D9.jpg",
+            "publishedAt": "2024-09-24T00:35:17Z",
+            "content": "Sep 23, 2024, 08:10 PM ET\r\nThe transfer window might be shut across Europe's top five leagues, but the rumour mill keeps on turning!Transfer Talk brings you all the latest buzz, comings, goings and, \u2026 [+3973 chars]"
         }
     ]
 }

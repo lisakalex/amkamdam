@@ -1,71 +1,227 @@
 {
     "status": "ok",
-    "totalResults": 5,
+    "totalResults": 17,
     "articles": [
         {
             "source": {
                 "id": null,
-                "name": "Livemint"
+                "name": "GlobeNewswire"
             },
-            "author": "Economist",
-            "title": "OpenAI\u2019s new fundraising is shaking up Silicon Valley",
-            "description": "Generative AI is forcing America\u2019s disrupters in chief to think differently",
-            "url": "https://www.livemint.com/companies/start-ups/openais-new-fundraising-is-shaking-up-silicon-valley-11727055687854.html",
-            "urlToImage": "https://www.livemint.com/lm-img/img/2024/09/23/1600x900/g1c388e87e3d679432476ed6317073d45ff1499188b27ac706dea4fbb3666d80ad2a764b805f23995514ed371eb746aed14d121cd111884336c6161548f9b482d_1280_1727055928782_1727055945497.png",
-            "publishedAt": "2024-09-23T01:53:22Z",
-            "content": "A rare beast may soon lumber across the hills of Silicon Valley: not a $1bn unicorn, nor a $10bn decacorn, but a hectocorna startup valued at more than $100bn. OpenAI, the maker of ChatGPT, is unders\u2026 [+7511 chars]"
+            "author": "Vast Resources PLC",
+            "title": "Financing Update \u2013 Important clarification",
+            "description": "Vast Resources plc / Ticker: VAST / Index: AIM / Sector: Mining  24 September 2024  Vast Resources plc(\u2018Vast\u2019 or the \u2018Company\u2019)  Financing Update \u2013......",
+            "url": "https://www.globenewswire.com/news-release/2024/09/24/2951852/0/en/Financing-Update-Important-clarification.html",
+            "urlToImage": "https://ml-eu.globenewswire.com/Resource/Download/5e885eea-e7fa-4034-a581-9e72518c162d",
+            "publishedAt": "2024-09-24T06:00:00Z",
+            "content": "Vast Resources plc / Ticker: VAST / Index: AIM / Sector: Mining\r\n24 September 2024\r\nVast Resources plc(Vast or the Company)\r\nFinancing Update Important clarification\r\nVast Resources plc, the AIM-list\u2026 [+6005 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Business Standard"
+            },
+            "author": "Capital Market",
+            "title": "Coal India inks JV agreement with RRVUNL",
+            "description": "Coal India informed that it has entered into a joint venture agreement (JV) with Rajasthan Rajya Vidyut Utpadan Nigam (RRUVNL) to establish brownfield thermal power project in Rajasthan.",
+            "url": "https://www.business-standard.com/markets/capital-market-news/coal-india-inks-jv-agreement-with-rrvunl-124092400312_1.html",
+            "urlToImage": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_685x385.jpg",
+            "publishedAt": "2024-09-24T05:17:00Z",
+            "content": "Coal India informed that it has entered into a joint venture agreement (JV) with Rajasthan Rajya Vidyut Utpadan Nigam (RRUVNL) to establish brownfield thermal power project in Rajasthan.\r\nThe joint v\u2026 [+1530 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "WWD"
+            },
+            "author": "Jmansowwd",
+            "title": "How L\u2019Or\u00e9al\u2019s New Global Chief Sustainability Officer Assesses Room for\u00a0Improvements",
+            "description": "Ezgi Barcenas, who assumed the C-suite role earlier this year, draws on her engineering and public health experience as well as her upbringing.",
+            "url": "http://wwd.com/beauty-industry-news/beauty-features/loreal-new-global-chief-sustainability-officer-interview-1236634271/",
+            "urlToImage": "https://wwd.com/wp-content/uploads/2024/09/Ezgi-Barcenas-headshot-1.jpg?crop=0px%2C128px%2C2000px%2C1119px&resize=1000%2C563",
+            "publishedAt": "2024-09-24T04:01:00Z",
+            "content": "From her upbringing in Cyprus to her training as an engineer and career in public health, Ezgi Barcenas has a background as multifaceted as the organization she works for.\r\nL\u2019Or\u00e9al\u2019s recently minted \u2026 [+3479 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Manish Singh",
+            "title": "Fintech Jupiter in talks to buy a stake in SBM Bank India",
+            "description": "Neobank Jupiter is in talks to acquire a stake in SBM India, three sources familiar with the matter told TechCrunch, the latest example of an Indian fintech startup pursuing strategic partnerships with traditional banking institutions. The Bengaluru-headquart\u2026",
+            "url": "https://techcrunch.com/2024/09/23/fintech-jupiter-in-talks-to-buy-a-stake-in-sbm-bank-india/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/09/Jupiter-SBM-India.jpeg?resize=1200,552",
+            "publishedAt": "2024-09-24T04:00:05Z",
+            "content": "Neobank Jupiter is in talks to acquire a stake in SBM India, three sources familiar with the matter told TechCrunch, the latest example of an Indian fintech startup pursuing strategic partnerships wi\u2026 [+1548 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "EURACTIV"
+            },
+            "author": "Jennifer Baker",
+            "title": "Quantum needs more investment, better innovation recipe for growth [Advocacy Lab Content]",
+            "description": "Leonardo Quattrucci believes quantum needs to be at the forefront of Europe\u2019s thinking about new technologies in the next decade. It\u2019s a question of leadership, ambition and investment in growth, but a new approach to innovation is needed too.",
+            "url": "https://www.euractiv.com/section/digital-single-market/news/quantum-needs-more-investment-better-innovation-recipe-for-growth/",
+            "urlToImage": "https://www.euractiv.com/wp-content/uploads/sites/2/2024/09/shutterstock_2422220481-800x450.jpg",
+            "publishedAt": "2024-09-24T03:47:20Z",
+            "content": "Leonardo Quattrucci believes quantum needs to be at the forefront of Europes thinking about new technologies in the next decade. Its a question of leadership, ambition and investment in growth, but a\u2026 [+7522 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BusinessLine"
+            },
+            "author": "BL Bengaluru Bureau",
+            "title": "Oister Global, Tribe Capital India partner to launch $500 million fund for secondary market investments",
+            "description": "This fund is expected to make investments amounting to $500 million in the next two years as secondary private market transactions in India gain momentum",
+            "url": "https://www.thehindubusinessline.com/companies/oister-global-tribe-capital-india-partner-to-launch-500-million-fund-for-secondary-market-investments/article68674415.ece",
+            "urlToImage": "https://bl-i.thgim.com/public/todays-paper/tp-news/d7n3qj/article68415764.ece/alternates/LANDSCAPE_1200/Institutional-iG15D2NJGL.4.jpg.jpg",
+            "publishedAt": "2024-09-24T03:37:09Z",
+            "content": "Gurugram-based investment firm Oister Global and the growth equity and private equity Indian arm of Tribe Capital--Tribe Capital India to launch a new fund focused on secondary transactions.\r\nThis fu\u2026 [+1316 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Techreport.com"
+            },
+            "author": "Rida Fatima",
+            "title": "Venture Capital Firms Raise $2.2 Billion for Crypto Startups, Betting on Innovation Despite Market Challenges",
+            "description": "Recent data suggests that crypto VC funding has picked up, with crypto VCs raising over $2.2 billion in fresh capital via closed funds as of August 2024. Over the past...\nThe post Venture Capital Firms Raise $2.2 Billion for Crypto Startups, Betting on Innova\u2026",
+            "url": "https://techreport.com/crypto-news/venture-capital-firms-raise-2-2-billion-for-crypto-startups-betting-on-innovation-despite-market-challenges/",
+            "urlToImage": "https://techreport.com/wp-content/uploads/2023/07/money-2724245_1280.jpg",
+            "publishedAt": "2024-09-24T03:05:43Z",
+            "content": "Recent data suggests that crypto VC funding has picked up, with crypto VCs raising over $2.2 billion in fresh capital via closed funds as of August 2024. Over the past weeks, six venture capitalists \u2026 [+4163 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Finextra"
+            },
+            "author": "Editorial Team",
+            "title": "Pakisani BNPL firm Qist Bazaar raises $3.2m",
+            "description": "Qist Bazaar, Pakistan\u2019s leading Buy Now Pay Later (BNPL) fintech startup, announced today that it has secured US$3.2 million in its Series A funding round.",
+            "url": "https://www.finextra.com/pressarticle/102406/pakisani-bnpl-firm-qist-bazaar-raises-32m",
+            "urlToImage": "https://www.finextra.com/about/finextra-logo.png",
+            "publishedAt": "2024-09-24T03:05:24Z",
+            "content": "Qist Bazaar, Pakistans leading Buy Now Pay Later (BNPL) fintech startup, announced today that it has secured US$3.2 million in its Series A funding round.The round was led by Indus Valley Capital, wi\u2026 [+4816 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Skift"
+            },
+            "author": "Skift",
+            "title": "Travel Drives India\u2019s International Spending to 10-Month High \u2013 India Report",
+            "description": "Travel accounts for lion's share in overseas payments, driven by more willingness to spend and interest in exploring other countries. -Bulbul Dhawan",
+            "url": "http://skift.com/2024/09/23/travel-drives-indias-international-spending-to-10-month-high-india-report/",
+            "urlToImage": "https://skift.com/wp-content/uploads/2024/09/Solo-traveler-pexels-souvenirpixels-5636603.jpg",
+            "publishedAt": "2024-09-24T03:00:00Z",
+            "content": "$2.8 billion: That was the international spending by Indians in July 2024. It was the highest amount in 10 months and led by growth in travel spending: Data from the latest bulletin from Indias centr\u2026 [+4712 chars]"
         },
         {
             "source": {
                 "id": "the-times-of-india",
                 "name": "The Times of India"
             },
-            "author": "Pratik Bhakta",
-            "title": "ETSA 2024: Need stronger collaboration between private investors and govt to support deeptech startups: BrainSight AI founder Laina Emmanuel",
-            "description": "As part of a series of interviews with the winners of The Economic Times Startup Awards 2024, \u2018Top Innovator\u2019 award winner BrainSight AI\u2019s founder Laina Emmanuel talks about the firm\u2019s journey so far.",
-            "url": "https://economictimes.indiatimes.com/tech/startups/etsa-2024-deeptech-needs-stronger-govt-private-sector-tie-up-to-take-root-brainsight-ai-founder/articleshow/113572775.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-113575260,width-1200,height-630,imgsize-2286954,overlay-ettech/photo.jpg",
-            "publishedAt": "2024-09-23T00:30:00Z",
-            "content": "This is part of a series of interviews with the winners of The Economic Times Startup Awards 2024.From navigating multiple rounds with doctors and pharmaceutical companies in 2020, when no one was wi\u2026 [+3804 chars]"
+            "author": "NYT News Service",
+            "title": "Will AI be a bust? A Wall Street skeptic rings the alarm",
+            "description": "Jim Covello, the head of stock research at Goldman Sachs, has become Wall Street's leading AI skeptic. Three months ago, he jolted markets with a research paper that challenged whether businesses would see a sufficient return on what by some estimates could b\u2026",
+            "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/will-ai-be-a-bust-a-wall-street-skeptic-rings-the-alarm/articleshow/113614956.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-113614967,width-1200,height-630,imgsize-225610,overlay-ettech/photo.jpg",
+            "publishedAt": "2024-09-24T02:24:16Z",
+            "content": "As Jim Covello's car barreled up Highway 101 from San Jose to San Francisco this month, he counted the billboards about artificial intelligence. The nearly 40 signs he passed, including one that prom\u2026 [+7516 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Freerepublic.com"
+                "name": "International Business Times"
             },
-            "author": "Food & Wine",
-            "title": "World's Largest Fast Food Chains",
-            "description": "From burger behemoths to international pizza joints, F&W rounds up the world's largest fast food chains. McDonald's The burger behemoth tops the list over Subway by a few hundred stores worldwide. While the Big Mac is ubiquitous in the United States, in Europ\u2026",
-            "url": "https://freerepublic.com/focus/f-chat/4266519/posts",
-            "urlToImage": null,
-            "publishedAt": "2024-09-23T00:07:14Z",
-            "content": "Skip to comments.\r\nWorld's Largest Fast Food ChainsFood &amp; Wine ^\r\n | 6/20/23\r\n | Food &amp; Wine editors\r\nPosted on 09/22/2024 5:07:14 PM PDT by DallasBiff\r\nFrom burger behemoths to international\u2026 [+6422 chars]"
+            "author": "John Stanford",
+            "title": "Unnecessary Legislation Could Clog The Drug Development Pipeline",
+            "description": "The Medication Affordability and Patent Integrity Act would add additional mountains of redundant paperwork requirements for biotechs to navigate.",
+            "url": "https://www.ibtimes.com/unnecessary-legislation-could-clog-drug-development-pipeline-3744357",
+            "urlToImage": "https://d.ibtimes.com/en/full/3194132/while-waiver-proposal-has-been-welcomed-part-fight-against-covid-19-shares-drugmakers-have.jpg",
+            "publishedAt": "2024-09-24T02:19:54Z",
+            "content": "In the drug development system, the people are represented by two separate yet equally important groups: the U.S. Patent and Trademark Office and the Food and Drug Administration. With apologies to t\u2026 [+4103 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Hoover.org"
+                "name": "New Zealand Herald"
             },
-            "author": "September 23, 2024",
-            "title": "Martin Giles",
-            "description": "Martin Giles is the assistant director of Hoover\u2019s Technology Policy Accelerator, which focuses on policy issues affecting key emerging technologies\u2014including AI, biotechnology, robotics, semiconductors, and space\u2014and produces The Stanford Emerging Technology\u2026",
-            "url": "https://www.hoover.org/profiles/martin-giles",
-            "urlToImage": null,
-            "publishedAt": "2024-09-23T00:00:00Z",
-            "content": "Martin Giles is the assistant director of Hoovers Technology Policy Accelerator, which focuses on policy issues affecting key emerging technologiesincluding AI, biotechnology, robotics, semiconductor\u2026 [+1693 chars]"
+            "author": "Ruchir Sharma",
+            "title": "Opinion: It\u2019s no longer glorious to get rich in China \u2013 it\u2019s dangerous",
+            "description": "Financial Times: Why no one wants to be the nation\u2019s top tycoon any more.",
+            "url": "https://www.nzherald.co.nz/business/opinion-its-no-longer-glorious-to-get-rich-in-china-its-dangerous/JQJNNESBWFH5NHUQMXLMG64TJI/",
+            "urlToImage": "https://www.nzherald.co.nz/resizer/v2/LTRK75EWPFAVBA4UFN5BXZ6GWI.jpg?auth=29e909a4148c03b2d8dc33c4a4ed25e05eaba6d6478afcbb722cdaf63b1de6cf&width=1200&height=675&quality=70&focal=3146%2C2623&smart=false",
+            "publishedAt": "2024-09-24T02:18:21Z",
+            "content": "By the early 2010s, at least two tycoons had seen their net worth approach that decabillion-dollar barrier, only to land in jail on corruption charges instead. That is not to say the charges were bas\u2026 [+2667 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Linkedin.com"
+                "name": "Frequentmiler.com"
             },
-            "author": "Laura Hilgers",
-            "title": "Jennifer Hudson to Join Us on the Main Stage at Talent Connect 2024",
-            "description": "We\u2019re thrilled to announce that Jennifer Hudson \u2014 award-winning singer, actor, and daytime television show host \u2014 will be joining us as a keynote speaker at Talent Connect this fall. Talent Connect, LinkedIn\u2019s premier event for global talent leaders and pract\u2026",
-            "url": "https://www.linkedin.com/business/talent/blog/talent-connect/jennifer-hudson-talent-connect",
-            "urlToImage": "https://media.licdn.com/dms/image/v2/D4D08AQFYKuENjGmocQ/croft-frontend-shrinkToFit1024/croft-frontend-shrinkToFit1024/0/1726860888416?e=2147483647&v=beta&t=saPgzWNCgu6R6hBQYqtj5WzK7T7Ec7qtGJ90Kb3WzW4",
-            "publishedAt": "2024-09-23T00:00:00Z",
-            "content": "Were thrilled to announce that Jennifer Hudson award-winning singer, actor, and daytime television show host will be joining us as a keynote speaker at Talent Connect this fall. Talent Connect, Linke\u2026 [+3501 chars]"
+            "author": "Greg The Frequent Miler",
+            "title": "Hotels via transferable points: it\u2019s a new game",
+            "description": "Not long ago, if you wanted to use your transferable points for hotel stays the advice was simple: transfer Chase Ultimate Rewards or Bilt points to Hyatt. Transferring to most other hotel programs was usually a bad deal, especially considering the great valu\u2026",
+            "url": "https://frequentmiler.com/hotels-via-transferable-points-its-a-new-game/",
+            "urlToImage": "https://frequentmiler.com/wp-content/uploads/2024/01/Leading-Hotels-of-the-World-LHW-Brazilian-Court-Hotel.jpg",
+            "publishedAt": "2024-09-24T01:58:53Z",
+            "content": "Not long ago, if you wanted to use your transferable points for hotel stays the advice was simple: transfer Chase Ultimate Rewards or Bilt points to Hyatt. Transferring to most other hotel programs w\u2026 [+13735 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "ETtech",
+            "title": "Mukesh Bansal\u2019s AI startup raises funds; what\u2019s powering banktech ecosystem",
+            "description": "Happy Tuesday! Myntra founder Mukesh Bansal\u2019s AI startup has snapped up one of the largest seed rounds in recent years. Details on this and more in today\u2019s ETtech Morning Dispatch.",
+            "url": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/mukesh-bansals-ai-startup-raises-funds-whats-powering-banktech-ecosystem/articleshow/113614248.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-113614248,width-1070,height-580,imgsize-2134490,overlay-ettech/photo.jpg",
+            "publishedAt": "2024-09-24T01:27:16Z",
+            "content": "Happy Tuesday! Myntra founder Mukesh Bansals AI startup has snapped up one of the largest seed rounds in recent years. Details on this and more in todays ETtech Morning Dispatch.Also in this letter:O\u2026 [+5916 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Maleha Afzal",
+            "title": "Is Liberty Broadband Corporation (LBRDA) the Best Growth Stock To Buy According To George Soros?",
+            "description": "We recently compiled a list of the 10 Best Growth Stocks To Buy According To George Soros. In this article, we will look at where Liberty Broadband...",
+            "url": "https://finance.yahoo.com/news/liberty-broadband-corporation-lbrda-best-004317117.html/",
+            "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
+            "publishedAt": "2024-09-24T00:43:17Z",
+            "content": "We recently compiled a list of the 10 Best Growth Stocks To Buy According To George Soros. In this article, we will look at where Liberty Broadband Corporation (NASDAQ:LBRDA) ranks among the 10 best \u2026 [+6913 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Maleha Afzal",
+            "title": "Is Alphabet Inc. (GOOGL) the Best Growth Stock To Buy According To George Soros?",
+            "description": "We recently compiled a list of the 10 Best Growth Stocks To Buy According To George Soros. In this article, we will look at where Alphabet Inc. (NASDAQ:GOOGL...",
+            "url": "https://finance.yahoo.com/news/alphabet-inc-googl-best-growth-003808865.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/UStcahGvo1_JtU8Qv.8PPw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/insidermonkey.com/b37705cc559a18e5d7c905152c29378c",
+            "publishedAt": "2024-09-24T00:38:08Z",
+            "content": "We recently compiled a list of the 10 Best Growth Stocks To Buy According To George Soros. In this article, we will look at where Alphabet Inc. (NASDAQ:GOOGL) ranks among the 10 best growth stocks to\u2026 [+7378 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Livemint"
+            },
+            "author": "Mansi Verma",
+            "title": "M2P builds war chest for acquisitions with \u20b9850 cr funding from Helios, others",
+            "description": "The fundraise, a mix of a primary and secondary share sale, now values the company at over  \u20b96,550 crore.",
+            "url": "https://www.livemint.com/companies/start-ups/m2p-fintech-acquisitions-war-chest-madhusudanan-r-helios-investment-partners-share-sale-11727105541664.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2024/09/23/1600x900/founder_Madhusudhanan_1727111534661_1727111542639.png",
+            "publishedAt": "2024-09-24T00:35:15Z",
+            "content": "M2P Fintech is building a war chest for acquisitions, founder and chief executive officer (CEO) Madhusudanan R. said, after the software-as-a-service (Saas) startup raised 850 crore in a funding roun\u2026 [+2828 chars]"
         }
     ]
 }

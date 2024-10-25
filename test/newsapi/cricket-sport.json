@@ -1,5 +1,71 @@
 {
     "status": "ok",
-    "totalResults": 0,
-    "articles": []
+    "totalResults": 5,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Business Standard"
+            },
+            "author": "Press Trust of India",
+            "title": "IND vs BAN: Pant on great relationship on and off the field with Gill",
+            "description": "The great bonhomie that they share off the field is reflected when they are battling it out on the 22 yards, India's star keeper Rishabh Pant revealed the secret of his successful partnership with Shubman Gill during team's second innings in the opening Test \u2026",
+            "url": "https://www.business-standard.com/cricket/news/ind-vs-ban-pant-on-great-relationship-on-and-off-the-field-with-gill-124092300676_1.html",
+            "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-09/21/thumb/featurecrop/400X400/1726902409-4297.jpg",
+            "publishedAt": "2024-09-24T04:56:07Z",
+            "content": "After both Pant and Gill failed to make an impact in the first innings, they conjured a 167-run stand during the second innings, which turned out to be very important in the final context of the matc\u2026 [+2058 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "PTI",
+            "title": "Former ICC CEO Haroon Lorgat appointed as USA's National Cricket League commissioner",
+            "description": "America's National Cricket League has appointed former ICC CEO Haroon Lorgat as its commissioner to popularise cricket in the US. The league will host its inaugural Sixty Strikes Tournament, featuring top-tier players and cricket veterans as mentors. The even\u2026",
+            "url": "https://economictimes.indiatimes.com/news/sports/former-icc-ceo-haroon-lorgat-appointed-as-usas-national-cricket-league-commissioner/articleshow/113619034.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-113619242,width-1200,height-630,imgsize-17048,overlay-economictimes/photo.jpg",
+            "publishedAt": "2024-09-24T04:48:54Z",
+            "content": "America's National Cricket League has appointed former International Cricket Council CEO Haroon Lorgat as its commissioner, aiming to popularise the sport in the United States. A former first-class c\u2026 [+2095 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Forbes"
+            },
+            "author": "Tristan Lavalette, Contributor, \n Tristan Lavalette, Contributor\n https://www.forbes.com/sites/tristanlavalette/",
+            "title": "Cricket Faces Asian Games 2026 Exclusion Ahead Of Los Angeles Olympics",
+            "description": "Ahead of the sport's long-awaited Olympic return, doubts are growing over whether cricket will be part of the 2026 Asian Games in Nagoya, Japan.",
+            "url": "https://www.forbes.com/sites/tristanlavalette/2024/09/24/cricket-faces-asian-games-2026-exclusion-ahead-of-los-angeles-olympics/",
+            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/652cf6295876797ea1e600cf/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+            "publishedAt": "2024-09-24T04:06:37Z",
+            "content": "India won the men's gold at the 2023 Asian Games (Photo by ISHARA S. KODIKARA/AFP via Getty Images)\r\nAFP via Getty Images\r\nAhead of the sport's long-awaited Olympic return, doubts are growing over wh\u2026 [+3123 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "ET Online",
+            "title": "When should Virat Kohli and Rohit Sharma retire? Here's what Kapil Dev said about a cricketer's prime years",
+            "description": "Kapil Dev believes the prime years of a cricketer's career are between 26 and 34, with fitness determining longevity beyond that. This view is relevant for Indian stars like Rohit Sharma and Virat Kohli, who are now over 34 but continue to play in other forma\u2026",
+            "url": "https://economictimes.indiatimes.com/news/sports/when-should-virat-kohli-and-rohit-sharma-retire-heres-what-kapil-dev-said-about-a-cricketers-prime-years/articleshow/113615247.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-113615505,width-1200,height-630,imgsize-40764,overlay-economictimes/photo.jpg",
+            "publishedAt": "2024-09-24T03:03:15Z",
+            "content": "One might often wonder \"What defines the prime years of a cricketer's career?\"Kapil Dev, the iconic former Indian cricket captain who led India to its first World Cup triumph in 1983, is of the view \u2026 [+2608 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Crikey"
+            },
+            "author": "Daanyal Saeed",
+            "title": "\u2018It\u2019s fucked \u2026 most people know that\u2019: Sports podcasters speak out over gambling ad influence",
+            "description": "Crikey talks to content creators who don't take gambling money about the challenges they face.\nThe post \u2018It\u2019s fucked \u2026 most people know that\u2019: Sports podcasters speak out over gambling ad influence appeared first on Crikey.",
+            "url": "https://www.crikey.com.au/2024/09/24/sports-podcasters-refuse-gambling-advertising-money/",
+            "urlToImage": "https://www.crikey.com.au/wp-content/uploads/2024/09/Broden-Kelly.jpg?quality=70",
+            "publishedAt": "2024-09-24T02:18:40Z",
+            "content": "As Crikey previously addressed via our Punted series, gambling advertising in sport is almost inescapable. Last week, we published a list of just how many people in AFL media were publicly involved i\u2026 [+5872 chars]"
+        }
+    ]
 }

@@ -1,84 +1,162 @@
 {
     "status": "ok",
-    "totalResults": 32,
+    "totalResults": 43,
     "articles": [
         {
             "source": {
                 "id": null,
-                "name": "Securityaffairs.com"
+                "name": "Android Headlines"
             },
-            "author": "Pierluigi Paganini",
-            "title": "Hacktivist group Twelve is back and targets Russian entities",
-            "description": "Hacktivist group Twelve is back and targets Russian entities to destroy critical assets and disrupt their operations. The hacktivist group Twelve has been active since at least April 2023, it was formed in the wake of the conflict between Russia and Ukraine. \u2026",
-            "url": "https://securityaffairs.com/168746/hacking/twelve-group-targets-russian-entities.html",
-            "urlToImage": "https://securityaffairs.com/wp-content/uploads/2024/09/image-22.png",
-            "publishedAt": "2024-09-23T05:18:20Z",
-            "content": "Hacktivist group Twelve is back and targets Russian entities\r\n\u00a0|\u00a0SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 12\r\n\u00a0|\u00a0Security Affairs newsletter Round 490 by Pierluigi Paganini INTERNATIONAL EDITION\r\n\u00a0|\u2026 [+102771 chars]"
+            "author": "Lawrence Yackulic",
+            "title": "How to keep your crypto safe On Android following SpyAgent scandal",
+            "description": "At the beginning of September, cyber security firm McAfee highlighted a malware program, SpyAgent, that uses Optical Character Recognition (OCR) to access",
+            "url": "https://www.androidheadlines.com/2024/09/how-to-keep-your-crypto-safe-on-android-following-spyagent-scandal.html",
+            "urlToImage": "https://www.androidheadlines.com/wp-content/uploads/2024/09/Crypto-image-839243832498.jpg",
+            "publishedAt": "2024-09-24T06:13:53Z",
+            "content": "At the beginning of September, cyber security firm McAfee highlighted a malware program, SpyAgent, that uses Optical Character Recognition (OCR) to access screenshots of crypto wallet recovery phrase\u2026 [+2895 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "newsBTC"
+                "name": "CoinDesk"
             },
-            "author": "Aayush Jindal",
-            "title": "BNB Price Tops $600: Can the Rally Continue?",
-            "description": "BNB price started a fresh increase above the $550 resistance zone. The price is now consolidating near $600 and might aim for more gains. BNB price started a fresh increase above the $550 resistance zone. The price is now trading below $580 and the 100-hourly\u2026",
-            "url": "http://www.newsbtc.com/analysis/bnb/bnb-price-tops-600/",
-            "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/09/BNB-Rally.jpg?fit=1792%2C1024",
-            "publishedAt": "2024-09-23T05:08:51Z",
-            "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien\u2026 [+3011 chars]"
+            "author": "Shaurya Malwa",
+            "title": "Ether ETFs Record Biggest Outflows Since July in Sign of Low Institutional Appeal",
+            "description": "The outflow come despite a broader crypto market rally fueled by recent Federal Reserve rate cuts, which helped lift ether prices by 11% over the past week.",
+            "url": "https://www.coindesk.com/markets/2024/09/24/ether-etfs-record-biggest-outflows-since-july-in-sign-of-low-institutional-appeal/",
+            "urlToImage": "https://www.coindesk.com/resizer/idw1VuTrfEV5shpBdEx6yholJi8=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/3USOSKIPJBBVTPYQJNLGTVIDNE.jpg",
+            "publishedAt": "2024-09-24T06:11:33Z",
+            "content": "Please note that ourprivacy policy,terms of use,cookies, anddo not sell my personal informationhas been updated.\r\nCoinDesk is anaward-winningmedia outlet that covers the cryptocurrency industry. Its \u2026 [+593 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ZyCrypto"
+            },
+            "author": "Brenda Ngari",
+            "title": "China Remains The World\u2019s Largest Bitcoin Mining Hub Despite Crypto Ban",
+            "description": "China sought to completely ban Bitcoin mining within its territory, but a couple of years later, Bitcoin continues to hum along\u2014and it's stronger than it\u2019s ever been.",
+            "url": "https://zycrypto.com/china-remains-the-worlds-largest-bitcoin-mining-hub-despite-crypto-ban/",
+            "urlToImage": "https://zycrypto.com/wp-content/uploads/2022/09/Texas-Bitcoin-Mining-Boom-Might-Be-Reaching-Its-End-But-Grid-Operators-Are-The-Happiest-Heres-Why.jpg",
+            "publishedAt": "2024-09-24T06:10:50Z",
+            "content": "Recent data reveals a surprising trend in the Bitcoin mining sector: Chinese miners continue to control the lions share of the worlds hash rate of the BTC network despite the country banning the prac\u2026 [+2264 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Investing.com"
+            },
+            "author": "Investing.com",
+            "title": "Bitcoin price today: stalls at $63k as rebound peters out, more Fed cues awaited",
+            "description": "Bitcoin price today: stalls at $63k as rebound peters out, more Fed cues awaited",
+            "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-stalls-at-63k-as-rebound-stalls-more-fed-cues-awaited-3629034",
+            "urlToImage": "https://i-invdn-com.investing.com/news/moved_LYNXMPEHAF0OC_L.jpg",
+            "publishedAt": "2024-09-24T06:06:48Z",
+            "content": "Investing.com-- Bitcoins price fell on Tuesday as a recent rebound ran out of steam even as capital inflows persisted, with focus turning squarely to a slew of cues on U.S. interest rates due this we\u2026 [+1953 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ETF Daily News"
+            },
+            "author": "MarketBeat News",
+            "title": "Digihost Technology (OTCMKTS:HSSHF) Shares Down 4.2%",
+            "description": "Digihost Technology Inc. (OTCMKTS:HSSHF \u2013 Get Free Report)\u2019s share price traded down 4.2% during mid-day trading on Monday . The stock traded as low as $1.55 and last traded at $1.57. 403,700 shares traded hands during trading, an increase of 12% from the ave\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/24/digihost-technology-otcmktshsshf-shares-down-4-2/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/digihost-technology-inc-logo-1200x675.png?v=20230320104829&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-24T06:00:26Z",
+            "content": "Digihost Technology Inc. (OTCMKTS:HSSHF \u2013 Get Free Report)\u2019s share price traded down 4.2% during mid-day trading on Monday . The stock traded as low as $1.55 and last traded at $1.57. 403,700 shares \u2026 [+841 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ETF Daily News"
+            },
+            "author": "MarketBeat News",
+            "title": "Rambus (NASDAQ:RMBS) and Sequans Communications (NYSE:SQNS) Financial Comparison",
+            "description": "Sequans Communications (NYSE:SQNS \u2013 Get Free Report) and Rambus (NASDAQ:RMBS \u2013 Get Free Report) are both computer and technology companies, but which is the better investment? We will contrast the two businesses based on the strength of their valuation, profi\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/24/rambus-nasdaqrmbs-and-sequans-communications-nysesqns-financial-comparison/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/rambus-inc-logo-1200x675.jpeg&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-24T05:51:23Z",
+            "content": "Sequans Communications (NYSE:SQNS \u2013 Get Free Report) and Rambus (NASDAQ:RMBS \u2013 Get Free Report) are both computer and technology companies, but which is the better investment? We will contrast the tw\u2026 [+5197 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Themarkup.org"
+            },
+            "author": "shannon_mattern",
+            "title": "How AI Detection Software Turns Professors into Cops, Tech as Systems of World-Making, and More \u2013 The Markup",
+            "description": "Because I am a scholar of science and technology studies (STS), I\u2019ve been following AI\u2019s development for some time. I won\u2019t credit myself with being one of the early whistleblowers on this, but it has a specific contour that we talk about as \u201chype cycles.\u201d\n\nT\u2026",
+            "url": "https://themarkup.org/hello-world/2024/09/21/maywa-montenegro-agroecology-pegagogy-ai",
+            "urlToImage": "https://mrkp-static-production.themarkup.org/uploads/2024/09/hello-world-ai-classroom_reduced-1200x628.jpg",
+            "publishedAt": "2024-09-24T05:47:02Z",
+            "content": "Hello again,\r\nTwo weeks ago I shared how I was trying to find an ethical way to use generative AI in the newsroom. As I was writing that article, I came across someone who was thinking about the same\u2026 [+14789 chars]"
         },
         {
             "source": {
                 "id": null,
                 "name": "Ambcrypto.com"
             },
-            "author": "Akashnath S",
-            "title": "Bitcoin: Profit-taking sparks questions over BTC\u2019s bull run",
-            "description": "The SOPR chart showed that price appreciation periods are naturally accompanied by holders taking profits.",
-            "url": "https://ambcrypto.com/bitcoin-profit-taking-sparks-questions-over-btcs-bull-run/",
-            "urlToImage": "https://ambcrypto.com/wp-content/uploads/2024/09/Bitcoin-Featured-3.webp",
-            "publishedAt": "2024-09-23T05:00:52Z",
-            "content": "<ul><li>Bitcoin faces key resistance at the $63.9k level.</li><li>Profit-taking activity is natural during price appreciation and does not necessarily mark cycle tops.</li></ul>Bitcoin [BTC] has been\u2026 [+1964 chars]"
+            "author": "AMBCrypto Team",
+            "title": "HashKey Global Introduces Industry-First Zero-Fee Futures Trading, Sights on Becoming World\u2019s Largest Licensed Futures Exchange",
+            "description": "HashKey Global, a licensed virtual asset exchange, has announced the launch of a zero-fee campaign [\u2026]",
+            "url": "https://ambcrypto.com/hashkey-global-introduces-industry-first-zero-fee-futures-trading-sights-on-becoming-worlds-largest-licensed-futures-exchange/",
+            "urlToImage": "https://ambcrypto.com/wp-content/uploads/2024/09/photo_2024-09-24_10-12-31-1000x600.jpg",
+            "publishedAt": "2024-09-24T05:41:26Z",
+            "content": "HashKey Global, a licensed virtual asset exchange, has announced the launch of a zero-fee campaign for futures trading, set to go live on September 27, 2024. Aiming to become the worlds largest licen\u2026 [+2882 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Bitcoinist"
+                "name": "Inter Press Service"
             },
-            "author": "Scott Matherson",
-            "title": "Ripple Co-Founder Transfers 20 Million XRP, Sparking Selloff Fears And Wallet Hack Concerns",
-            "description": "An XRP wallet which likely belongs to Chris Larsen, one of the largest holders of XRP, has made another notable transaction in what looks like a preparation for a selloff. The transaction, which took place within the last 48 hours, triggered a series of subse\u2026",
-            "url": "https://bitcoinist.com/ripple-co-founder-transfers-20-million-xrp-sparking-selloff-fears-and-wallet-hack-concerns/",
-            "urlToImage": "https://bitcoinist.com/wp-content/uploads/2024/09/a_bc6f14.jpg",
-            "publishedAt": "2024-09-23T05:00:48Z",
-            "content": "An XRP wallet which likely belongs to Chris Larsen, one of the largest holders of XRP, has made another notable transaction in what looks like a preparation for a selloff. The transaction, which took\u2026 [+2827 chars]"
+            "author": "Shafik Hebous and Nate Vernon-Lin",
+            "title": "Carbon Emissions from AI and Crypto are Surging\u2013 and Tax Policy Can Help",
+            "description": "What do crypto assets and artificial intelligence have in common? Both are power hungry. Because of the electricity used by high-powered equipment to \u201cmine\u201d crypto assets, one Bitcoin transaction requires roughly the same amount of electricity as the average \u2026",
+            "url": "https://www.ipsnews.net/2024/09/carbon-emissions-ai-crypto-surging-tax-policy-can-help/",
+            "urlToImage": "https://www.ipsnews.net/Library/2024/09/crypto-and_.jpg",
+            "publishedAt": "2024-09-24T05:37:32Z",
+            "content": "Climate Action, Climate Change, Energy, Environment, Global, Headlines, Sustainable Development Goals, TerraViva United NationsOpinion\r\nCredit: Kodfilm/iStock by Getty Images via IMF\r\nWASHINGTON DC, \u2026 [+4178 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Biztoc.com"
+                "name": "Business Standard"
             },
-            "author": "news.google.com",
-            "title": "Kamala Harris finally breaks silence on crypto: Report",
-            "description": "Kamala Harris finally breaks silence on crypto: Report Cointelegraph\nHarris Vows to Aid AI, Crypto Sectors in Pitch to NYC Donors Bloomberg\nTrump\u2019s Shortest-Lived Aide Is \u2018Working Alongside\u2019 Kamala Harris The Daily Beast\nKamala Harris Courts AI, Crypto Indust\u2026",
-            "url": "https://biztoc.com/x/dff8c0e36abf4cf9",
-            "urlToImage": "https://biztoc.com/cdn/802/og.png",
-            "publishedAt": "2024-09-23T04:39:31Z",
-            "content": "Kamala Harris finally breaks silence on crypto: Report CointelegraphHarris Vows to Aid AI, Crypto Sectors in Pitch to NYC Donors BloombergTrumps Shortest-Lived Aide Is Working Alongside Kamala Harris\u2026 [+135 chars]"
+            "author": "Rimjhim Singh",
+            "title": "India seeks FATF oversight for online gaming to curb money laundering risks",
+            "description": "If the FATF includes the sector within the AML/CFT framework, gaming platforms would need to adhere to KYC norms and report suspicious transactions, including identifying their beneficial owners",
+            "url": "https://www.business-standard.com/industry/news/india-seeks-fatf-oversight-for-online-gaming-to-curb-money-laundering-risks-124092400264_1.html",
+            "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2023-06/01/thumb/featurecrop/400X400/1685618216-6424.jpeg",
+            "publishedAt": "2024-09-24T05:35:43Z",
+            "content": "If the FATF includes the sector within the AML/CFT framework, gaming platforms would need to adhere to KYC norms and report suspicious transactions, including identifying their beneficial owners\r\nRep\u2026 [+2409 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Biztoc.com"
+                "name": "Livemint"
             },
-            "author": "coindesk.com",
-            "title": "Harris Says Her White House Will 'Invest in America's Future' Which Includes 'Digital Assets'",
-            "description": "Democratic nominee Kamala Harris has made her first remarks on crypto to donors in NYC during a fundraising dinner.\n- Prediction market Polymarket is giving Harris a significant lead over Donald Trump with over $980 million bet on the platform.\n- Uniswap's Ha\u2026",
-            "url": "https://biztoc.com/x/6cd0bdba86f45e32",
-            "urlToImage": "https://biztoc.com/cdn/6cd0bdba86f45e32_s.webp",
-            "publishedAt": "2024-09-23T04:39:09Z",
-            "content": "Democratic nominee Kamala Harris has made her first remarks on crypto to donors in NYC during a fundraising dinner.- Prediction market Polymarket is giving Harris a significant lead over Donald Trump\u2026 [+134 chars]"
+            "author": "Livemint",
+            "title": "OpenAI account compromised, hacker circulates fraudulent and fake crypto token posts on X",
+            "description": "OpenAI's account on X was hacked, leading to unauthorized posts about a fake crypto token. The company said it is investigating the incident, which follows previous account takeovers involving its employees and fraudulent posts related to crypto.",
+            "url": "https://www.livemint.com/companies/news/openai-news-account-x-twitter-compromised-hacker-sends-crypto-token-posts-false-fraud-cybersecurity-sam-altman-elon-musk-11727151304421.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2024/09/24/1600x900/OpenAI_account_hacked_X_Twitter_fake_crypto_posts_1727154095048_1727154095227.JPG",
+            "publishedAt": "2024-09-24T05:10:55Z",
+            "content": "Artificial technology start-up OpenAI, on September 23, said that an unauthorised individual \"compromised\" one of its official accounts on social media platform X (formerly known as Twitter), Bloombe\u2026 [+2005 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "newsBTC"
+            },
+            "author": "Samuel Edyme",
+            "title": "Bitcoin Set for Major Bull Run? These 3 On-Chain Metrics Signal A Turning Point",
+            "description": "Recent data from CryptoQuant has revealed that Bitcoin may be on the cusp of a significant recovery, supported by key on-chain metrics. Particularly, according to a CryptoQuant analyst under the pseudonym Darkfost, several indicators are reaching crucial supp\u2026",
+            "url": "http://www.newsbtc.com/bitcoin-news/bitcoin-set-for-major-bull-run-these-3-on-chain-metrics-signal-a-turning-point/",
+            "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/09/DALL\u00b7E-2024-09-23-17.53.47-A-digital-illustration-depicting-Bitcoin-potentially-set-for-a-major-bull-run-with-a-focus-on-three-key-on-chain-metrics-signaling-a-turning-point.-T.jpg?fit=1024%2C1024",
+            "publishedAt": "2024-09-24T05:00:05Z",
+            "content": "Meet Samuel Edyme, Nickname - HIM-buktu. A web3 content writer, journalist, and aspiring trader, Edyme is as versatile as they come. With a knack for words and a nose for trends, he has penned pieces\u2026 [+2806 chars]"
         },
         {
             "source": {
@@ -86,272 +164,25 @@
                 "name": "International Business Times"
             },
             "author": "Marvie Basilan",
-            "title": "EXCLUSIVE: Bitpace CEO Talks About The State Of Global Crypto Regulation",
-            "description": "Regulatory clarity remains a pain point for the crypto industry, more than a decade after the first cryptocurrency emerged \u2013 how is the global regulatory landscape catching up to a fast-evolving industry?",
-            "url": "https://www.ibtimes.com/exclusive-bitpace-ceo-talks-about-state-global-crypto-regulation-3744247",
-            "urlToImage": "https://d.ibtimes.com/en/full/4488034/2.jpg",
-            "publishedAt": "2024-09-23T04:33:06Z",
-            "content": "KEY POINTS\r\n<ul><li>The IMF previously warned of growing concern over the lack of a global regulatory framework</li><li>Europe-based crypto firms see MiCA as an 'opportunity for Europe to emerge as a\u2026 [+7209 chars]"
+            "title": "Base Around The World: Celebrating Global Builders In Africa, India, SEA, LATAM",
+            "description": "Base launched a global campaign to celebrate the work builders outside the U.S. are contributing to the growth of the broader blockchain space.",
+            "url": "https://www.ibtimes.com/base-around-world-celebrating-global-builders-africa-india-sea-latam-3744361",
+            "urlToImage": "https://d.ibtimes.com/en/full/4550001/base-around-world.jpg",
+            "publishedAt": "2024-09-24T04:38:48Z",
+            "content": "KEY POINTS\r\n<ul><li>Base Around the World has a total prize pool of 100 Ethereum</li><li>The Base team will hold in-person meetups within the said regions in November</li><li>Pollak said Base is on a\u2026 [+2570 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "The Star Online"
+                "name": "Crypto Briefing"
             },
-            "author": "Shruti Mahajan",
-            "title": "Crypto ads flood India top court\u2019s YouTube page as hack feared",
-            "description": "The official YouTube channel of the Supreme Court of India that was used for streaming proceedings was purportedly compromised by hackers on Sept 20 showing crypto advertisements. Read full story",
-            "url": "https://www.thestar.com.my/tech/tech-news/2024/09/23/crypto-ads-flood-india-top-courts-youtube-page-as-hack-feared",
-            "urlToImage": "https://apicms.thestar.com.my/uploads/images/2024/09/23/2926507.jpg",
-            "publishedAt": "2024-09-23T04:30:00Z",
-            "content": "The official YouTube channel of the Supreme Court of India that was used for streaming proceedings was purportedly compromised by hackers on Sept 20 showing crypto advertisements.\r\nThe channel was up\u2026 [+589 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "newsBTC"
-            },
-            "author": "Aayush Jindal",
-            "title": "XRP Price Could Soon Surge: Can Bulls Fuel the Rally?",
-            "description": "XRP price is attempting an upside break above $0.600. The price is showing positive signs, but a weekly close above $0.600 is needed for a fresh surge. XRP price started another increase toward the $0.6050 zone. The price is now trading above $0.5880 and the \u2026",
-            "url": "http://www.newsbtc.com/analysis/xrp/xrp-price-could-surge-0-60/",
-            "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/09/XRP-Rise_33b866.jpg?fit=1792%2C1024",
-            "publishedAt": "2024-09-23T04:28:47Z",
-            "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien\u2026 [+3011 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Ambcrypto.com"
-            },
-            "author": "Dipayan Mitra",
-            "title": "Will Solana drop to $85 again? Key metrics show warning signs",
-            "description": "Will Solana drop to $85 again? See what the metrics tell about that outcome..",
-            "url": "https://ambcrypto.com/will-solana-drop-to-85-again-key-metrics-show-warning-signs/",
-            "urlToImage": "https://ambcrypto.com/wp-content/uploads/2024/09/Solana-to-85-again-1000x600.webp",
-            "publishedAt": "2024-09-23T04:00:16Z",
-            "content": "<ul><li>Solanas trading volume and weighted sentiment dropped in the last few days.\u00a0</li><li>SOL can make a rebound if it drops to $144.\u00a0</li></ul>Solana [SOL] bulls have managed to maintain their ad\u2026 [+1886 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "Nikhil Agarwal",
-            "title": "What are 'dal chawal' mutual funds? Edelweiss CEO Radhika Gupta busts the myth",
-            "description": "Edelweiss Mutual Fund CEO Radhika Gupta suggests investors design portfolios like an Indian 'dal chawal thaali', with 80% in stable, digestible funds and 20% in thematic ones. She emphasizes simplicity and understandability in investments, recommending multi-\u2026",
-            "url": "https://economictimes.indiatimes.com/markets/expert-view/what-are-dal-chawal-mutual-funds-edelweiss-ceo-radhika-gupta-clears-the-myth/articleshow/113584294.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-113584420,width-1200,height-630,imgsize-52220,overlay-etmarkets/photo.jpg",
-            "publishedAt": "2024-09-23T03:54:57Z",
-            "content": "Just like the food on your plate, investing too is very personal. But then why is Edelweiss Mutual Fund CEO Radhika Gupta asking investors to design portfolios like an Indian 'dal chawal thaali'?In a\u2026 [+5421 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Decrypt"
-            },
-            "author": "Sebastian Sinclair",
-            "title": "Bitcoin Rises to Test One Month High as Rate Cut Euphoria Fades",
-            "description": "With much of the rate cut-related euphoria and speculation now in the rearview, crypto prices may take a pause, some analysts have forecast.",
-            "url": "https://decrypt.co/250712/bitcoin-rises-to-test-one-month-high-as-rate-cut-euphoria-fades",
-            "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/06/bitcoin-btc-price-chart-gID_7.jpeg",
-            "publishedAt": "2024-09-23T03:13:48Z",
-            "content": "On Monday, Bitcoin traded just shy of its month-long high, extending last week's gains in crypto and risk assets, including stocks, following the U.S. Federal Reserves rate hike decision.\r\nThe Fed lo\u2026 [+2382 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Ambcrypto.com"
-            },
-            "author": "Adewale Olarinde",
-            "title": "Bitcoin whales realize $1.8B in profits: Will the momentum hold?",
-            "description": "Bitcoin whales have started taking profit as price sees uptrends. Will BTC be able to maintain a positive trend with the current profit-taking?",
-            "url": "https://ambcrypto.com/bitcoin-whales-realize-1-8b-in-profits-will-the-momentum-hold/",
-            "urlToImage": "https://ambcrypto.com/wp-content/uploads/2024/09/Bitcoin-1-6.webp",
-            "publishedAt": "2024-09-23T03:00:33Z",
-            "content": "<ul><li>BTC has declined by around 1% at press time.</li><li>Short-holders remain in profit despite the decline in the last 24 hours.\u00a0</li></ul>Bitcoin [BTC] has recently lifted the mood of the crypt\u2026 [+2119 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ComputerWeekly.com"
-            },
-            "author": "Joe Fay",
-            "title": "Driving IT sustainability in datacentres",
-            "description": "Europe\u2019s datacentre operators need to get their power report cards to comply with the European Commission\u2019s drive to greener EU datacentres",
-            "url": "https://www.computerweekly.com/feature/Driving-IT-sustainability-in-datacentres",
-            "urlToImage": "https://cdn.ttgtmedia.com/visuals/ComputerWeekly/Hero Images/datacentre-management-5-fotolia.jpg",
-            "publishedAt": "2024-09-23T03:00:00Z",
-            "content": "If your local datacentre is running a little hotter than usual this month, that could be because its operators are crunching the data they now need to report under the European Unions (EU) energy eff\u2026 [+8603 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "Someswar Boral",
-            "title": "4 held in Kolkata for duping Visva-Bharati student in crypto scam, leading to suicide",
-            "description": "Birbhum police have arrested four Kolkata residents for allegedly scamming Visva-Bharati student Anamika Singh out of Rs 2.3 lakh through a fraudulent crypto investment app. Singh, who had borrowed money to invest, committed suicide after consuming poison. Th\u2026",
-            "url": "https://timesofindia.indiatimes.com/city/kolkata/4-held-in-kolkata-for-duping-visva-bharati-student-in-crypto-scam-leading-to-suicide/articleshow/113582147.cms",
-            "urlToImage": "https://static.toiimg.com/thumb/msid-113582230,width-1070,height-580,imgsize-1945451,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-            "publishedAt": "2024-09-23T02:12:38Z",
-            "content": "How to make easy dump &amp; dine Tofu Salad for dinner"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Slate Magazine"
-            },
-            "author": "Alex Kirshner",
-            "title": "What HBO\u2019s Sleeper Hit Does Better Than Anything Else on TV Right Now",
-            "description": "ESGs, meme stocks, financial institution collapse\u2014this is Industry\u2019s bread and butter.",
-            "url": "https://slate.com/culture/2024/09/industry-hbo-season-3-episode-7-harper-yasmin-pierpoint-bank-buyout-esg-finance.html",
-            "urlToImage": "https://compote.slate.com/images/2c3edfe5-5963-4149-9bb7-499f00f7b01f.jpeg?crop=1560%2C1040%2Cx0%2Cy0&width=1560",
-            "publishedAt": "2024-09-23T02:00:00Z",
-            "content": "The biggest stories in the financial markets in the 2020s have resolved around silliness. The bizarre nature of modern markets has taken different forms, but youve never needed a finance degree to un\u2026 [+8639 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "GlobeNewswire"
-            },
-            "author": "OKX",
-            "title": "McLaren F1 Team's Lando Norris and Oscar Piastri Secure Podium Finish at Singapore Grand Prix with MCL38 in OKX Legend Reborn Livery",
-            "description": "SINGAPORE, Sept.  23, 2024  (GLOBE NEWSWIRE) -- OKX, a global onchain technology company, has issued updates for September 23.      McLaren F1 Team's...",
-            "url": "https://www.globenewswire.com/news-release/2024/09/23/2951018/0/en/McLaren-F1-Team-s-Lando-Norris-and-Oscar-Piastri-Secure-Podium-Finish-at-Singapore-Grand-Prix-with-MCL38-in-OKX-Legend-Reborn-Livery.html",
-            "urlToImage": "https://ml.globenewswire.com/Resource/Download/7d46492f-0db0-46e3-a7a5-a57cc0fb4256",
-            "publishedAt": "2024-09-23T01:47:00Z",
-            "content": "SINGAPORE, Sept. 23, 2024 (GLOBE NEWSWIRE) -- OKX, a global onchain technology company, has issued updates for September 23.\r\nMcLaren F1 Team's Lando Norris and Oscar Piastri Secure Podium Finish at \u2026 [+2601 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Tistory.com"
-            },
-            "author": "T.B",
-            "title": "\uae40\uac74\ud76c \uac8c\uc774\ud2b8(Rolex Gate) 137 (. \ud2b8\ud575\uad00)",
-            "description": "Italy\u2019s finance minister tells Meloni coalition that the budget must match EU pledges https://t.co/LEJAF6BH2N via @Alemrome pic.twitter.com/1dwDBgHwwN\u2014 Zoe Schneeweiss (@ZSchneeweiss) August 30, 2024\u00a0Italy is looking to build nuclear reactors by creating a ne\u2026",
-            "url": "https://ryueyes11.tistory.com/511004",
-            "urlToImage": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FMO96W%2FbtsJGXMP9Tk%2FnanzbPIShV9k2AZd2hQueK%2Fimg.jpg",
-            "publishedAt": "2024-09-23T01:46:22Z",
-            "content": "Italy\u2019s finance minister tells Meloni coalition that the budget must match EU pledges https://t.co/LEJAF6BH2N via @Alemromepic.twitter.com/1dwDBgHwwN\r\n\u2014 Zoe Schneeweiss (@ZSchneeweiss) August 30, 202\u2026 [+35964 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Ozbargain.com.au"
-            },
-            "author": "Looking4Bargians",
-            "title": "NordVPN: 90% Cashback (New NordVPN Customers Only) @ Cashrewards",
-            "description": "Special terms\nEligible for new NordVPN customers only.\n\nCashback is calculated and paid on the advertised cost of the plan only. It will exclude upsold products, GST, other taxes, credit card or PayPal surcharges.\n\nThe transaction sale value reports to us in \u2026",
-            "url": "https://www.ozbargain.com.au/node/867807",
-            "urlToImage": "https://files.ozbargain.com.au/n/07/867807x.jpg?h=6d3c598a",
-            "publishedAt": "2024-09-23T01:45:34Z",
-            "content": "Special termsEligible for new NordVPN customers only.\r\nCashback is calculated and paid on the advertised cost of the plan only. It will exclude upsold products, GST, other taxes, credit card or PayPa\u2026 [+727 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Digital Journal"
-            },
-            "author": "AFP",
-            "title": "Bibles, sneakers, silver coins: Trump\u2019s merch for sale",
-            "description": "He built on his father\u2019s real estate empire and turned the family\u2019s millions into billions, but Donald Trump has not stuck to selling merely buildings. In the past, the Republican candidate for the White House has flogged everything from steaks to \u201cTrump Univ\u2026",
-            "url": "https://www.digitaljournal.com/world/bibles-sneakers-silver-coins-trumps-merch-for-sale/article",
-            "urlToImage": "https://www.digitaljournal.com/wp-content/uploads/2024/09/e502c7cfd6922d2871539ce2c59d089f476a2d43.jpg",
-            "publishedAt": "2024-09-23T01:43:06Z",
-            "content": "Donald Trump has been putting his name on merchandise for years, and this presidential campaign is no different - Copyright AFP Luis ACOSTA\r\nHe built on his father\u2019s real estate empire and turned the\u2026 [+3632 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "International Business Times"
-            },
-            "author": "Camille CAMDESSUS",
-            "title": "Bibles, Sneakers, Silver Coins: Trump's Merch For Sale",
-            "description": "He built on his father's real estate empire and turned the family's millions into billions, but Donald Trump has not stuck to selling merely buildings.",
-            "url": "https://www.ibtimes.com/bibles-sneakers-silver-coins-trumps-merch-sale-3744233",
-            "urlToImage": "https://d.ibtimes.com/en/full/4549763/donald-trump-has-been-putting-his-name-merchandise-years-this-presidential-campaign-no.jpg",
-            "publishedAt": "2024-09-23T01:42:13Z",
-            "content": "He built on his father's real estate empire and turned the family's millions into billions, but Donald Trump has not stuck to selling merely buildings.\r\nIn the past, the Republican candidate for the \u2026 [+3366 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Slashdot.org"
-            },
-            "author": "EditorDavid",
-            "title": "Germany Seizes 47 Crypto Exchanges Used By Ransomware Gangs",
-            "description": "German law enforcement seized 47 cryptocurrency exchange services \"that facilitated illegal money laundering activities for cybercriminals,\" according to BleepingComputer, \"including ransomware gangs.\" \n\nLong-time Slashdot reader Arrogant-Bastard shares their\u2026",
-            "url": "https://news.slashdot.org/story/24/09/23/0018238/germany-seizes-47-crypto-exchanges-used-by-ransomware-gangs",
-            "urlToImage": "https://a.fsdn.com/sd/topics/money_64.png",
-            "publishedAt": "2024-09-23T01:41:00Z",
-            "content": "German law enforcement seized 47 cryptocurrency exchange services \"that facilitated illegal money laundering activities for cybercriminals,\" according to BleepingComputer, \"including ransomware gangs\u2026 [+1343 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "AFP",
-            "title": "Bibles, Kicks, and Coins: Donald Trump\u2019s election merch line offers something for everyone",
-            "description": "US Presidential Election 2024: Donald Trump, leveraging his business acumen, has ventured into selling various items centered around his image. These include Bibles, sneakers, suit fragments, and silver coins. Despite past controversies with ventures like Tru\u2026",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/bibles-kicks-and-coins-donald-trumps-election-merch-line-offers-something-for-everyone/articleshow/113581821.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-113581941,width-1200,height-630,imgsize-34088,overlay-economictimes/photo.jpg",
-            "publishedAt": "2024-09-23T01:36:56Z",
-            "content": "He built on his father's real estate empire and turned the family's millions into billions, but Donald Trump has not stuck to selling merely buildings.In the past, the Republican candidate for the Wh\u2026 [+3550 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Yahoo Entertainment"
-            },
-            "author": "Camille CAMDESSUS",
-            "title": "Bibles, sneakers, silver coins: Trump's merch for sale",
-            "description": "He built on his father's real estate empire and turned the family's millions into billions, but Donald Trump has not stuck to selling merely...",
-            "url": "https://www.yahoo.com/entertainment/bibles-sneakers-silver-coins-trumps-013416111.html",
-            "urlToImage": "https://media.zenfs.com/en/afp.com/60d405ee6c9fc35e2167e5d85b08324e",
-            "publishedAt": "2024-09-23T01:34:16Z",
-            "content": "He built on his father's real estate empire and turned the family's millions into billions, but Donald Trump has not stuck to selling merely buildings.\r\nIn the past, the Republican candidate for the \u2026 [+3510 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "heise online"
-            },
-            "author": "Stefan Krempl",
-            "title": "Crypto Wars: Hungarian Presidency continues fight against encryption",
-            "description": "According to a draft by the Council, EU member states should implement recommendations from the \"Going Dark\" expert group to address the \"encryption problem\".",
-            "url": "https://www.heise.de/en/news/Crypto-Wars-Hungarian-Presidency-continues-fight-against-encryption-9939732.html",
-            "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/4/6/7/4/0/6/2/shutterstock_1099002740-91479fefadcd9774.jpg",
-            "publishedAt": "2024-09-23T01:27:12Z",
-            "content": "Contents\r\nThis article was originally published in\r\nGerman\r\nand has been automatically translated.\r\nThe Hungarian Presidency of the Council of the EU has proposed that the highly controversial consid\u2026 [+4356 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Decrypt"
-            },
-            "author": "Sebastian Sinclair",
-            "title": "Kamala Harris Courts AI, Crypto Industries During Fundraising Event in New York",
-            "description": "Speaking to donors at a fundraiser in New York on Sunday, Harris outlined her economic agenda, including vaguely stoking growth in crypto.",
-            "url": "https://decrypt.co/250710/kamala-harris-ai-crypto-industries-fundraising-event-new-york",
-            "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/07/kamala-harris-vp-2024-candidate-gID_7.jpg",
-            "publishedAt": "2024-09-23T00:43:55Z",
-            "content": "U.S. Vice President Kamala Harris has promised to promote the growth of crypto if she wins the presidency, marking the first time the Democratic nominee has addressed the industry publicly on the cam\u2026 [+2963 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "Reuters",
-            "title": "Donald Trump says he will not run again if he loses in November, 'that will be it'",
-            "description": "US Presidential Election 2024: Donald Trump has stated he will not pursue a fourth presidential run if he loses the upcoming election against Kamala Harris. The former president, facing legal challenges and a tight race, emphasized that this would be his fina\u2026",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/donald-trump-says-he-will-not-run-again-if-he-loses-in-november-that-will-be-it/articleshow/113581473.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-113581489,width-1200,height-630,imgsize-94202,overlay-economictimes/photo.jpg",
-            "publishedAt": "2024-09-23T00:43:52Z",
-            "content": "Republican Donald Trump said that he will not make a fourth consecutive run for the U.S. presidency if he loses the Nov. 5 election, saying \"that will be it\" in an interview released on Sunday.Asked \u2026 [+1941 chars]"
+            "author": "Vivian Nguyen",
+            "title": "US Ethereum ETFs see largest single-day loss since late July as Grayscale Trust sheds $80 million",
+            "description": "Significant outflows from US Ethereum ETFs highlight investor uncertainty and may impact the broader cryptocurrency market's stability.\nThe post US Ethereum ETFs see largest single-day loss since late July as Grayscale Trust sheds $80 million appeared first o\u2026",
+            "url": "https://cryptobriefing.com/ethereum-etf-outflows-record/",
+            "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2024/09/24001916/img-S0aW9HDij0YDpCbA78Ek3PhJ-800x457.jpg",
+            "publishedAt": "2024-09-24T04:23:31Z",
+            "content": "Key Takeaways\r\n<ul><li>Grayscale's Ethereum Trust led the outflows with over $80 million withdrawn in one day.</li><li>Bitwise's Ethereum ETF was the only fund without outflows, gaining over $1 milli\u2026 [+1409 chars]"
         },
         {
             "source": {
@@ -359,38 +190,103 @@
                 "name": "NDTV News"
             },
             "author": null,
-            "title": "\"That Will Be It\": Trump Says He Will Not Run Again If He Loses In November",
-            "description": "Republican Donald Trump said that he will not make a fourth consecutive run for the U.S. presidency if he loses the Nov. 5 election, saying \"that will be it\" in an interview released on Sunday.",
-            "url": "https://www.ndtv.com/world-news/us-presidential-elections-donald-trump-says-he-will-not-run-again-if-he-loses-in-november-6626686",
-            "urlToImage": "https://c.ndtvimg.com/2024-09/mbnpba5o_donald-trump-reuters_625x300_23_September_24.jpeg",
-            "publishedAt": "2024-09-23T00:40:53Z",
-            "content": "Donald Trump announced his latest White House bid two years ago in November 2022.\r\nWASHINGTON: Republican Donald Trump said that he will not make a fourth consecutive run for the U.S. presidency if h\u2026 [+2100 chars]"
+            "title": "Open AI's X Account Compromised, Crypto Posts Sent By Unauthorized User",
+            "description": "OpenAI said one of its accounts on X was compromised on Monday when an unauthorized individual sent out posts soliciting users to click through to a crypto token falsely claiming to be related to the artificial intelligence startup.",
+            "url": "https://www.ndtv.com/india-ai/open-ais-x-account-compromised-crypto-posts-sent-by-unauthorized-user-6635979",
+            "urlToImage": "https://c.ndtvimg.com/2024-09/vokagfng_open-ai-generic_625x300_24_September_24.jpeg",
+            "publishedAt": "2024-09-24T04:21:14Z",
+            "content": "This isn't the first instance of a fraudulent crypto-related post from an account linked to OpenAI\r\nOpenAI said one of its accounts on X was compromised on Monday when an unauthorized individual sent\u2026 [+1256 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Binance.com"
+                "name": "newsBTC"
             },
-            "author": null,
-            "title": "Marketing Campaign | Binance",
-            "description": "Binance cryptocurrency exchange - We operate the worlds biggest bitcoin exchange and altcoin crypto exchange in the world by volume",
-            "url": "https://www.binance.com/en/activity/marketing-campaign/a5c088e7b2114398bdb489ae1ccb5dd3",
-            "urlToImage": "https://public.bnbstatic.com/static/images/common/ogImage.jpg",
-            "publishedAt": "2024-09-23T00:30:18Z",
-            "content": "This is a general announcement. Products and services referred to here may not be available in your region.\r\nFellow Binancians,\r\nBinance Futures is launching three promotions for eligible users to pa\u2026 [+7275 chars]"
+            "author": "Aayush Jindal",
+            "title": "XRP Price Defends Support: Will Bulls Take Over?",
+            "description": "XRP price is consolidating above the $0.5785 support. The price must settle above $0.5920 and $0.600 to start a fresh increase in the near term. XRP price is still trading below the $0.600 resistance zone. The price is now trading below $0.590 and the 100-hou\u2026",
+            "url": "http://www.newsbtc.com/analysis/xrp/xrp-price-defends-support-0-5780/",
+            "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/09/XRP-Support.jpg?fit=1792%2C1024",
+            "publishedAt": "2024-09-24T04:18:39Z",
+            "content": "Aayush Jindal, a luminary in the world of financial markets, whose expertise spans over 15 illustrious years in the realms of Forex and cryptocurrency trading. Renowned for his unparalleled proficien\u2026 [+3011 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Techreport.com"
+                "name": "Ambcrypto.com"
             },
-            "author": "Rida Fatima",
-            "title": "Nic Carter Says Fed\u2019s \u201cOperation Choke Point 2.0\u201d Collapsed Crypto Banking, Cites Silvergate Bank Implosion",
-            "description": "The crypto industry has recorded increasingly stringent regulation from US authorities. As such, crypto natives have tagged the strict regulatory approach as \u201cOperation Choke Point 2.0.\u201d\u00a0 The regulatory method has...\nThe post Nic Carter Says Fed\u2019s \u201cOperation \u2026",
-            "url": "https://techreport.com/crypto-news/nic-carter-says-feds-operation-choke-point-2-0-collapsed-crypto-banking-cites-silvergate-bank-implosion/",
-            "urlToImage": "https://techreport.com/wp-content/uploads/2024/09/Screenshot-2024-09-23-at-5.10.27\u202fAM.png?_t=1727050343",
-            "publishedAt": "2024-09-23T00:12:19Z",
-            "content": "The crypto industry has recorded increasingly stringent regulation from US authorities. As such, crypto natives have tagged the strict regulatory approach as Operation Choke Point 2.0.\u00a0\r\nThe regulato\u2026 [+3525 chars]"
+            "author": "Lennox Gitonga",
+            "title": "Popcat soars by 18% in 24 hours: Will it hit $2 in 2024?",
+            "description": "POPCAT shows bullish potential, aiming for $2 with strong market support.",
+            "url": "https://ambcrypto.com/popcat-soars-by-18-in-24-hours-will-it-hit-2-in-2024/",
+            "urlToImage": "https://ambcrypto.com/wp-content/uploads/2024/09/Lennox-POPCAT-1000x600.webp",
+            "publishedAt": "2024-09-24T04:15:11Z",
+            "content": "<ul><li>As of press time, Popcat led by gains in the last 24 hours for the top 100 cryptos.</li><li>Open interests, funding rates and aggregated liquidations all showing positivity.</li></ul>Solana [\u2026 [+2811 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Matthew Fox",
+            "title": "Stock market today: Dow ends at a record high as markets see rising odds of another big rate cut",
+            "description": "Odds of another 50 basis point rate cut at the Federal Reserve's next FOMC meeting in November hit 53% on Monday compared to 29% one week ago.",
+            "url": "https://finance.yahoo.com/news/stock-market-today-dow-ends-040846809.html/",
+            "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
+            "publishedAt": "2024-09-24T04:08:46Z",
+            "content": "Spencer Platt/Getty Images\r\n<ul><li>US stocks rose Monday, with the Dow closing at a record high amid hopes for more rate cuts.\r\n</li><li>Odds of a 50 basis point rate cut at the next FOMC meeting in\u2026 [+2503 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Ambcrypto.com"
+            },
+            "author": "Sam Grant",
+            "title": "FET surges as Kamala Harris backs crypto and AI \u2013 What\u2019s next?",
+            "description": "With a critical merger on the horizon, ASI price hikes as Kamala Harris backs crypto and AI.",
+            "url": "https://ambcrypto.com/fet-surges-as-kamala-harris-backs-crypto-and-ai-whats-next/",
+            "urlToImage": "https://ambcrypto.com/wp-content/uploads/2024/09/Sam-Grant-ASI-1000x600.webp",
+            "publishedAt": "2024-09-24T04:00:17Z",
+            "content": "<ul><li>ASIs FET token and other AI-related cryptocurrencies charted minor gains.</li><li>ASI sought to integrate CUDOS as a new alliance member in a merger that would expand the FET token\u2019s utility.\u2026 [+2827 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Bitcoinist"
+            },
+            "author": "Ronaldo Marquez",
+            "title": "Crypto And US Stocks Near-Record Correlation Levels After Fed Rate Cut\u2014What To Watch For",
+            "description": "According to a recent report from Bloomberg, crypto assets and US stocks are increasingly moving in tandem, reflecting a significant correlation that has not been seen in recent months. This correlation suggests that the macroeconomic factors influencing equi\u2026",
+            "url": "https://bitcoinist.com/crypto-and-us-stocks-near-record-correlation-levels/",
+            "urlToImage": "https://bitcoinist.com/wp-content/uploads/2024/09/Screenshot_452.jpg",
+            "publishedAt": "2024-09-24T04:00:00Z",
+            "content": "According to a recent report from Bloomberg, crypto assets and US stocks are increasingly moving in tandem, reflecting a significant correlation that has not been seen in recent months. This correlat\u2026 [+2839 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Biztoc.com"
+            },
+            "author": "coindesk.com",
+            "title": "Candidate Harris Unlikely to Make Full-Throated Crypto Policy Before Election: Source",
+            "description": "The presidential campaign for Vice President Kamala Harris made crypto waves with a brief comment about the sector over the weekend, but the industry shouldn't expect much more in the final weeks before the U.S. elections, insiders suggest.",
+            "url": "https://biztoc.com/x/a591e7aba420964b",
+            "urlToImage": "https://biztoc.com/cdn/a591e7aba420964b_s.webp",
+            "publishedAt": "2024-09-24T03:35:56Z",
+            "content": "The presidential campaign for Vice President Kamala Harris made crypto waves with a brief comment about the sector over the weekend, but the industry shouldn't expect much more in the final weeks bef\u2026 [+90 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "newsBTC"
+            },
+            "author": "Ronaldo Marquez",
+            "title": "VP Kamala Harris\u2019s First Speech On Crypto Sparks 7% Rise In This Memecoin",
+            "description": "Memecoin Kamala Horris (KAMA) has seen its first notable increase in over a month, rising 7% in the last 24 hours, in response to comments made by US Vice President Kamala Harris, who pledged to support the growth of the crypto space if elected.\u00a0 Harris Promi\u2026",
+            "url": "http://www.newsbtc.com/news/vp-kamala-harriss-first-speech-on-crypto-sparks-7-rise-in-this-memecoin/",
+            "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/09/Screenshot_450.jpg?fit=1305%2C735",
+            "publishedAt": "2024-09-24T03:30:42Z",
+            "content": "Memecoin Kamala Horris (KAMA) has seen its first notable increase in over a month, rising 7% in the last 24 hours, in response to comments made by US Vice President Kamala Harris, who pledged to supp\u2026 [+3233 chars]"
         },
         {
             "source": {
@@ -398,25 +294,272 @@
                 "name": "Biztoc.com"
             },
             "author": "news.google.com",
-            "title": "Bitcoin weekly RSI sparks 'intermediate' $85K BTC price target",
-            "description": "Bitcoin weekly RSI sparks 'intermediate' $85K BTC price target Cointelegraph\nAltcoins Surge Leaving Bitcoin and Ether Behind After Fed Cuts Interest Rate CoinDesk\nBitcoin posts 5.5% weekly gain after rate cut, MicroStrategy increases holdings: CNBC Crypto Wor\u2026",
-            "url": "https://biztoc.com/x/6778987441867327",
+            "title": "Caroline Ellison, key witness in FTX trial, urges leniency ahead of sentencing in crypto fraud case",
+            "description": "Caroline Ellison, key witness in FTX trial, urges leniency ahead of sentencing in crypto fraud case ABC News\nCaroline Ellison, Star Witness in FTX Case, Should Receive Lenient Sentence, Prosecutors Signal The New York Times\nWill Caroline Ellison Go to Prison?\u2026",
+            "url": "https://biztoc.com/x/c22751843be2c8a1",
             "urlToImage": "https://biztoc.com/cdn/802/og.png",
-            "publishedAt": "2024-09-23T00:07:54Z",
-            "content": "Bitcoin weekly RSI sparks 'intermediate' $85K BTC price target CointelegraphAltcoins Surge Leaving Bitcoin and Ether Behind After Fed Cuts Interest Rate CoinDeskBitcoin posts 5.5% weekly gain after r\u2026 [+133 chars]"
+            "publishedAt": "2024-09-24T03:25:18Z",
+            "content": "Caroline Ellison, key witness in FTX trial, urges leniency ahead of sentencing in crypto fraud case ABC NewsCaroline Ellison, Star Witness in FTX Case, Should Receive Lenient Sentence, Prosecutors Si\u2026 [+138 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CoinDesk"
+            },
+            "author": "Jesse Hamilton",
+            "title": "Candidate Harris Unlikely to Make Full-Throated Crypto Policy Before Election: Source",
+            "description": "The presidential campaign for Vice President Kamala Harris made crypto waves with a brief comment about the sector over the weekend, but the industry shouldn't expect much more in the final weeks before the U.S. elections, insiders suggest.",
+            "url": "https://www.coindesk.com/policy/2024/09/24/candidate-harris-unlikely-to-make-full-throated-crypto-policy-before-election-source/",
+            "urlToImage": "https://www.coindesk.com/resizer/NFODDs6DzSCNkC5jqaYzFjTDoDs=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/OXOR5IQWI5D4BIYGH5P4AVWFPQ.jpg",
+            "publishedAt": "2024-09-24T03:23:01Z",
+            "content": "Please note that ourprivacy policy,terms of use,cookies, anddo not sell my personal informationhas been updated.\r\nCoinDesk is anaward-winningmedia outlet that covers the cryptocurrency industry. Its \u2026 [+593 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "GlobeNewswire"
+            },
+            "author": "BTCC LIMITED",
+            "title": "BTCC Exchange Kicks Off Global Ambassador Program Offering Exciting Incentives",
+            "description": "BTCC launches its Ambassador Program, inviting crypto enthusiasts and influencers to advocate for BTCC and offering up to $20,000 monthly for creators.......",
+            "url": "https://www.globenewswire.com/news-release/2024/09/24/2951830/0/en/BTCC-Exchange-Kicks-Off-Global-Ambassador-Program-Offering-Exciting-Incentives.html",
+            "urlToImage": "https://ml-eu.globenewswire.com/Resource/Download/06dab19f-2ab8-4aab-ac4c-1e9e0efd47ce",
+            "publishedAt": "2024-09-24T03:06:00Z",
+            "content": "VILNIUS, Lithuania, Sept. 23, 2024 (GLOBE NEWSWIRE) -- BTCC Exchange\r\n, a leader in cryptocurrency trading, is excited to announce the launch of its Ambassador Program. This global initiative invites\u2026 [+2363 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Techreport.com"
+            },
+            "author": "Rida Fatima",
+            "title": "Venture Capital Firms Raise $2.2 Billion for Crypto Startups, Betting on Innovation Despite Market Challenges",
+            "description": "Recent data suggests that crypto VC funding has picked up, with crypto VCs raising over $2.2 billion in fresh capital via closed funds as of August 2024. Over the past...\nThe post Venture Capital Firms Raise $2.2 Billion for Crypto Startups, Betting on Innova\u2026",
+            "url": "https://techreport.com/crypto-news/venture-capital-firms-raise-2-2-billion-for-crypto-startups-betting-on-innovation-despite-market-challenges/",
+            "urlToImage": "https://techreport.com/wp-content/uploads/2023/07/money-2724245_1280.jpg",
+            "publishedAt": "2024-09-24T03:05:43Z",
+            "content": "Recent data suggests that crypto VC funding has picked up, with crypto VCs raising over $2.2 billion in fresh capital via closed funds as of August 2024. Over the past weeks, six venture capitalists \u2026 [+4163 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Decrypt"
+            },
+            "author": "Sebastian Sinclair",
+            "title": "Bitcoin Options Market Points to Feedback Loop of Higher Prices, Expert Says",
+            "description": "The Bitcoin options market is beginning to see \"reflexivity season\" kick in as traders focus on prices between $80,000 and $90,000.",
+            "url": "https://decrypt.co/250844/bitcoin-options-market-points-to-feedback-loop-of-higher-prices-expert-says",
+            "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/02/bitcoin-btc-gold-cybernetic-background-ai-image-scaled-gID_7.jpg",
+            "publishedAt": "2024-09-24T03:05:41Z",
+            "content": "Traders seeking to divine Bitcoins next major price swing need look no further than the derivatives market, specifically options contracts.\r\nThats according to Nick Forster, founder of DeFi derivativ\u2026 [+2497 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Ambcrypto.com"
+            },
+            "author": "Akashnath S",
+            "title": "The Graph gains 28% in a week: Will bull\u2019s dominance continue?",
+            "description": "The Graph token saw high demand in recent days and little selling pressure. The Funding Rate was also positive.",
+            "url": "https://ambcrypto.com/the-graph-gains-28-in-a-week-will-bulls-dominance-continue/",
+            "urlToImage": "https://ambcrypto.com/wp-content/uploads/2024/09/GRT-Featured.webp",
+            "publishedAt": "2024-09-24T03:00:15Z",
+            "content": "<ul><li>GRT has a bearish market structure on the daily, despite strong short-term gains.</li><li>The moving averages signaled that the long-term downtrend was still in play.</li></ul>The Graph [GRT]\u2026 [+1899 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Bitcoinist"
+            },
+            "author": "Samuel Edyme",
+            "title": "Global Crypto Inflows Surge to $321M: Bitcoin And Solana Drive the Recovery",
+            "description": "The global digital asset investment market has significantly rebounded recently, marking a strong recovery for crypto-based funds. According to CoinShares, global crypto investment products brought in $321 million in net inflows last week. This follows two we\u2026",
+            "url": "https://bitcoinist.com/global-crypto-inflows-surge-to-321m-bitcoin-solana/",
+            "urlToImage": "https://bitcoinist.com/wp-content/uploads/2024/09/DALL\u00b7E-2024-09-23-16.47.35-A-digital-illustration-depicting-the-global-crypto-inflows-surge-to-321M-driven-by-Bitcoin-and-Solana.-The-image-features-the-Bitcoin-and-Solana-sym.webp",
+            "publishedAt": "2024-09-24T02:30:39Z",
+            "content": "The global digital asset investment market has significantly rebounded recently, marking a strong recovery for crypto-based funds. According to CoinShares, global crypto investment products brought i\u2026 [+2926 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "NYT News Service",
+            "title": "Will AI be a bust? A Wall Street skeptic rings the alarm",
+            "description": "Jim Covello, the head of stock research at Goldman Sachs, has become Wall Street's leading AI skeptic. Three months ago, he jolted markets with a research paper that challenged whether businesses would see a sufficient return on what by some estimates could b\u2026",
+            "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/will-ai-be-a-bust-a-wall-street-skeptic-rings-the-alarm/articleshow/113614956.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-113614967,width-1200,height-630,imgsize-225610,overlay-ettech/photo.jpg",
+            "publishedAt": "2024-09-24T02:24:16Z",
+            "content": "As Jim Covello's car barreled up Highway 101 from San Jose to San Francisco this month, he counted the billboards about artificial intelligence. The nearly 40 signs he passed, including one that prom\u2026 [+7516 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "pymnts.com"
+            },
+            "author": "PYMNTS",
+            "title": "Javice Trial: Frank Founder\u2019s Fraud Case Delayed Amid Defense Preparations",
+            "description": "Charlie Javice,\u00a0the young entrepreneur accused of deceiving JPMorgan Chase in a $175 million acquisition deal,\u00a0will now face trial next year, according to several published reports.\u00a0A Manhattan federal judge on Monday (Sept. 23) granted Javice\u2019s request to po\u2026",
+            "url": "https://www.pymnts.com/legal/2024/javice-trial-frank-founders-fraud-case-delayed-amid-defense-preparations/",
+            "urlToImage": "https://www.pymnts.com/wp-content/uploads/2024/09/JPMorgan-Chase-.jpg",
+            "publishedAt": "2024-09-24T02:11:48Z",
+            "content": "Charlie Javice,\u00a0the young entrepreneur accused of deceiving JPMorgan Chase in a $175 million acquisition deal,\u00a0will now face trial next year, according to several published reports.\u00a0A Manhattan feder\u2026 [+2172 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Ambcrypto.com"
+            },
+            "author": "Lennox Gitonga",
+            "title": "Will BNB finally break the $600 barrier as CZ returns this week?",
+            "description": "BNB is poised for a breakout with CZ\u2019s release, strong RSI, and growing adoption.",
+            "url": "https://ambcrypto.com/will-bnb-finally-break-the-600-barrier-as-cz-returns-this-week/",
+            "urlToImage": "https://ambcrypto.com/wp-content/uploads/2024/09/Lennox-BNB-1000x600.webp",
+            "publishedAt": "2024-09-24T02:00:47Z",
+            "content": "<ul><li>Former Binance CEO, CZ, returns this week.</li><li>Binance continues its attempts to break past the $600 price level.</li></ul>Binance [BNB], ranked fourth by market cap, is a top altcoin to \u2026 [+2660 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Slashdot.org"
+            },
+            "author": "feedfeeder",
+            "title": "An official OpenAI X account was taken over to peddle a crypto scam - The Verge",
+            "description": "An official OpenAI X account was taken over to peddle a crypto scamThe Verge  Crypto scammers hack OpenAI&rsquo;s press account on XTechCrunch  OpenAI News Account on X Compromised, Sends Posts About CryptoBloomberg  Crypto scammers hack OpenAI's press accoun\u2026",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=175118415",
+            "urlToImage": null,
+            "publishedAt": "2024-09-24T01:53:28Z",
+            "content": "Check out the new Slashdot job board to browse remote jobs or jobs in your areaDo you develop on GitHub? You can keep using GitHub but automatically sync your GitHub releases to SourceForge quickly a\u2026 [+228 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Jpcert.or.jp"
+            },
+            "author": "JVN iPedia",
+            "title": "JVNDB-2024-008648:consensys \u306e gnark-crypto \u306b\u304a\u3051\u308b\u8106\u5f31\u6027",
+            "description": null,
+            "url": "http://vrda.jpcert.or.jp/feed/ja/JVNiPedia_JVNDB-2024-008648_AD_1.html",
+            "urlToImage": null,
+            "publishedAt": "2024-09-24T01:34:05Z",
+            "content": "consensys \u306e gnark-crypto \u306b\u306f\u3001\u4e0d\u7279\u5b9a\u306e\u8106\u5f31\u6027\u304c\u5b58\u5728\u3057\u307e\u3059\u3002Vulnerability Analysis SummaryAnalysis Information Source Type : Advisory, Alert"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Biztoc.com"
+            },
+            "author": "theblock.co",
+            "title": "Celestia Foundation, which is behind the Celestia modular blockchain network, raised a $100M round led by Bain Capital Crypto, taking its total raised to $155M",
+            "description": "Celestia Foundation raises $100 million in a round led by Bain Capital Crypto\nQuick Take\n- The organization behind the modular blockchain network has raised $100 million in a round led by Bain Capital Crypto, bringing its total financing to $155 million.\nThe \u2026",
+            "url": "https://biztoc.com/x/0cda0dc49cd75036",
+            "urlToImage": "https://biztoc.com/cdn/802/og.png",
+            "publishedAt": "2024-09-24T01:21:54Z",
+            "content": "Celestia Foundation raises $100 million in a round led by Bain Capital CryptoQuick Take- The organization behind the modular blockchain network has raised $100 million in a round led by Bain Capital \u2026 [+125 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Techreport.com"
+            },
+            "author": "Rida Fatima",
+            "title": "Bitcoin Could Hit $172K Due to Halving and MicroStrategy, Says Analyst",
+            "description": "The crypto market turned bullish following the US Fed\u2019s interest rate cut, with Bitcoin briefly touching a high of $64,733. Amid the current recovery, analysts have predicted a significant rally...\nThe post Bitcoin Could Hit $172K Due to Halving and MicroStra\u2026",
+            "url": "https://techreport.com/crypto-news/bitcoin-could-hit-172k-due-to-halving-and-microstrategy-says-analyst/",
+            "urlToImage": "https://techreport.com/wp-content/uploads/2024/06/bitcoin-3741066_1280.jpg",
+            "publishedAt": "2024-09-24T01:14:53Z",
+            "content": "The crypto market turned bullish following the US Feds interest rate cut, with Bitcoin briefly touching a high of $64,733. Amid the current recovery, analysts have predicted a significant rally in th\u2026 [+3609 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Bitcoinist"
+            },
+            "author": "Ash Tiwari",
+            "title": "Crypto Market Wants Clearer Stance From Harris, Sentiment To Surge If Trump Wins: Bernstein",
+            "description": "The crypto community is calling for a clearer stance and more actionable policies from Democratic presidential candidate Kamala Harris, according to US investment bank Bernstein. Clearer Stance Toward Digital Assets Expected From Harris In a memo shared with \u2026",
+            "url": "https://bitcoinist.com/crypto-market-wants-clearer-stance-from-harris-sentiment-to-surge-if-trump-wins-bernstein/",
+            "urlToImage": "https://bitcoinist.com/wp-content/uploads/2024/09/crypto_46bbed.jpg",
+            "publishedAt": "2024-09-24T01:00:38Z",
+            "content": "The crypto community is calling for a clearer stance and more actionable policies from Democratic presidential candidate Kamala Harris, according to US investment bank Bernstein.\r\nClearer Stance Towa\u2026 [+2873 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Techreport.com"
+            },
+            "author": "Rida Fatima",
+            "title": "Australian Regulators to Impose New Licensing Rules on Crypto Exchanges, But Why?",
+            "description": "Australian regulators are reportedly developing new guidelines for crypto assets. These guidelines will require exchanges to obtain financial services licenses if they must operate exchanges in the country. The new...\nThe post Australian Regulators to Impose \u2026",
+            "url": "https://techreport.com/crypto-news/australian-regulators-to-impose-new-licensing-rules-on-crypto-exchanges-but-why/",
+            "urlToImage": "https://techreport.com/wp-content/uploads/2024/01/Australia.jpg",
+            "publishedAt": "2024-09-24T00:52:48Z",
+            "content": "Australian regulators are reportedly developing new guidelines for crypto assets. These guidelines will require exchanges to obtain financial services licenses if they must operate exchanges in the c\u2026 [+3320 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "pymnts.com"
+            },
+            "author": "PYMNTS",
+            "title": "Coinbase Tells Appeals Court It Seeks Regulatory Clarity From SEC",
+            "description": "Coinbase Global addressed a federal appeals court Monday (Sept. 23), aiming to force the Securities and Exchange Commission (SEC) to create new rules for digital assets. The cryptocurrency exchange sued the SEC last year after the regulator denied its petitio\u2026",
+            "url": "https://www.pymnts.com/cryptocurrency/2024/coinbase-tells-appeals-court-it-seeks-regulatory-clarity-from-sec/",
+            "urlToImage": "https://www.pymnts.com/wp-content/uploads/2024/09/Coinbase-SEC-1.jpg",
+            "publishedAt": "2024-09-24T00:32:50Z",
+            "content": "Coinbase Global addressed a federal appeals court Monday (Sept. 23), aiming to force the Securities and Exchange Commission (SEC) to create new rules for digital assets.\r\nThe cryptocurrency exchange \u2026 [+2080 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Slashdot.org"
+            },
+            "author": "feedfeeder",
+            "title": "Crypto scammers hack OpenAI\u2019s press account on X - TechCrunch",
+            "description": "Crypto scammers hack OpenAI&rsquo;s press account on XTechCrunch...",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=175118003",
+            "urlToImage": null,
+            "publishedAt": "2024-09-24T00:32:43Z",
+            "content": "Check out the new Slashdot job board to browse remote jobs or jobs in your areaDo you develop on GitHub? You can keep using GitHub but automatically sync your GitHub releases to SourceForge quickly a\u2026 [+228 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Decrypt"
+            },
+            "author": "Liz Napolitano",
+            "title": "Will Caroline Ellison Go to Prison? What You Need to Know Ahead of Sentencing",
+            "description": "The ex-Alameda Research CEO faces time for her role in the collapse of FTX alongside past lover Sam Bankman-Fried. Here's what to expect.",
+            "url": "https://decrypt.co/250825/will-caroline-ellison-prison-ftx-alameda-sentencing-preview",
+            "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2022/11/caroline-ellison-16x9-1-gID_7.jpg",
+            "publishedAt": "2024-09-24T00:20:46Z",
+            "content": "Caroline Ellison is used to playing something of a supporting role in business and in life: About three years ago, the twenty-something math whiz became co-CEO of crypto quant trading firm Alameda Re\u2026 [+3713 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Bitcoinist"
+            },
+            "author": "Bitcoinist",
+            "title": "RCOF Pulls Over $2 Million from Dogecoin and Shiba Inu Investors, RCO Finance Becomes the Best Crypto Presale of 2024?",
+            "description": "RCO Finance has emerged as a remarkable player, pulling in over $2 million in its ongoing crypto presale. This reflects a notable shift among investors, particularly those who have previously placed their bets on well-known tokens like Dogecoin (DOGE) and Shi\u2026",
+            "url": "https://bitcoinist.com/rcof-pulls-over-2-million-from-dogecoin-and-shiba-inu-investors-rco-finance-becomes-the-best-crypto-presale-of-2024/",
+            "urlToImage": "https://bitcoinist.com/wp-content/uploads/2024/09/Picture2_a55bc3.png",
+            "publishedAt": "2024-09-24T00:00:18Z",
+            "content": "RCO Finance has emerged as a remarkable player, pulling in over $2 million in its ongoing crypto presale. This reflects a notable shift among investors, particularly those who have previously placed \u2026 [+4463 chars]"
         },
         {
             "source": {
                 "id": null,
                 "name": "The Daily Hodl"
             },
-            "author": "Henry Kanapi",
-            "title": "\u2018Easy Multiples\u2019 \u2013 Trader Predicts Rallies for Layer-1 Altcoin, Says One Memecoin Gearing Up for Big Breakout",
-            "description": "A crypto strategist known for making timely altcoin calls believes that the native asset of a layer-1 project is gearing to witness its first uptrend. Top trader Bluntz tells his 275,200 followers on the social media platform X that Saga (SAGA) looks poised t\u2026",
-            "url": "https://dailyhodl.com/2024/09/22/easy-multiples-trader-predicts-rallies-for-layer-1-altcoin-says-one-memecoin-gearing-up-for-big-breakout/",
-            "urlToImage": "https://dailyhodl.com/wp-content/uploads/2024/01/Incredibly-Powerful-for-Crypto.jpg",
-            "publishedAt": "2024-09-23T00:00:02Z",
-            "content": "A crypto strategist known for making timely altcoin calls believes that the native asset of a layer-1 project is gearing to witness its first uptrend.\r\nTop trader Bluntz tells his 275,200 followers o\u2026 [+1420 chars]"
+            "author": "Daily Hodl Staff",
+            "title": "Analyst Says Clear Bull Trend Underway for AI-Focused Altcoin, Updates Forecast on FET and Two Other Coins",
+            "description": "A closely followed crypto analyst says that a clear bull pattern is forming for one artificial intelligence (AI)-focused altcoin while updating his outlook on three other tokens. Pseudonymous crypto trader Altcoin Sherpa tells his 223,300 followers on the soc\u2026",
+            "url": "https://dailyhodl.com/2024/09/23/analyst-says-clear-bull-trend-underway-for-ai-focused-altcoin-updates-forecast-on-fet-and-two-other-coins/",
+            "urlToImage": "https://dailyhodl.com/wp-content/uploads/2023/03/Crypto-Analyst-Turns-Bullish.jpg",
+            "publishedAt": "2024-09-24T00:00:09Z",
+            "content": "A closely followed crypto analyst says that a clear bull pattern is forming for one artificial intelligence (AI)-focused altcoin while updating his outlook on three other tokens.\r\nPseudonymous crypto\u2026 [+1824 chars]"
         }
     ]
 }

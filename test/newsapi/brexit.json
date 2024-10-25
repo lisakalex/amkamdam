@@ -1,71 +1,84 @@
 {
     "status": "ok",
-    "totalResults": 5,
+    "totalResults": 6,
     "articles": [
         {
             "source": {
-                "id": "the-irish-times",
-                "name": "The Irish Times"
+                "id": null,
+                "name": "CounterPunch"
             },
-            "author": "Una Mullally",
-            "title": "The Ban: What did barring Sinn F\u00e9in voices from the airwaves do to political culture?",
-            "description": "Roisin Agnew on her new film, which is being screened as part of the IFI Documentary Festival 2024",
-            "url": "https://www.irishtimes.com/culture/film/2024/09/23/the-ban-what-did-barring-sinn-fein-voices-from-the-airwaves-do-to-political-culture/",
-            "urlToImage": "https://www.irishtimes.com/resizer/v2/AFKURJTPWNAWFJREAXPDAA5WNQ.jpg?smart=true&auth=a42c539e3f2b976a1bf4adc6c4002130b1532ac9aaf7a446123136e086a06e8f&width=1200&height=630",
-            "publishedAt": "2024-09-23T04:00:00Z",
-            "content": "When the film-maker Roisin Agnew set about researching a new documentary project, her interest landed first on the Derry Film and Video Workshop but gradually evolved to focus on a specific moment of\u2026 [+5505 chars]"
+            "author": "Lawrence Wittner",
+            "title": "Anti-Immigrant Agitation in a Nation of Immigrants",
+            "description": "In recent days, Donald Trump and his Republican running mate, JD Vance, have doubled down on their false and defamatory claims about legally-admitted Haitian immigrants in Springfield, Ohio, thus churning up widespread fears, bomb threats, and school evacuati\u2026",
+            "url": "https://www.counterpunch.org/2024/09/24/anti-immigrant-agitation-in-a-nation-of-immigrants/",
+            "urlToImage": "https://www.counterpunch.org/wp-content/uploads/2024/09/nitish-meena-IFh4o-U-BGg-unsplash-680x453.jpg",
+            "publishedAt": "2024-09-24T05:44:34Z",
+            "content": "Image by Nitish Meena.\r\nIn recent days, Donald Trump and his Republican running mate, JD Vance, have doubled down on their false and defamatory claims about legally-admitted Haitian immigrants in Spr\u2026 [+6355 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Newgeography.com"
+                "name": "EURACTIV"
             },
-            "author": "Joel Kotkin",
-            "title": "The Coming Strangulation of Free Speech",
-            "description": "It\u2019s the First Amendment for a reason: free speech is a fundamental prerequisite for liberal democracy. But The Guardian, with logic that Stalin would have appreciated, insists the concern over free speech has been \u201cconcocted\u201d by the Right. This is one exampl\u2026",
-            "url": "http://www.newgeography.com/content/008308-the-coming-strangulation-free-speech",
-            "urlToImage": null,
-            "publishedAt": "2024-09-23T00:25:25Z",
-            "content": "Its the First Amendment for a reason: free speech is a fundamental prerequisite for liberal democracy. But The Guardian, with logic that Stalin would have appreciated, insists the concern over free s\u2026 [+2784 chars]"
+            "author": "Euractiv Network",
+            "title": "Liberal FDP mulls leaving German government after crushing election defeat",
+            "description": "In today's edition of the Capitals, find out more about the Bulgarian commissioner-designate asked to come clean about her past, Meloni's Atlantic Council award sparking debate, and so much more.",
+            "url": "https://www.euractiv.com/section/politics/news/liberal-fdp-mulls-leaving-german-government-after-crushing-election-defeat-2/",
+            "urlToImage": "https://www.euractiv.com/wp-content/uploads/sites/2/2024/09/lead-11-800x450.png",
+            "publishedAt": "2024-09-24T05:25:57Z",
+            "content": "The Capitals brings you the latest news from across Europe, through on-the-ground reporting by Euractivs media network. You can subscribe to the newsletter here.\r\nThe European news you deserve to rea\u2026 [+3802 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Crikey"
+                "name": "EURACTIV"
             },
-            "author": "Caitlin Powell",
-            "title": "Pints, Eminem and MAGA hats: The coming of age of Reform UK at its national conference",
-            "description": "Reform\u2019s strength in the last election \u2014 receiving 4 million votes \u2014 has pushed the right-wing party to take itself more seriously.\nThe post Pints, Eminem and MAGA hats: The coming of age of Reform UK at its national conference appeared first on Crikey.",
-            "url": "https://www.crikey.com.au/2024/09/23/nigel-farage-reform-uk-national-conference-birmingham/",
-            "urlToImage": "https://www.crikey.com.au/wp-content/uploads/2024/09/20240921153592969187-original-copy.jpg?quality=70",
-            "publishedAt": "2024-09-23T00:20:12Z",
-            "content": "Eminem blares through the speakers Guess whos back, back again? Nigel Farage is mouthing the words as he takes the stage Cause we need a little controversy The crowd is clapping to the beat and light\u2026 [+3590 chars]"
+            "author": "Donagh Cagney",
+            "title": "The UK wants Europe\u2019s carbon",
+            "description": "The UK wants to host Europe\u2019s captured CO2 in its new storage infrastructure, but post-Brexit regulatory challenges complicate the collaboration with the EU.",
+            "url": "https://www.euractiv.com/section/energy-environment/news/the-uk-wants-europes-carbon/",
+            "urlToImage": "https://www.euractiv.com/wp-content/uploads/sites/2/2024/09/GettyImages-1341474530-800x450.jpg",
+            "publishedAt": "2024-09-24T04:30:12Z",
+            "content": "The UK wants to host Europes captured CO2 in its new storage infrastructure, but post-Brexit regulatory challenges complicate the collaboration with the EU.\r\nNeither the low grey skies of Liverpool B\u2026 [+4418 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "BBC News"
+                "name": "Business Standard"
             },
-            "author": null,
-            "title": "Is Reform UK's plan to get Farage into No 10 mission impossible?",
-            "description": "The party is trying to professionalise to break the mould of British politics and win real power.",
-            "url": "https://www.bbc.com/news/articles/cp39yz3wdl9o",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1cb1/live/46917110-78e7-11ef-99a2-abb41e9f4f23.jpg",
-            "publishedAt": "2024-09-23T00:14:19Z",
-            "content": "Reform UK is convinced Nigel Farage can become the next PM\r\nAt their annual conference this weekend, Reform UK leader Nigel Farage said his party had passed through its adolescent tantrums and was no\u2026 [+7212 chars]"
+            "author": "AP",
+            "title": "Can the new French govt solve New Caledonia crisis after months of unrest?",
+            "description": "After four months of deadly unrest in New Caledonia, tensions in the French Pacific territory between the pro-independence Indigenous Kanak people and the white settler communities loyal to Paris are simmering as the vast archipelago east of Australia marks t\u2026",
+            "url": "https://www.business-standard.com/world-news/can-the-new-french-govt-solve-new-caledonia-crisis-after-months-of-unrest-124092301345_1.html",
+            "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2022-09/11/thumb/fitandfill/400X400/1662918912-5053.jpg",
+            "publishedAt": "2024-09-24T02:59:59Z",
+            "content": "After four months of deadly unrest in New Caledonia, tensions in the French Pacific territory between the pro-independence Indigenous Kanak people and the white settler communities loyal to Paris are\u2026 [+6806 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "BBC News"
+                "name": "Motley Fool Australia"
             },
-            "author": null,
-            "title": "Why do concert tickets now cost as much as a games console?",
-            "description": "Concert tickets have spiralled in recent years. Here, BBC Music Correspondent Mark Savage unpacks exactly what's behind it - and it's not just greed.",
-            "url": "https://www.bbc.com/news/articles/c2kdxlv8x05o",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/f546/live/787db570-7753-11ef-b282-4535eb84fe4b.png",
-            "publishedAt": "2024-09-23T00:07:10Z",
-            "content": "Tickets to see Taylor Swift, Beyonce and Oasis have set new benchmarks for pricing\r\nThe last time Oasis played Wembley Stadium, in 2009, a standing ticket cost exactly \u00a344.04.\r\nFor their return next \u2026 [+12010 chars]"
+            "author": "Tristan Harrison",
+            "title": "Is it safe to buy ASX shares right now, or should you wait until 2025?",
+            "description": "Should Aussies jump into the market or be patient?\nThe post Is it safe to buy ASX shares right now, or should you wait until 2025? appeared first on The Motley Fool Australia.",
+            "url": "https://www.fool.com.au/2024/09/24/is-it-safe-to-buy-asx-shares-right-now-or-should-you-wait-until-2025/",
+            "urlToImage": "https://www.fool.com.au/wp-content/uploads/2022/07/investors-169.jpg",
+            "publishedAt": "2024-09-24T02:05:07Z",
+            "content": "The ASX share market is an excellent tool for growing our wealth. It has been a good time to be an investor over the last 12 months, the S&amp;P/ASX 200 Index (ASX: XJO) has risen by 15%. Dividend pa\u2026 [+2570 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Independent.ie"
+            },
+            "author": "John Downing",
+            "title": "John Downing: UK prime minister Keir Starmer\u2019s big test mirrors Europe-wide challenge \u2013 making democracy popular again",
+            "description": "Most of us enjoyed watching the Conservative Party get a political kicking in the UK general election in July. Strange though it seems, it will take another five weeks for the Conservatives \u2013 the people who gave us the Brexit nightmare \u2013 to pick a new leader \u2026",
+            "url": "https://www.independent.ie/opinion/comment/john-downing-uk-prime-minister-keir-starmers-big-test-mirrors-europe-wide-challenge-making-democracy-popular-again/a777485576.html",
+            "urlToImage": "https://focus.independent.ie/thumbor/xVbvkFlEVSD-Wor3fkX0u6aNJVo=/629x460/smart/prod-mh-ireland/e03fd773-bc21-4e46-8e73-54ecf55d19c3/39c50f57-3dd1-4fb7-8984-30f3ac93e76c/S-LABOUR%20%28184%29.jpg",
+            "publishedAt": "2024-09-24T01:30:00Z",
+            "content": "Most of us enjoyed watching the Conservative Party get a political kicking in the UK general election in July. Strange though it seems, it will take another five weeks for the Conservatives the peopl\u2026 [+346 chars]"
         }
     ]
 }

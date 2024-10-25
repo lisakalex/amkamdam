@@ -1,19 +1,32 @@
 {
     "status": "ok",
-    "totalResults": 1,
+    "totalResults": 2,
     "articles": [
         {
             "source": {
                 "id": null,
-                "name": "[Removed]"
+                "name": "Newhumanist.org.uk"
             },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "2024-09-23T04:34:04Z",
-            "content": "[Removed]"
+            "author": "Bethany Elliott",
+            "title": "Book review: Battleground Ukraine",
+            "description": "Book review: Battleground Ukraine by Adrian Karatnycky",
+            "url": "https://newhumanist.org.uk/articles/6330/book-review-battleground-ukraine#utm_source=rss",
+            "urlToImage": "https://newhumanist.org.uk/images/na/2DD20CG.jpg",
+            "publishedAt": "2024-09-24T05:00:00Z",
+            "content": "Ukraine built a national identity over 30 years. Russias invasion has put it to the ultimate test\r\nA street in Kyiv, Ukraine before the war. Credit: Alamy\r\nBattleground Ukraine: From Independence to \u2026 [+8327 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Chinadigitaltimes.net"
+            },
+            "author": "Samuel Wade",
+            "title": "Marie Holzman: Thoughts on Ilham Tohti\u2019s Arrest in 2014",
+            "description": "To mark the\u00a0tenth anniversary on Monday of his sentencing\u00a0to life in prison, Marie Holzman writes at the online human-rights journal Diyin on\u00a0Ilham Tohti\u2019s case and its enduring significance. The essay, which is\u00a0also available in Chinese\u00a0and is reproduced her\u2026",
+            "url": "https://chinadigitaltimes.net/2024/09/marie-holzman-thoughts-on-ilham-tohtis-arrest-in-2014/",
+            "urlToImage": "https://chinadigitaltimes.net/wp-content/uploads/2021/08/CDT-logo.png",
+            "publishedAt": "2024-09-24T04:01:11Z",
+            "content": "To mark the\u00a0tenth anniversary on Monday of his sentencing\u00a0to life in prison, Marie Holzman writes at the online human-rights journal Diyin on\u00a0Ilham Tohti\u2019s case and its enduring significance. The ess\u2026 [+12683 chars]"
         }
     ]
 }

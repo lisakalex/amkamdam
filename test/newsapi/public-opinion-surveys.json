@@ -1,5 +1,32 @@
 {
     "status": "ok",
-    "totalResults": 0,
-    "articles": []
+    "totalResults": 2,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Noahpinion.blog"
+            },
+            "author": "Nextwavefutures",
+            "title": "How migration regenerates declining towns",
+            "description": "What really happens when a \"flood of migrants\" gets \"dumped\" on a small heartland town.",
+            "url": "https://www.noahpinion.blog/p/how-will-you-save-small-midwestern",
+            "urlToImage": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F522566de-a58f-448b-8294-cde926a90875_1280x960.jpeg",
+            "publishedAt": "2024-09-24T05:47:02Z",
+            "content": "Opinion about immigration in America depends very strongly on the type of immigrants being considered. For example, people really love high-skilled immigration:\r\nBut at the same time, people really d\u2026 [+14480 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Chinadigitaltimes.net"
+            },
+            "author": "Samuel Wade",
+            "title": "Marie Holzman: Thoughts on Ilham Tohti\u2019s Arrest in 2014",
+            "description": "To mark the\u00a0tenth anniversary on Monday of his sentencing\u00a0to life in prison, Marie Holzman writes at the online human-rights journal Diyin on\u00a0Ilham Tohti\u2019s case and its enduring significance. The essay, which is\u00a0also available in Chinese\u00a0and is reproduced her\u2026",
+            "url": "https://chinadigitaltimes.net/2024/09/marie-holzman-thoughts-on-ilham-tohtis-arrest-in-2014/",
+            "urlToImage": "https://chinadigitaltimes.net/wp-content/uploads/2021/08/CDT-logo.png",
+            "publishedAt": "2024-09-24T04:01:11Z",
+            "content": "To mark the\u00a0tenth anniversary on Monday of his sentencing\u00a0to life in prison, Marie Holzman writes at the online human-rights journal Diyin on\u00a0Ilham Tohti\u2019s case and its enduring significance. The ess\u2026 [+12683 chars]"
+        }
+    ]
 }

@@ -1,5 +1,32 @@
 {
     "status": "ok",
-    "totalResults": 0,
-    "articles": []
+    "totalResults": 2,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "The Straits Times"
+            },
+            "author": "",
+            "title": "Sitting all day can cause dead butt syndrome",
+            "description": "Gluteal amnesia happens when the muscles in the rear become weak from inactivity. Read more at straitstimes.com.",
+            "url": "https://www.straitstimes.com/life/entertainment/sitting-all-day-can-cause-dead-butt-syndrome",
+            "urlToImage": "https://static1.straitstimes.com.sg/s3fs-public/styles/large30x20/public/articles/2024/09/24/butt17.jpg?VersionId=Lz5rJq4Iu7MoJCPpA36EoIJUZGsNPzrD",
+            "publishedAt": "2024-09-24T04:31:04Z",
+            "content": "NEW YORK After a long workday at your desk or hours in a car, it is normal to feel stiff. It may just be that your hip flexors and lower back are tight. But you could also be experiencing a potential\u2026 [+4984 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New Zealand Herald"
+            },
+            "author": "By Bruce Holloway and Adam Julian",
+            "title": "First XV rugby wrap: Schoolboy rugby\u2019s media landscape in 2024",
+            "description": "One school stands out from the rest when it comes to dealing with the media.",
+            "url": "https://www.nzherald.co.nz/sport/rugby/school-rugby/first-xv-rugby-wrap-schoolboy-rugbys-media-landscape-in-2024/742OWH32MVCCXOFDR6J7CHBGBM/",
+            "urlToImage": "https://www.nzherald.co.nz/resizer/v2/MD2HSG44ZRFCNL3E2P6A4VE2VQ.jpg?auth=44e4fb29069a5e5b7c55d64053ebac59739c0174e507c9b391091efd1002d191&width=1200&height=675&quality=70&smart=true",
+            "publishedAt": "2024-09-24T03:00:00Z",
+            "content": "Just as teams have the likes of trainers, physiotherapists, managers, analysts and psychologists, the media manager has become a thing at Feilding.\r\nRogers goes the extra mile to liaise with mainstre\u2026 [+15042 chars]"
+        }
+    ]
 }

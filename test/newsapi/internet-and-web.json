@@ -1,71 +1,84 @@
 {
     "status": "ok",
-    "totalResults": 5,
+    "totalResults": 6,
     "articles": [
         {
             "source": {
                 "id": null,
-                "name": "Securityaffairs.com"
+                "name": "InfoWorld"
             },
-            "author": "Pierluigi Paganini",
-            "title": "Hacktivist group Twelve is back and targets Russian entities",
-            "description": "Hacktivist group Twelve is back and targets Russian entities to destroy critical assets and disrupt their operations. The hacktivist group Twelve has been active since at least April 2023, it was formed in the wake of the conflict between Russia and Ukraine. \u2026",
-            "url": "https://securityaffairs.com/168746/hacking/twelve-group-targets-russian-entities.html",
-            "urlToImage": "https://securityaffairs.com/wp-content/uploads/2024/09/image-22.png",
-            "publishedAt": "2024-09-23T05:18:20Z",
-            "content": "Hacktivist group Twelve is back and targets Russian entities\r\n\u00a0|\u00a0SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 12\r\n\u00a0|\u00a0Security Affairs newsletter Round 490 by Pierluigi Paganini INTERNATIONAL EDITION\r\n\u00a0|\u2026 [+102771 chars]"
+            "author": "gbilder",
+            "title": "5 easy ways to run an LLM locally | InfoWorld",
+            "description": "Deploying a large language model on your own system can be surprisingly simple\u2014if you have the right tools. Here\u2019s how to use LLMs like Meta\u2019s new Llama 3 on your desktop.",
+            "url": "https://www.infoworld.com/article/2338922/5-easy-ways-to-run-an-llm-locally.html",
+            "urlToImage": "https://www.infoworld.com/wp-content/uploads/2024/06/shutterstock_1175616652-100945248-orig.jpg?quality=50&strip=all&w=1024",
+            "publishedAt": "2024-09-24T05:47:02Z",
+            "content": "If you\u2019re familiar with Python and how to set up Python projects, you can clone the full PrivateGPT repository and run it locally. If you\u2019re less knowledgeable about Python, you may want to check out\u2026 [+12292 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Digiday"
+                "name": "ETF Daily News"
             },
-            "author": "Ronan Shields",
-            "title": "What are the likely Google defense tactics in its existential battle with the DOJ?",
-            "description": "Google mounts its defense, claiming the DOJ just doesn\u2019t get the online ad market.",
-            "url": "http://digiday.com/media/what-are-the-likely-google-defense-tactics-in-its-existential-battle-with-the-doj/",
-            "urlToImage": "https://digiday.com/wp-content/uploads/sites/3/2023/10/gavel-google-digiday.jpeg",
-            "publishedAt": "2024-09-23T04:01:00Z",
-            "content": "The U.S. Department of Justice has rested its antitrust case against Google\u2019s display advertising business, alleging that it monopolized key digital advertising technologies through a series of antic\u2026 [+6365 chars]"
+            "author": "MarketBeat News",
+            "title": "Liberty Global Ltd. (NASDAQ:LBTYA) Receives $24.26 Consensus Target Price from Brokerages",
+            "description": "Shares of Liberty Global Ltd. (NASDAQ:LBTYA \u2013 Get Free Report) have earned an average rating of \u201cModerate Buy\u201d from the eight ratings firms that are currently covering the firm, MarketBeat Ratings reports. Four investment analysts have rated the stock with a \u2026",
+            "url": "https://www.etfdailynews.com/2024/09/24/liberty-global-ltd-nasdaqlbtya-receives-24-26-consensus-target-price-from-brokerages/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/liberty-global-plc-logo-1200x675.jpg?v=20221109144646&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-24T05:34:54Z",
+            "content": "Shares of Liberty Global Ltd. (NASDAQ:LBTYA \u2013 Get Free Report) have earned an average rating of \u201cModerate Buy\u201d from the eight ratings firms that are currently covering the firm, MarketBeat Ratings re\u2026 [+3922 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Livemint"
+                "name": "Twistedsifter.com"
             },
-            "author": "Economist",
-            "title": "OpenAI\u2019s new fundraising is shaking up Silicon Valley",
-            "description": "Generative AI is forcing America\u2019s disrupters in chief to think differently",
-            "url": "https://www.livemint.com/companies/start-ups/openais-new-fundraising-is-shaking-up-silicon-valley-11727055687854.html",
-            "urlToImage": "https://www.livemint.com/lm-img/img/2024/09/23/1600x900/g1c388e87e3d679432476ed6317073d45ff1499188b27ac706dea4fbb3666d80ad2a764b805f23995514ed371eb746aed14d121cd111884336c6161548f9b482d_1280_1727055928782_1727055945497.png",
-            "publishedAt": "2024-09-23T01:53:22Z",
-            "content": "A rare beast may soon lumber across the hills of Silicon Valley: not a $1bn unicorn, nor a $10bn decacorn, but a hectocorna startup valued at more than $100bn. OpenAI, the maker of ChatGPT, is unders\u2026 [+7511 chars]"
+            "author": "Matthew Gilligan",
+            "title": "Manager Told Him To Cut Off The Internet For Salespeople Only, So They Cut It For Everyone In The Company And Got It Back For Everybody",
+            "description": "How about...no one gets any Internet?!?!",
+            "url": "http://twistedsifter.com/2024/09/manager-told-him-to-cut-off-the-internet-for-salespeople-only-so-they-cut-it-for-everyone-in-the-company-and-got-it-back-for-everybody/",
+            "urlToImage": "https://twistedsifter.com/wp-content/uploads/2024/09/reddtcutinternet.jpg",
+            "publishedAt": "2024-09-24T04:22:51Z",
+            "content": "Whatever you say, boss\u2026\r\nHave you ever uttered those words before even when you knew The Man was directing you to do something stupid?\r\nSure, we\u2019ve all been there!\r\nAnd that\u2019s why you\u2019ll enjoy this s\u2026 [+3568 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Theregister.com"
+                "name": "Lse.ac.uk"
             },
-            "author": "Brandon Vigliarolo",
-            "title": "Apple's latest macOS release is breaking security software, network connections",
-            "description": "PLUS: Payer of $75M ransom reportedly identified; Craigslist founder becomes security philanthropist, and more\nInfosec In Brief Something's wrong with macOS Sequoia, and it's breaking security software installed on some updated Apple systems.\u2026",
-            "url": "https://www.theregister.com/2024/09/23/security_in_brief/",
-            "urlToImage": "https://regmedia.co.uk/2015/11/17/sad_mac_face.jpg",
-            "publishedAt": "2024-09-23T00:50:38Z",
-            "content": "Infosec In Brief Something's wrong with macOS Sequoia, and it's breaking security software installed on some updated Apple systems.\r\nSequoia, aka macOS 15, was released on Monday of last week. By Thu\u2026 [+7252 chars]"
+            "author": "Helena Vieira",
+            "title": "AI and automation can open the way for workplace inclusion",
+            "description": "With the rapid advancements in technology, the fear of job loss is palpable. But is this the whole truth for artificial intelligence and automation? Jasmine Virhia and Ariela Kleinberg Shveid write that these technologies can potentially bring a big benefit t\u2026",
+            "url": "https://blogs.lse.ac.uk/businessreview/2024/09/24/ai-and-automation-can-open-the-way-for-workplace-inclusion/",
+            "urlToImage": "https://blogsmedia.lse.ac.uk/blogs.dir/99/files/2024/09/robot-cafe-747-X-420.jpg",
+            "publishedAt": "2024-09-24T04:00:27Z",
+            "content": "With the rapid advancements in technology, the fear of job loss is palpable. But is this the whole truth for artificial intelligence and automation? Jasmine Virhia and Ariela Kleinberg Shveid write t\u2026 [+5640 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Webdirections.org"
+                "name": "Help Net Security"
             },
-            "author": "John",
-            "title": "What a lineup for our Developer Summit",
-            "description": "The Web platform doesn\u2019t have a WWDC, or I/O or Build, where brand new shiny things for the platform are announced all at one time. Unlike for proprietary platforms, there\u2019s no single entity is responsible for the development of the technologies we use, inste\u2026",
-            "url": "https://webdirections.org/blog/what-a-lineup-for-our-developer-summit/",
-            "urlToImage": null,
-            "publishedAt": "2024-09-23T00:01:27Z",
-            "content": "The Web platform doesn\u2019t have a WWDC, or I/O or Build, where brand new shiny things for the platform are announced all at one time. \r\nUnlike for proprietary platforms, there\u2019s no single entity is res\u2026 [+6750 chars]"
+            "author": "Help Net Security",
+            "title": "65% of websites are unprotected against simple bot attacks",
+            "description": "Companies across industries are seeing more bot-driven attacks, both basic and advanced, according to DataDome. An analysis of over 14,000 websites uncovered alarming gaps in protection against cyber fraud, particularly within consumer-centric industries. E-c\u2026",
+            "url": "https://www.helpnetsecurity.com/2024/09/24/websites-bot-attacks/",
+            "urlToImage": "https://img.helpnetsecurity.com/wp-content/uploads/2024/02/12135202/bot_threats-1400-1.jpg",
+            "publishedAt": "2024-09-24T03:30:58Z",
+            "content": "Companies across industries are seeing more bot-driven attacks, both basic and advanced, according to DataDome.\r\nAn analysis of over 14,000 websites uncovered alarming gaps in protection against cybe\u2026 [+3717 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Decrypt"
+            },
+            "author": "Jason Nelson",
+            "title": "New Relief for AI Bot Sufferers: Cloudflare\u2019s New Tool Lets Sites Charge For Data Scraping",
+            "description": "Cloudflare\u2019s tool enables websites to gate AI bot access and charge for content usage in the hopes of combating unauthorized scraping.",
+            "url": "https://decrypt.co/250830/cloudflares-new-tool-lets-sites-charge-for-data-scraping",
+            "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2021/01/bot-trading-bitcoin-gID_7.jpg",
+            "publishedAt": "2024-09-24T01:16:03Z",
+            "content": "San Francisco-based cloud services company Cloudflare launched a new set of AI tools Monday that aims to give websites the ability to stop unauthorized scraping by AI crawlersor to charge them for ac\u2026 [+3661 chars]"
         }
     ]
 }

@@ -1,162 +1,214 @@
 {
     "status": "ok",
-    "totalResults": 12,
+    "totalResults": 16,
     "articles": [
         {
             "source": {
                 "id": null,
-                "name": "ComputerWeekly.com"
-            },
-            "author": "Karl Flinders",
-            "title": "Post Office system still causing unexplained shortfalls for over half of subpostmasters",
-            "description": "A quarter of today\u2019s subpostmasters are \u2018very dissatisfied\u2019 with how the current Horizon IT system works",
-            "url": "https://www.computerweekly.com/news/366611555/Post-Office-system-still-causing-unexplained-Horizon-shortfalls-for-half-of-subpostmasters",
-            "urlToImage": "https://cdn.ttgtmedia.com/visuals/German/article/error-fotolia.jpg",
-            "publishedAt": "2024-09-23T05:14:00Z",
-            "content": "Over half of todays subpostmasters are experiencing unexplained accounting shortfalls on the controversial Horizon IT system used in branches.\r\nOver the past two decades, hundreds of subpostmasters h\u2026 [+3381 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Business Standard"
-            },
-            "author": "Harsh Shivam",
-            "title": "CERT-In issues advisory related to vulnerabilities in iPhones, iPads, Macs",
-            "description": "Indian Computer Emergency Response Team (CERT-In) has issued a \"High Severity\" security warning for iPhones, Macs, iPads, Apple Watches, and more, running on older OS versions",
-            "url": "https://www.business-standard.com/technology/tech-news/cert-in-issues-advisory-related-to-vulnerabilities-in-iphones-ipads-macs-124092300200_1.html",
-            "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-09/10/thumb/fitandfill/400X400/1725942271-6704.jpg",
-            "publishedAt": "2024-09-23T04:56:11Z",
-            "content": "Indian Computer Emergency Response Team (CERT-In) has issued a \"High Severity\" security warning for iPhones, Macs, iPads, Apple Watches, and more, running on older OS versions\r\niPhone 16 series\r\nHars\u2026 [+2045 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Paddle Your Own Kanoo"
-            },
-            "author": "Paddle Your Own Kanoo",
-            "title": "Alaska Airlines Flights Canceled and Delayed After IT Outage Prompts FAA Ground Stop",
-            "description": "Alaska Airlines was forced to cancel and delay some flights on Sunday night after an IT outage crippled multiple computer systems at the Seattle-based carrier, prompting the Federal Aviation Administration (FAA) to issue a temporary ground stop. The airline w\u2026",
-            "url": "https://www.paddleyourownkanoo.com/2024/09/23/alaska-airlines-flights-canceled-and-delayed-after-it-outage-prompts-faa-ground-stop/",
-            "urlToImage": null,
-            "publishedAt": "2024-09-23T03:45:34Z",
-            "content": "Alaska Airlines was forced to cancel and delay some flights on Sunday night after an IT outage crippled multiple computer systems at the Seattle-based carrier, prompting the Federal Aviation Administ\u2026 [+2427 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Freerepublic.com"
-            },
-            "author": "Redstate.com",
-            "title": "Yikes: Kamala's confused comment about Trump shows why they don't want her answering questions",
-            "description": "Kamala Harris proved again on Sunday why her team doesn't seem to like having her take questions. Usually when she's traveling back and forth, you see her running from the car to the plane and completely blowing off the press that might be waiting there, hopi\u2026",
-            "url": "https://freerepublic.com/focus/f-news/4266533/posts",
-            "urlToImage": null,
-            "publishedAt": "2024-09-23T02:27:52Z",
-            "content": "Skip to comments.\r\nYikes: Kamala's confused comment about Trump shows why they don't want her answering questionsRedstate.com ^\r\n | 9/22/2024\r\n | Nick Arama\r\nPosted on 09/22/2024 7:27:52 PM PDT by Ne\u2026 [+6676 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Freerepublic.com"
-            },
-            "author": "Israel Hayom",
-            "title": "Focused and determined: The female snipers deterring threats to IDF forces in Gaza",
-            "description": "Suddenly, Staff Sgt. (res.) S. spotted a woman in a long dress advancing toward the building from afar. S. reported to her commanders and waited for instructions. According to the messages IDF had relayed to Gaza civilians, anyone insisting on approaching the\u2026",
-            "url": "https://freerepublic.com/focus/f-news/4266526/posts",
-            "urlToImage": null,
-            "publishedAt": "2024-09-23T01:35:05Z",
-            "content": "Skip to comments.\r\nFocused and determined: The female snipers deterring threats to IDF forces in GazaIsrael Hayom ^\r\n | 9/20/24\r\n | Tal Ariel Yakir\r\nPosted on 09/22/2024 6:35:05 PM PDT by Uncle Milti\u2026 [+23945 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Nlppeople.com"
-            },
-            "author": "Alexander Raginsky",
-            "title": "Director, Technical Program Management \u2013 Machine Learning",
-            "description": "Center 1 (19052), United States of America, McLean, Virginia Director, Technical Program Management \u2013 Machine Learning Are you interested in leading programs that deliver on critical business goals and build large scale products & platforms? About Capital One\u2026",
-            "url": "https://nlppeople.com/job/director-technical-program-management-machine-learning/",
-            "urlToImage": "https://s0.wp.com/i/blank.jpg",
-            "publishedAt": "2024-09-23T00:00:00Z",
-            "content": "Center 1 (19052), United States of America, McLean, Virginia \r\nDirector, Technical Program Management \u2013 Machine Learning \r\nAre you interested in leading programs that deliver on critical business goa\u2026 [+8132 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Techtarget.com"
-            },
-            "author": "Reda Chouffani",
-            "title": "Are electronic signatures legally binding?",
-            "description": "Remote and hybrid work have fast-tracked many digital initiatives, including electronically signing legal documents. But e-signatures' legal background has a long history.",
-            "url": "https://www.techtarget.com/searchcontentmanagement/answer/Are-electronic-signatures-legally-binding",
-            "urlToImage": "https://cdn.ttgtmedia.com/visuals/ComputerWeekly/Hero Images/insurance-contract-legal-signature-deal-fotolia.jpg",
-            "publishedAt": "2024-09-23T00:00:00Z",
-            "content": "Electronic signatures eliminate the need to complete legal documents and contracts in person, improve efficiency and reduce paper waste. But people still question whether e-signatures are legally bin\u2026 [+4218 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Mercola.com"
-            },
-            "author": "communities@mercola.com (Dr. Joseph Mercola)",
-            "title": "Addiction and Overdose Cases Linked to Illegal Party Pill Are on the Rise",
-            "description": "Gamma-hydroxybutyrate (GHB) is a naturally occurring compound in the brain, involved in key physiological processes such as sleep regulation and muscle tone. As a physiologic neurotransmitter, GHB has been explored for its therapeutic potential on the central\u2026",
-            "url": "https://articles.mercola.com/sites/articles/archive/2024/09/23/addiction-overdose-illegal-party-pill.aspx",
-            "urlToImage": "https://media.mercola.com/ImageServer/Public/2024/September/FB/addiction-overdose-illegal-party-pill-fb.jpg",
-            "publishedAt": "2024-09-23T00:00:00Z",
-            "content": "Mercola proudly supports these charities and organizations. View All \r\nDisclaimer: The entire contents of this website are based upon the opinions of Dr. Mercola, unless otherwise noted. Individual a\u2026 [+1007 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Nlppeople.com"
-            },
-            "author": "Alexander Raginsky",
-            "title": "Junior Machine Learning Engineer",
-            "description": "This is a remote position. DISCLAIMER: This job posting is intended for active pooling of candidates who will become part of our talent pool. Your qualifications will be assessed against both current and future job openings. Should your application align with\u2026",
-            "url": "https://nlppeople.com/job/junior-machine-learning-engineer-2/",
-            "urlToImage": "https://s0.wp.com/i/blank.jpg",
-            "publishedAt": "2024-09-23T00:00:00Z",
-            "content": "This is a remote position. \r\nDISCLAIMER: This job posting is intended for active pooling of candidates who will become part of our talent pool. Your qualifications will be assessed against both curre\u2026 [+1727 chars]"
-        },
-        {
-            "source": {
-                "id": "national-geographic",
-                "name": "National Geographic"
-            },
-            "author": "Melissa Hobson",
-            "title": "Why do octopus punch fish? Science has a compelling theory",
-            "description": "Octopuses in the Red Sea often hunt together with other predatory fish\u2014and sometimes hit them. New videos suggest they're keeping fish in line.",
-            "url": "https://www.nationalgeographic.com/animals/article/octopuses-punch-fish-predators-red-sea",
-            "urlToImage": "https://i.natgeofe.com/n/ca24d54b-2a73-4141-af62-22c25c11d5a4/1_16x9.jpg?w=1200",
-            "publishedAt": "2024-09-23T00:00:00Z",
-            "content": "To find out, Sampaio and colleagues recently set up two camera rigs to follow and film these Red Sea hunts, which they later reconstructed with computer software. After reviewing over a hundred hours\u2026 [+1157 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Mckinsey.com"
+                "name": "[Removed]"
             },
             "author": null,
-            "title": "Driving the future: How connectivity will shape the truck industry",
-            "description": "Connected services can bring significant value to commercial vehicles\u2014but industry stakeholders must work together to make it happen.",
-            "url": "https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/driving-the-future-how-connectivity-will-shape-the-truck-industry",
-            "urlToImage": "https://www.mckinsey.com/~/media/mckinsey/industries/automotive%20and%20assembly/our%20insights/driving%20the%20future%20how%20connectivity%20will%20shape%20the%20truck%20industry/mck248211-connectivity-in-trucks-7_thumb-1536x1536.jpg",
-            "publishedAt": "2024-09-23T00:00:00Z",
-            "content": "Momentum around connected and data-enabled services in commercial vehicles is accelerating. Data-enabled services are critical for new opportunities in charging energy solutions, connected insurance,\u2026 [+14903 chars]"
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "2024-09-24T06:12:11Z",
+            "content": "[Removed]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Nlppeople.com"
+                "name": "ETF Daily News"
             },
-            "author": "Alexander Raginsky",
-            "title": "Senior Machine Learning Engineer (Python, Spark, MLOPS, Cloud)",
-            "description": "Center 1 (19052), United States of America, McLean, Virginia Senior Machine Learning Engineer (Python, Spark, MLOPS, Cloud) As a Capital One Machine Learning Engineer (MLE), you\u2019ll be part of an Agile team dedicated to productionizing machine learning applica\u2026",
-            "url": "https://nlppeople.com/job/senior-machine-learning-engineer-python-spark-mlops-cloud/",
-            "urlToImage": "https://s0.wp.com/i/blank.jpg",
-            "publishedAt": "2024-09-23T00:00:00Z",
-            "content": "Center 1 (19052), United States of America, McLean, Virginia \r\nSenior Machine Learning Engineer (Python, Spark, MLOPS, Cloud) \r\nAs a Capital One Machine Learning Engineer (MLE), you\u2019ll be part of an \u2026 [+7291 chars]"
+            "author": "MarketBeat News",
+            "title": "Rambus (NASDAQ:RMBS) and Sequans Communications (NYSE:SQNS) Financial Comparison",
+            "description": "Sequans Communications (NYSE:SQNS \u2013 Get Free Report) and Rambus (NASDAQ:RMBS \u2013 Get Free Report) are both computer and technology companies, but which is the better investment? We will contrast the two businesses based on the strength of their valuation, profi\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/24/rambus-nasdaqrmbs-and-sequans-communications-nysesqns-financial-comparison/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/rambus-inc-logo-1200x675.jpeg&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-24T05:51:23Z",
+            "content": "Sequans Communications (NYSE:SQNS \u2013 Get Free Report) and Rambus (NASDAQ:RMBS \u2013 Get Free Report) are both computer and technology companies, but which is the better investment? We will contrast the tw\u2026 [+5197 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "InfoWorld"
+            },
+            "author": "gbilder",
+            "title": "5 easy ways to run an LLM locally | InfoWorld",
+            "description": "Deploying a large language model on your own system can be surprisingly simple\u2014if you have the right tools. Here\u2019s how to use LLMs like Meta\u2019s new Llama 3 on your desktop.",
+            "url": "https://www.infoworld.com/article/2338922/5-easy-ways-to-run-an-llm-locally.html",
+            "urlToImage": "https://www.infoworld.com/wp-content/uploads/2024/06/shutterstock_1175616652-100945248-orig.jpg?quality=50&strip=all&w=1024",
+            "publishedAt": "2024-09-24T05:47:02Z",
+            "content": "If you\u2019re familiar with Python and how to set up Python projects, you can clone the full PrivateGPT repository and run it locally. If you\u2019re less knowledgeable about Python, you may want to check out\u2026 [+12292 chars]"
+        },
+        {
+            "source": {
+                "id": "techradar",
+                "name": "TechRadar"
+            },
+            "author": "Max Delaney",
+            "title": "Citing security concerns, the US is now looking to ban Chinese and Russian-made vehicles",
+            "description": "The U.S. Department of Commerce has proposed a ban on electric vehicles from China and Russia amid concerns regarding citizen privacy and national security.",
+            "url": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/citing-security-concerns-the-us-is-now-looking-to-ban-chinese-and-russian-made-vehicles",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/GG7cm2ZwyaariuxhPwWtsi-1200-80.jpg",
+            "publishedAt": "2024-09-24T04:49:37Z",
+            "content": "Electric vehicles made in China could be banned in the US from 2027 if a proposed new rule is passed. The US Bureau of Industry and Security (BIS) has published a Notice of Proposed Rulemaking that w\u2026 [+4462 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ETF Daily News"
+            },
+            "author": "MarketBeat News",
+            "title": "Japan Display (OTCMKTS:JNNDF) versus Benchmark Electronics (NYSE:BHE) Financial Survey",
+            "description": "Benchmark Electronics (NYSE:BHE \u2013 Get Free Report) and Japan Display (OTCMKTS:JNNDF \u2013 Get Free Report) are both computer and technology companies, but which is the superior stock? We will compare the two companies based on the strength of their dividends, ana\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/24/japan-display-otcmktsjnndf-versus-benchmark-electronics-nysebhe-financial-survey/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/japan-display-inc-logo-1200x675.png?v=20230223141812&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-24T04:39:50Z",
+            "content": "Benchmark Electronics (NYSE:BHE \u2013 Get Free Report) and Japan Display (OTCMKTS:JNNDF \u2013 Get Free Report) are both computer and technology companies, but which is the superior stock? We will compare the\u2026 [+5684 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Twistedsifter.com"
+            },
+            "author": "Matthew Gilligan",
+            "title": "Manager Told Him To Cut Off The Internet For Salespeople Only, So They Cut It For Everyone In The Company And Got It Back For Everybody",
+            "description": "How about...no one gets any Internet?!?!",
+            "url": "http://twistedsifter.com/2024/09/manager-told-him-to-cut-off-the-internet-for-salespeople-only-so-they-cut-it-for-everyone-in-the-company-and-got-it-back-for-everybody/",
+            "urlToImage": "https://twistedsifter.com/wp-content/uploads/2024/09/reddtcutinternet.jpg",
+            "publishedAt": "2024-09-24T04:22:51Z",
+            "content": "Whatever you say, boss\u2026\r\nHave you ever uttered those words before even when you knew The Man was directing you to do something stupid?\r\nSure, we\u2019ve all been there!\r\nAnd that\u2019s why you\u2019ll enjoy this s\u2026 [+3568 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Mit.edu"
+            },
+            "author": "MIT News",
+            "title": "MIT named No. 2 university by U.S. News for 2024-25",
+            "description": "MIT has placed second in U.S. News and World Report\u2019s annual rankings of the nation\u2019s best colleges and universities for 2024-25.",
+            "url": "https://news.mit.edu/2024/mit-named-no-2-university-us-news-0924",
+            "urlToImage": "https://news.mit.edu/sites/default/files/images/202409/GretchenErtl_Campus_Sept24-Dome-Press.jpg",
+            "publishedAt": "2024-09-24T04:01:00Z",
+            "content": "MIT has placed second in\u00a0U.S. News and World Reports\u00a0annual rankings of the nations best colleges and universities, announced today.\u00a0\r\nAs in past years, MITs engineering program continues to lead the\u2026 [+2603 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CleanTechnica"
+            },
+            "author": "Paul Fosse",
+            "title": "Polestar 3 SUV \u2014 First Drive",
+            "description": "Last week, I got to drive the new Polestar 3 SUV about 85 miles through the mountains of Wyoming and Idaho, and I was mostly impressed with the car. Driving the Polestar 3, I was impressed by its luxury, performance, and tech. However, its efficiency and valu\u2026",
+            "url": "https://cleantechnica.com/2024/09/23/polestar-3-suv-first-drive/",
+            "urlToImage": "https://cleantechnica.com/wp-content/uploads/2024/09/Polestar-3.jpg",
+            "publishedAt": "2024-09-24T03:58:54Z",
+            "content": "Sign up for daily news updates from CleanTechnica on email. Or follow us on Google News!\r\nLast week, I got to drive the new Polestar 3 SUV about 85 miles through the mountains of Wyoming and Idaho, a\u2026 [+6884 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "AppleInsider"
+            },
+            "author": "news@appleinsider.com (Chip Loder)",
+            "title": "How to use Disk Jockey for retro emulation on your Mac",
+            "description": "Disk Jockey is an app that allows you to create disk image files for a variety of retro computers and emulators. Here's how to use it.Disk Jockey is a retro disk image formatter.Retro computing is popular these days, and one aspect of vintage computing is man\u2026",
+            "url": "https://appleinsider.com/inside/macos/tips/how-to-use-disk-jockey-for-retro-emulation-on-your-mac",
+            "urlToImage": "https://photos5.appleinsider.com/gallery/60761-125819-zip100-xl.jpg",
+            "publishedAt": "2024-09-24T03:05:10Z",
+            "content": "Disk Jockey is an app that allows you to create disk image files for a variety of retro computers and emulators. Here's how to use it.\r\nRetro computing is popular these days, and one aspect of vintag\u2026 [+9048 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "NYT News Service",
+            "title": "Will AI be a bust? A Wall Street skeptic rings the alarm",
+            "description": "Jim Covello, the head of stock research at Goldman Sachs, has become Wall Street's leading AI skeptic. Three months ago, he jolted markets with a research paper that challenged whether businesses would see a sufficient return on what by some estimates could b\u2026",
+            "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/will-ai-be-a-bust-a-wall-street-skeptic-rings-the-alarm/articleshow/113614956.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-113614967,width-1200,height-630,imgsize-225610,overlay-ettech/photo.jpg",
+            "publishedAt": "2024-09-24T02:24:16Z",
+            "content": "As Jim Covello's car barreled up Highway 101 from San Jose to San Francisco this month, he counted the billboards about artificial intelligence. The nearly 40 signs he passed, including one that prom\u2026 [+7516 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Productmarketingalliance.com"
+            },
+            "author": "Product Marketing",
+            "title": "Product Marketing Metrics Certification - An Online OKRs Course",
+            "description": "Transform product marketing metrics into a powerful tool for success. Acquire the skills to drive growth and prove strategic value.",
+            "url": "https://learning.productmarketingalliance.com/on-demand/metrics-certified-masters",
+            "urlToImage": "https://cdn.prod.website-files.com/6524645f3bdb737e4eb09e33/66b4fe5e640e96392b8e38fe_PMA_Certified_Video_Thumbnails_24.jpg",
+            "publishedAt": "2024-09-24T01:55:31Z",
+            "content": "Introducing Aaron Brennan, an accomplished Product and Product Marketing executive with a stellar track record that speaks volumes. A four-time recipient of the prestigious Top 100 Product Marketing \u2026 [+959 chars]"
+        },
+        {
+            "source": {
+                "id": "the-jerusalem-post",
+                "name": "The Jerusalem Post"
+            },
+            "author": "BY JACOB GURVIS/JTA",
+            "title": "For Jewish White Sox fans, this season has made a bad year even worse",
+            "description": "Jewish White Sox fans express disappointment with the team's 120-loss season, blaming poor ownership and seeing cultural similarities.",
+            "url": "https://www.jpost.com/diaspora/article-821457",
+            "urlToImage": "https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_407,w_690/623829",
+            "publishedAt": "2024-09-24T01:11:10Z",
+            "content": "(JTA) \u2014 For as long as Rabbi Jeremy Fine has been alive, he\u2019s been a fan of the Chicago White Sox. This Opening Day, he hoped that his team would provide a welcome diversion from what has been an exc\u2026 [+7387 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Theregister.com"
+            },
+            "author": "Iain Thomson",
+            "title": "Some US Kaspersky customers find their security software replaced by 'UltraAV'",
+            "description": "Back story to replacement for banned security app isn't enormously reassuring Some US-based users of Kaspersky antivirus products have found their software replaced by product from by a low-profile entity named \"UltraAV\" \u2013 a change they didn't ask for, and wh\u2026",
+            "url": "https://www.theregister.com/2024/09/24/ultraav_kaspersky_antivirus/",
+            "urlToImage": "https://regmedia.co.uk/2022/10/14/shutterstock_trust_me.jpg",
+            "publishedAt": "2024-09-24T01:01:12Z",
+            "content": "Some US-based users of Kaspersky antivirus products have found their software replaced by product from by a low-profile entity named \"UltraAV\" a change they didn't ask for, and which has delivered th\u2026 [+4412 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ETF Daily News"
+            },
+            "author": "MarketBeat News",
+            "title": "Financial Contrast: Inseego (NASDAQ:INSG) versus Evertz Technologies (OTCMKTS:EVTZF)",
+            "description": "Inseego (NASDAQ:INSG \u2013 Get Free Report) and Evertz Technologies (OTCMKTS:EVTZF \u2013 Get Free Report) are both computer and technology companies, but which is the better investment? We will compare the two companies based on the strength of their profitability, e\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/23/financial-contrast-inseego-nasdaqinsg-versus-evertz-technologies-otcmktsevtzf/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/evertz-technologies-limited-logo-1200x675.png&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-24T00:38:02Z",
+            "content": "Inseego (NASDAQ:INSG \u2013 Get Free Report) and Evertz Technologies (OTCMKTS:EVTZF \u2013 Get Free Report) are both computer and technology companies, but which is the better investment? We will compare the t\u2026 [+5616 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ETF Daily News"
+            },
+            "author": "MarketBeat News",
+            "title": "SemiLEDs (NASDAQ:LEDS) and Arteris (NASDAQ:AIP) Critical Analysis",
+            "description": "Arteris (NASDAQ:AIP \u2013 Get Free Report) and SemiLEDs (NASDAQ:LEDS \u2013 Get Free Report) are both small-cap computer and technology companies, but which is the better stock? We will contrast the two companies based on the strength of their dividends, risk, earning\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/23/semileds-nasdaqleds-and-arteris-nasdaqaip-critical-analysis/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/semileds-co-logo-1200x675.gif&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-24T00:38:01Z",
+            "content": "Arteris (NASDAQ:AIP \u2013 Get Free Report) and SemiLEDs (NASDAQ:LEDS \u2013 Get Free Report) are both small-cap computer and technology companies, but which is the better stock? We will contrast the two compa\u2026 [+5149 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ETF Daily News"
+            },
+            "author": "MarketBeat News",
+            "title": "Comparing ACCO Brands (NYSE:ACCO) and Koala (OTCMKTS:KARE)",
+            "description": "ACCO Brands (NYSE:ACCO \u2013 Get Free Report) and Koala (OTCMKTS:KARE \u2013 Get Free Report) are both industrials companies, but which is the better business? We will compare the two companies based on the strength of their institutional ownership, risk, earnings, pr\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/23/comparing-acco-brands-nyseacco-and-koala-otcmktskare/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/koala-co-logo-1200x675.png?v=20221017121806&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-24T00:37:15Z",
+            "content": "ACCO Brands (NYSE:ACCO \u2013 Get Free Report) and Koala (OTCMKTS:KARE \u2013 Get Free Report) are both industrials companies, but which is the better business? We will compare the two companies based on the s\u2026 [+5506 chars]"
         }
     ]
 }

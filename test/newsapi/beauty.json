@@ -1,84 +1,110 @@
 {
     "status": "ok",
-    "totalResults": 30,
+    "totalResults": 46,
     "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Business Standard"
+            },
+            "author": "Nandini Singh",
+            "title": "Ecommerce festive sales to reach $12 billion, quick commerce gains ground",
+            "description": "Quick commerce, the burgeoning segment that promises rapid deliveries, is set to contribute $1 billion in gross merchandise value (GMV) to the festive sales",
+            "url": "https://www.business-standard.com/industry/news/ecommerce-festive-sales-to-reach-12-billion-quick-commerce-gains-ground-124091900417_1.html",
+            "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2019-09/30/thumb/featurecrop/400X400/1569789520-1997.jpg",
+            "publishedAt": "2024-09-24T06:22:55Z",
+            "content": "Quick commerce, the burgeoning segment that promises rapid deliveries, is set to contribute $1 billion in gross merchandise value (GMV) to the festive sales\r\nNandini SinghNew Delhi\r\nEcommerce compani\u2026 [+3724 chars]"
+        },
         {
             "source": {
                 "id": null,
                 "name": "ETF Daily News"
             },
             "author": "MarketBeat News",
-            "title": "Research Analysts Issue Forecasts for H & M Hennes & Mauritz AB (publ)\u2019s Q3 2024 Earnings (OTCMKTS:HNNMY)",
-            "description": "H & M Hennes & Mauritz AB (publ) (OTCMKTS:HNNMY \u2013 Free Report) \u2013 Investment analysts at Telsey Advisory Group decreased their Q3 2024 earnings estimates for H & M Hennes & Mauritz AB (publ) in a report issued on Thursday, September 19th. Telsey Advisory Group\u2026",
-            "url": "https://www.etfdailynews.com/2024/09/23/research-analysts-issue-forecasts-for-h-m-hennes-mauritz-ab-publs-q3-2024-earnings-otcmktshnnmy/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/h--m-hennes--mauritz-ab-(publ)-logo-1200x675.png?v=20221104114945&w=240&h=240&zc=2",
-            "publishedAt": "2024-09-23T05:14:52Z",
-            "content": "H &amp; M Hennes &amp; Mauritz AB (publ) (OTCMKTS:HNNMY \u2013 Free Report) \u2013 Investment analysts at Telsey Advisory Group decreased their Q3 2024 earnings estimates for H &amp; M Hennes &amp; Mauritz AB \u2026 [+2854 chars]"
+            "title": "Kohl\u2019s Co. (NYSE:KSS) Receives $20.67 Average Price Target from Brokerages",
+            "description": "Kohl\u2019s Co. (NYSE:KSS \u2013 Get Free Report) has earned a consensus recommendation of \u201cReduce\u201d from the eight brokerages that are presently covering the firm, Marketbeat.com reports. Three research analysts have rated the stock with a sell recommendation, four hav\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/24/kohls-co-nysekss-receives-20-67-average-price-target-from-brokerages/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/kohls-co-logo-1200x675.png?v=20221117151850&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-24T06:12:26Z",
+            "content": "Kohl\u2019s Co. (NYSE:KSS \u2013 Get Free Report) has earned a consensus recommendation of \u201cReduce\u201d from the eight brokerages that are presently covering the firm, Marketbeat.com reports. Three research analys\u2026 [+4820 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Insurance Journal"
+                "name": "Disneyfashionista.com"
             },
-            "author": "William Rabb",
-            "title": "Couple Accused of Using Theater Group\u2019s Credit Card Settles With Insurer",
-            "description": "A Connecticut couple who previously lived in Tampa, Florida, has agreed to settle a subrogation lawsuit brought by Philadelphia Indemnity Insurance Co., which accused the couple of using a nonprofit theater group\u2019s credit card for personal gain. The suit said\u2026",
-            "url": "https://www.insurancejournal.com/news/southeast/2024/09/23/793954.htm",
-            "urlToImage": "https://www.insurancejournal.com/app/uploads/2024/09/theater-troupe-scaled.jpeg",
-            "publishedAt": "2024-09-23T05:01:03Z",
-            "content": "A Connecticut couple who previously lived in Tampa, Florida, has agreed to settle a subrogation lawsuit brought by Philadelphia Indemnity Insurance Co., which accused the couple of using a nonprofit \u2026 [+2636 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Trendhunter.com"
-            },
-            "author": "Kalina N",
-            "title": "Collagen-Powered Beauty Collecctions - Yves Rocher Lauched Its Lift Pro Collag\u00e8ne Collection (TrendHunter.com)",
-            "description": "(TrendHunter.com) Yves Rocher's Lift Pro Collag\u00e8ne collection features innovative anti-wrinkle products that leverage the unique properties of the Ice Plant. This collection is positioned as a significant...",
-            "url": "https://www.trendhunter.com/trends/lift-pro",
-            "urlToImage": "https://cdn.trendhunterstatic.com/thumbs/546/lift-pro.jpeg?auto=webp",
-            "publishedAt": "2024-09-23T05:00:02Z",
-            "content": "Yves Rocher's Lift Pro Collag\u00e8ne collection features innovative anti-wrinkle products that leverage the unique properties of the Ice Plant. This collection is positioned as a significant advancement \u2026 [+776 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "[Removed]"
-            },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
+            "author": "Monica",
+            "title": "Disney FANTASIA x Pleasing Collection Coming Soon",
+            "description": "A new collection is heading our way, and we cannot wait to step inside! Leave reality behind with the Disney FANTASIA x Pleasing collection. The 30-piece collection is just the start. There are also two in-person interactive experiences for fans to explore. D\u2026",
+            "url": "https://disneyfashionista.com/disney-fantasia-x-pleasing-collection-coming-soon/",
             "urlToImage": null,
-            "publishedAt": "2024-09-23T05:00:00Z",
-            "content": "[Removed]"
+            "publishedAt": "2024-09-24T06:06:20Z",
+            "content": "Please note, some posts on Disney Fashionista may collect a share of sales, if you decide to shop through our linksA new collection is heading our way, and we cannot wait to step inside! Leave realit\u2026 [+1687 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "[Removed]"
+                "name": "Prtimes.jp"
             },
             "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "2024-09-23T05:00:00Z",
-            "content": "[Removed]"
+            "title": "CICA\u6210\u5206*1\u3092\u914d\u5408\u3057\u305f\u30b9\u30ad\u30f3\u30b1\u30a2\u30d6\u30e9\u30f3\u30c9\u300eLIHAW\uff08\u30ea\u30cf\u30a6\uff09\u300f\u3088\u308a\u30011,100\u4e07\u679a\u306e\u8ca9\u58f2\u5b9f\u7e3e*2\u3092\u3082\u3064\u30de\u30b9\u30af\u30b7\u30ea\u30fc\u30ba\u7b2c4\u5f3e\u300c\u30ca\u30a4\u30c8\u30b1\u30a2\u30de\u30b9\u30af\u300d\u3092\u5168\u56fd\u306e\u30d0\u30e9\u30a8\u30c6\u30a3\u30b7\u30e7\u30c3\u30d7\u3068EC\u30b5\u30a4\u30c8\u306b\u3066\u8ca9\u58f2\u958b\u59cb",
+            "description": "[Pyuru]\n[\u753b\u50cf1: https://prcdn.freetls.fastly.net/release_image/77374/51/77374-51-4571c815795ac25c550b0fb4ed3d92ad-1095x595.jpg?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&amp...",
+            "url": "https://prtimes.jp/main/html/rd/p/000000051.000077374.html",
+            "urlToImage": "https://prcdn.freetls.fastly.net/release_image/77374/51/77374-51-4571c815795ac25c550b0fb4ed3d92ad-1095x595.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+            "publishedAt": "2024-09-24T06:00:16Z",
+            "content": "OEMODM CICA*1LIHAW2024918EC\r\nhttps://lihaw.com\r\nInstagramhttps://www.instagram.com/lihaw.official/\r\nLIHAW\r\nLIHAW\r\nCICA*1*3\r\nLIHAW NIGHT CARE MASK\r\n10180mL/792\r\nLIHAWCICA*13*4()100%\r\nPOINT\r\n100%Effect\u2026 [+232 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "NDTV News"
+                "name": "Naturalnews.com"
+            },
+            "author": "Olivia Cook",
+            "title": "12 Essential oils and their biblical references",
+            "description": "\u201cAnd they went out\u2026 and they anointed with oil many that were sick and healed them.\u201d Mark 6:12-13 Throughout the Bible, oils held a place of reverence \u2013 serving both practical and sacred purposes. In the ancient scriptures, oils were more than fragrant substa\u2026",
+            "url": "https://www.naturalnews.com/2024-09-24-12-essential-oils-and-their-biblical-references.html",
+            "urlToImage": "https://www.naturalnews.com/wp-content/uploads/sites/91/2024/09/Essential-Oils.jpg",
+            "publishedAt": "2024-09-24T06:00:00Z",
+            "content": "\"And they went out... and they anointed with oil many that were sick and healed them.\" Mark 6:12-13\r\nThroughout the Bible, oils held a place of reverence serving both practical and sacred purposes. I\u2026 [+13014 chars]"
+        },
+        {
+            "source": {
+                "id": "polygon",
+                "name": "Polygon"
+            },
+            "author": "Christopher Gates",
+            "title": "You can learn to speak Elvish \u2014 just not J.R.R. Tolkien\u2019s Elvish",
+            "description": "On Nov. 29, 1931, J.R.R. Tolkien introduced the world to Middle-earth \u2014 the most important part of it, anyway. The Hobbit wouldn\u2019t be published for six more years. The Lord of the Rings was still decades away. But on that autumn night, when the renowned philo\u2026",
+            "url": "https://www.polygon.com/lord-of-the-rings/455300/how-to-speak-elvish-tolkien-lotr",
+            "urlToImage": "https://platform.polygon.com/wp-content/uploads/sites/2/2024/09/GalCel.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+            "publishedAt": "2024-09-24T05:52:08Z",
+            "content": "On Nov. 29, 1931, J.R.R. Tolkien introduced the world to Middle-earth \u2014 the most important part of it, anyway. The Hobbit wouldn\u2019t be published for six more years. The Lord of the Rings was still dec\u2026 [+8407 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Prtimes.jp"
             },
             "author": null,
-            "title": "5 Signs Your Body Needs More Biotin Than You Think",
-            "description": "Your body shows several obvious signs when you have a biotin deficiency. Read on to know what they are and how to tackle them.",
-            "url": "https://food.ndtv.com/health/5-signs-your-body-needs-more-biotin-than-you-think-6622077",
-            "urlToImage": "https://c.ndtvimg.com/2024-09/algtbu6o_biotin_625x300_23_September_24.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=675",
-            "publishedAt": "2024-09-23T04:42:26Z",
-            "content": "There's a reason why experts all around the world emphasize having a well-balanced diet. It is not just for feeling good at the moment but for making sure that your body gets all the essential nutrie\u2026 [+4004 chars]"
+            "title": "CICA\u6210\u5206*1\u3092\u914d\u5408\u3057\u305f\u30b9\u30ad\u30f3\u30b1\u30a2\u30d6\u30e9\u30f3\u30c9\u300eLIHAW\uff08\u30ea\u30cf\u30a6\uff09\u300f\u304b\u3089\u6f64\u3044\u3092\u4e0e\u3048\u3001\u6bdb\u7a74\u306e\u76ee\u7acb\u3061\u306b\u304f\u3044\u30cf\u30ea\u30c4\u30e4\u808c\u3078\u5c0e\u304f\u300c\u30b9\u30e0\u30fc\u30b9\u30b0\u30ed\u30a6\u30de\u30b9\u30af\u300d\u304cEC\u30b5\u30a4\u30c8\u3092\u59cb\u3081\u3001\u5168\u56fd\u306e\u30c4\u30eb\u30cf\u30b0\u30eb\u30fc\u30d7\u9650\u5b9a\u3067\u8ca9\u58f2\u958b\u59cb\u3002",
+            "description": "[Pyuru]\n[\u753b\u50cf1: https://prcdn.freetls.fastly.net/release_image/77374/50/77374-50-b74b92b2d6468b5c91bf38d2d5e1e283-1147x623.jpg?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&amp...",
+            "url": "https://prtimes.jp/main/html/rd/p/000000050.000077374.html",
+            "urlToImage": "https://prcdn.freetls.fastly.net/release_image/77374/50/77374-50-b74b92b2d6468b5c91bf38d2d5e1e283-1147x623.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+            "publishedAt": "2024-09-24T05:49:19Z",
+            "content": "OEMODM CICA*1LIHAW2024926EC\r\nhttps://lihaw.com\r\nInstagramhttps://www.instagram.com/lihaw.official/\r\nLIHAW\r\nLIHAW\r\nCICA*1*2\r\nLIHAW SMOOTH GLOW MASK\r\n10180mL/792\r\n*3\r\nLIHAWCICA*13*4*55*6\r\nPOINT\r\nEffect\u2026 [+216 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "WWD"
+            },
+            "author": "Noor Lobad",
+            "title": "Why Pheromone Perfumes for Men and Women Are Beating Out Other Fragrances on\u00a0Amazon",
+            "description": "Concurrent with their rise on TikTok, pheromone fragrances \u2014 believed to enhance one's natural scent and attract others \u2014 are seeing rapid sales growth, with Amazon being a key destination.",
+            "url": "http://wwd.com/beauty-industry-news/beauty-features/pheromone-perfume-amazon-top-women-men-1236627769/",
+            "urlToImage": "https://wwd.com/wp-content/uploads/2024/09/Pheromone-perfumes.jpg?w=1000&h=563&crop=1",
+            "publishedAt": "2024-09-24T05:48:00Z",
+            "content": "Pheromones are in the air \u2014 perhaps more than usual. \r\nCoined by Peter Karlson and Martin L\u00fcscher in\u00a01959, \u201cpheromones\u201d refers to a class of naturally secreted chemicals said to emit olfactive signal\u2026 [+3887 chars]"
         },
         {
             "source": {
@@ -86,311 +112,493 @@
                 "name": "Fuckingyoung.es"
             },
             "author": "Adriano B.",
-            "title": "Mestre Studio Debut Campaign",
-            "description": "Inspired by the boundless imagination of a child, the campaign takes us on a journey through the delicate line between memory and dreams.\nThe post Mestre Studio Debut Campaign appeared first on Fucking Young!.",
-            "url": "https://fuckingyoung.es/mestre-studio-debut-campaign/",
-            "urlToImage": "https://fuckingyoung.es/wp-content/uploads/2024/09/MESTRE-22.jpg",
-            "publishedAt": "2024-09-23T04:39:23Z",
-            "content": "Inspired by the boundless imagination of a child, the campaign takes us on a journey through the delicate line between memory and dreams.\r\nHeider Cossio captured by the lens of Felipe Villa and style\u2026 [+3611 chars]"
+            "title": "Jacquemus Unveils New Menswear Campaign Starring Jules Kound\u00e9",
+            "description": "Jacquemus has released its latest menswear campaign for the \"LA CASA\" collection, featuring the talented football player Jules Kound\u00e9.\nThe post Jacquemus Unveils New Menswear Campaign Starring Jules Kound\u00e9 appeared first on Fucking Young!.",
+            "url": "https://fuckingyoung.es/jacquemus-unveils-new-menswear-campaign-starring-jules-kounde/",
+            "urlToImage": "https://fuckingyoung.es/wp-content/uploads/2024/09/05-2.jpg",
+            "publishedAt": "2024-09-24T05:36:30Z",
+            "content": "Jacquemus has released its latest menswear campaign for the \u201cLA CASA\u201d collection, featuring the talented football player Jules Kound\u00e9.\r\nBritish actor and longtime friend of the brand, Joe Locke, join\u2026 [+3520 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "8days.sg"
+                "name": "Fuckingyoung.es"
             },
-            "author": "Ainslyn Lim",
-            "title": "PR Exec Charlotte Chia, 26, Wins Miss Universe Singapore 2024, Transgender Finalist Qatrisha Zairyah Makes Top 5, Reveals She Split With Hubby",
-            "description": "PR Exec Charlotte Chia, 26, Wins Miss Universe Singapore 2024, Transgender Finalist Qatrisha Zairyah Makes Top 5, Reveals She Split With Hubby8days.sg",
-            "url": "https://www.8days.sg/entertainment/local/pr-exec-charlotte-chia-miss-universe-2024-transgender-finalist-qatrisha-zairyah-top-5-split-hubby-835911",
-            "urlToImage": "https://onecms-res.cloudinary.com/image/upload/s--38swHq8C--/c_fill,g_auto,h_676,w_1200/f_auto,q_auto/v1/mediacorp/8days/image/2024/09/23/mus_main.jpg?itok=3G2pRftP",
-            "publishedAt": "2024-09-23T04:09:47Z",
-            "content": "Then there was\u00a0Qatrisha Zairyah, Miss Universe Singapores first transgender finalist, who finished her history-making run in the Top 5.\r\nTo say that Qatrisha received overwhelming support at the fina\u2026 [+1991 chars]"
+            "author": "Adriano B.",
+            "title": "Joe Locke Stars in AMI\u2019s Fall/Winter 2024 Campaign",
+            "description": "British actor and longtime friend of the brand, Joe Locke, joins the cast of AMI's Fall/Winter 2024 campaign.\nThe post Joe Locke Stars in AMI\u2019s Fall/Winter 2024 Campaign appeared first on Fucking Young!.",
+            "url": "https://fuckingyoung.es/joe-locke-stars-in-amis-fall-winter-2024-campaign/",
+            "urlToImage": "https://fuckingyoung.es/wp-content/uploads/2024/09/06_2024_AMI_PARIS_JOE_LOCKE_VITALI_GELWICH_03FINAL_4x5-nologo.jpg",
+            "publishedAt": "2024-09-24T05:08:44Z",
+            "content": "British actor and longtime friend of the brand, Joe Locke, joins the cast of AMI\u2019s Fall/Winter 2024 campaign.\r\nItalian brand Diesel, creatively directed by Glenn Martens, presented its Spring/Summer \u2026 [+3549 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Challies.com"
+                "name": "The Japan Times"
             },
-            "author": "Tim Challies",
-            "title": "A Whole List of Reasons to Consider Marrying Young",
-            "description": "There are a few trends that seem universally associated with a modernizing society. Wealth increases, for example, and standards of living rise. Meanwhile, marriage and fertility rates decline. So too does the average age of marriage. Over the past few decade\u2026",
-            "url": "https://www.challies.com/articles/reasons-to-get-married-young/",
-            "urlToImage": "https://www.challies.com/media/2024/09/lightstock_283892_medium_tim_challies.jpg",
-            "publishedAt": "2024-09-23T04:02:00Z",
-            "content": "There are a few trends that seem universally associated with a modernizing society. Wealth increases, for example, and standards of living rise. Meanwhile, marriage and fertility rates decline. So to\u2026 [+6965 chars]"
+            "author": "Nichola Groom,Lewis Jackson",
+            "title": "Offshore wind opponents in Australia, Europe look to U.S. for advice",
+            "description": "Many hope they can transform what was once a disorganized scattering of local activists into an increasingly sophisticated global network.",
+            "url": "https://www.japantimes.co.jp/environment/2024/09/24/energy/offshore-wind-australia-europe-us/",
+            "urlToImage": "https://www.japantimes.co.jp/japantimes/uploads/images/2024/09/24/423473.jpg?v=3.1",
+            "publishedAt": "2024-09-24T05:06:00Z",
+            "content": "LOS ANGELES/SYDNEY Bill Thompson's fight to stop offshore wind farms was once confined to the tiny U.S. state of Rhode Island where he lives.\r\nToday, he is part of a global movement.\r\nIn April, Thomp\u2026 [+8046 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Lewrockwell.com"
+                "name": "The Star Online"
             },
-            "author": "Edward Curtin",
-            "title": "The Free Soul of a Genius: Kris Kristofferson",
-            "description": "\u201cHe who binds to himself a joy Does the winged life destroy; But he who kisses the joy as it flies Lives in eternity\u2019s sun rise.\u201d\u00a0\u00a0\u00a0\u00a0\u00a0 \u2013 William Blake,\u00a0Eternity \u201cBut dreamin\u2019 was as easy as believin\u2019 it was never gonna end And lovin\u2019 her was easier than anyth\u2026",
-            "url": "https://www.lewrockwell.com/2024/09/edward-curtin/the-free-soul-of-a-genius-kris-kristofferson/",
-            "urlToImage": "https://lrc-cdn.s3.amazonaws.com/assets/2021/02/LRC-share.jpg",
-            "publishedAt": "2024-09-23T04:01:00Z",
-            "content": "He who binds to himself a joyDoes the winged life destroy;But he who kisses the joy as it fliesLives in eternitys sun rise.\u00a0\u00a0\u00a0\u00a0\u00a0 William Blake,\u00a0Eternity\r\nBut dreamin was as easy as believin it was ne\u2026 [+16277 chars]"
+            "author": "The Star Online",
+            "title": "Malaysia records 4.5 million Muslim tourist arrivals in 2023, RM14.7bil in revenue",
+            "description": "KUALA LUMPUR: Malaysia welcomed 4.5 million Muslim tourists last year, generating RM14.7bil in revenue, says director-general of the Islamic Tourist Centre (ITC), Nirzan Nordin. Read full story",
+            "url": "https://www.thestar.com.my/news/nation/2024/09/24/malaysia-records-45-million-muslim-tourist-arrivals-in-2023-rm147bil-in-revenue",
+            "urlToImage": "https://apicms.thestar.com.my/uploads/images/2024/09/24/2928648.jpeg",
+            "publishedAt": "2024-09-24T05:05:00Z",
+            "content": "KUALA LUMPUR: Malaysia welcomed 4.5 million Muslim tourists last year, generating RM14.7bil in revenue, says director-general of the Islamic Tourist Centre (ITC), Nirzan Nordin.\r\nSpeaking as a guest \u2026 [+1293 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Lewrockwell.com"
-            },
-            "author": "No Author",
-            "title": "Laugh, Dammit!",
-            "description": "My closest friend Mike and I have known each other since 1st Grade. Until we graduated high school, we were pretty much inseparable. Mike was an only child, and I was the oldest of six, so he had a lot more leeway than I did. I was expected to be the responsi\u2026",
-            "url": "https://www.lewrockwell.com/2024/09/no_author/laugh-dammit/",
-            "urlToImage": "https://lrc-cdn.s3.amazonaws.com/assets/2021/02/LRC-share.jpg",
-            "publishedAt": "2024-09-23T04:01:00Z",
-            "content": "My closest friend Mike and I have known each other since 1st Grade. Until we graduated high school, we were pretty much inseparable. Mike was an only child, and I was the oldest of six, so he had a l\u2026 [+5655 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Challies.com"
-            },
-            "author": "Tim Challies",
-            "title": "A La Carte (September 23)",
-            "description": "A La Carte: Can I submit to my elders thoughtfully? / The evangelism of welcome / Freedom to lament / Living with hope in mental illness / How does your dog smell? / Kindle deals / and more.See Also\r\n<ul><li>A La Carte (September 2)</li><li>A La Carte (April \u2026",
-            "url": "https://www.challies.com/a-la-carte/a-la-carte-september-23-2024/",
-            "urlToImage": "https://www.challies.com/media/2023/11/cover-a-la-carte-mon-a.jpg",
-            "publishedAt": "2024-09-23T04:01:00Z",
-            "content": "Good morning from somewhere between Romania and Germany. I am making my way home after a wonderful weekend with hundreds of young believers in Zalu.\r\nToday\u2019s Kindle deals include several volumes in t\u2026 [+1838 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Americanthinker.com"
+                "name": "Greatday.com"
             },
             "author": null,
-            "title": "In 1962, being the worst in baseball was no bad thing",
-            "description": "So, the Chicago White Sox looks like not just the worst team to date in the 21st century but in baseball history, too. As the seasons end, summer fades, and autumn leaves begin to drop, the White Sox are on their way to recording the most losses in t...",
-            "url": "https://www.americanthinker.com/blog/2024/09/in_1962_being_the_worst_in_baseball_was_no_bad_thing.html",
-            "urlToImage": "https://images.americanthinker.com/g2/g2ztwnkp9rsfn7mfe4kz_800.jpg",
-            "publishedAt": "2024-09-23T04:00:00Z",
-            "content": "So, the Chicago White Sox looks like not just the worst team to date in the 21st century but in baseball history, too. As the seasons end, summer fades, and autumn leaves begin to drop, the White Sox\u2026 [+4172 chars]"
+            "title": "Right time",
+            "description": "There's much you can do that you could not do before. And now are opportunities you will never have again.",
+            "url": "https://greatday.com/motivate/240924.html",
+            "urlToImage": "https://greatday.com/nmot/daily_image/240924.png",
+            "publishedAt": "2024-09-24T05:02:00Z",
+            "content": "Tuesday, September 24, 2024\r\nToday has come at the right time for you. Be confident in living it well.\r\nThere\u2019s much you can do that you could not do before. And now are opportunities you will never \u2026 [+700 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "HYPEBEAST"
-            },
-            "author": "info@hypebeast.com (Hypebeast)",
-            "title": "Lanc\u00f4me Revolutionizes the Travel Retail Experience with the G\u00e9nifique Ultimate Traveler\u2019s Repair Clinic",
-            "description": "Lanc\u00f4me is elevating the travel experience at Singapore Changi Airport with the unveiling of the G\u00e9nifique Ultimate Traveler\u2019s Repair Clinic \u2014 the largest activation ever in the Terminal 1 Central Piazza. In partnership with the best-in-class Shilla Duty-Free\u2026",
-            "url": "https://hypebeast.com/2024/9/lancome-revolutionizes-travel-retail-experience-genifique-ultimate-travelers-repair-clinic-singapore",
-            "urlToImage": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2024%2F09%2F20%2FLancome-TW.jpg?w=1080&cbr=1&q=90&fit=max",
-            "publishedAt": "2024-09-23T03:52:13Z",
-            "content": "Lanc\u00f4me is elevating the travel experience at Singapore Changi Airport with the unveiling of the G\u00e9nifique Ultimate Travelers Repair Clinic the largest activation ever in the Terminal 1 Central Piazz\u2026 [+2546 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Indiancatholicmatters.org"
-            },
-            "author": "Team ICM",
-            "title": "Goa: Guldasta \u2013 Cultivating Seeds of Inter-Religious Harmony at Our Lady of the Rosary HSS",
-            "description": "Verghese V Joseph \u2013 Dona Paula: Our Lady of the Rosary Higher Secondary School (HSS) in Dona Paula, Goa recently hosted an impactful event titled\nThe post Goa: Guldasta \u2013 Cultivating Seeds of Inter-Religious Harmony at Our Lady of the Rosary HSS appeared firs\u2026",
-            "url": "https://www.indiancatholicmatters.org/goa-guldasta-cultivating-seeds-of-inter-religious-harmony-at-our-lady-of-the-rosary-hss/",
-            "urlToImage": "https://www.indiancatholicmatters.org/wp-content/uploads/2024/09/Rosary-HSS-Dona-Paula.jpg",
-            "publishedAt": "2024-09-23T03:50:35Z",
-            "content": "Verghese V Joseph \u2013\r\nDona Paula: Our Lady of the Rosary Higher Secondary School (HSS) in Dona Paula, Goa recently hosted an impactful event titled Guldasta, aimed at promoting inter-religious solidar\u2026 [+3289 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Pleated-jeans.com"
-            },
-            "author": "Nate",
-            "title": "50 \u201cBirds With Threatening Auras\u201d Shared By Bird Lovers Everywhere",
-            "description": "The post 50 \u201cBirds With Threatening Auras\u201d Shared By Bird Lovers Everywhere appeared first on Pleated Jeans.",
-            "url": "https://pleated-jeans.com/2024/09/22/birds-with-threatening-auras-pictures/",
-            "urlToImage": "https://pleated-jeans.com/wp-content/uploads/2024/07/birds-with-threatening-auras-pictures.jpg",
-            "publishedAt": "2024-09-23T03:45:56Z",
-            "content": "If you love scrolling funny pictures of birds and memes, then look no further than the \u201cBirds With Threatening Auras\u201d Facebook group. If you\u2019re not familiar, it\u2019s a place where bird lovers post the f\u2026 [+2853 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Business Standard"
-            },
-            "author": "AP",
-            "title": "New Zealand eight down, Sri Lanka two wickets away from winning 1st Test",
-            "description": "The first test between Sri Lanka and New Zealand has been fiercely contested, with the home side edging towards victory by the close of play on the penultimate day Sunday.\nThe tourists ended the day at 207-8, still 68 runs short of their 275-run target but wi\u2026",
-            "url": "https://www.business-standard.com/cricket/news/new-zealand-eight-down-sri-lanka-two-wickets-away-from-winning-1st-test-124092200589_1.html",
-            "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-02/07/thumb/featurecrop/400X400/1707301412-5585.jpg",
-            "publishedAt": "2024-09-23T03:29:18Z",
-            "content": "The tourists ended the day at 207-8, still 68 runs short of their 275-run target but with the pitch offering significant assistance to the spinners, Sri Lanka looks set to wrap up the game\r\nRachin Ra\u2026 [+2486 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "[Removed]"
+                "name": "Thefutoncritic.com"
             },
             "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
+            "title": "Video: \"Tyler Perry's Beauty in Black\" - Official Trailer - Netflix",
+            "description": "A stripper's fate takes a turn when she crosses paths with the wealthy, dysfunctional family behind a cosmetics dynasty and a devious trafficking scheme.",
+            "url": "http://www.thefutoncritic.com/video/2024/09/24/video-tyler-perrys-beauty-in-black-official-trailer-netflix-225211/20240924netflix03/",
             "urlToImage": null,
-            "publishedAt": "2024-09-23T02:59:37Z",
-            "content": "[Removed]"
+            "publishedAt": "2024-09-24T05:01:00Z",
+            "content": "Tyler Perry's Beauty in Black | Official Trailer | Netflix\r\nTyler Perry's first Netflix Series brings the heat with high stakes, corruption, and family drama. The first 8 episodes of Beauty in Black \u2026 [+1791 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "The Online Citizen"
+                "name": "Trendhunter.com"
             },
-            "author": "The Online Citizen",
-            "title": "Survey reveals one-third of Singaporean youth struggle with severe mental health issues",
-            "description": "A national study by the Institute of Mental Health reveals that 30.6% of Singaporean youth suffer from severe symptoms of depression, anxiety, or stress, driven by factors like excessive social media use, body image concerns, and cyberbullying. The findings e\u2026",
-            "url": "https://www.theonlinecitizen.com/2024/09/23/survey-reveals-one-third-of-singaporean-youth-struggle-with-severe-mental-health-issues/",
-            "urlToImage": "https://i0.wp.com/theonlinecitizen.s3.ap-northeast-2.amazonaws.com/uploads/2024/09/23104746/mental.png?resize=1000%2C600&ssl=1",
-            "publishedAt": "2024-09-23T02:49:39Z",
-            "content": "A significant portion of Singapores youth are experiencing severe mental health challenges, according to a comprehensive national survey conducted by the Institute of Mental Health (IMH).\r\nThe Nation\u2026 [+7103 chars]"
-        },
-        {
-            "source": {
-                "id": "espn",
-                "name": "ESPN"
-            },
-            "author": "ESPN",
-            "title": "Weekend Review: Pulisic lights up Milan derby, Haaland reaches 100 goals",
-            "description": "Christian Pulisic scored again for Milan, this time in a Derby della Madonnina win, while Erling Haaland broke new ground. That and more in our Weekend Review.",
-            "url": "https://www.espn.com/soccer/story/_/id/41386621/european-soccer-weekend-review-premier-league-laliga-bundesliga-highlights-analysis",
-            "urlToImage": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0923%2Fr1390515_1296x729_16%2D9.jpg",
-            "publishedAt": "2024-09-23T02:25:11Z",
-            "content": "Sep 22, 2024, 10:16 PM ET\r\nAnother topsy-turvy weekend of European football action is in the books, with Christian Pulisic instrumental as AC Milan pipped Internazionale2-1 in the Derby della Madonni\u2026 [+12804 chars]"
+            "author": "Debra John",
+            "title": "Restyled Cinematic Makeup Campaigns - Dolce & Gabbana's 'Il Pranzo' Campaign is Dramatic and Bold (TrendHunter.com)",
+            "description": "(TrendHunter.com) Dolce &amp; Gabbana (D&amp;G) has introduced its new campaign, &#8216;Il Pranzo,' to promote its revitalized cosmetics line. This cinematic presentation draws inspiration from &#8220;renowned...",
+            "url": "https://www.trendhunter.com/trends/il-pranzo-campaign",
+            "urlToImage": "https://cdn.trendhunterstatic.com/thumbs/546/il-pranzo-campaign.jpeg?auto=webp",
+            "publishedAt": "2024-09-24T05:00:03Z",
+            "content": "Dolce &amp; Gabbana (D&amp;G) has introduced its new campaign, 'Il Pranzo,' to promote its revitalized cosmetics line. This cinematic presentation draws inspiration from \"renowned auteur cinema, effe\u2026 [+875 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Twistedsifter.com"
+                "name": "Prtimes.jp"
             },
-            "author": "Melissa Triebwasser",
-            "title": "Study Links Cancer And Microplastics As People Born in 1990 Are 2 to 3 Times More Likely To Get Cancer Diagnoses Than Those Born In 1955",
-            "description": "It seems like in addition to earlier cancer screenings, we should be paying closer attention to what we are being exposed to and how it's impacting our health.",
-            "url": "http://twistedsifter.com/2024/09/study-links-cancer-and-microplastics-as-younger-people-are-receiving-cancer-diagnoses/",
-            "urlToImage": "https://twistedsifter.com/wp-content/uploads/2024/09/Microplastics-Cancer-SCI.jpg",
-            "publishedAt": "2024-09-23T02:23:33Z",
-            "content": "Just wanted we wanted to hear, another thing we can\u2019t really avoid is causing cancer in young people.\r\nA study published in the journal\u00a0The Lancet has added \u201cenvironmental chemicals\u201d to the growing l\u2026 [+2947 chars]"
+            "author": null,
+            "title": "DRZERO\u300c\u30ea\u30c7\u30cb\u30ab\u30ebEX\u85ac\u7528\u80b2\u6bdb\u7f8e\u5bb9\u6db2 WOMEN\u300d\u304c\u672c\u97f3\u306e\u30b3\u30b9\u30e1\u6279\u8a55\u8a8cLDK the Beauty\u80b2\u6bdb\u5264\u90e8\u9580\u3067A\u8a55\u4fa1\u3092\u7372\u5f97\uff01\uff01",
+            "description": "[EWI Lab\u682a\u5f0f\u4f1a\u793e]\n[\u753b\u50cf1: https://prcdn.freetls.fastly.net/release_image/108818/5/108818-5-d9ab66cc91cdbf8da87424b9508a8ada-1200x800.png?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&amp...",
+            "url": "https://prtimes.jp/main/html/rd/p/000000005.000108818.html",
+            "urlToImage": "https://prcdn.freetls.fastly.net/release_image/108818/5/108818-5-f65e47a81d9cc4940ce7f2977500516f-900x600.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+            "publishedAt": "2024-09-24T05:00:00Z",
+            "content": "DRZERO/ EWI LabEX WOMENLDK the Beauty202410A\r\nDRZEROEWI LabSHOP\r\nLDK the Beauty A\r\nEX 110\r\n3,6083,247\r\nEX 220%\r\n7,2165,773\r\nLDK the Beauty\r\nLDK the Beauty\r\n22\r\n1-12\r\nhttps://www.shinyusha.co.jp/\r\n1 (\u2026 [+19 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Livemint"
+                "name": "WWD"
             },
-            "author": "Gaurav Laghate",
-            "title": "The future of beauty is personalized, sustainable and powered by AI: L\u2019Or\u00e9al\u2019s Asmita Dubey",
-            "description": "In an interview, L\u2019Or\u00e9al\u2019s global chief digital and marketing officer shares insights into the company\u2019s extensive influencer strategy, the role of AI in product development and consumer engagement, and how the brand remains culturally relevant.",
-            "url": "https://www.livemint.com/companies/people/loral-interview-asmita-dubey-beauty-industry-cosmetics-influencer-strategy-ai-product-development-consumer-engagement-11726765103585.html",
-            "urlToImage": "https://www.livemint.com/lm-img/img/2024/09/22/1600x900/20210807_Loreal_ADubey_1726986406758_1726986429009.jpeg",
-            "publishedAt": "2024-09-23T01:00:02Z",
-            "content": "Mumbai: As the beauty industry pivots to personalization, LOr\u00e9al, the global cosmetics leader with annual revenue exceeding $40 billion, recognizes the critical role of marketing. As the fourth-large\u2026 [+5484 chars]"
+            "author": "Miles Socha",
+            "title": "EXCLUSIVE: \u2018You Can Swim in Louboutins,\u2019 David LaChapelle\u00a0Says",
+            "description": "Christian Louboutin and the American photographer have teamed with France's synchronized swim team for a unique footwear spectacle during Paris Fashion Week.",
+            "url": "http://wwd.com/accessories-news/footwear/louboutin-lachappelle-synchronized-swim-pfw-1236620061/",
+            "urlToImage": "https://wwd.com/wp-content/uploads/2024/09/D3X3849.jpg?crop=0px%2C213px%2C2000px%2C1119px&resize=1000%2C563",
+            "publishedAt": "2024-09-24T05:00:00Z",
+            "content": "\u201cI like to do things with shoes where you\u2019re not expecting to see shoes,\u201d Christian Louboutin said wryly about his Paris Fashion Week presentation, which will feature France\u2019s national artistic swimm\u2026 [+4619 chars]"
+        },
+        {
+            "source": {
+                "id": "football-italia",
+                "name": "Football Italia"
+            },
+            "author": "Peter Young",
+            "title": "Italy players in Premier League: Calafiori stunner, Chiesa debut, Vicario trouble",
+            "description": "It was a busy week for the Italy internationals in the Premier League over the last few days, as Riccardo Calafiori marked his full league debut for Arsenal",
+            "url": "https://football-italia.net/italy-epl-calafiori-stunner-chiesa-debut/",
+            "urlToImage": "https://icdn.football-italia.net/wp-content/uploads/2024/09/Riccardo-Calafiori-Arsenal-Manchester-City-celebrate.jpg",
+            "publishedAt": "2024-09-24T05:00:00Z",
+            "content": "It was a busy week for the Italy internationals in the Premier League over the last few days, as Riccardo Calafiori marked his full league debut for Arsenal with a stunner against Manchester City, Fe\u2026 [+3393 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Rappler"
+                "name": "WWD"
             },
-            "author": "Kaycee Valmonte",
-            "title": "Inside the new store in town: Spatio gives curated designers, Filipino brands a home",
-            "description": "\"Our priority is to perfect this concept and fully meet our customers' expectations before considering any expansion opportunities for the brand,\" says Spatio Deputy General Manager Martin de Leon",
-            "url": "https://www.rappler.com/business/things-to-know-spatio-concept-store-opus-mall-quezon-city/",
-            "urlToImage": "https://www.rappler.com/tachyon/2024/09/IMG_8865-scaled.jpeg",
-            "publishedAt": "2024-09-23T00:57:23Z",
-            "content": "MANILA, Philippines \u00a0A new concept store just launched at the newly-opened Opus Mall in Bridgetowne, Quezon City. \r\n\u201cSpatio\u201d is Robinsons Land Corporation\u2019s new three-level concept store that starts \u2026 [+4056 chars]"
+            "author": "Emily Burns",
+            "title": "Six of New York City\u2019s Hottest New Beauty and Wellness\u00a0Locations",
+            "description": "The six best new wellness and beauty spots that have opened in New York City, including Fuze House, Majesty's Pleasure, Sama, Great Many and Spencer's.",
+            "url": "http://wwd.com/beauty-industry-news/wellness/six-new-wellness-locations-new-york-city-1236622820/",
+            "urlToImage": "https://wwd.com/wp-content/uploads/2024/09/FuzeHouseEntry.jpg?w=1000&h=563&crop=1",
+            "publishedAt": "2024-09-24T05:00:00Z",
+            "content": "Looking for a fall refresh? These new wellness and beauty hot spots in New York City might be the answer. From low-impact heated workouts to mani/pedis with a side of cocktails, here are the latest a\u2026 [+2752 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "The Straits Times"
+                "name": "WWD"
             },
-            "author": "Jessie Lim",
-            "title": "Just over half of units at 8&BT condo in Bukit Timah sold at launch at average $2,719 psf",
-            "description": "One-bedders, priced from about $1.34 million, topped sales with 91 per cent take-up rate. Read more at straitstimes.com.",
-            "url": "https://www.straitstimes.com/business/just-over-half-of-units-at-8bt-condo-in-bukit-timah-sold-at-launch-at-average-2719-psf",
-            "urlToImage": "https://static1.straitstimes.com.sg/s3fs-public/styles/large30x20/public/articles/2024/09/23/IMGNEWNEW-8BT-HeroS1181CRCJS.jpg?VersionId=dN4mv5DAOWRMK_CIRmVYg0i1eGSP5GFG",
-            "publishedAt": "2024-09-23T00:42:32Z",
-            "content": "SINGAPORE - Bukit Sembawang Estates Upper Bukit Timah condominium project 8@BT sold 83 units, or 53 per cent, of its 158 units over its launch weekend, at an average selling price of $2,719 per sq ft\u2026 [+3011 chars]"
-        },
-        {
-            "source": {
-                "id": "buzzfeed",
-                "name": "Buzzfeed"
-            },
-            "author": "Rachelle Yang",
-            "title": "If Traveling Makes You Grouchy, These 32 Products Are Game Changers",
-            "description": "No more listening to crying babies, dealing with dead phones, or suffering through motion sickness \u2014 hooray.View Entire Post \u203a",
-            "url": "https://www.buzzfeed.com/rachelleyang1/travel-products-less-grouchy",
-            "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2024-09/13/17/enhanced/bde1e56e820f/original-5295-1726249633-2.jpg?crop=3003:1575;0,0%26downsize=1250:*",
-            "publishedAt": "2024-09-23T00:31:02Z",
-            "content": "Alleyoop\u00a0is a woman-owned business that creates compact beauty products that typically have several functions.\r\nMy former colleague\u00a0Jasmin Sandal has this and loves it: \"I didn't realize I'd ever use\u2026 [+1264 chars]"
+            "author": "Lily Templeton",
+            "title": "Ones to Watch: The Rising Stars of Spring 2025 for Paris Fashion\u00a0Week",
+            "description": "For spring 2025,\u00a0WWD\u00a0spotlights new names in Paris: LVMH Prize winner Hodakova, All-In, Luis de Javier and Vautrait.",
+            "url": "http://wwd.com/fashion-news/designer-luxury/ones-to-watch-spring-2025-paris-fashion-week-1236628370/",
+            "urlToImage": "https://wwd.com/wp-content/uploads/2024/09/ones-to-watch-paris-featureA_f7151d.jpg?w=1000&h=563&crop=1",
+            "publishedAt": "2024-09-24T05:00:00Z",
+            "content": "PARIS \u2014 For the newest labels coming to Paris Fashion Week, it\u2019s all about the long game: building their know-how, exploring materials with staying power and taking a circular approach.\r\nBrands usual\u2026 [+6728 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Livemint"
+                "name": "CinemaBlend"
             },
-            "author": "Gaurav Laghate",
-            "title": "Striking a balance between inclusivity and entertainment in advertising",
-            "description": "As society evolves, brands are feeling the pressure to be more inclusive. Should advertising lead this change, or just reflect the gradual shift?",
-            "url": "https://www.livemint.com/industry/advertising/advertising-inclusivity-consumers-asci-diversity-kantar-pr-shockvertising-entertainment-11726911941923.html",
-            "urlToImage": "https://www.livemint.com/lm-img/img/2024/09/22/1600x900/Collage_1727021935551_1727021955616.jpg",
-            "publishedAt": "2024-09-23T00:30:22Z",
-            "content": "Mumbai: For years, Indian advertising has followed a narrow set of beauty standardsfair skin, conventional looks and a certain body type. But as society evolves, brands are under pressure to become m\u2026 [+7323 chars]"
+            "author": "Nick Venable",
+            "title": "A Different Man Review: Sebastian Stan Puts On His Best Face For A Dark Comedy That Feels Like Larry David\u2019s The Elephant Man",
+            "description": "Come for the laughs, stay for the psychological trauma.",
+            "url": "https://www.cinemablend.com/movies/a-different-man-review",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/fTNb7WeYzvGQsF4k5aQM55-1200-80.jpg",
+            "publishedAt": "2024-09-24T04:39:53Z",
+            "content": "The desire to change one\u2019s less-than-perfect attributes has long been a staple for fictional plotting, and is at the heart of several 2024 features \u2013 such as Demi Moore\u2019s body horror tour de force Th\u2026 [+6487 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Livemint"
+                "name": "Blogtrepreneur.com"
             },
-            "author": "Pratishtha Bagai",
-            "title": "Influencer marketing presents brands with its challenges, ROI biggest concern",
-            "description": "Plum has trimmed the share of spending on influencers to 15%, while Libas is tracking affiliate links and coupon codes. Meanwhile, Frido has side-stepped agencies to find influencers on its own. However, Perfora feels some collaborations not doing well is par\u2026",
-            "url": "https://www.livemint.com/companies/influencer-marketing-presents-brands-with-its-challenges-roi-biggest-concern-11726650524067.html",
-            "urlToImage": "https://www.livemint.com/lm-img/img/2024/09/20/1600x900/g0e2380b4a4518e713fbf2ff70947942e24e6fd3d3b3436736_1721044187213_1726832904481.jpg",
-            "publishedAt": "2024-09-23T00:30:21Z",
-            "content": "Brands that embraced influencers for their reach, authenticity and affordability are recalibrating strategies, as they target maximum bang for their marketing buck. For several consumer brands that s\u2026 [+4357 chars]"
+            "author": "Rylie Holt",
+            "title": "Maximizing Efficiency: The Key Benefits of Partnering with a Fulfillment Provider",
+            "description": "When running a business, efficiency is not just a goal; it\u2019s a necessity. Today\u2019s market is incredibly fast-paced, and every minute and dollar counts. One powerful way to maximize your business efficiency is by partnering with a fulfillment center. However, b\u2026",
+            "url": "https://www.blogtrepreneur.com/maximizing-efficiency-the-key-benefits-of-partnering-with-a-fulfillment-provider/",
+            "urlToImage": "https://www.blogtrepreneur.com/wp-content/uploads/2016/02/blogtrepreneur-logo.png",
+            "publishedAt": "2024-09-24T04:33:15Z",
+            "content": "0 When running a business, efficiency is not just a goal; it\u2019s a necessity. Today\u2019s market is incredibly fast-paced, and every minute and dollar counts.\r\nOne powerful way to maximize your business ef\u2026 [+3472 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Bangkok Post"
+                "name": "WWD"
             },
-            "author": "Komsan Tortermvasana",
-            "title": "Bid afoot to extend nation's right to use 50.5\u00b0 East slot",
-            "description": "<p>The Office of the National Broadcasting and Telecommunications Commission (NBTC) is preparing official documents to request the International Telecommunication Union (ITU) grant a one-year extension for Thailand's right to use the 50.5&deg; East orbital sl\u2026",
-            "url": "https://www.bangkokpost.com/business/general/2870363/bid-afoot-to-extend-nations-right-to-use-50-5-east-slot",
-            "urlToImage": "https://www.bangkokpost.com/v3/assets/images/img-default.jpg",
-            "publishedAt": "2024-09-23T00:10:00Z",
-            "content": "The Office of the National Broadcasting and Telecommunications Commission (NBTC) is preparing official documents to request the International Telecommunication Union (ITU) grant a one-year extension \u2026 [+2835 chars]"
+            "author": "Noor Lobad",
+            "title": "Ulta Beauty Is Launching Toy Minis of Its Bestselling\u00a0Products",
+            "description": "Ulta Beauty and Mini Brands have teamed to launch a collection of toy beauty product minis by brands like E.l.f. Beauty, Tarte Cosmetics, Ouai and more.",
+            "url": "http://wwd.com/beauty-industry-news/beauty-features/ulta-beauty-mini-brands-toy-products-elf-tarte-1236634630/",
+            "urlToImage": "https://wwd.com/wp-content/uploads/2024/09/Ulta-toy-minis.jpg?w=1000&h=563&crop=1",
+            "publishedAt": "2024-09-24T04:01:00Z",
+            "content": "Ulta Beauty is taking the \u201cbeauty minis\u201d craze to a new level. \r\nThe retailer has joined forces with Mini Brands to develop a collection of more than 68 toy replicas of full-size products by brands s\u2026 [+1570 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Israelnationalnews.com"
+                "name": "WWD"
             },
-            "author": "Yoni Kempinski, Washington",
-            "title": "'You're an example to our people'",
-            "description": "Native American couple Chief Joseph and Amb. Dr. Laralyn RiverWind speak to Arutz Sheva-Israel National News at IAC about the connection between the rights that the Jews have to their land and the rights that Native Americans claim to their lands.",
-            "url": "https://www.israelnationalnews.com/en/news/396577",
-            "urlToImage": "https://a7.org/files/pictures/1200x930/1166434.jpg?autocrop=1",
-            "publishedAt": "2024-09-23T00:08:06Z",
-            "content": "Native American couple Chief Joseph and Amb. Dr. Laralyn RiverWind spoke to Arutz Sheva-Israel National News during the Israeli-American Council (IAC) Summit which took place in Washington, DC.\r\nWe a\u2026 [+2978 chars]"
+            "author": "Noor Lobad",
+            "title": "Can \u2018Slow\u2019 Beauty Go\u00a0Mainstream?",
+            "description": "As conscious consumption climbs to the fore and beauty's soaring growth tempers, a number of \u201cslow\u201d beauty brands are seeing a jolt in awareness.",
+            "url": "http://wwd.com/beauty-industry-news/beauty-features/slow-beauty-mmovement-underconsumption-trend-1236631751/",
+            "urlToImage": "https://wwd.com/wp-content/uploads/2024/09/Screen-Shot-2024-09-19-at-10.53.58-AM.png?w=1000&h=563&crop=1",
+            "publishedAt": "2024-09-24T04:01:00Z",
+            "content": "Having grown up next door to an herb farm in Somerset, England, siblings Emily Cameron and Owen Mears have always harbored a keen awareness of their natural surroundings.\u00a0\r\n\u201cThere were fields of echi\u2026 [+10315 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Adafruit.com"
+                "name": "Challies.com"
             },
-            "author": "Zay",
-            "title": "Adventure Thru Inner Space #SciFiSunday",
-            "description": "Disneyland once had an innovative dark ride that wasn\u2019t based on any Disney character, Marvel character, or Star Wars character. The ride was called Adventure Thru Inner Space and the idea was that visitors were hit with a shrink ray. They\u2019d get smaller and s\u2026",
-            "url": "https://blog.adafruit.com/2024/09/22/adventure-thru-inner-space-scifisunday/",
-            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2024/09/entrance.jpg",
-            "publishedAt": "2024-09-23T00:00:17Z",
-            "content": "Disneyland once had an innovative dark ride that wasn\u2019t based on any Disney character, Marvel character, or Star Wars character. The ride was called Adventure Thru Inner Space and the idea was that v\u2026 [+3292 chars]"
+            "author": "Tim Challies",
+            "title": "A La Carte (September 24)",
+            "description": "A La Carte: The complexity of calling / How a pastor gets disqualified / Getting the most out of Scripture writing / The calling of motherhood / Seven qualities God expects in missionaries / Book and Kindle deals / and more.See Also\r\n<ul><li>A La Carte (July \u2026",
+            "url": "https://www.challies.com/a-la-carte/a-la-carte-september-24-2024/",
+            "urlToImage": "https://www.challies.com/media/2023/11/cover-a-la-carte-tue-b.jpg",
+            "publishedAt": "2024-09-24T04:01:00Z",
+            "content": "Good morning from home! I was tremendously blessed to spend time with believers in several European countries over the past few weeks. But, as always, I am glad to be home.\r\nWestminster Books has a g\u2026 [+2352 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "WWD"
+            },
+            "author": "Jmansowwd",
+            "title": "How L\u2019Or\u00e9al\u2019s New Global Chief Sustainability Officer Assesses Room for\u00a0Improvements",
+            "description": "Ezgi Barcenas, who assumed the C-suite role earlier this year, draws on her engineering and public health experience as well as her upbringing.",
+            "url": "http://wwd.com/beauty-industry-news/beauty-features/loreal-new-global-chief-sustainability-officer-interview-1236634271/",
+            "urlToImage": "https://wwd.com/wp-content/uploads/2024/09/Ezgi-Barcenas-headshot-1.jpg?crop=0px%2C128px%2C2000px%2C1119px&resize=1000%2C563",
+            "publishedAt": "2024-09-24T04:01:00Z",
+            "content": "From her upbringing in Cyprus to her training as an engineer and career in public health, Ezgi Barcenas has a background as multifaceted as the organization she works for.\r\nL\u2019Or\u00e9al\u2019s recently minted \u2026 [+3479 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "WWD"
+            },
+            "author": "Jmansowwd",
+            "title": "EXCLUSIVE: The Ordinary Parent Deciem Is Launching a Body Care\u00a0Brand",
+            "description": "Deciem, parent company of The Ordinary, is launching a new body care brand called Loopha, which originated from Deciem's late founder Brandon Truaxe.",
+            "url": "http://wwd.com/beauty-industry-news/beauty-features/the-ordinary-parent-deciem-loopha-body-care-1236640134/",
+            "urlToImage": "https://wwd.com/wp-content/uploads/2024/09/LOoPHA-Broadleaf-Group-Image-1.jpg?w=1000&h=563&crop=1",
+            "publishedAt": "2024-09-24T04:00:00Z",
+            "content": "For its next big launch, Deciem is thinking small.\r\nThe incubator, and parent company of The Ordinary \u2014 which closed its $1.7 billion deal with parent The Est\u00e9e Lauder Cos. earlier this year \u2014 is bac\u2026 [+3563 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "WWD"
+            },
+            "author": "Jmansowwd",
+            "title": "Clean Beauty Brand Alpyn Beauty Rebrands Amid Sephora\u00a0Expansion",
+            "description": "Alpyn Beauty is amplifying its expansion at Sephora with a product rebrand and a new product, founder Kendra Kolb Butler told WWD.",
+            "url": "http://wwd.com/beauty-industry-news/beauty-features/alpyn-beauty-sephora-expansion-rebrand-interview-1236634210/",
+            "urlToImage": "https://wwd.com/wp-content/uploads/2024/09/Alpyn_Melt-Moisturizer_2-1.jpg?w=1000&h=563&crop=1",
+            "publishedAt": "2024-09-24T04:00:00Z",
+            "content": "Alpyn Beauty founder Kendra Kolb Butler is hitting refresh on the brand as it gears up for growth.\r\nThe brand is growing literally, by sales, in product assortment, by launches, and in shelf space at\u2026 [+2766 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Rediff.com"
+            },
+            "author": "MOHNISH SINGH",
+            "title": "'I Am A Heavy, Luxury Car'",
+            "description": "'There are very few chances that I can give good mileage.'\n'A smaller, lighter car will give more mileage and this was a big reason to be nervous.'",
+            "url": "https://www.rediff.com/movies/report/i-am-a-heavy-luxury-car/20240924.htm",
+            "urlToImage": "https://im.rediff.com/movies/2024/sep/23bebika-dhurve5.jpg",
+            "publishedAt": "2024-09-24T03:59:01Z",
+            "content": "'There are very few chances that I can give good mileage.''A smaller, lighter car will give more mileage and this was a big reason to be nervous.'\r\nPhotograph: Kind courtesy Bebika Dhruve/Instagram\r\n\u2026 [+5397 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Ozbargain.com.au"
+            },
+            "author": "trixieb",
+            "title": "10% off TCN Active and TCN Pamper eGift Cards @ Woolworths Gift Cards",
+            "description": "Qualifying Gift Cards are TCN Active and TCN Pamper eGift Cards. \nThis offer excludes Gift Cards purchased in-store.\n\nWhen\nPromotion runs from 00:01 AEST 24/09/24 to 23:59 AEST 27/09/24 or while stocks last. You can redeem your offer multiple times during the\u2026",
+            "url": "https://www.ozbargain.com.au/node/867993",
+            "urlToImage": "https://files.ozbargain.com.au/n/93/867993x.jpg?h=66b9eba8",
+            "publishedAt": "2024-09-24T03:49:39Z",
+            "content": "Qualifying Gift Cards are TCN Active and TCN Pamper eGift Cards. This offer excludes Gift Cards purchased in-store.\r\nWhenPromotion runs from 00:01 AEST 24/09/24 to 23:59 AEST 27/09/24 or while stocks\u2026 [+1162 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BusinessLine"
+            },
+            "author": "Subramani Ra Mancombu",
+            "title": "Global diamond body goes to ASCI against \u2018malicious\u2019 campaign by \u2018some\u2019 lab-grown diamond firms",
+            "description": "Natural Diamond Council CEO addresses lab-grown diamond misinformation, market trends, and industry challenges in a comprehensive overview.",
+            "url": "https://www.thehindubusinessline.com/economy/agri-business/global-diamond-body-goes-to-asci-against-malicious-campaign-by-some-lab-grown-diamond-firms/article68674884.ece",
+            "urlToImage": "https://bl-i.thgim.com/public/economy/agri-business/23oqfo/article68674860.ece/alternates/LANDSCAPE_1200/NDC%20white%20bg.png",
+            "publishedAt": "2024-09-24T03:30:00Z",
+            "content": "The Natural Diamond Council (NDC) is concerned that a minority of lab-grown diamond companies are using bad statements that are untrue to create mistrust about mined diamonds.\r\nThats (bad statements)\u2026 [+6947 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Punch"
+            },
+            "author": "Johnson Idowu",
+            "title": "How weak regulations\u2019 enforcement fuels Lagos markets\u2019 fire disaster",
+            "description": "However, what lurks behind this economic vigour is a systemic failure to maintain safety standards. For decades, Lagos markets have been besieged by fires, causing untold hardship for traders who lose their livelihoods in a matter of minutes. These fire incid\u2026",
+            "url": "https://punchng.com/how-weak-regulations-enforcement-fuels-lagos-markets-fire-disaster/",
+            "urlToImage": "https://cdn.punchng.com/wp-content/uploads/2024/09/24030213/lag-mkt-fire-disaster.jpg",
+            "publishedAt": "2024-09-24T03:22:25Z",
+            "content": "In Lagos, Nigerias commercial centre, markets serve as the lifeblood of daily trade that provides sustenance and livelihood for thousands of traders. But, behind the vibrant economic activities lie a\u2026 [+20489 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New Zealand Herald"
+            },
+            "author": "Lana Andelane",
+            "title": "David Dallas on why we need to highlight small venues to save live music",
+            "description": "'No one\u2019s too big to do stuff like this if the story is right.'",
+            "url": "https://www.nzherald.co.nz/entertainment/david-dallas-on-why-we-need-to-highlight-small-venues-to-save-live-music/X6LCKZTKLJF4VM5EZAUDG5XJZE/",
+            "urlToImage": "https://www.nzherald.co.nz/resizer/v2/JJUBGX32LJH4NMF67Z5BSJ677Y.jpg?auth=4849d468a2a19f973f140ce9ad4c5845a4e0c517bb26e6d4c2344aaf5075ae77&width=1200&height=675&quality=70&smart=true",
+            "publishedAt": "2024-09-24T03:00:00Z",
+            "content": "Inside, there is a small stage flanked by a door with Backstage, Artists Only scribbled upon it in white chalk. Graffiti emblazons a small wall, while thick, dark drapes shroud the rest. The standing\u2026 [+8806 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Janetlansbury.com"
+            },
+            "author": "janet",
+            "title": "Triggered Again: Understanding Our Reactions to Kids\u2019 Behaviors (With Elisabeth Corey)",
+            "description": "Trauma survivor Elisabeth Corey returns to \u2018Unruffled\u2019 to share healing insights she\u2019s gained from her intense struggles as a parent of twins. The emotional reactions our kids stir up in us can take us by surprise. Worse, they can keep us feeling stuck repeat\u2026",
+            "url": "https://www.janetlansbury.com/2024/09/triggered-again-understanding-our-reactions-to-kids-behaviors-with-elisabeth-corey/",
+            "urlToImage": "https://d3tkwokssgv28o.cloudfront.net/wp-content/uploads/2024/09/22140835/UNRUFFLED-Podcast-Covers.png",
+            "publishedAt": "2024-09-24T02:43:42Z",
+            "content": "Trauma survivor Elisabeth Corey returns to Unruffled to share healing insights she\u2019s gained from her intense struggles as a parent of twins. The emotional reactions our kids stir up in us can take us\u2026 [+40199 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Deadline"
+            },
+            "author": "Natalie Oganesyan",
+            "title": "T.I., Tiny Win $71 Million Lawsuit Against MGA Entertainment",
+            "description": "Rapper T.I. and his wife, singer-songwriter Tameka \u2018Tiny\u2019 Harris, have been awarded a whopping $71 million by a jury in their lawsuit against MGA Entertainment, the toy conglomerate they alleged violated the intellectual property rights of their teen pop grou\u2026",
+            "url": "http://deadline.com/2024/09/ti-tiny-mga-entertainment-omg-girlz-lawsuit-win-1236097694/",
+            "urlToImage": "https://deadline.com/wp-content/uploads/2024/09/tiny-and-ti.jpg?w=1024",
+            "publishedAt": "2024-09-24T02:27:27Z",
+            "content": "Rapper T.I. and his wife, singer-songwriter Tameka \u2018Tiny\u2019 Harris, have been awarded a whopping $71 million by a jury in their lawsuit against MGA Entertainment, the toy conglomerate they alleged viol\u2026 [+2053 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Talha Qureshi",
+            "title": "Coty Inc. (COTY): Among the Worst Affordable Stocks to Buy Under $10",
+            "description": "We recently compiled a list of the 10 Worst Affordable Stocks Under $10. In this article, we are going to take a look at where Coty Inc. (NYSE:COTY) stands...",
+            "url": "https://finance.yahoo.com/news/coty-inc-coty-among-worst-022639050.html/",
+            "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
+            "publishedAt": "2024-09-24T02:26:39Z",
+            "content": "We recently compiled a list of the 10 Worst Affordable Stocks Under $10.\u00a0In this article, we are going to take a look at where Coty Inc. (NYSE:COTY) stands against the other worst affordable stocks t\u2026 [+8070 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ArchDaily"
+            },
+            "author": "Valeria Silva",
+            "title": "Jingdezhen Taoxichuan Cloud Engine Energy Center / XING DESIGN",
+            "description": "An intriguing question. What could a utility building in a green park look like?. In the noisy summer of 2019 with cicadas chirping, I was asked this intriguing question. The inquisitor was Mr. Liu Zili, Chairman of Taowenlv, owner of the Jingdezhen Ceramic A\u2026",
+            "url": "https://www.archdaily.com/1021458/jingdezhen-taoxichuan-cloud-engine-energy-center-xing-design",
+            "urlToImage": "https://images.adsttc.com/media/images/66ed/a62e/09c8/2c11/0b7d/5abf/large_jpg/jingdezhen-taoxichuan-cloud-engine-energy-center-xing-design_15.jpg?1726850662",
+            "publishedAt": "2024-09-24T02:00:00Z",
+            "content": "\u00a9 Schran Image\r\n+ 33\r\n<ul><li>Lead Architecs (Xing Design Team):\u00a0Xing Xiong\r\n</li><li>Design Team (Xing Design Team):\u00a0Ren Meizi, Lin Weiqiao, Lei Sheng,Chen Mo, Wu Dao, Shi Yuhang, Zhang Xinyu\r\n</li>\u2026 [+8873 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Stanford.edu"
+            },
+            "author": "merickso",
+            "title": "Frances Conley, formidable neurosurgeon who broke gender barriers, dies at 83",
+            "description": "Conley used her prominent position to advocate for women in medicine.",
+            "url": "https://med.stanford.edu:443/news/all-news/2024/09/frances-conley-obituary.html",
+            "urlToImage": "https://med.stanford.edu/content/dam/sm-news/images/2024/09/Frances-Conley.jpg",
+            "publishedAt": "2024-09-24T01:34:54Z",
+            "content": "After initially considering plastic surgery, the most acceptable surgical specialty for women at the time, Conley decided on neurosurgery, enthralled by the ability to turn around patients lives. A p\u2026 [+4527 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Independent.ie"
+            },
+            "author": "Gemma Fullam",
+            "title": "Breast reduction: \u2018People have this idea that it\u2019s great to have big breasts and it really isn\u2019t\u2019",
+            "description": "The International Society of Aesthetic Plastic Surgery (ISAPS) conducts a yearly survey of aesthetic and cosmetic procedures performed worldwide, and, since 2015, among the statistics within that annual report is a ranking of the most popular cosmetic interve\u2026",
+            "url": "https://www.independent.ie/life/health-wellbeing/health-features/breast-reduction-people-have-this-idea-that-its-great-to-have-big-breasts-and-it-really-isnt/a1274494264.html",
+            "urlToImage": "https://focus.independent.ie/thumbor/93QvV7pg2NNOCCl0kHAZ1eBPETg=/629x460/smart/prod-mh-ireland/3fd8c527-da12-4f76-a273-00540b6b347b/c9d26301-0572-4244-a289-83e071528d49/inead%20Kavanagh%20%20131.jpg",
+            "publishedAt": "2024-09-24T01:30:00Z",
+            "content": "Primary school teacher and beauty influencer Sin\u00e9ad Kavanagh endured unwanted attention, back pain and physical discomfort because of her breasts for many years so she decided to get them reduced\r\nTh\u2026 [+540 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Tonywublog.com"
+            },
+            "author": null,
+            "title": "The Pulchritude of Pain",
+            "description": "My previous post about the hydrozoan\u00a0Spirocodon saltatrix\u00a0seemed to strike a chord.\n\nAs many mentioned in feedback I received, hydrozoans can indeed be beautiful to behold. They can also pack a punch too though.\n\nThere is perhaps no better example than the in\u2026",
+            "url": "https://www.tonywublog.com/journal/physalia-physalis-hydrozoan",
+            "urlToImage": "http://www.tonywublog.com/assets/images/2024/09/blue-bottle-indo-pacific-portuguese-man-of-war-physalia-utriculus-1358-tony-wu.jpg",
+            "publishedAt": "2024-09-24T01:07:00Z",
+            "content": "My previous post about the hydrozoan\u00a0Spirocodon saltatrix\u00a0seemed to strike a chord.\r\nAs many mentioned in feedback I received, hydrozoans can indeed be beautiful to behold. They can also pack a punch\u2026 [+5293 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Queerty.com"
+            },
+            "author": "Editors",
+            "title": "18 famous LGBTQ+ Libras born into balance",
+            "description": "From artists like Pedro Almod\u00f3var to athletes like Ian Thorpe, explore famous LGBTQ+ Libras who\u2019ve shaped culture, politics, and more!",
+            "url": "https://www.queerty.com/famous-lgbtq-libras-born-into-balance-20240923",
+            "urlToImage": "https://adabgmwwup.cloudimg.io/v7/_queerty-prodweb_/2024/09/libra-zodiac-symbol-scaled.jpg?auto=format&auto=compress&fit=crop&gravity=smart&w=1200&h=630&force_format=jpeg&wat=1&wat_gravity=southeast&wat_pad=70",
+            "publishedAt": "2024-09-24T01:00:00Z",
+            "content": "Welcome to Libra season! As the sign of the scales, Libras are known for their diplomacy, fairness, and an undeniable sense of charm. Its no surprise that many Libras become icons in their fields, da\u2026 [+1145 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Deadline"
+            },
+            "author": "Katie Campione",
+            "title": "\u2018All American: Homecoming\u2019 Star Netta Walker Talks Keisha & Cam\u2019s Fractured Relationship, Teases Series Finale",
+            "description": "SPOILER ALERT! This post contains details from Season 3, Episode 12 of All American: Homecoming. Monday\u2019s penultimate episode of All American: Homecoming seemed, in many ways, to be about healing. After standing up to a major recording artist about his work, \u2026",
+            "url": "http://deadline.com/2024/09/all-american-homecoming-netta-walker-keisha-cam-breakup-teases-series-finale-1236097139/",
+            "urlToImage": "https://deadline.com/wp-content/uploads/2024/09/AHC312_0396r-1929adfdaa23387c.jpg?w=1000",
+            "publishedAt": "2024-09-24T01:00:00Z",
+            "content": "SPOILER ALERT! This post contains details from Season 3, Episode 12 of All American: Homecoming.\r\nMonday\u2019s penultimate episode of All American: Homecoming seemed, in many ways, to be about healing.\r\n\u2026 [+15616 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Rolling Stone"
+            },
+            "author": "Nancy Dillon",
+            "title": "T.I., Tiny Win Whopping $71 Million Award at OMG Girlz Trial",
+            "description": "\"They were the ones that came and ripped us off, and [they] expected us to not have the audacity to stand up and speak for ourselves,\" T.I. tells Rolling Stone",
+            "url": "http://www.rollingstone.com/music/music-news/ti-tiny-win-omg-girlz-mga-infringement-lawsuit-jury-verdict-1235109498/",
+            "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2024/09/TI-tiny-verdict.jpg?w=1600&h=900&crop=1",
+            "publishedAt": "2024-09-24T00:56:31Z",
+            "content": "Hip-hop mogul T.I. and his wife Tameka \u201cTiny\u201d Harris scored a massive $71 million jury award Monday after winning their third court trial over claims toy titan MGA Entertainment violated the intellec\u2026 [+5754 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Luxuo.com"
+            },
+            "author": "Sanjeeva Suresh",
+            "title": "Jennifer Williams\u2019 Redefined Collection: Setting The Standard For High-End Raw Hair Extensions and Wigs",
+            "description": "\u201cHair is jewellery. it is an accessory\u201d - Jill Scott \nThe post Jennifer Williams\u2019 Redefined Collection: Setting The Standard For High-End Raw Hair Extensions and Wigs\u00a0 appeared first on LUXUO.",
+            "url": "https://www.luxuo.com/style/beauty/jennifer-williams-redefined-collection-high-end-raw-hair-extensions-and-wigs.html",
+            "urlToImage": "https://cdn.luxuo.com/2024/09/blonde-body-lace-front-wave-wig-Featured-Image-01.jpg",
+            "publishedAt": "2024-09-24T00:39:45Z",
+            "content": "Hair is jewellery. it is an accessory \u2013 Jill Scott \r\nEver since human hairs as wigs and extensions became a thing, the hair market has become overly saturated, and finding the perfect hair can be an \u2026 [+6901 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Luxuo.com"
+            },
+            "author": "Sanjeeva Suresh",
+            "title": "Luxury Travel Guide to Madrid, Spain: Where to Stay, Shop and Eat",
+            "description": "Discover Madrid's understated glamour and exclusive experiences, from Michelin-starred dining to private tours of the Royal Palace. \nThe post Luxury Travel Guide to Madrid, Spain: Where to Stay, Shop and Eat appeared first on LUXUO.",
+            "url": "https://www.luxuo.com/lifestyle/travel/luxury-travel-guide-to-madrid-spain-where-to-stay-shop-and-eat.html",
+            "urlToImage": "https://cdn.luxuo.com/2024/09/Madrid-Spain-Featured-Image-01.jpg",
+            "publishedAt": "2024-09-24T00:37:26Z",
+            "content": "Discover Madrid\u2019s understated glamour and exclusive experiences, from Michelin-starred dining to private tours of the Royal Palace. Image courtesy of Unsplash\r\nIs Madrid on your bucket list? While it\u2026 [+4742 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Screen Rant"
+            },
+            "author": "Colin McCormick, Quinn Hough, Dalton Norman",
+            "title": "Frozen 3: Release Date, Cast, Story & Everything We Know",
+            "description": "Frozen 2 leaves its ending wide open for more Anna and Elsa adventures. Here's what we know so far about Frozen 3's possible release date and story.",
+            "url": "https://screenrant.com/frozen-3-disney-sequel-release-date-cast-story/",
+            "urlToImage": "https://static1.srcdn.com/wordpress/wp-content/uploads/2023/01/frozen-3-what-should-happen-stories-changes.jpg",
+            "publishedAt": "2024-09-24T00:30:13Z",
+            "content": "Disneys Frozen 2 received mixed reviews, but the box office results were enough reason for Disney to add Frozen 3 to their slate of upcoming movies. For Frozen 2, screenwriter Jennifer Lee once again\u2026 [+4691 chars]"
         }
     ]
 }

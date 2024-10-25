@@ -1,45 +1,123 @@
 {
     "status": "ok",
-    "totalResults": 3,
+    "totalResults": 9,
     "articles": [
         {
             "source": {
                 "id": null,
-                "name": "ComputerWeekly.com"
+                "name": "ETF Daily News"
             },
-            "author": "Karl Flinders",
-            "title": "Post Office system still causing unexplained shortfalls for over half of subpostmasters",
-            "description": "A quarter of today\u2019s subpostmasters are \u2018very dissatisfied\u2019 with how the current Horizon IT system works",
-            "url": "https://www.computerweekly.com/news/366611555/Post-Office-system-still-causing-unexplained-Horizon-shortfalls-for-half-of-subpostmasters",
-            "urlToImage": "https://cdn.ttgtmedia.com/visuals/German/article/error-fotolia.jpg",
-            "publishedAt": "2024-09-23T05:14:00Z",
-            "content": "Over half of todays subpostmasters are experiencing unexplained accounting shortfalls on the controversial Horizon IT system used in branches.\r\nOver the past two decades, hundreds of subpostmasters h\u2026 [+3381 chars]"
+            "author": "MarketBeat News",
+            "title": "Rambus (NASDAQ:RMBS) and Sequans Communications (NYSE:SQNS) Financial Comparison",
+            "description": "Sequans Communications (NYSE:SQNS \u2013 Get Free Report) and Rambus (NASDAQ:RMBS \u2013 Get Free Report) are both computer and technology companies, but which is the better investment? We will contrast the two businesses based on the strength of their valuation, profi\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/24/rambus-nasdaqrmbs-and-sequans-communications-nysesqns-financial-comparison/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/rambus-inc-logo-1200x675.jpeg&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-24T05:51:23Z",
+            "content": "Sequans Communications (NYSE:SQNS \u2013 Get Free Report) and Rambus (NASDAQ:RMBS \u2013 Get Free Report) are both computer and technology companies, but which is the better investment? We will contrast the tw\u2026 [+5197 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Puri.sm"
+                "name": "InfoWorld"
             },
-            "author": null,
-            "title": "Purism PureOS: Purism Releases STEP File for Librem 5",
-            "description": "We're excited to announce another significant step forward in our commitment to open hardware: the release of the STEP file for our Librem 5 smartphone. This move builds upon our previous efforts, where we released the Librem 5 hardware layouts, which can be \u2026",
-            "url": "https://puri.sm/posts/purism-releases-step-file-for-librem-5/",
-            "urlToImage": "https://puri.sm/wp-content/uploads/2024/09/Screenshot-from-2024-09-19-07-56-29.png",
-            "publishedAt": "2024-09-23T02:00:23Z",
-            "content": "We\u2019re excited to announce another significant step forward in our commitment to open hardware: the release of the STEP file for our Librem 5 smartphone. This move builds upon our previous efforts, wh\u2026 [+2677 chars]"
+            "author": "gbilder",
+            "title": "5 easy ways to run an LLM locally | InfoWorld",
+            "description": "Deploying a large language model on your own system can be surprisingly simple\u2014if you have the right tools. Here\u2019s how to use LLMs like Meta\u2019s new Llama 3 on your desktop.",
+            "url": "https://www.infoworld.com/article/2338922/5-easy-ways-to-run-an-llm-locally.html",
+            "urlToImage": "https://www.infoworld.com/wp-content/uploads/2024/06/shutterstock_1175616652-100945248-orig.jpg?quality=50&strip=all&w=1024",
+            "publishedAt": "2024-09-24T05:47:02Z",
+            "content": "If you\u2019re familiar with Python and how to set up Python projects, you can clone the full PrivateGPT repository and run it locally. If you\u2019re less knowledgeable about Python, you may want to check out\u2026 [+12292 chars]"
+        },
+        {
+            "source": {
+                "id": "techradar",
+                "name": "TechRadar"
+            },
+            "author": "Max Delaney",
+            "title": "Citing security concerns, the US is now looking to ban Chinese and Russian-made vehicles",
+            "description": "The U.S. Department of Commerce has proposed a ban on electric vehicles from China and Russia amid concerns regarding citizen privacy and national security.",
+            "url": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/citing-security-concerns-the-us-is-now-looking-to-ban-chinese-and-russian-made-vehicles",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/GG7cm2ZwyaariuxhPwWtsi-1200-80.jpg",
+            "publishedAt": "2024-09-24T04:49:37Z",
+            "content": "Electric vehicles made in China could be banned in the US from 2027 if a proposed new rule is passed. The US Bureau of Industry and Security (BIS) has published a Notice of Proposed Rulemaking that w\u2026 [+4462 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "AppleInsider"
+            },
+            "author": "news@appleinsider.com (Chip Loder)",
+            "title": "How to use Disk Jockey for retro emulation on your Mac",
+            "description": "Disk Jockey is an app that allows you to create disk image files for a variety of retro computers and emulators. Here's how to use it.Disk Jockey is a retro disk image formatter.Retro computing is popular these days, and one aspect of vintage computing is man\u2026",
+            "url": "https://appleinsider.com/inside/macos/tips/how-to-use-disk-jockey-for-retro-emulation-on-your-mac",
+            "urlToImage": "https://photos5.appleinsider.com/gallery/60761-125819-zip100-xl.jpg",
+            "publishedAt": "2024-09-24T03:05:10Z",
+            "content": "Disk Jockey is an app that allows you to create disk image files for a variety of retro computers and emulators. Here's how to use it.\r\nRetro computing is popular these days, and one aspect of vintag\u2026 [+9048 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Business Standard"
+            },
+            "author": "Surbhi Gloria Singh",
+            "title": "Indians most-educated immigrants in US; China, Mexico runners-up: Report",
+            "description": "India stands out as a leader in the global pool of educated immigrants, contributing around 2 million degree-holders",
+            "url": "https://www.business-standard.com/finance/personal-finance/indians-most-educated-immigrants-in-us-china-mexico-runners-up-report-124092301135_1.html",
+            "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-09/23/thumb/featurecrop/400X400/1727103204-0864.jpg",
+            "publishedAt": "2024-09-24T02:30:02Z",
+            "content": "India stands out as a leader in the global pool of educated immigrants, contributing around 2 million degree-holders\r\nPhiladelphia: A group of Indian Americans at the Philadelphia airport to welcome \u2026 [+5430 chars]"
         },
         {
             "source": {
                 "id": null,
                 "name": "Adafruit.com"
             },
-            "author": "Zay",
-            "title": "Adventure Thru Inner Space #SciFiSunday",
-            "description": "Disneyland once had an innovative dark ride that wasn\u2019t based on any Disney character, Marvel character, or Star Wars character. The ride was called Adventure Thru Inner Space and the idea was that visitors were hit with a shrink ray. They\u2019d get smaller and s\u2026",
-            "url": "https://blog.adafruit.com/2024/09/22/adventure-thru-inner-space-scifisunday/",
-            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2024/09/entrance.jpg",
-            "publishedAt": "2024-09-23T00:00:17Z",
-            "content": "Disneyland once had an innovative dark ride that wasn\u2019t based on any Disney character, Marvel character, or Star Wars character. The ride was called Adventure Thru Inner Space and the idea was that v\u2026 [+3292 chars]"
+            "author": "phillip torrone",
+            "title": "DVI output adapter for RP2350 Feather HSTX port",
+            "description": "The RP2350 Feather has an FPC output connector for accessing the HSTX \u2013 high-speed transmission \u2013 peripheral. This lets us drive DVI displays really easily! Today, we got the prototype PCBs for our HSTX to DVI adapter board; after connecting up a 22-pin FPC c\u2026",
+            "url": "https://blog.adafruit.com/2024/09/23/dvi-output-adapter-for-rp2350-feather-hstx-port/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2024/09/dvi-output-adapter-for-rp2350-fe-1.jpg",
+            "publishedAt": "2024-09-24T01:52:38Z",
+            "content": "Adafruit publishes a wide range of writing and video content, including interviews and reporting on the maker market and the wider technology world. Our standards page is intended as a guide to best \u2026 [+2657 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ETF Daily News"
+            },
+            "author": "MarketBeat News",
+            "title": "SemiLEDs (NASDAQ:LEDS) and Arteris (NASDAQ:AIP) Critical Analysis",
+            "description": "Arteris (NASDAQ:AIP \u2013 Get Free Report) and SemiLEDs (NASDAQ:LEDS \u2013 Get Free Report) are both small-cap computer and technology companies, but which is the better stock? We will contrast the two companies based on the strength of their dividends, risk, earning\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/23/semileds-nasdaqleds-and-arteris-nasdaqaip-critical-analysis/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/semileds-co-logo-1200x675.gif&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-24T00:38:01Z",
+            "content": "Arteris (NASDAQ:AIP \u2013 Get Free Report) and SemiLEDs (NASDAQ:LEDS \u2013 Get Free Report) are both small-cap computer and technology companies, but which is the better stock? We will contrast the two compa\u2026 [+5149 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ETF Daily News"
+            },
+            "author": "MarketBeat News",
+            "title": "Comparing ACCO Brands (NYSE:ACCO) and Koala (OTCMKTS:KARE)",
+            "description": "ACCO Brands (NYSE:ACCO \u2013 Get Free Report) and Koala (OTCMKTS:KARE \u2013 Get Free Report) are both industrials companies, but which is the better business? We will compare the two companies based on the strength of their institutional ownership, risk, earnings, pr\u2026",
+            "url": "https://www.etfdailynews.com/2024/09/23/comparing-acco-brands-nyseacco-and-koala-otcmktskare/",
+            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/koala-co-logo-1200x675.png?v=20221017121806&w=240&h=240&zc=2",
+            "publishedAt": "2024-09-24T00:37:15Z",
+            "content": "ACCO Brands (NYSE:ACCO \u2013 Get Free Report) and Koala (OTCMKTS:KARE \u2013 Get Free Report) are both industrials companies, but which is the better business? We will compare the two companies based on the s\u2026 [+5506 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Adafruit.com"
+            },
+            "author": "Stephanie",
+            "title": "Celebrate Open Hardware Month with OSHWA",
+            "description": "October is Open Hardware Month and the folks over at OSHWA are planning on kicking it off with a Show & Tell: 24hr Membership Drive Livestream starting October 2 at 8am EST!We have over 65 incredible makers, hackers, creators and all around open source enthus\u2026",
+            "url": "https://blog.adafruit.com/2024/09/23/celebrate-open-hardware-month-with-oshwa/",
+            "urlToImage": "https://cdn-blog.adafruit.com/uploads/2024/09/unnamed-e1727101019144.jpg",
+            "publishedAt": "2024-09-24T00:00:26Z",
+            "content": "Adafruit publishes a wide range of writing and video content, including interviews and reporting on the maker market and the wider technology world. Our standards page is intended as a guide to best \u2026 [+2657 chars]"
         }
     ]
 }

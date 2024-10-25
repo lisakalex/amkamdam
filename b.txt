@@ -1,0 +1,64 @@
+/home/al/.venv/bin/python3 /var/www/amkamdam.com/src/news_updater.py
+1 ../html/technology/index.html
+Error processing 2 ../html/technology/gadgets-and-consumer-electronics/index.html: list index out of range
+Error processing 2 ../html/technology/computer-software/index.html: list index out of range
+Error processing 2 ../html/technology/computer-hardware/index.html: list index out of range
+2 ../html/technology/technology-industry/index.html
+Error processing 2 ../html/technology/internet-and-web/index.html: list index out of range
+3 ../html/lifestyle/index.html
+4 ../html/lifestyle/fashion/index.html
+5 ../html/lifestyle/shopping/index.html
+6 ../html/lifestyle/beauty/index.html
+7 ../html/lifestyle/money/index.html
+Error processing 2 ../html/lifestyle/photography/index.html: list index out of range
+8 ../html/health/index.html
+Error processing 2 ../html/health/fitness-and-exercise/index.html: list index out of range
+Error processing 2 ../html/health/health-apps/index.html: list index out of range
+9 ../html/health/nutrition/index.html
+Error processing 2 ../html/health/alternative-medicine/index.html: list index out of range
+10 ../html/health/global-health/index.html
+11 ../html/entertainment/index.html
+12 ../html/entertainment/movies/index.html
+13 ../html/entertainment/books/index.html
+14 ../html/entertainment/television/index.html
+15 ../html/entertainment/gaming/index.html
+16 ../html/entertainment/music/index.html
+17 ../html/finance/index.html
+18 ../html/finance/financial-markets/index.html
+19 ../html/finance/crypto/index.html
+20 ../html/finance/property-market/index.html
+Error processing 2 ../html/finance/brexit/index.html: list index out of range
+21 ../html/finance/stocks-and-shares/index.html
+22 ../html/business/index.html
+23 ../html/business/insurance/index.html
+Error processing 2 ../html/business/venture-capital/index.html: list index out of range
+24 ../html/business/global-economy/index.html
+Error processing 2 ../html/business/small-business-trends/index.html: list index out of range
+25 ../html/business/banking/index.html
+26 ../html/science/index.html
+Error processing 2 ../html/science/sociology/index.html: list index out of range
+Error processing 2 ../html/science/biology/index.html: list index out of range
+Error processing 2 ../html/science/astronomy/index.html: list index out of range
+Error processing 2 ../html/science/chemistry/index.html: list index out of range
+Error processing 2 ../html/science/physics/index.html: list index out of range
+27 ../html/culture/index.html
+28 ../html/culture/history/index.html
+Error processing 2 ../html/culture/philosophy/index.html: list index out of range
+Error processing 2 ../html/culture/anthropology/index.html: list index out of range
+29 ../html/culture/arts/index.html
+Error processing 2 ../html/culture/religion/index.html: list index out of range
+30 ../html/politics/index.html
+31 ../html/politics/government-policy/index.html
+32 ../html/politics/government/index.html
+33 ../html/politics/law-legislation/index.html
+Error processing 2 ../html/politics/public-opinion-surveys/index.html: list index out of range
+34 ../html/politics/elections/index.html
+35 ../html/sport/index.html
+Error processing 2 ../html/sport/football-sport/index.html: list index out of range
+Error processing 2 ../html/sport/cricket-sport/index.html: list index out of range
+Error processing 2 ../html/sport/formula-1-racing/index.html: list index out of range
+Error processing 2 ../html/sport/tennis-sport/index.html: list index out of range
+Error processing 2 ../html/sport/boxing-sport/index.html: list index out of range
+Processed 35 files, time taken 3.59 min
+
+Process finished with exit code 0

@@ -1,149 +1,123 @@
 {
     "status": "ok",
-    "totalResults": 11,
+    "totalResults": 9,
     "articles": [
         {
             "source": {
                 "id": null,
-                "name": "Xkcd.com"
-            },
-            "author": "About",
-            "title": "Physics Lab Thermostat",
-            "description": null,
-            "url": "https://xkcd.com/2989/",
-            "urlToImage": "https://imgs.xkcd.com/comics/physics_lab_thermostat_2x.png",
-            "publishedAt": "2024-09-23T04:00:00Z",
-            "content": "This work is licensed under a\r\nCreative Commons Attribution-NonCommercial 2.5 License.\r\nThis means you're free to copy and share these comics (but not to sell them). More details."
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ScienceAlert"
-            },
-            "author": "Matt Williams, Universe Today",
-            "title": "Aliens May Be Doomed by Inescapable Climate Change, Study Finds",
-            "description": "An inevitable evolutionary fate?",
-            "url": "https://www.sciencealert.com/aliens-may-be-doomed-by-inescapable-climate-change-study-finds",
-            "urlToImage": "https://www.sciencealert.com/images/2024/09/AlienCity.jpg",
-            "publishedAt": "2024-09-23T03:55:40Z",
-            "content": "Earth's average global temperatures have been steadily increasing since the Industrial Revolution. According to the National Oceanic and Atmospheric Agency (NOAA), Earth has been heating up at a rate\u2026 [+7400 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Samsung.com"
-            },
-            "author": "Samsung Newsroom",
-            "title": "[Interview] Samsung\u2019s Odyssey OLED G8 Joins the Journey of Creating \u2018The First Descendant\u2019 With Nexon Developers",
-            "description": "\u201cPlaying The First Descendant on the Odyssey monitor with HDR10+ GAMING allows you to experience the game\u2019s vivid, high-quality graphics at their best\u201d",
-            "url": "https://news.samsung.com/global/interview-samsungs-odyssey-oled-g8-joins-the-journey-of-creating-the-first-descendant-with-nexon-developers",
-            "urlToImage": "https://img.global.news.samsung.com/global/wp-content/uploads/2024/09/Samsung-TVs-and-Displays-Odyssey-OLED-G8-The-First-Descendant-Developers-Interview_Thumbnail728.jpg",
-            "publishedAt": "2024-09-23T03:36:53Z",
-            "content": "Playing The First Descendant on the Odyssey monitor with HDR10+ GAMING allows you to experience the game\u2019s vivid, high-quality graphics at their best\r\n\u2013\u00a0Junhwan Kim, Lead programmer, Engine Program t\u2026 [+10978 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Blogger.com"
-            },
-            "author": "Douglas Natelson",
-            "title": "Lots to read, including fab for quantum and \"Immaterial Science\"",
-            "description": null,
-            "url": "https://www.blogger.com/comment/fullpage/post/13869903/1564686980484399345",
-            "urlToImage": null,
-            "publishedAt": "2024-09-23T03:20:56Z",
-            "content": "Sometimes there are upticks in the rate of fun reading material.\u00a0 In the last few days:A Nature\u00a0paper has been published by a group of authors predominantly from IMEC in Belgium, in which they demons\u2026 [+2857 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Github.com"
-            },
-            "author": "super_linear",
-            "title": "Tesla Transport Protocol over Ethernet (TTPoE)",
-            "description": "Article URL: https://github.com/teslamotors/ttpoe\nComments URL: https://news.ycombinator.com/item?id=41621680\nPoints: 4\n# Comments: 0",
-            "url": "https://github.com/teslamotors/ttpoe",
-            "urlToImage": "https://opengraph.githubassets.com/c4242868194d5848d063b594143d7c8e9f067dd97c5ebce97793e795f0aaa940/teslamotors/ttpoe",
-            "publishedAt": "2024-09-23T01:47:53Z",
-            "content": "/$$$$$$$$ /$$ \r\n|__ $$__/ | $$ \r\n | $$ /$$$$$$ /$$$$$$$| $$ /$$$$$$ \r\n | $$ /$$__ $$ /$$_____/| $$ |____ $$ \r\n | $$| $$$$$$$$| $$$$$$ | $$ /$$$$$$$ \r\n | $$| $$_____/ \\____ $$| $$ /$$__ $$ \r\n | $$| $$\u2026 [+9687 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Independent.ie"
-            },
-            "author": "Conor Feehan",
-            "title": "Garda forensic crash investigators on seatbelts, speed and their daily job: \u2018With vehicles, everything comes down to the driver\u2019",
-            "description": "\u2018You decide your speed, but physics will decide the outcome.\u201d",
-            "url": "https://www.independent.ie/irish-news/garda-forensic-crash-investigators-on-seatbelts-speed-and-their-daily-job-with-vehicles-everything-comes-down-to-the-driver/a1934018097.html",
-            "urlToImage": "https://focus.independent.ie/thumbor/F1CKl62GB0jL4HcpUPUMgv1x77k=/629x460/smart/prod-mh-ireland/dc85caa1-9ce8-4e71-9134-a90b6e20b7a3/c44dafaa-c9ea-4b41-8fa0-920a6ddf4d46/2109%20road%20crash.jpg",
-            "publishedAt": "2024-09-23T01:30:00Z",
-            "content": "You decide your speed, but physics will decide the outcome.\r\nThis is the creed of Irelands Garda Forensic Crash Investigators who are sent to fatal crash scenes on an increasingly regular basis to as\u2026 [+34 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Universe Today"
-            },
-            "author": "Matt Williams",
-            "title": "High-Resolution Images of the Sun Show How Flares Impact the Solar Atmosphere",
-            "description": "Solar flares are a fascinating thing and have a profound effect on what astronomers refer to as \u201cspace weather.\u201d These events vary with the Sun\u2019s 11-year solar cycle, releasing immense amounts of radiation across the electromagnetic spectrum (from extreme ult\u2026",
-            "url": "https://www.universetoday.com/168639/high-resolution-images-of-the-sun-show-how-flares-impact-the-solar-atmosphere/",
-            "urlToImage": "https://www.universetoday.com/wp-content/uploads/2023/12/flare.jpg",
-            "publishedAt": "2024-09-23T01:22:10Z",
-            "content": "Solar flares are a fascinating thing and have a profound effect on what astronomers refer to as \u201cspace weather.\u201d These events vary with the Sun\u2019s 11-year solar cycle, releasing immense amounts of rad\u2026 [+4987 chars]"
-        },
-        {
-            "source": {
-                "id": "bleacher-report",
-                "name": "Bleacher Report"
-            },
-            "author": "Chris Roling",
-            "title": "EA Sports FC 25 Review: Gameplay Impressions, Videos, Features, Career, FUT and More",
-            "description": "EA Sports FC 25 carries an uncanny amount of hype on its shoulders to release. It is, after all, the second installment of the new EA Sports FC series and\u2026",
-            "url": "https://bleacherreport.com/articles/10136221-ea-sports-fc-25-review-gameplay-impressions-videos-features-career-fut-and-more",
-            "urlToImage": "https://media.bleacherreport.com/image/upload/c_fill,g_faces,w_3800,h_2000,q_95/v1727052048/to1ou3vxkvyaxwoqvhjv.jpg",
-            "publishedAt": "2024-09-23T01:02:48Z",
-            "content": "EA Sports\r\nEA Sports FC 25 carries an uncanny amount of hype on its shoulders to release.\r\nIt is, after all, the second installment of the new EA Sports FC series and 32nd edition of the football sim\u2026 [+10066 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "PC Gamer"
-            },
-            "author": "shaun.prescott@futurenet.com (Shaun Prescott)",
-            "title": "Five new Steam games you probably missed (September 23, 2024)",
-            "description": "Sorting through every new game on Steam so you don't have to.",
-            "url": "https://www.pcgamer.com/software/platforms/five-new-steam-games-you-probably-missed-september-23-2024/",
-            "urlToImage": "https://cdn.mos.cms.futurecdn.net/6sMnnQHCLsxLwFVQ9hyKyb-1200-80.jpg",
-            "publishedAt": "2024-09-23T00:30:08Z",
-            "content": "On an average day about a dozen new games are released on Steam. And while we think that's a good thing, it can be understandably hard to keep up with. Potentially exciting gems are sure to be lost i\u2026 [+3600 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Erickimphotography.com"
-            },
-            "author": "ERIC KIM",
-            "title": "Nikola Tesla quotes",
-            "description": "Certainly! Let\u2019s delve into the first quote attributed to Nikola Tesla: \u201cIf you want to find the secrets of the universe, think in terms of energy, frequency, and vibration.\u201d Breakdown and Explanation: Interpreting the Quote: Practical Implications: Conclusio\u2026",
-            "url": "https://erickimphotography.com/blog/2024/09/22/nikola-tesla-quotes/",
-            "urlToImage": null,
-            "publishedAt": "2024-09-23T00:05:43Z",
-            "content": "Certainly! Let\u2019s delve into the first quote attributed to Nikola Tesla:\r\n<ol><li>Energy:</li></ol><ul><li>Fundamental Building Block: Energy is a fundamental concept in physics, representing the capa\u2026 [+6374 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Stanford.edu"
+                "name": "Careerwebsite.com"
             },
             "author": null,
-            "title": "Kam Moler named Stanford vice president for SLAC",
-            "description": "Kam Moler, Stanford physicist and former vice provost and dean of research, has been named as Stanford University\u2019s new vice president for SLAC National Accelerator Laboratory.",
-            "url": "https://news.stanford.edu/stories/2024/09/kam-moler-named-stanford-vice-president-for-slac",
-            "urlToImage": "https://news.stanford.edu/__data/assets/image/0029/159590/2022-VPDoR-Portraits-Kam-Moler-3-_1500x1000.jpeg",
-            "publishedAt": "2024-09-23T00:00:00Z",
-            "content": "Kathryn Ann Kam Moler, the Marvin Chodorow Professor in the School of Humanities and Sciences, professor of applied physics, of physics, and of energy science and engineering, will be the next Stanfo\u2026 [+5371 chars]"
+            "title": "Quantum Communications Scientist",
+            "description": "Leidos Defense Systems is seeking a Quantum Communications Scientistto join a diverse, highly skilled team to create unique solutions for complex problems involving US weapon systems and the next generation ...",
+            "url": "https://womenintechnology-jobs.careerwebsite.com/job/quantum-communications-scientist/75282063/",
+            "urlToImage": "https://d3ogvqw9m2inp7.cloudfront.net/assets/dynamic/headers/cc/responsive/partner_lib/1691/img/logo-1691.png",
+            "publishedAt": "2024-09-24T06:00:00Z",
+            "content": "Description\r\nLeidos Defense Systems is seeking a Quantum Communications Scientist to join a diverse, highly skilled team to create unique solutions for complex problems involving US weapon systems an\u2026 [+3200 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "2024-09-24T05:06:05Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Gematsu"
+            },
+            "author": "Sal Romano",
+            "title": "PLAYISM announces TGS 2024 lineup",
+            "description": "PLAYISM has announced its lineup of playable games for Tokyo Game Show 2024, which will run from September 26 to 29 at Makuhari Messe in Chiba, Japan. The publisher will host nine playable demos at\u2026",
+            "url": "https://www.gematsu.com/2024/09/playism-announces-tgs-2024-lineup",
+            "urlToImage": "https://www.gematsu.com/wp-content/uploads/2024/09/PLAYISM-TGS-2024_2024_09-24-24_001.jpg",
+            "publishedAt": "2024-09-24T04:30:59Z",
+            "content": "PLAYISM has announced its lineup of playable games for Tokyo Game Show 2024, which will run from September 26 to 29 at Makuhari Messe in Chiba, Japan. The publisher will host nine playable demos at i\u2026 [+5506 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "AP",
+            "title": "US-China research has given Beijing's military technology boost, House GOP says",
+            "description": "A new report by US congressional Republicans claims that partnerships between US and Chinese universities have funneled federal funding into China's military technology development. The report highlights collaborations in areas like hypersonic weapons and AI,\u2026",
+            "url": "https://economictimes.indiatimes.com/news/defence/us-china-research-has-given-beijings-military-technology-boost-house-gop-says/articleshow/113614840.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-113614844,width-1200,height-630,imgsize-227254,overlay-etdefence/photo.jpg",
+            "publishedAt": "2024-09-24T02:12:40Z",
+            "content": "Partnerships between the US and China at universities over the past decade have allowed hundreds of millions of dollars in federal funding to aid Beijing in developing critical technology that could \u2026 [+5460 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hackaday"
+            },
+            "author": "Maya Posch",
+            "title": "The Possibility of Reverting Time on the Ageing of Materials",
+            "description": "Everyone knows that time\u2019s arrow only goes in one direction, regardless of the system or material involved. In the case of material time, i.e. the ageing of materials such as amorphous materi\u2026",
+            "url": "https://hackaday.com/2024/09/23/the-possibility-of-reverting-time-on-the-ageing-of-materials/",
+            "urlToImage": "https://hackaday.com/wp-content/uploads/2024/09/dunes-featured.jpg",
+            "publishedAt": "2024-09-24T02:00:27Z",
+            "content": "Everyone knows that time\u2019s arrow only goes in one direction, regardless of the system or material involved. In the case of material time, i.e. the ageing of materials such as amorphous materials resu\u2026 [+1675 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "newsBTC"
+            },
+            "author": "Keshav Verma",
+            "title": "Is Altcoin Season Coming? These Two Signals Could Suggest So",
+            "description": "An analyst has pointed out two patterns forming in altcoin and Bitcoin-related charts that could suggest an altseason may be coming soon. Signs May Finally Be Aligning For An Altcoin Season In two new posts on X, analyst Ali Martinez has discussed some signal\u2026",
+            "url": "http://www.newsbtc.com/altcoin/altcoin-season-two-signals-could-suggest-so/",
+            "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2024/09/btc_d09254.png?fit=1792%2C1024",
+            "publishedAt": "2024-09-24T02:00:20Z",
+            "content": "Keshav is currently a senior writer at NewsBTC and has been attached to the website since June 14, 2021. Keshav has been writing for many years, first as a hobbyist and later as a freelancer. He has \u2026 [+2820 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": "Bradford Betz",
+            "title": "Dark matter may be behind wobble in Mars\u2019 orbit, study suggests",
+            "description": "A bold new study in Physical Review suggests that a wobble detected in Mars' orbit could be the result of dark matter made up of primordial black holes.",
+            "url": "https://www.foxnews.com/science/dark-matter-may-behind-wobble-mars-orbit-study-suggests",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2024/09/Mars-Planet.png",
+            "publishedAt": "2024-09-24T01:57:24Z",
+            "content": "A study published last week proposed that dark matter may be responsible for an observable wobble in Mars orbit.\r\nThe study, published in the peer-reviewed scientific journal Physical Review, postula\u2026 [+2065 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Slashdot.org"
+            },
+            "author": "BeauHD",
+            "title": "OpenAI CEO Sam Altman Anticipates Superintelligence In 'a Few Thousand Days'",
+            "description": "In a rare blog post today, OpenAI CEO Sam Altman laid out his vision of the AI-powered future, which he refers to as \"The Intelligence Age.\" Among the most notable claims, Altman said superintelligence might be achieved in \"a few thousand days.\" VentureBeat r\u2026",
+            "url": "https://slashdot.org/story/24/09/23/2321221/openai-ceo-sam-altman-anticipates-superintelligence-in-a-few-thousand-days",
+            "urlToImage": "https://a.fsdn.com/sd/topics/ai_64.png",
+            "publishedAt": "2024-09-24T01:30:00Z",
+            "content": "Specifically, Altman argues that \"deep learning works,\" and can generalize across a range of domains and difficult problem sets based on its training data, allowing people to \"solve hard problems,\" i\u2026 [+1165 chars]"
+        },
+        {
+            "source": {
+                "id": "national-geographic",
+                "name": "National Geographic"
+            },
+            "author": "Robin George Andrews",
+            "title": "Could a nuclear bomb\u2019s x-rays save Earth from a killer asteroid?",
+            "description": "Radiation from a nuclear explosion can vaporize the surface of an asteroid and change its trajectory, a new study finds.",
+            "url": "https://www.nationalgeographic.com/science/article/asteroid-x-ray-nuclear-bomb-save-earth",
+            "urlToImage": "https://i.natgeofe.com/n/7700e591-55e0-4604-82a4-04a9787badf7/C0377942-Asteroid_approaching_Earth_illustration_16x9.jpg?w=1200",
+            "publishedAt": "2024-09-24T00:00:00Z",
+            "content": "Scaling their results up to genuine space rocks, the team estimate that even an asteroid 2.5 miles long could be gradually deflected away from Earth, given several years of warning.\r\nUsing ballistics\u2026 [+1599 chars]"
         }
     ]
 }

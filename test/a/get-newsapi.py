@@ -28,7 +28,7 @@ def paged(keyword):
 
 
 def main():
-    paged('\"Formula 1 Racing\"')
+    paged('gadgets and consumer electronics')
 
 
 if __name__ == '__main__':
