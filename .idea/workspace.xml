@@ -26,233 +26,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2b6b28b-633d-488b-a11e-85b21f893e04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/b.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/kak.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/alternative-medicine.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/anthropology.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/arts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/astronomy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/banking.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/beauty.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/biology.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/books.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/boxing-sport.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/brexit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/business.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/chemistry.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/computer-hardware.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/computer-software.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/cricket-sport.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/crypto.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/culture.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/elections.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/entertainment.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/fashion.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/finance.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/financial-markets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/fitness-and-exercise.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/football-sport.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/formula-1-racing.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/gadgets-and-consumer-electronics.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/gaming.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/global-economy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/global-health.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/government-policy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/government.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/health-apps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/health.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/history.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/insurance.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/internet-and-web.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/law-legislation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/lifestyle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/money.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/movies.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/music.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/nutrition.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/philosophy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/photography.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/physics.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/politics.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/property-market.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/public-opinion-surveys.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/religion.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/science.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/shopping.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/small-business-trends.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/sociology.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/sport.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/stocks-and-shares.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/technology-industry.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/technology.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/television.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/tennis-sport.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-1/venture-capital.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/aa/b.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/aa/c.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/b.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/b.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/business/banking/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/business/banking/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/business/global-economy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/business/global-economy/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/business/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/business/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/business/insurance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/business/insurance/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/culture/arts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/culture/arts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/culture/history/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/culture/history/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/culture/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/culture/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/entertainment/books/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/entertainment/books/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/entertainment/gaming/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/entertainment/gaming/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/entertainment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/entertainment/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/entertainment/movies/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/entertainment/movies/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/entertainment/music/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/entertainment/music/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/entertainment/television/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/entertainment/television/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/finance/brexit/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/finance/brexit/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/finance/crypto/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/finance/crypto/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/finance/financial-markets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/finance/financial-markets/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/finance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/finance/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/finance/property-market/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/finance/property-market/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/finance/stocks-and-shares/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/finance/stocks-and-shares/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/health/global-health/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/health/global-health/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/health/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/health/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/health/nutrition/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/health/nutrition/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lifestyle/beauty/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/lifestyle/beauty/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lifestyle/fashion/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/lifestyle/fashion/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lifestyle/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/lifestyle/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lifestyle/money/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/lifestyle/money/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lifestyle/shopping/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/lifestyle/shopping/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/arts-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/arts-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/banking-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/banking-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/beauty-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/beauty-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/books-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/books-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/business-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/business-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/crypto-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/crypto-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/culture-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/culture-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/elections-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/elections-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/entertainment-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/entertainment-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/fashion-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/fashion-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/finance-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/finance-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/financial-markets-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/financial-markets-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/gaming-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/gaming-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/global-economy-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/global-economy-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/global-health-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/global-health-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/government-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/government-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/government-policy-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/government-policy-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/health-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/health-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/history-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/history-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/insurance-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/insurance-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/law-legislation-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/law-legislation-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/money-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/money-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/movies-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/movies-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/music-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/music-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/nutrition-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/nutrition-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/politics-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/politics-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/property-market-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/property-market-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/science-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/science-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/shopping-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/shopping-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/sport-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/sport-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/stocks-and-shares-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/stocks-and-shares-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/technology-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/technology-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/technology-industry-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/technology-industry-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/television-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/television-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/politics/elections/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/politics/elections/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/politics/government-policy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/politics/government-policy/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/politics/government/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/politics/government/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/politics/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/politics/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/politics/law-legislation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/politics/law-legislation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/science/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/science/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sport/boxing-sport/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/sport/boxing-sport/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sport/cricket-sport/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/sport/cricket-sport/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sport/football-sport/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/sport/football-sport/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sport/formula-1-racing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/sport/formula-1-racing/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sport/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/sport/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sport/tennis-sport/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/sport/tennis-sport/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/technology/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/technology/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/technology/technology-industry/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/technology/technology-industry/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/makedirs_chatgpt.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/makedirs_chatgpt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/news_updater.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/news_updater.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/a/get-newsapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/a/get-newsapi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/count_replace.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/count_replace.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/art-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/beauty-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/books-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/boxing-sport-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/brexit-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/cricket-sport-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/crypto-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/culture-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/fashion-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/finance-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/financial-markets-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/footbal-sport-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/football-sport-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/formula-1-racing-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/lifestyle-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/money-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/music-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/photography-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/popular-films-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/property-market-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/shopping-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/sport-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/stocks-and-shares-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/tech-news-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi-1/tennis-sport-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/alternative-medicine.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/alternative-medicine.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/anthropology.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/anthropology.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/arts.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/arts.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/astronomy.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/astronomy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/banking.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/banking.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/beauty.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/beauty.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/biology.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/biology.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/books.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/books.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/boxing-sport.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/boxing-sport.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/brexit.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/brexit.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/business.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/business.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/chemistry.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/chemistry.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/computer-hardware.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/computer-hardware.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/computer-software.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/computer-software.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/cricket-sport.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/cricket-sport.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/crypto.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/crypto.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/culture.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/culture.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/elections.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/elections.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/entertainment.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/entertainment.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/fashion.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/fashion.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/finance.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/finance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/financial-markets.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/financial-markets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/fitness-and-exercise.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/fitness-and-exercise.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/football-sport.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/football-sport.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/formula-1-racing.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/formula-1-racing.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/gadgets-and-consumer-electronics.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/gadgets-and-consumer-electronics.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/gaming.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/gaming.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/global-economy.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/global-economy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/global-health.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/global-health.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/government-policy.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/government-policy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/government.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/government.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/health-apps.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/health-apps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/health.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/health.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/insurance.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/insurance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/internet-and-web.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/internet-and-web.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/law-legislation.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/law-legislation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/lifestyle.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/lifestyle.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/money.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/money.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/movies.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/movies.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/music.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/music.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/nutrition.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/nutrition.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/philosophy.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/philosophy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/photography.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/photography.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/physics.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/physics.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/politics.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/politics.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/property-market.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/property-market.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/public-opinion-surveys.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/public-opinion-surveys.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/religion.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/religion.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/science.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/science.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/shopping.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/shopping.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/small-business-trends.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/small-business-trends.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/sociology.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/sociology.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/sport.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/sport.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/stocks-and-shares.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/stocks-and-shares.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/technology-industry.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/technology-industry.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/technology.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/technology.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/television.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/television.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/tennis-sport.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/tennis-sport.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/venture-capital.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi/venture-capital.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,7 +84,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/aa" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -317,13 +95,6 @@
     <option name="myUseBundledCoveragePy" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/test" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/test/a" />
-      <recent name="$PROJECT_DIR$/newsapi" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/test/a" />
@@ -331,8 +102,37 @@
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/html/ku/sport" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/aa" />
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/test/a" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.makedirs_chatgpt-1">
+  <component name="RunManager" selected="Python.b">
+    <configuration name="b" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="amkamdam.com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/b.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="get-newsapi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="amkamdam.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -347,28 +147,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/a/get-newsapi.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="makedirs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="amkamdam.com" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/makedirs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -445,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.b" />
         <item itemvalue="Python.makedirs_chatgpt-1" />
         <item itemvalue="Python.news_updater" />
         <item itemvalue="Python.makedirs_chatgpt" />
         <item itemvalue="Python.get-newsapi" />
-        <item itemvalue="Python.makedirs" />
       </list>
     </recent_temporary>
   </component>
@@ -507,6 +285,8 @@
       <workItem from="1729420091096" duration="612000" />
       <workItem from="1729662834427" duration="1509000" />
       <workItem from="1729833323336" duration="3733000" />
+      <workItem from="1729857416441" duration="2180000" />
+      <workItem from="1729922668826" duration="493000" />
     </task>
     <task id="LOCAL-00001" summary="ku">
       <created>1706943512106</created>
@@ -731,10 +511,10 @@
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state x="954" y="445" key="#xdebugger.evaluate/70.38.2490.1562@70.38.2490.1562" timestamp="1726259944395" />
-    <state width="2486" height="741" key="DebuggerActiveHint" timestamp="1727066551758">
+    <state width="2486" height="741" key="DebuggerActiveHint" timestamp="1729857970619">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2486" height="741" key="DebuggerActiveHint/70.38.2490.1562@70.38.2490.1562" timestamp="1727066551758" />
+    <state width="2486" height="741" key="DebuggerActiveHint/70.38.2490.1562@70.38.2490.1562" timestamp="1729857970619" />
     <state x="905" y="383" width="810" height="879" key="Diagram.Print.Preview.Dialog" timestamp="1729835903299">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
@@ -747,38 +527,38 @@
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state x="992" y="463" width="636" height="719" key="FileChooserDialogImpl/70.38.2490.1562@70.38.2490.1562" timestamp="1729835936776" />
-    <state width="2422" height="317" key="GridCell.Tab.0.bottom" timestamp="1727516585441">
+    <state width="2422" height="420" key="GridCell.Tab.0.bottom" timestamp="1729920773198">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="317" key="GridCell.Tab.0.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1727516585441" />
-    <state width="2422" height="317" key="GridCell.Tab.0.center" timestamp="1727516585441">
+    <state width="2422" height="420" key="GridCell.Tab.0.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1729920773198" />
+    <state width="2422" height="420" key="GridCell.Tab.0.center" timestamp="1729920773198">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="317" key="GridCell.Tab.0.center/70.38.2490.1562@70.38.2490.1562" timestamp="1727516585441" />
-    <state width="2422" height="317" key="GridCell.Tab.0.left" timestamp="1727516585440">
+    <state width="2422" height="420" key="GridCell.Tab.0.center/70.38.2490.1562@70.38.2490.1562" timestamp="1729920773198" />
+    <state width="2422" height="420" key="GridCell.Tab.0.left" timestamp="1729920773198">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="317" key="GridCell.Tab.0.left/70.38.2490.1562@70.38.2490.1562" timestamp="1727516585440" />
-    <state width="2422" height="317" key="GridCell.Tab.0.right" timestamp="1727516585441">
+    <state width="2422" height="420" key="GridCell.Tab.0.left/70.38.2490.1562@70.38.2490.1562" timestamp="1729920773198" />
+    <state width="2422" height="420" key="GridCell.Tab.0.right" timestamp="1729920773198">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="317" key="GridCell.Tab.0.right/70.38.2490.1562@70.38.2490.1562" timestamp="1727516585441" />
-    <state width="2422" height="317" key="GridCell.Tab.1.bottom" timestamp="1727516585442">
+    <state width="2422" height="420" key="GridCell.Tab.0.right/70.38.2490.1562@70.38.2490.1562" timestamp="1729920773198" />
+    <state width="2422" height="623" key="GridCell.Tab.1.bottom" timestamp="1729920773196">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="317" key="GridCell.Tab.1.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1727516585442" />
-    <state width="2422" height="317" key="GridCell.Tab.1.center" timestamp="1727516585441">
+    <state width="2422" height="623" key="GridCell.Tab.1.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1729920773196" />
+    <state width="2422" height="623" key="GridCell.Tab.1.center" timestamp="1729920773196">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="317" key="GridCell.Tab.1.center/70.38.2490.1562@70.38.2490.1562" timestamp="1727516585441" />
-    <state width="2422" height="317" key="GridCell.Tab.1.left" timestamp="1727516585441">
+    <state width="2422" height="623" key="GridCell.Tab.1.center/70.38.2490.1562@70.38.2490.1562" timestamp="1729920773196" />
+    <state width="2422" height="623" key="GridCell.Tab.1.left" timestamp="1729920773196">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="317" key="GridCell.Tab.1.left/70.38.2490.1562@70.38.2490.1562" timestamp="1727516585441" />
-    <state width="2422" height="317" key="GridCell.Tab.1.right" timestamp="1727516585442">
+    <state width="2422" height="623" key="GridCell.Tab.1.left/70.38.2490.1562@70.38.2490.1562" timestamp="1729920773196" />
+    <state width="2422" height="623" key="GridCell.Tab.1.right" timestamp="1729920773196">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="317" key="GridCell.Tab.1.right/70.38.2490.1562@70.38.2490.1562" timestamp="1727516585442" />
+    <state width="2422" height="623" key="GridCell.Tab.1.right/70.38.2490.1562@70.38.2490.1562" timestamp="1729920773196" />
     <state x="1032" y="715" width="555" height="214" key="NewPhpFileDialog" timestamp="1726384622316">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
@@ -860,6 +640,11 @@
           <line>88</line>
           <option name="timeStamp" value="131" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/b.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -905,6 +690,7 @@
     <SUITE FILE_PATH="coverage/amkamdam_com$news_updater.coverage" NAME="news_updater Coverage Results" MODIFIED="1727245406215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/amkamdam_com$Unittests_for_test_newsapi4_TestNewsUpdater__1_.coverage" NAME="Unittests for test_newsapi4.TestNewsUpdater (1) Coverage Results" MODIFIED="1726328235162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huy" />
     <SUITE FILE_PATH="coverage/amkamdam_com$newsapi.coverage" NAME="newsapi Coverage Results" MODIFIED="1726469268163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/a" />
+    <SUITE FILE_PATH="coverage/amkamdam_com$b.coverage" NAME="b Coverage Results" MODIFIED="1729868914688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/amkamdam_com$checkpics.coverage" NAME="checkpics Coverage Results" MODIFIED="1726034837585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/amkamdam_com$Unittests_in_test_update_article_py.coverage" NAME="Unittests in test_update_article.py Coverage Results" MODIFIED="1726464855953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
