@@ -18,13 +18,15 @@ class NewsUpdater:
         self.count_replace = 1
 
     def load_news_api(self, keyword):
-        time.sleep(2)
+        # time.sleep(2)
         # with open(f'../test/newsapi-1/{keyword}.json', "r") as f:
         with open(f'../test/kak.json', "r") as f:
             return json.load(f)
 
     # def load_news_api(self, keyword):
     #     time.sleep(3)
+    #     if keyword == '':
+    #         keyword = 'world-news'
     #     keyword = urllib.parse.quote_plus(keyword)
     #     yesterday = (date.today() - timedelta(days=1)).strftime('%Y-%m-%d')
     #     base_url = 'https://newsapi.org/v2/everything'
@@ -149,7 +151,7 @@ class NewsUpdater:
         self.update_paged_articles(article_soup, news_articles, keyword)
 
     def process_files(self):
-        for currentpath, _, files in os.walk('../html/'):
+        for currentpath, _, files in os.walk('../html'):
             for file in files:
                 if self.should_process_file(file, currentpath):
                     path_file = os.path.join(currentpath, file)
