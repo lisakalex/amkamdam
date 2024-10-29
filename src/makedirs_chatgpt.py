@@ -76,7 +76,6 @@ def add_index():
     with open(f'../html/index.html', 'w') as f:
         f.write(str(soup))
 
-    # Save empty JSON placeholder
     with open(f'../html/paged/html-1.json', 'w') as f:
         f.write('[]')
 
