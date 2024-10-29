@@ -64,6 +64,23 @@ def save_files(directory, soup, keyword):
         f.write('[]')
 
 
+# Create index.php and paged json for it
+def add_index():
+    with open('me-index.html', 'r') as f:
+        template_html = f.read()
+    soup = BeautifulSoup(template_html, features='html.parser')
+    generate_breadcrumbs(soup, '')
+
+    modify_button(soup, 'html')
+
+    with open(f'../html/index.html', 'w') as f:
+        f.write(str(soup))
+
+    # Save empty JSON placeholder
+    with open(f'../html/paged/html-1.json', 'w') as f:
+        f.write('[]')
+
+
 # Main function to process directories
 def process_directories():
     # Read the template HTML file once
@@ -90,3 +107,4 @@ def process_directories():
 if __name__ == "__main__":
     create_directories()
     process_directories()
+    add_index()

@@ -760,8 +760,14 @@ pip install pycurl
 sudo lsof -i TCP:80,443 -r 2
 
 ~~~
+permissions for apache2 html direcotory (chatik says 755 and 644) but you cannot edit (in Intellij or else)
+so 775 and 664
 sudo mkdir -p /var/www/amkamdam.com/html
-sudo chown -R al:www-data /var/www/amkamdam.com/html
+sudo chown -R www-data:www-data /var/www/amkamdam.com
+sudo find /var/www/amkamdam.com -type d -exec chmod 775 {} +
+sudo find /var/www/amkamdam.com -type f -exec chmod 664 {} +
+
+sudo chown -R www-data:www-data /var/www/amkamdam.com
 sudo chmod -R 755 /var/www
 sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/amkamdam.com.conf
 sudo nano /etc/apache2/sites-available/amkamdam.com.conf

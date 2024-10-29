@@ -20,148 +20,38 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:newam" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:newam2" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2b6b28b-633d-488b-a11e-85b21f893e04" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/business/banking/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/business/global-economy/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/business/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/business/insurance/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/business/small-business-trends/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/business/venture-capital/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/culture/anthropology/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/culture/art/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/culture/arts/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/culture/books/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/culture/history/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/culture/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/culture/music/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/culture/philosophy/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/culture/photography/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/culture/popular-films/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/culture/religion/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/entertainment/books/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/entertainment/gaming/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/entertainment/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/entertainment/movies/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/entertainment/music/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/entertainment/television/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/finance/brexit/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/finance/crypto/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/finance/financial-markets/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/finance/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/finance/property-market/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/finance/stocks-and-shares/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/health/alternative-medicine/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/health/fitness-and-exercise/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/health/global-health/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/health/health-apps/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/health/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/health/nutrition/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lifestyle/beauty/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lifestyle/fashion/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/lifestyle/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lifestyle/money/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lifestyle/photography/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lifestyle/shopping/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lifestyle/tech-news/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/paged/-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/alternative-medicine-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/anthropology-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/art-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/arts-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/astronomy-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/banking-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/beauty-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/biology-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/books-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/boxing-sport-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/brexit-1.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/paged/business-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/chemistry-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/computer-hardware-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/computer-software-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/cricket-sport-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/crypto-1.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/paged/culture-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/elections-1.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/paged/entertainment-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/fashion-1.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/paged/finance-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/financial-markets-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/fitness-and-exercise-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/football-sport-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/formula-1-racing-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/gadgets-and-consumer-electronics-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/gaming-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/global-economy-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/global-health-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/government-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/government-policy-1.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/paged/health-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/health-apps-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/history-1.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/paged/html-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/huy-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/insurance-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/internet-and-web-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/law-legislation-1.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/paged/lifestyle-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/money-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/movies-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/music-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/nutrition-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/philosophy-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/photography-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/physics-1.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/paged/politics-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/popular-films-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/property-market-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/public-opinion-surveys-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/religion-1.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/paged/science-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/shopping-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/small-business-trends-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/sociology-1.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/paged/sport-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/stocks-and-shares-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/tech-news-1.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/paged/technology-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/technology-industry-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/television-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/tennis-sport-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/venture-capital-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/politics/elections/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/politics/government-policy/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/politics/government/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/politics/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/politics/law-legislation/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/politics/public-opinion-surveys/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/science/astronomy/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/science/biology/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/science/chemistry/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/science/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/science/physics/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/science/sociology/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sport/boxing-sport/huy/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sport/boxing-sport/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sport/cricket-sport/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sport/football-sport/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sport/formula-1-racing/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/sport/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sport/tennis-sport/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/technology/computer-hardware/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/technology/computer-software/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/technology/gadgets-and-consumer-electronics/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/technology/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/technology/internet-and-web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/technology/technology-industry/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/makedirs_chatgpt.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/makedirs_chatgpt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/me-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/news_updater.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/news_updater.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/count_replace.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/count_replace.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +78,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="newam" />
+        <entry key="$PROJECT_DIR$" value="newam1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -241,7 +131,7 @@
       <recent name="$PROJECT_DIR$/test/a" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.makedirs_chatgpt">
+  <component name="RunManager" selected="Python.news_updater">
     <configuration name="b" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="amkamdam.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -354,10 +244,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.news_updater" />
         <item itemvalue="Python.makedirs_chatgpt" />
         <item itemvalue="Python.b" />
         <item itemvalue="Python.makedirs_chatgpt-1" />
-        <item itemvalue="Python.news_updater" />
         <item itemvalue="Python.get-newsapi" />
       </list>
     </recent_temporary>
@@ -418,6 +308,7 @@
       <workItem from="1729833323336" duration="3733000" />
       <workItem from="1729857416441" duration="2180000" />
       <workItem from="1729922668826" duration="1952000" />
+      <workItem from="1729935504235" duration="17714000" />
     </task>
     <task id="LOCAL-00001" summary="ku">
       <created>1706943512106</created>
@@ -580,7 +471,28 @@
       <option name="project" value="LOCAL" />
       <updated>1729923314581</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="huy">
+      <created>1729937720970</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1729937720970</updated>
+    </task>
+    <task id="LOCAL-00025" summary="huy">
+      <created>1730046423408</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1730046423408</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add index.php">
+      <created>1730185597096</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1730185597096</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,7 +509,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="newam" />
+                        <option value="newam2" />
                       </list>
                     </value>
                   </entry>
@@ -615,7 +527,6 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="ku" />
     <MESSAGE value="rename me-index.html to me-index.xhtml so it doesn't get edited by editallfiles.py" />
-    <MESSAGE value="huy" />
     <MESSAGE value="begin new amkamdam" />
     <MESSAGE value="begin new amkamdam da" />
     <MESSAGE value="create page with newsapi" />
@@ -630,7 +541,9 @@
     <MESSAGE value="makedirs_chatgpt.py" />
     <MESSAGE value="done all ten categories" />
     <MESSAGE value="kak" />
-    <option name="LAST_COMMIT_MESSAGE" value="kak" />
+    <MESSAGE value="huy" />
+    <MESSAGE value="add index.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="add index.php" />
   </component>
   <component name="WindowStateProjectService">
     <state x="542" y="192" width="1536" height="1261" key="#Project_Structure" timestamp="1726373866342">
@@ -657,46 +570,46 @@
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state x="905" y="383" width="810" height="879" key="Diagram.Print.Preview.Dialog/70.38.2490.1562@70.38.2490.1562" timestamp="1729835903299" />
-    <state x="170" y="138" width="2290" height="1362" key="DiffContextDialog" timestamp="1727451214218">
+    <state x="170" y="138" width="2290" height="1362" key="DiffContextDialog" timestamp="1730185314729">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="170" y="138" width="2290" height="1362" key="DiffContextDialog/70.38.2490.1562@70.38.2490.1562" timestamp="1727451214218" />
+    <state x="170" y="138" width="2290" height="1362" key="DiffContextDialog/70.38.2490.1562@70.38.2490.1562" timestamp="1730185314729" />
     <state x="992" y="463" width="636" height="719" key="FileChooserDialogImpl" timestamp="1729835936776">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state x="992" y="463" width="636" height="719" key="FileChooserDialogImpl/70.38.2490.1562@70.38.2490.1562" timestamp="1729835936776" />
-    <state width="2422" height="420" key="GridCell.Tab.0.bottom" timestamp="1729933874270">
+    <state width="2422" height="404" key="GridCell.Tab.0.bottom" timestamp="1730186440311">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="420" key="GridCell.Tab.0.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1729933874270" />
-    <state width="2422" height="420" key="GridCell.Tab.0.center" timestamp="1729933874268">
+    <state width="2422" height="404" key="GridCell.Tab.0.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1730186440311" />
+    <state width="2422" height="404" key="GridCell.Tab.0.center" timestamp="1730186440310">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="420" key="GridCell.Tab.0.center/70.38.2490.1562@70.38.2490.1562" timestamp="1729933874268" />
-    <state width="2422" height="420" key="GridCell.Tab.0.left" timestamp="1729933874267">
+    <state width="2422" height="404" key="GridCell.Tab.0.center/70.38.2490.1562@70.38.2490.1562" timestamp="1730186440310" />
+    <state width="2422" height="404" key="GridCell.Tab.0.left" timestamp="1730186440310">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="420" key="GridCell.Tab.0.left/70.38.2490.1562@70.38.2490.1562" timestamp="1729933874267" />
-    <state width="2422" height="420" key="GridCell.Tab.0.right" timestamp="1729933874269">
+    <state width="2422" height="404" key="GridCell.Tab.0.left/70.38.2490.1562@70.38.2490.1562" timestamp="1730186440310" />
+    <state width="2422" height="404" key="GridCell.Tab.0.right" timestamp="1730186440311">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="420" key="GridCell.Tab.0.right/70.38.2490.1562@70.38.2490.1562" timestamp="1729933874269" />
-    <state width="2422" height="623" key="GridCell.Tab.1.bottom" timestamp="1729920773196">
+    <state width="2422" height="404" key="GridCell.Tab.0.right/70.38.2490.1562@70.38.2490.1562" timestamp="1730186440311" />
+    <state width="2422" height="404" key="GridCell.Tab.1.bottom" timestamp="1730186440311">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="623" key="GridCell.Tab.1.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1729920773196" />
-    <state width="2422" height="623" key="GridCell.Tab.1.center" timestamp="1729920773196">
+    <state width="2422" height="404" key="GridCell.Tab.1.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1730186440311" />
+    <state width="2422" height="404" key="GridCell.Tab.1.center" timestamp="1730186440311">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="623" key="GridCell.Tab.1.center/70.38.2490.1562@70.38.2490.1562" timestamp="1729920773196" />
-    <state width="2422" height="623" key="GridCell.Tab.1.left" timestamp="1729920773196">
+    <state width="2422" height="404" key="GridCell.Tab.1.center/70.38.2490.1562@70.38.2490.1562" timestamp="1730186440311" />
+    <state width="2422" height="404" key="GridCell.Tab.1.left" timestamp="1730186440311">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="623" key="GridCell.Tab.1.left/70.38.2490.1562@70.38.2490.1562" timestamp="1729920773196" />
-    <state width="2422" height="623" key="GridCell.Tab.1.right" timestamp="1729920773196">
+    <state width="2422" height="404" key="GridCell.Tab.1.left/70.38.2490.1562@70.38.2490.1562" timestamp="1730186440311" />
+    <state width="2422" height="404" key="GridCell.Tab.1.right" timestamp="1730186440311">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="623" key="GridCell.Tab.1.right/70.38.2490.1562@70.38.2490.1562" timestamp="1729920773196" />
+    <state width="2422" height="404" key="GridCell.Tab.1.right/70.38.2490.1562@70.38.2490.1562" timestamp="1730186440311" />
     <state x="1032" y="715" width="555" height="214" key="NewPhpFileDialog" timestamp="1726384622316">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
@@ -705,10 +618,10 @@
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state x="133" y="192" width="1945" height="1261" key="SettingsEditor/70.38.2490.1562@70.38.2490.1562" timestamp="1729663148241" />
-    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1729923316901">
+    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1730185600651">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2/70.38.2490.1562@70.38.2490.1562" timestamp="1729923316901" />
+    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2/70.38.2490.1562@70.38.2490.1562" timestamp="1730185600651" />
     <state width="1245" height="781" key="XDebugger.FullValuePopup" timestamp="1727066083605">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
@@ -733,6 +646,10 @@
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state x="808" y="128" width="1009" height="1470" key="search.everywhere.popup/70.38.2490.1562@70.38.2490.1562" timestamp="1726327738896" />
+    <state x="953" y="699" width="723" height="247" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1729939626529">
+      <screen x="70" y="38" width="2490" height="1562" />
+    </state>
+    <state x="953" y="699" width="723" height="247" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/70.38.2490.1562@70.38.2490.1562" timestamp="1729939626529" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -773,11 +690,6 @@
           <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/news_updater.py</url>
-          <line>155</line>
-          <option name="timeStamp" value="128" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/makedirs.py</url>
           <line>88</line>
           <option name="timeStamp" value="131" />
@@ -786,6 +698,16 @@
           <url>file://$PROJECT_DIR$/test/b.py</url>
           <line>14</line>
           <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/news_updater.py</url>
+          <line>121</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/makedirs_chatgpt.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="135" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -820,7 +742,7 @@
     <SUITE FILE_PATH="coverage/amkamdam_com$newsapi_4.coverage" NAME="newsapi-4 Coverage Results" MODIFIED="1726259835854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/amkamdam_com$newsapi4_1.coverage" NAME="newsapi4_1 Coverage Results" MODIFIED="1726383765874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/amkamdam_com$Unittests_in_test_newsapi4_perplexity_py.coverage" NAME="Unittests in test_newsapi4_perplexity.py Coverage Results" MODIFIED="1726394467722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/amkamdam_com$makedirs_chatgpt.coverage" NAME="makedirs_chatgpt Coverage Results" MODIFIED="1729923731247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/amkamdam_com$makedirs_chatgpt.coverage" NAME="makedirs_chatgpt Coverage Results" MODIFIED="1730184935300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/amkamdam_com$a.coverage" NAME="a Coverage Results" MODIFIED="1724478516826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/amkamdam_com$newsapi_1.coverage" NAME="newsapi-1 Coverage Results" MODIFIED="1726157428974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/amkamdam_com$makedirs.coverage" NAME="makedirs Coverage Results" MODIFIED="1726843653685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
@@ -829,7 +751,7 @@
     <SUITE FILE_PATH="coverage/amkamdam_com$editallfiles.coverage" NAME="editallfiles Coverage Results" MODIFIED="1718003104809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/amkamdam_com$get_newsapi_copilot.coverage" NAME="get_newsapi_copilot Coverage Results" MODIFIED="1726550903293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/a" />
     <SUITE FILE_PATH="coverage/amkamdam_com$Unittests_for_test_newsapi_4_TestNewsUpdater.coverage" NAME="Unittests for test_newsapi-4.TestNewsUpdater Coverage Results" MODIFIED="1726309274684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/amkamdam_com$news_updater.coverage" NAME="news_updater Coverage Results" MODIFIED="1727245406215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/amkamdam_com$news_updater.coverage" NAME="news_updater Coverage Results" MODIFIED="1730184992715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/amkamdam_com$Unittests_for_test_newsapi4_TestNewsUpdater__1_.coverage" NAME="Unittests for test_newsapi4.TestNewsUpdater (1) Coverage Results" MODIFIED="1726328235162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huy" />
     <SUITE FILE_PATH="coverage/amkamdam_com$newsapi.coverage" NAME="newsapi Coverage Results" MODIFIED="1726469268163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/a" />
     <SUITE FILE_PATH="coverage/amkamdam_com$b.coverage" NAME="b Coverage Results" MODIFIED="1729868914688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
