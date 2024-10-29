@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 dirs = [
     '',
     'sport',
+    'world-news',
     'culture',
     'lifestyle',
     'finance',
