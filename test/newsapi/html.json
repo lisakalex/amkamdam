@@ -1,123 +1,84 @@
 {
     "status": "ok",
-    "totalResults": 34,
+    "totalResults": 47,
     "articles": [
         {
             "source": {
                 "id": null,
-                "name": "Pythonbytes.fm"
+                "name": "Yahoo Entertainment"
             },
-            "author": "Michael Kennedy (@mkennedy)",
-            "title": "Python Bytes: #407 Back to the future, destination 3.14",
-            "description": "News and announcements from the Python community for the week of Oct 28th, 2024",
-            "url": "https://pythonbytes.fm/episodes/show/407/back-to-the-future-destination-3.14",
-            "urlToImage": "https://cdn.pythonbytes.fm/episodes/youtube_image/70OO7BMV1KE?v=1",
-            "publishedAt": "2024-10-28T08:00:00Z",
-            "content": "About the show\r\nSponsored by us! Support our work through:\r\nConnect with the hosts\r\nJoin us on YouTube at pythonbytes.fm/live to be part of the audience. Usually Monday at 10am PT. Older video versio\u2026 [+2181 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Sputnikglobe.com"
-            },
-            "author": "Sputnik International",
-            "title": "Iraq Files Complaint With UN Over Violation of Its Airspace by Israeli Aircraft",
-            "description": "DOHA (Sputnik) - Iraq has sent a formal note of protest to the UN secretary general and the UN Security Council over the violation of its airspace by Israeli planes that were heading to bomb Iran, the Iraqi government said on Monday.",
-            "url": "https://sputnikglobe.com/20241028/iraq-files-complaint-with-un-over-violation-of-its-airspace-by-israeli-aircraft-1120701895.html",
-            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120701895.jpg?10599954391730100905",
-            "publishedAt": "2024-10-28T07:35:04Z",
-            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241028/iraq-files-complaint-with-un-over-violation-of-its-airspace-by-is\u2026 [+1742 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Globalsecurity.org"
-            },
-            "author": "John Pike",
-            "title": "Bulgarian Exit Polls Raise Fears Of Another Prolonged Political Stalemate",
-            "description": "In what appears to be the continuation of a long-standing political deadlock, exit polls gave former Prime Minister Boyko Borisov's center-right GERB party the most votes in Bulgaria's parliamentary elections but without enough support to form a government by\u2026",
-            "url": "https://www.globalsecurity.org/military/library/news/2024/10/mil-241027-rferl04.htm",
+            "author": "Mariella Moon",
+            "title": "Samsung could launch its 'extended reality' wearable device next year",
+            "description": "It sounds like Samsung is hoping to launch its extended reality (XR) wearable device sometime next year. The company has revealed its outlook for 2025 in its new earnings report, wherein it said that it's looking to \"improve connectivity among products, inclu\u2026",
+            "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_5c77b451-f274-4da6-b1ec-f7db4d651286",
             "urlToImage": null,
-            "publishedAt": "2024-10-28T07:21:34Z",
-            "content": "By RFE/RL's Bulgarian Service October 27, 2024\r\nSOFIA - In what appears to be the continuation of a long-standing political deadlock, exit polls gave former Prime Minister Boyko Borisov's center-righ\u2026 [+2722 chars]"
+            "publishedAt": "2024-10-31T12:30:08Z",
+            "content": "If you click 'Accept all', we and our partners, including 237 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use \u2026 [+678 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Globalsecurity.org"
-            },
-            "author": "John Pike",
-            "title": "After Preliminary Election Results, Disappointment For Georgia's Opposition",
-            "description": "The ruling Georgian Dream party eked out a slim victory in Georgia's pivotal parliamentary elections, preliminary results showed.",
-            "url": "https://www.globalsecurity.org/military/library/news/2024/10/mil-241027-rferl03.htm",
-            "urlToImage": null,
-            "publishedAt": "2024-10-28T07:21:20Z",
-            "content": "By Joshua Kucera October 27, 2024\r\nTBILISI -- The ruling Georgian Dream party eked out a slim victory in Georgia's pivotal parliamentary elections, preliminary results showed.\r\nGeorgian Dream won jus\u2026 [+4350 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Globalsecurity.org"
-            },
-            "author": "John Pike",
-            "title": "How The World Sees The Disputed Georgian Elections",
-            "description": "The ruling Georgian Dream party claimed victory in the October 26 parliamentary elections following the release of official results, but the pro-Western opposition refused to accept the outcome, calling it a Kremlin \"coup\" and a \"Russian special operation.\"",
-            "url": "https://www.globalsecurity.org/military/library/news/2024/10/mil-241027-rferl02.htm",
-            "urlToImage": null,
-            "publishedAt": "2024-10-28T07:21:16Z",
-            "content": "By RFE/RL October 27, 2024\r\nThe ruling Georgian Dream party claimed victory in the October 26 parliamentary elections following the release of official results, but the pro-Western opposition refused\u2026 [+5915 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Globalsecurity.org"
-            },
-            "author": "John Pike",
-            "title": "Georgian President Won't Recognize Vote Results, Calls For Protests, Alleges Russian Interference",
-            "description": "Pro-Western Georgian President Salome Zurabishvili, who has broken with the ruling Georgian Dream party, said she will not recognize the results of parliamentary elections held on October 26 and alleged that the country has been the victim of a \"Russian speci\u2026",
-            "url": "https://www.globalsecurity.org/military/library/news/2024/10/mil-241027-rferl01.htm",
-            "urlToImage": null,
-            "publishedAt": "2024-10-28T07:21:13Z",
-            "content": "By RFE/RL's Georgian Service October 27, 2024\r\nTBILISI -- Pro-Western Georgian President Salome Zurabishvili, who has broken with the ruling Georgian Dream party, said she will not recognize the resu\u2026 [+7685 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "CNET"
+                "name": "[Removed]"
             },
             "author": null,
-            "title": "\u682a\u5f0f\u4f1a\u793e\u30d0\u30f3\u30c0\u30a4\u3000\u30e9\u30a4\u30d5\u30b9\u30bf\u30a4\u30eb\u4e8b\u696d\u90e8\u591c\u306e\u30af\u30e9\u30b2\u306f\u6cf3\u3052\u306a\u3044\u00d7HTML ZERO3 \u30b3\u30e9\u30dc\u30a2\u30d1\u30ec\u30eb\u304c\u767b\u5834\uff01",
-            "description": "~JELEE\u30d7\u30ed\u30c7\u30e5\u30fc\u30b9 \u51686\u30a2\u30a4\u30c6\u30e0\u5c55\u958b\uff01\uff5e[\u753b\u50cf1: https://prcdn.freetls.fastly.net/release_image/55569/630/55569-630-7bd1dcbdf0aecb407e4377c56262126c-1920x1080.jpg?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&bg-color=fff ]\u30e2\u30c7\u30eb:\u52a0\u85e4\u7d50\uff08https://x.com/look_kato10\uff09\u682a...",
-            "url": "https://japan.cnet.com/release/31049262/",
-            "urlToImage": "https://japan.cnet.com/media/c/2012/images/logo/logo_ogp_1200.png",
-            "publishedAt": "2024-10-28T07:18:54Z",
-            "content": "~JELEE 6\r\n[1: ]:\r\nHTML ZERO3ice field()2024102812\r\nJELEEJELEE6\r\nJELEE Crossing Short Sleeve Tee2JELEEJELEET2[2: ]:157cm :L\r\n[3: ]\r\n[4: ]\r\nJELEE Floating Long Sleeve Tee2JELEET2[5: ]:157cm :L\r\n[6: ]\r\n\u2026 [+782 chars]"
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "2024-10-31T12:00:14Z",
+            "content": "[Removed]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Globalsecurity.org"
+                "name": "Pypi.org"
             },
-            "author": "John Pike",
-            "title": "UN Security Council Sets Urgent Session On Iran-Israeli Conflict At Tehran's Request",
-            "description": "The UN Security Council has agreed to hold an emergency session at Tehran's request following Israel's missile strike against Iran in the early morning hours of October 26.",
-            "url": "https://www.globalsecurity.org/wmd/library/news/iran/2024/iran-241027-rferl02.htm",
-            "urlToImage": null,
-            "publishedAt": "2024-10-28T07:15:37Z",
-            "content": "By RFE/RL October 27, 2024\r\nThe UN Security Council has agreed to hold an emergency session at Tehran's request following Israel's missile strike against Iran in the early morning hours of October 26\u2026 [+4100 chars]"
+            "author": "inbal.zelig@ultimagen.com",
+            "title": "ugbio-omics added to PyPI",
+            "description": "Ultima Genomics bioinfo utils for working iwth AWS Health-Omics",
+            "url": "https://pypi.org/project/ugbio-omics/",
+            "urlToImage": "https://pypi.org/static/images/twitter.abaf4b19.webp",
+            "publishedAt": "2024-10-31T11:54:44Z",
+            "content": "This module includes Python scripts for working with AWS HealthOmics.<li>Compare Cromwell vs. Omics - Process cost and performance on both platforms and save results into comparable CSV files. Also s\u2026 [+949 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Globalsecurity.org"
+                "name": "Slashdot.org"
             },
-            "author": "John Pike",
-            "title": "Iran's Khamenei Says Israeli Strikes Should Not Be Exaggerated Or Minimized",
-            "description": "Iranian Supreme Leader Ayatollah Ali Khamenei has warned against either exaggerating or minimizing the impact of Israeli's October 26 retaliatory strikes against Iran.",
-            "url": "https://www.globalsecurity.org/wmd/library/news/iran/2024/iran-241027-rferl01.htm",
+            "author": "feedfeeder",
+            "title": "The Morning After: Our verdict on the Kindle Colorsoft",
+            "description": "Finally, a color Kindle. Amazon, the dominant force in ereaders, finally brought color eink to its series of devices \u2014 and we\u2019ve reviewed it. The Kindle Colorsoft is a solid premium ereader, ideal for readers of comics and graphic novels. The company has upgr\u2026",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=175366607",
             "urlToImage": null,
-            "publishedAt": "2024-10-28T07:15:29Z",
-            "content": "By RFE/RL's Radio Farda October 27, 2024\r\nIranian Supreme Leader Ayatollah Ali Khamenei has warned against either exaggerating or minimizing the impact of Israeli's October 26 retaliatory strikes aga\u2026 [+3055 chars]"
+            "publishedAt": "2024-10-31T11:32:09Z",
+            "content": "Finally, a color Kindle. Amazon, the dominant force in ereaders, finally brought color eink to its series of devices \u2014 and we\u2019ve reviewed it. The Kindle Colorsoft is a solid premium ereader, ideal fo\u2026 [+2427 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Svetlana Ekimenko",
+            "title": "Europe's Small & Medium Arms Makers Flounder to Boost Production as Ukraine Aid Drains Stocks",
+            "description": "After sending vast shipments of weapons into the Ukraine support sinkhole, the Kiev regime's European enablers have struggled to boost their own arms production, facing bureaucracy, lack of cash, and other challenges.",
+            "url": "https://sputnikglobe.com/20241031/europes-small--medium-arms-makers-flounder-to-boost-production-as-ukraine-aid-drains-stocks--1120736171.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120736171.jpg?11203427561730373467",
+            "publishedAt": "2024-10-31T11:17:46Z",
+            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241031/europes-small--medium-arms-makers-flounder-to-boost-production-as\u2026 [+4600 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Mat Smith",
+            "title": "The Morning After: Our verdict on the Kindle Colorsoft",
+            "description": "Finally, a color Kindle. Amazon, the dominant force in ereaders, finally brought color eink to its series of devices \u2014 and we\u2019ve reviewed it. The Kindle Colorsoft is a solid premium ereader, ideal for readers of comics and graphic novels. The company has upgr\u2026",
+            "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_aed81b9e-ff78-4b26-90a3-af78e7c78278",
+            "urlToImage": null,
+            "publishedAt": "2024-10-31T11:15:38Z",
+            "content": "If you click 'Accept all', we and our partners, including 237 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use \u2026 [+678 chars]"
         },
         {
             "source": {
@@ -125,25 +86,155 @@
                 "name": "Sputnikglobe.com"
             },
             "author": "Sputnik International",
-            "title": "Ruling Coalition Loses Majority in Japan\u2019s Parliament Lower House for 1st Time in 15 Years",
-            "description": "TOKYO (Sputnik) - The ruling coalition in Japan, which is made up of the Liberal Democratic party (LDP) and the Komeito, failed to secure majority in the lower house of the country's parliament for the first time in 15 years, according to the election results\u2026",
-            "url": "https://sputnikglobe.com/20241028/ruling-coalition-loses-majority-in-japans-parliament-lower-house-for-1st-time-in-15-years-1120701755.html",
-            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120701755.jpg?11163552651730099701",
-            "publishedAt": "2024-10-28T07:15:00Z",
-            "content": "Find top stories and features from Asia and the Pacific region. Keep updated on major political stories and analyses from Asia and the Pacific. All you want to know about China, Japan, North and Sout\u2026 [+4181 chars]"
+            "title": "Updated Russia-Iran Agreement to Pay Significant Attention to Defense Issues - Lavrov",
+            "description": "MINSK (Sputnik) - An updated partnership agreement between Russia and Iran will be signed in the near future, with significant attention paid to defense issues, Russian Foreign Minister Sergey Lavrov said on Thursday.",
+            "url": "https://sputnikglobe.com/20241031/updated-russia-iran-agreement-to-pay-significant-attention-to-defense-issues---lavrov-1120735481.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120735481.jpg?11202841601730369851",
+            "publishedAt": "2024-10-31T10:17:30Z",
+            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241031/updated-russia-iran-agreement-to-pay-significant-attention-to-def\u2026 [+1791 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Sans.edu"
+                "name": "Pypi.org"
+            },
+            "author": "centroid@mail.ru",
+            "title": "base-aux added to PyPI",
+            "description": "collect all my previous moduls in one package",
+            "url": "https://pypi.org/project/base-aux/",
+            "urlToImage": "https://pypi.org/static/images/twitter.abaf4b19.webp",
+            "publishedAt": "2024-10-31T10:12:16Z",
+            "content": "buses\r\n--------------\r\nNOTE: IT SEEMS THIS IS OLD DATA! see tests for actual usage!!. MOST APPROPRIATE COMMAND PROTOCOL\r\nother protocols mot recommended<li>all cmds must be as params (preferred) in e\u2026 [+5010 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "Ukraine Loses Up to 810 Soldiers in Battles With Russian Forces - MoD",
+            "description": "MOSCOW (Sputnik) - Russia's Battlegroup Yug eliminated up to 810 Ukrainian servicepeople over the past day, the Russian Defense Ministry said on Thursday.",
+            "url": "https://sputnikglobe.com/20241031/ukraine-loses-up-to-810-soldiers-in-battles-with-russian-forces---mod-1120735363.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120735363.jpg?11204024451730368634",
+            "publishedAt": "2024-10-31T09:57:13Z",
+            "content": "Russia's Special Operation in Ukraine\r\nOn February 24, 2022 Russia launched a special military operation in Ukraine, aiming to liberate the Donbass region where the people's republics of Donetsk and \u2026 [+2091 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Wordpress.org"
+            },
+            "author": "poena",
+            "title": "Ticket #62326 (Add title and description to post format archive block templates) created",
+            "description": "When a block theme includes the HTML file for a post format archive, the Site Editor shows the template without a description and without a human-readable name.\nInstead it shows the name of the HTML file.\n\nTo reproduce:\n\nActivate a block theme that has suppor\u2026",
+            "url": "https://core.trac.wordpress.org/ticket/62326",
+            "urlToImage": null,
+            "publishedAt": "2024-10-31T09:48:01Z",
+            "content": "When a block theme includes the HTML file for a post format archive, the Site Editor shows the template without a description and without a human-readable name.Instead it shows the name of the HTML f\u2026 [+665 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "Kremlin on $20 Decillion Fine to Google: Such Figure Full of Symbolism",
+            "description": "MOSCOW (Sputnik) - The 2 undecillion rubles fine ($20 decillion) to Google is a figure that is full of symbolism and the best thing the company can do is fix the situation, Kremlin spokesman Dmitry Peskov said on Thursday.",
+            "url": "https://sputnikglobe.com/20241031/kremlin-on-20-decillion-fine-to-google-such-figure-full-of-symbolism-1120735240.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120735240.jpg?10819530121730366797",
+            "publishedAt": "2024-10-31T09:26:36Z",
+            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241031/kremlin-on-20-decillion-fine-to-google-such-figure-full-of-symbol\u2026 [+2612 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Slashdot.org"
+            },
+            "author": "feedfeeder",
+            "title": "The best live TV streaming services to cut cable in 2024",
+            "description": "You basically have three options for watching live TV at home: Hook up a digital antenna, pay for a cable subscription or sign up for a live TV streaming service. The content you get through a digital antenna is free, but limited to your local broadcast netwo\u2026",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=175366053",
+            "urlToImage": null,
+            "publishedAt": "2024-10-31T09:13:13Z",
+            "content": "You basically have three options for watching live TV at home: Hook up a digital antenna, pay for a cable subscription or sign up for a live TV streaming service. The content you get through a digita\u2026 [+18358 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
             },
             "author": null,
-            "title": "Self-contained HTML phishing attachment using Telegram to exfiltrate stolen credentials, (Mon, Oct 28th)",
-            "description": "Phishing authors have long ago discovered that adding HTML attachments to the messages they send out can have significant benefits for them \u00e2\u0080\u0093 especially since an HTML file can contain an entire credential-stealing web page and does not need to reach out to \u2026",
-            "url": "https://isc.sans.edu/diary/31388",
-            "urlToImage": "https://isc.sans.edu/diaryimages/images/24-10-28-page.png",
-            "publishedAt": "2024-10-28T07:13:03Z",
-            "content": "Phishing authors have long ago discovered that adding HTML attachments to the messages they send out can have significant benefits for them \u2013 especially since an HTML file can contain an entire crede\u2026 [+3544 chars]"
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "2024-10-31T09:00:36Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Prtimes.jp"
+            },
+            "author": null,
+            "title": "\u300c\u5e73\u7984\u5bff\u53f8\u300d\u306e\u300c\u5bff\u53f8\u306e\u65e5\u300d\u30ad\u30e3\u30f3\u30da\u30fc\u30f3\uff0111/1\uff08\u91d1\uff09 \uff5e 11/4\uff08\u6708\u30fb\u795d\uff09",
+            "description": "[\u713c\u8089\u5742\u4e95\u30db\u30fc\u30eb\u30c7\u30a3\u30f3\u30b0\u30b9]\n[\u753b\u50cf1: https://prcdn.freetls.fastly.net/release_image/28006/217/28006-217-8e7b649cb4b8191f1dd3a7de4b5a0a17-830x388.jpg?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&am...",
+            "url": "https://prtimes.jp/main/html/rd/p/000000217.000028006.html",
+            "urlToImage": "https://prcdn.freetls.fastly.net/release_image/28006/217/28006-217-8e7b649cb4b8191f1dd3a7de4b5a0a17-830x388.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+            "publishedAt": "2024-10-31T08:40:02Z",
+            "content": "1967111111111141 \r\n111 114\r\n1961364111\r\nHPhttps://sushi-all-japan.com/index_a1.html\r\n 6907591\r\n5-7-3 011-895-3377\r\n 23-2161-31F \r\n0166-59-5922\r\n 1-2-7 0178-73-2660\r\n 540195-22-2566\r\n 5-33-18 022-237-\u2026 [+1369 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Prtimes.jp"
+            },
+            "author": null,
+            "title": "\u3010\u65b0\u30b5\u30fc\u30d3\u30b9\u30ea\u30ea\u30fc\u30b9\u3011\u30c7\u30b8\u30bf\u30eb\u30b5\u30ed\u30f3\u5354\u4f1a\u304c\u63d0\u4f9b\u3059\u308b\u798f\u5229\u539a\u751f\u30b5\u30fc\u30d3\u30b9\u306b\u65b0\u5546\u54c1\u304c\u8ffd\u52a0\u3055\u308c\u307e\u3057\u305f",
+            "description": "[\u4e00\u822c\u793e\u56e3\u6cd5\u4eba\u30c7\u30b8\u30bf\u30eb\u30b5\u30ed\u30f3\u5354\u4f1a]\n[\u753b\u50cf1: https://prcdn.freetls.fastly.net/release_image/119078/14/119078-14-c41ca3a8a439a84dcaab8f83789a09eb-872x286.png?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&am...",
+            "url": "https://prtimes.jp/main/html/rd/p/000000014.000119078.html",
+            "urlToImage": "https://prcdn.freetls.fastly.net/release_image/119078/14/119078-14-c41ca3a8a439a84dcaab8f83789a09eb-872x286.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+            "publishedAt": "2024-10-31T08:30:00Z",
+            "content": "impactTV ZWEI \r\n2023415\r\nAIDAO\r\nhttps://digital-salon.com/\r\nSNS\r\nWeb3.0Web3.0\r\nhttps://prtimes.jp/main/html/rd/p/000000001.000119078.html\r\nMIKATA\r\nMIKATA\r\n21115http://www.kunai.tv/profile.html\r\n30,00\u2026 [+353 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Jvns.ca"
+            },
+            "author": "Julia Evans",
+            "title": "ASCII control characters in my terminal",
+            "description": "ASCII control characters in my terminal",
+            "url": "https://jvns.ca/blog/2024/10/31/ascii-control-characters/",
+            "urlToImage": null,
+            "publishedAt": "2024-10-31T08:00:10Z",
+            "content": "Hello! I\u2019ve been thinking about the terminal a lot and yesterday I got curious\r\nabout all these \u201ccontrol codes\u201d, like Ctrl-A, Ctrl-C, Ctrl-W, etc. What\u2019s\r\nthe deal with all of them?\r\na table of ASCII\u2026 [+11180 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hospitality Net"
+            },
+            "author": "Cheaphotels.org",
+            "title": "Reno, NV least expensive U.S. city for hotel stays, Cheaphotels.org survey shows",
+            "description": "Reno in Nevada is the most affordable city in the United States for hotel accommodation, according to the latest survey by Cheaphotels.org. The annual survey compared hotel rates across 100 U.S. destinations during October 2024 \u2013 the month when hote...",
+            "url": "https://www.hospitalitynet.org/news/4124418.html",
+            "urlToImage": "https://www.hospitalitynet.org/HN-icon.jpg",
+            "publishedAt": "2024-10-31T07:55:29Z",
+            "content": "LAS VEGAS Reno in Nevada is the most affordable city in the United States for hotel accommodation, according to the latest survey by Cheaphotels.org.\r\nThe annual survey compared hotel rates across 10\u2026 [+1642 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Madshrimps.be"
+            },
+            "author": "Stefan Mileschin",
+            "title": "Microsoft Visual Studio With Coding Courses Is Down to $56 for a Limited Time",
+            "description": "The 15 coding e-courses cover front-end development with HTML, JavaScript, Vuex, and React and back-end development with Python, Ruby on Rails, Java, C++, and SQL so you can create websites or desktop applications. Or, maybe you're interested in mobile apps w\u2026",
+            "url": "http://www.madshrimps.be/news/item/234039",
+            "urlToImage": null,
+            "publishedAt": "2024-10-31T07:21:33Z",
+            "content": "Copyright \u00a9 2001-2011 Madshrimps, All rights reserved.Graphic Design by Dennis Kestelle, Programming by Maarten Menten,\r\nOverall Site design by John Meys\r\nAll information and graphics contained in Ma\u2026 [+135 chars]"
         },
         {
             "source": {
@@ -151,142 +242,129 @@
                 "name": "Globalsecurity.org"
             },
             "author": "John Pike",
-            "title": "Moscow Claims Advances In Eastern Ukraine As Kherson Blasted By Russian Shells",
-            "description": "The Russian military claimed to have made advances in eastern Ukraine, while authorities in Kyiv said the Kremlin's forces continued their relentless attacks on the regional center of Kherson on October 27, killing at least two civilians.",
-            "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2024/10/ukraine-241027-rferl01.htm",
+            "title": "U.S. 'Deeply Troubled' By Israeli Ban On UNRWA, Aid Agency Helping Palestinians",
+            "description": "The United States is \"deeply troubled\" by legislation approved by the Israeli parliament that bans UNRWA, the main United Nations agency bringing assistance to Palestinians in the Gaza Strip and elsewhere in the Middle East, including Israel.",
+            "url": "https://www.globalsecurity.org/military/library/news/2024/10/mil-241030-rferl05.htm",
             "urlToImage": null,
-            "publishedAt": "2024-10-28T07:07:45Z",
-            "content": "By RFE/RL's Ukrainian Service October 27, 2024\r\nThe Russian military claimed to have made advances in eastern Ukraine, while authorities in Kyiv said the Kremlin's forces continued their relentless a\u2026 [+2756 chars]"
+            "publishedAt": "2024-10-31T07:14:51Z",
+            "content": "By RFE/RL October 30, 2024\r\nThe United States is \"deeply troubled\" by legislation approved by the Israeli parliament that bans UNRWA, the main United Nations agency bringing assistance to Palestinian\u2026 [+2268 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Sputnikglobe.com"
+                "name": "Globalsecurity.org"
             },
-            "author": "Sputnik International",
-            "title": "IRGC Calls Israeli Strike on Iranian Territory Miscalculation With 'Bitter Consequences'",
-            "description": "TEHRAN (Sputnik) - Israel's strike on Iranian territory shows Tel Aviv's desperation and miscalculation, this strike will have \"unimaginably bitter consequences\" for Israel, Islamic Revolutionary Guard Corps (IRGC) Commander-in-Chief Hossein Salami said on Mo\u2026",
-            "url": "https://sputnikglobe.com/20241028/irgc-calls-israeli-strike-on-iranian-territory-miscalculation-with-bitter-consequences-1120701597.html",
-            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120701597.jpg?11178019091730098894",
-            "publishedAt": "2024-10-28T07:01:33Z",
-            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241028/irgc-calls-israeli-strike-on-iranian-territory-miscalculation-wit\u2026 [+2677 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Sputnikglobe.com"
-            },
-            "author": "Sputnik International",
-            "title": "Macron Begins 3-Day Visit to Morocco on Monday",
-            "description": "MOSCOW (Sputnik) - French President Emmanuel Macron and his wife Brigitte will pay a state visit to Morocco from October 28-30 at the invitation of Moroccan King Mohammed VI after several years of strained relations between Paris and Rabat.",
-            "url": "https://sputnikglobe.com/20241028/macron-begins-3-day-visit-to-morocco-on-monday-1120701142.html",
-            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120701142.jpg?10697126351730096045",
-            "publishedAt": "2024-10-28T06:14:04Z",
-            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241028/macron-begins-3-day-visit-to-morocco-on-monday-1120701142.html\r\nM\u2026 [+1669 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Github.com"
-            },
-            "author": "anamhira",
-            "title": "Show HN: CogniSim \u2013 Interaction utilites for crossplatform LLM agents",
-            "description": "We built a tool to that makes it easy to create LLM UI automations for IOS and Android.If You've ever tried to create tests that run with an LLM on mobile, probably encountered context problems due to the accessibility view being too long or just sending a sc\u2026",
-            "url": "https://github.com/RevylAI/CogniSim",
-            "urlToImage": "https://opengraph.githubassets.com/97ef0519e87ade0aff7fe7b1198e67957ba0b0a3b85a1527f0fbfd4e73e939ad/RevylAI/CogniSim",
-            "publishedAt": "2024-10-28T05:59:17Z",
-            "content": "Company Website | Twitter |\r\nLLM Control Library for iOS and Android\r\nHave you ever wanted to test your mobile app or control iOS and Android devices with an LLM? You've probably encountered context \u2026 [+6008 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Sputnikglobe.com"
-            },
-            "author": "Sputnik International",
-            "title": "Social Network X Blocks Hebrew Account of Iranian Supreme Leader",
-            "description": "MOSCOW (Sputnik) - The social media account of Iranian Supreme Leader Ayatollah Ali Khamenei, posting in Hebrew on platform X, was blocked on Monday just one day after it was launched.",
-            "url": "https://sputnikglobe.com/20241028/social-network-x-blocks-hebrew-account-of-iranian-supreme-leader-1120700870.html",
-            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120700870.jpg?10824704621730094650",
-            "publishedAt": "2024-10-28T05:50:49Z",
-            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241028/social-network-x-blocks-hebrew-account-of-iranian-supreme-leader-\u2026 [+2917 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Thewindowsclub.com"
-            },
-            "author": "SangeetaGhera@TWC",
-            "title": "Outlook freezing when searching emails or contacts",
-            "description": "If your Outlook is freezing when searching emails or contacts, read this post. We will show you how to fix the issue using effective troubleshooting steps. The Outlook Search feature is crucial in helping users find specific emails, contacts, or important inf\u2026",
-            "url": "https://www.thewindowsclub.com/outlook-freezing-when-searching-emails-or-contacts",
-            "urlToImage": "https://www.thewindowsclub.com/wp-content/uploads/2024/10/Outlook-freezing-when-searching-emails-or-contacts.png",
-            "publishedAt": "2024-10-28T05:47:00Z",
-            "content": "If your Outlook is freezing when searching emails or contacts, read this post. We will show you how to fix the issue using effective troubleshooting steps. The Outlook Search feature is crucial in he\u2026 [+6990 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Livedoor.jp"
-            },
-            "author": "nanjstu",
-            "title": "\u897f\u6b66\u3001\u9234\u6728\u5c06\u5e73\u30893\u9078\u624b\u3092\u6226\u529b\u5916\u20262023\u5e74\u30c9\u30e95\u5bae\u6fa4\u306f1\u5e74\u3067\u901a\u544a\u3001\u3068\u3082\u306b\u4eca\u5f8c\u306f\u672a\u5b9a",
-            "description": "\u8ee2\u8f09\u5143: https://rio2016.5ch.net/test/read.cgi/base/1729768848/\n\n540: \u4ee3\u6253\u540d\u7121\u3057\uff20\u5b9f\u6cc1\u306f\u91ce\u7403ch\u677f\u3067 2024/10/28(\u6708) 14:00:35.82 ID:SB4aInJ+0\n \u5bae\u6fa4\u3001\u91ce\u7530\u3001\u9234\u6728\u6226\u529b\u5916 \u672c\u5f53\u306b\u30b5\u30e8\u30ca\u30e9\u306a\u306e\u306f\u9234\u6728\u3060\u3051\u3060\u306a\u3053\u308c\u306f https://www.seibulions.jp/news/detail/202400500129....",
-            "url": "http://blog.livedoor.jp/nanjstu/archives/61904164.html",
-            "urlToImage": "https://livedoor.blogimg.jp/nanjstu/imgs/3/5/353c6cbf-s.jpg",
-            "publishedAt": "2024-10-28T05:26:13Z",
-            "content": ": https://rio2016.5ch.net/test/read.cgi/base/1729768848/\r\n540: ch 2024/10/28() 14:00:35.82 ID:SB4aInJ+0\r\nhttps://www.seibulions.jp/news/detail/202400500129.html\r\n541: ch 2024/10/28() 14:02:51.85 ID:T\u2026 [+669 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Sputnikglobe.com"
-            },
-            "author": "Sputnik International",
-            "title": "Russia's Shoigu on Way to UAE to Hold Talks With Country's President",
-            "description": "MOSCOW (Sputnik) - Russian Security Council Secretary Sergei Shoigu has headed to the UAE, where he is expected to meet with President Mohamed bin Zayed Al Nahyan to discuss international security and cooperation, the Russian Security Council said on Monday.",
-            "url": "https://sputnikglobe.com/20241028/russias-shougi-on-way-to-uae-to-hold-talks-with-countrys-president-1120700496.html",
-            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120700496.jpg?11184130111730092859",
-            "publishedAt": "2024-10-28T05:20:30Z",
-            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241028/russias-shougi-on-way-to-uae-to-hold-talks-with-countrys-presiden\u2026 [+1667 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Github.com"
-            },
-            "author": "kyleloomis",
-            "title": "Show HN: Finstruments - Financial instrument library built with Python",
-            "description": "finstruments is a Python library designed for modeling financial instruments. It comes with the core financial instruments, such as forwards and options, out of the box, as well as position, trade, and portfolio models. finstruments comes with the basic build\u2026",
-            "url": "https://github.com/kyleloomis/finstruments",
-            "urlToImage": "https://opengraph.githubassets.com/8920fb7738e1fe94b597a206e516d0758571460cee3aa3a484bca15e9851707d/kyleloomis/finstruments",
-            "publishedAt": "2024-10-28T05:18:33Z",
-            "content": "finstruments is a Python library designed for modeling financial instruments. It comes with the core financial\r\ninstruments, such as forwards and options, out of the box, as well as position, trade, \u2026 [+3504 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Sputnikglobe.com"
-            },
-            "author": "Sputnik International",
-            "title": "Russian Air Defense Systems Shot Down 21 Ukrainian Drones Overnight",
-            "description": "MOSCOW (Sputnik) - Russian air defense systems on duty destroyed and intercepted 21 Ukrainian drones last night, 13 of which were over Belgorod, six over Bryansk, and one each over Voronezh and Kursk regions, the Russian Defense Ministry said.",
-            "url": "https://sputnikglobe.com/20241028/russian-air-defense-systems-shot-down-21-ukrainian-drones-overnight-1120698860.html",
-            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120698860.jpg?11185265921730092187",
-            "publishedAt": "2024-10-28T05:09:46Z",
-            "content": "Russia's Special Operation in Ukraine\r\nOn February 24, 2022 Russia launched a special military operation in Ukraine, aiming to liberate the Donbass region where the people's republics of Donetsk and \u2026 [+1984 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Eclipse.org"
-            },
-            "author": "david.delabassee@xxxxxxx (David Delabassee)",
-            "title": "[jetty-dev] JDK 23 is GA, JDK 24 EA builds.",
-            "description": "[jetty-dev] JDK 23 is GA, JDK 24 EA builds.",
-            "url": "https://www.eclipse.org/lists/jetty-dev/msg03740.html",
+            "author": "John Pike",
+            "title": "Will Hezbollah's New Leader, Naim Qassem, Seek To Negotiate With Israel?",
+            "description": "The Lebanese armed group Hezbollah on October 28 named Naim Qassem as its new secretary-general, picking him from what was a seemingly small field of candidates.",
+            "url": "https://www.globalsecurity.org/military/library/news/2024/10/mil-241030-rferl04.htm",
             "urlToImage": null,
-            "publishedAt": "2024-10-28T05:06:21Z",
-            "content": "Welcome to the latest OpenJDK Quality Outreach update. JDK 23 was released last month as planned. You can find \"The Arrival of Java 23\" announcement here [1], and some additional Java 23 materials in\u2026 [+5945 chars]"
+            "publishedAt": "2024-10-31T07:14:45Z",
+            "content": "By Kian Sharifi October 30, 2024\r\nThe Lebanese armed group Hezbollah on October 28 named Naim Qassem as its new secretary-general, picking him from what was a seemingly small field of candidates.\r\nQa\u2026 [+3811 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Globalsecurity.org"
+            },
+            "author": "John Pike",
+            "title": "EU Progress Report: Georgia Gets The Tough Talk As Enlargement Enthusiasm Fades",
+            "description": "The European Commission presented its annual enlargement report on October 30, with a different tone from last year's release, when the EU executive made historic recommendations: It proposed opening accession talks with Moldova, Ukraine, and conditionally fo\u2026",
+            "url": "https://www.globalsecurity.org/military/library/news/2024/10/mil-241030-rferl03.htm",
+            "urlToImage": null,
+            "publishedAt": "2024-10-31T07:14:40Z",
+            "content": "By Rikard Jozwiak October 30, 2024\r\nThe European Commission presented its annual enlargement report on October 30, with a different tone from last year's release, when the EU executive made historic \u2026 [+6835 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Globalsecurity.org"
+            },
+            "author": "John Pike",
+            "title": "Georgian President Calls Prosecutors' Summons 'Political Retribution'",
+            "description": "Georgian President Salome Zurabishvili has refused to comply with a summons from state prosecutors demanding evidence to back up statements of electoral fraud linked to last weekend's parliamentary elections.",
+            "url": "https://www.globalsecurity.org/military/library/news/2024/10/mil-241030-rferl02.htm",
+            "urlToImage": null,
+            "publishedAt": "2024-10-31T07:14:36Z",
+            "content": "By RFE/RL's Georgian Service and RFE/RL's Echo of the Caucasus October 30, 2024\r\nTBILISI -- Georgian President Salome Zurabishvili has refused to comply with a summons from state prosecutors demandin\u2026 [+5592 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Globalsecurity.org"
+            },
+            "author": "John Pike",
+            "title": "New Hezbollah Leader Vows To Continue On Warpath With Israel",
+            "description": "Naim Qassem, the new leader of the Iran-backed armed group Hezbollah, vowed on October 30 to continue to implement the war plan set by his predecessor, Hassan Nasrallah, amid reports that Israel was again striking Hezbollah targets in Lebanon.",
+            "url": "https://www.globalsecurity.org/military/library/news/2024/10/mil-241030-rferl01.htm",
+            "urlToImage": null,
+            "publishedAt": "2024-10-31T07:14:31Z",
+            "content": "By RFE/RL October 30, 2024\r\nNaim Qassem, the new leader of the Iran-backed armed group Hezbollah, vowed on October 30 to continue to implement the war plan set by his predecessor, Hassan Nasrallah, a\u2026 [+2273 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Globalsecurity.org"
+            },
+            "author": "John Pike",
+            "title": "Hundreds Targeted In New U.S. Sanctions For Supporting Russia's War In Ukraine",
+            "description": "The United States imposed sanctions on October 30 against almost 400 entities and individuals in more than a dozen countries that Washington says have been supplying Russia with advanced technology used in its full-scale invasion of Ukraine.",
+            "url": "https://www.globalsecurity.org/wmd/library/news/russia/2024/10/russia-241030-rferl01.htm",
+            "urlToImage": null,
+            "publishedAt": "2024-10-31T06:55:58Z",
+            "content": "By RFE/RL October 30, 2024\r\nThe United States imposed sanctions on October 30 against almost 400 entities and individuals in more than a dozen countries that Washington says have been supplying Russi\u2026 [+3652 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Globalsecurity.org"
+            },
+            "author": "John Pike",
+            "title": "Kremlin Denies Talks Under Way With Kyiv On Halting Energy Strikes",
+            "description": "The Kremlin has denied a report in the Western media that Moscow and Kyiv have been engaged in secret negotiations to curb strikes on each other's energy infrastructure as casualties caused by Russian attacks continued to pile up in Ukraine on October 30.",
+            "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2024/10/ukraine-241030-rferl03.htm",
+            "urlToImage": null,
+            "publishedAt": "2024-10-31T06:51:39Z",
+            "content": "By RFE/RL's Ukrainian Service October 30, 2024\r\nThe Kremlin has denied a report in the Western media that Moscow and Kyiv have been engaged in secret negotiations to curb strikes on each other's ener\u2026 [+2440 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Globalsecurity.org"
+            },
+            "author": "John Pike",
+            "title": "Guided Bomb Attack On Kharkiv Ignites Fire In Residential Building",
+            "description": "Russian guided bombs targeted a multistory residential building in Kharkiv late on October 30, Mayor Ihor Terekhov said.",
+            "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2024/10/ukraine-241030-rferl02.htm",
+            "urlToImage": null,
+            "publishedAt": "2024-10-31T06:51:21Z",
+            "content": "By RFE/RL's Ukrainian Service October 30, 2024\r\nRussian guided bombs targeted a multistory residential building in Kharkiv late on October 30, Mayor Ihor Terekhov said.\r\n\"Preliminarily, we have infor\u2026 [+1643 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Globalsecurity.org"
+            },
+            "author": "John Pike",
+            "title": "Russia's Deployment Of North Korean Troops 'Dangerous And Destabilizing,' Austin Says",
+            "description": "U.S. Defense Secretary Lloyd Austin has called the deployment of North Korean troops by Russia to aid its war against Ukraine a \"dangerous and destabilizing escalation\" and said it could lengthen the conflict.",
+            "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2024/10/ukraine-241030-rferl01.htm",
+            "urlToImage": null,
+            "publishedAt": "2024-10-31T06:51:19Z",
+            "content": "By RFE/RL October 30, 2024\r\nU.S. Defense Secretary Lloyd Austin has called the deployment of North Korean troops by Russia to aid its war against Ukraine a \"dangerous and destabilizing escalation\" an\u2026 [+3085 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hatenadiary.com"
+            },
+            "author": "itokoichi",
+            "title": "Windows 11\u306e\u300c\u30b9\u30de\u30fc\u30c8\u30d5\u30a9\u30f3\u9023\u643a\u300d\u30a2\u30d7\u30ea\u3001\u767b\u9332\u3057\u305f\u30b9\u30de\u30db\u304c\u524a\u9664\u3067\u304d\u306a\u3044\u4ed5\u69d8\u304c\u6ce2\u7d0b\u3010\u3084\u3058\u3046\u307eWatch\u3011 - INTERNET Watch",
+            "description": "https://internet.watch.impress.co.jp/docs/yajiuma/1635798.html",
+            "url": "https://itokoichi.hatenadiary.com/entry/2024/10/31/154804",
+            "urlToImage": "https://ogimage.blog.st-hatena.com/98012380831456292/6802418398300357553/1730357284",
+            "publishedAt": "2024-10-31T06:48:04Z",
+            "content": "https://internet.watch.impress.co.jp/docs/yajiuma/1635798.html"
         },
         {
             "source": {
@@ -294,12 +372,168 @@
                 "name": "Sputnikglobe.com"
             },
             "author": "Sputnik International",
-            "title": "Musk Vows to Cut US Budget Spending by $2 Trillion If Trump Wins",
-            "description": "MOSCOW (Sputnik) - US entrepreneur Elon Musk has promised to cut US budget spending by at least $2 trillion if Republican candidate Donald Trump wins the presidential election in November.",
-            "url": "https://sputnikglobe.com/20241028/musk-vows-to-cut-us-budget-spending-by-2-trillion-if-trump-wins-1120698529.html",
-            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120698529.jpg?11204368931730091157",
-            "publishedAt": "2024-10-28T04:52:36Z",
-            "content": "Sputnik brings you all the latest breaking stories, expert analysis and videos from North and South America.\r\nhttps://sputnikglobe.com/20241028/musk-vows-to-cut-us-budget-spending-by-2-trillion-if-tr\u2026 [+2964 chars]"
+            "title": "Slovakia Becomes Largest EU Buyer of Russian Goods",
+            "description": "Slovakia in August for the first time became the main buyer of Russian goods among all EU countries, but Germany remains the largest trading partner, according to Sputnik calculations based on Eurostat data.",
+            "url": "https://sputnikglobe.com/20241031/slovakia-becomes-largest-eu-buyer-of-russian-goods-1120734470.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120734470.jpg?11191122431730354427",
+            "publishedAt": "2024-10-31T06:00:26Z",
+            "content": "Get breaking stories and analysis on the global economy from Sputnik.\r\nhttps://sputnikglobe.com/20241031/slovakia-becomes-largest-eu-buyer-of-russian-goods-1120734470.html\r\nSlovakia Becomes Largest E\u2026 [+3283 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "GlobeNewswire"
+            },
+            "author": "F. Hoffmann-La Roche Ltd",
+            "title": "New England Journal of Medicine publishes landmark phase III results for Roche\u2019s Itovebi, showing more than doubling of progression-free survival in certain type of HR-positive advanced breast cancer",
+            "description": "Basel, 31 October 2024 - Roche (SIX: RO, ROG; OTCQX: RHHBY) announced today that a detailed analysis of the positive phase III INAVO120 results, evaluating ItovebiTM (inavolisib) in combination with palbociclib (Ibrance\u00ae) and fulvestrant were published in the\u2026",
+            "url": "https://www.globenewswire.com/news-release/2024/10/31/2972258/0/en/New-England-Journal-of-Medicine-publishes-landmark-phase-III-results-for-Roche-s-Itovebi-showing-more-than-doubling-of-progression-free-survival-in-certain-type-of-HR-positive-adva.html",
+            "urlToImage": "https://ml-eu.globenewswire.com/Resource/Download/696b7c85-2d23-4f5e-a77b-8c6b2fa45d47",
+            "publishedAt": "2024-10-31T06:00:00Z",
+            "content": "<ul><li>ItovebiTM (inavolisib)-based regimen demonstrated a statistically significant and clinically meaningful benefit, reducing the risk of disease worsening or death by 57% compared with palbocicl\u2026 [+12263 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Piccalil.li"
+            },
+            "author": "krudd",
+            "title": "Making content-aware components using CSS :has(), grid, and quantity queries - Piccalilli",
+            "description": "Eric Bailey teaches us how to make a hyper-resilient component that responds not only to the container, but other languages too.",
+            "url": "https://piccalil.li/blog/making-content-aware-components-using-css-has-grid-and-quantity-queries/",
+            "urlToImage": "https://api.urlbox.io/v1/ln9ptArKXobLRpDQ/774448fdcf7033fd631698483e0cc25295df870dca54b490dc054051e27d9f2b/png?url=https://piccalil.li/og/making-content-aware-components-using-css-has-grid-and-quantity-queries/&width=1024&height=526&retina=true",
+            "publishedAt": "2024-10-31T05:47:02Z",
+            "content": "A big thing you need to contend with when working on design systems is anticipating all the different ways someone may use a component. The idea here is that you then preemptively provide sensible be\u2026 [+10537 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "Residential Building in Lebanon's Sarafand Destroyed by Israel, 16 People Killed - Mayor",
+            "description": "SARAFAND, Lebanon (Sputnik) - Israeli jets completely destroyed a three-story residential building in the Sarafand village in southern Lebanon on Wednesday, Mayor Ali Khalifeh said, adding that the attack killed 16 peopled.",
+            "url": "https://sputnikglobe.com/20241031/residential-building-in-lebanons-sarafand-destroyed-by-israel-16-people-killed---mayor-1120734156.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120734156.jpg?11206165871730349896",
+            "publishedAt": "2024-10-31T04:44:55Z",
+            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241031/residential-building-in-lebanons-sarafand-destroyed-by-israel-16-\u2026 [+3421 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "Saudi Arabia Building Strong Relations With BRICS Member Countries - Industry Minister",
+            "description": "RIYADH (Sputnik) - Saudi Arabia has strong economic relations with the BRICS member countries, the kingdom's Minister of Industry and Mineral Resources Bandar Alkhorayef told Sputnik.",
+            "url": "https://sputnikglobe.com/20241031/saudi-arabia-building-strong-relations-with-brics-member-countries---industry-minister-1120734037.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120734037.jpg?11206689421730349777",
+            "publishedAt": "2024-10-31T04:42:56Z",
+            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241031/saudi-arabia-building-strong-relations-with-brics-member-countrie\u2026 [+3668 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "Harris, Trump Basically Tied in Race for Pennsylvania\u2019s Electoral Votes - Poll",
+            "description": "MOSCOW (Sputnik) - Former US President Donald Trump and current Vice President Kamala Harris are basically tied in the race for Pennsylvania's electoral votes, according to a poll released by Monmouth University Wednesday.",
+            "url": "https://sputnikglobe.com/20241031/harris-trump-basically-tied-in-race-for-pennsylvanias-electoral-votes---poll-1120733916.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120733916.jpg?11206884911730349524",
+            "publishedAt": "2024-10-31T04:38:43Z",
+            "content": "Sputnik brings you all the latest breaking stories, expert analysis and videos from North and South America.\r\nhttps://sputnikglobe.com/20241031/harris-trump-basically-tied-in-race-for-pennsylvanias-e\u2026 [+2724 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "Argentine Gov\u2019t to Audit Foreign Ministry to Identify Who Do Not Support Agenda - Office",
+            "description": "MOSCOW (Sputnik) - The Argentine government will audit the Foreign Ministry to identify employees who do not adhere to the government's agenda, the presidential press service said following the resignation of Foreign Minister Diana Mondino.",
+            "url": "https://sputnikglobe.com/20241031/argentine-govt-to-audit-foreign-ministry-to-identify-who-do-not-support-agenda---office-1120733810.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120733810.jpg?10300616791730349412",
+            "publishedAt": "2024-10-31T04:36:51Z",
+            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241031/argentine-govt-to-audit-foreign-ministry-to-identify-who-do-not-s\u2026 [+1760 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "Russia Working With Hamas, Israel to Free Hostages - Deputy Foreign Minister",
+            "description": "MOSCOW (Sputnik) - Russia is working with Palestinian movement Hamas and Israel to free hostages, including Russians, who are held by the movement in Gaza, Russian Deputy Foreign Minister Mikhail Bogdanov told Sputnik.",
+            "url": "https://sputnikglobe.com/20241031/russia-working-with-hamas-israel-to-free-hostages---deputy-foreign-minister-1120733671.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120733671.jpg?10276385771730349197",
+            "publishedAt": "2024-10-31T04:33:16Z",
+            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241031/russia-working-with-hamas-israel-to-free-hostages---deputy-foreig\u2026 [+3034 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "UK Gov\u2019t to Raise Taxes by Over $51Bln to Improve Economic Situation",
+            "description": "MOSCOW (Sputnik) - The UK government intends to raise taxes to attract an additional 40 billion pounds ($51.8 billion) to the treasury amid economic difficulties and a multi-billion-dollar hole in the budget, UK Chancellor of the Exchequer Rachel Reeves said.",
+            "url": "https://sputnikglobe.com/20241031/uk-govt-to-raise-taxes-by-over-51bln-to-improve-economic-situation-1120733232.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120733232.jpg?11005692601730349023",
+            "publishedAt": "2024-10-31T04:30:22Z",
+            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241031/uk-govt-to-raise-taxes-by-over-51bln-to-improve-economic-situatio\u2026 [+2699 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Antaranews.com"
+            },
+            "author": "PR Wire",
+            "title": "Xinhua Silk Road: Guilin Bank provides dedicated services to boost China-ASEAN cross-border financial cooperation",
+            "description": "Guilin Bank, a local bank situated in south China's Guangxi Zhuang Autonomous Region, has been providing dedicated services to boost China-ASEAN cross-border ...",
+            "url": "https://en.antaranews.com/news/332049/xinhua-silk-road-guilin-bank-provides-dedicated-services-to-boost-china-asean-cross-border-financial-cooperation",
+            "urlToImage": "https://cdn.antaranews.com/cache/1200x800/2024/10/31/Foto-Website-2.jpg",
+            "publishedAt": "2024-10-31T04:08:45Z",
+            "content": "Beijing, (ANTARA/PRNewswire)- Guilin Bank, a local bank situated in south China's Guangxi Zhuang Autonomous Region, has been providing dedicated services to boost China-ASEAN cross-border financial c\u2026 [+2255 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Openculture.com"
+            },
+            "author": "OC",
+            "title": "Watch The Cabinet of Dr. Caligari, the Influential German Expressionist Horror Film (1920)",
+            "description": "In early 1920, posters began appearing all over Berlin with a hypnotic spiral and the mysterious command Du musst Caligari werden \u2014 \u201cYou must become Caligari.\u201d The posters were part of an innovative advertising campaign for an upcoming movie by Robert Wiene c\u2026",
+            "url": "https://www.openculture.com/2024/10/watch-the-cabinet-of-dr-caligari-the-influential-german-expressionist-horror-film-1920.html",
+            "urlToImage": "https://cdn8.openculture.com/wp-content/uploads/2013/10/Cabinet-Of-Dr.-Caligari--e1383234591662.jpg",
+            "publishedAt": "2024-10-31T04:00:06Z",
+            "content": "In ear\u00adly 1920, posters began appear\u00ading all over Berlin with a hyp\u00adnot\u00adic spi\u00adral and the mys\u00adte\u00adri\u00adous com\u00admand Du musst Cali\u00adgari wer\u00adden You must become Cali\u00adgari.\r\nThe posters were part of an in\u2026 [+5020 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "Kim Jong Un Says N.Korea's ICBM Launch Shows 'Counteraction Will' - Reports",
+            "description": "SEOUL (Sputnik) - North Korean leader Kim Jong Un has confirmed the launch of an intercontinental ballistic missile (ICBM) by the Democratic People's Republic of Korea (DPRK), and said this demonstrates its \"counteraction will\" against its rivals, South Korea\u2026",
+            "url": "https://sputnikglobe.com/20241031/kim-jong-un-says-nkoreas-icbm-launch-shows-counteraction-will---reports-1120733110.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120733110.jpg?10922695901730348278",
+            "publishedAt": "2024-10-31T03:55:00Z",
+            "content": "Get the latest defense news from around the world: breaking stories, photos, videos, in-depth analysis and much more...\r\nhttps://sputnikglobe.com/20241031/kim-jong-un-says-nkoreas-icbm-launch-shows-c\u2026 [+1436 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Livedoor.com"
+            },
+            "author": "GIGAZINE\uff08\u30ae\u30ac\u30b8\u30f3\uff09",
+            "title": "AMD\u304c2025\u5e74\u521d\u982d\u306bRDNA 4\u642d\u8f09GPU\u3092\u30ea\u30ea\u30fc\u30b9\u4e88\u5b9a",
+            "description": "AMD\u304c\u3001\u6b21\u4e16\u4ee3\u306e\u300cRDNA 4\u300d\u30c6\u30af\u30ce\u30ed\u30b8\u30fc\u3092\u642d\u8f09\u3057\u305fPC\u5411\u3051GPU\u30922025\u5e74\u521d\u982d\u306b\u767a\u58f2\u3059\u308b\u3068\u767a\u8868\u3057\u307e\u3057\u305f\u3002RDNA 4\u306f\u30ec\u30a4\u30c8\u30ec\u30fc\u30b7\u30f3\u30b0\u304c\u6539\u5584\u3057\u3001AI\u6a5f\u80fd\u304c\u8ffd\u52a0\u3055\u308c\u3066\u3044\u308b\u3068\u306e\u3053\u3068\u3067\u3059\u3002AMD Reports Third Quarter 2024 Financial Results :: Advanced Micro Devices, Inc. (AMD)https://ir.amd.com/news-events/press-releases/detail/1224/amd-reports-third-qu\u2026",
+            "url": "https://news.livedoor.com/article/detail/27470436/",
+            "urlToImage": "https://image.news.livedoor.com/newsimage/stf/1/8/18801_88_2e276c7b3d128d8b169f69d267541131.jpg",
+            "publishedAt": "2024-10-31T03:50:00Z",
+            "content": "AMDRDNA 4PCGPU2025RDNA 4AI\r\nAMD Reports Third Quarter 2024 Financial Results :: Advanced Micro Devices, Inc. (AMD)\r\nhttps://ir.amd.com/news-events/press-releases/detail/1224/amd-reports-third-quarter\u2026 [+854 chars]"
         },
         {
             "source": {
@@ -307,142 +541,77 @@
                 "name": "Stackoverflow.com"
             },
             "author": "Stack Overflow",
-            "title": "How could you show a bootstrap alert on mouseover of a choices field in a django form?",
-            "description": "I have a questionnaire based on django form and I need to show a note if a user hovers or clicks on a question before it submits. The django form is loaded in from a custom question and question choices model.\nI had some luck with custom question formatting p\u2026",
-            "url": "https://stackoverflow.com/questions/79131957/how-could-you-show-a-bootstrap-alert-on-mouseover-of-a-choices-field-in-a-django",
+            "title": "TemplateSyntaxError: expected token '=', got '['",
+            "description": "This is my source code (sorry for sending almost everything, i rly idk where's the error):\n Apresentar a avalia\u00e7\u00e3o detalhada processo de neg\u00f3cio, trazendo todos os question\u00e1rios,\n suas perguntas e respostas.\r\n\n \n {% for item in data['quiz'] %}\n {% if forloop.\u2026",
+            "url": "https://stackoverflow.com/questions/79143303/templatesyntaxerror-expected-token-got",
             "urlToImage": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded",
-            "publishedAt": "2024-10-28T03:22:07Z",
-            "content": "I have a questionnaire based on django form and I need to show a note if a user hovers or clicks on a question before it submits. The django form is loaded in from a custom question and question choi\u2026 [+2544 chars]"
+            "publishedAt": "2024-10-31T02:38:47Z",
+            "content": "This is my source code (sorry for sending almost everything, i rly idk where's the error):\r\n &lt;p class=\"font-bold\"&gt;Apresentar a avalia\u00e7\u00e3o detalhada processo de neg\u00f3cio, trazendo todos os questio\u2026 [+1527 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Sputnikglobe.com"
+                "name": "Powerballpolitics.fun"
             },
-            "author": "Sputnik International",
-            "title": "Evidence of Israel's Use of 'White Phosphorus' Sent to ICC - Palestinian Leader's Aide",
-            "description": "KAZAN (Sputnik) - Israel's use of \"white phosphorus\" in the Gaza Strip has been documented, and the evidence has been transferred to the International Criminal Court (ICC), Mahmoud al-Habbash, an aide to the Palestine leader Mahmoud Abbas, told Sputnik.",
-            "url": "https://sputnikglobe.com/20241028/evidence-of-israels-use-of-white-phosphorus-sent-to-icc---palestinian-leaders-aide-1120697968.html",
-            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120697968.jpg?11206977941730085424",
-            "publishedAt": "2024-10-28T03:17:03Z",
-            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241028/evidence-of-israels-use-of-white-phosphorus-sent-to-icc---palesti\u2026 [+3554 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Indieresources.dev"
-            },
-            "author": "0xcoder_cn",
-            "title": "Show HN: IndieResources \u2013 1000 Free Resources for Indie Hackers",
-            "description": "Now in data-importing period. If you have indiehacker tools. welcome to submit\n\nComments URL: https://news.ycombinator.com/item?id=41967243\nPoints: 1\n# Comments: 1",
-            "url": "https://www.indieresources.dev/",
-            "urlToImage": "https://indieresources.dev/indieresources.png",
-            "publishedAt": "2024-10-28T02:15:46Z",
-            "content": "Beautiful and responsive website templates and UI components for React, Vue, Svelte, HTML with Tailwind CSS."
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "News18"
-            },
-            "author": "thunderbong",
-            "title": "Apple iPhone 16 Is Now Illegal in Indonesia, Ban Leaves Tourists in the Lurch",
-            "description": "Article URL: https://www.news18.com/tech/apple-iphone-16-is-now-illegal-in-indonesia-ban-leaves-tourists-in-the-lurch-9099034.html\nComments URL: https://news.ycombinator.com/item?id=41967120\nPoints: 13\n# Comments: 5",
-            "url": "https://www.news18.com/tech/apple-iphone-16-is-now-illegal-in-indonesia-ban-leaves-tourists-in-the-lurch-9099034.html",
-            "urlToImage": "https://images.news18.com/ibnlive/uploads/2024/10/apple-iphone-16-pro-review-2024-10-b233e14934d84136a958a7037a4011aa-16x9.jpg?impolicy=website&width=1200&height=675",
-            "publishedAt": "2024-10-28T01:42:17Z",
-            "content": "Last Updated:October 25, 2024, 17:58 IST\r\nThe Apple iPhone 16 does not have the International Mobile Equipment Identity (IMEI) certification for use in Indonesia.\r\nIn a surprising move, Indonesia has\u2026 [+3192 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Sputnikglobe.com"
-            },
-            "author": "Sputnik International",
-            "title": "Denmark Became 4th Largest Donor to Kiev Regime - Russian Ambassador",
-            "description": "MOSCOW (Sputnik) - Denmark has moved up to fourth place among donors to the Kiev regime, ahead of such countries as France and Italy, Russian Ambassador to Denmark Vladimir Barbin said in an interview with Sputnik.",
-            "url": "https://sputnikglobe.com/20241028/denmark-became-4th-largest-donor-to-kiev-regime---russian-ambassador-1120697420.html",
-            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120697420.jpg?11206972471730083102",
-            "publishedAt": "2024-10-28T01:32:00Z",
-            "content": "Russia's Special Operation in Ukraine\r\nOn February 24, 2022 Russia launched a special military operation in Ukraine, aiming to liberate the Donbass region where the people's republics of Donetsk and \u2026 [+3860 chars]"
+            "author": "amitlzkpa",
+            "title": "Show HN: Mini Political Strategy Game",
+            "description": "Hi HNI made a mini game where you manage a party's campaign over 3 rounds. It combines strategic decision-making with elements of randomness and chaos, and can be played in under 10 minutes!Its lightweight, offline-friendly and made using pure HTML/CSS/JS. Th\u2026",
+            "url": "https://powerballpolitics.fun/",
+            "urlToImage": null,
+            "publishedAt": "2024-10-31T01:47:57Z",
+            "content": "Rules\r\nChoose a party and manage the campaign.\r\nGrape Party Flower Party Cactus Party Cheese Party Butterfly Party Backpack Party Drum Party Television Party"
         },
         {
             "source": {
                 "id": null,
                 "name": "Pypi.org"
+            },
+            "author": "marco@arcane.engineer",
+            "title": "arcane-cli added to PyPI",
+            "description": "CLI for Arcane Engine, a text-to-task automation platform.",
+            "url": "https://pypi.org/project/arcane-cli/",
+            "urlToImage": "https://pypi.org/static/images/twitter.abaf4b19.webp",
+            "publishedAt": "2024-10-31T01:32:40Z",
+            "content": "Install |\r\n Documentation |\r\n Blog |\r\n Website\r\nArcane Engine is simple and intuitive CLI that assists you in your daily work:\r\npiloteditmain.py\"Add docstrings to all functions and classes\"\r\nIt works\u2026 [+6969 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Livedoor.jp"
+            },
+            "author": "itsoku",
+            "title": "Apple\u3001\u300cThunderbolt 5(USB-C) Pro\u30b1\u30fc\u30d6\u30eb(1m)\u300d\u3092\u767a\u58f2\u3002\u4fa1\u683c\u306f9,980\u5186",
+            "description": "1:\u5c11\u8003\u3055\u3093 \u2605  2024/10/31(\u6728) 00:40:00.34 ID:jryk56ja9  Apple\u3001Thunderbolt 5\u30b1\u30fc\u30d6\u30eb\u767a\u58f2\u30021m 9,980\u5186\u3002 - PC Watch  https://pc.watch.impress.co.jp/docs/news/1635504.html  Apple\uff1aThunderbolt 5\uff08USB\u2011C\uff09Pro\u30b1\u30fc\u30d6\u30eb\uff081 m\uff09",
+            "url": "http://blog.livedoor.jp/itsoku/archives/61910979.html",
+            "urlToImage": "https://livedoor.blogimg.jp/itsoku/imgs/b/d/bddf8372-s.png",
+            "publishedAt": "2024-10-31T01:10:26Z",
+            "content": "1: 2024/10/31() 00:40:00.34 ID:jryk56ja9\r\n AppleThunderbolt 51m 9,980 - PC Watch https://pc.watch.impress.co.jp/docs/news/1635504.html\r\nAppleThunderbolt 5USBCPro1 m\r\n5: 2024/10/31() 00:42:46.80 ID:tS\u2026 [+2727 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Wattsupwiththat.com"
+            },
+            "author": "Guest Blogger",
+            "title": "Flash Floods in\u00a0Spain",
+            "description": "Not for the first time, the BBC are using human tragedy to push their increasingly hysterical climate agenda.",
+            "url": "https://wattsupwiththat.com/2024/10/30/flash-floods-in-spain/",
+            "urlToImage": "https://i0.wp.com/wattsupwiththat.com/wp-content/uploads/2024/10/bbc-climate-propaganda.webp?fit=1024%2C512&ssl=1",
+            "publishedAt": "2024-10-31T01:00:00Z",
+            "content": "From NOT A LOT OF PEOPLE KNOW THAT\r\nBy Paul Homewood\r\nhttps://www.bbc.co.uk/news/live/ckmgmdxg254t\r\nYes, the flash floods in Spain have been devastating. And, yes they have happened before.\r\nBut the \u2026 [+1078 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Javascriptweekly.com"
             },
             "author": null,
-            "title": "copychat added to PyPI",
-            "description": "Convert source code directories into markdown for LLM context",
-            "url": "https://pypi.org/project/copychat/",
-            "urlToImage": "https://pypi.org/static/images/twitter.abaf4b19.webp",
-            "publishedAt": "2024-10-28T01:16:46Z",
-            "content": "Simple code to context\r\nCopychat is a lightweight CLI tool that prepares your code for conversations with LLMs. It intelligently formats your source files into chat-ready context, handling everything\u2026 [+4092 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Pypi.org"
-            },
-            "author": "oss@slensky.com",
-            "title": "zendriver added to PyPI",
-            "description": "A blazing fast, async-first, undetectable webscraping/web automation framework",
-            "url": "https://pypi.org/project/zendriver/",
-            "urlToImage": "https://pypi.org/static/images/twitter.abaf4b19.webp",
-            "publishedAt": "2024-10-28T00:30:55Z",
-            "content": "Documentation:https://slensky.com/zendriver\r\nZendriver is a blazing fast, async-first, undetectable webscraping/web automation framework implemented using the Chrome Devtools Protocol. Visit websites\u2026 [+4947 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Pypi.org"
-            },
-            "author": null,
-            "title": "osl-ephys added to PyPI",
-            "description": "OHBA Software Library for the analysis of electrophysiological data",
-            "url": "https://pypi.org/project/osl-ephys/",
-            "urlToImage": "https://pypi.org/static/images/twitter.abaf4b19.webp",
-            "publishedAt": "2024-10-28T00:30:28Z",
-            "content": "Tools for MEG/EEG analysis.\r\nDocumentation: https://osl-ephys.readthedocs.io/en/latest/.\r\nInstallation\r\nSee the official documentation for recommended installation instructions.\r\nAlternatively, osl-e\u2026 [+1288 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Pypi.org"
-            },
-            "author": null,
-            "title": "ai_sec added to PyPI",
-            "description": "Linting, security scanning, and reporting on infrastructure code and Kubernetes config",
-            "url": "https://pypi.org/project/ai_sec/",
-            "urlToImage": "https://pypi.org/static/images/twitter.abaf4b19.webp",
-            "publishedAt": "2024-10-28T00:24:41Z",
-            "content": "AI_Sec is a powerful command-line tool for linting, security scanning, and reporting on infrastructure-as-code (IaC) such as Terraform and CloudFormation. It supports a variety of linters and securit\u2026 [+6578 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "R-bloggers.com"
-            },
-            "author": "R on Nicola Rennie",
-            "title": "Parameterized plots and reports with R and Quarto",
-            "description": "Last week I ran a workshop on Parameterized plots and reports with R and Quarto as part of the R/Pharma conference, which I thoroughly enjoyed! There were lots of interesting questions from attendees during the workshop, some of which we didn\u2019t quite have tim\u2026",
-            "url": "https://www.r-bloggers.com/2024/10/parameterized-plots-and-reports-with-r-and-quarto/",
-            "urlToImage": "https://nrennie.rbind.io/blog/parameterized-plots-reports-r-quarto/tt_param.png",
-            "publishedAt": "2024-10-28T00:00:00Z",
-            "content": "Last week I ran a workshop on Parameterized plots and reports with R and Quarto as part of the\r\nR/Pharma conference, which I thoroughly enjoyed! There were lots of interesting questions from attendee\u2026 [+15804 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "C-sharpcorner.com"
-            },
-            "author": "Aman Gupta",
-            "title": "Java 23: The Latest Features and Improvements",
-            "description": "This latest release introduces updates in pattern matching, memory management, and enhanced API functionalities. Java 23 simplifies coding tasks, boosts efficiency, and strengthens application stability.",
-            "url": "https://www.c-sharpcorner.com/article/java-23-the-latest-features-and-improvements/",
-            "urlToImage": "https://www.c-sharpcorner.com/images/csharp-corner.png",
-            "publishedAt": "2024-10-28T00:00:00Z",
-            "content": "Java 23 has introduced several exciting, innovative new features and enhancements designed to improve the Java programming language and developer productivity, performance, and ease of use. Below is \u2026 [+17765 chars]"
+            "title": "Cutting JavaScript into two: trick or treat?",
+            "description": "<table>\n <tr><td>\n \n <table><tr>\n<td>#\u200b711 \u2014 October 31, 2024\r\n</td>\n<td>Read on the Web\r\n</td>\n</tr></table>\n\n<table><tr><td></td></tr></table>\n \n <table><tr><td>JavaScript Weekly\r\n</td></tr></table>\n<table><tr><td>\n \n</td></tr></table>\n\n<table><tr><td>\n \n P\u2026",
+            "url": "https://javascriptweekly.com/issues/711",
+            "urlToImage": null,
+            "publishedAt": "2024-10-31T00:00:00Z",
+            "content": "<li> YouTube.js 11.0 Unofficial JS client for YouTube's private\u00a0API.\r\n</li><li>Serverless Express 4.16 Run Express.js on AWS Lambda, API Gateway, Lambda@Edge, etc. Now supporting Express 5\u00a0too.\r\n</li\u2026 [+609 chars]"
         }
     ]
 }
