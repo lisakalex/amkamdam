@@ -1,15 +1,12 @@
-#!/home/al/.venv/bin/python3
-from bs4 import BeautifulSoup
+import json
 
-with open('aa/c.htm', 'r') as f:
-    soup = BeautifulSoup(f.read(), features='html.parser')
+# with open(f'../test/newsapi/world-news.json', "r") as f:
+with open(f'../test/newsapi/test.json', "r") as f:
+    data = json.load(f)
 
-breadcrumbs = soup.find_all('span', class_='apiName--2Ofqy')
-ku = []
-for i in breadcrumbs:
-    print(ku.append(i.text))
-with open('b.txt', 'a') as f:
-    for i in ku:
-        f.write(i + '\n')
-
-k = None
+titles = [article["title"] for article in data["articles"]]
+duplicates = set([title for title in titles if titles.count(title) > 1])
+m = ''
+if duplicates:
+    k = m
+kk = None

@@ -9,6 +9,11 @@ import urllib.parse
 import requests
 import json
 import shutil
+from langdetect import detect, DetectorFactory
+import re
+from textblob import TextBlob
+
+
 # https://beautiful-soup-4.readthedocs.io/en/latest/
 
 
@@ -18,43 +23,44 @@ class NewsUpdater:
         self.today_time = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
         self.count_replace = 1
 
-    # def load_news_api(self, keyword):
-    #     # time.sleep(2)
-    #     # with open(f'../test/newsapi-1/{keyword}.json', "r") as f:
-    #     with open(f'../test/kak.json', "r") as f:
-    #         return json.load(f)
-
     def load_news_api(self, keyword):
-        # time.sleep(3)
-        if keyword == '':
-            keyword = 'world-news'
-        keyword = urllib.parse.quote_plus(keyword)
-        yesterday = (date.today() - timedelta(days=1)).strftime('%Y-%m-%d')
-        base_url = 'https://newsapi.org/v2/everything'
-        params = {
-            'q': keyword,
-            'from': yesterday,
-            'sortBy': 'publishedAt',
-            'language': 'en',
-            'apiKey': '41e2e097fbb4457c9b714ee6acd4185b'
-        }
+        keyword = keyword.replace('-', ' ')
+        # with open(f'../test/newsapi/{keyword}.json', "r") as f:
+        with open(f'../test/kak.json', "r") as f:
+            return json.load(f)
 
-        try:
-            response = requests.get(base_url, params=params)
-            response.raise_for_status()  # Raise an exception for HTTP errors
-            newsapi_data = response.json()
-
-            output_path = os.path.join('../test/newsapi', f'{keyword}.json')
-            with open(output_path, 'w') as f:
-                json.dump(newsapi_data, f, indent=4)
-
-            return newsapi_data
-        except requests.exceptions.RequestException as e:
-            print(f"Error fetching data from the NewsAPI: {e}")
-        return None
+    # def load_news_api(self, keyword):
+    #     if keyword == '':
+    #         keyword = 'world-news'
+    #     keyword = keyword.replace('-', ' ')
+    #     keyword = urllib.parse.quote_plus(keyword)
+    #     yesterday = (date.today() - timedelta(days=1)).strftime('%Y-%m-%d')
+    #     base_url = 'https://newsapi.org/v2/everything'
+    #     params = {
+    #         'q': keyword,
+    #         'from': yesterday,
+    #         'sortBy': 'publishedAt',
+    #         'language': 'en',
+    #         'apiKey': '41e2e097fbb4457c9b714ee6acd4185b'
+    #     }
+    #
+    #     try:
+    #         response = requests.get(base_url, params=params)
+    #         response.raise_for_status()  # Raise an exception for HTTP errors
+    #         newsapi_data = response.json()
+    #
+    #         output_path = os.path.join('../test/newsapi', f'{keyword}.json')
+    #         with open(output_path, 'w') as f:
+    #             json.dump(newsapi_data, f, indent=4)
+    #
+    #         return newsapi_data
+    #     except requests.exceptions.RequestException as e:
+    #         print(f"Error fetching data from the NewsAPI: {e}")
+    #     return None
 
     def filter_articles(self, articles):
-        return [article for article in articles if self._is_valid_article(article)]
+        kak = [article for article in articles if self._is_valid_article(article)]
+        return kak
 
     def _is_valid_article(self, article):
         required_fields = ['url', 'source', 'title', 'description', 'urlToImage', 'publishedAt', 'content']
@@ -62,10 +68,76 @@ class NewsUpdater:
         if 'https://removed.com' in article.get('url', ''):
             return False
 
-        if not article.get('source', {}).get('name'):
-            return False
+        # if not article.get('source', {}).get('name'):
+        #     return False
+
+        # titles = [article["title"] for article in articles]
+        # duplicates = set([title for title in titles if titles.count(title) > 1])
+        #
+        # if article.get('title', '') in duplicates:
+        #     return False
+
+        # try:
+        #     titles = [article["title"] for article in articles]
+        #     duplicates = list(set([title for title in titles if titles.count(title) > 1]))
+        #     ku = [x for x in titles if x in duplicates]
+        #     if duplicates:
+        #     # if "orange" in my_set:
+        #         return False
+        #
+        # except Exception as e:
+        #     print(f"Error processing 3: {e}")
+        #     pass
+
+        # DetectorFactory.seed = 0
+        # content = article.get('content', '')
+        # blob = TextBlob(content)
+        # foreign_words = []
+        # try:
+        #     for sentence in blob.sentences:
+        #         for word in sentence.words:
+        #             if word.detect_language() != 'en':
+        #                 foreign_words.append(word)
+        # except Exception as e:
+        #     print(f"Error processing 1: {e}")
+        #     pass
+        # self.detect_foreign_words(self, content)
+        # content = content.split()
+        # huy = []
+        # for word in content:
+        #     w = detect(word)
+        #     if w != 'en':
+        #         huy.append(word)
+        # return False
 
         return all(article.get(field) is not None for field in required_fields)
+
+    def remove_duplicate_content(self, data):
+        seen_content = set()
+        seen_title = set()
+        seen_description = set()
+        seen_urlToImage = set()
+        unique_articles = []
+
+        for article in data:
+            content = article.get('content', '')
+            title = article.get('title', '')
+            description = article.get('description', '')
+            urlToImage = article.get('urlToImage', '')
+
+            # Check if any of the fields have been seen before
+            if (content not in seen_content and
+                    title not in seen_title and
+                    description not in seen_description and
+                    urlToImage not in seen_urlToImage):
+                # If all fields are new, add the article and update the sets
+                seen_content.add(content)
+                seen_title.add(title)
+                seen_description.add(description)
+                seen_urlToImage.add(urlToImage)
+                unique_articles.append(article)
+
+        return unique_articles
 
     def update_article(self, article, news_item):
         try:
@@ -92,21 +164,30 @@ class NewsUpdater:
 
     def update_main_articles(self, soup, news_articles):
         section = soup.find_all('article', class_='mb-15 mb-sm-30 article-item')
-        for i in range(min(4, len(section))):
-            article = self.update_article(section[i], news_articles[i])
-            article.find_all('div')[6].string = news_articles[i]['content']
+        try:
+            for i in range(min(4, len(section))):
+                article = self.update_article(section[i], news_articles[i])
+                article.find_all('div')[6].string = news_articles[i]['content']
+        except Exception as e:
+            print(f"update_main_articles: {e}")
         return news_articles[4:]
 
     def update_secondary_articles(self, soup, news_articles):
         section = soup.find_all('div', class_='col-12 col-md-6 col-lg-12 mb-20')
-        for i in range(min(5, len(section))):
-            self.update_article(section[i], news_articles[i])
+        try:
+            for i in range(min(5, len(section))):
+                self.update_article(section[i], news_articles[i])
+        except Exception as e:
+            print(f"update_secondary_articles: {e}")
         return news_articles[5:]
 
     def update_tertiary_articles(self, soup, news_articles):
         section = soup.find_all('div', class_='col-12 col-md-6 col-lg-4 col-xl-3 mb-30')
-        for i in range(min(16, len(section))):
-            self.update_article(section[i], news_articles[i])
+        try:
+            for i in range(min(16, len(section))):
+                self.update_article(section[i], news_articles[i])
+        except Exception as e:
+            print(f"update_tertiary_articles: {e}")
         return news_articles[16:]
 
     def update_paged_articles(self, soup, news_articles, keyword):
@@ -137,6 +218,7 @@ class NewsUpdater:
         keyword = os.path.basename(os.path.dirname(path_file))
         newsapi = self.load_news_api(keyword)
         news_articles = self.filter_articles(newsapi['articles'])
+        news_articles = self.remove_duplicate_content(news_articles)
         soup = BeautifulSoup(read_file, features='html.parser')
 
         news_articles = self.update_main_articles(soup, news_articles)
@@ -183,4 +265,3 @@ if __name__ == '__main__':
     updater = NewsUpdater()
     updater.run()
     shutil.copyfile('../html/world-news/index.html', '../html/index.html')
-

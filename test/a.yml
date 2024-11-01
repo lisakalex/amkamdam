@@ -1,0 +1,41 @@
+api:
+  id: "19178422"
+
+https:
+  frequency : "10000"
+  retry : "3"
+  timeout : "120000"
+  listener:
+    path: "s-banner-api-dev/api/${api.version}/*"
+
+loggerProperties:
+  environment: "local"
+# connection pool setup
+connPoolSetup:
+  maxPoolSize : "10"
+  minPoolSize : "2"
+  increment : "1"
+  prepStmtCacheSize : "5"
+  maxWaitTime : "5"
+
+busdb:
+  host: "vge-mktdr-dod22"
+  port: "1531"
+  username: "mule_user"
+  password: "mule_usersodv2"
+  #username: "dbcode"
+  #password: "dbcodesodv2"
+  instance: "GBBUSDV2"
+  retry : "3"
+  frequency : "10000"
+  timeout : "60000"
+
+process:
+  p-bill-api:
+    host: "api.totalgp.com"
+    basePath: "p-bill-api-dev/api/${api.version}"
+    port: "443"
+    client_id: "917a1953274e40be8418e5c56a663268"
+    client_secret: "8945b4a4Ac7e4c1C84355aEa9FDb23F6"  #encrypt the secret using blowfish and use secure property
+
+

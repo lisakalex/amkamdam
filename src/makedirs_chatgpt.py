@@ -3,6 +3,7 @@
 import os
 from pathlib import Path
 from bs4 import BeautifulSoup
+import shutil
 
 # Directory structure
 dirs = [
@@ -20,6 +21,8 @@ dirs = [
     'health'
 ]
 
+shutil.rmtree('../html', ignore_errors=True)
+shutil.copytree('./assets', '../html/assets', dirs_exist_ok=True)
 
 # Create necessary directories
 def create_directories():
@@ -53,6 +56,10 @@ def modify_button(soup, keyword):
     button_more = soup.find('a', class_='button-more')
     button_more['loadmoretype'] = keyword
 
+# Modify heading
+def modify_heading(soup, keyword):
+    heading = soup.find( id='heading-1')
+    heading.string = keyword.replace('-', ' ').capitalize()
 
 # Save the modified HTML and JSON files
 def save_files(directory, soup, keyword):
@@ -70,7 +77,7 @@ def add_index():
     with open('me-index.html', 'r') as f:
         template_html = f.read()
     soup = BeautifulSoup(template_html, features='html.parser')
-    generate_breadcrumbs(soup, '')
+    # generate_breadcrumbs(soup, '')
 
     modify_button(soup, 'html')
 
@@ -99,6 +106,9 @@ def process_directories():
 
         # Modify the button-more attribute with the keyword
         modify_button(soup, keyword)
+
+        # Modify heading
+        modify_heading(soup, keyword)
 
         # Save the updated HTML and JSON files
         save_files(directory, soup, keyword)
