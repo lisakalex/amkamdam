@@ -1,370 +1,45 @@
 {
     "status": "ok",
-    "totalResults": 78,
+    "totalResults": 37,
     "articles": [
         {
             "source": {
-                "id": "football-italia",
-                "name": "Football Italia"
-            },
-            "author": "Alessandro Bai",
-            "title": "Motta explains why he benched Yildiz against Parma",
-            "description": "Kenan Yildiz's brace, which salvaged a 4-4 draw for Juventus in the Derby d'Italia, was not enough to earn him a start in his side's 2-2 draw against Parma,",
-            "url": "https://football-italia.net/motta-explains-yildiz-bench-parma/",
-            "urlToImage": "https://icdn.football-italia.net/wp-content/uploads/2024/10/Kenan-Yildiz-celebrate-Juventus.jpg",
-            "publishedAt": "2024-10-31T09:07:42Z",
-            "content": "Kenan Yildizs brace, which salvaged a 4-4 draw for Juventus in the Derby dItalia, was not enough to earn him a start in his sides 2-2 draw against Parma, as coach Thiago Motta admitted he saw the Tur\u2026 [+1411 chars]"
-        },
-        {
-            "source": {
                 "id": null,
-                "name": "PhoneArena"
+                "name": "TMZ"
             },
-            "author": "Tsveta Ermenkova",
-            "title": "Google Pixel 9a leak hints at a bigger display and a familiar price tag",
-            "description": "Google\u2019s next mid-range phone, the Pixel 9a, is already stirring up excitement, thanks to a steady flow of leaks and rumors. After recent reveals about its battery and camera setup, a new leak now highlights details on its display and pricing.",
-            "url": "https://www.phonearena.com/news/google-pixel-9a-leak-bigger-display-familiar-price-tag_id164314",
-            "urlToImage": "https://m-cdn.phonearena.com/images/article/164314-wide-two_1200/Google-Pixel-9a-leak-hints-at-a-bigger-display-and-a-familiar-price-tag.jpg",
-            "publishedAt": "2024-10-31T09:05:37Z",
-            "content": "Googles next mid-range phone, the Pixel 9a, is already stirring up excitement, thanks to a steady flow of leaks and rumors. After recent reveals about its battery and camera setup, a new leak now hig\u2026 [+1848 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Tuscaloosa News"
-            },
-            "author": "The Tuscaloosa News",
-            "title": "What first-year success must look like for Alabama football coach Kalen DeBoer | Goodbread",
-            "description": "What must happen for Alabama football coach Kalen DeBoer's first season to be considered a success? ... SEC notes ... SEC spread pick of the week.",
-            "url": "https://www.tuscaloosanews.com/story/sports/columns/2024/10/31/what-first-year-success-looks-like-for-alabama-footballs-kalen-deboer/75716032007/",
-            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/fx7lmYj_eZyDmgqDgVtMKw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04NjU-/https://media.zenfs.com/en/the-tuscaloosa-news/dbe959cb74456366b222faf17bb6eddd",
-            "publishedAt": "2024-10-31T09:04:23Z",
-            "content": "With four games remaining, the Alabama football season can still go any number of ways, with a ceiling somewhere in the 12-team bracket of the College Football Playoff and a floor with a mess to mop.\u2026 [+4614 chars]"
-        },
-        {
-            "source": {
-                "id": "fortune",
-                "name": "Fortune"
-            },
-            "author": "Phil Wahba",
-            "title": "How an Indian tech company built a $19 billion brand by sponsoring the New York City marathon",
-            "description": "The tech giant also sponsors the London, Amsterdam and now, Sydney, marathons.",
-            "url": "https://fortune.com/2024/10/31/new-york-city-marathon-tcs-sponsorship/",
-            "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2024/10/AK_3-e1730139128352.jpg?resize=1200,600",
-            "publishedAt": "2024-10-31T09:00:00Z",
-            "content": "Typically, when a company decides to sponsor a major event, it is looking to build awareness with a broad cross-section of consumers for its products. So when TCS, the tech services unit of Tata Grou\u2026 [+4996 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "pitpass.com"
-            },
-            "author": "editor@pitpass.com (Editor)",
-            "title": "Sao Paulo Grand Prix: Preview - Ferrari",
-            "description": "Team morale is high, we are in the fight and we have to continue working like this. Only later will we pause to look at the points situation.",
-            "url": "https://www.pitpass.com/79033/Sao-Paulo-Grand-Prix-Preview-Ferrari",
-            "urlToImage": "http://www.pitpass.com/images/teams/logos/2024ferrari264.jpg",
-            "publishedAt": "2024-10-31T08:56:00Z",
-            "content": "Formula 1's three week triple-header in the Americas comes to an end this weekend. After the United States and Mexico, the teams have now headed south east, travelling to Brazil for the Sao Paulo Gra\u2026 [+7728 chars]"
-        },
-        {
-            "source": {
-                "id": "espn",
-                "name": "ESPN"
-            },
-            "author": "Reuters",
-            "title": "PSG handed stand closure for anti-gay chanting",
-            "description": "Paris Saint-Germain will have to partially close a stand at their home stadium when they host Toulouse on Nov. 22 after being sanctioned over anti-gay chanting during a match against Strasbourg earlier this month.",
-            "url": "https://www.espn.com/soccer/story/_/id/42106995/psg-handed-partial-stadium-closure-anti-gay-chanting",
-            "urlToImage": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F1031%2Fr1408455_1296x729_16%2D9.jpg",
-            "publishedAt": "2024-10-31T08:48:00Z",
-            "content": "Oct 31, 2024, 04:23 AM ET\r\nPSG have been handed a stadium closure by French authorities over anti-gay chanting at a game earlier in October.\u00a0Quality Sport Images/Getty Images\r\nParis Saint-Germain wil\u2026 [+714 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Stock Traders Purchase Large Volume of Call Options on Li Auto (NASDAQ:LI)",
-            "description": "Li Auto Inc. (NASDAQ:LI \u2013 Get Free Report) saw some unusual options trading activity on Wednesday. Stock traders purchased 95,208 call options on the company. This represents an increase of 327% compared to the typical daily volume of 22,310 call options. Li \u2026",
-            "url": "https://www.etfdailynews.com/2024/10/31/stock-traders-purchase-large-volume-of-call-options-on-li-auto-nasdaqli/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/li-auto-inc-logo-1200x675.png?v=20231222092744&w=240&h=240&zc=2",
-            "publishedAt": "2024-10-31T08:32:51Z",
-            "content": "Li Auto Inc. (NASDAQ:LI \u2013 Get Free Report) saw some unusual options trading activity on Wednesday. Stock traders purchased 95,208 call options on the company. This represents an increase of 327% comp\u2026 [+3693 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "[Removed]"
-            },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "2024-10-31T08:27:59Z",
-            "content": "[Removed]"
+            "author": "TMZ Staff",
+            "title": "Boxer Jaron Ennis Wants to Be Undisputed Welterweight Champion",
+            "description": "Jaron Ennis is over Terence Crawford ... at least for right now. TMZ Sports talked to the IBF welterweight champion ahead of his rematch against 24-2 boxer Karen Chukhadzhian ... and although Ennis, 32-0, has his hands full next Saturday, we asked\u2026\n Permalink",
+            "url": "https://www.tmz.com/2024/11/03/jaron-ennis-challenge-terence-crawford-canelo-alvarez/",
+            "urlToImage": "https://imagez.tmz.com/image/45/16by9/2024/10/31/4577e5a9f3c5468eb233ba3b4b9dcd28_xl.jpg",
+            "publishedAt": "2024-11-03T07:15:45Z",
+            "content": "Jaron Ennis is over Terence Crawford ... at least for right now.\r\nTMZ Sports talked to the IBF welterweight champion ahead of his rematch against 24-2 boxer Karen Chukhadzhian ... and although Ennis,\u2026 [+1406 chars]"
         },
         {
             "source": {
                 "id": null,
                 "name": "BBC News"
             },
-            "author": "Matt Newsum",
-            "title": "Why calendar offers hope to international rugby league",
-            "description": "England's Test series with Samoa has whetted the appetite for international rugby league, and an improved calendar offers hope for more, writes Matt Newsum.",
-            "url": "https://www.bbc.com/sport/rugby-league/articles/cx2n4wr4789o",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_sport/08f8/live/664d9a60-96ba-11ef-90df-3f1823a91773.jpg",
-            "publishedAt": "2024-10-31T08:26:26Z",
-            "content": "England men's football captain Harry Kane has 101 caps. His cricket counterpart Ben Stokes has played 107 Tests. Rugby union skipper Jamie George has worn the red rose 93 times.\r\nIt is little wonder \u2026 [+1734 chars]"
+            "author": "Michael Emons",
+            "title": "Legends in the dugout - when club heroes become bosses",
+            "description": "With ex-Manchester United striker Ruud van Nistelrooy in charge of the team for three more matches, BBC Sport takes a look at five other club heroes that became bosses.",
+            "url": "https://www.bbc.com/sport/football/articles/cx2dg50j9jlo",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_sport/1e1f/live/3acb5c80-98c5-11ef-8538-e1655f5a8342.png",
+            "publishedAt": "2024-11-03T07:04:05Z",
+            "content": "Bournemouth player (1994-2002, 2004-2007): 313 appearances, 15 goals\r\nBournemouth manager (2008-2011, 2012-2020): 458 matches, 194 wins, 95 draws, 169 losses\r\nCentre-back Eddie Howe came through the \u2026 [+1673 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "BBC News"
+                "name": "Creative Bloq"
             },
-            "author": "BBC Sport",
-            "title": "Winner of Taylor-Serrano 2 must face me - Cameron",
-            "description": "Chantelle Cameron aims to reclaim her undisputed title and wants to face the winner of Katie Taylor v Amanda Serrano.",
-            "url": "https://www.bbc.com/sport/boxing/articles/cly0v8xw7kjo",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_sport/035e/live/c4b74fa0-9607-11ef-9260-19e6a950e830.png",
-            "publishedAt": "2024-10-31T08:23:31Z",
-            "content": "England's former world champion Chantelle Cameron says she is gearing up to fight the winner of next month's bout between Katie Taylor and Amanda Serrano.\r\nIreland's Taylor takes on Puerto Rican Serr\u2026 [+2029 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Bpando.org"
-            },
-            "author": "Emily Gosling",
-            "title": "Olympic Museum by Studio Blackburn",
-            "description": "Few things have a design legacy quite like the Olympics: it\u2019s hard to think of another event or organisation that has both a history spanning more than 120 years (the first modern Olympics\u2019 was in 1896), and a distinct graphic identity each time it takes plac\u2026",
-            "url": "https://bpando.org/2024/10/31/olympic-museum-logo-branding-design-studio-blackburn/",
-            "urlToImage": "https://bpando.org/wp-content/uploads/2-Olympic-Museum-Branding-Logo-Studio-Blackburn-BPO-Review.jpg",
-            "publishedAt": "2024-10-31T08:23:22Z",
-            "content": "Few things have a design legacy quite like the Olympics: its hard to think of another event or organisation that has both a history spanning more than 120 years (the first modern Olympics was in 1896\u2026 [+6300 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Assenagon Asset Management S.A. Buys 2,349 Shares of Garmin Ltd. (NYSE:GRMN)",
-            "description": "Assenagon Asset Management S.A. grew its stake in shares of Garmin Ltd. (NYSE:GRMN \u2013 Free Report) by 16.3% during the third quarter, according to its most recent filing with the Securities and Exchange Commission. The institutional investor owned 16,794 share\u2026",
-            "url": "https://www.etfdailynews.com/2024/10/31/assenagon-asset-management-s-a-buys-2349-shares-of-garmin-ltd-nysegrmn/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/garmin-ltd-logo-1200x675.jpg?v=20221104114314&w=240&h=240&zc=2",
-            "publishedAt": "2024-10-31T08:23:00Z",
-            "content": "Assenagon Asset Management S.A. grew its stake in shares of Garmin Ltd. (NYSE:GRMN \u2013 Free Report) by 16.3% during the third quarter, according to its most recent filing with the Securities and Exchan\u2026 [+6534 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "BBC News"
-            },
-            "author": "BBC Sport",
-            "title": "Cornish Pirates look to deepen Exeter's misery in cup",
-            "description": "Struggling South West rivals Cornish Pirates and Exeter Chiefs meet in the Premiership Rugby Cup as they both look to turn around their seasons.",
-            "url": "https://www.bbc.com/sport/rugby-union/articles/czj73kkjwx8o",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_sport/d6aa/live/37de3f80-96d4-11ef-870b-356459e6684f.jpg",
-            "publishedAt": "2024-10-31T08:22:59Z",
-            "content": "Friday will be the second competitive fixture between the two sides since Championship clubs were invited into the Premiership Rugby Cup last season. \r\nPirates were beaten 38-13 at Sandy Park last Se\u2026 [+2225 chars]"
-        },
-        {
-            "source": {
-                "id": "football-italia",
-                "name": "Football Italia"
-            },
-            "author": "Lorenzo Bettoni",
-            "title": "Today\u2019s Papers: Juventus without defence, Inter reply to Napoli, Milan scare",
-            "description": "La Gazzetta dello Sport Juve, there\u2019s no defence The bounced back twice but conceded too...",
-            "url": "https://football-italia.net/today-papers-juve-no-defence-inter-milan-scare/",
-            "urlToImage": "https://icdn.football-italia.net/wp-content/uploads/2024/10/cover-gazzetta.jpg",
-            "publishedAt": "2024-10-31T08:08:37Z",
-            "content": "La Gazzetta dello Sport\r\nJuve, theres no defence\r\nThe bounced back twice but conceded too many goals and risked losing. Atalanta beat Monza and overtake the Bianconeri.\r\nInter return to -4 from Napol\u2026 [+1644 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "[Removed]"
-            },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "2024-10-31T08:07:32Z",
-            "content": "[Removed]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Louisiana State Employees Retirement System Sells 1,600 Shares of Gentex Co. (NASDAQ:GNTX)",
-            "description": "Louisiana State Employees Retirement System reduced its position in Gentex Co. (NASDAQ:GNTX \u2013 Free Report) by 2.4% during the 3rd quarter, according to the company in its most recent 13F filing with the Securities & Exchange Commission. The firm owned 63,800 \u2026",
-            "url": "https://www.etfdailynews.com/2024/10/31/louisiana-state-employees-retirement-system-sells-1600-shares-of-gentex-co-nasdaqgntx/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/gentex-co-logo-1200x675.png?v=20240125102809&w=240&h=240&zc=2",
-            "publishedAt": "2024-10-31T07:58:57Z",
-            "content": "Louisiana State Employees Retirement System reduced its position in Gentex Co. (NASDAQ:GNTX \u2013 Free Report) by 2.4% during the 3rd quarter, according to the company in its most recent 13F filing with \u2026 [+5199 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "The42"
-            },
-            "author": "The 42",
-            "title": "Champions Armagh win six football All-Stars with five for Galway",
-            "description": "Donegal, Tyrone, and Louth all have players honoured as well.",
-            "url": "https://www.the42.ie/allstars-football-2024-gaa-6528240-Oct2024/",
-            "urlToImage": "https://img2.thejournal.ie/article/6528739/river/?height=400&version=6528247",
-            "publishedAt": "2024-10-31T07:56:54Z",
-            "content": "2024 Football All-Star Team\r\n(Previous winning years in brackets)\r\nGoalkeeper\r\n1. Niall Morgan (Tyrone): Edendork (2021)\r\nDefenders\r\n2. Johnny McGrath (Galway): Caherlistrane 1st award.3. Barry McCam\u2026 [+2344 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Mcnews.com.au"
-            },
-            "author": "Motorcycle News",
-            "title": "Motorcycling Australia confirm insurance renewal achieved",
-            "description": "Motorcycling Australia Motorcycling Australia has completed its 2025 insurance renewal with cover now confirmed until October 31, 2025. While there has unfortunately been an increase in premiums which will affect licence prices, we are pleased that, unlike ma\u2026",
-            "url": "https://www.mcnews.com.au/motorcycling-australia-confirm-insurance-renewal-achieved-mail/",
-            "urlToImage": "https://www.mcnews.com.au/wp-content/uploads/2020/03/Motorcycling-Australia-Logo-2.jpg",
-            "publishedAt": "2024-10-31T07:53:41Z",
-            "content": "Motorcycling Australia\r\nMotorcycling Australia has completed its 2025 insurance renewal with cover now confirmed until October 31, 2025.\r\nWhile there has unfortunately been an increase in premiums wh\u2026 [+801 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Assenagon Asset Management S.A. Trims Stock Holdings in Malibu Boats, Inc. (NASDAQ:MBUU)",
-            "description": "Assenagon Asset Management S.A. lessened its position in shares of Malibu Boats, Inc. (NASDAQ:MBUU \u2013 Free Report) by 13.9% during the 3rd quarter, Holdings Channel reports. The firm owned 90,054 shares of the company\u2019s stock after selling 14,597 shares during\u2026",
-            "url": "https://www.etfdailynews.com/2024/10/31/assenagon-asset-management-s-a-trims-stock-holdings-in-malibu-boats-inc-nasdaqmbuu/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/malibu-boats-inc-logo-1200x675.jpg&w=240&h=240&zc=2",
-            "publishedAt": "2024-10-31T07:48:54Z",
-            "content": "Assenagon Asset Management S.A. lessened its position in shares of Malibu Boats, Inc. (NASDAQ:MBUU \u2013 Free Report) by 13.9% during the 3rd quarter, Holdings Channel reports. The firm owned 90,054 shar\u2026 [+3984 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "International Assets Investment Management LLC Invests $13.45 Million in Garmin Ltd. (NYSE:GRMN)",
-            "description": "International Assets Investment Management LLC bought a new position in Garmin Ltd. (NYSE:GRMN \u2013 Free Report) in the 3rd quarter, according to the company in its most recent disclosure with the Securities & Exchange Commission. The firm bought 76,397 shares o\u2026",
-            "url": "https://www.etfdailynews.com/2024/10/31/international-assets-investment-management-llc-invests-13-45-million-in-garmin-ltd-nysegrmn/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/garmin-ltd-logo-1200x675.jpg?v=20221104114314&w=240&h=240&zc=2",
-            "publishedAt": "2024-10-31T07:42:51Z",
-            "content": "International Assets Investment Management LLC bought a new position in Garmin Ltd. (NYSE:GRMN \u2013 Free Report) in the 3rd quarter, according to the company in its most recent disclosure with the Secur\u2026 [+6365 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Signaturefd LLC Grows Position in Lear Co. (NYSE:LEA)",
-            "description": "Signaturefd LLC raised its holdings in Lear Co. (NYSE:LEA \u2013 Free Report) by 71.6% in the third quarter, Holdings Channel.com reports. The fund owned 333 shares of the auto parts company\u2019s stock after buying an additional 139 shares during the quarter. Signatu\u2026",
-            "url": "https://www.etfdailynews.com/2024/10/31/signaturefd-llc-grows-position-in-lear-co-nyselea/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/lear-corporation-logo-1200x675.png&w=240&h=240&zc=2",
-            "publishedAt": "2024-10-31T07:28:57Z",
-            "content": "Signaturefd LLC raised its holdings in Lear Co. (NYSE:LEA \u2013 Free Report) by 71.6% in the third quarter, Holdings Channel.com reports. The fund owned 333 shares of the auto parts company\u2019s stock after\u2026 [+4828 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "The42"
-            },
-            "author": "The 42",
-            "title": "Cody Gakpo double against Brighton helps to send Liverpool into Carabao Cup quarter-finals",
-            "description": "The Dutch forward netted a brace in the 3-2 win as a late rally was not enough for the home side.",
-            "url": "https://www.the42.ie/liverpool-brighton-carabao-cup-6528539-Oct2024/",
-            "urlToImage": "https://img2.thejournal.ie/article/6528677/river/?height=400&version=6528544",
-            "publishedAt": "2024-10-31T07:16:17Z",
-            "content": "CODY GAKPO CLAIMED a stunning second-half double as holders Liverpool progressed to the Carabao Cup quarter-finals with an absorbing 3-2 win against Brighton at the Amex Stadium.\r\nThe Netherlands int\u2026 [+3798 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Wallpaper*"
-            },
-            "author": "Guy Bird",
-            "title": "The new Ford Capri wants to tap a vein of Gen X nostalgia. Does it succeed?",
-            "description": "We ask if the all-electric Ford Capri can capture the swagger of its much-loved but rather oafish predecessor",
-            "url": "https://www.wallpaper.com/transportation/new-electric-ford-capri-review",
-            "urlToImage": "https://cdn.mos.cms.futurecdn.net/bNPPQqg7iAJ45kT3kPoGFR-1200-80.jpg",
-            "publishedAt": "2024-10-31T07:00:00Z",
-            "content": "The long-nosed, two-door fastback coup\u00e9 Ford Capri (1969-1986) had a swagger that marketing budgets could not buy. Popstars chose to pose inside the car on their album covers, including reggae superh\u2026 [+4894 chars]"
-        },
-        {
-            "source": {
-                "id": "four-four-two",
-                "name": "FourFourTwo"
-            },
-            "author": "Ryan Dabbs",
-            "title": "The FA to invest \u00a3140m in landmark grassroots strategy, with 'ambitious but achievable' targets set out between 2024-2028",
-            "description": "The FA's director of football development and Glen Johnson discussed the new grassroots strategy with FourFourTwo",
-            "url": "https://www.fourfourtwo.com/news/the-fa-to-invest-gbp140m-in-landmark-grassroots-strategy-with-ambitious-but-achievable-targets-set-out-between-2024-2028",
-            "urlToImage": "https://cdn.mos.cms.futurecdn.net/SqfmKfnzsxE6iD23odmqjJ-1200-80.png",
-            "publishedAt": "2024-10-31T07:00:00Z",
-            "content": "The FA has launched a landmark grassroots strategy over the next four years, with \u00a3140m set to be invested as part of the framework to support the game at all levels.\r\nTitled 'A Thriving Grassroots G\u2026 [+3486 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Inside Higher Ed"
-            },
-            "author": "jessica.blake@insidehighered.com",
-            "title": "Study: Leadership Roles in College Athletics Inaccessible for Women",
-            "description": "Study: Leadership Roles in College Athletics Inaccessible for Women\n\njessica.blake@\u2026\n\nThu, 10/31/2024 - 03:00 AM\n\n\n \n Byline(s)\n \n Jessica Blake\n \n \nStudy: Leadership Roles in College Athletics Inaccessible for Women\n\njessica.blake@\u2026\n\nThu, 10/31/2024 - 03:00 \u2026",
-            "url": "https://www.insidehighered.com/news/quick-takes/2024/10/31/leadership-roles-college-athletics-inaccessible-women",
-            "urlToImage": "https://www.insidehighered.com/modules/custom/ihe_custom/img/ihe-logo-no-wordmark.png",
-            "publishedAt": "2024-10-31T07:00:00Z",
-            "content": "A comprehensive new study of gender representation in college athletics administration shows that despite significant industry growth, leadership roles remain largely inaccessible to women.\r\nThe whit\u2026 [+1632 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "The42"
-            },
-            "author": "The 42",
-            "title": "Manchester United start life after Ten Hag with 5-2 win over Leicester City",
-            "description": "Casemiro and Bruno Fernandes scored twice with one for Alejandro Garnacho in Ruud van Nistelrooy\u2019s first game in interim charge.",
-            "url": "https://www.the42.ie/manchester-united-leicester-city-6528529-Oct2024/",
-            "urlToImage": "https://img2.thejournal.ie/article/6528661/river/?height=400&version=6528533",
-            "publishedAt": "2024-10-31T06:37:41Z",
-            "content": "RUUD VAN NISTELROOYS Manchester United roared to an entertaining 5-2 victory against Leicester to reach the Carabao Cup quarter-finals as the post-Erik ten Hag era began with a bang.\r\nThe Red Devils \u2026 [+3937 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "NDTV News"
-            },
-            "author": "NDTV News Desk",
-            "title": "Invictus Games CEO Reveals How Meghan Markle Is To Be Addressed",
-            "description": "Meghan Markle insists on being addressed as &quot;Ma&#039;am,&quot; Invictus Games CEO Scott Moore has revealed.",
-            "url": "https://www.ndtv.com/world-news/invictus-games-ceo-reveals-how-meghan-markle-is-to-be-addressed-6912815",
-            "urlToImage": "https://c.ndtvimg.com/2023-07/fv3rifoc_meghan-markle_625x300_01_July_23.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=738",
-            "publishedAt": "2024-10-31T06:25:53Z",
-            "content": "Meghan Markle insists on being addressed as Ma'am, Invictus Games CEO Scott Moore has revealed. The newly appointed head of the Invictus Games Vancouver Whistler 2025 disclosed that he was briefed on\u2026 [+1757 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "BBC News"
-            },
-            "author": null,
-            "title": "Swim England to review historic safeguarding cases",
-            "description": "A confidential report, seen by the BBC, says children may have been left at risk of harm.",
-            "url": "https://www.bbc.com/news/articles/c20nwwgwx1lo",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/cccc/live/5b7b12d0-9605-11ef-9d0c-9b4bc915e092.jpg",
-            "publishedAt": "2024-10-31T06:24:49Z",
-            "content": "The cases being reviewed could run into the hundreds, the BBC understands\r\nSwim England is to review all historic safeguarding investigations amid concerns children have been left at risk of harm.\r\nA\u2026 [+3868 chars]"
+            "author": "journo.tommay@gmail.com (Tom May)",
+            "title": "The best typography of the 1980s, as chosen by design experts",
+            "description": "Discover how innovative type laid the groundwork for today's aesthetics, as we look back at the best typography of the 1980s.",
+            "url": "https://www.creativebloq.com/design/fonts-typography/the-best-typography-of-the-1980s-as-chosen-by-design-experts",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/FVy9LBUuLR7nFKEib9nWyT-1200-80.jpg",
+            "publishedAt": "2024-11-03T07:00:00Z",
+            "content": "The 1980s might nowadays be associated with cheesy pop and gaudy materialism. But it was also a transformative period in design, characterised by a bold exploration of new technology and artistic exp\u2026 [+13476 chars]"
         },
         {
             "source": {
@@ -372,311 +47,64 @@
                 "name": "F1technical.net"
             },
             "author": "Balazs Szabo",
-            "title": "Williams expands Gulf\u2019s vibrant coffee brand Reviva",
-            "description": "Williams has announced a multi-year extension and expansion of its award-winning partnership with Gulf Oil International Ltd, with the Reviva coffee brand",
-            "url": "https://www.f1technical.net/news/25685",
-            "urlToImage": "https://f1tcdn.net/images/news/2024/spanishgp-williams2.jpeg",
-            "publishedAt": "2024-10-31T06:16:00Z",
-            "content": "By Balazs Szabo on 31 Oct 2024, 08:16\r\nWilliams has announced a multi-year extension and expansion of its award-winning partnership with Gulf Oil International Ltd, with the Reviva coffee brand\r\nGulf\u2026 [+2361 chars]"
+            "title": "Domenicali thinks it was the right decision to postpone qualifying",
+            "description": "Formula One's CEO and President Stefano Domenicali insists that the sport has made the right decision to postpone yesterday's qualifying session for the Sao Paulo Grand Prix.",
+            "url": "https://www.f1technical.net/news/25763",
+            "urlToImage": "https://f1tcdn.net/images/news/2024/stefanodomenicali.jpeg",
+            "publishedAt": "2024-11-03T07:00:00Z",
+            "content": "By Balazs Szabo on 03 Nov 2024, 09:00\r\nFormula One's CEO and President Stefano Domenicali insists that the sport has made the right decision to postpone yesterday's qualifying session for the Sao Pau\u2026 [+2627 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "BBC News"
+                "name": "Protothema.gr"
             },
-            "author": null,
-            "title": "I know how many goals I want to score this season - Semenyo",
-            "description": "Bournemouth forward Antoine Semenyo speaks to Football Focus' Betty Glover about his tough start to life as a footballer, playing under boss Andoni Iraola and his targets this season.",
-            "url": "https://www.bbc.com/sport/football/videos/c5yx6jggzeeo",
-            "urlToImage": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/3855/live/3997aa20-96e6-11ef-9260-19e6a950e830.jpg",
-            "publishedAt": "2024-10-31T06:10:52Z",
-            "content": "Bournemouth forward Antoine Semenyo speaks to Football Focus' Betty Glover about his tough start to life as a footballer, playing under Cherries boss Andoni Iraola and his targets this season.\r\nRead \u2026 [+186 chars]"
+            "author": "Christine Giannou",
+            "title": "Sports broadcasts: Where to watch Atromitos vs. AEK, Volos vs. PAO, and basketball matches AEK vs. Olympiacos, Panathinaikos vs. Promitheas",
+            "description": "There\u2019s a lot of action today, Sunday, November 3rd, in the sports broadcasts, with full action across all leagues\nThe post Sports broadcasts: Where to watch Atromitos vs. AEK, Volos vs. PAO, and basketball matches AEK vs. Olympiacos, Panathinaikos vs. Promit\u2026",
+            "url": "https://en.protothema.gr/2024/11/03/sports-broadcasts-where-to-watch-atromitos-vs-aek-volos-vs-pao-and-basketball-matches-aek-vs-olympiacos-panathinaikos-vs-promitheas/",
+            "urlToImage": "https://en.protothema.gr/wp-content/uploads/2024/11/Screenshot-2024-11-03-at-8.52.49-AM.png",
+            "publishedAt": "2024-11-03T06:54:06Z",
+            "content": "Today serves up the main course of Super League 1, with four matches that hold significant interest: Aris vs. Levadiakos, Volos vs. Panathinaikos, Atromitos vs. AEK, and Lamia vs. PAOK.\r\nIn Europe, t\u2026 [+3627 chars]"
         },
         {
             "source": {
-                "id": null,
-                "name": "ETF Daily News"
+                "id": "the-times-of-india",
+                "name": "The Times of India"
             },
-            "author": "MarketBeat News",
-            "title": "Rivian Automotive (RIVN) Set to Announce Earnings on Thursday",
-            "description": "Rivian Automotive (NASDAQ:RIVN \u2013 Get Free Report) is scheduled to be releasing its earnings data before the market opens on Thursday, November 7th. Analysts expect Rivian Automotive to post earnings of ($0.89) per share for the quarter. Persons interested in \u2026",
-            "url": "https://www.etfdailynews.com/2024/10/31/rivian-automotive-rivn-set-to-announce-earnings-on-thursday/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/rivian-automotive-inc-logo-1200x675.png?v=20240209145309&w=240&h=240&zc=2",
-            "publishedAt": "2024-10-31T06:06:53Z",
-            "content": "Rivian Automotive (NASDAQ:RIVN \u2013 Get Free Report) is scheduled to be releasing its earnings data before the market opens on Thursday, November 7th. Analysts expect Rivian Automotive to post earnings \u2026 [+4906 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Bangkok Post"
-            },
-            "author": "Bloomberg News",
-            "title": "Hyundai debuts new hydrogen car",
-            "description": "<p>SEOUL - Hyundai Motor Company unveiled a new hydrogen-powered vehicle called Initium, which it aims to release in the first half of next year as part of its broader push into the clean-burning gas.</p>",
-            "url": "https://www.bangkokpost.com/business/motoring/2893622/hyundai-debuts-new-hydrogen-car-in-bet-on-clean-fuel-future",
-            "urlToImage": "https://static.bangkokpost.com/media/content/20241031/c1_2893622_700.jpg",
-            "publishedAt": "2024-10-31T06:04:00Z",
-            "content": "SEOUL - Hyundai Motor Company unveiled a new hydrogen-powered vehicle called Initium, which it aims to release in the first half of next year as part of its broader push into the clean-burning gas.\r\n\u2026 [+2662 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "[Removed]"
-            },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "2024-10-31T06:00:00Z",
-            "content": "[Removed]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Irishtimes.comhttps"
-            },
-            "author": "Ken Belson",
-            "title": "Watch parties, clinics and Guinness: How the NFL is building a fan base in Ireland",
-            "description": "\u2018The goal is not to be the travelling circus and turn up and then go away again ... It\u2019s about putting roots down\u2019",
-            "url": "https://www.irishtimes.comhttps://www.nytimes.com/2024/10/20/business/pittsburgh-steelers-nfl-ireland.html",
-            "urlToImage": "https://www.irishtimes.com/resizer/v2/PXGCY2XTXZG67AHHNGMG7K5JYA.jpg?smart=true&auth=13e5379e71ceebd2c5ddefccc6631801e409196d1be57c135971f2c7b43349b7&width=1200&height=630",
-            "publishedAt": "2024-10-31T06:00:00Z",
-            "content": "Shane De Lappe and Stephen Murphy arrived at Croke Park last month about an hour before the gates opened, the 30-something dads there for a sold-out watch party hosted by the Pittsburgh Steelers.\r\nSo\u2026 [+8781 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "New York Post"
-            },
-            "author": "Nicholas McEntyre",
-            "title": "Maryland roofing CEO Charles Siperko angers neighbors over go-kart course built on private 11-acre property for his son",
-            "description": "Siperko claimed he invested over $100,000 into creating the practice course at home to help his son follow his dreams of racing during the warm months in Maryland.",
-            "url": "https://nypost.com/2024/10/31/us-news/maryland-ceo-charles-siperko-builds-half-mile-go-kart-course-on-property-for-son-angering-neighbors/",
-            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/10/ceo-chris-siperko-angers-neighbors-92751503.jpg?quality=75&strip=all&w=1024",
-            "publishedAt": "2024-10-31T05:58:46Z",
-            "content": "A Maryland father has enraged his neighbors for building a half-mile go-kart track for his motorsports-loving son on their 11-acre property.\r\nCharles Siperko, the CEO of KCS Roofing in Columbia Md., \u2026 [+4085 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "CounterPunch"
-            },
-            "author": "Alfred de Zayas",
-            "title": "The BRICS Summit in Kazan: A Manifesto for a\u00a0Rational\u00a0World\u00a0Order",
-            "description": "The Kazan Declaration of 23 October 2024, adopted at the 16th BRICS Summit[1]\u00a0hosted by Russia in the city of Kazan on the Volga river from 22 to 24 October and attended by 36 countries[2], constitutes a pivotal moment for humanity. There is hope in the air, \u2026",
-            "url": "https://www.counterpunch.org/2024/10/31/the-brics-summit-in-kazan-a-manifesto-for-a-rational-world-order/",
-            "urlToImage": "https://www.counterpunch.org/wp-content/uploads/2024/10/16th_BRICS_Summit_family_photograph_2024.jpg",
-            "publishedAt": "2024-10-31T05:55:03Z",
-            "content": "Photograph Source: Prime Minister\u2019s Office \u2013 GODL-India\r\nThe Kazan Declaration of 23 October 2024, adopted at the 16th BRICS Summit[1]\u00a0hosted by Russia in the city of Kazan on the Volga river from 22\u2026 [+27515 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "New York Post"
-            },
-            "author": "Mike Vaccaro",
-            "title": "There\u2019s no escaping the brutality of this Yankees failure",
-            "description": "The Yankees lost Game 5 of the 120th World Series last night, 7-6, and it is almost impossible to understand how that happened.",
-            "url": "https://nypost.com/2024/10/31/sports/theres-no-escaping-the-brutality-of-this-yankees-failure/",
-            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/10/newspress-collage-xy8q0zwzq-1730352923812.jpg?quality=75&strip=all&1730338545&w=1024",
-            "publishedAt": "2024-10-31T05:45:49Z",
-            "content": "This one will sting. This one will leave a mark. There will be days and nights in the weeks and months to come when this game is going to visit you in your sleep, daydreaming in your office, lamentin\u2026 [+5206 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Prtimes.jp"
-            },
-            "author": null,
-            "title": "\u3010\u65e5\u672c\u304a\u3082\u3061\u3083\u5927\u8cde\u53d7\u8cde\uff01\u3011biima\u304c\u76e3\u4fee\u4f01\u696d\u306e\u4e00\u793e\u3068\u3057\u3066\u53c2\u753b\u3057\u305f\u6b21\u4e16\u4ee3\u306e\u77e5\u80b2\u30c7\u30d0\u30a4\u30b9\u300cePICO\uff08\u30a4\u30fc\u30d4\u30b3\uff09\u300d\u304c\u682a\u5f0f\u4f1a\u793e\u30bb\u30ac \u30d5\u30a7\u30a4\u30d6\u304b\u3089\u767a\u58f2\uff01",
-            "description": "[\u682a\u5f0f\u4f1a\u793ebiima]\n[\u753b\u50cf1: https://prcdn.freetls.fastly.net/release_image/147646/31/147646-31-ee566c8f41dd7813732b5b214c2833cb-2958x1723.jpg?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&...",
-            "url": "https://prtimes.jp/main/html/rd/p/000000031.000147646.html",
-            "urlToImage": "https://prcdn.freetls.fastly.net/release_image/147646/31/147646-31-ee566c8f41dd7813732b5b214c2833cb-2958x1723.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-            "publishedAt": "2024-10-31T05:40:02Z",
-            "content": "biima sportsePICO1002024\r\nbiima asobi\u00d7manabiCreate Your HappinessHappinessePICO100\r\nePICOePICOee4\r\nePICO 10020100\r\n100\u00b9\r\n\u00b9 ePICO() 20241010https://www.segafave.co.jp/news/240820_1/\r\nhttps://www.segat\u2026 [+230 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Harley-Davidson FY2024 EPS Estimate Reduced by DA Davidson",
-            "description": "Harley-Davidson, Inc. (NYSE:HOG \u2013 Free Report) \u2013 Equities research analysts at DA Davidson lowered their FY2024 earnings per share (EPS) estimates for Harley-Davidson in a report released on Monday, October 28th. DA Davidson analyst B. Rolle now expects that \u2026",
-            "url": "https://www.etfdailynews.com/2024/10/31/harley-davidson-fy2024-eps-estimate-reduced-by-da-davidson/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/harley-davidson-inc-logo-1200x675.gif&w=240&h=240&zc=2",
-            "publishedAt": "2024-10-31T05:32:56Z",
-            "content": "Harley-Davidson, Inc. (NYSE:HOG \u2013 Free Report) \u2013 Equities research analysts at DA Davidson lowered their FY2024 earnings per share (EPS) estimates for Harley-Davidson in a report released on Monday, \u2026 [+5193 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Freerepublic.com"
-            },
-            "author": "Tom Klingenstein",
-            "title": "Is the Left Preparing for War If Trump Wins?",
-            "description": "The propaganda campaign labeling Donald Trump as an aspiring dictator determined to use the military and national security apparatus against his political opponents is designed not to affect the upcoming election but rather to shape the post-election environm\u2026",
-            "url": "https://freerepublic.com/focus/f-news/4274669/posts",
-            "urlToImage": null,
-            "publishedAt": "2024-10-31T05:28:19Z",
-            "content": "Skip to comments.\r\nIs the Left Preparing for War If Trump Wins?Tom Klingenstein ^\r\n | 10/28/2024\r\n | Lee Smith\r\nPosted on 10/30/2024 10:28:19 PM PDT by ma_che62\r\nThe propaganda campaign labeling Dona\u2026 [+7292 chars]"
-        },
-        {
-            "source": {
-                "id": "abc-news-au",
-                "name": "ABC News (AU)"
-            },
-            "author": "ABC News",
-            "title": "The A-League Women stars who could be our next Matildas",
-            "description": "As the A-League Women's comp kicks off and Matildas opportunities open up, these are some of the stand-out players to watch.",
-            "url": "https://www.abc.net.au/news/2024-10-31/a-league-women-2024-25-season-matildas-soccer-siren-sport/104516798",
-            "urlToImage": "https://live-production.wcms.abc-cdn.net.au/1ec9d5e2d3ac85fe61bcb8acbccf34ad?impolicy=wcms_watermark_news&cropH=2013&cropW=3579&xPos=0&yPos=98&width=862&height=485&imformat=generic",
-            "publishedAt": "2024-10-31T05:21:36Z",
-            "content": "In the wake of a disappointing Olympics performance and with a home Asian Cup, a World Cup, and another Olympics all looming, the Matildas are at a critical juncture.The message is clear: the next co\u2026 [+7299 chars]"
-        },
-        {
-            "source": {
-                "id": "abc-news-au",
-                "name": "ABC News (AU)"
-            },
-            "author": "Marnie Vinall",
-            "title": "How AFLW star Georgia Garnett learnt her ADHD was a weapon on the field",
-            "description": "Georgia Garnett struggled at university while her mates managed to remain focused while studying. Her ADHD not only helped her understand her brain, but allowed her to excel in the AFLW.",
-            "url": "https://www.abc.net.au/news/2024-10-31/georgia-garnett-on-her-adhd-diagnosis-aflw/104544380",
-            "urlToImage": "https://live-production.wcms.abc-cdn.net.au/2595b9db2c0c42ee226e18b5d2a866b5?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=32&width=862&height=485&imformat=generic",
-            "publishedAt": "2024-10-31T05:20:58Z",
-            "content": "GWS defender Georgia Garnett thinks her ADHD makes her a better AFLW player.\r\n\"It's sometimes the worst thing ever, and sometimes it's truly the best thing ever,\" Garnett told ABC Sport.\r\nBefore her \u2026 [+7178 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Ford Motor (NYSE:F) Shares Down 9.2% Following Analyst Downgrade",
-            "description": "Ford Motor (NYSE:F \u2013 Get Free Report)\u2019s share price traded down 9.2% during trading on Tuesday after Deutsche Bank Aktiengesellschaft lowered their price target on the stock from $11.00 to $10.00. Deutsche Bank Aktiengesellschaft currently has a hold rating o\u2026",
-            "url": "https://www.etfdailynews.com/2024/10/31/ford-motor-nysef-shares-down-9-2-following-analyst-downgrade/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/fordlogo2003-1200x675.jpg&w=240&h=240&zc=2",
-            "publishedAt": "2024-10-31T05:08:54Z",
-            "content": "Ford Motor (NYSE:F \u2013 Get Free Report)\u2019s share price traded down 9.2% during trading on Tuesday after Deutsche Bank Aktiengesellschaft lowered their price target on the stock from $11.00 to $10.00. De\u2026 [+4372 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ETF Daily News"
-            },
-            "author": "MarketBeat News",
-            "title": "Ford Motor (NYSE:F) Shares Gap Down Following Analyst Downgrade",
-            "description": "Ford Motor (NYSE:F \u2013 Get Free Report)\u2019s stock price gapped down before the market opened on Tuesday after Deutsche Bank Aktiengesellschaft lowered their price target on the stock from $11.00 to $10.00. The stock had previously closed at $11.37, but opened at \u2026",
-            "url": "https://www.etfdailynews.com/2024/10/31/ford-motor-nysef-shares-gap-down-following-analyst-downgrade/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/fordlogo2003-1200x675.jpg&w=240&h=240&zc=2",
-            "publishedAt": "2024-10-31T05:08:48Z",
-            "content": "Ford Motor (NYSE:F \u2013 Get Free Report)\u2019s stock price gapped down before the market opened on Tuesday after Deutsche Bank Aktiengesellschaft lowered their price target on the stock from $11.00 to $10.0\u2026 [+4842 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Mcnews.com.au"
-            },
-            "author": "Motorcycle News",
-            "title": "Motorcycling Victoria respond to recent M.A. correspondence",
-            "description": "Motorcycling Victoria On 29 October 2024, MA issued a statement informing MV\u2019s members that MA has decided not to renew the previous authority delegated by MA to MV to issue permits. MV is bitterly disappointed with the approach taken by MA and will shortly b\u2026",
-            "url": "https://www.mcnews.com.au/motorcycling-victoria-respond-to-recent-m-a-correspondence/",
-            "urlToImage": "https://www.mcnews.com.au/wp-content/uploads/2024/10/Motorcycling-Victoria-Australia.jpg",
-            "publishedAt": "2024-10-31T05:05:14Z",
-            "content": "Motorcycling Victoria\r\nOn 29 October 2024, MA issued a statement informing MV\u2019s members that MA has decided not to renew the previous authority delegated by MA to MV to issue permits.\r\nMV is bitterly\u2026 [+2357 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "New Zealand Herald"
-            },
-            "author": "Gregor Paul",
-            "title": "All Blacks cashing in around the globe and the financial stakes in World Rugby\u2019s leadership battle - Gregor Paul",
-            "description": "OPINION: England have already proven they have the greater brand value.",
-            "url": "https://www.nzherald.co.nz/sport/rugby/all-blacks/all-blacks-cashing-in-around-the-globe-and-the-financial-stakes-in-world-rugbys-leadership-battle-gregor-paul/DBKWWGRMRNC4JEYD4AY2F7IBRQ/",
-            "urlToImage": "https://www.nzherald.co.nz/resizer/v2/2X4K7T7MBNA5RO5B7WJGPQWD5M.jpg?auth=c77644c4205dce393f3b26479552fddb5ad3dd6ecbafdfbe35498de12c8d2ab3&width=1200&height=675&quality=70&focal=1089%2C378&smart=false",
-            "publishedAt": "2024-10-31T04:55:21Z",
-            "content": "Back in September, in what was a quite stunning financial flex, the Rugby Football Union sold naming rights to Twickenham in a 10-year deal to German insurance group Allianz worth $200m.\r\nTo put that\u2026 [+9165 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "7NEWS.com.au"
-            },
-            "author": "Dylan Crismale",
-            "title": "How to save on Netflix and other streaming services",
-            "description": "There are so many streaming services available today - with little-known hacks available to score a bargain.",
-            "url": "https://7news.com.au/technology/how-to-save-on-netflix-and-other-streaming-services-c-16588981",
-            "urlToImage": "https://images.7news.com.au/publication/C-16588981/404a59820dd2c63797ec3cfaf274a5783991a9b3-16x9-x0y340w3500h1969.jpg?imwidth=1200",
-            "publishedAt": "2024-10-31T04:43:38Z",
-            "content": "There are so many streaming services available today. There are broad entertainment services like Netflix, Paramount Plus, and Prime Video, as well as niche services like Hayu and BritBox.\r\nIf youre \u2026 [+2441 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "TweakTown"
-            },
-            "author": "Anthony Garreffa",
-            "title": "OneXFly F1 Pro gaming handheld rocks AMD Ryzen AI 9 HX 370 APU, 7-inch 144Hz OLED display",
-            "description": "OneXPlayer teases its upcoming OneXFly F1 Pro gaming handheld: the first handheld powered by AMD's new Strix Point APU + 7-inch 144Hz OLED display. Continue reading at TweakTown >",
-            "url": "https://www.tweaktown.com/news/101413/onexfly-f1-pro-gaming-handheld-rocks-amd-ryzen-ai-9-hx-370-apu-7-inch-144hz-oled-display/index.html",
-            "urlToImage": "https://static.tweaktown.com/news/1/0/101413_35_onexfly-f1-pro-gaming-handheld-announced-ryzen-ai-hx-370-and-144hz-oled-screen_full.jpg",
-            "publishedAt": "2024-10-31T04:33:01Z",
-            "content": "AI-Assisted TLDR: The OneXPlayer OneXFly F1 Pro gaming handheld is nearing launch, featuring AMD's new Ryzen AI 9 HX 370 \"Strix Point\" APU with 12 Zen 5-based CPU cores and an RDNA 3.5-based GPU, alo\u2026 [+1357 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "New York Post"
-            },
-            "author": "Zach Braziller",
-            "title": "Aaron Judge\u2019s crucial mistake erased breakout World Series moment",
-            "description": "Aaron Judge\u2019s bat woke up. He made a fantastic leaping grab. But it was the play he didn\u2019t come up with that will haunt him this offseason.",
-            "url": "https://nypost.com/2024/10/31/sports/aaron-judges-crucial-mistake-erased-breakout-world-series-moment/",
-            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/10/newspress-collage-ezy5304v1-1730347981568.jpg?quality=75&strip=all&1730333631&w=1024",
-            "publishedAt": "2024-10-31T04:23:02Z",
-            "content": "Aaron Judges bat woke up. He made a fantastic leaping grab in the outfield. But it was the play he didnt come up with that will haunt him this offseason.\r\nHe was unable to come up with a Tommy Edman \u2026 [+2339 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Android Police"
-            },
-            "author": "Rajesh Pandey",
-            "title": "Google's 2027 Pixel Tablet could get a big productivity-focused upgrade",
-            "description": "A second USB-C port with DisplayPort out support",
-            "url": "https://www.androidpolice.com/google-2027-pixel-tablet-could-get-big-productivity-focused-upgrade/",
-            "urlToImage": "https://static1.anpoimages.com/wordpress/wp-content/uploads/wm/2024/04/google-pixel-tablet-wall-mount.JPG",
-            "publishedAt": "2024-10-31T04:22:09Z",
-            "content": "Key Takeaways\r\n<ul><li>\r\n Leaked documents suggest Google will launch a Tensor G6-powered Pixel Tablet in 2027.\r\n </li><li>\r\n The new Pixel Tablet may feature a second USB-C port with DisplayPort out\u2026 [+2460 chars]"
-        },
-        {
-            "source": {
-                "id": "espn",
-                "name": "ESPN"
-            },
-            "author": "Bradford Doolittle",
-            "title": "The Dodgers -- from the stars to the supporting cast -- are World Series champs",
-            "description": "The 2024 Fall Classic was billed as Ohtani vs. Judge. Turns out, it was an ensemble performance from MLB's best team.",
-            "url": "https://www.espn.com/mlb/story/_/id/42065023/2024-world-series-los-angeles-dodgers-champions-mlb-best-team",
-            "urlToImage": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F1031%2Fr1408407_1296x729_16%2D9.jpg",
-            "publishedAt": "2024-10-31T04:07:32Z",
-            "content": "NEW YORK -- The 2024 World Series is over: Shohei Ohtani and the Los Angeles Dodgers are champions in five games, the first title for him and, for the team, the eighth in franchise history.\r\nThere we\u2026 [+11582 chars]"
+            "author": "PTI",
+            "title": "I've already seen downfall, that phase developed patience says Manu Bhaker",
+            "description": "Manu Bhaker, a double Olympic medallist, speaks about how early career struggles have taught her patience and resilience. She is fully focused on her sport despite criticism. Currently pursuing a Master's degree, she takes a break from shooting to reset goals\u2026",
+            "url": "https://timesofindia.indiatimes.com/sports/more-sports/shooting/ive-already-seen-downfall-that-phase-developed-patience-says-manu-bhaker/articleshow/114904970.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-114905027,width-1070,height-580,imgsize-26102,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2024-11-03T06:32:50Z",
+            "content": "1st Test, Day 1: Ashwin, Jadeja dig India out of trouble vs B'desh"
         },
         {
             "source": {
                 "id": "fox-sports",
                 "name": "Fox Sports"
             },
-            "author": null,
-            "title": "2025 World Series odds: Dodgers favored to repeat",
-            "description": "Can the Dodgers make it two in a row? Which teams will be in the mix next year that weren't this year? Check out the World Series odds for a year from now.",
-            "url": "https://www.foxsports.com/stories/mlb/2025-world-series-odds",
-            "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2024/10/1408/814/10.29-mlb-2025wsodds-hero.jpg?ve=1&tl=1",
-            "publishedAt": "2024-10-31T03:52:19Z",
-            "content": "The 2024 version of MLB's Fall Classic has come and gone.\u00a0\r\nNow, it's time to look ahead to next season.\r\nThe Dodgers blew past the Yankees in this year's World Series, winning 4-1 to earn their seco\u2026 [+2475 chars]"
+            "author": "RJ Young",
+            "title": "2024 college football rankings: Ohio State, Indiana move up; Clemson falls",
+            "description": "FOX Sports college football analyst RJ Young reveals his top 25 rankings following Week 10 of the college football season.",
+            "url": "https://www.foxsports.com/stories/college-football/2024-college-football-rankings-ohio-state-indiana-move-up-clemson-falls",
+            "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2024/11/1408/814/cfb-rjyoung-top25-16x9-2.jpg?ve=1&tl=1",
+            "publishedAt": "2024-11-03T06:26:59Z",
+            "content": "The College Football Playoff selection committee can't mess this up I think. The Oregon Ducks have been the No. 1-ranked team in this space for weeks, and the CFP ought to follow suit. And behind Ore\u2026 [+8640 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Austin American-Statesman"
+            },
+            "author": "Austin American-Statesman",
+            "title": "When do CFP rankings come out? Date, time for Texas football",
+            "description": "The Texas Longhorns still have a shot at winning the SEC title and claiming one of the top four seeds, but they could also get a home playoff game.",
+            "url": "https://www.statesman.com/story/sports/college/longhorns/football/2024/11/03/texas-football-cfp-rankings-playoff-bracket/75995782007/",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/GsLBGyINIGPcWicOiSd1fA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04NDI-/https://media.zenfs.com/en/austin-american-statesman/8f3f328dbc675514fa95b4bcfbf6cf3a",
+            "publishedAt": "2024-11-03T06:26:55Z",
+            "content": "With the first College Football Playoff rankings approaching, the Texas football team has hopes of claiming a high spot.\r\nDespite missing quarterback Quinn Ewers for two games and enduring several ot\u2026 [+4488 chars]"
         },
         {
             "source": {
@@ -684,38 +112,155 @@
                 "name": "CNA"
             },
             "author": null,
-            "title": "Australia confirms 16 teams for new second-tier league",
-            "description": "MELBOURNE : Football Australia (FA) confirmed 16 teams will compete in a national second-tier competition to launch in October 2025 but the governing body made no mention of a promotion-relegation system linked to the top flight A-League.Nearly a year on from\u2026",
-            "url": "https://www.channelnewsasia.com/sport/australia-confirms-16-teams-new-second-tier-league-4714751",
-            "urlToImage": "https://onecms-res.cloudinary.com/image/upload/s--5UgwLI0d--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_676,w_1200/v1/one-cms/core/2024-10-31t034942z_3_lynxmpek9u037_rtroptp_3_soccer-worldcup-tun-aus-preview.jpg?itok=DzrPiwnX",
-            "publishedAt": "2024-10-31T03:48:36Z",
-            "content": "MELBOURNE : Football Australia (FA) confirmed 16 teams will compete in a national second-tier competition to launch in October 2025 but the governing body made no mention of a promotion-relegation sy\u2026 [+1761 chars]"
+            "title": "Gutsy New Zealand complete historic series sweep in India",
+            "description": ":New Zealand capped a tough tour of Asia with an unprecedented 3-0 series sweep in India, while the bruised and battered home side will face uncomfortable questions ahead of their trip to Australia for five tests.The Black Caps' spinners ran riot on a challen\u2026",
+            "url": "https://www.channelnewsasia.com/sport/gutsy-new-zealand-complete-historic-series-sweep-india-4720841",
+            "urlToImage": "https://onecms-res.cloudinary.com/image/upload/s--glUC6AOF--/f_auto,q_auto/c_fill,g_auto,h_676,w_1200/v1/mediacorp/one-cms/images/2021-06/sport.png?itok=6Ob6Y1oi",
+            "publishedAt": "2024-11-03T06:22:51Z",
+            "content": ":New Zealand capped a tough tour of Asia with an unprecedented 3-0 series sweep in India, while the bruised and battered home side will face uncomfortable questions ahead of their trip to Australia f\u2026 [+4261 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "PTI",
+            "title": "I've already seen downfall, that phase developed patience: Manu Bhaker",
+            "description": "Manu Bhaker, a double Olympic medallist, attributes her early career struggles to developing patience and resilience. After her historic achievement at the Paris Games, she dismisses critics and focuses on her sport. Bhaker is currently pursuing a Master's de\u2026",
+            "url": "https://economictimes.indiatimes.com/news/sports/ive-already-seen-downfall-that-phase-developed-patience-manu-bhaker/articleshow/114904716.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-114904823,width-1200,height-630,imgsize-24258,overlay-economictimes/articleshow.jpg",
+            "publishedAt": "2024-11-03T06:11:57Z",
+            "content": "Double Olympic medallist pistol shooter Manu Bhaker has said that the struggles she had faced early on in her career has helped her develop patience and resilience. Bhaker, 22, created history at the\u2026 [+2618 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "ET Online",
+            "title": "Meet Ajaz Patel: New Zealand spinner with most Test wickets at a single Indian venue by an overseas bowler",
+            "description": "Ajaz Patel, born in Mumbai and moved to New Zealand, followed the path of other Indian-origin cricketers. His performance for Central Districts earned him recognition, leading to his international debut in 2018. He stood out in Test cricket, overcoming compet\u2026",
+            "url": "https://economictimes.indiatimes.com/news/sports/meet-ajaz-patel-new-zealand-spinner-with-most-test-wickets-at-a-single-indian-venue-by-an-overseas-bowler/articleshow/114903906.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-114904309,width-1200,height-630,imgsize-25376,overlay-economictimes/articleshow.jpg",
+            "publishedAt": "2024-11-03T05:59:36Z",
+            "content": "Ajaz Patel has a special connection to the Wankhede Stadium. Born in Mumbai, the 36-year-old bowler deepened that bond on Saturday by achieving a remarkable five-wicket haul during India's first inni\u2026 [+3418 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Mcnews.com.au"
+                "name": "mgoblog.com"
             },
-            "author": "Trev",
-            "title": "2025 BMW M 1000 RR / S 1000 RR \u2013 More power, more downforce",
-            "description": "2025 BMW M 1000 RR Just weeks after their most successful racing season, which culminated in Toprak Razgatlioglu\u2019s victory in the 2024 WorldSBK Championship, BMW has unveiled the bike that will serve as the foundation for his championship defence: the 2025 BM\u2026",
-            "url": "https://www.mcnews.com.au/2025-bmw-m-1000-rr-s-1000-rr-more-power-more-downforce/",
-            "urlToImage": "https://www.mcnews.com.au/wp-content/uploads/2024/10/2025-BMW-S-1000-RR-28.jpg",
-            "publishedAt": "2024-10-31T03:37:58Z",
-            "content": "2025 BMW M 1000 RR\r\nJust weeks after their most successful racing season, which culminated in Toprak Razgatlioglu\u2019s victory in the 2024 WorldSBK Championship, BMW has unveiled the bike that will serv\u2026 [+6298 chars]"
+            "author": "Peter South",
+            "title": "Michigan Hockey: Game #8 Michigan 5, Boston University 4 (OT)",
+            "description": "Hello From the Future: Davonte Miles\n\n January 4th, 2021 at 10:31 AM\n\n Seth\nJanuary 4th, 2021 at 10:31 AM\n\n\n \n \n \n \n \n\n \r\n\n\n\n \n via Twitter\n \n There are a lot of clever things a clever coordinator can do on defense to cover up for a weakness. Programs unable \u2026",
+            "url": "https://mgoblog.com/content/michigan-hockey-game-8-michigan-5-boston-university-4-ot",
+            "urlToImage": "https://mgoblog.com/sites/default/files/2024-11/52482798391_1a3c2f9269_c.jpg",
+            "publishedAt": "2024-11-03T05:56:47Z",
+            "content": "CLICK HERE for game recap from Kristy McNeil and other pertinent information and HERE for current Pairwise Rankings.\r\nSetting The Stage: Michigan looked to take the 2nd game of the weekend series aga\u2026 [+10561 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "New Zealand Herald"
+                "name": "Biztoc.com"
             },
-            "author": "Adam Pearse",
-            "title": "Wellington Police charge partner of Australian diplomat with assault after Wellington \u2018altercation\u2019",
-            "description": "The man claimed diplomatic immunity as he was taken into custody.",
-            "url": "https://www.nzherald.co.nz/nz/politics/wellington-police-charge-partner-of-australian-diplomat-with-assault-after-altercation/PK2DX452OVFV3MH2XV2F7OFU4M/",
-            "urlToImage": "https://www.nzherald.co.nz/resizer/v2/QCMDUZPOQZDWHKABMSICRTIPHM.png?auth=25f5dd940c7977ccc86be1db7b3471b6ac16445b627cec95eee2b346eaf126f0&width=1200&height=675&quality=70&smart=true",
-            "publishedAt": "2024-10-31T03:30:18Z",
-            "content": "Police today confirmed the man presented to Wellington Central police station at 9am and was served a summons to appear at the Wellington District Court on November 14.\r\nThe man faced one charge of a\u2026 [+2722 chars]"
+            "author": "ft.comhttps",
+            "title": "The Star-Spangled Banner \u2014 politics and sport deliver \u2018peak anthem\u2019 in the US",
+            "description": "A melody written in London in 1773 is essential at election rallies, while elite pop stars sing it at the Super Bowl",
+            "url": "https://biztoc.com/x/994b88a6695b8cfe",
+            "urlToImage": "https://biztoc.com/cdn/994b88a6695b8cfe_s.webp",
+            "publishedAt": "2024-11-03T05:54:53Z",
+            "content": "A melody written in London in 1773 is essential at election rallies, while elite pop stars sing it at the Super Bowl\r\nThis story appeared on ft.comhttps, 2024-11-03 05:00:00."
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": null,
+            "title": "Refugee runner is Afghan women's 'voice for change'",
+            "description": "Fatima Painda, who is a nurse in Peterborough, fled to the UK with her family to escape the Taliban.",
+            "url": "https://www.bbc.com/news/articles/c154vz0z3y8o",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/954a/live/5a23bf20-9945-11ef-9141-8bfd5e1b5975.jpg",
+            "publishedAt": "2024-11-03T05:50:15Z",
+            "content": "Fatima Painda hopes her journey from refugee to ultramarathon runner will inspire more women to turn to sport\r\nA former Afghan refugee who works as an NHS nurse wants to inspire more women, especiall\u2026 [+3740 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Nbcsportsbayarea.com"
+            },
+            "author": "NBC Sports BayArea",
+            "title": "How baseball influenced Purdy's throwing motion evolution",
+            "description": "San Francisco 49ers quarterback Brock Purdy leans on a baseball influence to continue evolving his throwing motion.",
+            "url": "https://www.nbcsportsbayarea.com/nfl/san-francisco-49ers/brock-purdy-throwing-motion-baseball/1800368/?partner=yahoo",
+            "urlToImage": "https://media.zenfs.com/en/csnbayarea.com/9dc6fa614e3be1de3b80fb24d4bf9f87",
+            "publishedAt": "2024-11-03T05:46:26Z",
+            "content": "How baseball influenced Purdy's throwing motion evolution originally appeared on NBC Sports Bay Area\r\nBrock Purdy has established himself as a football star, but the 49ers quarterback continues his N\u2026 [+2624 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Post"
+            },
+            "author": "Fox News",
+            "title": "NFL legend Jim Brown\u2019s daughter endorses Trump, opposes biological males in women\u2019s sports: \u2018Taking away women\u2019s rights\u2019",
+            "description": "Daughter of Hall of Fame running back Jim Brown explains why she endorsed Trump on \"FOX & Friends.\"",
+            "url": "https://nypost.com/2024/11/03/us-news/nfl-legends-daughter-endorses-trump-opposes-biological-males-in-womens-sports-taking-away-womens-rights/",
+            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/11/daughter-hall-fame-running-back-92941083.jpg?quality=75&strip=all&w=1024",
+            "publishedAt": "2024-11-03T04:30:56Z",
+            "content": "The daughter of the late NFL legend Jim Brown endorsed former President Donald Trump, explaining how his support for the Black community shifted her perspective during his first term in office.\u00a0\r\nKim\u2026 [+3621 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Conversation Africa"
+            },
+            "author": "Charlie Shackleton, Professor & Research Chair in Interdisciplinary Science in Land and Natural Resource Use for Sustainable Livelihoods, Rhodes University",
+            "title": "Only 3% of South Africans can name all five national animals and plants. Why these symbols matter",
+            "description": "Almost half of those surveyed couldn\u2019t name a single national symbol. They are used to forge a national identity in many countries.",
+            "url": "https://theconversation.com/only-3-of-south-africans-can-name-all-five-national-animals-and-plants-why-these-symbols-matter-241284",
+            "urlToImage": "https://images.theconversation.com/files/627639/original/file-20241023-17-qopoku.jpg?ixlib=rb-4.1.0&rect=21%2C0%2C3478%2C1736&q=45&auto=format&w=1356&h=668&fit=crop",
+            "publishedAt": "2024-11-03T04:06:48Z",
+            "content": "The springbok is best known, thanks to it being a name for sports teams. A Oosthuizen/iStock/Getty Images\r\nAlongside a national flag, anthem and coat of arms, most countries have one or more plant an\u2026 [+6055 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Mit.edu"
+            },
+            "author": "Adam Zewe | MIT News",
+            "title": "Finding a sweet spot between radical and relevant",
+            "description": "MIT associate professor of architecture Skylar Tibbits invents self-organizing systems and programmable materials to tackle complex challenges, from fighting sea level rise to improving the efficiency of airplane engines.",
+            "url": "https://news.mit.edu/2024/finding-sweet-spot-between-radical-and-relevant-skylar-tibbits-1103",
+            "urlToImage": "https://news.mit.edu/sites/default/files/images/202411/MIT-Skylar-Tibbits-01-press.jpg",
+            "publishedAt": "2024-11-03T04:00:00Z",
+            "content": "While working as a lecturer in MITs Department of Architecture, Skylar Tibbits SM 10 was also building art installations in galleries all over the world. Most of these installations featured complex \u2026 [+8605 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MMA Fighting"
+            },
+            "author": "Alexander K. Lee",
+            "title": "Brandon Moreno vs. Amir Albazi full fight video highlights",
+            "description": "Watch Branon Moreno vs. Amir Albazi full fight video highlights from the UFC Edmonton main event Saturday.",
+            "url": "https://www.mmafighting.com/2024/11/2/24286624/brandon-moreno-vs-amir-albazi-full-fight-video-highlights",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/rknQbqjtLim42UYEMhOfnmiKfnY=/0x0:3558x1863/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25712602/2182575205.jpg",
+            "publishedAt": "2024-11-03T03:52:09Z",
+            "content": "Brandon Moreno and Amir Albazi | Photo by Jeff Bottari/Zuffa LLC\r\n\n \n\n Brandon Moreno was in vintage form on Saturday night.\nIn the main event of UFC Edmonton, Moreno put on a clinic for five rounds,\u2026 [+11503 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MLB Trade Rumors"
+            },
+            "author": "Nick Deeds",
+            "title": "Anderson Espinoza Re-Signs With NPB\u2019s Orix Buffaloes",
+            "description": "Right-hander Anderson Espinoza has re-signed with the Orix Buffaloes of Japan\u2019s Nippon Professional Baseball on a two-year deal worth roughly $6MM, according to a report from Swing Completo\u2019s Victor Briceno (h/t to Yakyu Cosmopolitan). 2025 will be Espinoza\u2019s\u2026",
+            "url": "https://www.mlbtraderumors.com/2024/11/anderson-espinoza-re-signs-with-npbs-orix-buffaloes.html",
+            "urlToImage": "https://cdn.mlbtraderumors.com/files/2019/04/Espinoza.Anderson.jpg",
+            "publishedAt": "2024-11-03T03:29:57Z",
+            "content": "Right-hander Anderson Espinoza has re-signed with the Orix Buffaloes of Japan\u2019s Nippon Professional Baseball on a two-year deal worth roughly $6MM, according to a report from Swing Completo\u2019s Victor \u2026 [+3076 chars]"
         },
         {
             "source": {
@@ -723,298 +268,220 @@
                 "name": "CNET"
             },
             "author": "Gael Cooper",
-            "title": "Today's NYT Connections: Sports Edition Hints and Answers for Oct. 31, #38",
+            "title": "Today's NYT Connections: Sports Edition Hints and Answers for Nov. 3, #41",
             "description": "Here's today's Connections: Sports Edition answer and hints for groups. These clues will help you solve The New York Times' popular puzzle game, Connections: Sports Edition, every day.",
-            "url": "https://www.cnet.com/tech/gaming/todays-nyt-connections-sports-edition-hints-and-answers-for-oct-31-38/",
+            "url": "https://www.cnet.com/tech/gaming/todays-nyt-connections-sports-edition-hints-and-answers-for-nov-3-41/",
             "urlToImage": "https://www.cnet.com/a/img/resize/a51721727ac6b71b8d078d611ca37505b9006739/hub/2024/10/16/ae3b5078-3ced-47c9-91dd-6b5b1b1a5809/connections-sports-edition-6832.jpg?auto=webp&fit=crop&height=675&width=1200",
-            "publishedAt": "2024-10-31T03:00:07Z",
-            "content": "Looking for the most recent\u00a0regular Connections answers? Click here for today's Connections hints, as well as our daily answers and hints for The New York Times Mini Crossword, Wordle and Strands puz\u2026 [+2650 chars]"
+            "publishedAt": "2024-11-03T03:00:06Z",
+            "content": "Looking for the most recent\u00a0regular Connections answers? Click here for today's Connections hints, as well as our daily answers and hints for The New York Times Mini Crossword, Wordle and Strands puz\u2026 [+2741 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "POLITICO.eu"
+            },
+            "author": "POLITICO",
+            "title": "Malta\u2019s commissioner hearing: Glenn Micallef quizzed on plan to boost youth and culture \u2014 live updates",
+            "description": "Youngest EU commissioner will have to shape \"intergenerational fairness\".",
+            "url": "https://www.politico.eu/article/european-commissioner-hearings-malta-glenn-micallef-youth-culture-sport/",
+            "urlToImage": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2024/10/30/micallef-blog.jpg",
+            "publishedAt": "2024-11-03T03:00:00Z",
+            "content": "The Commission candidate of the European Union\u2019s smallest country is stepping up to the plate.\r\nIn the lead-up to his hearing, Malta\u2019s Glenn Micallef captured attention for all the wrong reasons: He\u2019\u2026 [+931 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "McCovey Chronicles"
+            },
+            "author": "Bryan Murphy",
+            "title": "Options, options, options: Wilmer Flores & Robbie Ray? In. Blake Snell? Out.",
+            "description": "Surprising? Not where the Giants are concerned, but some other option decisions across the sport might have interesting ripple effects.",
+            "url": "https://www.mccoveychronicles.com/2024/11/2/24286565/wilmer-flores-robbie-ray-opt-in-blake-snell-opts-out-sf-giants-roster-option-decision",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/u-aGytYkHvxSN1WAUMRvx6LW8pU=/48x571:1678x1424/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25712467/2161366054.jpg",
+            "publishedAt": "2024-11-03T02:50:53Z",
+            "content": "A salute to $3.5 million. | Photo by Andy Kuno/San Francisco Giants/Getty Images\r\n\n \n\n Surprising? Not where the Giants are concerned, but some other option decisions across the sport might have inte\u2026 [+7491 chars]"
         },
         {
             "source": {
                 "id": null,
                 "name": "Independent.ie"
             },
-            "author": "R\u00faaidhr\u00ed O'Connor",
-            "title": "\u2018The model is finished\u2019 \u2013 Former France international Abdelatif Benazzi makes case for World Rugby chair",
-            "description": "While most Irish eyes will be on events at the Aviva Stadium over the next few weeks, the battle for rugby\u2019s future will be taking place in a Dublin hotel where the next chairman of the sport\u2019s governing body will be elected on November 14.",
-            "url": "https://www.independent.ie/sport/rugby/the-model-is-finished-former-france-international-abdelatif-benazzi-makes-case-for-world-rugby-chair/a1037670166.html",
-            "urlToImage": "https://focus.independent.ie/thumbor/wdcBcXIqZNjtRoW8p99nkDdzda8=/541x116:2169x1204/629x0/prod-mh-ireland/f0353479-071f-484d-857e-1e70934901c0/b5a1f8de-1c05-4d60-b3df-4aca6d544b9e/030368.jpg",
-            "publishedAt": "2024-10-31T02:30:00Z",
-            "content": "While most Irish eyes will be on events at the Aviva Stadium over the next few weeks, the battle for rugbys future will be taking place in a Dublin hotel where the next chairman of the sports governi\u2026 [+6690 chars]"
+            "author": "John Burns",
+            "title": "Any Other Business: Ex-Chelsea blue Ken Bates wins libel case over his days as an Irish banker",
+            "description": "Ken Bates, the former chairman of Chelsea Football Club, has won \u00a3150,000 libel damages over an article that referred to his time as a banker in Dublin in the 1970s.",
+            "url": "https://www.independent.ie/business/media/any-other-business-ex-chelsea-blue-ken-bates-wins-libel-case-over-his-days-as-an-irish-banker/a377156535.html",
+            "urlToImage": "https://focus.independent.ie/thumbor/Zvp6-f7A2asTb9ESM-LEomgwmqw=/629x460/smart/prod-mh-ireland/7fd6299b-95f1-46bf-9e52-bc2fe2273b90/f34c2aed-2dfe-4737-afa5-0f5f9ac4e183/SN%20Ken%20Bates%202.jpg",
+            "publishedAt": "2024-11-03T02:30:00Z",
+            "content": "Ken Bates, the former chairman of Chelsea Football Club, has won \u00a3150,000 libel damages over an article that referred to his time as a banker in Dublin in the 1970s.\r\nBates took the legal action in L\u2026 [+119 chars]"
         },
         {
             "source": {
-                "id": null,
-                "name": "Independent.ie"
+                "id": "the-jerusalem-post",
+                "name": "The Jerusalem Post"
             },
-            "author": "Rian Noctor",
-            "title": "\u2018I think it\u2019s brilliant\u2019 \u2013 B\u00e9ibhinn Parsons delighted to have Lynn Cantwell back in the IRFU set-up",
-            "description": "On Friday, the IRFU announced the appointment of Lynn Cantwell  as head of women\u2019s strategy for Irish rugby.",
-            "url": "https://www.independent.ie/sport/rugby/i-think-its-brilliant-beibhinn-parsons-delighted-to-have-lynn-cantwell-back-in-the-irfu-set-up/a304020663.html",
-            "urlToImage": "https://focus.independent.ie/thumbor/Uw_YxHGgSWf-TuNA2w2Fjez6Lbo=/629x460/smart/prod-mh-ireland/4a5d9ab0-49d6-4349-a527-e5b9c1d4ad84/857b1d92-424b-47d9-b298-98973941cb13/chools%20Programme_14.jpg",
-            "publishedAt": "2024-10-31T02:30:00Z",
-            "content": "On Friday, the IRFU announced the appointment of Lynn Cantwell as head of womens strategy for Irish rugby.In the plan for Rugby in Ireland, launched in June, the IRFU set out its determination to acc\u2026 [+2971 chars]"
+            "author": "BY FRED NAIDER",
+            "title": "It's time for the self-interest to be subjugated for the common good",
+            "description": "History and Sukkot teach us that we are a resilient people and that by remaining united and by focusing our energies against our enemies, we will come out of this stronger.",
+            "url": "https://www.jpost.com/opinion/article-827239",
+            "urlToImage": "https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_407,w_690/631756",
+            "publishedAt": "2024-11-03T02:21:28Z",
+            "content": "After a season of introspection and heartrending prayers leading up to the Yom Kippur fast, High Holy Day 2024 recently concluded and eight days of festive family time were spent in a sukkah, a flims\u2026 [+5529 chars]"
         },
         {
             "source": {
                 "id": "abc-news-au",
                 "name": "ABC News (AU)"
             },
-            "author": "Aaron Kelly",
-            "title": "Justin lost his leg after a motorcycle accident. Go-kart racing has helped him recover from the trauma",
-            "description": "After overcoming a near-fatal road accident, this 41-year-old go-kart racer is turning heads on the race track.",
-            "url": "https://www.abc.net.au/news/2024-10-31/go-kart-racing-helps-amputee-motorsport-fan-recover-from-trauma/104530570",
-            "urlToImage": "https://live-production.wcms.abc-cdn.net.au/0a74979ba357f0ddfbf12b0e5976efc0?impolicy=wcms_watermark_news&cropH=2268&cropW=4032&xPos=0&yPos=343&width=862&height=485&imformat=generic",
-            "publishedAt": "2024-10-31T02:08:08Z",
-            "content": "As Justin Davis lines up on the starting grid, his prosthetic leg is poised to put the pedal to the metal.\r\nDavis is an adrenaline junkie proving age and the number of limbs is no roadblock to living\u2026 [+4461 chars]"
+            "author": "ABC News",
+            "title": "Ball-tampering allegation mars Australia A victory over India A",
+            "description": "Nathan McSweeney has underlined his Test credentials with a fine audition against India A, hitting the winning runs in a seven-wicket victory, but the start of day four has been overshadowed by a ball-tampering allegation against the tourists.",
+            "url": "https://www.abc.net.au/news/2024-11-03/australia-a-beat-india-a-nathan-mcsweeney-beau-webster/104554824",
+            "urlToImage": "https://live-production.wcms.abc-cdn.net.au/59805c97dc3f5f059e8bc032fe88c950?impolicy=wcms_watermark_news&cropH=832&cropW=1478&xPos=757&yPos=80&width=862&height=485&imformat=generic",
+            "publishedAt": "2024-11-03T02:19:23Z",
+            "content": "Nathan McSweeney has led from the front, hitting the winning runs as Australia A completed a seven-wicket victory over India A in Mackay after the day's play was marred by allegations of ball tamperi\u2026 [+2874 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Boxingnews24.com"
+                "name": "The Denver Post"
             },
-            "author": "Chris Williams",
-            "title": "Crawford Needs To Stay Active to Get Canelo Fight",
-            "description": "Terence Crawford may hang up his gloves if he doesn\u2019t get the Canelo Alvarez fight ... read more\nCrawford Needs To Stay Active to Get Canelo Fight @ Boxing News 24",
-            "url": "https://www.boxingnews24.com/2024/10/crawford-needs-to-stay-active-to-get-canelo-fight/",
-            "urlToImage": "https://www.boxingnews24.com/wp-content/uploads/2024/08/Crawford-vs-madrimov03034.jpg",
-            "publishedAt": "2024-10-31T01:57:53Z",
-            "content": "Terence Crawford may hang up his gloves if he doesn\u2019t get the Canelo Alvarez fight he\u2019s impatiently waiting for since his win over Israil Madrimov last August.\r\nIt\u2019s believed that only the whiff of t\u2026 [+3410 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Antaranews.com"
-            },
-            "author": "PR Wire",
-            "title": "NIKE, Inc. Appoints Long-Time Leaders Ann Miller as EVP, Global Sports Marketing and Rob Leinwand as EVP, Chief Legal Officer",
-            "description": "- NIKE, Inc. (NYSE: NKE) today announced changes in its Senior Leadership Team (SLT), positioning the company for continued growth and success with a focus on ...",
-            "url": "https://en.antaranews.com/news/332029/nike-inc-appoints-long-time-leaders-ann-miller-as-evp-global-sports-marketing-and-rob-leinwand-as-evp-chief-legal-officer",
-            "urlToImage": "https://cdn.antaranews.com/cache/1200x800/2020/03/23/Logo-BusinessWire-800x600.jpg",
-            "publishedAt": "2024-10-31T01:55:00Z",
-            "content": "John Slusher, NIKEs long-tenured Sports Marketing EVP, will retire after 26 years with the company\r\nBeaverton, Ore.--(ANTARA/Business Wire)-- NIKE, Inc. (NYSE: NKE) today announced changes in its Sen\u2026 [+3137 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "CBS Sports"
-            },
-            "author": "Scout Staff",
-            "title": "How to watch Chicago Bulls vs. Orlando Magic: NBA live stream info, TV channel, start time, game odds",
-            "description": "How to watch Bulls vs. Magic basketball game",
-            "url": "https://www.cbssports.com/nba/news/how-to-watch-chicago-bulls-vs-orlando-magic-nba-live-stream-info-tv-channel-start-time-game-odds-29446055/",
-            "urlToImage": "https://sportshub.cbsistatic.com/i/r/2022/01/19/bb699609-e09b-4b1b-a474-470473264bf4/thumbnail/1200x675/e826c8059ebac512a26e31c8e839eab5/generic-nba-basketball.jpg",
-            "publishedAt": "2024-10-31T01:50:18Z",
-            "content": "3rd Quarter Report\r\n The Magic are on the road but looking no worse for wear. They have jumped out to a 87-86 lead against the Bulls.\r\n If the Magic keep playing like this, they'll bump their record \u2026 [+3364 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Dealnews.com"
-            },
-            "author": null,
-            "title": "S Sport By Skechers Women's Pull-On Sneakers from $13.99 + free shipping",
-            "description": "Size 11 in Pink is the cheapest option. Buy Now at eBay",
-            "url": "https://www.dealnews.com/S-Sport-By-Skechers-Womens-Pull-On-Sneakers-from-13-99-free-shipping/21692131.html",
-            "urlToImage": "https://c.dlnws.com/image/upload/f_auto,t_maximum,q_auto/cms/mvyptxcb6zyasjeiqwzm.png",
-            "publishedAt": "2024-10-31T01:44:00Z",
-            "content": "moreSave on a small selection of Hoka footwear, including track and field shoes, hiking boots, and sneakers. For example, we've pictured the HOKA Men's or Women's Transport X Shoes for $112 after sav\u2026 [+104 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Dealnews.com"
-            },
-            "author": null,
-            "title": "S Sport By Skechers Men's Troy Sneakers for $14 + free shipping",
-            "description": "That's a very low price for a pair of Skechers sneakers. They're available in sizes 9.5 to 11.5. Buy Now at eBay",
-            "url": "https://www.dealnews.com/S-Sport-By-Skechers-Mens-Troy-Sneakers-for-14-free-shipping/21692130.html",
-            "urlToImage": "https://c.dlnws.com/image/upload/f_auto,t_maximum,q_auto/cms/x4puqzsckdblb72ynb4w.png",
-            "publishedAt": "2024-10-31T01:26:27Z",
-            "content": "moreSave on a small selection of Hoka footwear, including track and field shoes, hiking boots, and sneakers. For example, we've pictured the HOKA Men's or Women's Transport X Shoes for $112 after sav\u2026 [+104 chars]"
-        },
-        {
-            "source": {
-                "id": "the-washington-post",
-                "name": "The Washington Post"
-            },
-            "author": "Teddy Amenabar",
-            "title": "Carbo-loading before the Auckland Marathon? Here\u2019s what experts suggest.",
-            "description": "Top tips for nutrition the day before the Auckland marathon.",
-            "url": "https://www.washingtonpost.com/wellness/2024/10/23/marathon-carbohydrates-carboload-nutrition-runner/",
-            "urlToImage": "https://www.nzherald.co.nz/resizer/v2/ZJ3A5Z7XBFESVBFP5N5LSE2MUE.jpg?auth=47af2fc3958666565940138d16e5251bcdbdae6e914e98cb98039814b7032e05&width=1200&height=675&quality=70&smart=true",
-            "publishedAt": "2024-10-31T01:24:26Z",
-            "content": "You dont have to necessarily eat more calories, said Trent Stellingwerff, chief performance officer for the Canadian Sport Institute Pacific in Victoria, British Columbia.\r\nYoure just going to fill m\u2026 [+3974 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "CBS Sports"
-            },
-            "author": "Scout Staff",
-            "title": "How to watch Chicago Bulls vs. Orlando Magic: Live stream, TV channel, start time for Wednesday's NBA game",
-            "description": "How to watch Bulls vs. Magic basketball game",
-            "url": "https://www.cbssports.com/nba/news/how-to-watch-chicago-bulls-vs-orlando-magic-live-stream-tv-channel-start-time-for-wednesdays-nba-game-29446055/",
-            "urlToImage": "https://sportshub.cbsistatic.com/i/r/2022/01/19/bb699609-e09b-4b1b-a474-470473264bf4/thumbnail/1200x675/e826c8059ebac512a26e31c8e839eab5/generic-nba-basketball.jpg",
-            "publishedAt": "2024-10-31T01:20:17Z",
-            "content": "1st Quarter Report\r\n The Magic are on the road but looking no worse for wear. They have jumped out to a quick 62-52 lead against the Bulls.\r\n If the Magic keep playing like this, they'll bump their r\u2026 [+3359 chars]"
-        },
-        {
-            "source": {
-                "id": "espn",
-                "name": "ESPN"
-            },
-            "author": "Danny Lewis",
-            "title": "Transfer Talk: Barcelona eyeing Le\u00e3o's situation",
-            "description": "Rafael Le\u00e3o's future at AC Milan is up in the air. Can Barcelona take advantage? Transfer Talk has the latest news, gossip and rumors.",
-            "url": "https://www.espn.com/soccer/story/_/id/42099135/soccer-transfer-rumors-news-barcelona-eyeing-rafael-leao-situation",
-            "urlToImage": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F1031%2Fr1408336_1296x729_16%2D9.jpg",
-            "publishedAt": "2024-10-31T01:15:51Z",
-            "content": "Oct 30, 2024, 08:39 PM ET\r\nBarcelona are monitoring Rafael Le\u00e3o's situation at AC Milan, while Juventus are keeping an eye on Parma duo Ange-Yoan Bonny and Adri\u00e1n Bernab\u00e9. Join us for the latest tran\u2026 [+2876 chars]"
-        },
-        {
-            "source": {
-                "id": "bleacher-report",
-                "name": "Bleacher Report"
-            },
-            "author": "Timothy Rapp",
-            "title": "Naomi Girma Thrills Fans with 2 Goals as Lindsey Horan, USWNT Win vs. Argentina",
-            "description": "Not all braces are created equally. USWNT star defender Naomi Girma has become a fixture in the team's starting 11 and is one of the best defenders in the\u2026",
-            "url": "https://bleacherreport.com/articles/10141617-naomi-girma-thrills-fans-with-2-goals-as-lindsey-horan-uswnt-win-vs-argentina",
-            "urlToImage": "https://media.bleacherreport.com/image/upload/x_30,y_19,w_1766,h_1177,c_crop/c_fill,g_faces,w_3800,h_2000,q_95/v1730336735/eeizfnhun6awifyt9e32.jpg",
-            "publishedAt": "2024-10-31T01:09:12Z",
-            "content": "Brad Smith/ISI Photos/USSF/Getty Images for USSF\r\nNot all braces are created equally.\r\nUSWNT star defender Naomi Girma has become a fixture in the team's starting 11 and is one of the best defenders \u2026 [+3662 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Carryology.com"
-            },
-            "author": "Laurence Fry",
-            "title": "Best \u2018Buy It For Life\u2019 Gear | Clothes, Backpacks, Boots, Jackets and More",
-            "description": "If you\u2019re looking for the best buy-it-for-life clothes or buy-it-for-life boots, you\u2019re not alone. The appeal...\nThe post Best \u2018Buy It For Life\u2019 Gear | Clothes, Backpacks, Boots, Jackets and More appeared first on Carryology.",
-            "url": "https://www.carryology.com/liking/best-buy-it-for-life-gear/",
-            "urlToImage": "https://www.carryology.com/wp-content/uploads/2024/10/Flint-and-Tinder-Flannel-Lined-Waxed-Ripstop-Trucker-Jacket-\u2013-Special-Edition-feature.jpg",
-            "publishedAt": "2024-10-31T01:08:30Z",
-            "content": "If you\u2019re looking for the best buy-it-for-life clothes or buy-it-for-life boots, you\u2019re not alone. The appeal of heritage gear is timeless, and for good reason: it merges durability with classic desi\u2026 [+8338 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Prtimes.jp"
-            },
-            "author": null,
-            "title": "\u30b8\u30fc\u30b3\u3055\u3093\u304c\u6765\u5834\u4e88\u5b9a\uff01\uff01\u30d5\u30c3\u30c8\u30b5\u30eb\u30ef\u30fc\u30eb\u30c9\u30ab\u30c3\u30d7\u300c1st KYODAI FAMILY CUP\u300d\u3092\u9e7f\u5cf6\u30a2\u30f3\u30c8\u30e9\u30fc\u30ba\u3064\u304f\u3070\u30a2\u30ab\u30c7\u30df\u30fc\u30bb\u30f3\u30bf\u30fc\u3067\u958b\u50ac",
-            "description": "[KYODAI\u30b0\u30eb\u30fc\u30d7]\n[\u753b\u50cf1: https://prcdn.freetls.fastly.net/release_image/80289/53/80289-53-a472bf619a2169faf3017ec65705f677-3900x2925.jpg?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&am...",
-            "url": "https://prtimes.jp/main/html/rd/p/000000053.000080289.html",
-            "urlToImage": "https://prcdn.freetls.fastly.net/release_image/80289/53/80289-53-a472bf619a2169faf3017ec65705f677-3900x2925.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-            "publishedAt": "2024-10-31T00:50:00Z",
-            "content": "KYODAI Remittance 5111st KYODAI FAMILY CUP1115\r\n1st KYODAI FAMILY CUP\r\nKYODAI Remittance\r\n2024114\r\n10:0017:00\u00a0\r\n511\r\nBanco DaycvalTaiyo corporation, KOWA, ALFAINTER\r\n ANBECAPJ (BUNKYO)\r\n<ol><li>Taiyo\u2026 [+674 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "New Zealand Herald"
-            },
-            "author": "Adam Pearse",
-            "title": "Casey Costello says Health Ministry \u2018dropped the ball\u2019 over staffer conflict",
-            "description": "NZ First leader Winston Peters has linked the staffer to leaks from Costello's office.",
-            "url": "https://www.nzherald.co.nz/nz/politics/casey-costello-says-health-ministry-dropped-the-ball-over-staffer-conflict/EYZZIP62OFFGZPYUFA5PB6RDDU/",
-            "urlToImage": "https://www.nzherald.co.nz/resizer/v2/MYQQA7J4TBEM7MN3ANTBHX7IWA.jpg?auth=eeaafb421c1174c81ace20902c79d37a7fdcf42d8f35b4c26581bb12e59dfaf0&width=1200&height=675&quality=70&smart=true",
-            "publishedAt": "2024-10-31T00:45:29Z",
-            "content": "Appropriate declarations were made by the worker to the ministry and management plans were put in place, according to Roberts. The ministry was currently reviewing its conflict-of-interest processes \u2026 [+3893 chars]"
+            "author": "Patrick Saunders",
+            "title": "Arvada West\u2019s dynamic duo \u2014 Saylor Swanson and Sara Walker \u2014 set torrid pace in flag football\u2019s first official season",
+            "description": "Years from now, when records have been broken and re-broken, and high school dynasties are set in stone, Saylor Swanson and Sara Walker will be remembered.",
+            "url": "https://www.denverpost.com/2024/11/02/arvada-west-flag-football-saylor-swanson-and-sara-walker/",
+            "urlToImage": "https://www.denverpost.com/wp-content/uploads/2024/11/TDP-L-FLAG-5A-CHAMPIONSHIP_JAC8950_1.jpg?w=1024&h=783",
+            "publishedAt": "2024-11-03T01:52:51Z",
+            "content": "Years from now, when records have been broken and re-broken, and high school dynasties are set in stone, Saylor Swanson and Sara Walker will be remembered.\r\nArvada West\u2019s dynamic senior duo put its i\u2026 [+3055 chars]"
         },
         {
             "source": {
                 "id": null,
                 "name": "Freerepublic.com"
             },
-            "author": "Illinois Review",
-            "title": "Di Leo: Political Yard Signs are More Revealing than Usual this Year",
-            "description": "It is election season, so our front yards are naturally covered in yard signs. The yard signs - in Illinois, at least \u2013 have usually been issue-free, focused entirely on name recognition. We are accustomed to seeing the name and the office, nothing more. This\u2026",
-            "url": "https://freerepublic.com/focus/f-bloggers/4274611/posts",
+            "author": "The Conversation",
+            "title": "Americans own guns to protect themselves from psychological as well as physical threats (mild barf alert)",
+            "description": "Kamala Harris, Donald Trump, Tim Walz and JD Vance all have something in common. All four of them, along with an estimated 42% of American adults, have lived in a home with at least one gun.Gun ownership in the United States is widespread and cuts across all \u2026",
+            "url": "https://freerepublic.com/focus/f-chat/4275333/posts",
             "urlToImage": null,
-            "publishedAt": "2024-10-31T00:37:41Z",
-            "content": "Skip to comments.\r\nDi Leo: Political Yard Signs are More Revealing than Usual this YearIllinois Review ^\r\n | October 29, AD 2024\r\n | John F Di Leo\r\nPosted on 10/30/2024 5:37:41 PM PDT by jfd1776\r\nIt \u2026 [+13260 chars]"
+            "publishedAt": "2024-11-03T01:50:10Z",
+            "content": "Skip to comments.\r\nAmericans own guns to protect themselves from psychological as well as physical threats (mild barf alert)The Conversation ^\r\n | October 31, 2024\r\n | Nick Buttrick\r\nPosted on 11/02/\u2026 [+12870 chars]"
+        },
+        {
+            "source": {
+                "id": "espn",
+                "name": "ESPN"
+            },
+            "author": "David Hale",
+            "title": "Best of Week 10: Ohio State's erratic win, Georgia survives and Pavia-Vandy dominance",
+            "description": "Ohio State's win over Penn State reminded us of old times in a new-look Big Ten and more from Week 10.",
+            "url": "https://www.espn.com/college-football/story/_/page/gamedayfinal110224/college-football-week-10-highlights-top-plays-games-takeaways-2024",
+            "urlToImage": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F1103%2Fr1409585_1296x729_16%2D9.jpg",
+            "publishedAt": "2024-11-03T01:30:30Z",
+            "content": "In a season littered with unlikely twists, in a sport defined of late by overwhelming change, it's nice to know some things remain as steadfastly certain as the morning sunrise.\r\nWell, unless you're \u2026 [+12800 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Slickdeals.net"
+            },
+            "author": null,
+            "title": "5-Oz SPF 50 Coppertone Sport Mineral Sunscreen Lotion $4.56 w/ S&S + Free Shipping w/ Prime or on $35+ (0 replies)",
+            "description": "Amazon [amazon.com] has 5-Oz SPF 50 Coppertone Sport Mineral Sunscreen Lotion for $6.07 - 20% when you clip the coupon on product page - 5% when you check out with Subscribe &amp; Save = $4.56. Sh",
+            "url": "https://slickdeals.net/f/17861157-5-oz-spf-50-coppertone-sport-mineral-sunscreen-lotion-4-56-w-s-s-free-shipping-w-prime-or-on-35",
+            "urlToImage": "https://static.slickdealscdn.com/images/sd_share_logo.png?9261",
+            "publishedAt": "2024-11-03T01:01:16Z",
+            "content": "This collaborative space allows users to contribute additional information, tips, and insights to enhance the original deal post. Feel free to share your knowledge and help fellow shoppers make infor\u2026 [+26 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Slickdeals.net"
+            },
+            "author": "johnny_miller",
+            "title": "5-Oz SPF 50 Coppertone Sport Mineral Sunscreen Lotion $4.56 w/ S&S + Free Shipping w/ Prime or on $35+",
+            "description": "Amazon [amazon.com] has *5-Oz SPF 50 Coppertone Sport Mineral Sunscreen Lotion* for $6.07 - 20% when you clip the coupon on product page - 5% when you check out with Subscribe & Save = *$4.56*....",
+            "url": "https://slickdeals.net/f/17861157-5-oz-spf-50-coppertone-sport-mineral-sunscreen-lotion-4-56-w-s-s-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+            "urlToImage": "https://static.slickdealscdn.com/images/sd_share_logo.png?9261",
+            "publishedAt": "2024-11-03T01:01:16Z",
+            "content": "This collaborative space allows users to contribute additional information, tips, and insights to enhance the original deal post. Feel free to share your knowledge and help fellow shoppers make infor\u2026 [+26 chars]"
+        },
+        {
+            "source": {
+                "id": "espn",
+                "name": "ESPN"
+            },
+            "author": "Nick Judd",
+            "title": "Transfer rumors, news: Chelsea to rival Liverpool for 'new Salah' Adeyemi",
+            "description": "Chelsea will compete with Liverpool to sign Borussia Dortmund forward Karim Adeyemi. Transfer Talk has the latest news, gossip and rumors.",
+            "url": "https://www.espn.com/soccer/story/_/id/42149201/soccer-transfer-rumors-news-chelsea-rival-liverpool-adeyemi",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F1001%2Fr1394705_1296x729_16%2D9.jpg",
+            "publishedAt": "2024-11-03T00:24:44Z",
+            "content": "Chelsea will compete with Liverpool to sign Borussia Dortmund's Karim Adeyemi, while both Tottenham Hotspur and Arsenal have Brighton &amp; Hove Albion midfielder Carlos Baleba on their radar. Join u\u2026 [+4563 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Punch"
+            },
+            "author": "Our Reporters",
+            "title": "Libya begins mass arrest of Nigerians after CAF verdict",
+            "description": "Following the verdict delivered by the Confederation of African Football in response to the complaint lodged by the Nigeria Football Federation over the recent inhumane treatment meted out to the Super Eagles in Libya, members of the Nigerian community have r\u2026",
+            "url": "https://punchng.com/libya-begins-mass-arrest-of-nigerians-after-caf-verdict/",
+            "urlToImage": "https://cdn.punchng.com/wp-content/uploads/2024/01/09155856/Yusuf-Tuggar.jpeg",
+            "publishedAt": "2024-11-03T00:20:27Z",
+            "content": "Following the verdict delivered by the Confederation of African Football in response to the complaint lodged by the Nigeria Football Federation over the recent inhumane treatment meted out to the Sup\u2026 [+9439 chars]"
         },
         {
             "source": {
                 "id": null,
                 "name": "Forbes"
             },
-            "author": "Doug Melville, Contributor, \n Doug Melville, Contributor\n https://www.forbes.com/sites/dougmelville/",
-            "title": "Dear Dr. Phil, America\u2019s Biggest DEI Program Is The Electoral College",
-            "description": "This week, a Dr. Phil clip went viral stating America was built on hard work not DEI. But DEI is built into our history, systems, and even the electoral college.",
-            "url": "https://www.forbes.com/sites/dougmelville/2024/10/30/dear-dr-phil-americas-biggest-dei-program-is-the-electoral-college/",
-            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/67226b1ad7424b5b10c3b84c/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-            "publishedAt": "2024-10-31T00:18:50Z",
-            "content": "Presidential election season has officially kicked off here in the U.S., with 30 million votes already cast. That number is pacing ahead of the cumulative 2020 election vote total of 155 million vote\u2026 [+9740 chars]"
+            "author": "Tim Ellis, Contributor, \n Tim Ellis, Contributor\n https://www.forbes.com/sites/timellis/",
+            "title": "Should The ATP Crack Down More On Umpire And Racket Abuse?",
+            "description": "Tennis has seen a volley of abuse and racket smashes in recent months. The ATP needs its stars to create noise, but are the players getting away with bad behavior?",
+            "url": "https://www.forbes.com/sites/timellis/2024/11/02/should-the-atp-crack-down-more-on-umpire-and-racket-abuse/",
+            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/67268200b469535c2cff5f18/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+            "publishedAt": "2024-11-03T00:11:45Z",
+            "content": "MANCHESTER, ENGLAND - SEPTEMBER 15: Jack Draper of Great Britain smashes his racket in anger during ... [+] his match against Felix Auger-Aliassime of Canada in their 2024 Davis Cup Finals Group D ma\u2026 [+5168 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "MMA Mania"
+                "name": "The Denver Post"
             },
-            "author": "Alexander Behunin",
-            "title": "\u2018I Think Khamzat Should Get The Next Shot\u2019",
-            "description": "The big storyline coming out of UFC 308 was if Khamzat Chimaev was going to leapfrog former UFC Middleweight champion Sean Strickland and get a title shot. And while we still don\u2019t have that answer, the 185 lb champion Dricus Du Plessis believes Chimaev shoul\u2026",
-            "url": "https://www.mmamania.com/2024/10/30/24284104/dricus-du-plessis-thinks-khamzat-chimaev-should-get-the-next-shot-after-brutal-ufc-308-win-100",
-            "urlToImage": "https://cdn.vox-cdn.com/thumbor/W-EZqhM-PZMLmy5POsoBVrhV6tQ=/0x365:5103x3037/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25707474/2167220600.jpg",
-            "publishedAt": "2024-10-31T00:15:00Z",
-            "content": "Photo by Paul Kane/Getty Images\r\n\n \n\n \u201cStillknocks\u201d might make \u201cTarzan\u201d cry again.\nIt\u2019s been four days since Khamzat Chimaev made the Ultimate Fighting Championship (UFC) fanbase gasp at UFC 308 when\u2026 [+1767 chars]"
+            "author": "Kyle Newman",
+            "title": "State cross country: Aiden Le Roux, Addison Ritzenhein are fastest boy and girl in Colorado after setting course records",
+            "description": "Aiden Le Roux and Addison Ritzenhein both set all-classification course records at the Norris Penrose Event Center.",
+            "url": "https://www.denverpost.com/2024/11/02/aiden-le-roux-addison-ritzenhein-colorado-fastest-runners/",
+            "urlToImage": "https://www.denverpost.com/wp-content/uploads/2024/11/TDP-Z-XC-STATE-1.jpg?w=1024&h=671",
+            "publishedAt": "2024-11-03T00:08:08Z",
+            "content": "COLORADO SPRINGS \u2014 Aiden Le Roux is officially the fastest high school runner in Colorado.\r\nThe Cheyenne Mountain junior ran 15:02.1 on Saturday at the CHSAA state cross country meet at the Norris Pe\u2026 [+15297 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Forbes"
+                "name": "mgoblog.com"
             },
-            "author": "Manuel Veth, Contributor, \n Manuel Veth, Contributor\n https://www.forbes.com/sites/manuelveth/",
-            "title": "Jamal Musiala Finds Goalscoring Touch During Key Contract Talks With Bayern Munich",
-            "description": "With Jamal Musiala back in the lineup Bayern Munich has returned to top form under head coach Vincent Kompany.",
-            "url": "https://www.forbes.com/sites/manuelveth/2024/10/30/jamal-musiala-finds-goalscoring-touch-during-key-contract-talks-with-bayern-munich/",
-            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/6722c97da7ba7fd41a6d4697/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-            "publishedAt": "2024-10-31T00:12:39Z",
-            "content": "Jamal Musiala celebrates one of his three goals in the DFB Pokal victory over Mainz on Wednesday. ... [+] (Photo by Torsten Silz/picture alliance via Getty Images)\r\ndpa/picture alliance via Getty Ima\u2026 [+4459 chars]"
+            "author": "Alex.Drain",
+            "title": "Oregon 38, Michigan 17",
+            "description": "Hello From the Future: Davonte Miles\n\n January 4th, 2021 at 10:31 AM\n\n Seth\nJanuary 4th, 2021 at 10:31 AM\n\n\n \n \n \n \n \n\n \r\n\n\n\n \n via Twitter\n \n There are a lot of clever things a clever coordinator can do on defense to cover up for a weakness. Programs unable \u2026",
+            "url": "https://mgoblog.com/content/oregon-38-michigan-17",
+            "urlToImage": "https://mgoblog.com/sites/default/files/2024-11/54111533637_ca5536e291_c.jpg",
+            "publishedAt": "2024-11-03T00:01:52Z",
+            "content": "Michigan played host to the #1 team in the AP poll for the first time since 1991 and the game, in the macro, looked about what we expected. The 21 point win for Oregon nearly matched the Vegas spread\u2026 [+15365 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Matadornetwork.com"
+                "name": "Frontpagebets.com"
             },
-            "author": "Suzie Dundas",
-            "title": "Getting Into Action Sports Photography: Diversity, Climbing, and Landing Gigs With Nikki Smith",
-            "description": "Outdoor pro Nikki Smith shares insight on how to break into the action photography industry, among other insights on the outdoors.",
-            "url": "https://matadornetwork.com/read/nikki-smith-on-photography-and-diversity/",
-            "urlToImage": "https://cdn1.matadornetwork.com/blogs/1/2024/10/nikki-smith-ice-climb-1200x900.jpg",
-            "publishedAt": "2024-10-31T00:10:03Z",
-            "content": "In 2019, she founded Open Aperture, an annual photography clinic designed to help underrepresented groups get more opportunities in front of and behind the camera in the outdoor world. She\u2019s also a m\u2026 [+10651 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "TheJournal.ie"
-            },
-            "author": "Stephen McDermott",
-            "title": "Revealed: How much each TD not running for election can get in exit payment and pensions",
-            "description": "The Journal Investigates did the sums.",
-            "url": "https://www.thejournal.ie/investigates-political-pensions-full-list-6490957-Oct2024/",
-            "urlToImage": "https://img2.thejournal.ie/article/6490957/river/?height=400&version=6525362",
-            "publishedAt": "2024-10-31T00:06:10Z",
-            "content": "HERES HOW MUCH each of the 29 TDs who wont stand in the next election can receive in exit payments and pensions.\r\nThe Journal Investigates reveals below\u00a0an estimate of how much each of those TDs coul\u2026 [+19246 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Starcommunity.com.au"
-            },
-            "author": "Jin Hui",
-            "title": "Tennis glory for Khalil",
-            "description": "Excelling at one\u2019s sport will always have that sense of satisfaction, that sense of accomplishment of your abilities, perseverance and [\u2026]",
-            "url": "https://berwicknews.starcommunity.com.au/news/2024-10-31/tennis-glory-for-khalil/",
-            "urlToImage": "https://berwicknews.starcommunity.com.au/files/2024/10/TennisAW_440258_01.jpg",
-            "publishedAt": "2024-10-31T00:00:03Z",
-            "content": "By Ethan Benedicto\r\nExcelling at ones sport will always have that sense of satisfaction, that sense of accomplishment of your abilities, perseverance and hard work, and much more when being adorned t\u2026 [+3528 chars]"
+            "author": "Brian Sausa | For FrontPageBets",
+            "title": "Exclusive BetMGM Bonus Code FPB50 for NFL Week 9 offers $1550 for Packers vs. Lions & more",
+            "description": "The BetMGM bonus code is FPB50 for NFL betting and it offers an exclusive welcome bonus worth up to $1,550 for Week 9 games on Sunday.",
+            "url": "https://frontpagebets.com/tncms/asset/editorial/714d2ea6-97d4-11ef-be61-d7593367cbbd/",
+            "urlToImage": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/b/02/b02b011f-6206-527d-8839-204fe0faefb6/672404d5d318b.preview.jpg?crop=1048%2C550%2C76%2C0&resize=1048%2C550&order=crop%2Cresize",
+            "publishedAt": "2024-11-03T00:00:00Z",
+            "content": "Brian Sausa | For FrontPageBets\r\nIf you make a purchase after clicking on links within this article, Lee Enterprises may earn affiliate commissions. The news and editorial departments had no role in \u2026 [+4174 chars]"
         }
     ]
 }

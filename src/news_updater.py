@@ -24,20 +24,18 @@ class NewsUpdater:
         self.count_replace = 1
 
     def load_news_api(self, keyword):
-        keyword = keyword.replace('-', ' ')
+        # keyword = keyword.replace('-', ' ')
         # with open(f'../test/newsapi/{keyword}.json', "r") as f:
-        with open(f'../test/kak.json', "r") as f:
+        with open(f'../test/kak1.json', "r") as f:
             return json.load(f)
 
     # def load_news_api(self, keyword):
-    #     if keyword == '':
-    #         keyword = 'world-news'
-    #     keyword = keyword.replace('-', ' ')
-    #     keyword = urllib.parse.quote_plus(keyword)
+    #     keyword1 = keyword.replace('-', ' ')
+    #     keyword1 = urllib.parse.quote_plus(keyword1)
     #     yesterday = (date.today() - timedelta(days=1)).strftime('%Y-%m-%d')
     #     base_url = 'https://newsapi.org/v2/everything'
     #     params = {
-    #         'q': keyword,
+    #         'q': keyword1,
     #         'from': yesterday,
     #         'sortBy': 'publishedAt',
     #         'language': 'en',
@@ -65,52 +63,43 @@ class NewsUpdater:
     def _is_valid_article(self, article):
         required_fields = ['url', 'source', 'title', 'description', 'urlToImage', 'publishedAt', 'content']
 
+        # Check for removed URL
         if 'https://removed.com' in article.get('url', ''):
             return False
 
-        # if not article.get('source', {}).get('name'):
-        #     return False
+        # Check source name
+        if not article.get('source', {}).get('name'):
+            return False
 
-        # titles = [article["title"] for article in articles]
-        # duplicates = set([title for title in titles if titles.count(title) > 1])
-        #
-        # if article.get('title', '') in duplicates:
-        #     return False
+        # Validate image URL
+        image_url = article.get('urlToImage', '')
+        if not self._is_valid_image_url(image_url):
+            return False
 
-        # try:
-        #     titles = [article["title"] for article in articles]
-        #     duplicates = list(set([title for title in titles if titles.count(title) > 1]))
-        #     ku = [x for x in titles if x in duplicates]
-        #     if duplicates:
-        #     # if "orange" in my_set:
-        #         return False
-        #
-        # except Exception as e:
-        #     print(f"Error processing 3: {e}")
-        #     pass
+        # Check all required fields are present and non-empty
+        return all(article.get(field) not in (None, '') for field in required_fields)
 
-        # DetectorFactory.seed = 0
-        # content = article.get('content', '')
-        # blob = TextBlob(content)
-        # foreign_words = []
-        # try:
-        #     for sentence in blob.sentences:
-        #         for word in sentence.words:
-        #             if word.detect_language() != 'en':
-        #                 foreign_words.append(word)
-        # except Exception as e:
-        #     print(f"Error processing 1: {e}")
-        #     pass
-        # self.detect_foreign_words(self, content)
-        # content = content.split()
-        # huy = []
-        # for word in content:
-        #     w = detect(word)
-        #     if w != 'en':
-        #         huy.append(word)
-        # return False
+    def _is_valid_image_url(self, url):
+        if not url:
+            return False
 
-        return all(article.get(field) is not None for field in required_fields)
+        try:
+            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
+            # response = requests.get(url, headers=headers)
+            # headers['Referer'] = 'https://gooole.com'
+            session = requests.Session()
+            response = session.get(url, headers=headers)
+            # response = requests.get(url)
+            huy = response.status_code
+            response.raise_for_status()
+            return True
+        except Exception as err:
+            self._log_error(url, err)
+            return False
+
+    def _log_error(self, url, error):
+        with open('log_log.txt', 'a') as f:
+            f.write(f"{url} error: {str(error)}\n")
 
     def remove_duplicate_content(self, data):
         seen_content = set()
@@ -250,7 +239,7 @@ class NewsUpdater:
     def should_process_file(self, file, currentpath):
         excluded_extensions = ('.jpg', '.jpeg', '.png', '.svg', '.gif', '.css', '.js', '.ico', '.woff2', '.woff')
         excluded_dirs = ('assets', 'paged')
-        return not file.endswith(excluded_extensions) and not any(dir in currentpath for dir in excluded_dirs)
+        return not file.endswith(excluded_extensions) and not any(dirs in currentpath for dirs in excluded_dirs)
 
     def run(self):
         self.process_files()
@@ -264,4 +253,4 @@ class NewsUpdater:
 if __name__ == '__main__':
     updater = NewsUpdater()
     updater.run()
-    shutil.copyfile('../html/world-news/index.html', '../html/index.html')
+    shutil.copyfile('../html/news/index.html', '../html/index.html')

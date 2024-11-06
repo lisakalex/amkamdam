@@ -9,7 +9,7 @@ import shutil
 dirs = [
     '',
     'sport',
-    'world-news',
+    'news',
     'culture',
     'lifestyle',
     'finance',
@@ -23,6 +23,7 @@ dirs = [
 
 shutil.rmtree('../html', ignore_errors=True)
 shutil.copytree('./assets', '../html/assets', dirs_exist_ok=True)
+
 
 # Create necessary directories
 def create_directories():
@@ -56,10 +57,12 @@ def modify_button(soup, keyword):
     button_more = soup.find('a', class_='button-more')
     button_more['loadmoretype'] = keyword
 
+
 # Modify heading
 def modify_heading(soup, keyword):
-    heading = soup.find( id='heading-1')
+    heading = soup.find(id='heading-1')
     heading.string = keyword.replace('-', ' ').capitalize()
+
 
 # Save the modified HTML and JSON files
 def save_files(directory, soup, keyword):

@@ -26,100 +26,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2b6b28b-633d-488b-a11e-85b21f893e04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/note/give us an example how to use pyyaml.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/OneSignalSDKStyles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/cdn.shopify.com.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/css2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/frontend-2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/frontend.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/me.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat-Italic-VariableFont_wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat-VariableFont_wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/alfresco-svgrepo-com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/arrow-right-svgrepo-com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/derby-svgrepo-com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/expand_less_FILL0_wght400_GRAD0_opsz24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/expand_less_FILL0_wght400_GRAD0_opsz24.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/expand_more_FILL0_wght400_GRAD0_opsz24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/expand_more_FILL0_wght400_GRAD0_opsz24.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/logo-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/logo-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/logo-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/me_banner/300x250-mobile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/me_banner/300x600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/me_banner/468x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/me_banner/970x250.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/me_banner/970x90.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/oreginal_banner/1160x90.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/oreginal_banner/300x250-mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/oreginal_banner/300x250.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/oreginal_banner/300x540.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/oreginal_banner/300x600-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/oreginal_banner/960x200.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/oreginal_banner/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/js/bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/js/cookieconsent-init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/js/frontend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/js/local/cookieconsent.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/text/Cryptonews.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ReadWriteMulesYaml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/a.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/kak1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-2/business.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-2/culture.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-2/entertainment.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-2/finance.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-2/health.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-2/html.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-2/lifestyle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-2/politics.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-2/science.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-2/sport.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-2/technology.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-2/test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/newsapi-2/world-news.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/requests_huy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/a/chatgpt1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/a/chatgpt2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/a/chatgpt3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/a/generate_pdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/load_news_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/requests_huy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/css/OneSignalSDKStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/OneSignalSDKStyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/css/cdn.shopify.com.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/cdn.shopify.com.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/css/css2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/css/frontend-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/frontend-2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/css/frontend.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/frontend.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/css/me.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/me.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/fonts/Montserrat-Italic-VariableFont_wght.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-Italic-VariableFont_wght.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/fonts/Montserrat-VariableFont_wght.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-VariableFont_wght.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/alfresco-svgrepo-com.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/icons/alfresco-svgrepo-com.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/arrow-right-svgrepo-com.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/icons/arrow-right-svgrepo-com.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/derby-svgrepo-com.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/icons/derby-svgrepo-com.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/expand_less_FILL0_wght400_GRAD0_opsz24.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/icons/expand_less_FILL0_wght400_GRAD0_opsz24.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/expand_less_FILL0_wght400_GRAD0_opsz24.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/icons/expand_less_FILL0_wght400_GRAD0_opsz24.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/expand_more_FILL0_wght400_GRAD0_opsz24.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/icons/expand_more_FILL0_wght400_GRAD0_opsz24.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/expand_more_FILL0_wght400_GRAD0_opsz24.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/icons/expand_more_FILL0_wght400_GRAD0_opsz24.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/logo-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/icons/logo-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/logo-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo-1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/logo-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo-2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/me_banner/300x250-mobile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/me_banner/300x250-mobile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/me_banner/300x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/me_banner/300x600.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/me_banner/468x60.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/me_banner/468x60.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/me_banner/970x250.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/me_banner/970x250.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/me_banner/970x90.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/me_banner/970x90.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/oreginal_banner/1160x90.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/oreginal_banner/1160x90.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/oreginal_banner/300x250-mobile.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/oreginal_banner/300x250-mobile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/oreginal_banner/300x250.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/oreginal_banner/300x250.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/oreginal_banner/300x540.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/oreginal_banner/300x540.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/oreginal_banner/300x600-1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/oreginal_banner/300x600-1.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/oreginal_banner/960x200.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/oreginal_banner/960x200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/images/oreginal_banner/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/oreginal_banner/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/js/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/js/cookieconsent-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/cookieconsent-init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/js/frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/frontend.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/js/local/cookieconsent.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/local/cookieconsent.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/assets/text/Cryptonews.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/text/Cryptonews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/css/OneSignalSDKStyles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/css/cdn.shopify.com.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/css/css2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/css/frontend-2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/css/frontend.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/css/me.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/fonts/Montserrat-Italic-VariableFont_wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/fonts/Montserrat-VariableFont_wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/alfresco-svgrepo-com.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/arrow-right-svgrepo-com.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/derby-svgrepo-com.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/expand_less_FILL0_wght400_GRAD0_opsz24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/expand_less_FILL0_wght400_GRAD0_opsz24.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/expand_more_FILL0_wght400_GRAD0_opsz24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/expand_more_FILL0_wght400_GRAD0_opsz24.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/icons/logo-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/logo-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/logo-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/me_banner/300x250-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/me_banner/300x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/me_banner/468x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/me_banner/970x250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/me_banner/970x90.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/oreginal_banner/1160x90.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/oreginal_banner/300x250-mobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/oreginal_banner/300x250.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/oreginal_banner/300x540.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/oreginal_banner/300x600-1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/oreginal_banner/960x200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/images/oreginal_banner/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/js/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/js/cookieconsent-init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/js/frontend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/js/local/cookieconsent.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/assets/text/Cryptonews.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/business/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/culture/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/entertainment/index.html" beforeDir="false" />
@@ -127,91 +78,39 @@
       <change beforePath="$PROJECT_DIR$/html/health/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/lifestyle/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/business-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/culture-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/entertainment-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/finance-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/health-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/html-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/lifestyle-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/politics-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/science-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/sport-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/paged/technology-1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/paged/business-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/business-1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/paged/culture-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/culture-1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/paged/entertainment-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/entertainment-1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/paged/finance-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/finance-1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/paged/health-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/health-1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/paged/lifestyle-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/lifestyle-1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/paged/politics-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/politics-1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/paged/science-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/science-1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/paged/sport-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/sport-1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/paged/technology-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/html/paged/technology-1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/paged/world-news-1.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/politics/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/science/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/sport/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/technology/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/world-news/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/note.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/makedirs_chatgpt.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/makedirs_chatgpt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/me-index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/news_updater.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/news_updater.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/b.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/a.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/a.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/count_replace.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/count_replace.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/kak.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/kak.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/alternative-medicine.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/alternative-medicine.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/anthropology.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/anthropology.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/arts.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/arts.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/astronomy.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/astronomy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/banking.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/banking.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/beauty.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/beauty.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/biology.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/biology.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/books.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/books.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/boxing-sport.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/boxing-sport.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/brexit.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/brexit.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/kak1.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/kak1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/newsapi/business.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/chemistry.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/chemistry.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/computer-hardware.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/computer-hardware.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/computer-software.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/computer-software.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/cricket-sport.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/cricket-sport.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/crypto.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/crypto.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/newsapi/culture.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/elections.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/elections.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/newsapi/entertainment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/fashion.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/fashion.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/newsapi/finance.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/financial-markets.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/financial-markets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/fitness-and-exercise.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/fitness-and-exercise.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/football-sport.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/football-sport.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/formula-1-racing.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/formula-1-racing.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/gadgets-and-consumer-electronics.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/gadgets-and-consumer-electronics.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/gaming.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/gaming.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/global-economy.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/global-economy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/global-health.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/global-health.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/government-policy.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/government-policy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/government.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/government.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/health-apps.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/health-apps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/newsapi/health.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/history.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/newsapi/html.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/insurance.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/insurance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/internet-and-web.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/internet-and-web.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/law-legislation.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/law-legislation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/newsapi/lifestyle.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/money.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/money.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/movies.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/movies.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/music.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/music.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/nutrition.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/nutrition.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/philosophy.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/philosophy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/photography.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/photography.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/physics.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/physics.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/newsapi/politics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/property-market.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/property-market.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/public-opinion-surveys.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/public-opinion-surveys.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/religion.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/religion.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/newsapi/science.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/shopping.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/shopping.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/small-business-trends.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/small-business-trends.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/sociology.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/sociology.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/newsapi/sport.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/stocks-and-shares.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/stocks-and-shares.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/technology-industry.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/technology-industry.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/newsapi/technology.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/television.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/television.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/tennis-sport.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/tennis-sport.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/newsapi/venture-capital.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/newsapi-2/venture-capital.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/newsapi/world-news.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -266,7 +165,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/a" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -277,13 +176,6 @@
     <option name="myUseBundledCoveragePy" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test" />
-      <recent name="$PROJECT_DIR$/html" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/test/newsapi" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/test/a" />
@@ -291,9 +183,38 @@
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/html/ku/sport" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/a" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$/html" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.makedirs_chatgpt">
-    <configuration name="ReadWriteMulesYaml" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.generate_pdf">
+    <configuration name="generate_pdf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="amkamdam.com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/a" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/a/generate_pdf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="load_news_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="amkamdam.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -306,51 +227,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/ReadWriteMulesYaml.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="a (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="amkamdam.com" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/a.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="amkamdam.com" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/a.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/load_news_api.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -403,13 +280,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="requests_huy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="amkamdam.com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/requests_huy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.makedirs_chatgpt" />
+        <item itemvalue="Python.generate_pdf" />
         <item itemvalue="Python.news_updater" />
-        <item itemvalue="Python.ReadWriteMulesYaml" />
-        <item itemvalue="Python.a (1)" />
-        <item itemvalue="Python.a" />
+        <item itemvalue="Python.makedirs_chatgpt" />
+        <item itemvalue="Python.requests_huy" />
+        <item itemvalue="Python.load_news_api" />
       </list>
     </recent_temporary>
   </component>
@@ -471,7 +370,8 @@
       <workItem from="1729857416441" duration="2180000" />
       <workItem from="1729922668826" duration="1952000" />
       <workItem from="1729935504235" duration="17714000" />
-      <workItem from="1730186458540" duration="48803000" />
+      <workItem from="1730186458540" duration="77026000" />
+      <workItem from="1730873684132" duration="4627000" />
     </task>
     <task id="LOCAL-00001" summary="ku">
       <created>1706943512106</created>
@@ -690,7 +590,21 @@
       <option name="project" value="LOCAL" />
       <updated>1730189161662</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add def modify_heading(soup, keyword):">
+      <created>1730469162783</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1730469162783</updated>
+    </task>
+    <task id="LOCAL-00033" summary="add def modify_heading(soup, keyword):">
+      <created>1730469180608</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1730469180608</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -744,7 +658,8 @@
     <MESSAGE value="idi na huuujuy" />
     <MESSAGE value="me-index.html footer" />
     <MESSAGE value="index.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="index.php" />
+    <MESSAGE value="add def modify_heading(soup, keyword):" />
+    <option name="LAST_COMMIT_MESSAGE" value="add def modify_heading(soup, keyword):" />
   </component>
   <component name="WindowStateProjectService">
     <state x="542" y="192" width="1536" height="1261" key="#Project_Structure" timestamp="1726373866342">
@@ -779,38 +694,38 @@
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state x="992" y="463" width="636" height="719" key="FileChooserDialogImpl/70.38.2490.1562@70.38.2490.1562" timestamp="1730396542143" />
-    <state width="2422" height="420" key="GridCell.Tab.0.bottom" timestamp="1730465275488">
+    <state width="2422" height="420" key="GridCell.Tab.0.bottom" timestamp="1730873507634">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="420" key="GridCell.Tab.0.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1730465275488" />
-    <state width="2422" height="420" key="GridCell.Tab.0.center" timestamp="1730465275488">
+    <state width="2422" height="420" key="GridCell.Tab.0.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1730873507634" />
+    <state width="2422" height="420" key="GridCell.Tab.0.center" timestamp="1730873507634">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="420" key="GridCell.Tab.0.center/70.38.2490.1562@70.38.2490.1562" timestamp="1730465275488" />
-    <state width="2422" height="420" key="GridCell.Tab.0.left" timestamp="1730465275488">
+    <state width="2422" height="420" key="GridCell.Tab.0.center/70.38.2490.1562@70.38.2490.1562" timestamp="1730873507634" />
+    <state width="2422" height="420" key="GridCell.Tab.0.left" timestamp="1730873507633">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="420" key="GridCell.Tab.0.left/70.38.2490.1562@70.38.2490.1562" timestamp="1730465275488" />
-    <state width="2422" height="420" key="GridCell.Tab.0.right" timestamp="1730465275488">
+    <state width="2422" height="420" key="GridCell.Tab.0.left/70.38.2490.1562@70.38.2490.1562" timestamp="1730873507633" />
+    <state width="2422" height="420" key="GridCell.Tab.0.right" timestamp="1730873507634">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="420" key="GridCell.Tab.0.right/70.38.2490.1562@70.38.2490.1562" timestamp="1730465275488" />
-    <state width="2422" height="460" key="GridCell.Tab.1.bottom" timestamp="1730465128161">
+    <state width="2422" height="420" key="GridCell.Tab.0.right/70.38.2490.1562@70.38.2490.1562" timestamp="1730873507634" />
+    <state width="2422" height="460" key="GridCell.Tab.1.bottom" timestamp="1730873507632">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="460" key="GridCell.Tab.1.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1730465128161" />
-    <state width="2422" height="460" key="GridCell.Tab.1.center" timestamp="1730465128160">
+    <state width="2422" height="460" key="GridCell.Tab.1.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1730873507632" />
+    <state width="2422" height="460" key="GridCell.Tab.1.center" timestamp="1730873507632">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="460" key="GridCell.Tab.1.center/70.38.2490.1562@70.38.2490.1562" timestamp="1730465128160" />
-    <state width="2422" height="460" key="GridCell.Tab.1.left" timestamp="1730465128160">
+    <state width="2422" height="460" key="GridCell.Tab.1.center/70.38.2490.1562@70.38.2490.1562" timestamp="1730873507632" />
+    <state width="2422" height="460" key="GridCell.Tab.1.left" timestamp="1730873507632">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="460" key="GridCell.Tab.1.left/70.38.2490.1562@70.38.2490.1562" timestamp="1730465128160" />
-    <state width="2422" height="460" key="GridCell.Tab.1.right" timestamp="1730465128161">
+    <state width="2422" height="460" key="GridCell.Tab.1.left/70.38.2490.1562@70.38.2490.1562" timestamp="1730873507632" />
+    <state width="2422" height="460" key="GridCell.Tab.1.right" timestamp="1730873507632">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="2422" height="460" key="GridCell.Tab.1.right/70.38.2490.1562@70.38.2490.1562" timestamp="1730465128161" />
+    <state width="2422" height="460" key="GridCell.Tab.1.right/70.38.2490.1562@70.38.2490.1562" timestamp="1730873507632" />
     <state x="1032" y="715" width="555" height="214" key="NewPhpFileDialog" timestamp="1726384622316">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
@@ -819,26 +734,30 @@
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state x="133" y="192" width="1945" height="1261" key="SettingsEditor/70.38.2490.1562@70.38.2490.1562" timestamp="1729663148241" />
-    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1730189163445">
+    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1730469182113">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2/70.38.2490.1562@70.38.2490.1562" timestamp="1730189163445" />
-    <state width="1245" height="781" key="XDebugger.FullValuePopup" timestamp="1730441951995">
+    <state x="710" y="430" width="1200" height="785" key="Vcs.Push.Dialog.v2/70.38.2490.1562@70.38.2490.1562" timestamp="1730469182113" />
+    <state width="1245" height="781" key="XDebugger.FullValuePopup" timestamp="1730788724254">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state width="1245" height="781" key="XDebugger.FullValuePopup/70.38.2490.1562@70.38.2490.1562" timestamp="1730441951995" />
+    <state width="1245" height="781" key="XDebugger.FullValuePopup/70.38.2490.1562@70.38.2490.1562" timestamp="1730788724254" />
     <state x="170" y="138" width="2290" height="1362" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1730187278859">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state x="170" y="138" width="2290" height="1362" key="com.intellij.history.integration.ui.views.FileHistoryDialog/70.38.2490.1562@70.38.2490.1562" timestamp="1730187278859" />
+    <state x="688" y="228" width="1243" height="1188" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1730786064635">
+      <screen x="70" y="38" width="2490" height="1562" />
+    </state>
+    <state x="688" y="228" width="1243" height="1188" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/70.38.2490.1562@70.38.2490.1562" timestamp="1730786064635" />
     <state x="588" y="383" width="1443" height="878" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1730451777611">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state x="588" y="383" width="1443" height="878" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/70.38.2490.1562@70.38.2490.1562" timestamp="1730451777611" />
-    <state x="872" y="424" width="926" height="872" key="find.popup" timestamp="1730439180468">
+    <state x="872" y="424" width="926" height="872" key="find.popup" timestamp="1730791007671">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="872" y="424" width="926" height="872" key="find.popup/70.38.2490.1562@70.38.2490.1562" timestamp="1730439180468" />
+    <state x="872" y="424" width="926" height="872" key="find.popup/70.38.2490.1562@70.38.2490.1562" timestamp="1730791007671" />
     <state x="304" y="195" width="2012" height="1254" key="new project wizard" timestamp="1727152560791">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
@@ -847,10 +766,10 @@
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
     <state x="810" y="376" key="run.anything.popup/70.38.2490.1562@70.38.2490.1562" timestamp="1726244650371" />
-    <state x="808" y="128" width="1009" height="1470" key="search.everywhere.popup" timestamp="1730360299336">
+    <state x="808" y="128" width="1009" height="1470" key="search.everywhere.popup" timestamp="1730870293488">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
-    <state x="808" y="128" width="1009" height="1470" key="search.everywhere.popup/70.38.2490.1562@70.38.2490.1562" timestamp="1730360299336" />
+    <state x="808" y="128" width="1009" height="1470" key="search.everywhere.popup/70.38.2490.1562@70.38.2490.1562" timestamp="1730870293488" />
     <state x="953" y="699" width="723" height="247" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1729939626529">
       <screen x="70" y="38" width="2490" height="1562" />
     </state>
@@ -915,9 +834,19 @@
           <option name="timeStamp" value="166" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/load_news_api.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/requests_huy.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/news_updater.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="174" />
+          <line>85</line>
+          <option name="timeStamp" value="186" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -937,6 +866,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/amkamdam_com$get_newsapi.coverage" NAME="get-newsapi Coverage Results" MODIFIED="1727244953468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/a" />
+    <SUITE FILE_PATH="coverage/amkamdam_com$generate_pdf.coverage" NAME="generate_pdf Coverage Results" MODIFIED="1730870819556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/a" />
     <SUITE FILE_PATH="coverage/amkamdam_com$docs.coverage" NAME="docs Coverage Results" MODIFIED="1726638689541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/amkamdam_com$Unittests_for_test_newsapi4_TestNewsUpdater_test_load_news_api.coverage" NAME="Unittests for test_newsapi4.TestNewsUpdater.test_load_news_api Coverage Results" MODIFIED="1726328131644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huy" />
     <SUITE FILE_PATH="coverage/amkamdam_com$newsapi4.coverage" NAME="news_updater Coverage Results" MODIFIED="1726386367986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
@@ -945,6 +875,7 @@
     <SUITE FILE_PATH="coverage/amkamdam_com$tor.coverage" NAME="tor Coverage Results" MODIFIED="1707757081424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/amkamdam_com$newsapi_2.coverage" NAME="newsapi-2 Coverage Results" MODIFIED="1726158708845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/amkamdam_com$english_Tenses.coverage" NAME="english-Tenses Coverage Results" MODIFIED="1726231202902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/amkamdam_com$load_news_api.coverage" NAME="load_news_api Coverage Results" MODIFIED="1730547905109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/amkamdam_com$news_updater_real.coverage" NAME="news_updater_real Coverage Results" MODIFIED="1726552453091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/amkamdam_com$a__1_.coverage" NAME="a (1) Coverage Results" MODIFIED="1730396823417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/amkamdam_com$Unittests_in_test_news_updater_perplexity_py.coverage" NAME="Unittests in test_news_updater_perplexity.py Coverage Results" MODIFIED="1726553085340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -953,7 +884,7 @@
     <SUITE FILE_PATH="coverage/amkamdam_com$newsapi_4.coverage" NAME="newsapi-4 Coverage Results" MODIFIED="1726259835854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/amkamdam_com$newsapi4_1.coverage" NAME="newsapi4_1 Coverage Results" MODIFIED="1726383765874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/amkamdam_com$Unittests_in_test_newsapi4_perplexity_py.coverage" NAME="Unittests in test_newsapi4_perplexity.py Coverage Results" MODIFIED="1726394467722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/amkamdam_com$makedirs_chatgpt.coverage" NAME="makedirs_chatgpt Coverage Results" MODIFIED="1730469121949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/amkamdam_com$makedirs_chatgpt.coverage" NAME="makedirs_chatgpt Coverage Results" MODIFIED="1730791602064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/amkamdam_com$newsapi_1.coverage" NAME="newsapi-1 Coverage Results" MODIFIED="1726157428974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/amkamdam_com$makedirs.coverage" NAME="makedirs Coverage Results" MODIFIED="1726843653685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/amkamdam_com$a.coverage" NAME="a Coverage Results" MODIFIED="1730366008695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
@@ -961,9 +892,10 @@
     <SUITE FILE_PATH="coverage/amkamdam_com$makedirs__1_.coverage" NAME="makedirs (1) Coverage Results" MODIFIED="1726259317228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/amkamdam_com$ReadWriteMulesYaml.coverage" NAME="ReadWriteMulesYaml Coverage Results" MODIFIED="1730437942085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/amkamdam_com$editallfiles.coverage" NAME="editallfiles Coverage Results" MODIFIED="1718003104809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/amkamdam_com$requests_huy.coverage" NAME="requests_huy Coverage Results" MODIFIED="1730703202465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/amkamdam_com$get_newsapi_copilot.coverage" NAME="get_newsapi_copilot Coverage Results" MODIFIED="1726550903293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/a" />
     <SUITE FILE_PATH="coverage/amkamdam_com$Unittests_for_test_newsapi_4_TestNewsUpdater.coverage" NAME="Unittests for test_newsapi-4.TestNewsUpdater Coverage Results" MODIFIED="1726309274684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/amkamdam_com$news_updater.coverage" NAME="news_updater Coverage Results" MODIFIED="1730465275479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/amkamdam_com$news_updater.coverage" NAME="news_updater Coverage Results" MODIFIED="1730792656909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/amkamdam_com$Unittests_for_test_newsapi4_TestNewsUpdater__1_.coverage" NAME="Unittests for test_newsapi4.TestNewsUpdater (1) Coverage Results" MODIFIED="1726328235162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huy" />
     <SUITE FILE_PATH="coverage/amkamdam_com$newsapi.coverage" NAME="newsapi Coverage Results" MODIFIED="1726469268163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/a" />
     <SUITE FILE_PATH="coverage/amkamdam_com$b.coverage" NAME="b Coverage Results" MODIFIED="1730361129655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
