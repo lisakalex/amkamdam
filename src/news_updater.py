@@ -23,38 +23,38 @@ class NewsUpdater:
         self.today_time = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
         self.count_replace = 1
 
-    def load_news_api(self, keyword):
-        # keyword = keyword.replace('-', ' ')
-        # with open(f'../test/newsapi/{keyword}.json', "r") as f:
-        with open(f'../test/kak1.json', "r") as f:
-            return json.load(f)
-
     # def load_news_api(self, keyword):
-    #     keyword1 = keyword.replace('-', ' ')
-    #     keyword1 = urllib.parse.quote_plus(keyword1)
-    #     yesterday = (date.today() - timedelta(days=1)).strftime('%Y-%m-%d')
-    #     base_url = 'https://newsapi.org/v2/everything'
-    #     params = {
-    #         'q': keyword1,
-    #         'from': yesterday,
-    #         'sortBy': 'publishedAt',
-    #         'language': 'en',
-    #         'apiKey': '41e2e097fbb4457c9b714ee6acd4185b'
-    #     }
-    #
-    #     try:
-    #         response = requests.get(base_url, params=params)
-    #         response.raise_for_status()  # Raise an exception for HTTP errors
-    #         newsapi_data = response.json()
-    #
-    #         output_path = os.path.join('../test/newsapi', f'{keyword}.json')
-    #         with open(output_path, 'w') as f:
-    #             json.dump(newsapi_data, f, indent=4)
-    #
-    #         return newsapi_data
-    #     except requests.exceptions.RequestException as e:
-    #         print(f"Error fetching data from the NewsAPI: {e}")
-    #     return None
+    #     # keyword = keyword.replace('-', ' ')
+    #     with open(f'../test/newsapi/{keyword}.json', "r") as f:
+    #     # with open(f'../test/kak1.json', "r") as f:
+    #         return json.load(f)
+
+    def load_news_api(self, keyword):
+        keyword1 = keyword.replace('-', ' ')
+        keyword1 = urllib.parse.quote_plus(keyword1)
+        yesterday = (date.today() - timedelta(days=1)).strftime('%Y-%m-%d')
+        base_url = 'https://newsapi.org/v2/everything'
+        params = {
+            'q': keyword1,
+            'from': yesterday,
+            'sortBy': 'publishedAt',
+            'language': 'en',
+            'apiKey': '41e2e097fbb4457c9b714ee6acd4185b'
+        }
+
+        try:
+            response = requests.get(base_url, params=params)
+            response.raise_for_status()  # Raise an exception for HTTP errors
+            newsapi_data = response.json()
+
+            output_path = os.path.join('../test/newsapi', f'{keyword}.json')
+            with open(output_path, 'w') as f:
+                json.dump(newsapi_data, f, indent=4)
+
+            return newsapi_data
+        except requests.exceptions.RequestException as e:
+            print(f"Error fetching data from the NewsAPI: {e}")
+        return None
 
     def filter_articles(self, articles):
         kak = [article for article in articles if self._is_valid_article(article)]

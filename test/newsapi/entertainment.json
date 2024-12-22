@@ -1,279 +1,474 @@
 {
     "status": "ok",
-    "totalResults": 55,
+    "totalResults": 408,
     "articles": [
         {
             "source": {
-                "id": null,
-                "name": "Sky.com"
+                "id": "the-irish-times",
+                "name": "The Irish Times"
             },
-            "author": "Bethany Minelle",
-            "title": "Margot Robbie welcomes first child - reports",
-            "description": "Margot Robbie has reportedly given birth to her first child.",
-            "url": "https://news.sky.com/story/margot-robbie-welcomes-first-child-reports-13247340",
-            "urlToImage": "https://e3.365dm.com/24/11/1600x900/skynews-margot-robbie_6737289.jpg?20241103090200",
-            "publishedAt": "2024-11-03T07:49:00Z",
-            "content": "Margot Robbie has reportedly given birth to her first child.\r\nThe Australian actress has welcomed a baby boy with her husband, British actor and film producer Tom Ackerley, according to People magazi\u2026 [+1327 chars]"
-        },
-        {
-            "source": {
-                "id": "abc-news",
-                "name": "ABC News"
-            },
-            "author": "TRAVIS LOLLER Associated Press",
-            "title": "True crime's popularity brings real change for defendants and society. It's not all good",
-            "description": "In 1989, Americans were riveted by the shotgun murders of Jose and Kitty Menendez in their Beverly Hills mansion by their own children",
-            "url": "https://abcnews.go.com/US/wireStory/true-crimes-popularity-brings-real-change-defendants-society-115436112",
-            "urlToImage": "https://i.abcnewsfe.com/a/323b0426-5006-4134-a1f9-f5eaaec5d575/wirestory_66790454ecf2edebbffd4250d681da2a_16x9.jpg?w=1600",
-            "publishedAt": "2024-11-03T07:18:30Z",
-            "content": "NASHVILLE, Tenn. -- In 1989, Americans were riveted by the shotgun murders of Jose and Kitty Menendez in their Beverly Hills mansion by their own children. Lyle and Erik Menendez were sentenced to li\u2026 [+7206 chars]"
-        },
-        {
-            "source": {
-                "id": "techradar",
-                "name": "TechRadar"
-            },
-            "author": "Efosa Udinmwen",
-            "title": "This local privilege escalation vulnerability in iTunes could spell big trouble for Windows users",
-            "description": "CVE-2024-44193 is a serious local privilege escalation vulnerability in iTunes for Windows.",
-            "url": "https://www.techradar.com/pro/This-local-privilege-escalation-vulnerability-in-iTunes-could-result-in-unauthorized-sensitive-data-access-on-Windows-systems",
-            "urlToImage": "https://cdn.mos.cms.futurecdn.net/mLKps5zPLKgkyYdj7DNWP9-1200-80.png",
-            "publishedAt": "2024-11-03T07:03:00Z",
-            "content": "Cyfirma Research recently discovered a serious security vulnerability affecting users of iTunes on Windows systems.\r\nThis local privilege escalation vulnerability, classified as CVE-2024-44193, allow\u2026 [+3159 chars]"
+            "author": "Jack White",
+            "title": "\u2018Everybody here is a comedian\u2019: Robbie Williams is \u2018buzzing\u2019 to perform at Croke Park as dynamic pricing ruled out",
+            "description": "The singer will take to the stage in Dublin on August 23rd",
+            "url": "https://www.irishtimes.com/culture/music/2024/11/11/everybody-here-is-a-comedian-robbie-williams-is-buzzing-to-perform-at-croke-park-as-dynamic-pricing-ruled-out/",
+            "urlToImage": "https://www.irishtimes.com/resizer/v2/FIF7OLJ4ENE5PDSKLDZ3I22YZQ.JPG?smart=true&auth=7115d1436e9b7ac4a5760a6ffb1b6abd5c119a94236063fdee92950b66537f4d&width=1200&height=630",
+            "publishedAt": "2024-11-11T20:30:28Z",
+            "content": "Robbie Williams has hailed Irish audiences as unique, saying he is buzzing to perform at Croke Park in Dublin next year while denying that he intends to compete with the Oasis reunion.\r\nThe Let Me En\u2026 [+3407 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "TheJournal.ie"
+                "name": "Deadline"
             },
-            "author": "Paul O'Donoghue",
-            "title": "Irish shoppers should prepare for the possibility of dynamic pricing in supermarkets",
-            "description": "Lots of industries are probing the use of dynamic pricing \u2013 so could it be on the way to a supermarket near you?",
-            "url": "https://www.thejournal.ie/dynamic-pricing-supermarkets-6529138-Nov2024/",
-            "urlToImage": "https://img2.thejournal.ie/article/6529138/river/?height=400&version=6529142",
-            "publishedAt": "2024-11-03T07:00:47Z",
-            "content": "BY NOW, PRETTY much everyone is familiar with how dynamic pricing works.\r\nIn a nutshell when demand for a product is high, the price of the product can be raised.\r\nAirlines and hotels are the most ob\u2026 [+8232 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Stacksocial.com"
-            },
-            "author": null,
-            "title": "12-in-1 USB-C Hub and Laptop Stand for $59",
-            "description": "Expires October 30, 2124 07:59 PST\n\n\n\n\n Buy now and get 40% off\n\n\n\n\n \n \n \n\n \n \n \r\n\n \n \n \r\n\n \n \n \r\n\n \n \n \r\n\n \n \n \r\n\n \n\n \n KEY FEATURES\r\n\n\n\n\nMaximize Laptop Connectivity with the 12-in-1 USB C Hub Multi-Port Adapter and Stand\r\n\n\n\n\n\nUnlock the full potential of \u2026",
-            "url": "https://www.stacksocial.com/sales/12-in-1-usb-c-hub-and-laptop-stand?utm_campaign=feed&amp;utm_medium=RSS&amp;aid=&amp;utm_source=androidauthroity",
-            "urlToImage": "https://cdnp0.stackassets.com/d6c4fc5ba5a9b65e054184eca3f4b498d9e1ba94/store/920fda731beae528704863fb9482417f8efc1efdb383226669579a56e962/sale_327426_primary_image.jpg",
-            "publishedAt": "2024-11-03T07:00:00Z",
-            "content": "Unlock the full potential of your laptop with this versatile 12-in-1 USB C Hub Multiport Adapter that doubles as a laptop stand. Designed to tackle all your connectivity needs, this sleek, portable d\u2026 [+1491 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Stacksocial.com"
-            },
-            "author": null,
-            "title": "12-in-1 USB-C Hub and Laptop Stand for $59",
-            "description": "Expires October 30, 2124 07:59 PST\n\n\n\n\n Buy now and get 40% off\n\n\n\n\n \n \n \n\n \n \n \r\n\n \n \n \r\n\n \n \n \r\n\n \n \n \r\n\n \n \n \r\n\n \n\n \n KEY FEATURES\r\n\n\n\n\nMaximize Laptop Connectivity with the 12-in-1 USB C Hub Multi-Port Adapter and Stand\r\n\n\n\n\n\nUnlock the full potential of \u2026",
-            "url": "https://www.stacksocial.com/sales/12-in-1-usb-c-hub-and-laptop-stand?aid=&amp;utm_source=cultofmac&amp;utm_medium=RSS&amp;utm_campaign=feed",
-            "urlToImage": "https://cdnp0.stackassets.com/d6c4fc5ba5a9b65e054184eca3f4b498d9e1ba94/store/920fda731beae528704863fb9482417f8efc1efdb383226669579a56e962/sale_327426_primary_image.jpg",
-            "publishedAt": "2024-11-03T07:00:00Z",
-            "content": "Unlock the full potential of your laptop with this versatile 12-in-1 USB C Hub Multiport Adapter that doubles as a laptop stand. Designed to tackle all your connectivity needs, this sleek, portable d\u2026 [+1491 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Stacksocial.com"
-            },
-            "author": null,
-            "title": "12-in-1 USB-C Hub and Laptop Stand for $59",
-            "description": "Expires October 30, 2124 07:59 PST\n\n\n\n\n Buy now and get 40% off\n\n\n\n\n \n \n \n\n \n \n \r\n\n \n \n \r\n\n \n \n \r\n\n \n \n \r\n\n \n \n \r\n\n \n\n \n KEY FEATURES\r\n\n\n\n\nMaximize Laptop Connectivity with the 12-in-1 USB C Hub Multi-Port Adapter and Stand\r\n\n\n\n\n\nUnlock the full potential of \u2026",
-            "url": "https://www.stacksocial.com/sales/12-in-1-usb-c-hub-and-laptop-stand?utm_medium=RSS&amp;aid=&amp;utm_campaign=feed&amp;utm_source=boingboing",
-            "urlToImage": "https://cdnp0.stackassets.com/d6c4fc5ba5a9b65e054184eca3f4b498d9e1ba94/store/920fda731beae528704863fb9482417f8efc1efdb383226669579a56e962/sale_327426_primary_image.jpg",
-            "publishedAt": "2024-11-03T07:00:00Z",
-            "content": "Unlock the full potential of your laptop with this versatile 12-in-1 USB C Hub Multiport Adapter that doubles as a laptop stand. Designed to tackle all your connectivity needs, this sleek, portable d\u2026 [+1491 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Stacksocial.com"
-            },
-            "author": null,
-            "title": "12-in-1 USB-C Hub and Laptop Stand for $59",
-            "description": "Expires October 30, 2124 07:59 PST\n\n\n\n\n Buy now and get 40% off\n\n\n\n\n \n \n \n\n \n \n \r\n\n \n \n \r\n\n \n \n \r\n\n \n \n \r\n\n \n \n \r\n\n \n\n \n KEY FEATURES\r\n\n\n\n\nMaximize Laptop Connectivity with the 12-in-1 USB C Hub Multi-Port Adapter and Stand\r\n\n\n\n\n\nUnlock the full potential of \u2026",
-            "url": "https://www.stacksocial.com/sales/12-in-1-usb-c-hub-and-laptop-stand",
-            "urlToImage": "https://cdnp0.stackassets.com/d6c4fc5ba5a9b65e054184eca3f4b498d9e1ba94/store/920fda731beae528704863fb9482417f8efc1efdb383226669579a56e962/sale_327426_primary_image.jpg",
-            "publishedAt": "2024-11-03T07:00:00Z",
-            "content": "Unlock the full potential of your laptop with this versatile 12-in-1 USB C Hub Multiport Adapter that doubles as a laptop stand. Designed to tackle all your connectivity needs, this sleek, portable d\u2026 [+1491 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Video-downloader.net"
-            },
-            "author": "jerryjee",
-            "title": "Show HN: Free online video downloader for sites such as YouTube",
-            "description": "Effortlessly download videos and audios from thousands of websites such as TikTok, Twitter, Facebook, Vimeo, DailyMotion, and many more.\n\nComments URL: https://news.ycombinator.com/item?id=42031483\nPoints: 1\n# Comments: 0",
-            "url": "https://video-downloader.net",
-            "urlToImage": null,
-            "publishedAt": "2024-11-03T06:35:53Z",
-            "content": "Video Downloader supports a vast array of video hosting platforms, ensuring you can download content from almost any site you encounter. Includes:\r\n1. Major Social Media Platforms\r\n2. Video Sharing W\u2026 [+610 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "ET Online",
-            "title": "Bigg Boss 18 adds special twist: Actor-politician to join Salman Khan as co-host for explosive segment",
-            "description": "In the latest season of Bigg Boss 18, actor and politician Ravi Kishan joins Salman Khan as a co-host for a special Sunday segment titled \"Haaye Dayyaa with Ravi Bhaiyya.\" Having previously participated as a contestant in the show's inaugural season, Kishan b\u2026",
-            "url": "https://economictimes.indiatimes.com/magazines/panache/bigg-boss-18-adds-special-twist-actor-politician-to-join-salman-khan-as-co-host-for-explosive-segment/articleshow/114904758.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-114904987,width-1200,height-630,imgsize-1940702,overlay-etpanache/articleshow.jpg",
-            "publishedAt": "2024-11-03T06:27:38Z",
-            "content": "The latest season of Bigg Boss 18, which launched on October 6, is stirring up excitement as actor and politician Ravi Kishan joins as a co-host alongside Salman Khan. Known for his vibrant personali\u2026 [+2455 chars]"
+            "author": "Jake Kanter",
+            "title": "Gary Lineker Poised To Leave The BBC After 2026\u00a0FIFA World Cup",
+            "description": "The BBC is gearing up to announce that its highest-paid presenter is heading for the exit door. Gary Lineker is ready to step down from iconic Premier League highlights show Match of The Day at the end of the 2024/25 season in May next year and leave the BBC \u2026",
+            "url": "http://deadline.com/2024/11/gary-lineker-leave-bbc-match-of-the-day-1236172799/",
+            "urlToImage": "https://deadline.com/wp-content/uploads/2023/04/GettyImages-1391780150.jpg?w=1024",
+            "publishedAt": "2024-11-11T20:29:26Z",
+            "content": "The BBC is gearing up to announce that its highest-paid presenter is heading for the exit door.\r\nGary Lineker is ready to step down from iconic Premier League highlights show Match of The Day at the \u2026 [+2500 chars]"
         },
         {
             "source": {
                 "id": "fox-news",
                 "name": "Fox News"
             },
-            "author": "Ashley Hume",
-            "title": "'American Pickers' star Mike Wolfe says he held Frank Fritz's hand when late co-star 'took his last breath'",
-            "description": "\"American Pickers\" star Mike Wolfe recalled his final moments with Frank Fritz before his former co-star's death. Wolfe was by Fritz's side when he passed away last month.",
-            "url": "https://www.foxnews.com/entertainment/american-pickers-star-mike-wolfe-holding-frank-fritzs-hand-when-late-co-star-took-his-last-breath",
-            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2024/11/mikefrank.jpg",
-            "publishedAt": "2024-11-03T06:17:11Z",
-            "content": "\"American Pickers\" star Mike Wolfe opened up about his final moments with Frank Fritz before his late co-star's death.\r\nThe 60-year-old TV personality and Fritz were childhood friends who co-hosted t\u2026 [+7869 chars]"
+            "author": "Elizabeth Stanton",
+            "title": "Former Iron Maiden singer Paul Di\u2019Anno\u2019s cause of death revealed",
+            "description": "A cause of death for former Iron Maiden singer Paul Di'Anno has been revealed, a few weeks after his death at the age of 66.",
+            "url": "https://www.foxnews.com/entertainment/former-iron-maiden-singer-paul-diannos-cause-death-revealed",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2024/11/pauldianno-2.jpg",
+            "publishedAt": "2024-11-11T20:29:25Z",
+            "content": "A cause of death has been revealed for singer Paul DiAnno, the original vocalist for heavy metal band Iron Maiden.\r\nIn a Facebook post shared on DiAnnos official page, a statement from his representa\u2026 [+2897 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Ozbargain.com.au"
+                "name": "Substack.com"
             },
-            "author": "Hiphopopotamus",
-            "title": "[eBook] Free - Something to Look at Besides Your Phone While You're on the Toilet, 853 Hard To Believe Facts @ Amazon AU",
-            "description": "Something to Look at Besides Your Phone While You're on the Toilet: A Book of General Trivia for Your Bathroom Breaks by I. P. Freely\nAmazon US link\n\n\n Fact: Your smartphone is dirtier than a public restroom toilet seat.\r\n\n \n Another fact: Thats nasty!\r\n\n \n S\u2026",
-            "url": "https://www.ozbargain.com.au/node/874787",
-            "urlToImage": "https://www.ozbargain.com.au/themes/ozbargain/logo-square.png",
-            "publishedAt": "2024-11-03T06:15:07Z",
-            "content": "This post contains affiliate links. OzBargain might earn commissions when you click through and make purchases. Please see this page for more information.\r\nSomething to Look at Besides Your Phone Whi\u2026 [+2064 chars]"
+            "author": "A_D_E_P_T",
+            "title": "The online sports gambling experiment",
+            "description": "Article URL: https://thezvi.substack.com/p/the-online-sports-gambling-experiment\nComments URL: https://news.ycombinator.com/item?id=42110194\nPoints: 96\n# Comments: 77",
+            "url": "https://thezvi.substack.com/p/the-online-sports-gambling-experiment",
+            "urlToImage": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae7cec0b-1dc0-4075-968e-95a6f0958a02_3000x4000.jpeg",
+            "publishedAt": "2024-11-11T20:29:20Z",
+            "content": "Related: Book Review: On the Edge: The Gamblers\r\nI have previously been heavily involved in sports betting. That world was very good to me. The times were good, as were the profits. It was a skill ga\u2026 [+20315 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "BroBible"
+                "name": "Digital Trends"
             },
-            "author": "Jorge Alonso",
-            "title": "Drake Stares Down DeMar DeRozan & Curses At Him During Raptors Game For Appearing In Kendrick Lamar Video",
-            "description": "Drake is not happy with Raptors legend DeMar DeRozan. Over the summer, DeRozan, who now plays for the Sacramento Kings, appeared in the video for the Drake diss song \u2018They Not Like Us\u2019 by Kendrick Lamar. Despite appearing in Kendrick\u2019s video, DeRozan said he \u2026",
-            "url": "https://brobible.com/sports/article/drake-stares-down-demar-derozan/",
-            "urlToImage": "https://brobible.com/wp-content/uploads/2024/11/drake7.png",
-            "publishedAt": "2024-11-03T05:53:31Z",
-            "content": "Getty Image\r\nDrake is not happy with Raptors legend DeMar DeRozan.\r\nOver the summer, DeRozan, who now plays for the Sacramento Kings, appeared in the video for the Drake diss song \u2018They Not Like Us\u2019 \u2026 [+1579 chars]"
+            "author": "Carli Velocci",
+            "title": "Overwatch Classic is bringing 6v6 back \u2014 and that\u2019s not all",
+            "description": "Overwatch Classic isn't just about bringing 6v6 back. It's all about Overwatch nostalgia.",
+            "url": "https://www.digitaltrends.com/gaming/overwatch-classic-6v6-announcement/",
+            "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2016/06/Overwatch_Feature.jpg?resize=1200%2C630&p=1",
+            "publishedAt": "2024-11-11T20:26:06Z",
+            "content": "Blizzard Entertainment\r\nBlizzard has officially announced how it\u2019s bringing 6v6 back to Overwatch, and it\u2019s definitely more than what we expected. Beyond just bringing the old ways back to the game a\u2026 [+2261 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "ETF Daily News"
+                "name": "Rolling Stone"
             },
-            "author": "MarketBeat News",
-            "title": "Wells Fargo & Company Issues Positive Forecast for Comcast (NASDAQ:CMCSA) Stock Price",
-            "description": "Comcast (NASDAQ:CMCSA \u2013 Get Free Report) had its price target lifted by Wells Fargo & Company from $43.00 to $46.00 in a report issued on Friday, Benzinga reports. The firm presently has an \u201cequal weight\u201d rating on the cable giant\u2019s stock. Wells Fargo & Compa\u2026",
-            "url": "https://www.etfdailynews.com/2024/11/03/wells-fargo-company-issues-positive-forecast-for-comcast-nasdaqcmcsa-stock-price/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/comcast-co-logo-1200x675.jpg?v=20231213132334&w=240&h=240&zc=2",
-            "publishedAt": "2024-11-03T05:42:42Z",
-            "content": "Comcast (NASDAQ:CMCSA \u2013 Get Free Report) had its price target lifted by Wells Fargo &amp; Company from $43.00 to $46.00 in a report issued on Friday, Benzinga reports. The firm presently has an \u201cequa\u2026 [+4422 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "TOI Entertainment Desk",
-            "title": "Shah Rukh Khan's most exorbitant possessions",
-            "description": "SRK, celebrated his birthday on November 2, highlighting his journey from earning Rs 50 in 'Fauji' to becoming one of Bollywood's richest actors. Key possessions include Mumbai's Mannat, properties in London and Dubai, high-end cars, and co-ownership of KKR. \u2026",
-            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/from-mannat-to-dubai-a-glimpse-into-shah-rukh-khans-most-exhorbitant-possessions/articleshow/114904052.cms",
-            "urlToImage": "https://static.toiimg.com/thumb/msid-114904033,width-1070,height-580,imgsize-24672,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
-            "publishedAt": "2024-11-03T05:36:51Z",
-            "content": "Bollywood's King Khan SRK celebrated his birthday yesterday, November 2. From the first salary he bagged to play in the serial Fauji amounting to mere Rs 50, SRK today stands as the most bankable act\u2026 [+1502 chars]"
+            "author": "Kalia Richardson",
+            "title": "Blake Shelton and Taylor Sheridan Team Up for New Singing Competition Show \u2018The Road\u2019",
+            "description": "'The Road' singing competition show will invite prospective stars on a nationwide tour, with the hopes of garnering a local following.",
+            "url": "http://www.rollingstone.com/music/music-news/blake-shelton-taylor-sheridan-the-road-cbs-1235162009/",
+            "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2024/11/taylor-sheridan-blake-shelton.jpg?crop=0px%2C0px%2C1800px%2C1014px&resize=1600%2C900",
+            "publishedAt": "2024-11-11T20:21:23Z",
+            "content": "Blake Shelton is returning to his roots of helping discover emerging artists on singing competition shows \u2014 but this time, he won\u2019t be in a spinning chair. The country star and Yellowstone creator Ta\u2026 [+1767 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "ETF Daily News"
+                "name": "WWD"
             },
-            "author": "MarketBeat News",
-            "title": "Travelzoo (NASDAQ:TZOO) Lowered to Buy Rating by StockNews.com",
-            "description": "Travelzoo (NASDAQ:TZOO \u2013 Get Free Report) was downgraded by analysts at StockNews.com from a \u201cstrong-buy\u201d rating to a \u201cbuy\u201d rating in a report issued on Friday. Several other equities research analysts have also weighed in on the company. Barrington Research \u2026",
-            "url": "https://www.etfdailynews.com/2024/11/03/travelzoo-nasdaqtzoo-lowered-to-buy-rating-by-stocknews-com/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/travelzoo-logo-1200x675.png?v=20240524090515&w=240&h=240&zc=2",
-            "publishedAt": "2024-11-03T05:35:01Z",
-            "content": "Travelzoo (NASDAQ:TZOO \u2013 Get Free Report) was downgraded by analysts at StockNews.com from a \u201cstrong-buy\u201d rating to a \u201cbuy\u201d rating in a report issued on Friday.\r\nSeveral other equities research analy\u2026 [+5189 chars]"
+            "author": "Ryma Chikhoune",
+            "title": "EXCLUSIVE: The\u00a0Lede\u00a0Company Expands With Events Division, Led by Emma Parker and Brendan\u00a0Ordonez",
+            "description": "The\u00a0Lede\u00a0Company\u00a0will oversee publicity and communications for events for clients that include Louis Vuitton, Audi, Diptyque Paris, among others.",
+            "url": "http://wwd.com/fashion-news/fashion-scoops/the-lede-company-events-division-emma-parker-brendan-ordonez-1236718163/",
+            "urlToImage": "https://wwd.com/wp-content/uploads/2024/11/lede-company-feature-imageA_fce724.jpg?w=1000&h=563&crop=1",
+            "publishedAt": "2024-11-11T20:20:57Z",
+            "content": "The\u00a0Lede\u00a0Company is introducing an events division coheaded by Emma Parker and Brendan Ordonez. They will report to The\u00a0Lede\u00a0Company cofounders and co-chief executive officers Sarah Rothman, Amanda S\u2026 [+2785 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "ETF Daily News"
+                "name": "BBC News"
             },
-            "author": "MarketBeat News",
-            "title": "Q2 Earnings Forecast for ETD Issued By Telsey Advisory Group",
-            "description": "Ethan Allen Interiors Inc. (NYSE:ETD \u2013 Free Report) \u2013 Investment analysts at Telsey Advisory Group decreased their Q2 2025 earnings per share (EPS) estimates for Ethan Allen Interiors in a research note issued to investors on Thursday, October 31st. Telsey Ad\u2026",
-            "url": "https://www.etfdailynews.com/2024/11/03/q2-earnings-forecast-for-etd-issued-by-telsey-advisory-group/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/ethan-allen-interiors-inc-logo-1200x675.jpg?v=20210820112903&w=240&h=240&zc=2",
-            "publishedAt": "2024-11-03T05:32:53Z",
-            "content": "Ethan Allen Interiors Inc. (NYSE:ETD \u2013 Free Report) \u2013 Investment analysts at Telsey Advisory Group decreased their Q2 2025 earnings per share (EPS) estimates for Ethan Allen Interiors in a research n\u2026 [+4825 chars]"
+            "author": null,
+            "title": "How Gary Lineker went from football sensation to BBC star",
+            "description": "The BBC will lose one of its highest-profile presenters when he stops hosting Match of the Day.",
+            "url": "https://www.bbc.com/news/articles/cp39xlwexyxo",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1d87/live/fdd74a20-81c5-11ef-a12a-677a8dd0b1b3.jpg",
+            "publishedAt": "2024-11-11T20:11:53Z",
+            "content": "Final whistle: Gary Lineker hosted Match of the Day for 25 years\r\nGary Lineker, who will leave Match of the Day at the end of this season, BBC News understands, has been the steady hand who guided mi\u2026 [+8252 chars]"
         },
         {
             "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
+                "id": "bbc-news",
+                "name": "BBC News"
             },
-            "author": "ET Online",
-            "title": "Barbie star Margot Robbie welcomes first child with husband Tom Ackerley",
-            "description": "Margot Robbie and her husband Tom Ackerley have welcomed their first child. The couple, known for their collaboration in LuckyChap Entertainment, met in 2013 on a film set. They married in 2016. Recently, Robbie has been seen in stylish maternity outfits. The\u2026",
-            "url": "https://economictimes.indiatimes.com/news/international/global-trends/barbie-star-margot-robbie-welcomes-first-child-with-husband-tom-ackerley/articleshow/114903677.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-114903771,width-1200,height-630,imgsize-19788,overlay-economictimes/articleshow.jpg",
-            "publishedAt": "2024-11-03T05:23:50Z",
-            "content": "Margot Robbie, star of 'Barbie,' has welcomed her first child with husband Tom Ackerley, according to People. While the details about the newborn are yet to be disclosed, it is reported that the coup\u2026 [+1090 chars]"
-        },
-        {
-            "source": {
-                "id": "abc-news",
-                "name": "ABC News"
-            },
-            "author": "TRAVIS LOLLER Associated Press",
-            "title": "True crime's popularity brings real change for defendants and society. It's not all good",
-            "description": "In 1989, Americans were riveted by the shotgun murders of Jose and Kitty Menendez in their Beverly Hills mansion by their own children",
-            "url": "https://abcnews.go.com/Entertainment/wireStory/true-crimes-popularity-brings-real-change-defendants-society-115436113",
-            "urlToImage": "https://i.abcnewsfe.com/a/323b0426-5006-4134-a1f9-f5eaaec5d575/wirestory_66790454ecf2edebbffd4250d681da2a_16x9.jpg?w=1600",
-            "publishedAt": "2024-11-03T05:18:22Z",
-            "content": "NASHVILLE, Tenn. -- In 1989, Americans were riveted by the shotgun murders of Jose and Kitty Menendez in their Beverly Hills mansion by their own children. Lyle and Erik Menendez were sentenced to li\u2026 [+7206 chars]"
+            "author": "Helen Bushby",
+            "title": "Gary Lineker: How he went from football sensation to BBC star",
+            "description": "The BBC will lose one of its highest-profile presenters when he stops hosting Match of the Day.",
+            "url": "https://www.bbc.co.uk/news/articles/cp39xlwexyxo",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/b7e1/live/a5a7dd60-a07e-11ef-8ab9-9192db313061.jpg",
+            "publishedAt": "2024-11-11T20:11:53Z",
+            "content": "The headlines and dramas generated by his online views reinforced not only his high celebrity status - but also how keen the BBC was to hang on to him.\r\nThe incident prompted a review of BBC social m\u2026 [+1653 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "ETF Daily News"
+                "name": "Socialnomics.net"
             },
-            "author": "MarketBeat News",
-            "title": "Critical Comparison: Data443 Risk Mitigation (OTCMKTS:ATDS) versus Autodesk (NASDAQ:ADSK)",
-            "description": "Autodesk (NASDAQ:ADSK \u2013 Get Free Report) and Data443 Risk Mitigation (OTCMKTS:ATDS \u2013 Get Free Report) are both computer and technology companies, but which is the superior stock? We will compare the two companies based on the strength of their earnings, valua\u2026",
-            "url": "https://www.etfdailynews.com/2024/11/03/critical-comparison-data443-risk-mitigation-otcmktsatds-versus-autodesk-nasdaqadsk/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/data443-risk-mitigation-inc-logo-1200x675.png?v=20230203111341&w=240&h=240&zc=2",
-            "publishedAt": "2024-11-03T05:16:48Z",
-            "content": "Autodesk (NASDAQ:ADSK \u2013 Get Free Report) and Data443 Risk Mitigation (OTCMKTS:ATDS \u2013 Get Free Report) are both computer and technology companies, but which is the superior stock? We will compare the \u2026 [+6470 chars]"
+            "author": "Tallie Kumar",
+            "title": "Top 10 Tech Gifts for the 2024 Holiday Season",
+            "description": "Top 10 Tech Gifts for the 2024 Holiday Season As the holiday season approaches, finding the perfect tech gift can be a challenge. Whether you\u2019re shopping for a gadget enthusiast or someone who simply enjoys everyday conveniences, there are plenty of options t\u2026",
+            "url": "https://socialnomics.net/2024/11/11/top-10-tech-gifts-for-the-2024-holiday-season/",
+            "urlToImage": "https://socialnomics.net/wp-content/uploads/2024/11/holiday-1024x683.jpg",
+            "publishedAt": "2024-11-11T20:06:58Z",
+            "content": "As the holiday season approaches, finding the perfect tech gift can be a challenge. Whether you\u2019re shopping for a gadget enthusiast or someone who simply enjoys everyday conveniences, there are plent\u2026 [+5884 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "ETF Daily News"
+                "name": "Toynewsi.com"
             },
-            "author": "MarketBeat News",
-            "title": "Digital Ally (NASDAQ:DGLY) Now Covered by StockNews.com",
-            "description": "Stock analysts at StockNews.com initiated coverage on shares of Digital Ally (NASDAQ:DGLY \u2013 Get Free Report) in a report issued on Sunday. The brokerage set a \u201csell\u201d rating on the scientific and technical instruments company\u2019s stock. Digital Ally Price Perfor\u2026",
-            "url": "https://www.etfdailynews.com/2024/11/03/digital-ally-nasdaqdgly-now-covered-by-stocknews-com-2/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/digital-ally-inc-logo-1200x675.jpg&w=240&h=240&zc=2",
-            "publishedAt": "2024-11-03T05:12:52Z",
-            "content": "Stock analysts at StockNews.com initiated coverage on shares of Digital Ally (NASDAQ:DGLY \u2013 Get Free Report) in a report issued on Sunday. The brokerage set a \u201csell\u201d rating on the scientific and tech\u2026 [+1958 chars]"
+            "author": "toynewsi.com",
+            "title": "Pre-order Alert: McFarlane Toys DC Multiverse Gold Label Blue Beetle (Black & White Accent Edition) Exclusive 7\" Figure",
+            "description": "Pre-order Alert: McFarlane Toys DC Multiverse Gold Label Blue Beetle (Black & White Accent Edition) Exclusive 7\" Figure",
+            "url": "https://toynewsi.com/news.php?itemid=55580",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T20:04:55Z",
+            "content": "Forums Communities: \r\nToy Fans -\r\nMarvel Fans - \r\nTransformers Fans\r\n@ToyNewsI Socials: \r\nFacebook -\r\nTwitter -\r\nInstagram\r\n@MarvelousNews Socials:\r\nFacebook - \r\nTwitter -\r\nInstagram\r\n@Tformers Socia\u2026 [+1010 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "YEN.COM.GH"
+            },
+            "author": "Geraldo Amartey",
+            "title": "Agya Koo Narrates How He Convinced Akrobeto To Leave Belgium To Come Act In Ghana",
+            "description": "Agya Koo convinced Akrobeto to leave his job in Europe for a career in Kumawood. Their first film together became a hit, launching Akrobeto\u2019s career.",
+            "url": "https://yen.com.gh/entertainment/celebrities/270949-agya-koo-narrates-how-convinced-akrobeto-leave-act-ghana/",
+            "urlToImage": "https://cdn.yen.com.gh/images/1200x675/fe6625f493140730.jpeg?v=1",
+            "publishedAt": "2024-11-11T20:02:05Z",
+            "content": "<ul><li>Agya Koo has narrated how he convinced colleague actor Akrobeto to leave overseas for Ghana to join the Kumawood movie scene </li><li>The actor said he went to Holland for a show and asked Ak\u2026 [+2457 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNET"
+            },
+            "author": "Kaz Weida",
+            "title": "Traveling for the Holidays? How to Get Airport Lounge Access for the Whole Family",
+            "description": "If you fly with kids, airport lounge access is a game changer.",
+            "url": "https://www.cnet.com/personal-finance/credit-cards/traveling-for-the-holidays-how-to-get-airport-lounge-access-for-the-whole-family/",
+            "urlToImage": "https://www.cnet.com/a/img/resize/2530c41ad0e2a0b86171e124d051c5d154f5fa2f/hub/2024/07/02/1530d68c-21f4-4265-a843-212207a8cdf6/gettyimages-1944533613.jpg?auto=webp&fit=crop&height=675&width=1200",
+            "publishedAt": "2024-11-11T20:00:13Z",
+            "content": "Lounges and clubs serve as an oasis in the sea of stressed travelers that crowd airports. With top-tier amenities and exclusive perks, these private, swanky spaces are geared towards executives and b\u2026 [+8339 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Anime News Network"
+            },
+            "author": null,
+            "title": "Shigemitsu Harada, Hachi Send\u014d's Hikaru to Hikaru Comedy Manga Ends",
+            "description": "Gender bender comedy launched in March 2023 // The December issue of Kadokawa's Dragon Age magazine published the final chapter of Shigemitsu Harada and Hachi...",
+            "url": "https://www.animenewsnetwork.com/news/2024-11-11/shigemitsu-harada-hachi-sendo-hikaru-to-hikaru-comedy-manga-ends/.217720",
+            "urlToImage": "https://www.animenewsnetwork.com/thumbnails/crop600x315gY2/cms/news.7/217720/hikaru.jpg",
+            "publishedAt": "2024-11-11T20:00:00Z",
+            "content": "Image via Amazon Japan\r\n\u00a9 Shigemitsu Harada, Hachi Send, Kadokawa\r\nThe December issue of Kadokawa's Dragon Age magazine published the final chapter of Shigemitsu Harada and Hachi Send's Hikaru to Hik\u2026 [+2547 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "GameSpot"
+            },
+            "author": "Steven Petite",
+            "title": "Friends 4K Blu-Ray Box Set Gets $90 Discount At Amazon",
+            "description": "The '90s were arguably the decade with the best sitcom shows, and for anyone growing up in that time period, nothing was better than hanging out with Ross, Rachel, Monica, Joey, Phoebe, and Chandler. Friends was one of the hottest shows of its era, and if you\u2026",
+            "url": "https://www.gamespot.com/articles/friends-complete-series-4k-blu-ray-box-set-gets-90-discount-at-amazon/1100-6523802/",
+            "urlToImage": "https://www.gamespot.com/a/uploads/screen_kubrick/1601/16018044/4310229-friends.jpg",
+            "publishedAt": "2024-11-11T19:58:00Z",
+            "content": "The '90s were arguably the decade with the best sitcom shows, and for anyone growing up in that time period, nothing was better than hanging out with Ross, Rachel, Monica, Joey, Phoebe, and Chandler.\u2026 [+2824 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Post"
+            },
+            "author": "Alexandra Steigrad",
+            "title": "Left-leaning Hachette staffers slam new conservative imprint at publishing group",
+            "description": "A group of left-leaning Hachette employees slammed the launch of a new conservative imprint, dubbed \u201cBasic LIberty\u201d \u2014 as well as the hiring of a conservative publisher to run it. Hachette Books Group and Hachette UK boss David Shelley announced on Nov. 7 \u2014 tw\u2026",
+            "url": "https://nypost.com/2024/11/11/media/left-leaning-hachette-staffers-slam-new-conservative-imprint-at-publishing-group/",
+            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/11/93463813-1.jpg?quality=75&strip=all&w=1024",
+            "publishedAt": "2024-11-11T19:52:45Z",
+            "content": "A group of left-leaning Hachette employees slammed the launch of a new conservative imprint, dubbed \u201cBasic LIberty\u201d as well as the hiring of a conservative publisher to run it.\r\nHachette Books Group \u2026 [+3714 chars]"
+        },
+        {
+            "source": {
+                "id": "ign",
+                "name": "IGN"
+            },
+            "author": "Alex Stedman",
+            "title": "Megalopolis Digital Release Date Set in the Wake of Disappointing Theatrical Run",
+            "description": "As Megalopolis' theatrical run sputters to a close, we now know when Francis Ford Coppola's passion project will be available to watch at home.",
+            "url": "https://www.ign.com/articles/megalopolis-digital-release-date-set-in-the-wake-of-disappointing-theatrical-run",
+            "urlToImage": "https://assets-prd.ignimgs.com/2024/08/21/megalopolisthumb-1724247247586.png?width=1280",
+            "publishedAt": "2024-11-11T19:50:28Z",
+            "content": "As Megalopolis' theatrical run sputters to a close, we now know when Francis Ford Coppola's passion project will be available to watch at home.\r\nLionsgate announced on Monday that Megalopolis will de\u2026 [+1845 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Newsbreak.com"
+            },
+            "author": "Greta Bjornson",
+            "title": "Ana Navarro Delivers Spiteful Warning To Trump Voters On \u2018The View\u2019: \u201cYou Screwed Around And You\u2019re About To Find Out\u201d",
+            "description": "Ana Navarro delivered a rather nihilistic warning to Donald Trump\u2018s voters on this morning\u2019s episode of The View after the incumbent president named Tom Homan as his administration\u2019s border czar. \n\nHoman, a former ICE director, told 60 Minutes he is willing t\u2026",
+            "url": "https://www.newsbreak.com/share/3670206274159-ana-navarro-delivers-spiteful-warning-to-trump-voters-on-the-view-you-screwed-around-and-you-re-about-to-find-out?_f=app_share&amp;pd=0EiOXgpq&amp;lang=en_US&amp;send_time=1731354484&amp;trans_data=%7B%22platform%22%3A0%2C%22cv%22%3A%2224.44.0.18%22%2C%22languages%22%3A%22en%22%7D&amp;sep=ns_summary_v1-v3%2Cns_foryou_blend_exp_24q4-v3%2Cns_foryou_rank_exp_24q4-v7%2Cns_local_strategy_24q4_exp-v7%2Cns_pushv1-v9%2Cns_foryou_model_exp_24q4-v2%2Cns_foryou_recall_exp_24q4-v2&amp;s=i2",
+            "urlToImage": "https://img.particlenews.com/img/id/2GH8H9_0wiBAd4z00?type=thumbnail_1600x1200",
+            "publishedAt": "2024-11-11T19:48:41Z",
+            "content": "Ana Navarro delivered a rather nihilistic warning to Donald Trump s voters on this mornings episode of The View after the incumbent president named Tom Homan as his administrations border czar. \r\n Wh\u2026 [+2092 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Lawrence Bonk",
+            "title": "A TV show about EA Sports' Madden games hits Prime Video on November 26",
+            "description": "Madden NFL has been around for almost 40 years (really) so it\u2019s high time the gaming franchise got the documentary treatment. Prime Video has got you covered. The platform just announced that It\u2019s in the Game: Madden NFL will stream on November 26, which is j\u2026",
+            "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_50fa9fb6-17a1-417d-9ce3-3a170dfdd96b",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T19:48:33Z",
+            "content": "If you click 'Accept all', we and our partners, including 237 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use \u2026 [+678 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Android Police"
+            },
+            "author": "Chris Thomas",
+            "title": "The RedMagic 10 Pro gaming phone's design confirmed",
+            "description": "Redmagic is about to do it again, with its newly revealed 10 Pro already breaking benchmark records, and more firsts to come",
+            "url": "https://www.androidpolice.com/record-breaking-redmagic-10-pro-gaming-phone-confirmed/",
+            "urlToImage": "https://static1.anpoimages.com/wordpress/wp-content/uploads/2024/11/redmagic-ten-pro-render-1.jpg",
+            "publishedAt": "2024-11-11T19:47:48Z",
+            "content": "Key Takeaways\r\n<ul><li> The RedMagic 10 Pro design aims to lead the gaming phone world, with top performance and uncompromising design. </li><li> The phone's flat body lacks a camera bump, making it \u2026 [+2913 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "Farah Hannoun",
+            "title": "Tom Aspinall: UFC 309's Michael Chandler has to be 'one of the most frustrating people to coach ever'",
+            "description": "Tom Aspinall enjoys watching Michael Chandler fight, but can't imagine how his corner feels.",
+            "url": "https://mmajunkie.usatoday.com/2024/11/ufc-309-tom-aspinall-opinion-michael-chandler-frustrating-to-coach",
+            "urlToImage": "https://mmajunkie.usatoday.com/wp-content/uploads/sites/91/2021/05/charles-oliveira-michael-chandler-ufc-262-18.jpg?w=1024&h=576&crop=1",
+            "publishedAt": "2024-11-11T19:45:38Z",
+            "content": "Tom Aspinall enjoys watching Michael Chandler fight, but can\u2019t imagine how his corner feels.\r\nChandler (23-8 MMA, 2-3 UFC) runs things back with Charles Oliveira (34-10 MMA, 22-10 UFC) in Saturday\u2019s \u2026 [+1900 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Anime News Network"
+            },
+            "author": null,
+            "title": "Answerman - Why is the nudity removed from the Ranma 1/2 remake?",
+            "description": "Jerome discusses the recent \"kewpie-fication\" of Ranma in MAPPA's animated remake of the classic series.",
+            "url": "https://www.animenewsnetwork.com/answerman/2024-11-11/.217017",
+            "urlToImage": "https://www.animenewsnetwork.com/thumbnails/crop600x315gAI/cms/answerman/217017/ranmabutt.jpg",
+            "publishedAt": "2024-11-11T19:45:00Z",
+            "content": "Image via Otacat\r\nThe internet asks:\r\n\"Why is the nudity removed from the Ranma 1/2 remake?\"\r\nRanma as she appears in episode 1, sans buttcrack\r\n[context: it's not censored; the new version doesn't i\u2026 [+5644 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Deadline"
+            },
+            "author": "Nancy Tartaglione",
+            "title": "Greenwich Entertainment Acquires \u2018Come Closer\u2019, Israel\u2019s Oscar Entry For Best International Feature",
+            "description": "EXCLUSIVE: Greenwich Entertainment has acquired U.S. and Canada distribution rights to Come Closer, which is Israel\u2019s submission to the Best International Feature Oscar race. From director Tom Nesher and based loosely on incidents from her own life, the film \u2026",
+            "url": "http://deadline.com/2024/11/come-closer-greenwich-entertainment-acquires-israel-oscar-entry-1236172759/",
+            "urlToImage": "https://deadline.com/wp-content/uploads/2024/09/large_COME_CLOSER-Clean-16x9-01.png?w=980",
+            "publishedAt": "2024-11-11T19:44:04Z",
+            "content": "EXCLUSIVE:Greenwich Entertainment has acquired U.S. and Canada distribution rights to Come Closer, which is Israel\u2019s submission to the Best International Feature Oscar race.\r\nFrom director Tom Nesher\u2026 [+2457 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Toynewsi.com"
+            },
+            "author": "toynewsi.com",
+            "title": "Pre-order Alert: TBLeague Medusa 1/12 Scale Action Figures",
+            "description": "Pre-order Alert: TBLeague Medusa 1/12 Scale Action Figures",
+            "url": "https://toynewsi.com/news.php?itemid=55578",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T19:43:04Z",
+            "content": "Forums Communities: \r\nToy Fans -\r\nMarvel Fans - \r\nTransformers Fans\r\n@ToyNewsI Socials: \r\nFacebook -\r\nTwitter -\r\nInstagram\r\n@MarvelousNews Socials:\r\nFacebook - \r\nTwitter -\r\nInstagram\r\n@Tformers Socia\u2026 [+1010 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Macdailynews.com"
+            },
+            "author": "MacDailyNews",
+            "title": "Apple TV+ announces nature docuseries \u2018The Secret Lives of Animals,\u2019 narrated by Hugh Bonneville",
+            "description": "Apple TV+ on Monday announced an all-new 10-part docuseries, \u201cThe Secret Lives of Animals,\u201d narrated by SAG Award winner Hugh Bonneville\u2026\nThe post Apple TV+ announces nature docuseries \u2018The Secret Lives of Animals,\u2019 narrated by Hugh Bonneville appeared first \u2026",
+            "url": "https://macdailynews.com/2024/11/11/apple-tv-announces-nature-docuseries-the-secret-lives-of-animals-narrated-by-hugh-bonneville/",
+            "urlToImage": "https://149359564.v2.pressablecdn.com/wp-content/uploads/2024/11/241111_secret_lives_of_animals.png",
+            "publishedAt": "2024-11-11T19:38:28Z",
+            "content": "Apple TV+ will feature never-before-seen footage of rare and remarkable animal behaviors like this colobus monkey in The Secret Lives of Animals, debuting December 18, 2024.\r\nApple TV+ on Monday anno\u2026 [+3737 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New Zealand Herald"
+            },
+            "author": null,
+            "title": "Fine weather and family atmosphere draw crowd to CHB A&P Show",
+            "description": "Organisers say they are pleased with the numbers through the gate.",
+            "url": "https://www.nzherald.co.nz/hawkes-bay-today/central-hawkes-bay-mail/fine-weather-and-family-atmosphere-draw-crowd-to-chb-ap-show/E7APT74S6BD3NODXSCJRGYRO4M/",
+            "urlToImage": "https://www.nzherald.co.nz/resizer/v2/GZCS2LZF5RHABGV27D7KVSUSDI.JPG?auth=4b0ba7bdc26c5cd7bf32f8a55e877560d8a866cdafd19d57e72ae6535bdbfda5&width=1200&height=675&quality=70&smart=true",
+            "publishedAt": "2024-11-11T19:37:02Z",
+            "content": "Horses and riders share a patch of shade between events at last weekend's CHB A&amp;P show in Waipukurau.A fine and sunny day drew a large crowd to the CHB A&amp;P Show last weekend, to take in the t\u2026 [+508 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Dealcatcher.com"
+            },
+            "author": null,
+            "title": "Walmart - Jurassic World Dominion on Blu-ray + DVD+ Digital $9.99",
+            "description": "Get this Jurassic World Dominion on Blu-ray + DVD+ Digital for $9.99 after instant discount with no coupon code. Plus, shipping is free for Walmart+ Members.",
+            "url": "https://www.dealcatcher.com/deals/games-entertainment/movies/jurassic-world-dominion-on-blu-ray-digital-998324018",
+            "urlToImage": "https://www.dealcatcher.com/__og-image__/image/deals/games-entertainment/movies/jurassic-world-dominion-on-blu-ray-digital-998324018/og.png",
+            "publishedAt": "2024-11-11T19:35:10Z",
+            "content": "We've got great deals on entertainment! Save on movies (DVD, Blu-Ray, 4K UHD) and score deals on streaming services including Max and Paramount+."
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Cosmopolitan.com"
+            },
+            "author": "Mehera  Bonner",
+            "title": "Megan Fox Is Pregnant, Expecting Baby With Machine Gun Kelly",
+            "description": "Megan Fox is pregnant! The actor announced that she's expecting a baby with Machine Gun Kelly.",
+            "url": "https://www.cosmopolitan.com/entertainment/celebs/a62872933/megan-fox-pregnant-machine-gun-kelly/",
+            "urlToImage": "https://hips.hearstapps.com/hmg-prod/images/screen-shot-2024-11-11-at-2-28-04-pm-67325ae988440.png?crop=1.00xw:0.346xh;0,0.186xh&resize=1200:*",
+            "publishedAt": "2024-11-11T19:33:00Z",
+            "content": "Megan Fox is pregnant! The Transformers actor announced the news on Instagram, sharing a photo of her positive pregnancy test as well as a picture of herself covered in what looks to be black oil, em\u2026 [+1237 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Toynewsi.com"
+            },
+            "author": "toynewsi.com",
+            "title": "Pre-order Alert: Funko Batman: The Animated Series Joker Pop! Vinyl Figure",
+            "description": "Pre-order Alert: Funko Batman: The Animated Series Joker Pop! Vinyl Figure",
+            "url": "https://toynewsi.com/news.php?itemid=55577",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T19:32:58Z",
+            "content": "Forums Communities: \r\nToy Fans -\r\nMarvel Fans - \r\nTransformers Fans\r\n@ToyNewsI Socials: \r\nFacebook -\r\nTwitter -\r\nInstagram\r\n@MarvelousNews Socials:\r\nFacebook - \r\nTwitter -\r\nInstagram\r\n@Tformers Socia\u2026 [+1010 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "STLtoday.com"
+            },
+            "author": "Daniel Neman St. Louis Post-Dispatch",
+            "title": "Fired DJs sue KDHX for wrongful termination",
+            "description": "The suit claims that station did not follow its own policies when it fired them.",
+            "url": "https://www.stltoday.com/life-entertainment/local/fired-djs-sue-kdhx-for-wrongful-termination/article_d78cefdc-a056-11ef-b05b-73b593b613cb.html",
+            "urlToImage": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/d/78/d78cefdc-a056-11ef-b05b-73b593b613cb/67328ffcf3cd5.preview.jpg?crop=1695%2C890%2C0%2C166&resize=1200%2C630&order=crop%2Cresize",
+            "publishedAt": "2024-11-11T19:30:00Z",
+            "content": "ST. LOUIS The KDHX DJs who were fired all at once in September 2023 are suing the community radio station for improper termination of their positions.\r\nThe suit filed Friday in St. Louis court claims\u2026 [+3025 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "TheWrap"
+            },
+            "author": "Christofer Hamilton",
+            "title": "Price Hikes vs. Ads: How Apple TV+ and Prime Video Boosted Revenue in 2024",
+            "description": "Both Apple TV+ and Amazon Prime Video saw significant ARPU gains in the last year, led by pricing changes and flagship shows like\u00a0\u201cTed\u00a0Lasso\u201d\u00a0and\u00a0\u201cThe\u00a0Boys\u201d\nThe post Price Hikes vs. Ads: How Apple TV+ and Prime Video Boosted Revenue in 2024 appeared first on \u2026",
+            "url": "https://www.thewrap.com/streaming-price-increases-ads-increase-revenue-apple-amazon-prime-video/",
+            "urlToImage": "https://i0.wp.com/www.thewrap.com/wp-content/uploads/2024/06/the-boys-antony-starr-cameron-crovetti-prime-video.jpg?fit=1200%2C675&ssl=1",
+            "publishedAt": "2024-11-11T19:30:00Z",
+            "content": "Amazon and Apple, two tech giants that have become major players in the entertainment industry by way of their streaming platforms, recently reported earnings. While\u00a0these they\u00a0do not break out metri\u2026 [+531 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Variety"
+            },
+            "author": "Joseph Otterson",
+            "title": "\u2018We Were the Lucky Ones\u2019 Star Eva Feiler Signs With Impression Entertainment (EXCLUSIVE)",
+            "description": "Eva Feiler has signed with Impression Entertainment for management, Variety has learned exclusively. Feiler continues to be repped by Curtis Brown Group in the UK. Feiler most recently starred in the Hulu limited series \u201cWe Were the Lucky Ones\u201d in the role of\u2026",
+            "url": "https://variety.com/2024/tv/news/we-were-the-lucky-ones-eva-feiler-impression-entertainment-1236206601/",
+            "urlToImage": "https://variety.com/wp-content/uploads/2024/11/Eva-Feller-Headshot-e1731348250447.jpg?w=416&h=278&crop=1",
+            "publishedAt": "2024-11-11T19:30:00Z",
+            "content": "Eva Feiler has signed with Impression Entertainment for management, Variety has learned exclusively. Feiler continues to be repped by Curtis Brown Group in the UK. \r\nFeiler most recently starred in t\u2026 [+1305 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sky.com"
+            },
+            "author": "Rob Harris",
+            "title": "Gary Lineker to leave Match Of The Day",
+            "description": "Gary Lineker is to leave Match Of The Day after 25 years, Sky News understands.",
+            "url": "https://news.sky.com/story/gary-lineker-to-leave-bbcs-match-of-the-day-at-the-end-of-the-current-football-season-13227333",
+            "urlToImage": "https://e3.365dm.com/24/10/1600x900/skynews-gary-lineker-motd_6705377.jpg?20241003185539",
+            "publishedAt": "2024-11-11T19:29:00Z",
+            "content": "Gary Lineker is to leave Match Of The Day after 25 years, Sky News understands.\r\nThe former England striker will step down at the end of the current football season in May 2025.\r\nIt is understood he \u2026 [+2535 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "GeekTyrant"
+            },
+            "author": "Joey Paur",
+            "title": "Ridley Scott and Paul Mescal Are Re-Teaming for New Film Project THE DOG STARS",
+            "description": "While we wait for Gladiator II to be released, director Ridley Scott and actor Paul Mescal are already planning to re-team on a new project titled The Dog Stars for 20th Century.The film follows \u201ca civilian pilot lives a lonely life on an abandoned Colorado a\u2026",
+            "url": "https://geektyrant.com/news/ridley-scott-and-paul-mescal-are-re-teaming-for-a-new-film-project-the-dog-star",
+            "urlToImage": "http://static1.squarespace.com/static/51b3dc8ee4b051b96ceb10de/51ce6099e4b0d911b4489b79/672e622907c70c529c90cc69/1731353334019/ridley-scott-and-paul-mescal-are-re-teaming-for-a-new-film-project-the-dog-star.jpg?format=1500w",
+            "publishedAt": "2024-11-11T19:28:00Z",
+            "content": "While we wait for Gladiator II to be released, director Ridley Scott and actor Paul Mescalare already planning to re-team on a new project titled The Dog Stars for 20th Century.\r\nThe film follows a c\u2026 [+1405 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": "Caroline Thayer",
+            "title": "Ben Affleck thinks actors are 'one errant remark away from being canceled' as he criticizes Hollywood",
+            "description": "Ben Affleck is condemning Hollywood and the movie industry for how movies are financed. It's an area he and pal Matt Damon are trying to redefine.",
+            "url": "https://www.foxnews.com/entertainment/ben-affleck-thinks-actors-one-errant-remark-away-from-being-canceled-criticizes-hollywood",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2024/11/ben-affleck.jpg",
+            "publishedAt": "2024-11-11T19:25:49Z",
+            "content": "Ben Affleck has been in the business long enough to know that the entertainment industry is just as eager to chew you up and spit you out as they are to give you your big break.\r\nThat's partially why\u2026 [+4457 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Richmondmagazine.com"
+            },
+            "author": "Kim Catley",
+            "title": "\u2018Everything Has a Story\u2019",
+            "description": "A converted hayloft turned bucolic abode with Southern traditional style",
+            "url": "https://richmondmagazine.com/home/house-tours/jp-horton-hayloft-apartment/",
+            "urlToImage": "https://richmondmagazine.com/downloads/43396/download/Feature_Horton_LivingRoom2_GORDON_GREGORY_hp1124.jpg?cb=a6e34df0ccaf818ba9a3de9b2589d883&w=1200",
+            "publishedAt": "2024-11-11T19:25:00Z",
+            "content": "Interior designer J.P. Horton has trained with and worked for several leading designers, including the long-running Virginia firm Stedman House and Los Angeles-based Michael S. Smith, where Horton co\u2026 [+4701 chars]"
         },
         {
             "source": {
@@ -285,294 +480,346 @@
             "description": "[Removed]",
             "url": "https://removed.com",
             "urlToImage": null,
-            "publishedAt": "2024-11-03T05:04:37Z",
+            "publishedAt": "2024-11-11T19:24:14Z",
             "content": "[Removed]"
         },
         {
             "source": {
                 "id": null,
-                "name": "ETF Daily News"
+                "name": "Forbes"
             },
-            "author": "MarketBeat News",
-            "title": "Mattel, Inc. (NASDAQ:MAT) Receives $23.75 Consensus Price Target from Brokerages",
-            "description": "Mattel, Inc. (NASDAQ:MAT \u2013 Get Free Report) has been assigned a consensus rating of \u201cHold\u201d from the nine brokerages that are covering the firm, MarketBeat.com reports. Five analysts have rated the stock with a hold rating and four have assigned a buy rating t\u2026",
-            "url": "https://www.etfdailynews.com/2024/11/03/mattel-inc-nasdaqmat-receives-23-75-consensus-price-target-from-brokerages/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/mattel-inc-logo-1200x675.jpg?v=20220505081626&w=240&h=240&zc=2",
-            "publishedAt": "2024-11-03T05:02:50Z",
-            "content": "Mattel, Inc. (NASDAQ:MAT \u2013 Get Free Report) has been assigned a consensus rating of \u201cHold\u201d from the nine brokerages that are covering the firm, MarketBeat.com reports. Five analysts have rated the st\u2026 [+4763 chars]"
+            "author": "Jay Ginsbach, Contributor, \n Jay Ginsbach, Contributor\n https://www.forbes.com/sites/jayginsbach/",
+            "title": "NFL Picks, Props And Odds For Week 10 Monday Night Football Dolphins-Rams",
+            "description": "An interconference clash completes Week 10 of NFL action when the Miami Dolphins (2-6) tackle the Los Angeles Rams (4-4) at SoFi Stadium. Betting preview, picks, props, advanced stats & information you can bet on.",
+            "url": "https://www.forbes.com/sites/jayginsbach/2024/11/11/nfl-picks-props-and-odds-for-week-10-monday-night-football-dolphins-rams/",
+            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/67324c4cb00f81b5bbf8bd21/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+            "publishedAt": "2024-11-11T19:24:05Z",
+            "content": "Los Angeles Rams wide receiver Puka Nacua, right, celebrates a touchdown with quarterback Matthew ... [+] Stafford (9). Week 10 Monday Night Football Miami Dolphins at LA Rams preview Nov. 11, 2024. \u2026 [+8659 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "ETF Daily News"
+                "name": "Forbes"
             },
-            "author": "MarketBeat News",
-            "title": "Ryman Hospitality Properties (RHP) Scheduled to Post Quarterly Earnings on Monday",
-            "description": "Ryman Hospitality Properties (NYSE:RHP \u2013 Get Free Report) will post its quarterly earnings results after the market closes on Monday, November 4th. Analysts expect Ryman Hospitality Properties to post earnings of $1.83 per share for the quarter. Individual in\u2026",
-            "url": "https://www.etfdailynews.com/2024/11/03/ryman-hospitality-properties-rhp-scheduled-to-post-quarterly-earnings-on-monday/",
-            "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/ryman-hospitality-properties-inc-logo-1200x675.png?v=20240426104912&w=240&h=240&zc=2",
-            "publishedAt": "2024-11-03T05:02:48Z",
-            "content": "Ryman Hospitality Properties (NYSE:RHP \u2013 Get Free Report) will post its quarterly earnings results after the market closes on Monday, November 4th. Analysts expect Ryman Hospitality Properties to pos\u2026 [+4602 chars]"
-        },
-        {
-            "source": {
-                "id": "the-irish-times",
-                "name": "The Irish Times"
-            },
-            "author": "Tony Clayton-Lea, Tara Brady",
-            "title": "Four new films to see this week",
-            "description": "Cillian Murphy in Small Things Like These and Hugh Grant in Heretic, plus Anora and Super/Man: The Christopher Reeve Story",
-            "url": "https://www.irishtimes.com/culture/film/2024/11/03/four-new-films-to-see-this-week/",
-            "urlToImage": "https://www.irishtimes.com/resizer/v2/XPIDRDSLXUXRWCQ5M25PCKZNVE.jpg?smart=true&auth=0fe5cb06457a2289becaae057fc9b261b157424cd2294fa7e4add7d45a6d2f2b&width=1200&height=630",
-            "publishedAt": "2024-11-03T05:00:00Z",
-            "content": "Small Things Like These \r\nDirected by Tim Mielants. Starring Cillian Murphy, Eileen Walsh, Michelle Fairley, Emily Watson, Clare Dunne, Helen Behan, Zara Devlin. 12A cert, gen release, 99 min.\r\nAdapt\u2026 [+3205 chars]"
-        },
-        {
-            "source": {
-                "id": "espn",
-                "name": "ESPN"
-            },
-            "author": null,
-            "title": "Silver consulting Curry on All-Star Game tweaks",
-            "description": "Adam Silver says he's enlisting the help of Stephen Curry to figure out a way to make this year's All-Star game in San Francisco more competitive.",
-            "url": "https://www.espn.com/nba/story/_/id/42158438/adam-silver-talking-stephen-curry-all-star-game-tweaks",
-            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F1103%2Fr1409616_1024x576_16%2D9.jpg",
-            "publishedAt": "2024-11-03T04:51:01Z",
-            "content": "NBA commissioner Adam Silver says he is considering changing the format of this year's All-Star Game in San Francisco and is enlisting Stephen Curry's help to figure out a way to make the game more c\u2026 [+2543 chars]"
+            "author": "Marc Berman, Senior Contributor, \n Marc Berman, Senior Contributor\n https://www.forbes.com/sites/marcberman1/",
+            "title": "Blake Shelton And Taylor Sheridan Singing Competition \u2018The Road\u2019 Ordered At CBS",
+            "description": "CBS has announced \"The Road,\" a new singing competition for next fall.",
+            "url": "https://www.forbes.com/sites/marcberman1/2024/11/11/blake-shelton-and-taylor-sheridan-singing-competition-the-road-ordered-at-cbs/",
+            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/67325fd45f8ed3ff63e46d55/0x0.jpg?format=jpg&crop=1053,617,x0,y0,safe&height=900&width=1600&fit=bounds",
+            "publishedAt": "2024-11-11T19:22:15Z",
+            "content": "CBS has ordered the new singing competition series \"The Road\" from Blake Shelton and Taylor Sheridan ... [+] for fall 2025.\r\nWarner Music Nashville, Emerson Miller\r\nCBS is looking ahead.\r\nJust one mo\u2026 [+2083 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "8days.sg"
+                "name": "Izismile.com"
             },
-            "author": "Bryan Wong",
-            "title": "Chinese Actor Hu Bing Reviews SQ\u2019s First Class Suites On A380, Gives It High Marks",
-            "description": "Chinese Actor Hu Bing Reviews SQ\u2019s First Class Suites On A380, Gives It High Marks8days.sg",
-            "url": "https://www.8days.sg/entertainment/asian/hu-bing-review-sq-first-class-suites-a380-837446",
-            "urlToImage": "https://onecms-res.cloudinary.com/image/upload/s--cDUL5wNr--/c_fill,g_auto,h_676,w_1200/f_auto,q_auto/v1/mediacorp/8days/image/2024/10/29/headers.jpeg?itok=Mlkqq0dV",
-            "publishedAt": "2024-11-03T04:44:09Z",
-            "content": "Mention a First-Class experience in the skies, and Singapore Airlines comes to mind.\r\nIn the video posted online, Chinese actor Hu Bing shared that he had taken 18 flights over 10 days to review the \u2026 [+1675 chars]"
+            "author": "vovatb",
+            "title": "Surprising Facts You Probably Didn\u2019t Know (16 GIFS)",
+            "description": "Surprising Facts You Probably Didn\u2019t Know  (16 GIFS)",
+            "url": "https://izismile.com/2024/11/11/surprising_facts_you_probably_didnt_know_16_gifs.html",
+            "urlToImage": "https://img.izismile.com/img/img15/20241111/640/surprising_facts_you_probably_didnt_know_640_17.jpg",
+            "publishedAt": "2024-11-11T19:20:33Z",
+            "content": "\"Back in 2011, NASAs Terra satellite found something terrifying. It spotted a whirlpool in the South Atlantic that was over 150 KM wide. Why did it stand out? It was glowing.\"\r\n\"The first settlers of\u2026 [+1875 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Just Jared"
+                "name": "Vanity Fair"
             },
-            "author": "Just Jared",
-            "title": "Kim Kardashian, Laura Dern, Andrew Garfield, Blake Lively & 70+ Celebs Attend LACMA Art+Film Gala",
-            "description": "The stars were out en masse for the 2024 LACMA Art+Film Gala held at Los Angeles County Museum of Art on Saturday night (November 2) in Los Angeles. Kim Kardashian, Laura Dern, Andrew Garfield and Blake Lively were among the A-listers in attendance at the ann\u2026",
-            "url": "https://www.justjared.com/2024/11/03/kim-kardashian-laura-dern-andrew-garfield-blake-lively-70-celebs-attend-lacma-filmart-gala/",
-            "urlToImage": "https://cdn01.justjared.com/wp-content/uploads/headlines/2024/11/celebs-at-lacma.jpg",
-            "publishedAt": "2024-11-03T04:37:17Z",
-            "content": "The stars were out en masse for the 2024 LACMA Art+Film Gala held at Los Angeles County Museum of Art on Saturday night (November 2) in Los Angeles.\r\nKim Kardashian, Laura Dern, Andrew Garfield and B\u2026 [+2561 chars]"
+            "author": "Chris Murphy",
+            "title": "Neil Jordan Knows Why Brad Pitt Had a Bad Time Filming \u2018Interview With the Vampire\u2019",
+            "description": "In an new interview with Variety, the \u2018Interview With the Vampire\u2019 director opened up about why Pitt had a infamously bad experience: \u201cI think the problem that he suffered from was the fact that the role suffers,\u201d said Jordan.",
+            "url": "https://www.vanityfair.com/hollywood/story/neil-jordan-knows-why-brad-pitt-had-a-bad-time-filming-interview-with-the-vampire",
+            "urlToImage": "https://media.vanityfair.com/photos/6732569347c0c07b21901d42/16:9/w_1280,c_limit/586030942",
+            "publishedAt": "2024-11-11T19:16:03Z",
+            "content": "Brad Pitt is certainly not a night owl. In this weeks Variety,Interview With the Vampire director Neil Jordan revisits his 1994 film adaptation of Anne Rices novel, which starred Kirsten Dunst,Tom Cr\u2026 [+2630 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Slashdot.org"
+                "name": "Bloody Disgusting"
             },
-            "author": "EditorDavid",
-            "title": "ASWF: the Open Source Foundation Run By the Folks Who Give Out Oscars",
-            "description": "This week's Ubuntu Summit 2024 was attended by Lproven (Slashdot reader #6,030). He's also a FOSS correspondent for the Register, where he's filed this report:\n\nOne of the first full-length sessions was presented by David Morin, executive director of the Acad\u2026",
-            "url": "https://news.slashdot.org/story/24/11/03/0049254/aswf-the-open-source-foundation-run-by-the-folks-who-give-out-oscars",
-            "urlToImage": "https://a.fsdn.com/sd/topics/movies_64.png",
-            "publishedAt": "2024-11-03T04:34:00Z",
-            "content": "This week's Ubuntu Summit 2024 was attended by Lproven (Slashdot reader #6,030). He's also a FOSS correspondent for the Register, where he's filed this report:\r\nOne of the first full-length sessions \u2026 [+3288 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Footwear News"
-            },
-            "author": "Amina Ayoud",
-            "title": "Michelle Rodriguez, Law Roach and More Celebrity Shoe Moments From the 2024 LACMA Art+Film Gala",
-            "description": "This year's event honors artist Simone Leigh and visionary auteur Baz Luhrmann.",
-            "url": "http://footwearnews.com/fashion/celebrity-style/lacma-art-film-gala-2024-shoes-red-carpet-photos-1234727560/",
-            "urlToImage": "https://footwearnews.com/wp-content/uploads/2024/11/michelle-rodrguez-lacma.jpg",
-            "publishedAt": "2024-11-03T04:22:26Z",
-            "content": "The 13th Annual 2024 LACMA Gala is being held tonight at the Los Angeles County Museum of Art, gathering together notable names from the art, film, fashion and entertainment industries. This year\u2019s e\u2026 [+3310 chars]"
-        },
-        {
-            "source": {
-                "id": "newsweek",
-                "name": "Newsweek"
-            },
-            "author": "Adeola Adeosun",
-            "title": "Kamala Harris Makes Surprise Appearance on 'Saturday Night Live'",
-            "description": "The VP made an unscheduled cold opening debut alongside Maya Rudolph just days before Tuesday's election.",
-            "url": "https://www.newsweek.com/kamala-harris-surprise-appearance-snl-1979228",
-            "urlToImage": "https://d.newsweek.com/en/full/2510823/maya-rudolph-kamala-harris.jpg",
-            "publishedAt": "2024-11-03T04:17:17Z",
-            "content": "Vice President Kamala Harris made an unexpected detour to New York City, joining NBC's Saturday Night Live for the long-running comedy sketch show's final episode before Election Day.\r\nThe surprise a\u2026 [+4132 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "Nishtha Awasthi",
-            "title": "Swiggy IPO: GMP at 5% in unlisted market 3 days ahead of issue opening",
-            "description": "Swiggy is serving the IPO at a lower valuation of $11.3 billion as against its earlier target of around $15 billion. The valuations were reduced due to prevailing market volatility and the lacklustre debut of Hyundai India.",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/swiggy-ipo-gmp-at-5-in-unlisted-market-3-days-ahead-of-issue-opening/articleshow/114902479.cms",
-            "urlToImage": "https://img.etimg.com/thumb/msid-114902471,width-1200,height-630,imgsize-17232,overlay-etmarkets/articleshow.jpg",
-            "publishedAt": "2024-11-03T04:16:18Z",
-            "content": "The grey market premium (GMP) of Swiggy stood at 5% or Rs 19 in the unlisted market three days ahead of its initial public offering (IPO), which will hit the Street on November 6 and will be availabl\u2026 [+1764 chars]"
+            "author": "Meagan Navarro",
+            "title": "Melissa Barrera Starring Horror Rom Com \u2018Your Monster\u2019 Arrives on PVOD Tomorrow",
+            "description": "Melissa Barrera\u00a0(Scream VI, Abigail) is back in Vertical\u2019s new horror-comedy\u00a0Your Monster, and the coming-of-rage horror romcom is making its way to PVOD platforms tomorrow. You can preorder Your Monster on PVOD platforms now. The romantic monster movie looks\u2026",
+            "url": "https://bloody-disgusting.com/movie/3839064/melissa-barrera-starring-horror-rom-com-your-monster-arrives-on-pvod-tomorrow/",
+            "urlToImage": "https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2023/12/your-monster-3.jpg?resize=1000%2C600&ssl=1",
+            "publishedAt": "2024-11-11T19:06:40Z",
+            "content": "Marvel announced five years ago, at\u00a0San Diego Comic-Con 2019, they were inviting Blade\u00a0into the Marvel Cinematic Universe with a new reboot. Five years later, well, Marvels planned\u00a0Blade MCU movie ha\u2026 [+2100 chars]"
         },
         {
             "source": {
                 "id": null,
                 "name": "CBS Sports"
             },
-            "author": "Sam Quinn",
-            "title": "Drake threatens to pull down former Raptor DeMar DeRozan's jersey if it's ever retired",
-            "description": "Drake has long been Toronto's most prominent celebrity fan",
-            "url": "https://www.cbssports.com/nba/news/drake-threatens-to-pull-down-former-raptor-demar-derozans-jersey-if-its-ever-retired/",
-            "urlToImage": "https://sportshub.cbsistatic.com/i/r/2024/11/03/586a3e47-91d7-4ac6-95c9-404e567797c4/thumbnail/1200x675/29b4df255d364bc9e9fff8e09ccf4fe6/110224-drake.jpg",
-            "publishedAt": "2024-11-03T04:15:10Z",
-            "content": "The entertainer Drake, a Toronto native, has been by far the most prominent celebrity fan of the Raptors for quite some time. In 2013, the team named him its global ambassador, and through that role \u2026 [+2705 chars]"
+            "author": "Pardeep Cattry",
+            "title": "Lionel Messi and Inter Miami dumped out of MLS playoffs; NWSL's big four all advance to playoff semifinals",
+            "description": "Elsewhere on the Golazo Starting XI newsletter, USMNT are big at work ahead of Jamaica clash",
+            "url": "https://www.cbssports.com/soccer/news/lionel-messi-and-inter-miami-dumped-out-of-mls-playoffs-nwsls-big-four-all-advance-to-playoff-semifinals/",
+            "urlToImage": "https://sportshub.cbsistatic.com/i/r/2024/11/11/dd98ba61-6eb4-4632-b843-f1926462b678/thumbnail/1200x675/bd16e297eb1c2a26735bef317399adb1/untitled-design-79.png",
+            "publishedAt": "2024-11-11T19:05:03Z",
+            "content": "Happy Veterans Day! The men's international break is officially here, but nor before a thrilling round of playoff action took place in the U.S. over the weekend. I'm Pardeep Cattry with the latest.\r\n\u2026 [+11368 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Americanthinker.com"
+                "name": "PC Gamer"
+            },
+            "author": "Rich Stanton",
+            "title": "Arcane creators admit the show was never meant to run for 5 seasons, it was a joke that got out of hand: 'Nothing but tomfoolery'",
+            "description": "\"It was never the plan for it to last five seasons.\"",
+            "url": "https://www.pcgamer.com/hardware/streaming/arcane-creators-admit-the-show-was-never-meant-to-run-for-5-seasons-but-it-was-a-joke-that-got-out-of-hand-nothing-but-tomfoolery-on-our-part/",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/LnUg5iDLSEjzqgrJwxRneA-1200-80.png",
+            "publishedAt": "2024-11-11T19:04:31Z",
+            "content": "The second and final season of Arcane, the wildly popular animated League of Legends spinoff, recently launched on Netflix\u2014and straight into rumours and scuttlebutt that, in fact, the show was once i\u2026 [+3020 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Variety"
+            },
+            "author": "Ethan Shanfeld",
+            "title": "\u2018Yellowstone\u2019 Creator Taylor Sheridan Teams With Blake Shelton for CBS Singing Competition \u2018The Road\u2019",
+            "description": "\u201cYellowstone\u201d creator Taylor Sheridan has teamed up with \u201cThe Voice\u201d alum Blake Shelton on a new singing competition titled \u201cThe Road.\u201d The series will be launched by CBS as part of the network\u2019s fall 2025 schedule. \u201cThe Road\u201d will follow a music superstar on\u2026",
+            "url": "https://variety.com/2024/tv/news/taylor-sheridan-blake-shelton-cbs-singing-competition-the-road-1236206647/",
+            "urlToImage": "https://variety.com/wp-content/uploads/2024/11/MixCollage-11-Nov-2024-10-55-AM-1393.jpg?w=1000&h=563&crop=1",
+            "publishedAt": "2024-11-11T19:04:04Z",
+            "content": "\u201cYellowstone\u201d creator Taylor Sheridan has teamed up with \u201cThe Voice\u201d alum Blake Shelton on a new singing competition titled \u201cThe Road.\u201d\r\nThe series will be launched by CBS as part of the network\u2019s fa\u2026 [+2568 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "allears.net"
+            },
+            "author": "Lisa Gilmore",
+            "title": "How Big Is Universal Epic Universe?",
+            "description": "We're gonna take through all of the twists and turns of this new park and show you just how EPIC it really is!\nThe post How Big Is Universal Epic Universe? appeared first on AllEars.Net.",
+            "url": "https://allears.net/2024/11/11/how-big-is-universal-epic-universe/",
+            "urlToImage": "https://allears.net/wp-content/uploads/2024/01/2024-universal-epic-universe-harry-potter-ministry-of-magic-portal-rendering-scaled.jpg",
+            "publishedAt": "2024-11-11T19:00:11Z",
+            "content": "The long-awaited and highly-anticipated\u00a0Universal Epic Universe\u00a0is\u00a0opening on May 22nd, 2025, and fans are PUMPED.\r\nPortal to The Wizarding World of Harry Potter \u2014 Ministry of Magic \u00a9Universal\r\nBut b\u2026 [+2916 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Nintendo Life"
+            },
+            "author": "Paul Cecchini",
+            "title": "Feature: Sonic Boom At 10 - The Good, Bad & Ugly Of Sonic The Hedgehog\u2019s Brief, Nintendo-Exclusive Sub-Franchise",
+            "description": "Scarf out loud.Sonic Boom was one of the most ambitious projects Sega has ever undertaken with Sonic the Hedgehog. It was a full-throttle attempt at creating a brand-new sub-franchise for the blue blur, complete with new world, radically different character d\u2026",
+            "url": "https://www.nintendolife.com/features/sonic-boom-at-10-the-good-bad-and-ugly-of-sonic-the-hedgehogrs-brief-nintendo-exclusive-sub-franchise",
+            "urlToImage": "https://images.nintendolife.com/864931dfff96c/1280x720.jpg",
+            "publishedAt": "2024-11-11T19:00:00Z",
+            "content": "Image: SEGA\r\nSonic Boom was one of the most ambitious projects Sega has ever undertaken with Sonic the Hedgehog. It was a full-throttle attempt at creating a brand-new sub-franchise for the blue blur\u2026 [+6500 chars]"
+        },
+        {
+            "source": {
+                "id": "the-irish-times",
+                "name": "The Irish Times"
+            },
+            "author": "Ella Sloane",
+            "title": "Barry McGuigan and Dean McCullough revealed as contestants for I\u2019m A Celebrity ... Get Me Out Of Here!",
+            "description": "This year\u2019s lineup for the reality show will see the pair join Coleen Rooney, Tulisa and Danny Jones in the jungle",
+            "url": "https://www.irishtimes.com/culture/tv-radio/2024/11/11/barry-mcguigan-and-dean-mccullough-revealed-as-contestants-for-im-a-celebrity-get-me-out-of-here/",
+            "urlToImage": "https://www.irishtimes.com/resizer/v2/7VVLVN54VZ4QBSNYN3S7GDTOGM.jpg?smart=true&auth=79bf6babf4b7d81dd76c7f606785d82d2a354805d0d738c242f4ccc7c3c7e6b9&width=1200&height=630",
+            "publishedAt": "2024-11-11T19:00:00Z",
+            "content": "Two Irish contestants are set to enter the jungle as Im A Celebrity ... Get Me Out Of Here! returns to our screens this Sunday.\r\nAnnounced on Monday night, the star-studded line-up includes former Ir\u2026 [+1887 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Robb Report"
+            },
+            "author": "Abigailtmontanez",
+            "title": "These Treehouse-Style Residences Are Perched Above the Costa Rican Jungle",
+            "description": "Located within the 2,300-acre Reserva Conchal resort community in Guanacaste, the hotel-branded development currently has three homesites available.",
+            "url": "http://robbreport.com/shelter/homes-for-sale/w-residences-costa-rica-treehouse-villa-1235987533/",
+            "urlToImage": "https://robbreport.com/wp-content/uploads/2024/11/w-residences-costa-rica.jpg?w=681&h=383&crop=1",
+            "publishedAt": "2024-11-11T19:00:00Z",
+            "content": "Every day is a vacation at this hotel-branded residential community in Costa Rica. The 2,300-acre Reserva Conchal in Guanacaste is known for its white sand beaches and sustainable practices, and now,\u2026 [+2656 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "The Feed",
+            "title": "Did contract obligations push Squid Game creator to return for Season 2 on Netflix?",
+            "description": "Hwang Dong-hyuk, the creator of the internationally celebrated Squid Game, disclosed that his decision to return for Season 2 was driven in part by unresolved financial matters with Netflix.",
+            "url": "https://economictimes.indiatimes.com/news/international/us/did-contract-obligations-push-squid-game-creator-to-return-for-season-2-on-netflix/articleshow/115191659.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-115191658,width-1200,height-630,imgsize-74132,overlay-economictimes/articleshow.jpg",
+            "publishedAt": "2024-11-11T18:59:47Z",
+            "content": "Hwang Dong-hyuk, the mastermind behind the globally acclaimed Squid Game, has revealed that his return to the series for Season 2 was motivated largely by unresolved financial issues with Netflix. De\u2026 [+4068 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Forbes"
+            },
+            "author": "Ian Shepherd, Contributor, \n Ian Shepherd, Contributor\n https://www.forbes.com/sites/ianshepherd/",
+            "title": "How One Of YouTube\u2019s Largest Creator Businesses Is Reinventing Itself",
+            "description": "As the lines between digital and traditional media continue to blur, Donut Media's story offers valuable insights into the future of content creation and brand building.",
+            "url": "https://www.forbes.com/sites/ianshepherd/2024/11/11/how-one-of-youtubes-largest-creator-businesses-is-reinventing-itself/",
+            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/673250372f9215f1800e7db7/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+            "publishedAt": "2024-11-11T18:58:59Z",
+            "content": "Nolan Sykes\r\nDonut Media\r\nWhen most people think about automotive content, they imagine glossy car reviews and technical specs. Donut Media had a different vision: make car culture accessible and exc\u2026 [+6424 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNET"
+            },
+            "author": "Meara Isenberg",
+            "title": "When to Stream 'Landman' on Paramount Plus",
+            "description": "Here's when the highly anticipated oil drama debuts.",
+            "url": "https://www.cnet.com/tech/services-and-software/when-to-stream-landman-on-paramount-plus/",
+            "urlToImage": "https://www.cnet.com/a/img/resize/0d16b415a5914c74b13ddeaa518aca6480801fe7/hub/2024/11/05/ee03bd31-db01-4385-8cf7-51389f13ecec/landman-104-em-0402-01082-rt.jpg?auto=webp&fit=crop&height=675&width=1200",
+            "publishedAt": "2024-11-11T18:58:24Z",
+            "content": "Yellowstone is back on TV, and another show co-created by Taylor Sheridan is about to follow.\r\nLandman, the latest addition to Sheridan's Paramount Plus slate, premieres on the streaming service in l\u2026 [+1948 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Eyeoftheflyer.com"
+            },
+            "author": "Chris Carley",
+            "title": "Los Angeles (LAX) to Johannesburg (JNB) Premium Economy Trip for Delta MQD",
+            "description": "You\u2019re in luck if you need some Delta Air Lines Medallion Qualification Dollars (MQD) and your schedule is relatively flexible. We found an Air France Premium Economy trip (\u201cA\u201d fare class) from Los Angeles (LAX) to Johannesburg, South Africa (JNB) via Paris C\u2026",
+            "url": "https://eyeoftheflyer.com/2024/11/11/lax-jnb-mileage-run/",
+            "urlToImage": "https://eyeoftheflyer.com/wp-content/uploads/2019/09/Johannesburg-skyline-sunny-day.jpg",
+            "publishedAt": "2024-11-11T18:58:03Z",
+            "content": "Advertiser Disclosure: Eye of the Flyer, a division of Chatterbox Entertainment, Inc., is part of an affiliate sales network and receives compensation for sending traffic to partner sites, such as Cr\u2026 [+3906 chars]"
+        },
+        {
+            "source": {
+                "id": "newsweek",
+                "name": "Newsweek"
+            },
+            "author": "Maggie Ekberg",
+            "title": "Ben Affleck and Son Samuel, 12, Enjoy a Rare Courtside Outing",
+            "description": "Stepping away from the spotlight, Ben Affleck spent quality time courtside with his 12-year-old son, Samuel, in the midst of his divorce from Jennifer Lopez.",
+            "url": "https://www.newsweek.com/entertainment/celebrity-news/ben-affleck-son-samuel-courtside-lakers-game-1984018",
+            "urlToImage": "https://d.newsweek.com/en/full/2518253/samuel-garner-affleck-ben-affleck.jpg",
+            "publishedAt": "2024-11-11T18:56:59Z",
+            "content": "Entertainment gossip and news from Newsweek's network of contributors\r\nWhen Ben Affleck decides to take a day off from the Hollywood hustle, it's a courtside basketball game with his 12-year-old son,\u2026 [+2233 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Anime News Network"
             },
             "author": null,
-            "title": "Scientifically covering for the trans superiority narrative",
-            "description": "One of the likely and salutary benefits of a second Trump presidential term will be relegating the trans superiority narrative to the ash heap of history. It will take some doing, but the assertion of \u201ctrans rights\u201d as superior to and ove...",
-            "url": "https://www.americanthinker.com/blog/2024/11/scientifically_covering_for_the_trans_superiority_narrative.html",
-            "urlToImage": "https://images.americanthinker.com/h6/h6nf42kcfb7wytxjjich_800.jpg",
-            "publishedAt": "2024-11-03T04:00:00Z",
-            "content": "One of the likely and salutary benefits of a second Trump presidential term will be relegating the trans superiority narrative to the ash heap of history. It will take some doing, but the assertion o\u2026 [+4998 chars]"
+            "title": "Go Super Saiyan At The First Ever DRAGON BALL: Sparking! ZERO Dramatic Showdown",
+            "description": "Tournament is the First for the Widely Acclaimed Sequel in the BUDOKAI TENKAICHI Serie, Bringing Together Fans for Online Competitions and a Physical Event...",
+            "url": "https://www.animenewsnetwork.com/press-release/2024-11-11/go-super-saiyan-at-the-first-ever-dragon-ball-sparking-zero-dramatic-showdown/.217741",
+            "urlToImage": "",
+            "publishedAt": "2024-11-11T18:48:38Z",
+            "content": "Tournament is the First for the Widely Acclaimed Sequel in the BUDOKAI TENKAICHI Serie, Bringing Together Fans for Online Competitions and a Physical Event at DRGAON BALL GAMES BATTLE HOUR 2025IRVINE\u2026 [+2843 chars]"
+        },
+        {
+            "source": {
+                "id": "abc-news-au",
+                "name": "ABC News (AU)"
+            },
+            "author": "Velvet Winter",
+            "title": "Fantastical trains, eternal sunsets and 9 million tulips: How Wicked recreates the stage show's magic",
+            "description": "Fans of the mega-popular stage musical Wicked have been waiting years for a film version to hit screens. We talk to two of the creatives that were tasked with bringing the impossible world of Oz to life.",
+            "url": "https://www.abc.net.au/news/2024-11-12/wicked-ariana-grande-production-cinematography/104586016",
+            "urlToImage": "https://live-production.wcms.abc-cdn.net.au/55fb6c352555063df331b87461425fb6?impolicy=wcms_watermark_news&cropH=639&cropW=1136&xPos=0&yPos=126&width=862&height=485&imformat=generic",
+            "publishedAt": "2024-11-11T18:45:33Z",
+            "content": "Last year might have been awash in bright Barbie pink but 2024 is adding a green tinge. First, it was Charli XCX who saturated our screens with a lurid Brat green. Now, the long-awaited film adaptati\u2026 [+9574 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Americanthinker.com"
+                "name": "New York Post"
             },
-            "author": null,
-            "title": "The Real Purpose of Fake Liberals",
-            "description": "The following is not intended to criticize anyone truly liberal or who keeps an open mind. It is aimed at those who pretend to be liberal but are in fact allies of the Left, which makes them Marxists. Quotation marks on the word \u201cliberal\u201d...",
-            "url": "https://www.americanthinker.com/articles/2024/11/the_real_purpose_of_fake_liberals.html",
-            "urlToImage": "https://images.americanthinker.com/pb/pb3z4lwyevlgsxhvvmbb_800.JPG",
-            "publishedAt": "2024-11-03T04:00:00Z",
-            "content": "The following is not intended to criticize anyone truly liberal or who keeps an open mind. It is aimed at those who pretend to be liberal but are in fact allies of the Left, which makes them Marxists\u2026 [+6997 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "WSOC Charlotte"
-            },
-            "author": "Glenn Counts",
-            "title": "Kamala Harris holds campaign rally in Charlotte ahead of election day",
-            "description": "Vice President Kamala Harris brought out the star power for her latest campaign stop Saturday in Charlotte.",
-            "url": "https://www.wsoctv.com/news/local/kamala-harris-holds-campaign-rally-charlotte-ahead-election-day/5T46VRBFZJHJFBTMZO77WTUISY/",
-            "urlToImage": "https://cmg-cmg-tv-10030-prod.cdn.arcpublishing.com/resizer/JMvpXdtEibbSNCJC_Z4L3FHD0KY=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/cmg/4HDZYZ6Y5BHONDMPAYON4WQOVU.jpeg",
-            "publishedAt": "2024-11-03T03:30:37Z",
-            "content": "CHARLOTTE \u2014 Vice President Kamala Harris brought out the star power for her latest campaign stop Saturday in Charlotte.\r\nThe Democratic presidential candidate swooped into PNC Music Pavilion Saturday\u2026 [+1899 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Ozbargain.com.au"
-            },
-            "author": "Phil21",
-            "title": "[VIC] 50% off Tickets to Western United FC Vs Melbourne City FC, Tomorrow at 7pm at AAMI Park @ Ticketek",
-            "description": "Deal: [VIC] 50% off Tickets to Western United FC Vs Melbourne City FC, Tomorrow at 7pm at AAMI Park @ Ticketek, Store: Ticketek, Code: GARUCCIO50, Category: Entertainment",
-            "url": "https://www.ozbargain.com.au/node/874765",
-            "urlToImage": "https://www.ozbargain.com.au/themes/ozbargain/logo-square.png",
-            "publishedAt": "2024-11-03T03:19:28Z",
-            "content": "All trademarks are owned by their respective owners.OzBargain is an independent community website which has no association with nor endorsement by the respective trademark owners.\r\nCopyright \u00a9 2006-2\u2026 [+32 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Footwear News"
-            },
-            "author": "Amina Ayoud",
-            "title": "Blake Lively Reps Her Faves in Pink Crystalized Christian Louboutin Emilie Sandals at LACMA Art & Film Gala in Los Angeles",
-            "description": "The hot pink silhouette evoked summer vibes.",
-            "url": "http://footwearnews.com/fashion/celebrity-style/blake-lively-crystalized-christian-louboutin-emilie-sandals-lacma-art-amp-film-gala-1234727518/",
-            "urlToImage": "https://footwearnews.com/wp-content/uploads/2024/11/bl-two-2.jpg",
-            "publishedAt": "2024-11-03T02:56:38Z",
-            "content": "Blake Lively went bold for her appearance at the 2024 LACMA Art+Film Gala held tonight in Los Angeles.\r\nRepping her faves, the \u201cGossip Girl\u201d star flattered her feet in a pair of strappy Christian Lou\u2026 [+2001 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Thehillstimes.in"
-            },
-            "author": "The Hills Times",
-            "title": "Lupita Nyong\u2019o ,Jared Leto to star in Lunik Heist",
-            "description": "Los Angeles, Nov 2: Oscar-winning actors Lupita Nyong\u2019o and Jared Leto are set to headline \u201cLunik Heist\u201d, an upcoming Cold War-era heist movie.Actor-comic and \u201cSaturday Night Live\u201d veteran John Mulaney will also feature in the movie, which will be written and\u2026",
-            "url": "https://thehillstimes.in/entertainment/lupita-nyongo-jared-leto-to-star-in-lunik-heist",
-            "urlToImage": null,
-            "publishedAt": "2024-11-03T02:50:00Z",
-            "content": "Los Angeles, Nov 2: Oscar-winning actors Lupita Nyongo and Jared Leto are set to headline \u201cLunik Heist\u201d, an upcoming Cold War-era heist movie.Actor-comic and \u201cSaturday Night Live\u201d veteran John Mulane\u2026 [+690 chars]"
-        },
-        {
-            "source": {
-                "id": "fox-sports",
-                "name": "Fox Sports"
-            },
-            "author": null,
-            "title": "NBA considering All-Star Game changes again, away from the 'traditional' format",
-            "description": "The NBA is considering changing the format for the All-Star Game that will be played in San Francisco later this season, Commissioner Adam Silver said",
-            "url": "https://www.foxsports.com/stories/nba/nba-considering-all-star-game-changes-again-away-from-traditional-format",
-            "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2024/11/1408/814/nba-all-star.jpg?ve=1&tl=1",
-            "publishedAt": "2024-11-03T02:45:10Z",
-            "content": "The NBA is considering changing the format for the All-Star Game that will be played in San Francisco later this season, Commissioner Adam Silver said Saturday night.\r\nSilver, speaking before the Mia\u2026 [+3168 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Prtimes.jp"
-            },
-            "author": null,
-            "title": "\u73fe\u5f79\u30c6\u30fc\u30de\u30d1\u30fc\u30af\u30c0\u30f3\u30b5\u30fc\u304c\u51fa\u6f14\uff01\u4e16\u754c\u7684\u632f\u4ed8\u5e2b\u300cSHOJIN\u300d\u6c0f\u30d7\u30ed\u30c7\u30e5\u30fc\u30b9\u306b\u3088\u308b\u300cTOKINOSUMIKA DANCE SHOW\u300d\u30af\u30ea\u30b9\u30de\u30b9\u30d0\u30fc\u30b8\u30e7\u30f3\u306e\u521d\u958b\u50ac\u304c\u6c7a\u5b9a\uff01",
-            "description": "[\u682a\u5f0f\u4f1a\u793e\u6642\u4e4b\u6816]\n[\u753b\u50cf1: https://prcdn.freetls.fastly.net/release_image/65672/18/65672-18-537aa7dbdf14e5a22c2bec4caccba3f9-1179x884.jpg?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&amp...",
-            "url": "https://prtimes.jp/main/html/rd/p/000000018.000065672.html",
-            "urlToImage": "https://prcdn.freetls.fastly.net/release_image/65672/18/65672-18-537aa7dbdf14e5a22c2bec4caccba3f9-1179x884.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-            "publishedAt": "2024-11-03T02:40:03Z",
-            "content": "1121221SHOJINTOKINOSUMIKA DANCE SHOW\r\nTOKINOSUMIKA DANCE SHOW\r\n20241121221TOKINOSUMIKA DANCE SHOWSQUARE150mSHOJIN\r\nSQUARE\r\nTOKINOSUMIKA DANCE SHOW\r\n1129162330\r\n1271421\r\nSQUARE\r\n16:15 / 17:4511917:45\r\u2026 [+195 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ComicBook.com"
-            },
-            "author": "Nick Valdez",
-            "title": "Who Framed Roger Rabbit Sequel Unlikely (And It\u2019s All Jessica Rabbit\u2019s Fault)",
-            "description": "Disney\nWho Framed Roger Rabbit? is one of the most infamous animated movies within the wider Disney catalog, and director Robert Zemeckis revealed the film is likely never going to get a sequel because the \u201ccurrent Disney\u201d would never likely make a film with \u2026",
-            "url": "http://comicbook.com/anime/news/who-framed-roger-rabbit-sequel-jessica-rabbit-disney/",
-            "urlToImage": "https://comicbook.com/wp-content/uploads/sites/4/2024/11/Who-Framed-Roger-Rabbit-Sequel-Jessica-Rabbit-Disney.jpg?resize=2000,1125",
-            "publishedAt": "2024-11-03T02:31:50Z",
-            "content": "Who Framed Roger Rabbit? is one of the most infamous animated movies within the wider Disney catalog, and director Robert Zemeckis revealed the film is likely never going to get a sequel because the \u2026 [+4495 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Thehillstimes.in"
-            },
-            "author": "The Hills Times",
-            "title": "Fashion industry, Bollywood stars Priyanka C Jonas, Sushmita Sen mourn Rohit Bal\u2019s death",
-            "description": "Mumbai, Nov 2: Noted Indian fashion designers, including Sabyasachi Mukherjee, JJ Valaya and Gaurav Gupta, as well as Bollywood celebrities like Priyanka Chopra Jonas and Sushmita Sen have condoled the death of renowned designer Rohit Bal. Bal, one of India\u2019s\u2026",
-            "url": "https://thehillstimes.in/entertainment/fashion-industry-bollywood-stars-priyanka-c-jonas-sushmita-sen-mourn-rohit-bals-death",
-            "urlToImage": null,
-            "publishedAt": "2024-11-03T02:30:00Z",
-            "content": "Mumbai, Nov 2: Noted Indian fashion designers, including Sabyasachi Mukherjee, JJ Valaya and Gaurav Gupta, as well as Bollywood celebrities like Priyanka Chopra Jonas and Sushmita Sen have condoled t\u2026 [+3273 chars]"
+            "author": "Realtor.com",
+            "title": "My nightmare tenant turned my home into a \u2018megamansion party house\u2019 \u2014 don\u2019t let it happen to you",
+            "description": "A California homeowner had been renting out her unique property for decades with no issues \u2014 until she met the tenant from hell.",
+            "url": "https://nypost.com/2024/11/11/real-estate/my-nightmare-tenant-turned-my-home-into-a-megamansion-party-house/",
+            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/11/newspress-collage-ezg28b42c-1731348421132.jpg?quality=75&strip=all&1731330475&w=1024",
+            "publishedAt": "2024-11-11T18:45:29Z",
+            "content": "A California homeowner had been renting out her unique property for decades with no issues until she met the tenant from hell.\r\nThe nightmare turned a quiet Los Angeles neighborhood into the scene of\u2026 [+11092 chars]"
         },
         {
             "source": {
                 "id": null,
                 "name": "Deadline"
             },
-            "author": "Natalie Oganesyan",
-            "title": "Todd Phillips Wants Cinemas To Forgo Commercials Before Screening Movies: \u201cWe\u2019ve Paid For Our Tickets\u201d",
-            "description": "Joker: Folie \u00e0 Deux director Todd Phillips has one solution to improve movie theaters: forgoing showing commercials ahead of a film\u2019s screening. Speaking to Empire magazine as part of a filmmakers\u2019 poll on what the future of movies and entertainment would loo\u2026",
-            "url": "http://deadline.com/2024/11/todd-phillips-movie-theaters-commercials-1236165531/",
-            "urlToImage": "https://deadline.com/wp-content/uploads/2024/11/GettyImages-2175795690.jpg?w=1024",
-            "publishedAt": "2024-11-03T02:14:24Z",
-            "content": "Joker: Folie \u00e0 Deux director Todd Phillips has one solution to improve movie theaters: forgoing showing commercials ahead of a film\u2019s screening.\r\nSpeaking to Empiremagazine as part of a filmmakers\u2019 p\u2026 [+1338 chars]"
+            "author": "peterdeadline",
+            "title": "Blake Shelton & Taylor Sheridan Singing Competition \u2018The Road\u2019 Saddles Up At CBS",
+            "description": "EXCLUSIVE: Blake Shelton and Taylor Sheridan are herding musical superstars for their next act. The Voice alum and Yellowstone creator have teamed up for The Road, a new singing competition that has been roped in by CBS. The network will launch the series as \u2026",
+            "url": "http://deadline.com/2024/11/blake-shelton-taylor-sheridan-the-road-cbs-1236172654/",
+            "urlToImage": "https://deadline.com/wp-content/uploads/2024/11/MixCollage-11-Nov-2024-09-53-AM-5155.jpg?w=1000",
+            "publishedAt": "2024-11-11T18:45:00Z",
+            "content": "EXCLUSIVE: Blake Shelton and Taylor Sheridan are herding musical superstars for their next act.\r\nThe Voice alum and Yellowstone creator have teamed up for The Road, a new singing competition that has\u2026 [+2804 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Anime News Network"
+            },
+            "author": null,
+            "title": "Free Fire kicks off collaboration with football anime BLUE LOCK",
+            "description": "Fans and players can soon unlock in-game cosmetics such as outfits and emotes themed after legendary duo Isagi Yoichi and Nagi Seishiro North America,...",
+            "url": "https://www.animenewsnetwork.com/press-release/2024-11-11/free-fire-kicks-off-collaboration-with-football-anime-blue-lock/.217739",
+            "urlToImage": "",
+            "publishedAt": "2024-11-11T18:43:39Z",
+            "content": "Fans and players can soon unlock in-game cosmetics such as outfits and emotes themed after legendary duo Isagi Yoichi and Nagi SeishiroNorth America, Nov 11 2024 Garena has announced a global collabo\u2026 [+3545 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "9to5Toys"
+            },
+            "author": "Justin Kahn",
+            "title": "Walmart early Black Friday doorbuster smart TV deals: 55-inch Hisense $138, LG OLED $400 off, more",
+            "description": "As part of its now live early Black Friday sale, Walmart is serving up some notable doorbuster smart TV deals ranging from ultra-affordable models right up to some LG OLEDs. Alongside the options you\u2019ll find highlighted down below, let\u2019s start with this super\u2026",
+            "url": "http://9to5toys.com/2024/11/11/walmart-black-friday-doorbuster-smart-tv-deals/",
+            "urlToImage": "https://i0.wp.com/9to5toys.com/wp-content/uploads/sites/5/2023/05/LG-77-inch-Class-B3-Series-OLED-4K-UHD-Smart-TV.jpg?resize=1200%2C628&ssl=1",
+            "publishedAt": "2024-11-11T18:41:42Z",
+            "content": "As part of its now live early Black Friday sale, Walmart is serving up some notable doorbuster smart TV deals ranging from ultra-affordable models right up to some LG OLEDs. Alongside the options you\u2026 [+2476 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Deadline"
+            },
+            "author": "Denise Petski",
+            "title": "The Black List Names Inaugural Projects Lab Participants",
+            "description": "EXCLUSIVE: In an expansion of its Lab program, the Black List has named the projects and writers for its inaugural Projects Lab. The six writers are developing feature projects they intend to direct. The Lab program, now in its eleventh year, provides creativ\u2026",
+            "url": "http://deadline.com/2024/11/the-black-list-projects-lab-writers-1236172682/",
+            "urlToImage": "https://deadline.com/wp-content/uploads/2024/11/2024-Projects-Lab.jpg?w=1024",
+            "publishedAt": "2024-11-11T18:41:10Z",
+            "content": "EXCLUSIVE: In an expansion of its Lab program, the Black List has named the projects and writers for its inaugural Projects Lab. The six writers are developing feature projects they intend to direct.\u2026 [+5773 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Out.com"
+            },
+            "author": "Out.com Editors",
+            "title": "This viral tweet claims JD Vance is really good at\u2026 swallowing?",
+            "description": "Donald Trump being reelected in 2024 wasn't in our bingo card, but this wasn't either!",
+            "url": "https://www.out.com/media/jd-vance-blowjob-allegations-tweet-matthew-ray",
+            "urlToImage": "https://www.out.com/media-library/jd-vance.jpg?id=54469506&width=1200&height=600&coordinates=0%2C39%2C0%2C39",
+            "publishedAt": "2024-11-11T18:40:27Z",
+            "content": "Donald Trump being reelected in 2024 wasn't in our bingo card, but this wasn't either!\r\nOn Sunday, November 10, actor Matthew Ray shared an X post making a wild claim about Trump's running mate, Vice\u2026 [+2457 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "GameSpot"
+            },
+            "author": "Jon Bitner",
+            "title": "Early Black Friday Deal: LG 65-Inch 4K OLED TV Is Only $998, 55-Inch For $798",
+            "description": "LG 4K OLED TV Deals at Walmart (B3 Series) \r\n 55\" for $798 (was $1,199) | 65\" for $998 (was $1,299) \r\nSee 65-Inch Model See 55-Inch Model \r\nAside from the weeks leading up to the Super Bowl, Black Friday is your best chance at snagging a premium TV for cheap.\u2026",
+            "url": "https://www.gamespot.com/articles/lg-oled-4k-tv-walmart-black-friday-deal-2024/1100-6527688/",
+            "urlToImage": "https://www.gamespot.com/a/uploads/screen_kubrick/1595/15950357/4397808-lgoledb3.png",
+            "publishedAt": "2024-11-11T18:38:00Z",
+            "content": "Aside from the weeks leading up to the Super Bowl, Black Friday is your best chance at snagging a premium TV for cheap. However, Walmart is currently running an early Black Friday event thats slashin\u2026 [+1997 chars]"
         },
         {
             "source": {
@@ -580,90 +827,350 @@
                 "name": "Forbes"
             },
             "author": "Erik Kain, Senior Contributor, \n Erik Kain, Senior Contributor\n https://www.forbes.com/sites/erikkain/",
-            "title": "Today\u2019s \u2018Wordle\u2019 #1233 Hints, Clues And Answer For Sunday, November 3rd",
-            "description": "Looking for help with today's New York Times Wordle? Here are hints, clues and commentary to help you solve today's Wordle and sharpen your guessing game.",
-            "url": "https://www.forbes.com/sites/erikkain/2024/11/02/todays-wordle-1233-hints-clues-and-answer-for-sunday-november-3rd/",
-            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/654ac7d9543b3152d167c85e/0x0.jpg?format=jpg&crop=2629,1480,x0,y135,safe&height=900&width=1600&fit=bounds",
-            "publishedAt": "2024-11-03T02:00:00Z",
-            "content": "How to solve today's Wordle.\r\nSOPA Images/LightRocket via Getty Images\r\nLooking for Saturdays Wordle hints, clues and answer? You can find them here:\r\nForbesTodays Wordle #1232 Hints, Clues And Answe\u2026 [+2848 chars]"
+            "title": "One Of The Most Popular TV Shows In America Returns Today, But There\u2019s A Catch",
+            "description": "It\u2019s been nearly two years since the wildly popular modern Western drama Yellowstone last aired an episode.",
+            "url": "https://www.forbes.com/sites/erikkain/2024/11/11/one-of-the-most-popular-tv-shows-in-america-returns-today-but-theres-a-catch/",
+            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/672f9a7f770ea4a7e73d953b/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+            "publishedAt": "2024-11-11T18:35:00Z",
+            "content": "Yellowstone Season 5, Part 2\r\nCredit: Paramount\r\nUpdated 11.11.2024 See update below.\r\nIts been nearly two years since the wildly popular modern Western drama Yellowstone last aired an episode. Seaso\u2026 [+4723 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "ArchDaily"
+                "name": "Spoilertv.com"
             },
-            "author": "Pilar Caballero",
-            "title": "iFLYTEK AI Headquarters Campus (Phase I) / line+ studio",
-            "description": "iFLYTEK AI Headquarters Campus (Phase I)The iFLYTEK AI Headquarters Campus is located in the Hefei High-tech Zone, covering a total planned area of over 200 acres and an estimated total building area of approximately 400,000 square meters. Once completed, it \u2026",
-            "url": "https://www.archdaily.com/1022801/iflytek-ai-headquarters-campus-phase-i-line-plus-studio",
-            "urlToImage": "https://images.adsttc.com/media/images/671a/67a3/3dfd/b421/aeb5/65c2/large_jpg/iflytek-ai-headquarters-campus-phase-i-line-plus-studio_4.jpg?1729783733",
-            "publishedAt": "2024-11-03T02:00:00Z",
-            "content": "\u00a9 Arch-Exist\r\n+ 50\r\n<ul><li>Chief Architect/Project Principal:\u00a0Meng Fanhao\r\n</li><li>Design Team (Competition Phase):\u00a0Zhu Min, He Yaliang, Chen Guanxing, Xing Shu, Huang Ye, Li Jing, Wang Yubin, Xu H\u2026 [+8677 chars]"
+            "author": "SpoilerTV",
+            "title": "Overstepping - Comedy In The Works At CBS From Lauren Ashley Smith & Damon Wayans Jr.",
+            "description": "",
+            "url": "https://www.spoilertv.com/2024/11/overstepping-comedy-in-works-at-cbs.html",
+            "urlToImage": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_tbEnSHLf3RedR3DYMX13UnQF1JCjkpRxDo1tiJwzWcympeWMRylCfYA8tTuCaXQCQeUVNFmBxrP3f4OUoBzeWSpSK3PU0fCVW81BlQGieeR5lCcvH58A=w1200-h630-p-k-no-nu",
+            "publishedAt": "2024-11-11T18:30:00Z",
+            "content": "Press Release\r\n\n\nDamon Wayans Jr. just landed a full season order for his CBS comedy Poppa\u2019s House and now he\u2019s got another laugher in the works.\n \n The network is developing Overstepping, a multi-ca\u2026 [+447 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "TMZ"
+                "name": "Freerepublic.com"
             },
-            "author": "Tmz Staff",
-            "title": "Margot Robbie Reportedly Gives Birth to First Child",
-            "description": "Margot Robbie has reportedly added a new role to her already impressive resume ... 'cause apparently she's now a mom.",
-            "url": "https://www.tmz.com/2024/11/02/margot-robbie-gives-birth-to-first-child/",
-            "urlToImage": "https://imagez.tmz.com/image/3d/16by9/2024/10/16/3d209283d3114deca248813739838d75_xl.jpg",
-            "publishedAt": "2024-11-03T01:50:29Z",
-            "content": "Margot Robbie has reportedly added a new role to her already impressive resume ... 'cause apparently she's now a mom.\r\nAccording to multiple reports, the actress has given birth to her first child wi\u2026 [+1768 chars]"
+            "author": "The Anglo Navigator",
+            "title": "The Best of Possible Losses\nEating humble pie",
+            "description": "I\u2019m surprised by the ease with which I\u2019m taking this. I was far more worried in \u201916, but Trump will have far fewer constraints on his worst impulses this time around, and is poised to bring on average a much worse group of people to his admin than during his \u2026",
+            "url": "https://freerepublic.com/focus/f-chat/4277654/posts",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T18:25:36Z",
+            "content": "Skip to comments.\r\nThe Best of Possible Losses\r\nEating humble pieThe Anglo Navigator ^\r\n | 11/7/24\r\n | Henry Rodger Beck\r\nPosted on 11/11/2024 10:25:36 AM PST by DallasBiff\r\nIm surprised by the ease \u2026 [+5285 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "soompi"
+                "name": "Forbes"
             },
-            "author": "eclipse01",
-            "title": "Watch: ITZY\u2019s Yeji And Chaeryeong Dance With Park Jin Young In \u201cAmazing Saturday\u201d Preview",
-            "description": "ITZY\u2019s Yeji and Chaeryeong will be appearing on \u201cAmazing Saturday\u201d together with JYP Entertainment founder Park Jin Young! On November 2, the popular tvN variety show aired a sneak peek of its upcoming episode, which will feature Park Jin Young, Yeji, and Cha\u2026",
-            "url": "http://www.soompi.com/article/1700271wpp/watch-itzys-yeji-and-chaeryeong-dance-with-park-jin-young-in-amazing-saturday-preview",
-            "urlToImage": "https://0.soompi.io/wp-content/uploads/2024/11/02184909/Chaeryeong-Park-Jin-Young-Yeji.jpg",
-            "publishedAt": "2024-11-03T01:49:17Z",
-            "content": "ITZYs Yeji and Chaeryeong will be appearing on Amazing Saturday together with JYP Entertainment founder Park Jin Young!\r\nOn November 2, the popular tvN variety show aired a sneak peek of its upcoming\u2026 [+1264 chars]"
+            "author": "Erik Kain, Senior Contributor, \n Erik Kain, Senior Contributor\n https://www.forbes.com/sites/erikkain/",
+            "title": "One Of The Best Netflix Shows Ever Made Is Back For Season 2 Today",
+            "description": "'Arcane' returns to Netflix for its second season, though it's divided into three parts releasing across the month of November.",
+            "url": "https://www.forbes.com/sites/erikkain/2024/11/11/one-of-the-best-netflix-shows-ever-made-is-back-for-season-2-today/",
+            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/672cfa8db047c580fffc87ae/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+            "publishedAt": "2024-11-11T18:20:05Z",
+            "content": "LOS ANGELES, CALIFORNIA - OCTOBER 30: (L-R) Earl Baylon, Mick Wingert, Reed Shannon, Ella Purnell, ... [+] Hailee Steinfeld, Katie Townsend, Amirah Vann, Toks Olagundoye, Brett Tucker and Ellen Thoma\u2026 [+6564 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "CNA"
+                "name": "Kotaku"
             },
-            "author": "Cna Lifestyle",
-            "title": "Actress Margot Robbie gives birth to baby boy",
-            "description": "Actress Margot Robbie gives birth to baby boychannelnewsasia.com",
-            "url": "https://cnalifestyle.channelnewsasia.com/entertainment/margot-robbie-gives-birth-413106",
-            "urlToImage": "https://onecms-res.cloudinary.com/image/upload/s--iD4CIZDh--/c_crop,h_432,w_768,x_0,y_79/c_fill,g_auto,h_676,w_1200/f_auto,q_auto/v1/one-cms/core/6970ba23d133e9862b3cf06d8737c05c732f7ba2.jpg?itok=3_yG0eaj",
-            "publishedAt": "2024-11-03T01:36:01Z",
-            "content": "Margot Robbie has given birth to a baby boy. According to US entertainment outlet People, the 34-year-old actress has welcomed her first child with her husband Tom Ackerley.\r\nRobbie and Ackerley, who\u2026 [+1352 chars]"
+            "author": "Zack Zwiezen",
+            "title": "People Are Emptying Redbox Machines For Free Following Bankruptcy",
+            "description": "Less than two years after self-help company Chicken Soup for the Soul bought Redbox, the corporation declared bankruptcy and now people are taking hundreds of movies out of the mostly abandoned DVD rental kiosks across the country. Some are even, with permiss\u2026",
+            "url": "https://kotaku.com/redbox-machines-kiosks-free-movies-dvds-stealing-reddit-1851694915",
+            "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/90389d61082ddefedb6e1bd51e2dba01.jpg",
+            "publishedAt": "2024-11-11T18:20:00Z",
+            "content": "Less than two years after self-help company Chicken Soup for the Soul bought Redbox, the corporation declared bankruptcy and now people are taking hundreds of movies out of the mostly abandoned DVD r\u2026 [+3899 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "San Angelo LIVE!"
+                "name": "In These Times"
             },
-            "author": "San Angelo Live!",
-            "title": "B-52H Rumbles Over San Angelo",
-            "description": "SAN ANGELO, TX \u2014 The Angelo State Rams honored veterans at their game against Central Washington today at LeGrand Stadium. The highlight came when a B-52H bomber crew from Minot Air Force Base executed a perfect time-over-target (TOT) flyover just as the Star\u2026",
-            "url": "https://sanangelolive.com/news/entertainment/2024-11-02/b-52h-rumbles-over-san-angelo",
-            "urlToImage": "https://sanangelolive.com/sites/default/files/styles/facebook/public/2024-11/b52-asupic.jpg?h=a0667207&itok=LJtRUvb8",
-            "publishedAt": "2024-11-03T01:25:55Z",
-            "content": "In addition to the flyover, Angelo State celebrated veterans with a lineup of live entertainment at the Ram Jam, featuring Texas Country artist Kyle Garrett and the southern rock band All About Alice\u2026 [+439 chars]"
+            "author": "Talia Lavin",
+            "title": "The Rape Culture Election",
+            "description": "Across the Right, one refrain resounds: \u201cYour body, my choice.\u201d",
+            "url": "https://inthesetimes.com/article/the-rape-culture-election-trump",
+            "urlToImage": "https://s3.us-east-2.amazonaws.com/itt-images/_1200x630_crop_center-center_82_none/GettyImages-1485230372.jpg?mtime=1731339553",
+            "publishedAt": "2024-11-11T18:15:00Z",
+            "content": "Last week, the U.S. electorate affirmed that one of the groups it doesnt give a\u00a0shit aboutwhich are, to be fair, legionis victims of sexual assault. Apathy in some quarters is accompanied by gleeful \u2026 [+7376 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Lithub.com"
+            },
+            "author": "Brittany Allen",
+            "title": "Six newsletters to get you through this week.",
+            "description": "It\u2019s the week after the election. You\u2019re inundated with takes, ranging from the knee-jerk-libidinal appeal to the sagely analytical post-mortem. More are certainly coming. Writers be writing. But in the meantime, you\u2019ve got a bed to get out of. Breakfast to m\u2026",
+            "url": "https://lithub.com/six-newsletters-to-get-you-through-this-week/",
+            "urlToImage": "https://s26162.pcdn.co/wp-content/uploads/2024/11/letters-e1731343471508.jpeg",
+            "publishedAt": "2024-11-11T18:14:50Z",
+            "content": "It\u2019s the week after the election. You\u2019re inundated with takes, ranging from the knee-jerk-libidinal appeal to the sagely analytical post-mortem. More are certainly coming. Writers be writing. But in \u2026 [+3606 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Denver Post"
+            },
+            "author": "John Wenzel",
+            "title": "Bill Husted covered Denver\u2019s highs and lows with generosity, withering humor",
+            "description": "The veteran Rocky Mountain News and Denver Post writer died at home on Saturday, Nov. 9 at age 76.",
+            "url": "https://www.denverpost.com/2024/11/11/obituary-bill-husted-denver-columnist-society/",
+            "urlToImage": "https://www.denverpost.com/wp-content/uploads/2024/11/TDP-Z-Husted-01.jpg?w=1024&h=1026",
+            "publishedAt": "2024-11-11T18:13:24Z",
+            "content": "Bill Husted, who charmed and inflamed Denver\u2019s elite as a columnist for both The Denver Post and the Rocky Mountain News, died at his Denver home in hospice care on Saturday at age 76.\r\nHe died from \u2026 [+5004 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Bloody Disgusting"
+            },
+            "author": "John Squires",
+            "title": "\u2018Screamboat\u2019 \u2013 Tyler Posey and Kailey Hyman Join Steamboat Willie Horror Movie",
+            "description": "The short film that introduced Mickey Mouse to the world, 1928\u2019s\u00a0Steamboat Willie entered the public domain this year, and the tale gets the horror movie treatment with the upcoming Screamboat. Terrifier star\u00a0David Howard Thornton (\u201cArt the Clown\u201d) is playing\u2026",
+            "url": "https://bloody-disgusting.com/movie/3839049/screamboat-tyler-posey-and-kailey-hyman-join-steamboat-willie-horror-movie/",
+            "urlToImage": "https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2024/04/screamboat-willie.png?resize=1000%2C600&ssl=1",
+            "publishedAt": "2024-11-11T18:10:51Z",
+            "content": "Marvel announced five years ago, at\u00a0San Diego Comic-Con 2019, they were inviting Blade\u00a0into the Marvel Cinematic Universe with a new reboot. Five years later, well, Marvels planned\u00a0Blade MCU movie ha\u2026 [+2100 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BGR"
+            },
+            "author": "Jos\u00e9 Adorno",
+            "title": "iOS 18.2 beta 3 now available with over 13 new features",
+            "description": "Apple follows the testing cycle of iOS 18.2 now with beta 3. This build should improve general stability while continuing to build the new Apple \u2026\nThe post iOS 18.2 beta 3 now available with over 13 new features appeared first on BGR.",
+            "url": "https://bgr.com/tech/ios-18-2-beta-3-now-available-with-over-13-new-features/",
+            "urlToImage": "https://bgr.com/wp-content/uploads/2024/10/ios-18-2-volume-slider-lock-screen-bgr.jpg?quality=82&strip=all",
+            "publishedAt": "2024-11-11T18:08:49Z",
+            "content": "Get our daily newsletter in your inbox\r\nBGR's team sends an AM subscriber-only newsletter with the top tech &amp; entertainment stories at 9AM ET. Sign up to read it.\r\nBy signing up, I agree to the T\u2026 [+2533 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Bleeding Cool News"
+            },
+            "author": "Gavin Sheehan",
+            "title": "It's In The Game: Madden NFL Documentary Unveiled For Amazon Prime",
+            "description": "Amazon Studios\u00a0released a new trailer today for their latest documentary, It's In The Game: Madden NFL, set to launch its first episode later this month. The four-part series takes a look at one of the most iconic video games of all time, including the rocky \u2026",
+            "url": "https://bleedingcool.com/tv/its-in-the-game-madden-nfl-documentary-unveiled-for-amazon-prime/",
+            "urlToImage": "https://bleedingcool.com/wp-content/uploads/2024/11/Its-In-The-Game-Madden-NFL-Art-2000x1125.jpg",
+            "publishedAt": "2024-11-11T18:08:08Z",
+            "content": "Posted in: Amazon Studios, Electronic Arts, Madden NFL, TV | Tagged: Its In The Game: Madden NFL\r\nAmazon Prime released a new trailer for the gaming documentary Its In The Game: Madden NFL, coming ou\u2026 [+2481 chars]"
         },
         {
             "source": {
                 "id": "newsweek",
                 "name": "Newsweek"
             },
-            "author": "Adeola Adeosun",
-            "title": "Harrison Ford Announces Presidential Endorsement Days Before Election",
-            "description": "The actor backs Vice President Harris in a new video message, citing the rule of law and slamming Trump days before Election Day.",
-            "url": "https://www.newsweek.com/harrison-ford-endorses-kamala-harris-election-day-1979220",
-            "urlToImage": "https://d.newsweek.com/en/full/2510816/harrison-ford.jpg",
-            "publishedAt": "2024-11-03T01:18:25Z",
-            "content": "Hollywood icon Harrison Ford has publicly endorsed Vice President Kamala Harris in the 2024 presidential race with just 3 days until Election Day, adding his influential voice to an expanding coaliti\u2026 [+4186 chars]"
+            "author": "Lottie McGrath",
+            "title": "Mia Khalifa's Margot Robbie Remark Takes Off Online",
+            "description": "The former adult film star named the Barbie star and producer as being behind one of her top five favorite movies this year.",
+            "url": "https://www.newsweek.com/mia-khalifa-remark-takes-off-1983751",
+            "urlToImage": "https://d.newsweek.com/en/full/2517845/mia-khalifa.jpg",
+            "publishedAt": "2024-11-11T18:06:32Z",
+            "content": "Mia Khalifa's social media post about Margot Robbie and her filmmaking prowess has taken off online.\r\nBarbie star Robbie helped to produceAmazon's recent film My Old Ass, which tells the story of an \u2026 [+2630 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Biztoc.com"
+            },
+            "author": "fortune.com",
+            "title": "Mattel was supposed to have a hit with its \u2018Wicked\u2019 dolls ahead of the movie premiere. But it backfired",
+            "description": "Mattel made a mistake that hasn\u2019t been so popular. This weekend, social media users shared images of Wicked dolls they bought to celebrate the premiere of the Broadway-musical-turned-movie that showed a website listed on the box directed to an adult entertain\u2026",
+            "url": "https://biztoc.com/x/b2abe8884b23065f",
+            "urlToImage": "https://biztoc.com/cdn/807/og.png",
+            "publishedAt": "2024-11-11T18:03:52Z",
+            "content": "Mattel made a mistake that hasnt been so popular. This weekend, social media users shared images of Wicked dolls they bought to celebrate the premiere of the Broadway-musical-turned-movie that showed\u2026 [+144 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T18:01:07Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Fly4free.com"
+            },
+            "author": "Jo\u00e3o",
+            "title": "Flights from Slovakia to South Korea from \u20ac564",
+            "description": "LOT is offering discounted flights from Kosice, Slovakia, to Seoul, South Korea. Tickets are available now from \u20ac564 for a round trip!",
+            "url": "https://www.fly4free.com/flight-deals/europe/cheap-flights-to-south-korea-8-2/",
+            "urlToImage": "https://assets.fly4free.com/wp-content/uploads/2023/10/Seoul_PH_sava-bobov-eVa2FK83K6w-unsplash.jpg",
+            "publishedAt": "2024-11-11T18:00:29Z",
+            "content": "LOT is offering discounted flights from Kosice, Slovakia, to Seoul, South Korea. Tickets are available now from 564 for a round trip! Welcome to South Korea, a captivating blend of ancient traditions\u2026 [+2849 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "IndieWire"
+            },
+            "author": "Ryan Lattanzio",
+            "title": "The 8 Best New Blu-ray, DVD, and 4K Releases This November",
+            "description": "From a massive Criterion Collection retrospective to the pre-order of a first-ever \"Looking for Mr. Goodbar\" home release, here are eight physical media titles worth grabbing this month.",
+            "url": "https://www.indiewire.com/gallery/best-new-blu-ray-dvd-4k-releases-november-2024/",
+            "urlToImage": "https://www.indiewire.com/wp-content/uploads/2024/11/Best-New-Blurays-November-2024.jpg?w=650",
+            "publishedAt": "2024-11-11T18:00:18Z",
+            "content": "Physical media culture is alive and thriving thanks to the home video tastemakers hailing everywhere from\u00a0The Criterion Collection\u00a0to Kino Lorber and the Warner Archive Collection.\u00a0Each month, IndieW\u2026 [+10584 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Variety"
+            },
+            "author": "Joseph Otterson",
+            "title": "Amazon Thriller Series \u2018Obsession\u2019 Casts Kingston Rumi Southwick, Ella Victoria, Megan Peta Hill, Alfredo Narcisco (EXCLUSIVE)",
+            "description": "The Amazon series based on Catherine Ryan Howard\u2019s bestselling novel \u201c56 Days\u201d has added four new cast members, Variety has learned exclusively. Kingston Rumi Southwick, Ella Victoria, Megan Peta Hill, and Alfredo Narcisco have all joined the series, which is\u2026",
+            "url": "https://variety.com/2024/tv/news/amazon-series-obsession-cast-kingston-rumi-southwick-ella-victoria-megan-peta-hill-alfredo-narcisco-1236206542/",
+            "urlToImage": "https://variety.com/wp-content/uploads/2024/11/Kingston-Rumi-Southworth-Ella-Victoria.jpg?w=1000&h=563&crop=1",
+            "publishedAt": "2024-11-11T18:00:00Z",
+            "content": "The Amazon series based on Catherine Ryan Howard\u2019s bestselling novel \u201c56 Days\u201d has added four new cast members, Variety has learned exclusively. \r\nKingston Rumi Southwick, Ella Victoria, Megan Peta H\u2026 [+2186 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "IndieWire"
+            },
+            "author": "Tony Maglio",
+            "title": "If It\u2019s in the Game, It\u2019s in the Trailer for Amazon Prime Video\u2019s \u2018Madden NFL\u2019 Doc",
+            "description": "Amazon Prime Video has released the trailer and premiere date for its 'It's in the Game: Madden NFL' docuseries.",
+            "url": "https://www.indiewire.com/news/trailers/madden-nfl-docuseries-amazon-trailer-premiere-date-1235064394/",
+            "urlToImage": "https://www.indiewire.com/wp-content/uploads/2024/11/MSDLIGI_WB008.jpg?w=650",
+            "publishedAt": "2024-11-11T18:00:00Z",
+            "content": "Boom! Amazon Prime Video has released the trailer for \u201cIt\u2019s in the Game,\u201d the streaming service\u2019s docuseries about the \u201cMadden\u201d football video game series.\r\n\u201cIt\u2019s in the Game: Madden NFL\u201d will premie\u2026 [+2100 chars]"
+        },
+        {
+            "source": {
+                "id": "fortune",
+                "name": "Fortune"
+            },
+            "author": "Sydney Lake",
+            "title": "Mattel was supposed to have a hit with its \u2018Wicked\u2019 dolls ahead of the movie premiere. But it backfired",
+            "description": "Toy manufacturer apologizes for misprint on \u201cWicked\u201d dolls that direct to an adult site.",
+            "url": "https://fortune.com/2024/11/11/mattel-wicked-doll-packaging-misprint-adult-website-apology/",
+            "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2024/11/GettyImages-2147041954-e1731346600764.jpg?resize=1200,600",
+            "publishedAt": "2024-11-11T17:59:37Z",
+            "content": "Mattel made a mistake that hasnt been so popular. This weekend, social media users shared images of Wicked dolls they bought to celebrate the premiere of the Broadway-musical-turned-movie that showed\u2026 [+5344 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Post"
+            },
+            "author": "Whitney Vasquez",
+            "title": "Quincy Jones laid to rest in an \u2018intimate ceremony\u2019 that included all 7 of his children",
+            "description": "A larger celebration of life will be held at a later date, Quincy's family revealed.",
+            "url": "https://nypost.com/2024/11/11/entertainment/quincy-jones-laid-to-rest-in-intimate-funeral-one-week-after-death/",
+            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/11/quincy-jones-iii-martina-jones-93463844.jpg?quality=75&strip=all&w=1024",
+            "publishedAt": "2024-11-11T17:54:31Z",
+            "content": "Quincy Jones was laid to rest in a private funeral that included all seven of his children.\r\nThe music icon\u2019s \u201cintimate ceremony\u201d was held in Los Angeles one week after his death at age 91 on Nov. 3,\u2026 [+3552 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Inman"
+            },
+            "author": "Lillian Dickerson",
+            "title": "After selling Tadao Ando home, Ye snags $35M Beverly Park pad",
+            "description": "Ye's new mansion spans about 20,000 square feet and sits on about seven acres. The property last sold for $24.5 million in 2022.",
+            "url": "https://www.inman.com/2024/11/11/after-selling-tadao-ando-home-ye-snags-35m-beverly-park-pad/",
+            "urlToImage": "https://assets.inman.com/wp-content/uploads/2024/11/Kanye-West-and-72-Beverly-Park_Beverly-Hills-1024x576.jpg",
+            "publishedAt": "2024-11-11T17:53:35Z",
+            "content": "Whether its refining your business model, mastering new technologies, or discovering strategies to capitalize on the next market surge,\u00a0Inman Connect New York\u00a0will prepare you to take bold steps forw\u2026 [+2599 chars]"
+        },
+        {
+            "source": {
+                "id": "marca",
+                "name": "Marca"
+            },
+            "author": "marca.com",
+            "title": "Mike Tyson issues chilling warning to Logan Paul: 'I'm going to be dead soon'",
+            "description": "The highly anticipated matchup between boxing legend Mike Tyson and social media sensation Jake Paul is set to take center stage on November 15 at AT&T Stadium in Arlington, Texas.",
+            "url": "https://www.marca.com/en/boxing/2024/11/11/67322d5246163fd1038b456e.html",
+            "urlToImage": "https://phantom-marca.unidadeditorial.es/2ce8e67f59aba298722a29ca12c67822/resize/1200/f/webp/assets/multimedia/imagenes/2024/11/11/17313414828282.jpg",
+            "publishedAt": "2024-11-11T17:49:39Z",
+            "content": "The highly anticipated matchup between boxing legend Mike Tyson and social media sensation Jake Paul is set to take center stage on November 15 at AT&amp;T Stadium in Arlington, Texas. \r\nThe fight ha\u2026 [+2538 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Bloody Disgusting"
+            },
+            "author": "Meagan Navarro",
+            "title": "\u2018How to Kill Monsters\u2019 Trailer Unleashes Gory Splatstick Creature Feature",
+            "description": "The sole survivor of a blood-drenched massacre must team up with a rag-tag bunch to defend a police station from an invasion of Lovecraftian monsters in\u00a0How to Kill Monsters, and the official How to Kill Monsters trailer highlights many of the practical creat\u2026",
+            "url": "https://bloody-disgusting.com/movie/3839045/how-to-kill-monsters-trailer-unleashes-gory-splatstick-creature-feature/",
+            "urlToImage": "https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2024/11/HTKM_Still_03-scaled-1.jpg?resize=1000%2C600&ssl=1",
+            "publishedAt": "2024-11-11T17:49:17Z",
+            "content": "Marvel announced five years ago, at\u00a0San Diego Comic-Con 2019, they were inviting Blade\u00a0into the Marvel Cinematic Universe with a new reboot. Five years later, well, Marvels planned\u00a0Blade MCU movie ha\u2026 [+2100 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ZDNet"
+            },
+            "author": "Taylor Clemons",
+            "title": "My favorite wireless headset has a 300-hour battery, and it's on sale at Walmart",
+            "description": "The new HyperX Cloud Alpha Wireless headset offers brilliant spatial audio and incredible battery life which may have convinced me to finally ditch wired headsets forever. And right now at Amazon, you can save $63 ahead of Black Friday.",
+            "url": "https://www.zdnet.com/home-and-office/home-entertainment/hyperx-cloud-alpha-wireless-black-friday-deal-11-11-2024/",
+            "urlToImage": "https://www.zdnet.com/a/img/resize/4fda484e1e5f5af80578bbdfce68c84f6209fef3/2022/09/22/fa5fc978-a3b1-4611-9a76-4a5351d227db/hyperx-cloud-alpha-wireless.jpg?auto=webp&fit=crop&height=675&width=1200",
+            "publishedAt": "2024-11-11T17:49:00Z",
+            "content": "HyperX\r\nIt's been about two years since I first got my hands on the HyperX Cloud Alpha wireless headset for testing here at ZDNET, and I'm very pleased to inform you dearest gentle readers that it's \u2026 [+17256 chars]"
+        },
+        {
+            "source": {
+                "id": "nbc-news",
+                "name": "NBC News"
+            },
+            "author": "Reuters",
+            "title": "FIFA must halt Saudi World Cup bid due to human rights issues, says Amnesty",
+            "description": "FIFA must halt the process to pick Saudi Arabia as hosts of the 2034 World Cup unless major human rights reforms are announced before the vote next month.",
+            "url": "https://www.nbcnews.com/nbc-out/out-news/fifa-must-halt-saudi-world-cup-bid-due-human-rights-issues-says-amnest-rcna179599",
+            "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-11/241111-fifa-saudi-arabia-se-1134a-a6f4e3.jpg",
+            "publishedAt": "2024-11-11T17:48:04Z",
+            "content": "FIFA must halt the process to pick Saudi Arabia as hosts of the 2034 World Cup unless major human rights reforms are announced before the vote next month, Amnesty International and the Sport &amp; Ri\u2026 [+4457 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Deadline"
+            },
+            "author": "matthewgrobar",
+            "title": "DeWanda Wise, \u2018Two Distant Strangers\u2019 Oscar Winners Travon Free & Martin Desmond Roe Board Live-Action Short \u2018Will I See You Again?\u2019 As EPs",
+            "description": "EXCLUSIVE: Travon Free and Martin Desmond Roe, the filmmakers behind the Academy Award-winning 2021 live-action short Two Distant Strangers, have found their next awards play in Will I See You Again?, a live-action short co-written and directed by Michael Per\u2026",
+            "url": "http://deadline.com/2024/11/will-i-see-you-again-short-adds-two-distant-strangers-filmmakers-eps-1236172568/",
+            "urlToImage": "https://deadline.com/wp-content/uploads/2024/11/DeWanda-Wise-Martin-Desmond-Roe-Travon-Free-and-Mickey-Meyer-.jpg?w=1024",
+            "publishedAt": "2024-11-11T17:47:15Z",
+            "content": "EXCLUSIVE: Travon Free and Martin Desmond Roe, the filmmakers behind the Academy Award-winning 2021 live-action short Two Distant Strangers, have found their next awards play in Will I See You Again?\u2026 [+3178 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "disneyfoodblog.com"
+            },
+            "author": "Lydia Storks",
+            "title": "The Disney Treasure Just Rescued 4 People From a Sinking Boat in Bermuda",
+            "description": "The Disney Treasure cruise ship just made an important rescue on its way to Florida!\nThe post The Disney Treasure Just Rescued 4 People From a Sinking Boat in Bermuda first appeared on the disney food blog.",
+            "url": "https://www.disneyfoodblog.com/2024/11/11/the-disney-treasure-just-rescued-4-people-from-a-sinking-boat-in-bermuda/",
+            "urlToImage": "https://www.disneyfoodblog.com/wp-content/uploads/2023/08/disney-treasure-ship-700x396.png",
+            "publishedAt": "2024-11-11T17:45:41Z",
+            "content": "Disney Cruise Line is a great vacation option if you\u2019re looking for a way to relax while getting a taste of Disney fun.\r\n\u00a9Disney\r\nThe cruise line offers a variety of sailings and itineraries to vario\u2026 [+1958 chars]"
         },
         {
             "source": {
@@ -671,51 +1178,129 @@
                 "name": "Biztoc.com"
             },
             "author": "asia.nikkei.com",
-            "title": "Japanese arcade giant Genda says U.S. expansion is 'path to win'",
-            "description": "TOKYO -- Amusement facility operator Genda plans to expand its mini-game machine business in the U.S. and Europe by promoting Japanese content amid rising global interest in anime.\nThe Tokyo-based arcade giant in June announced that it would acquire National \u2026",
-            "url": "https://biztoc.com/x/06cd8d2e07b15833",
-            "urlToImage": "https://biztoc.com/cdn/06cd8d2e07b15833_s.webp",
-            "publishedAt": "2024-11-03T01:04:17Z",
-            "content": "TOKYO -- Amusement facility operator Genda plans to expand its mini-game machine business in the U.S. and Europe by promoting Japanese content amid rising global interest in anime.The Tokyo-based arc\u2026 [+154 chars]"
+            "title": "Lui Che Woo, casino tycoon and Galaxy Entertainment founder, dead at 95",
+            "description": "NEW YORK -- Macau casino gaming tycoon Lui Che Woo has died at the age of 95.\nThe founder and chairman of Galaxy Entertainment Group and of K. Wah International Holdings died on Nov. 7, the companies said Monday.\nBillionaire built a business empire in China s\u2026",
+            "url": "https://biztoc.com/x/65da7159d4f8c0eb",
+            "urlToImage": "https://biztoc.com/cdn/65da7159d4f8c0eb_s.webp",
+            "publishedAt": "2024-11-11T17:42:26Z",
+            "content": "NEW YORK -- Macau casino gaming tycoon Lui Che Woo has died at the age of 95.The founder and chairman of Galaxy Entertainment Group and of K. Wah International Holdings died on Nov. 7, the companies \u2026 [+146 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Forbes"
+                "name": "Gizmodo.com"
             },
-            "author": "Erik Kain, Senior Contributor, \n Erik Kain, Senior Contributor\n https://www.forbes.com/sites/erikkain/",
-            "title": "\u2018FROM\u2019 Season 3, Episode 7 Review: The Worst Episode Of The Season",
-            "description": "Too much filler. Too little meat on the bones.",
-            "url": "https://www.forbes.com/sites/erikkain/2024/11/02/from-season-3-episode-7-review-the-worst-episode-of-the-season/",
-            "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/672477cbd8ba6aa07fa6f932/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-            "publishedAt": "2024-11-03T01:00:00Z",
-            "content": "FROM\r\nCredit: MGM\r\nFROMs latest episode is probably the first one this season where I felt a little bored, slogging my way through endless conversations that mostly devolved into people arguing with \u2026 [+6636 chars]"
+            "author": "Matthew Gault",
+            "title": "\u2018Grand Theft Auto\u2019 Publisher Says AI Won\u2019t Help It Make Games Faster",
+            "description": "'I would love to say that it\u2019s going to make things cheaper, quicker, better, or easier to make hits. I don\u2019t think that\u2019s the case.'",
+            "url": "https://gizmodo.com/grand-theft-auto-publisher-says-ai-wont-help-it-make-games-faster-2000523084",
+            "urlToImage": "https://gizmodo.com/app/uploads/2024/11/GTAVITakeTwo.jpg",
+            "publishedAt": "2024-11-11T17:40:48Z",
+            "content": "Strauss Zelnick, the CEO of Grand Theft Auto publisher Take-Two Interactive, told CNBC he doesnt think AI is going to revolutionize how they make video games. I would love to say that its going to ma\u2026 [+3063 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": "Stephanie Nolasco",
+            "title": "Prince Harry pays tribute to \u2018my fellow veterans\u2019 after missing royal family reunion at Remembrance Day",
+            "description": "Prince Harry's sister-in-law, Kate Middleton, made an appearance at the Festival of Remembrance on Saturday night at Royal Albert Hall. She was accompanied by her husband, Prince William.",
+            "url": "https://www.foxnews.com/entertainment/prince-harry-pays-tribute-veterans-missing-royal-family-reunion-remembrance-day",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2024/08/Getty_PrinceHarry.jpg",
+            "publishedAt": "2024-11-11T17:40:46Z",
+            "content": "Prince Harry is paying tribute to \"my fellow veterans\" in honor of Veterans Day and Remembrance Day.\r\nOn Monday, the Duke of Sussex released a statement dedicated to those who served and their loved \u2026 [+6119 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Deadline"
+                "name": "Newser"
             },
-            "author": "Natalie Oganesyan",
-            "title": "Judd Apatow Says New Hollywood Model Is \u201cIf It Bleeds, It Leads,\u201d Little Room Left For \u201cSubtler, Human\u201d Stories",
-            "description": "Judd Apatow lamented the state of the entertainment industry today, saying he\u2019s witnessed a new Hollywood model that leaves little room for more grounded storylines. Appearing on a new episode of Dana Carvey and David Spade\u2019s Superfly podcast, the three-time \u2026",
-            "url": "http://deadline.com/2024/11/judd-apatow-new-hollywood-model-streamers-intense-1236165496/",
-            "urlToImage": "https://deadline.com/wp-content/uploads/2024/11/apatow.jpg?w=1024",
-            "publishedAt": "2024-11-03T00:10:38Z",
-            "content": "Judd Apatow lamented the state of the entertainment industry today, saying he\u2019s witnessed a new Hollywood model that leaves little room for more grounded storylines.\r\nAppearing on a new episode of Da\u2026 [+2390 chars]"
+            "author": "Newser Editors",
+            "title": "Trailer Reveals Harrison Ford as Red Hulk",
+            "description": "Harrison Ford plays the president of the United States in an upcoming movie, which isn't too much of a stretch. But the 82-year-old also morphs into Red Hulk, which is exactly what it sounds like, as a new trailer for Captain America: Brave New World reveals,\u2026",
+            "url": "https://www.newser.com/story/359307/harrison-ford-has-a-new-look-in-latest-trailer.html",
+            "urlToImage": "https://img1-azrcdn.newser.com/image/1572032-12-20241111115246.jpeg",
+            "publishedAt": "2024-11-11T17:37:00Z",
+            "content": "Harrison Ford plays the president of the United States in an upcoming movie, which isn't too much of a stretch. But the 82-year-old also morphs into Red Hulk, which is exactly what it sounds like, as\u2026 [+511 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Boredpanda.com"
+                "name": "ZDNet"
             },
-            "author": "Justinas Keturka",
-            "title": "50 Funny Memes For When You\u2019re Too Tired To Do Anything Else",
-            "description": "Memes have been a popular means of expression in the digital age. While they are primarily a source of entertainment, these images that quickly go viral have also been effective tools to promote political agendas, for better or worse.",
-            "url": "https://www.boredpanda.com/funny-zesty-supreme-memes/",
-            "urlToImage": "https://www.boredpanda.com/blog/wp-content/uploads/2024/11/funny-zesty-supreme-memes-fb-67276dc19563d.png",
-            "publishedAt": "2024-11-03T00:00:21Z",
-            "content": "Memes have been a popular means of expression in the digital age. While they are primarily a source of entertainment, these images that quickly go viral have also been effective tools to promote poli\u2026 [+557 chars]"
+            "author": "Taylor Clemons",
+            "title": "Save up to $300 on the Amazon Fire TV Omni QLED ahead of Black Friday",
+            "description": "The Amazon Fire TV Omni QLED offers great picture and audio quality for both streaming and console gaming. Save up to $300, but you'll have to hurry because with a deal this good, stock may not last.",
+            "url": "https://www.zdnet.com/home-and-office/home-entertainment/amazon-fire-tv-omni-qled-black-friday-deal-11-11-2024/",
+            "urlToImage": "https://www.zdnet.com/a/img/resize/5242d05a542a6294119d3d149c05f71d6b98445f/2023/01/26/e8a0b2b1-284d-4548-a1aa-4bd522441dbe/chameleon-pluto-tv-jungle-planet.jpg?auto=webp&fit=crop&height=675&width=1200",
+            "publishedAt": "2024-11-11T17:37:00Z",
+            "content": "What's the deal?\r\nRight now, you can save up to $300 on the\u00a0Amazon Fire TV Omni QLED. Different sizes have different discounts, so make sure you double check to make sure you're getting the best valu\u2026 [+13743 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "disneyfoodblog.com"
+            },
+            "author": "Jasmine Kocon",
+            "title": "If This Secret Gets Out, Nobody Will Go To This Mickey\u2019s Very Merry Christmas Party Perk",
+            "description": "There are fun holiday character meet and greets to enjoy at Mickey's Very Merry Christmas Pary, but there's one we recommend skipping, and the reason why is a SECRET we're going to share with you!\nThe post If This Secret Gets Out, Nobody Will Go To This Micke\u2026",
+            "url": "https://www.disneyfoodblog.com/2024/11/11/if-this-secret-gets-out-nobody-will-go-to-this-mickeys-very-merry-christmas-party-perk/",
+            "urlToImage": "https://www.disneyfoodblog.com/wp-content/uploads/2024/11/2024-WDW-magic-kingdom-mickeys-very-merry-christmas-party-Mickeys-Once-Upon-A-Christmastime-Parade-02-700x525.jpg",
+            "publishedAt": "2024-11-11T17:35:14Z",
+            "content": "We had a BLAST at the first 2024 Mickey\u2019s Very Merry Christmas Party on November 8th!\r\n2024 Mickey\u2019s Very Merry Christmas Party\r\nThere is lots to do at this annual holiday party in Magic Kingdom! You\u2026 [+4151 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ZDNet"
+            },
+            "author": "Taylor Clemons",
+            "title": "Save up to $1,100 on this Sony Bravia 7 TV and soundbar bundle at Amazon",
+            "description": "If you've been waiting to upgrade your home theater, now is your chance to snag an awesome bundle deal from Sony that includes a Bravia 7 Mini LED TV and a Sony Bravia Bar 8. But you won't want to wait because you might not see a bundle deal this good again u\u2026",
+            "url": "https://www.zdnet.com/home-and-office/home-entertainment/sony-bravia-7-bundle-black-friday-deal-11-11-2024/",
+            "urlToImage": "https://www.zdnet.com/a/img/resize/f9e364f266bb50a8a7698627d959675a0f8e0324/2024/09/20/1d78203c-fa66-4526-82b3-383fcb9119e4/sony-bravia-7-and-bar-8.jpg?auto=webp&fit=crop&height=675&width=1200",
+            "publishedAt": "2024-11-11T17:33:00Z",
+            "content": "Sony/ZDNET\r\nNow is the time to kickstart your home theater or give it a total refresh. Amazon is offering a great bundle deal where you'll get both a Sony Bravia 7 and a Sony Bravia Bar 8. Depending \u2026 [+1859 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Slashdot.org"
+            },
+            "author": "feedfeeder",
+            "title": "An Overwatch: Classic event will take fans all the way back to the beginning",
+            "description": "For the first time in over two years, Overwatch 2 players will be able to group up in teams of six. A three-week event featuring that format starts tomorrow, November 12. But there\u2019s a twist: you won\u2019t be able to select Kiriko or Sombra, or battle it out with\u2026",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=175451029",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T17:32:17Z",
+            "content": "For the first time in over two years, Overwatch 2 players will be able to group up in teams of six. A three-week event featuring that format starts tomorrow, November 12. But there\u2019s a twist: you won\u2026 [+3188 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ZDNet"
+            },
+            "author": "Nina Raemont",
+            "title": "Upgrade to Windows 11 Pro for $18 right now",
+            "description": "Save 90% on a Windows 11 Pro license with this deal for more productivity features to help you get things done.",
+            "url": "https://www.zdnet.com/article/upgrade-to-windows-11-pro-for-18-right-now/",
+            "urlToImage": "https://www.zdnet.com/a/img/resize/fb360a8e73bbb12480d1560712eebfd1fb520fe0/2023/06/15/75d4fcda-e4a6-4606-8575-e0a172e5d631/windows-11-pro-stack-social.jpg?auto=webp&fit=crop&height=675&width=1200",
+            "publishedAt": "2024-11-11T17:30:15Z",
+            "content": "Get Windows 11 Pro at a big discount right now.\r\nStackSocial\r\nNeed an operating system upgrade? Windows 11 Pro puts productivity in your hands with features that make everything from hybrid work to s\u2026 [+1723 chars]"
+        },
+        {
+            "source": {
+                "id": "time",
+                "name": "Time"
+            },
+            "author": "Vinod Khosla",
+            "title": "A Roadmap to AI Utopia",
+            "description": "The future of AI will be decided by what we guide this powerful tool toward, writes Vinod Khosla.",
+            "url": "https://time.com/7174892/a-roadmap-to-ai-utopia/",
+            "urlToImage": "https://api.time.com/wp-content/uploads/2024/11/artificial-intelligence-utopia-map.jpg?quality=85&w=1200&h=628&crop=1",
+            "publishedAt": "2024-11-11T17:28:50Z",
+            "content": "I've seen technology reshape our world repeatedly. Previous technology platforms amplified human capabilities but didn't fundamentally alter the essence of human intellect. They extended our reach bu\u2026 [+19720 chars]"
         }
     ]
 }

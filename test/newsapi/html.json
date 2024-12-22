@@ -1,19 +1,656 @@
 {
     "status": "ok",
-    "totalResults": 14,
+    "totalResults": 75,
     "articles": [
         {
             "source": {
                 "id": null,
-                "name": "Globalsecurity.org"
+                "name": "Substack.com"
             },
-            "author": "John Pike",
-            "title": "The 2 Candidates Fighting To Become Moldova's Next President",
-            "description": "In a November 3 presidential runoff, Moldovan voters will choose between pro-EU incumbent Maia Sandu, who won the first round with 42 percent of the vote, and former Prosecutor-General Alexandr Stoianoglo, who secured 26 percent with backing from the pro-Russ\u2026",
-            "url": "https://www.globalsecurity.org/military/library/news/2024/11/mil-241102-rferl01.htm",
+            "author": "noleary",
+            "title": "Security Is a Useless Controls Problem",
+            "description": "Article URL: https://securityis.substack.com/p/security-is-a-useless-controls-problem\nComments URL: https://news.ycombinator.com/item?id=42110149\nPoints: 54\n# Comments: 24",
+            "url": "https://securityis.substack.com/p/security-is-a-useless-controls-problem",
+            "urlToImage": "https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fsecurityis.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-1466029798%26version%3D9",
+            "publishedAt": "2024-11-11T20:20:08Z",
+            "content": "In this blog, I cover:\r\n<ul><li>A somewhat popular StackOverflow answer to introduce a metaphor about useless security posts\r\n</li><li>How to tell if a control is probably useless \r\n</li><li>Why usel\u2026 [+9855 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Pypi.org"
+            },
+            "author": "kenny@unicorefw.org",
+            "title": "unicorefw added to PyPI",
+            "description": "A versatile Python library for utility functions similar to Underscore.js",
+            "url": "https://pypi.org/project/unicorefw/",
+            "urlToImage": "https://pypi.org/static/images/twitter.abaf4b19.webp",
+            "publishedAt": "2024-11-11T20:13:03Z",
+            "content": "Overview\r\nUnicoreFW-PY, a part of UnicoreFW.org is a Python-based framework based on UnderscoreJS, designed to offer a comprehensive set of utilities and functional programming tools. This framework \u2026 [+6380 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Bennadel.com"
+            },
+            "author": "Ben Nadel",
+            "title": "VARCHAR(Length) Limit Refers To Characters, Not Bytes, In MySQL",
+            "description": "Ben Nadel demonstrates that the VARCHAR(length) limit in MySQL refers to the number of characters, not the number of bytes....",
+            "url": "https://www.bennadel.com/blog/4724-varcharlength-limit-refers-to-characters-not-bytes-in-mysql.htm",
+            "urlToImage": "https://bennadel-cdn.com/resources/uploads/2024/varchar-10-field-ascii-vs-emoji-mysql@2x.png",
+            "publishedAt": "2024-11-11T20:12:32Z",
+            "content": "When you define a varchar field in a MySQL database table, you can provide a length limit, ex varchar(255). For as long as I can remember, I thought this limit referred to the number of bytes that co\u2026 [+5720 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Changelog.com"
+            },
+            "author": null,
+            "title": "The democratization of spreadsheets",
+            "description": "Changelog Merch is now on sale, IronCalc sets out to democratize spreadsheets, Grant Slatton writes about algorithms we develop software by, Mark Rainey gives respect to the ultimate in debugging, Gitpod is leaving Kubernetes & Johannes Kaufmann\u2019s html-to-mar\u2026",
+            "url": "https://changelog.com/news/120",
+            "urlToImage": "https://snap.fly.dev/news/120/img",
+            "publishedAt": "2024-11-11T20:05:00Z",
+            "content": "The only news I look forward to every week. Some weeks, I play it twice. Quick, witty, informative &amp; positive. Rock on, Jerod!\r\nMary H."
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ZDNet"
+            },
+            "author": "David Gewirtz",
+            "title": "Want a programming job in 2024? Learning any language helps, but only one is essential",
+            "description": "Every employment site agrees: Your dream programming job demands this language.",
+            "url": "https://www.zdnet.com/article/want-a-programming-job-in-2024-learning-any-language-helps-but-only-one-is-essential/",
+            "urlToImage": "https://www.zdnet.com/a/img/resize/4992363041c0bf6abc692b3fec12fd8120ef14dd/2024/11/11/ccb7b9ac-9d5b-4a30-8f5c-72efdd829f2c/codebinarygettyimages-2165492991.jpg?auto=webp&fit=crop&height=675&width=1200",
+            "publishedAt": "2024-11-11T20:03:00Z",
+            "content": "David Gewirtz/ZDNET\r\nOver the past few months, we've taken a comprehensive deep dive into the popularity of programming languages. \r\nAlso: The most popular programming languages in 2024\r\nBut how do y\u2026 [+6321 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Freerepublic.com"
+            },
+            "author": "FreeRepublic.com",
+            "title": "About the story \"NATO Secretary General Mark Rutte threatens US\"? Its fake.",
+            "description": "Posted in response to the thread NATO Secretary General Mark Rutte threatens US and expanding on my comment on that thread. This story is fake. How do we know? By reading and asking if it makes any sense and searching for the original sources and checking if \u2026",
+            "url": "https://freerepublic.com/focus/f-bloggers/4277678/posts",
             "urlToImage": null,
-            "publishedAt": "2024-11-03T06:04:13Z",
-            "content": "By RFE/RL's Moldovan Service November 02, 2024\r\nIn a November 3 presidential runoff, Moldovan voters will choose between pro-EU incumbent Maia Sandu, who won the first round with 42 percent of the vo\u2026 [+5545 chars]"
+            "publishedAt": "2024-11-11T20:02:35Z",
+            "content": "Skip to comments.\r\nAbout the story \"NATO Secretary General Mark Rutte threatens US\"? Its fake. \r\nFreeRepublic.com ^\r\n | November 11, 2024\r\n | Widget Jr\r\nPosted on 11/11/2024 12:02:35 PM PST by Widget\u2026 [+8290 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Livedoor.jp"
+            },
+            "author": "nwknews",
+            "title": "\u30dc\u30c7\u30a3\u30d3\u30eb\u30c0\u30fc\u304c\u6c5f\u6238\u6642\u4ee3\u306b\u30bf\u30a4\u30e0\u30b9\u30ea\u30c3\u30d7\u3057\u305f\u3089\u3069\u3046\u3044\u3046\u6271\u3044\u53d7\u3051\u308b\u306e\uff1f",
+            "description": "1: \u98a8\u5439\u3051\u3070\u540d\u7121\u3057\uff20\uff3c(^o^)\uff0f  2016/12/02(\u91d1) 13:24:06.89 ID:cufsqqg30  \u7e54\u7530\u4fe1\u9577\u306b\u53ec\u3057\u62b1\u3048\u3089\u308c\u308b\u53ef\u80fd\u6027\u3042\u308b\u3084\u308d \u8ee2\u8f09\u5143\uff1ahttp://tomcat.2ch.sc/test/read.cgi/livejupiter/1480652646/\u5b9f\u5728\u3059\u308b\u6016\u3044\u751f\u7269\u306e\u753b\u50cfhttp://blog.livedoor.jp/nwknews/archives/5130075.html",
+            "url": "http://blog.livedoor.jp/nwknews/archives/6175701.html",
+            "urlToImage": "https://livedoor.blogimg.jp/nwknews/imgs/f/2/f2725be5-s.jpg",
+            "publishedAt": "2024-11-11T20:00:18Z",
+            "content": "zarathustra1116@yahoo.co.jp"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Lawrence Bonk",
+            "title": "A TV show about EA Sports' Madden games hits Prime Video on November 26",
+            "description": "Madden NFL has been around for almost 40 years (really) so it\u2019s high time the gaming franchise got the documentary treatment. Prime Video has got you covered. The platform just announced that It\u2019s in the Game: Madden NFL will stream on November 26, which is j\u2026",
+            "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_50fa9fb6-17a1-417d-9ce3-3a170dfdd96b",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T19:48:33Z",
+            "content": "If you click 'Accept all', we and our partners, including 237 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use \u2026 [+678 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T19:10:40Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "Russia Will Not Tolerate Powers Alien to Black Sea to Establish Permanent Naval Presence There",
+            "description": "Russia has no intention of letting anyone weaken its positions in the region in question, Patrushev said during an interview with a Russian newspaper, adding that permanent naval presence of non-Black Sea countries in the waters \u201cin violation of the Montreux \u2026",
+            "url": "https://sputnikglobe.com/20241111/russia-will-not-tolerate-powers-alien-to-black-sea-to-establish-permanent-naval-presence-there-1120856924.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120856924.jpg?10626834181731351361",
+            "publishedAt": "2024-11-11T18:56:00Z",
+            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241111/russia-will-not-tolerate-powers-alien-to-black-sea-to-establish-p\u2026 [+5167 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Barbara Krasnoff",
+            "title": "How to deactivate your X account",
+            "description": "There is a new wave of Twitter / X users that are looking to become ex-X users. If you\u2019re one of them, here\u2019s some advice on how to do it.",
+            "url": "https://www.theverge.com/24293448/x-twitter-musk-deactivate-how-to",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/R_nSPesHjwqdTS6ZdFVVF98Vmuw=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/23952457/HT027_twitter_0006.jpg",
+            "publishedAt": "2024-11-11T18:38:00Z",
+            "content": "How to deactivate your X account\r\nHow to deactivate your X account\r\n / If youve decided to abandon the ship that is Elon Musks X, heres how to do it.\r\nByBarbara Krasnoff, a reviews editor who manages\u2026 [+5451 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Search Engine Journal"
+            },
+            "author": "Roger Montti",
+            "title": "New Internet Rules Will Block AI Training Bots",
+            "description": "New rules will give publishers the ability to block all AI Training bots using currently available standards",
+            "url": "https://www.searchenginejournal.com/new-rules-will-block-ai-training-bots/532348/",
+            "urlToImage": "https://www.searchenginejournal.com/wp-content/uploads/2024/11/proposal-for-blocking-ai-tr-558.jpg",
+            "publishedAt": "2024-11-11T18:28:55Z",
+            "content": "New standards are being developed to extend the Robots Exclusion Protocol and Meta Robots tags, allowing them to block all AI crawlers from using publicly available web content for training purposes.\u2026 [+3917 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Blogger.com"
+            },
+            "author": "Randy Seaver",
+            "title": "Genealogy Pot-Pourri - Week Ending 10 November 2024",
+            "description": null,
+            "url": "https://www.blogger.com/comment/fullpage/post/26204193/4545642195934229255",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T18:26:00Z",
+            "content": "Here are the highlights of my family history and genealogy related activities over the past week (ending 3 November 2024).\u00a0\u00a01)\u00a0 Attended the Chula Vista Genealogical Society (CVGS) Board Meeting on W\u2026 [+5055 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Kris Holt",
+            "title": "The Google Pixel 8a drops to $399 ahead of Black Friday",
+            "description": "If you're looking for an excellent midrange smartphone for yourself or a loved one among all the early Black Friday deals, your search may be over. Google's Pixel 8a is on sale. It has dropped by $100 to $399. \nThat's not quite the lowest price we've seen for\u2026",
+            "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_e8b73dfb-ef40-4a05-853b-74c633c68b6c",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T18:08:27Z",
+            "content": "If you click 'Accept all', we and our partners, including 237 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use \u2026 [+678 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "UN General Assembly Adopts Russian Resolution on Combating Glorification of Nazism",
+            "description": "UNITED NATIONS (Sputnik) - The Third Committee of the UN General Assembly adopted a Russian-drafted resolution on combating the glorification of Nazism and neo-Nazism, a Sputnik correspondent reported on Monday.",
+            "url": "https://sputnikglobe.com/20241111/un-general-assembly-adopts-russian-resolution-on-combating-glorification-of-nazism-1120856784.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120856784.jpg?10769080061731348490",
+            "publishedAt": "2024-11-11T18:07:25Z",
+            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241111/un-general-assembly-adopts-russian-resolution-on-combating-glorif\u2026 [+2515 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T17:49:10Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Slashdot.org"
+            },
+            "author": "feedfeeder",
+            "title": "An Overwatch: Classic event will take fans all the way back to the beginning",
+            "description": "For the first time in over two years, Overwatch 2 players will be able to group up in teams of six. A three-week event featuring that format starts tomorrow, November 12. But there\u2019s a twist: you won\u2019t be able to select Kiriko or Sombra, or battle it out with\u2026",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=175451029",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T17:32:17Z",
+            "content": "For the first time in over two years, Overwatch 2 players will be able to group up in teams of six. A three-week event featuring that format starts tomorrow, November 12. But there\u2019s a twist: you won\u2026 [+3188 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "Global South Quantified: Russia-Africa Trade in Figures",
+            "description": "The Russia-Africa Partnership Forum\u2019s First Ministerial Conference has wrapped up in Russia's Sirius Federal Territory. The event was attended by a whopping 1,500 delegates, including 40 ministers from African nations.",
+            "url": "https://sputnikglobe.com/20241111/global-south-quantified-russia-africa-trade-in-figures--1120854568.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/img/07e8/0b/0b/1120856373_0:0:0:0_0x0_80_0_0_f9b636dafb2dd1f268b670cb4865be62.png.webp",
+            "publishedAt": "2024-11-11T17:28:21Z",
+            "content": "When a picture is worth a thousand words. See what's happening in the world from a more visual perspective with Sputnik's photo galleries, infographics and other multimedia content.\r\nhttps://sputnikg\u2026 [+1651 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T17:15:38Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Infosecurity Magazine"
+            },
+            "author": "Alessandro  Mascellino",
+            "title": "New Remcos RAT Variant Targets Windows Users Via Phishing",
+            "description": "The new Remcos RAT variant identified in a new phishing campaign exploits CVE-2017-0199 via malicious Excel files",
+            "url": "https://www.infosecurity-magazine.com/news/remcos-rat-variant-targets-windows/",
+            "urlToImage": "https://assets.infosecurity-magazine.com/webpage/og/bbf8a20a-b1da-4ce3-9f3f-b5dbe3f1ddba.jpg",
+            "publishedAt": "2024-11-11T17:15:00Z",
+            "content": "A new variant of theRemcos RAT malware, capable of taking complete control over a victim\u2019s device, has been uncovered in a recent phishing campaign targeting Windows users.\r\nDiscovered by Fortinet\u2019s \u2026 [+3288 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "W3.org"
+            },
+            "author": "W3C Webmaster via GitHub API",
+            "title": "Weekly github digest (HTML specs)",
+            "description": null,
+            "url": "https://lists.w3.org/Archives/Public/public-html/2024Nov/0001.html",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T17:00:17Z",
+            "content": "Issues\n------\n* w3c/html-aam (+2/-0/2)\n 2 issues created:\n - Account for title attribute and other aria-* description attributes (by scottaohara)\n https://github.com/w3c/html-aam/issues/569 \n - speci\u2026 [+5901 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Lawrence Bonk",
+            "title": "This Shin Megami Tensei board game features 72 intricate demon figurines",
+            "description": "The popular Shin Megami Tensei video game series is getting a physical board game\r\n. A Japanese company called Icrea is behind the effort and is launching a Kickstarter\r\n on November 12 to raise funds for the project.\nSHIN MEGAMI TENSEI THE BOARD GAME (the co\u2026",
+            "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_f38edd65-2f9a-4fb4-9114-1ffcb445f0a8",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T16:32:42Z",
+            "content": "If you click 'Accept all', we and our partners, including 237 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use \u2026 [+678 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MakeUseOf"
+            },
+            "author": "Gavin Phillips",
+            "title": "This Crafty Excel Phishing Campaign Is Spreading Dangerous Fileless Malware",
+            "description": "Excel users are the primary target for this remote access Trojan.",
+            "url": "https://www.makeuseof.com/new-excel-phishing-campaign-spreads-remcos-malware/",
+            "urlToImage": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2024/11/malware-detected-sign-with-microsoft-excel-logo.jpg",
+            "publishedAt": "2024-11-11T16:30:23Z",
+            "content": "Excel users need to watch out as a newly discovered phishing campaign is targeting Microsoft's spreadsheet application.\r\nThe campaign spreads a new fileless version of a dangerous remote access Troja\u2026 [+1981 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Ekaterina Blinova",
+            "title": "What Does Trump's Decision to Not Hire Pompeo Mean for Ukraine Lobbyists in DC?",
+            "description": "President-elect Donald Trump wrote on his Social Truth account on November 9 that he \"will not invite\u2026 former Secretary of State Mike Pompeo to join the Trump administration, which is currently in formation.\" Prior to the announcement the #NoPompeo hashtag wa\u2026",
+            "url": "https://sputnikglobe.com/20241111/what-does-trumps-decision-to-not-hire-pompeo-mean-for-ukraine-lobbyists-in-dc--1120855699.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120855699.jpg?10668247011731341442",
+            "publishedAt": "2024-11-11T16:10:43Z",
+            "content": "Sputnik brings you all the latest breaking stories, expert analysis and videos from North and South America.\r\nhttps://sputnikglobe.com/20241111/what-does-trumps-decision-to-not-hire-pompeo-mean-for-u\u2026 [+7487 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Debugbear.com"
+            },
+            "author": "Jakub Andrzejewski",
+            "title": "How To Optimize Performance In Vue Apps",
+            "description": "Vue is built with performance in mind, but sometimes you\u2019ll need to take some extra steps to optimize your website. This guide explains what techniques you can use to make your Vue App fast.",
+            "url": "https://www.debugbear.com/blog/optimize-vue-performance",
+            "urlToImage": "https://www.debugbear.com/dimg/5dbedc00009754d9960c9cc02ff2e05f.png",
+            "publishedAt": "2024-11-11T16:00:00Z",
+            "content": "Vue is built to handle most typical use cases efficiently without requiring a lot of manual tweaking. But sometimes, youll hit situations that need a bit more fine-tuning. In this article, well go ov\u2026 [+12526 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Packetstormsecurity.com"
+            },
+            "author": null,
+            "title": "Red Hat Security Advisory 2024-8974-03",
+            "description": "Red Hat Security Advisory 2024-8974-03 - Red Hat Advanced Cluster Management for Kubernetes 2.12.0 GA release images are now available, which contain security and bug fixes.",
+            "url": "https://packetstormsecurity.com/files/182556/RHSA-2024-8974-03.txt",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T15:43:12Z",
+            "content": "The following advisory data is extracted from:\r\nhttps://security.access.redhat.com/data/csaf/v2/advisories/2024/rhsa-2024_8974.json\r\nRed Hat officially shut down their mailing list notifications Octo\u2026 [+3474 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "PC Gamer"
+            },
+            "author": "Joshua Wolens",
+            "title": "Steam's latest update promises better betas, barely a bundle of broken save games",
+            "description": "Bsave bgames, sorry.",
+            "url": "https://www.pcgamer.com/software/platforms/steams-latest-update-promises-better-betas-barely-a-bundle-of-broken-save-games/",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/R9GbehcWG6p9SkNUvj3Z8P-1200-80.png",
+            "publishedAt": "2024-11-11T15:28:32Z",
+            "content": "Pop quiz, hotshot: How do you install a beta version of a game on Steam? That's right, you right-click the game you want to em-beta-fy, hit properties, go down to betas, potentially enter some kind o\u2026 [+2585 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T15:00:04Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T15:00:04Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Pypi.org"
+            },
+            "author": null,
+            "title": "groupdocs-conversion-net added to PyPI",
+            "description": "File converter for the most commonly used formats, including DOCX, PDF, CAD, and many more.",
+            "url": "https://pypi.org/project/groupdocs-conversion-net/",
+            "urlToImage": "https://pypi.org/static/images/twitter.abaf4b19.webp",
+            "publishedAt": "2024-11-11T14:59:24Z",
+            "content": "Product Page | Docs | Demos | API Reference | Blog | Search | Free Support | Temporary License\r\nGroupDocs.Conversion for Python via .NET is a document conversion API that lets you easily convert the \u2026 [+3721 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Antaranews.com"
+            },
+            "author": "PR Wire",
+            "title": "Xinhua Silk Road: International students share engineering study experience in China's Shanghai Jiao Tong University",
+            "description": "Shanghai Jiao Tong University (SJTU), as the host of the recently held 10th joint meeting of Sino-foreign cooperative education, showcased its achievements in ...",
+            "url": "https://en.antaranews.com/news/333785/xinhua-silk-road-international-students-share-engineering-study-experience-in-chinas-shanghai-jiao-tong-university",
+            "urlToImage": "https://cdn.antaranews.com/cache/1200x800/2024/11/11/ac-1.png",
+            "publishedAt": "2024-11-11T14:43:08Z",
+            "content": "Beijing (ANTARA/PRNewswire)- Shanghai Jiao Tong University (SJTU), as the host of the recently held 10th joint meeting of Sino-foreign cooperative education, showcased its achievements in internation\u2026 [+2078 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Sarah Fielding",
+            "title": "Apple now has replacement parts for the iPhone 16 series",
+            "description": "It's no secret that most technology nowadays isn't exactly built to last forever, with new product models regularly on sale on replace malfunctioning items. However, Apple, which famously announces new products each September, is taking new steps to let peopl\u2026",
+            "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_1b5af777-97dc-48b7-94c0-1a3718136189",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T14:30:00Z",
+            "content": "If you click 'Accept all', we and our partners, including 237 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use \u2026 [+678 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "Kurakhovo: Why Russia's Liberation of This City Spells Disaster for Ukraine?",
+            "description": "Russian forces in the Ukrainian conflict zone are moving toward scoring yet another victory over Kiev as they bear down upon the city of Kurakhovo in the Donetsk People\u2019s Republic.",
+            "url": "https://sputnikglobe.com/20241111/kurakhovo-why-russias-liberation-of-this-city-spells-disaster-for-ukraine-1120854862.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120854862.jpg?11208553161731334217",
+            "publishedAt": "2024-11-11T14:10:16Z",
+            "content": "Enjoy in-depth, acute analysis of the most pressing local, regional and global trends at Sputnik!\r\nhttps://sputnikglobe.com/20241111/kurakhovo-why-russias-liberation-of-this-city-spells-disaster-for-\u2026 [+4560 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Phys.Org"
+            },
+            "author": "Tomasz Nowakowski",
+            "title": "Quasi-periodic eruptions from eRO-QPE2 are remarkably stable, study finds",
+            "description": "An international team of astronomers has inspected long-term evolution of quasi-periodic eruptions (QPEs) from a QPE source designated eRO-QPE2. The study found that QPEs from this source are remarkably stable over the investigated period of over three and a \u2026",
+            "url": "https://phys.org/news/2024-11-quasi-periodic-eruptions-ero-qpe2.html",
+            "urlToImage": "https://scx2.b-cdn.net/gfx/news/hires/2024/quasi-periodic-eruptio.jpg",
+            "publishedAt": "2024-11-11T14:01:34Z",
+            "content": "An international team of astronomers has inspected long-term evolution of quasi-periodic eruptions (QPEs) from a QPE source designated eRO-QPE2. The study found that QPEs from this source are remarka\u2026 [+3520 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Wattsupwiththat.com"
+            },
+            "author": "Guest Blogger",
+            "title": "Weekly Climate and Energy News Roundup #619",
+            "description": "\u201cThe greatest obstacle to discovery is not ignorance \u2013 it is the illusion of knowledge.\u201d \u2014 Daniel J. Boorstin, (1914\u20132004), American historian, the 12th Librarian of the United States Congress\u2026",
+            "url": "https://wattsupwiththat.com/2024/11/11/weekly-climate-and-energy-news-roundup-619/",
+            "urlToImage": "https://i0.wp.com/wattsupwiththat.com/wp-content/uploads/2024/11/charlesrotter_grand_escalante_staircase_at_sunset_midjourney.webp?fit=1024%2C512&ssl=1",
+            "publishedAt": "2024-11-11T14:00:00Z",
+            "content": "Quote of the Week:The greatest obstacle to discovery is not ignorance it is the illusion of knowledge. \r\n Daniel J. Boorstin, (19142004), American historian, the 12th Librarian of the United States C\u2026 [+60452 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Oleg Burunov",
+            "title": "Plot to Thwart Trump? Starmer, Macron Race to Get Biden's OK for Missile Strikes Deep Into Russia",
+            "description": "Russia has consistently cautioned Western nations against supplying Ukraine with long-range weapons. President Vladimir Putin has stated that using such armaments to carry out strikes deep within Russian territory would represent \"a serious and dangerous step\u2026",
+            "url": "https://sputnikglobe.com/20241111/plot-to-thwart-trump-starmer-macron-race-to-get-bidens-ok-for-missile-strikes-deep-into-russia-1120853516.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120853516.jpg?11201602891731332919",
+            "publishedAt": "2024-11-11T13:48:38Z",
+            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241111/plot-to-thwart-trump-starmer-macron-race-to-get-bidens-ok-for-mis\u2026 [+2892 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "Lebanon's Economic Losses From War With Israel Exceed $5Bln - Prime Minister",
+            "description": "DOHA (Sputnik) - Lebanon's economic losses from the war with Israel exceeded $5 billion, Acting Lebanese Prime Minister Najib Mikati said on Monday.",
+            "url": "https://sputnikglobe.com/20241111/lebanons-economic-losses-from-war-with-israel-exceed-5bln---prime-minister-1120854746.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120854746.jpg?11205341261731332864",
+            "publishedAt": "2024-11-11T13:47:43Z",
+            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241111/lebanons-economic-losses-from-war-with-israel-exceed-5bln---prime\u2026 [+2852 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "Russia's MIR Payment System Connected to Iran's Shetab Payment System - Reports",
+            "description": "TEHRAN (Sputnik) - Russia's Mir payment system has been officially connected to Iran's Shetab payment system, and now Iranian citizens will be able to use their cards at Russian cash machines, Iranian news agency Tasnim reported on Monday.",
+            "url": "https://sputnikglobe.com/20241111/russias-mir-payment-system-connected-to-irans-shetab-payment-system---reports-1120854649.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120854649.jpg?11118973221731332652",
+            "publishedAt": "2024-11-11T13:44:11Z",
+            "content": "Get breaking stories and analysis on the global economy from Sputnik.\r\nhttps://sputnikglobe.com/20241111/russias-mir-payment-system-connected-to-irans-shetab-payment-system---reports-1120854649.html\r\u2026 [+1600 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Uxpin.com"
+            },
+            "author": "UXPin",
+            "title": "Carousel UI \u2013 What is a Carousel in Web Design?",
+            "description": "Designers use carousels to showcase multiple pieces of content in a compact, engaging way without overwhelming users. Carousels allow them to highlight key content\u2014such as promotions, product images, or featured stories\u2014while saving screen space. Read about c\u2026",
+            "url": "https://www.uxpin.com/studio/blog/carousel-ui/",
+            "urlToImage": "https://studio.uxpincdn.com/studio/wp-content/uploads/2024/10/AI-Tools-for-Designers.webp",
+            "publishedAt": "2024-11-11T13:26:19Z",
+            "content": "Designers use carousels to showcase multiple pieces of content in a compact, engaging way without overwhelming users. Carousels allow them to highlight key contentsuch as promotions, product images, \u2026 [+12197 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Jetbrains.com"
+            },
+            "author": "Ilnur Galimov",
+            "title": "Boosting Your Coding Projects With JetBrains AI Assistant: My Journey to Build a Flask Web App",
+            "description": "TL;DR: In this post, I walk through the process of enhancing a chatbot project from Hyperskill by adding a web interface with Flask, JavaScript, and HTML. I tried out JetBrains AI Assistant and documented how it helped me with common coding tasks like install\u2026",
+            "url": "https://blog.jetbrains.com/ai/2024/11/boosting-your-coding-projects-with-jetbrains-ai-assistant/",
+            "urlToImage": "https://blog.jetbrains.com/wp-content/uploads/2024/11/jbai-social_share_blog_1280x720_en.png",
+            "publishedAt": "2024-11-11T13:22:34Z",
+            "content": "JetBrains AITutorialsIn this post, I walk through the process of enhancing a chatbot project from Hyperskill by adding a web interface with Flask, JavaScript, and HTML. I tried out JetBrains AI Assis\u2026 [+6003 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Slashdot.org"
+            },
+            "author": "feedfeeder",
+            "title": "Sonos Arc Ultra review: New tech powers a big audio upgrade",
+            "description": "2024 has been a rough year for Sonos. The company\u2019s would-be triumphant entry into the crowded headphones market was overshadowed by a disastrous app redesign. In the fallout of the botched software update, the company decided to delay products that were read\u2026",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=175449709",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T13:13:57Z",
+            "content": "2024 has been a rough year for Sonos. The company\u2019s would-be triumphant entry into the crowded headphones market was overshadowed by a disastrous app redesign. In the fallout of the botched software \u2026 [+10743 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T13:00:15Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Billy Steele",
+            "title": "Sonos Arc Ultra review: New tech powers a big audio upgrade",
+            "description": "2024 has been a rough year for Sonos. The company\u2019s would-be triumphant entry into the crowded headphones market was overshadowed by a disastrous app redesign. In the fallout of the botched software update, the company decided to delay products that were read\u2026",
+            "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_b409706c-4494-48cf-9b54-24fd40c95e93",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T13:00:11Z",
+            "content": "If you click 'Accept all', we and our partners, including 237 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use \u2026 [+678 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Fark.com"
+            },
+            "author": null,
+            "title": "Day 992 of WW3: Russia and Ukraine both launch record drone attacks, as Kremlin says it saw \"positive signals\" from U.S. President-elect Donald Trump over his desire to strike a deal to end the conflict. It's your Monday Ukraine war propaganda thread [News]",
+            "description": "Day 992 of WW3: Russia and Ukraine both launch record drone attacks, as Kremlin says it saw \"positive signals\" from U.S. President-elect Donald Trump over his desire to strike a deal to end the conflict. It's your Monday Ukraine war propaganda thread",
+            "url": "https://www.fark.com/comments/13458814/Day-992-of-WW3-Russia-Ukraine-both-launch-record-drone-attacks-as-Kremlin-says-it-saw-positive-signals-from-US-President-elect-Donald-Trump-over-his-desire-to-strike-a-deal-to-end-conflict-Its-your-Monday-Ukraine-war-propaganda-thread",
+            "urlToImage": "https://usrimg-full.fark.net/U/UZ/fark_UZDLDg6-qOQUArzqSvCtzWyOtIw.jpg?AWSAccessKeyId=JO3ELGV4BGLFW7Y3EZXN&Expires=1731906000&Signature=GZH6ebXeU%2B%2FSzhbn4XSE%2FdwEbFo%3D",
+            "publishedAt": "2024-11-11T13:00:00Z",
+            "content": "Ukraine aid links\r\nA month and a half into the war (day 44), many of us felt helpless and listless at not being able to do more to help, so here is a list of things that we can do.\r\nThere are plenty \u2026 [+10280 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Gadgets360.com"
+            },
+            "author": "Radhika Parashar, Siddharth Suvarna",
+            "title": "Bitget Crypto Wallet and Foresight Ventures Invest $20 Million in Telegram Mini Apps",
+            "description": "Bitget Wallet and Foresight Ventures have collaborated to invest $20 million (roughly Rs. 168 crore) in Telegram, aiming to accelerate the growth of its Mini Apps initiative, as announced on Monday, November 11.",
+            "url": "https://www.gadgets360.com/cryptocurrency/news/bitget-foresight-ventures-usd-20-million-telegram-mini-apps-6994576",
+            "urlToImage": "https://i.gadgets360cdn.com/large/telegram_logo_unsplash_eyestetix_1638952969947.jpg",
+            "publishedAt": "2024-11-11T12:50:21Z",
+            "content": "Telegram's Mini Apps initiative has secured substantial funding to advance its integration of Web3 technologies into the messaging platform. Bitget Wallet and Foresight Ventures have committed $20 mi\u2026 [+2380 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "EU Has No Decision to Send Troops to Ukraine Under Any Capacity - Spokesman",
+            "description": "MOSCOW (Sputnik) - The European Union has no decision on the possible deployment of its troops in Ukraine under any capacity or any mandate, EU foreign policy spokesman Peter Stano said on Monday.",
+            "url": "https://sputnikglobe.com/20241111/eu-has-no-decision-to-send-troops-to-ukraine-under-any-capacity---spokesman-1120854310.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120854310.jpg?11074548801731328931",
+            "publishedAt": "2024-11-11T12:42:11Z",
+            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241111/eu-has-no-decision-to-send-troops-to-ukraine-under-any-capacity--\u2026 [+1562 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "Ukraine Loses Over 300 Soldiers in Kursk Region in Past Day",
+            "description": "MOSCOW (Sputnik) - The Ukrainian armed forces have lost over 300 soldiers and four tanks in the Kursk region over the past day, the Russian Defense Ministry said on Monday.",
+            "url": "https://sputnikglobe.com/20241111/ukraine-loses-over-300-soldiers-in-kursk-region-in-past-day-1120854026.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120854026.jpg?11197874981731328500",
+            "publishedAt": "2024-11-11T12:34:59Z",
+            "content": "Russia's Special Operation in Ukraine\r\nOn February 24, 2022 Russia launched a special military operation in Ukraine, aiming to liberate the Donbass region where the people's republics of Donetsk and \u2026 [+1851 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Slashdot.org"
+            },
+            "author": "feedfeeder",
+            "title": "The Morning After: Nintendo sues pirated software streamer for millions",
+            "description": "Nintendo has filed a lawsuit against a streamer called EveryGameGuru, accused of streaming gameplays of pirated games before they were even released \u2014 and of providing viewers access to piracy tools and illegal copies of the games.\nEveryGameGuru allegedly str\u2026",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=175449429",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T12:33:06Z",
+            "content": "Nintendo has filed a lawsuit against a streamer called EveryGameGuru, accused of streaming gameplays of pirated games before they were even released \u2014 and of providing viewers access to piracy tools \u2026 [+2560 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "Trump May Fight Pentagon\u2019s \u2018Woke\u2019 Generals After Taking Office",
+            "description": "Pentagon prepares for a reshuffle after President-elect Donald Trump enters the White House, as he stated to get rid of \"wokeness\" in the ranks of US Department of Defense officials.",
+            "url": "https://sputnikglobe.com/20241111/trump-may-fight-pentagons-woke-generals-after-taking-office----1120853665.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120853665.jpg?11170292561731328651",
+            "publishedAt": "2024-11-11T12:23:13Z",
+            "content": "Sputnik brings you all the latest breaking stories, expert analysis and videos from North and South America.\r\nhttps://sputnikglobe.com/20241111/trump-may-fight-pentagons-woke-generals-after-taking-of\u2026 [+4497 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T12:16:30Z",
+            "content": "[Removed]"
         },
         {
             "source": {
@@ -21,12 +658,12 @@
                 "name": "Stackoverflow.com"
             },
             "author": "Stack Overflow",
-            "title": "Django: Mailgun is stripping out a tags in my email",
-            "description": "I have this email template\nIf you have any questions or would like feedback on your profile, please do not hesitate to contact us. To make the changes, you can go here to view and manage your account.\r\n\n\nbut when I send the email like this\n@shared_task\ndef se\u2026",
-            "url": "https://stackoverflow.com/questions/79152048/django-mailgun-is-stripping-out-a-tags-in-my-email",
+            "title": "Django - Unable to convert a list of dictionary to a table",
+            "description": "I've a list of dictionary.\nmylist = [{'id': 1, 'name': 'abc'}, {'id': 2, 'name': 'xyz'}]\ni'm passing this mylist to an html page.\nreturn render(request, \"viewdb.html\", {'mylist':mylist})\nand in my viewdb.html, code is as given below.\n{% if mylist %}\n <table>\n\u2026",
+            "url": "https://stackoverflow.com/questions/79177125/django-unable-to-convert-a-list-of-dictionary-to-a-table",
             "urlToImage": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded",
-            "publishedAt": "2024-11-03T06:02:01Z",
-            "content": "I have this email template\r\n&lt;p&gt;If you have any questions or would like feedback on your profile, please do not hesitate to contact us. To make the changes, you can go &lt;a href=\"https://langua\u2026 [+1097 chars]"
+            "publishedAt": "2024-11-11T10:03:15Z",
+            "content": "I've a list of dictionary.\r\nmylist = [{'id': 1, 'name': 'abc'}, {'id': 2, 'name': 'xyz'}]\r\ni'm passing this mylist to an html page.\r\nreturn render(request, \"viewdb.html\", {'mylist':mylist})\r\nand in m\u2026 [+473 chars]"
         },
         {
             "source": {
@@ -34,51 +671,38 @@
                 "name": "Sputnikglobe.com"
             },
             "author": "Sputnik International",
-            "title": "IDF Says Eliminated Commander of Hezbollah Rockets Array",
-            "description": "MOSCOW (Sputnik) - The Israel Defense Forces (IDF) said on Saturday that it had eliminated the commwander of the Hezbollah Nasser unit's missiles and rockets array, Jaafar Khader Faour, by a precision strike on southern Lebanon.",
-            "url": "https://sputnikglobe.com/20241103/idf-says-eliminated-commander-of-hezbollah-rockets-array-1120760041.html",
-            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120760041.jpg?11179886611730613418",
-            "publishedAt": "2024-11-03T05:56:57Z",
-            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241103/idf-says-eliminated-commander-of-hezbollah-rockets-array-11207600\u2026 [+1764 chars]"
+            "title": "Russian Army Liberates Kolesnikovka Settlement in Kharkov Region",
+            "description": "The Russian Zapad group has liberated the settlement of Kolesnikovka in the Kharkov region, with Ukrainian Armed Forces losing up to 530 personnel in a day, the Russian Ministry of Defense reported.",
+            "url": "https://sputnikglobe.com/20241111/russian-army-liberates-kolesnikovka-settlement-in-kharkov-region-1120852328.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120852328.jpg?11206066971731318271",
+            "publishedAt": "2024-11-11T09:34:26Z",
+            "content": "Russia's Special Operation in Ukraine\r\nOn February 24, 2022 Russia launched a special military operation in Ukraine, aiming to liberate the Donbass region where the people's republics of Donetsk and \u2026 [+1795 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Github.com"
+                "name": "Hatenadiary.com"
             },
-            "author": "jemerick",
-            "title": "wrabit/django-cotton: Bringing component-based design to Django templates",
-            "description": "Enabling Modern UI Composition in Django. Contribute to wrabit/django-cotton development by creating an account on GitHub.",
-            "url": "https://github.com/wrabit/django-cotton",
-            "urlToImage": "https://opengraph.githubassets.com/d59549b8b3be1466082b9edaf786e553db50d9e52199dd2130f8923db07c9cac/wrabit/django-cotton",
-            "publishedAt": "2024-11-03T05:47:01Z",
-            "content": "Bringing component-based design to Django templates.\r\nWhy?InstallUsage BasicsYour First componentAttributesNamed SlotsPass Template VariablesTemplate expressions in attributesBoolean attributesPassin\u2026 [+13615 chars]"
+            "author": "itokoichi",
+            "title": "Wear OS\u3067\u30d0\u30c3\u30c6\u30ea\u30fc\u304c\u6700\u957790\u6642\u9593\uff0f45\u65e5\u9593\u6301\u3064\uff01\u3000\u6709\u6a5fEL\u3068FSTN\u6db2\u6676\u306e\u30bf\u30d5\u30cd\u30b9\u30b9\u30de\u30fc\u30c8\u30a6\u30a9\u30c3\u30c1\u300cMobvoi TicWatch Atlas\u300d\u3092\u8a66\u3059\uff1a\u30b9\u30de\u30fc\u30c8\u30a6\u30a9\u30c3\u30c1 \u30ca\u30d3\uff081/3 \u30da\u30fc\u30b8\uff09 - ITmedia PC USER",
+            "description": "https://www.itmedia.co.jp/pcuser/articles/2411/11/news082.html#smartnews_pcuser",
+            "url": "https://itokoichi.hatenadiary.com/entry/2024/11/11/181132",
+            "urlToImage": "https://ogimage.blog.st-hatena.com/98012380831456292/6802418398303176782/1731316292",
+            "publishedAt": "2024-11-11T09:11:32Z",
+            "content": "https://www.itmedia.co.jp/pcuser/articles/2411/11/news082.html#smartnews_pcuser"
         },
         {
             "source": {
                 "id": null,
-                "name": "Github.com"
+                "name": "Ozbargain.com.au"
             },
-            "author": "pineappleagogo",
-            "title": "browserbase/stagehand: An AI web browsing framework focused on simplicity and extensibility.",
-            "description": "An AI web browsing framework focused on simplicity and extensibility. - browserbase/stagehand",
-            "url": "https://github.com/browserbase/stagehand",
-            "urlToImage": "https://opengraph.githubassets.com/1ffcd1c63f83280ee35b0173d9b4b1ebfa6c3955b52826c4f4d38293ee2d4bb8/browserbase/stagehand",
-            "publishedAt": "2024-11-03T05:47:01Z",
-            "content": "An AI web browsing framework focused on simplicity and extensibility.\r\n[!NOTE] &gt; Stagehand is currently available as an early release, and we're actively seeking feedback from the community. Pleas\u2026 [+15884 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Sputnikglobe.com"
-            },
-            "author": "Sputnik International",
-            "title": "Harris, Trump Campaigns Raised Almost $1.4Bln in Total, Spent Over $1.2Bln",
-            "description": "WASHINGTON (Sputnik) - The campaign to elect Democrat Kamala Harris as US president has raised almost a billion dollars, while her Republican rival Donald Trump has raised just under $400 million, according to open data and calculations by US media based on s\u2026",
-            "url": "https://sputnikglobe.com/20241103/harris-trump-campaigns-raised-almost-14bln-in-total-spent-over-12bln-1120759904.html",
-            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120759904.jpg?11206888841730612543",
-            "publishedAt": "2024-11-03T05:42:22Z",
-            "content": "Sputnik brings you all the latest breaking stories, expert analysis and videos from North and South America.\r\nhttps://sputnikglobe.com/20241103/harris-trump-campaigns-raised-almost-14bln-in-total-spe\u2026 [+3785 chars]"
+            "author": "UncleRico",
+            "title": "Reolink 8ch 2TB NVR + 4x 8MP Cams $378.02 or 4x 5MP Cams $274.10 @ AliExpress",
+            "description": "As part of AliExpress 11.11 sales, the following NVR and camera packages can be had for ATL pricing, if you tick all the boxes. All the boxes includes using AliExpress code, a Reolink Direct code and a coins balance which you may or may not have. It does not \u2026",
+            "url": "https://www.ozbargain.com.au/node/876228",
+            "urlToImage": "https://files.ozbargain.com.au/n/28/876228x.jpg?h=df0675c8",
+            "publishedAt": "2024-11-11T09:08:26Z",
+            "content": "REOLINK1695AU1190REOLINK1694AU1165\r\nThis post contains affiliate links. OzBargain might earn commissions when you click through and make purchases. Please see this page for more information.\r\nAs part\u2026 [+3942 chars]"
         },
         {
             "source": {
@@ -86,103 +710,272 @@
                 "name": "Sputnikglobe.com"
             },
             "author": "Sputnik International",
-            "title": "\u2018No One Is Safe From Dollar Arbitrariness\u2019: BRICS Pushes Alternative Payment Systems \u2013 Lavrov",
-            "description": "MOSCOW (Sputnik) - BRICS countries have already drafted preliminary recommendations for alternative payment mechanisms that allow for developing safe and reliable systems, Russian Foreign Minister Sergey Lavrov said on Saturday.",
-            "url": "https://sputnikglobe.com/20241103/no-one-is-safe-from-dollar-arbitrariness-brics-pushes-alternative-payment-systems--lavrov-1120759209.html",
-            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120759209.jpg?11207562051730611040",
-            "publishedAt": "2024-11-03T05:17:20Z",
-            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241103/no-one-is-safe-from-dollar-arbitrariness-brics-pushes-alternative\u2026 [+8613 chars]"
+            "title": "Kremlin Shoots Down \u2018False\u2019 Reports About Alleged Putin-Trump Conversation",
+            "description": "MOSCOW (Sputnik) - There was no conversation between Russian President Vladimir Putin and US President-elect Donald Trump, and all reports about it are false, Kremlin spokesman Dmitry Peskov said on Monday.",
+            "url": "https://sputnikglobe.com/20241111/kremlin-says-putin-trump-held-no-conversation-reports-about-it-false-1120852157.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120852157.jpg?10820327311731316208",
+            "publishedAt": "2024-11-11T09:05:28Z",
+            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241111/kremlin-says-putin-trump-held-no-conversation-reports-about-it-fa\u2026 [+1211 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Sputnikglobe.com"
+                "name": "Prtimes.jp"
             },
-            "author": "Sputnik International",
-            "title": "US Bombers Arrive in Middle East - CENTCOM",
-            "description": "MOSCOW (Sputnik) - US bombers B-52 have arrived in the Middle East, the US Central Command (CENTCOM) said.",
-            "url": "https://sputnikglobe.com/20241103/us-bombers-arrive-in-middle-east---centcom-1120758945.html",
-            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120758945.jpg?11190690221730610505",
-            "publishedAt": "2024-11-03T05:08:02Z",
-            "content": "Get the latest defense news from around the world: breaking stories, photos, videos, in-depth analysis and much more...\r\nhttps://sputnikglobe.com/20241103/us-bombers-arrive-in-middle-east---centcom-1\u2026 [+3005 chars]"
+            "author": null,
+            "title": "\u3055\u3055\u3089\u5c4b 2024\u5e74\u51ac\u30ae\u30d5\u30c8\uff01\u3055\u3055\u3089\u5c4b\u516c\u5f0f\u30aa\u30f3\u30e9\u30a4\u30f3\u30b7\u30e7\u30c3\u30d7\u9650\u5b9a\u306711\u670817\u65e5\uff08\u65e5\uff09\u307e\u3067\u306f\u65e9\u5f97\u30dd\u30a4\u30f3\u30c810%\uff0b\u30dc\u30fc\u30ca\u30b9\u30dd\u30a4\u30f3\u30c8\u3092\u7279\u5225\u9032\u5448\u30ad\u30e3\u30f3\u30da\u30fc\u30f3 \u65e5\u306e\u51fa\u5c4b\u88fd\u83d3\u7523\u696d",
+            "description": "[\u65e5\u306e\u51fa\u5c4b\u88fd\u83d3\u7523\u696d\u682a\u5f0f\u4f1a\u793e]\n[\u753b\u50cf1: https://prcdn.freetls.fastly.net/release_image/75649/178/75649-178-8ce66a4bfd393c2e5c48f27a77eb7ddd-1100x700.jpg?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&a...",
+            "url": "https://prtimes.jp/main/html/rd/p/000000178.000075649.html",
+            "urlToImage": "https://prcdn.freetls.fastly.net/release_image/75649/178/75649-178-8ce66a4bfd393c2e5c48f27a77eb7ddd-1100x700.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+            "publishedAt": "2024-11-11T08:40:02Z",
+            "content": "20242100( )1018\r\n890\r\n20241018113010%\r\n20241117\r\n 2024\r\nhttps://www.sasaraya-kakibei.com/html/page23.html\r\n2024 \r\nOK1,650()110,80010\r\n3\r\n(1)35(2)\r\n(3)100%13100%\r\n2024\r\n1.3,672 \r\n28\r\n2.906,264 \r\n90\r\n3\u2026 [+254 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Globalsecurity.org"
+                "name": "Idratherbewriting.com"
             },
-            "author": "John Pike",
-            "title": "U.S. Slams Prison Sentence Against Ex-Consulate Worker In Vladivostok",
-            "description": "The United States has blasted a decision by Russian authorities to sentence a former employee of the U.S. Consulate in Vladivostok to a lengthy prison term on charges Washington has called baseless.",
-            "url": "https://www.globalsecurity.org/wmd/library/news/russia/2024/11/russia-241102-rferl01.htm",
+            "author": "<a href='/aboutme/'>Tom Johnson</a>",
+            "title": "Unpacking the issues from AI \u2014 thoughts on Alan Porter's post Am I the AI Luddite? and Fabrizio Benedetti's How I'm using AI as a technical writer",
+            "description": "As Lavacon wrapped up last week, I've seen a few posts from attendees sharing their thoughts, including Alan Porter's Am I the AI Luddite? and Fabrizio Benedetti's How I'm using AI as a technical writer. Alan's post echoed some other sentiments I've heard fro\u2026",
+            "url": "https://idratherbewriting.com/blog/unpacking-issues-from-ai-porter-benedetti-posts",
             "urlToImage": null,
-            "publishedAt": "2024-11-03T04:58:03Z",
-            "content": "By RFE/RL's Siberia.Realities November 02, 2024\r\nThe United States has blasted a decision by Russian authorities to sentence a former employee of the U.S. Consulate in Vladivostok to a lengthy prison\u2026 [+2853 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Sputnikglobe.com"
-            },
-            "author": "Sputnik International",
-            "title": "Russia Sees Benin's Interest in Cooperation on Army Modernization - Ambassador",
-            "description": "MOSCOW (Sputnik) - Russia sees Cotonou's interest in cooperation with Moscow on modernizing the Beninese armed forces, Russian Ambassador to Benin and Togo Igor Evdokimov said in an interview with Sputnik.",
-            "url": "https://sputnikglobe.com/20241103/russia-sees-benins-interest-in-cooperation-on-army-modernization---ambassador-1120758251.html",
-            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120758251.jpg?11207569331730609591",
-            "publishedAt": "2024-11-03T04:53:11Z",
-            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241103/russia-sees-benins-interest-in-cooperation-on-army-modernization-\u2026 [+4975 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Globalsecurity.org"
-            },
-            "author": "John Pike",
-            "title": "White House Says New Ukraine Aid On The Way, As Kyiv Braces For Fresh Attack",
-            "description": "The Pentagon announced a $425 million package of fresh security assistance to Ukraine under the presidential \"drawdown authority,\" its 69th tranche of defense equipment since late 2021.",
-            "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2024/11/ukraine-241102-rferl01.htm",
-            "urlToImage": null,
-            "publishedAt": "2024-11-03T04:29:51Z",
-            "content": "By RFE/RL's Ukrainian Service and Current Time November 02, 2024\r\nThe Pentagon announced a $425 million package of fresh security assistance to Ukraine under the presidential \"drawdown authority,\" it\u2026 [+3974 chars]"
+            "publishedAt": "2024-11-11T08:00:00Z",
+            "content": "by Tom Johnson on Nov 11, 2024 \r\n categories: \r\nai \u2022 \r\nwriting\r\nScenarios where AI is useful\r\nI admit that for writing blog posts, AI isnt that helpful. In my post My experience trying to write origi\u2026 [+12020 chars]"
         },
         {
             "source": {
                 "id": null,
                 "name": "Livedoor.jp"
             },
-            "author": "nanjstu",
-            "title": "\u3010\u60b2\u5831\u3011\u8d64\u7a42\u5e02\u6c11\u75c5\u9662\u3001\u6b62\u307e\u3089\u306a\u3044\u60a3\u8005\u6e1b\u30677\u51045460\u4e07\u5186\u306e\u8d64\u5b57",
-            "description": "\u8ee2\u8f09\u5143: https://nova.5ch.net/test/read.cgi/livegalileo/1730603871/\u3059\u3082\u3046\u3061 - \u6295\u7a3f\u8005\u81ea\u8eab\u306b\u3088\u308b\u8457\u4f5c\u7269, CC \u8868\u793a 3.0, https://commons.wikimedia.org/w/index.php?curid=128520112\u306b\u3088\u308b1: \u305d\u308c\u3067\u3082\u52d5\u304f\u540d\u7121\u3057 \u8b66\u5099\u54e1[Lv.4][\u65b0\u82bd] 2024/11/03(\u65e5) 12:17:51.06 ID:nakKJH...",
-            "url": "http://blog.livedoor.jp/nanjstu/archives/61918340.html",
-            "urlToImage": "https://livedoor.blogimg.jp/nanjstu/imgs/c/4/c4775d34-s.jpg",
-            "publishedAt": "2024-11-03T03:34:15Z",
-            "content": ": https://nova.5ch.net/test/read.cgi/livegalileo/1730603871/\r\n- , CC 3.0, https://commons.wikimedia.org/w/index.php?curid=1285201121: [Lv.4][] 2024/11/03() 12:17:51.06 ID:nakKJHF50\r\nhttps://www.ako-m\u2026 [+886 chars]"
+            "author": "itsoku",
+            "title": "\u3010\u60b2\u5831\u3011\u5143\u30bd\u30cb\u30fc\u306eVAIO\u3001\u30ce\u30b8\u30de\u306b\u8cb7\u53ce\u3055\u308c\u3066\u3057\u307e\u3046",
+            "description": "1:\u305d\u308c\u3067\u3082\u52d5\u304f\u540d\u7121\u3057 \u8b66\u5099\u54e1[Lv.31]  2024/11/11(\u6708) 14:14:05.34 ID:r+Y8vnJV01111  https://pc.watch.impress.co.jp/docs/news/1638347.html",
+            "url": "http://blog.livedoor.jp/itsoku/archives/61937198.html",
+            "urlToImage": "https://livedoor.blogimg.jp/itsoku/imgs/9/d/9d9ffc8e-s.png",
+            "publishedAt": "2024-11-11T07:40:28Z",
+            "content": "1: [Lv.31] 2024/11/11() 14:14:05.34 ID:r+Y8vnJV01111\r\nhttps://pc.watch.impress.co.jp/docs/news/1638347.html\r\n2: [Lv.8] 2024/11/11() 14:15:11.89 ID:LcJ3PQPE01111\r\n6: [Lv.8] 2024/11/11() 14:17:24.26 ID\u2026 [+1312 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "Putin Congratulates Sputnik On Its 10th Anniversary",
+            "description": "Russian President Vladimir Putin congratulated the staff of the international news agency and radio Sputnik on their 10th anniversary, wishing them creative success, according to a statement published on the Kremlin's website.",
+            "url": "https://sputnikglobe.com/20241111/putin-congratulates-sputnik-on-its10th-anniversary-1120851636.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120851636.jpg?11205150001731310977",
+            "publishedAt": "2024-11-11T07:23:23Z",
+            "content": "The latest news and stories from Russia. Stay tuned for updates and breaking news on defense, politics, economy and more.\r\nhttps://sputnikglobe.com/20241111/putin-congratulates-sputnik-on-its10th-ann\u2026 [+2248 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Redhat.com"
+            },
+            "author": "Alessandro Rossi",
+            "title": "Build and deploy image mode for RHEL on OpenShift Virtualization",
+            "description": "Image mode for Red Hat Enterprise Linux (RHEL), introduced as a tech preview in RHEL 9.4, offers a streamlined way to build, deploy, and maintain your operating system using container images. In this article, we will explore how to create and deploy a RHEL im\u2026",
+            "url": "https://developers.redhat.com/articles/2024/11/11/deploy-image-mode-rhel-openshift-virtualization",
+            "urlToImage": "https://developers.redhat.com/themes/custom/rhdp_fe/images/metatags/metatag-image-articles.png",
+            "publishedAt": "2024-11-11T07:00:00Z",
+            "content": "Skip to main content\r\n Image mode for Red Hat Enterprise Linux (RHEL), introduced as a tech preview in RHEL 9.4, offers a streamlined way to build, deploy, and maintain your operating system using co\u2026 [+6323 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "US Eyes Holding Presidential, Parliamentary Elections in Ukraine in 2025 - Russian Intel",
+            "description": "MOSCOW (Sputnik) - Washington is considering holding presidential and parliamentary elections in Ukraine in 2025 amid ongoing hostilities with Russia, the Russian Foreign Intelligence Service (SVR) said on Monday.",
+            "url": "https://sputnikglobe.com/20241111/us-eyes-holding-presidential-parliamentary-elections-in-ukraine-in-2025---russian-intel-1120850759.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120850759.jpg?11200521011731308779",
+            "publishedAt": "2024-11-11T06:50:32Z",
+            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241111/us-eyes-holding-presidential-parliamentary-elections-in-ukraine-i\u2026 [+3069 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Internet"
+            },
+            "author": "info@thehackernews.com (The Hacker News)",
+            "title": "Cybercriminals Use Excel Exploit to Spread Fileless Remcos RAT Malware",
+            "description": "Cybersecurity researchers have discovered a new phishing campaign that spreads a new fileless variant of known commercial malware called Remcos RAT.\nRemcos RAT \"provides purchases with a wide range of advanced features to remotely control computers belonging \u2026",
+            "url": "https://thehackernews.com/2024/11/cybercriminals-use-excel-exploit-to.html",
+            "urlToImage": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhB-LmKmdWQoeXsp9eBSeOTGn2XK9SW73doSapr3yimW6DThKD4RTEpOfN4Nb_b9ZcBjg2VbOEQAOqfmSsUaTE17uriywFCx6gzwoFbW6DnT6z6S2upn1bUPeXst048iR7WHstQ0NJt8ISLqBDC4_z7tajM5vIATxh20y0WRCRBEjTLnGbsAb204G7adhnC/s728-rw-e365/malware.png",
+            "publishedAt": "2024-11-11T06:13:00Z",
+            "content": "Cybersecurity researchers have discovered a new phishing campaign that spreads a new fileless variant of known commercial malware called Remcos RAT.\r\nRemcos RAT \"provides purchases with a wide range \u2026 [+4348 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Metafilter.com"
+            },
+            "author": "lipsum",
+            "title": "ICS-in-CSS",
+            "description": "International Code of Signals Flags in the Browser \u2013 is an HTML/CSS implementation for the flags of The International Code of Signals (ICS), a system of signals and codes designed to communicate important safety and navigational messages when speaking is diff\u2026",
+            "url": "https://projects.metafilter.com/6322/ICS-in-CSS",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T05:53:50Z",
+            "content": "\u00a9 1999\u20132024 MetaFilter LLC\r\nAll posts copyright their original authors.\r\nClassic Theme."
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Github.com"
+            },
+            "author": "FTS",
+            "title": "ironcalc/IronCalc: Main engine of the IronCalc ecosystem",
+            "description": "Main engine of the IronCalc ecosystem. Contribute to ironcalc/IronCalc development by creating an account on GitHub.",
+            "url": "https://github.com/ironcalc/IronCalc",
+            "urlToImage": "https://opengraph.githubassets.com/8889d9b3de2dac8ce979caa1d8739ea12d777ed0218e5e237481b2b973eee939/ironcalc/IronCalc",
+            "publishedAt": "2024-11-11T05:47:02Z",
+            "content": "IronCalc is a new, modern, work-in-progress spreadsheet engine and set of tools to work with spreadsheets in diverse settings.\r\nThis repository contains the main engine and the xlsx reader and writer\u2026 [+2771 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "Scholz, Trump Had Phone Conversation, Agreed to Work Together",
+            "description": "MOSCOW (Sputnik) - German Chancellor Olaf Scholz and Donald Trump, who won the US presidential election, held phone talks on Sunday and agreed to work together to \"return peace\" to Europe, Western media reported citing a German government spokesperson.",
+            "url": "https://sputnikglobe.com/20241111/scholz-trump-had-phone-conversation-on-sunday-agreed-to-work-together-1120848004.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120848004.jpg?10929233341731300938",
+            "publishedAt": "2024-11-11T04:52:05Z",
+            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241111/scholz-trump-had-phone-conversation-on-sunday-agreed-to-work-toge\u2026 [+3326 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Pypi.org"
+            },
+            "author": "ryan@julyan.biz",
+            "title": "plugo 0.0.1",
+            "description": "Is a simple plugin manager that will dynamically load plugins from a directory given a config or env variable with dynamic kwargs to pass for plugin loading.",
+            "url": "https://pypi.org/project/plugo/",
+            "urlToImage": "https://pypi.org/static/images/twitter.abaf4b19.webp",
+            "publishedAt": "2024-11-11T04:48:57Z",
+            "content": "Is a simple plugin manager that will dynamically load plugins from a directory given a config or env variable with dynamic kwargs to pass for plugin loading. Example uses Flask\r\nQuickstart\r\nInstall\r\n\u2026 [+4906 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "Trump Offers Congresswoman Stefanik to Become US Ambassador to UN",
+            "description": "MOSCOW (Sputnik) - Donald Trump, who won the US presidential election, has offered Rep. Elise Stefanik from New York the post of US Ambassador to the UN, CNN reported citing a source.",
+            "url": "https://sputnikglobe.com/20241111/trump-offers-congresswoman-stefanik-to-become-us-ambassador-to-un---reports-1120847884.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120847884.jpg?10828902221731301128",
+            "publishedAt": "2024-11-11T04:47:24Z",
+            "content": "Sputnik brings you all the latest breaking stories, expert analysis and videos from North and South America.\r\nhttps://sputnikglobe.com/20241111/trump-offers-congresswoman-stefanik-to-become-us-ambass\u2026 [+2935 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Phpclasses.org"
+            },
+            "author": "Arash Soleimani",
+            "title": "Parsedown Plus",
+            "description": "Package:\r\n\nParsedown Plus\r\n\nSummary: \r\n\nAdd support for custom tags to Markdown documents\r\n\nGroups: \r\n\nDocuments, Parsers, PHP 7\r\n\nAuthor: \r\n\nArash Soleimani\r\n\nDescription: \r\n\nThis package can add support for custom tags to Markdown documents...\n\nRead more at\u2026",
+            "url": "https://www.phpclasses.org/package/13390-PHP-Add-support-for-custom-tags-to-Markdown-documents.html",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T04:31:55Z",
+            "content": "ParsedownPlus is an extension of Parsedown that adds support for custom tags such as colored text, forced RTL/LTR direction, monospace fonts, and video embedding for YouTube and Vimeo. These custom t\u2026 [+2856 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sputnikglobe.com"
+            },
+            "author": "Sputnik International",
+            "title": "Vucic Says Had 'Cordial' Conversation With Trump, Invites Him to Serbia",
+            "description": "BELGRADE (Sputnik) - Serbian President Aleksandar Vucic said he had had a \"cordial\" phone conversation with US President-elect Donald Trump about developing comprehensive cooperation, and invited him to visit Serbia.",
+            "url": "https://sputnikglobe.com/20241111/vucic-says-had-cordial-conversation-with-trump-invites-him-to-serbia-1120847228.html",
+            "urlToImage": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1120847228.jpg?10979851011731298931",
+            "publishedAt": "2024-11-11T04:22:11Z",
+            "content": "Get the latest news from around the world, live coverage, off-beat stories, features and analysis.\r\nhttps://sputnikglobe.com/20241111/vucic-says-had-cordial-conversation-with-trump-invites-him-to-ser\u2026 [+3153 chars]"
         },
         {
             "source": {
                 "id": null,
                 "name": "Slickdeals.net"
+            },
+            "author": "CoralGoat4438",
+            "title": "Seiko 5 Blue Automatic Blue Dial Men's Watch SNKK27 $67.98+ $5.99 Shipped",
+            "description": "Lowest I've seen on this Seiko 5 Blue Automatic Blue Dial Men's Watch Item No. SNKK27. \n \nStainless steel case with a stainless steel bracelet. Fixed smooth stainless steel bezel. Blue dial with...",
+            "url": "https://slickdeals.net/f/17878149-seiko-5-blue-automatic-blue-dial-men-s-watch-snkk27-67-98-5-99-shipped?utm_source=rss&utm_content=ht&utm_medium=RSS2",
+            "urlToImage": "https://static.slickdealscdn.com/images/sd_share_logo.png?9261",
+            "publishedAt": "2024-11-11T04:19:50Z",
+            "content": "Lowest I've seen on this Seiko 5 Blue Automatic Blue Dial Men's Watch Item No. SNKK27.Stainless steel case with a stainless steel bracelet. Fixed smooth stainless steel bezel. Blue dial with luminous\u2026 [+834 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "SitePoint"
+            },
+            "author": "SitePoint Sponsors",
+            "title": "Tips for Freelancers Looking to Maximize Passive Income Streams",
+            "description": "Read Tips for Freelancers Looking to Maximize Passive Income Streams and learn with SitePoint. Our web development and design tutorials, courses, and books will teach you HTML, CSS, JavaScript, PHP, Python, and more.\n \n Continue reading\n Tips for Freelancers \u2026",
+            "url": "https://www.sitepoint.com/tips-for-freelancers-passive-income-streams/",
+            "urlToImage": "https://uploads.sitepoint.com/wp-content/uploads/2024/11/1731360282Tips-for-Freelancers-Looking-to-Maximize-Passive-Income-Streams-3.jpg",
+            "publishedAt": "2024-11-11T03:01:11Z",
+            "content": "Starting as a freelancer is an exciting journey, but its important to be aware that many businesses face challenges along the way.\u00a0\r\nWhile its true that many startups fail, with as many as 3,200 star\u2026 [+5730 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "C-sharpcorner.com"
+            },
+            "author": "Jalpa Dhola",
+            "title": "How to Create Field Customizer Extension",
+            "description": "Extensions are client-side components that run inside the context of a SharePoint page. Extensions can be deployed to SharePoint Online, and you can use modern JavaScript tools and libraries to build them.",
+            "url": "https://www.c-sharpcorner.com/article/how-to-create-field-customizer-extension/",
+            "urlToImage": "https://www.c-sharpcorner.com/images/csharp-corner.png",
+            "publishedAt": "2024-11-11T00:00:00Z",
+            "content": "This article walks you through creating a Field Customizer extension for SharePoint using the SharePoint Framework (SPFx). The extension will format a numeric field in a SharePoint list to highlight \u2026 [+4096 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Snopes.com"
+            },
+            "author": "Taija PerryCook",
+            "title": "'Tray Catch' Scene in 'Spider-Man' Was Done Without Special Effects?",
+            "description": "Tobey Maguire did the \"tray catch\" scene in \"Spider-Man\" (2002) without any special effects.",
+            "url": "https://www.snopes.com//fact-check/spider-man-tray-catch/",
+            "urlToImage": "https://mediaproxy.snopes.com/width/1200/https://media.snopes.com/2024/11/spider-man_vfx.jpg",
+            "publishedAt": "2024-11-11T00:00:00Z",
+            "content": "Dressler, Jacob. 'Tobey Maguire Did 156 Takes On One \"Spider-Man\" Scene'.\u00a0ScreenGeek, 16 Jan. 2022, https://www.screengeek.net/2022/01/16/tobey-maguire-spider-man-scene-156-takes/.\r\nHooton, Christoph\u2026 [+1296 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Daemonology.net"
             },
             "author": null,
-            "title": "Original Leatherman Classic Multi-tools (20% off) (6 replies)",
-            "description": "Sidekick $55.96 https://www.leatherman.com/sidekick-9.html\nWingman $55.96 https://www.leatherman.com/wingman-11.html\nSkeletool $59.96 https://www.leatherman.com/skeletool-18.html\nRebar $63.96 https://",
-            "url": "https://slickdeals.net/f/17861175-original-leatherman-classic-multi-tools-20-off",
-            "urlToImage": "https://static.slickdealscdn.com/images/sd_share_logo.png?9261",
-            "publishedAt": "2024-11-03T01:28:49Z",
-            "content": "This collaborative space allows users to contribute additional information, tips, and insights to enhance the original deal post. Feel free to share your knowledge and help fellow shoppers make infor\u2026 [+26 chars]"
+            "title": "Daily Hacker News for 2024-11-10",
+            "description": "The 10 highest-rated articles on\nHacker News\non November 10, 2024 which have not appeared on any previous\nHacker News Daily\nare:\n<ul>\n<li>\nTicketmaster\u2019s attempt to game arbitration services fails\n(comments)\n</li>\n<li>\nShow HN: HTML-to-Markdown \u2013 convert enti\u2026",
+            "url": "https://www.daemonology.net/hn-daily/2024-11-10.html",
+            "urlToImage": null,
+            "publishedAt": "2024-11-11T00:00:00Z",
+            "content": "The 10 highest-rated articles on\r\nHacker News\r\non November 10, 2024 which have not appeared on any previous\r\nHacker News Daily\r\nare:"
         },
         {
             "source": {
                 "id": null,
-                "name": "Slickdeals.net"
+                "name": "Sethmlarson.dev"
             },
-            "author": "runrgunr",
-            "title": "Original Leatherman Classic Multi-tools (20% off)",
-            "description": "Sidekick $55.96 https://www.leatherman.com/sidekick-9.html\nWingman $55.96 https://www.leatherman.com/wingman-11.html\nSkeletool $59.96 https://www.leatherman.com/skeletool-18.html\nRebar $63.96 https://",
-            "url": "https://slickdeals.net/f/17861175-original-leatherman-classic-multi-tools-20-off?utm_source=rss&utm_content=ht&utm_medium=RSS2",
-            "urlToImage": "https://static.slickdealscdn.com/images/sd_share_logo.png?9261",
-            "publishedAt": "2024-11-03T01:28:49Z",
-            "content": "FYI - If you buy from leatherman.com as an Insider, your warranty gets extended to 40 years instead of 25. They also have a copy of your purchase history for easy access, and if you nerd out on multi\u2026 [+1422 chars]"
+            "author": "Seth Michael Larson",
+            "title": "Seth Michael Larson: Writing a blog on the internet",
+            "description": "Today is the 5-year anniversary of my first blog post in 2019.\nSince that time I've written nearly 100 articles for my blog,\nsomething that I am quite proud of!\nWriting has had a huge positive impa...",
+            "url": "https://sethmlarson.dev/writing-for-the-internet?utm_campaign=rss",
+            "urlToImage": "https://github.com/sethmlarson.png",
+            "publishedAt": "2024-11-11T00:00:00Z",
+            "content": "Today is the 5-year anniversary of my first blog post in 2019.\r\nSince that time I've written nearly 100 articles for my blog,\r\nsomething that I am quite proud of!\r\nWriting has had a huge positive imp\u2026 [+6746 chars]"
         }
     ]
 }
