@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2b6b28b-633d-488b-a11e-85b21f893e04" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +43,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lisakalex&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lisakalex/amkamdam.git&quot;,
+    &quot;accountId&quot;: &quot;ed8fadd3-5c3e-4ade-97f8-422c7424195e&quot;
+  }
+}</component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2bqWV3V8a8eEMB55n3QAa0C2G7X" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,24 +67,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/a" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/var/www/amkamdam",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.19880418",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/old-chromedriver" />
@@ -79,6 +101,7 @@
   <component name="RunManager" selected="Python.editallfiles">
     <configuration name="editallfiles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="amkamdam.com" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -101,6 +124,7 @@
     </configuration>
     <configuration name="tor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="amkamdam.com" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -128,6 +152,15 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="StructureViewFactory">
     <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
   </component>
@@ -168,6 +201,8 @@
       <workItem from="1722492551465" duration="156000" />
       <workItem from="1723235805310" duration="1678000" />
       <workItem from="1729837397539" duration="835000" />
+      <workItem from="1739218504948" duration="1800000" />
+      <workItem from="1740636912056" duration="3288000" />
     </task>
     <task id="LOCAL-00001" summary="ku">
       <created>1706943512106</created>
@@ -201,7 +236,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -213,7 +248,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -222,40 +256,6 @@
     <MESSAGE value="rename me-index.html to me-index.xhtml so it doesn't get edited by editallfiles.py" />
     <MESSAGE value="huy" />
     <option name="LAST_COMMIT_MESSAGE" value="huy" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="710" y="318" width="1200" height="1009" key="#Deployment" timestamp="1717736825652">
-      <screen x="70" y="38" width="2490" height="1562" />
-    </state>
-    <state x="710" y="318" width="1200" height="1009" key="#Deployment/70.38.2490.1562@70.38.2490.1562" timestamp="1717736825652" />
-    <state x="681" y="301" width="1248" height="1050" key="#SSH_Configurations" timestamp="1717736449303">
-      <screen x="70" y="38" width="2490" height="1562" />
-    </state>
-    <state x="681" y="301" width="1248" height="1050" key="#SSH_Configurations/70.38.2490.1562@70.38.2490.1562" timestamp="1717736449303" />
-    <state x="819" y="468" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1723235974271">
-      <screen x="70" y="38" width="2490" height="1562" />
-    </state>
-    <state x="819" y="468" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.38.2490.1562@70.38.2490.1562" timestamp="1723235974271" />
-    <state width="2422" height="411" key="GridCell.Tab.0.bottom" timestamp="1718113401784">
-      <screen x="70" y="38" width="2490" height="1562" />
-    </state>
-    <state width="2422" height="411" key="GridCell.Tab.0.bottom/70.38.2490.1562@70.38.2490.1562" timestamp="1718113401784" />
-    <state width="2422" height="411" key="GridCell.Tab.0.center" timestamp="1718113401783">
-      <screen x="70" y="38" width="2490" height="1562" />
-    </state>
-    <state width="2422" height="411" key="GridCell.Tab.0.center/70.38.2490.1562@70.38.2490.1562" timestamp="1718113401783" />
-    <state width="2422" height="411" key="GridCell.Tab.0.left" timestamp="1718113401782">
-      <screen x="70" y="38" width="2490" height="1562" />
-    </state>
-    <state width="2422" height="411" key="GridCell.Tab.0.left/70.38.2490.1562@70.38.2490.1562" timestamp="1718113401782" />
-    <state width="2422" height="411" key="GridCell.Tab.0.right" timestamp="1718113401783">
-      <screen x="70" y="38" width="2490" height="1562" />
-    </state>
-    <state width="2422" height="411" key="GridCell.Tab.0.right/70.38.2490.1562@70.38.2490.1562" timestamp="1718113401783" />
-    <state x="542" y="192" width="1536" height="1261" key="SettingsEditor" timestamp="1717998771732">
-      <screen x="70" y="38" width="2490" height="1562" />
-    </state>
-    <state x="542" y="192" width="1536" height="1261" key="SettingsEditor/70.38.2490.1562@70.38.2490.1562" timestamp="1717998771732" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/amkamdam_com$editallfiles.coverage" NAME="editallfiles Coverage Results" MODIFIED="1718003104809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

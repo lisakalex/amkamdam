@@ -2,7 +2,9 @@
 <project version="4">
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="OPEN_SSH" host="212.227.199.128" id="6a6717e1-6974-45d9-8676-69babd9dc1da" port="22" customName="amkamdam" nameFormat="CUSTOM" username="al" />
+      <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="212.227.199.128" id="6a6717e1-6974-45d9-8676-69babd9dc1da" port="22" customName="amkamdam" nameFormat="CUSTOM" username="al">
+        <option name="customName" value="amkamdam" />
+      </sshConfig>
     </configs>
   </component>
 </project>
